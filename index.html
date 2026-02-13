@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="iAgentBench — TBD" />
+    <meta name="description" content="iAgentBench — Dynamic Benchmarking for Information Seeking Agents" />
     <meta name="theme-color" content="#0b1220" />
 
     <title>iAgentBench</title>
@@ -35,9 +35,8 @@
 
           <div class="nav-links" id="nav-links">
             <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#links">Paper / Code / Data</a>
+            <a class="nav-link" href="#links">Links</a>
             <a class="nav-link" href="#benchmark">Benchmark</a>
-            <a class="nav-link" href="#leaderboard">Leaderboard</a>
             <a class="nav-link" href="#citation">Citation</a>
             <a class="nav-link" href="#contact">Contact</a>
           </div>
@@ -49,31 +48,30 @@
       <section class="hero">
         <div class="container hero-inner">
           <div class="hero-copy">
-            <p class="kicker">TBD</p>
+            <p class="kicker">Dynamic Benchmarking for Information Seeking Agents</p>
             <h1>iAgentBench</h1>
             <p class="lead">
-              TBD: One-sentence description of what iAgentBench is, what it evaluates, and why it matters.
+              A Python repository for benchmarking Information Seeking Agents (ISA) with integrated indexing, evaluation, and output management.
             </p>
 
             <div class="cta-row">
               <a class="btn btn-primary is-disabled" href="#" aria-disabled="true">Paper (TBD)</a>
-              <a class="btn btn-secondary is-disabled" href="#" aria-disabled="true">GitHub (TBD)</a>
-              <a class="btn btn-ghost is-disabled" href="#" aria-disabled="true">Dataset (TBD)</a>
-              <a class="btn btn-ghost is-disabled" href="#" aria-disabled="true">Demo (TBD)</a>
+              <a class="btn btn-secondary" href="https://github.com/iagentbench/iAB" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-ghost" href="https://huggingface.co/datasets/preetam7/iAgentBench" target="_blank" rel="noopener noreferrer">Dataset</a>
             </div>
 
             <div class="meta-row" aria-label="Quick facts">
               <div class="meta">
                 <div class="meta-label">Task</div>
-                <div class="meta-value">TBD</div>
+                <div class="meta-value">Information Seeking</div>
               </div>
               <div class="meta">
-                <div class="meta-label">Setting</div>
-                <div class="meta-value">TBD</div>
+                <div class="meta-label">Framework</div>
+                <div class="meta-value">GraphRAG</div>
               </div>
               <div class="meta">
-                <div class="meta-label">Release</div>
-                <div class="meta-value">TBD</div>
+                <div class="meta-label">License</div>
+                <div class="meta-value">MIT</div>
               </div>
             </div>
           </div>
@@ -102,32 +100,27 @@
         <div class="container">
           <div class="section-head">
             <h2>About</h2>
-            <p class="section-subtitle">TBD: Short overview of the benchmark and its motivation.</p>
+            <p class="section-subtitle">A comprehensive benchmark for evaluating Information Seeking Agents using GraphRAG-based indexing and multi-judge QA generation.</p>
           </div>
 
           <div class="grid grid-2">
             <div class="card">
               <h3>What is iAgentBench?</h3>
               <p>
-                TBD: Describe the benchmark scope, inputs/outputs, and what “good performance” means.
+                iAgentBench is a Python repository for benchmarking Information Seeking Agents (ISA) with integrated indexing, evaluation, and output management. It uses GraphRAG to build knowledge graphs from source documents and generates cross-community QA pairs with multi-judge verification to evaluate agent performance.
               </p>
             </div>
             <div class="card">
-              <h3>What does it measure?</h3>
+              <h3>Key Features</h3>
               <ul class="list">
-                <li><strong>TBD</strong>: capability or metric</li>
-                <li><strong>TBD</strong>: capability or metric</li>
-                <li><strong>TBD</strong>: capability or metric</li>
+                <li><strong>GraphRAG Integration</strong>: Builds knowledge graphs with entities, relationships, and communities</li>
+                <li><strong>Multi-Judge QA Generation</strong>: Generates QA pairs with 3-judge verification system</li>
+                <li><strong>Batch Processing</strong>: Parallel processing with adaptive throttling for rate limits</li>
+                <li><strong>AWS Bedrock Support</strong>: Integrated with AWS Bedrock for LLM operations</li>
               </ul>
             </div>
           </div>
 
-          <div class="callout">
-            <div class="callout-title">News</div>
-            <div class="callout-body">
-              <p><strong>TBD</strong>: Latest update goes here (e.g., dataset release, leaderboard launch).</p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -135,25 +128,21 @@
         <div class="container">
           <div class="section-head">
             <h2>Important links</h2>
-            <p class="section-subtitle">TBD: Replace these with real URLs when ready.</p>
+            <p class="section-subtitle">Access the code, dataset, and resources.</p>
           </div>
 
-          <div class="grid grid-4">
+          <div class="grid grid-3">
             <a class="link-card is-disabled" href="#" aria-disabled="true">
               <div class="link-card-title">Paper</div>
-              <div class="link-card-desc">TBD</div>
+              <div class="link-card-desc">Coming soon</div>
             </a>
-            <a class="link-card is-disabled" href="#" aria-disabled="true">
+            <a class="link-card" href="https://github.com/iagentbench/iAB" target="_blank" rel="noopener noreferrer">
               <div class="link-card-title">GitHub</div>
-              <div class="link-card-desc">TBD</div>
+              <div class="link-card-desc">Source code and documentation</div>
             </a>
-            <a class="link-card is-disabled" href="#" aria-disabled="true">
+            <a class="link-card" href="https://huggingface.co/datasets/preetam7/iAgentBench" target="_blank" rel="noopener noreferrer">
               <div class="link-card-title">Dataset</div>
-              <div class="link-card-desc">TBD</div>
-            </a>
-            <a class="link-card is-disabled" href="#" aria-disabled="true">
-              <div class="link-card-title">Demo</div>
-              <div class="link-card-desc">TBD</div>
+              <div class="link-card-desc">500 QA pairs on Hugging Face</div>
             </a>
           </div>
         </div>
@@ -164,91 +153,42 @@
           <div class="section-head">
             <h2>Benchmark</h2>
             <p class="section-subtitle">
-              TBD: Describe tasks, evaluation protocol, and baselines at a high level.
+              Evaluate Information Seeking Agents using GraphRAG-based knowledge graphs and cross-community QA pairs.
             </p>
           </div>
 
-          <div class="grid grid-3">
+          <div class="grid grid-2">
             <div class="card">
-              <h3>Tasks</h3>
+              <h3>Evaluation Process</h3>
               <ul class="list">
-                <li><strong>TBD</strong>: Task family A</li>
-                <li><strong>TBD</strong>: Task family B</li>
-                <li><strong>TBD</strong>: Task family C</li>
+                <li><strong>Indexing</strong>: Build knowledge graphs from source documents using GraphRAG</li>
+                <li><strong>QA Generation</strong>: Generate cross-community question-answer pairs</li>
+                <li><strong>Multi-Judge Verification</strong>: Validate QA pairs using 3-judge system</li>
+                <li><strong>Metrics</strong>: Evaluate agent performance on information seeking tasks</li>
               </ul>
             </div>
             <div class="card">
-              <h3>Metrics</h3>
+              <h3>Output Structure</h3>
               <ul class="list">
-                <li><strong>TBD</strong>: Metric 1</li>
-                <li><strong>TBD</strong>: Metric 2</li>
-                <li><strong>TBD</strong>: Metric 3</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h3>Baselines</h3>
-              <ul class="list">
-                <li><strong>TBD</strong>: Baseline 1</li>
-                <li><strong>TBD</strong>: Baseline 2</li>
-                <li><strong>TBD</strong>: Baseline 3</li>
+                <li><strong>Graphs</strong>: Parquet files with entities, relationships, and communities</li>
+                <li><strong>QA Pairs</strong>: Validated question-answer pairs with judge audits</li>
+                <li><strong>Visualizations</strong>: Interactive graph HTML and Jupyter notebooks</li>
+                <li><strong>Metrics</strong>: API calls, tokens, and operational metrics</li>
               </ul>
             </div>
           </div>
 
           <div class="card">
-            <h3>How to run</h3>
+            <h3>Quick Start</h3>
             <p class="muted">
-              TBD: Provide a minimal command snippet (once ready). For now it’s intentionally empty.
+              Install dependencies and run a single query or batch process multiple queries.
             </p>
-            <pre class="code" aria-label="Run instructions (TBD)"><code># TBD
-# python -m iagentbench.run --config TBD</code></pre>
-          </div>
-        </div>
-      </section>
+            <pre class="code" aria-label="Run instructions"><code># Single query
+python cli/main.py "your keyword here"
 
-      <section class="section alt" id="leaderboard">
-        <div class="container">
-          <div class="section-head">
-            <h2>Leaderboard</h2>
-            <p class="section-subtitle">TBD: This section will show model results once available.</p>
-          </div>
-
-          <div class="card">
-            <div class="table-wrap" role="region" aria-label="Leaderboard table (TBD)" tabindex="0">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Model</th>
-                    <th scope="col">Score</th>
-                    <th scope="col">Setting</th>
-                    <th scope="col">Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p class="muted small">
-              TBD: Add evaluation details, date, and versioning policy here.
-            </p>
+# Batch processing
+python cli/main.py --batch input/queries.jsonl
+</code></pre>
           </div>
         </div>
       </section>
@@ -285,7 +225,7 @@
             </div>
             <div class="card">
               <h3>Issues</h3>
-              <p class="muted">TBD: Link to GitHub issues once the repo is live.</p>
+              <p class="muted"><a href="https://github.com/iagentbench/iAB/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a></p>
             </div>
           </div>
         </div>
