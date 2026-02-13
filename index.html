@@ -103,24 +103,6 @@
             <p class="section-subtitle">A comprehensive benchmark for evaluating Information Seeking Agents using GraphRAG-based indexing and multi-judge QA generation.</p>
           </div>
 
-          <div class="grid grid-2">
-            <div class="card">
-              <h3>What is iAgentBench?</h3>
-              <p>
-                iAgentBench is a Python repository for benchmarking Information Seeking Agents (ISA) with integrated indexing, evaluation, and output management. It uses GraphRAG to build knowledge graphs from source documents and generates cross-community QA pairs with multi-judge verification to evaluate agent performance.
-              </p>
-            </div>
-            <div class="card">
-              <h3>Key Features</h3>
-              <ul class="list">
-                <li><strong>GraphRAG Integration</strong>: Builds knowledge graphs with entities, relationships, and communities</li>
-                <li><strong>Multi-Judge QA Generation</strong>: Generates QA pairs with 3-judge verification system</li>
-                <li><strong>Batch Processing</strong>: Parallel processing with adaptive throttling for rate limits</li>
-                <li><strong>AWS Bedrock Support</strong>: Integrated with AWS Bedrock for LLM operations</li>
-              </ul>
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -155,40 +137,6 @@
             <p class="section-subtitle">
               Evaluate Information Seeking Agents using GraphRAG-based knowledge graphs and cross-community QA pairs.
             </p>
-          </div>
-
-          <div class="grid grid-2">
-            <div class="card">
-              <h3>Evaluation Process</h3>
-              <ul class="list">
-                <li><strong>Indexing</strong>: Build knowledge graphs from source documents using GraphRAG</li>
-                <li><strong>QA Generation</strong>: Generate cross-community question-answer pairs</li>
-                <li><strong>Multi-Judge Verification</strong>: Validate QA pairs using 3-judge system</li>
-                <li><strong>Metrics</strong>: Evaluate agent performance on information seeking tasks</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h3>Output Structure</h3>
-              <ul class="list">
-                <li><strong>Graphs</strong>: Parquet files with entities, relationships, and communities</li>
-                <li><strong>QA Pairs</strong>: Validated question-answer pairs with judge audits</li>
-                <li><strong>Visualizations</strong>: Interactive graph HTML and Jupyter notebooks</li>
-                <li><strong>Metrics</strong>: API calls, tokens, and operational metrics</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card">
-            <h3>Quick Start</h3>
-            <p class="muted">
-              Install dependencies and run a single query or batch process multiple queries.
-            </p>
-            <pre class="code" aria-label="Run instructions"><code># Single query
-python cli/main.py "your keyword here"
-
-# Batch processing
-python cli/main.py --batch input/queries.jsonl
-</code></pre>
           </div>
         </div>
       </section>
