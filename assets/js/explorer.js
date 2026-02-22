@@ -1,6 +1,6 @@
 (function () {
   const DATA_URL = "assets/data/iAgentBench.json";
-  const QA_PREVIEW_LEN = 55;
+  const QA_PREVIEW_LEN = 120;
   const JUDGE_CRITERIA = [
     "evidence_only_support",
     "multi_community_necessity",

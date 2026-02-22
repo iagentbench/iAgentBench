@@ -53,54 +53,56 @@
           </div>
 
           <div class="explorer-layout">
-            <aside class="explorer-sidebar">
-              <div class="card">
+            <aside class="explorer-qa-strip">
+              <div class="card qa-strip-card">
                 <h3>QA Points</h3>
-                <p class="muted small">Select a QA point to view details.</p>
+                <p class="muted small">Click an entry to view details.</p>
                 <div id="qa-list" class="qa-list" role="list"></div>
               </div>
+            </aside>
 
-              <div id="explorer-detail" class="explorer-detail" aria-live="polite">
-                <div id="detail-question" class="card detail-block" hidden>
+            <div class="explorer-content">
+              <div id="explorer-detail" class="explorer-detail-grid" aria-live="polite">
+                <div id="detail-question" class="card detail-block detail-question" hidden>
                   <h3>Question</h3>
                   <p id="detail-question-text" class="detail-text"></p>
                 </div>
-                <div id="detail-answer" class="card detail-block" hidden>
+                <div id="detail-answer" class="card detail-block detail-answer" hidden>
                   <h3>Answer</h3>
                   <p id="detail-answer-text" class="detail-text"></p>
                 </div>
-                <div id="detail-metadata" class="card detail-block" hidden>
+                <div id="detail-metadata" class="card detail-block detail-metadata" hidden>
                   <h3>Metadata</h3>
                   <div id="detail-metadata-content" class="detail-meta-grid"></div>
                 </div>
-                <div id="detail-communities" class="card detail-block" hidden>
+                <div id="detail-communities" class="card detail-block detail-communities" hidden>
                   <h3>Community context</h3>
                   <div id="detail-communities-content" class="detail-list"></div>
                 </div>
-                <div id="detail-findings" class="card detail-block" hidden>
+                <div id="detail-findings" class="card detail-block detail-findings" hidden>
                   <h3>Supporting findings</h3>
                   <div id="detail-findings-content" class="detail-list"></div>
                 </div>
-                <div id="detail-connectors" class="card detail-block" hidden>
+                <div id="detail-connectors" class="card detail-block detail-connectors" hidden>
                   <h3>Supporting connectors</h3>
                   <div id="detail-connectors-content" class="detail-list"></div>
                 </div>
-                <div id="detail-sources" class="card detail-block" hidden>
+                <div id="detail-sources" class="card detail-block detail-sources" hidden>
                   <h3>Source URLs</h3>
                   <ul id="detail-sources-content" class="list"></ul>
                 </div>
-                <div id="detail-judges" class="detail-block" hidden>
+                <div id="detail-judges" class="detail-block detail-judges" hidden>
                   <h3 class="card-title-standalone">LLM Judges</h3>
                   <div id="detail-judges-content" class="judges-grid"></div>
                 </div>
               </div>
-            </aside>
 
-            <div class="explorer-graph-area">
-              <div class="card graph-placeholder" id="graph-placeholder">
-                <div class="graph-placeholder-inner">
-                  <p class="muted">Graph visualization (coming soon)</p>
-                  <p class="small muted">Subgraph / evidence graph will be displayed here.</p>
+              <div class="explorer-graph-area">
+                <div class="card graph-placeholder" id="graph-placeholder">
+                  <div class="graph-placeholder-inner">
+                    <p class="muted">Graph visualization (coming soon)</p>
+                    <p class="small muted">Subgraph / evidence graph will be displayed here.</p>
+                  </div>
                 </div>
               </div>
             </div>
