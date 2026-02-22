@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="iAgentBench Explorer — Browse and inspect benchmark QA entries" />
+    <meta name="theme-color" content="#0b1220" />
+
+    <title>Explorer Demo — iAgentBench</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="iAgentBench home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">iAgentBench</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav-links" id="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html#links">Links</a>
+            <a class="nav-link" href="index.html#benchmark">Benchmark</a>
+            <a class="nav-link" href="index.html#citation">Citation</a>
+            <a class="nav-link" href="index.html#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="explorer-main">
+      <section class="section explorer-section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Explorer Demo</h2>
+            <p class="section-subtitle">Select a QA entry to view the question, answer, evidence, and LLM judge evaluations.</p>
+          </div>
+
+          <div class="explorer-layout">
+            <aside class="explorer-sidebar">
+              <div class="card">
+                <h3>QA Points</h3>
+                <p class="muted small">Select a QA point to view details.</p>
+                <div id="qa-list" class="qa-list" role="list"></div>
+              </div>
+
+              <div id="explorer-detail" class="explorer-detail" aria-live="polite">
+                <div id="detail-question" class="card detail-block" hidden>
+                  <h3>Question</h3>
+                  <p id="detail-question-text" class="detail-text"></p>
+                </div>
+                <div id="detail-answer" class="card detail-block" hidden>
+                  <h3>Answer</h3>
+                  <p id="detail-answer-text" class="detail-text"></p>
+                </div>
+                <div id="detail-metadata" class="card detail-block" hidden>
+                  <h3>Metadata</h3>
+                  <div id="detail-metadata-content" class="detail-meta-grid"></div>
+                </div>
+                <div id="detail-communities" class="card detail-block" hidden>
+                  <h3>Community context</h3>
+                  <div id="detail-communities-content" class="detail-list"></div>
+                </div>
+                <div id="detail-findings" class="card detail-block" hidden>
+                  <h3>Supporting findings</h3>
+                  <div id="detail-findings-content" class="detail-list"></div>
+                </div>
+                <div id="detail-connectors" class="card detail-block" hidden>
+                  <h3>Supporting connectors</h3>
+                  <div id="detail-connectors-content" class="detail-list"></div>
+                </div>
+                <div id="detail-sources" class="card detail-block" hidden>
+                  <h3>Source URLs</h3>
+                  <ul id="detail-sources-content" class="list"></ul>
+                </div>
+                <div id="detail-judges" class="detail-block" hidden>
+                  <h3 class="card-title-standalone">LLM Judges</h3>
+                  <div id="detail-judges-content" class="judges-grid"></div>
+                </div>
+              </div>
+            </aside>
+
+            <div class="explorer-graph-area">
+              <div class="card graph-placeholder" id="graph-placeholder">
+                <div class="graph-placeholder-inner">
+                  <p class="muted">Graph visualization (coming soon)</p>
+                  <p class="small muted">Subgraph / evidence graph will be displayed here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <span class="footer-brand">iAgentBench</span>
+          <span class="footer-muted">© <span id="year"></span> TBD</span>
+        </div>
+        <div class="footer-right">
+          <a class="footer-link" href="index.html">Home</a>
+          <a class="footer-link" href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/explorer.js" defer></script>
+  </body>
+</html>
