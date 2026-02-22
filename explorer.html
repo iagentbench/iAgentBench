@@ -62,6 +62,15 @@
             </aside>
 
             <div class="explorer-content">
+              <div class="explorer-graph-area">
+                <div class="card graph-placeholder" id="graph-placeholder">
+                  <div class="graph-placeholder-inner">
+                    <p class="muted">Graph visualization (coming soon)</p>
+                    <p class="small muted">Subgraph / evidence graph will be displayed here.</p>
+                  </div>
+                </div>
+              </div>
+
               <div id="explorer-detail" class="explorer-detail-grid" aria-live="polite">
                 <div id="detail-question" class="card detail-block detail-question" hidden>
                   <h3>Question</h3>
@@ -79,14 +88,6 @@
                   <h3>Community context</h3>
                   <div id="detail-communities-content" class="detail-list"></div>
                 </div>
-                <div id="detail-findings" class="card detail-block detail-findings" hidden>
-                  <h3>Supporting findings</h3>
-                  <div id="detail-findings-content" class="detail-list"></div>
-                </div>
-                <div id="detail-connectors" class="card detail-block detail-connectors" hidden>
-                  <h3>Supporting connectors</h3>
-                  <div id="detail-connectors-content" class="detail-list"></div>
-                </div>
                 <div id="detail-sources" class="card detail-block detail-sources" hidden>
                   <h3>Source URLs</h3>
                   <ul id="detail-sources-content" class="list"></ul>
@@ -94,15 +95,6 @@
                 <div id="detail-judges" class="detail-block detail-judges" hidden>
                   <h3 class="card-title-standalone">LLM Judges</h3>
                   <div id="detail-judges-content" class="judges-grid"></div>
-                </div>
-              </div>
-
-              <div class="explorer-graph-area">
-                <div class="card graph-placeholder" id="graph-placeholder">
-                  <div class="graph-placeholder-inner">
-                    <p class="muted">Graph visualization (coming soon)</p>
-                    <p class="small muted">Subgraph / evidence graph will be displayed here.</p>
-                  </div>
                 </div>
               </div>
             </div>

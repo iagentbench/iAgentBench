@@ -51,8 +51,6 @@
     answer: document.getElementById("detail-answer"),
     metadata: document.getElementById("detail-metadata"),
     communities: document.getElementById("detail-communities"),
-    findings: document.getElementById("detail-findings"),
-    connectors: document.getElementById("detail-connectors"),
     sources: document.getElementById("detail-sources"),
     judges: document.getElementById("detail-judges"),
   };
@@ -61,8 +59,6 @@
     answerText: document.getElementById("detail-answer-text"),
     metadataContent: document.getElementById("detail-metadata-content"),
     communitiesContent: document.getElementById("detail-communities-content"),
-    findingsContent: document.getElementById("detail-findings-content"),
-    connectorsContent: document.getElementById("detail-connectors-content"),
     sourcesContent: document.getElementById("detail-sources-content"),
     judgesContent: document.getElementById("detail-judges-content"),
   };
@@ -104,41 +100,18 @@
   function renderCommunities(row) {
     const raw = row.community_context_json;
     const data = parseJson(raw, {});
-    const list = typeof data === "object" && !Array.isArray(data) ? Object.values(data) : [];
-    const items = list.map(function (c) {
+    const entries = typeof data === "object" && !Array.isArray(data) ? Object.entries(data) : [];
+    const items = entries.map(function (entry) {
+      const id = entry[0];
+      const c = entry[1];
+      const communityId = c.community_id != null ? String(c.community_id) : id;
       const title = c.title != null ? escapeHtml(String(c.title)) : "";
       const summary = c.summary != null ? escapeHtml(String(c.summary)) : "";
-      return `<div class="detail-list-item"><strong>${title || "Community"}</strong>${summary ? "<br>" + summary : ""}</div>`;
+      const idLabel = "Community " + escapeHtml(String(communityId));
+      return `<div class="detail-list-item"><span class="community-id">${idLabel}</span> &middot; <strong>${title || "Community"}</strong>${summary ? "<br>" + summary : ""}</div>`;
     });
     detailContent.communitiesContent.innerHTML = items.length ? items.join("") : "<p class=\"muted small\">None.</p>";
     setBlockVisible(detailBlocks.communities, true);
-  }
-
-  function renderFindings(row) {
-    const raw = row.supporting_findings_expanded_json;
-    const list = parseJson(raw, []);
-    const items = (Array.isArray(list) ? list : []).map(function (f) {
-      const text = (f.text != null ? f.text : f.snippet) != null ? String(f.text != null ? f.text : f.snippet) : "";
-      const cid = f.community_id != null ? f.community_id : "";
-      const fid = f.finding_id != null ? f.finding_id : "";
-      const label = [cid, fid].filter(Boolean).length ? `[${[cid, fid].join(", ")}] ` : "";
-      return `<div class="detail-list-item">${label}${escapeHtml(text)}</div>`;
-    });
-    detailContent.findingsContent.innerHTML = items.length ? items.join("") : "<p class=\"muted small\">None.</p>";
-    setBlockVisible(detailBlocks.findings, true);
-  }
-
-  function renderConnectors(row) {
-    const raw = row.supporting_connectors_expanded_json;
-    const list = parseJson(raw, []);
-    const items = (Array.isArray(list) ? list : []).map(function (c) {
-      const subj = c.subject != null ? escapeHtml(String(c.subject)) : "";
-      const obj = c.object != null ? escapeHtml(String(c.object)) : "";
-      const rel = (c.relation_text != null ? c.relation_text : c.text) != null ? escapeHtml(String(c.relation_text != null ? c.relation_text : c.text)) : "";
-      return `<div class="detail-list-item"><strong>${subj}</strong> \u2192 <strong>${obj}</strong>${rel ? "<br>" + rel : ""}</div>`;
-    });
-    detailContent.connectorsContent.innerHTML = items.length ? items.join("") : "<p class=\"muted small\">None.</p>";
-    setBlockVisible(detailBlocks.connectors, true);
   }
 
   function renderSources(row) {
@@ -187,8 +160,6 @@
     renderQuestionAnswer(row);
     renderMetadata(row);
     renderCommunities(row);
-    renderFindings(row);
-    renderConnectors(row);
     renderSources(row);
     renderJudges(row);
   }

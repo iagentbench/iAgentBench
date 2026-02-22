@@ -610,12 +610,15 @@ h2 {
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
+}
+.explorer-graph-area {
+  flex-shrink: 0;
 }
 .explorer-detail-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.9rem 1rem;
+  gap: 0.75rem 1rem;
 }
 .detail-block {
   margin: 0;
@@ -624,11 +627,14 @@ h2 {
 .detail-question { grid-column: 1; }
 .detail-answer { grid-column: 2; }
 .detail-metadata { grid-column: 1 / -1; }
-.detail-communities { grid-column: 1; }
-.detail-findings { grid-column: 2; }
-.detail-connectors { grid-column: 1 / -1; }
+.detail-communities { grid-column: 1 / -1; }
 .detail-sources { grid-column: 1 / -1; }
 .detail-judges { grid-column: 1 / -1; }
+.detail-list-item .community-id {
+  color: var(--muted-2);
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
 .detail-text {
   margin: 0.3rem 0 0;
   color: rgba(255, 255, 255, 0.9);
@@ -721,11 +727,8 @@ h2 {
   font-size: 0.8rem;
   line-height: 1.4;
 }
-.explorer-graph-area {
-  margin-top: 0.5rem;
-}
 .graph-placeholder {
-  min-height: 200px;
+  min-height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
