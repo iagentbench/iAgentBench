@@ -45,7 +45,7 @@
   }
 
   // ── GraphML parser ─────────────────────────────────────────────────────────
-  function parseGraphML(xml, communityMeta) {
+  function parseGraphML(xml, communityMeta, communityDetailsById) {
     var keyMap = {};
     xml.querySelectorAll("key").forEach(function (k) {
       keyMap[k.getAttribute("id")] = k.getAttribute("attr.name");
@@ -93,7 +93,8 @@
       if (commInt !== null && !(commInt in seenComm)) {
         seenComm[commInt] = true;
         var meta  = communityMeta && communityMeta[commKey];
-        var label = meta ? meta.title : "Community " + commInt;
+        var full  = communityDetailsById && communityDetailsById[commKey];
+        var label = (meta && meta.title) || (full && full.title) || "Community " + commInt;
         legendEntries.push({ commInt: commInt, commKey: commKey, label: label, color: color });
       }
 
@@ -616,7 +617,7 @@
         if (c.id !== undefined) communityDetailsById[String(c.id)] = c;
       });
       var xml  = new DOMParser().parseFromString(results[0], "text/xml");
-      var data = parseGraphML(xml, communityMeta);
+      var data = parseGraphML(xml, communityMeta, communityDetailsById);
       _clusters = data.clusters;
 
       // Re-mount full UI
