@@ -2,146 +2,36 @@
   "use strict";
 
   var GRAPHML_URL = "assets/temp/interactive_graph_temp.graphml";
+  var META_URL    = "assets/temp/interactive_graph_meta.json";
 
-  // Exact community colour palette from the notebook
-  // colors[int(community) % 7]
+  // Notebook-exact community colour palette (index % 7)
   var COMMUNITY_COLORS = [
-    "crimson",
-    "darkorange",
-    "indigo",
-    "cornflowerblue",
-    "cyan",
-    "teal",
-    "green",
+    "crimson", "darkorange", "indigo", "cornflowerblue", "cyan", "teal", "green",
   ];
-
-  // Type fallback (when no community data)
   var TYPE_COLORS = {
-    PERSON:       "crimson",
-    ORGANIZATION: "cornflowerblue",
-    GEO:          "teal",
-    EVENT:        "darkorange",
+    PERSON: "crimson", ORGANIZATION: "cornflowerblue", GEO: "teal", EVENT: "darkorange",
   };
   var TYPE_LABELS = {
     PERSON: "Person", ORGANIZATION: "Organization", GEO: "Geography", EVENT: "Event",
   };
   var DEFAULT_COLOR = "lightgray";
 
-  function communityColor(community) {
-    if (community === null || community === undefined || community === "") {
-      return null; // will fall back to type
-    }
-    var idx = parseInt(community, 10);
-    if (isNaN(idx)) return null;
-    return COMMUNITY_COLORS[idx % COMMUNITY_COLORS.length];
+  // ── Module-level state ─────────────────────────────────────────────────────
+  var _cy           = null;
+  var _clusters     = null;
+  var _currentLayout = "circular";
+  var _focusedComm  = null;
+
+  // ── Helpers ────────────────────────────────────────────────────────────────
+  function esc(s) {
+    var d = document.createElement("div");
+    d.textContent = String(s == null ? "" : s);
+    return d.innerHTML;
   }
 
-  // ── GraphML parser ─────────────────────────────────────────────────────────
-
-  function parseGraphML(xml) {
-    var keyMap = {};
-    xml.querySelectorAll("key").forEach(function (k) {
-      keyMap[k.getAttribute("id")] = k.getAttribute("attr.name");
-    });
-
-    // First pass: compute degree
-    var degree = {};
-    var edgesRaw = [];
-    xml.querySelectorAll("edge").forEach(function (edgeEl) {
-      var src  = edgeEl.getAttribute("source");
-      var tgt  = edgeEl.getAttribute("target");
-      var props = extractData(edgeEl, keyMap);
-      degree[src] = (degree[src] || 0) + 1;
-      degree[tgt] = (degree[tgt] || 0) + 1;
-      edgesRaw.push({ src: src, tgt: tgt, props: props });
-    });
-
-    // Build nodes
-    var nodes = [];
-    var communityIndex = {}; // community value → stable int index
-    var communityCounter = 0;
-    xml.querySelectorAll("node").forEach(function (nodeEl) {
-      var id    = nodeEl.getAttribute("id");
-      var props = extractData(nodeEl, keyMap);
-      var type  = (props.type || "").toUpperCase();
-      var comm  = props.community || null; // e.g. "9.0"
-      var commInt = comm !== null ? Math.round(parseFloat(comm)) : null;
-
-      // Assign a stable 0-based index per community for colour cycling
-      var commKey = commInt !== null ? String(commInt) : "__none__";
-      if (!(commKey in communityIndex)) {
-        communityIndex[commKey] = communityCounter++;
-      }
-
-      var color = communityColor(commInt);
-      if (color === null) color = TYPE_COLORS[type] || DEFAULT_COLOR;
-
-      var deg  = degree[id] || 1;
-      // Same scale formula as notebook: 0.5 + (degree * 1.5 / 20), mapped to px size
-      var scale = 0.5 + (deg * 1.5 / 20);
-      var size  = Math.max(18, Math.min(60, 14 * scale + 8));
-
-      nodes.push({
-        data: {
-          id:        id,
-          label:     props.label || id,
-          type:      type,
-          community: commKey,
-          commInt:   commInt,
-          color:     color,
-          degree:    deg,
-          size:      size,
-        },
-      });
-    });
-
-    // Build edges
-    var edges = [];
-    edgesRaw.forEach(function (e, i) {
-      var weight = parseFloat(e.props.weight) || 1;
-      // Same scale: thickness ∝ weight (capped)
-      var width = Math.max(0.8, Math.min(5, Math.log2(weight + 1)));
-      edges.push({
-        data: {
-          id:     "e" + i,
-          source: e.src,
-          target: e.tgt,
-          label:  e.props.label || "",
-          weight: weight,
-          width:  width,
-        },
-      });
-    });
-
-    // Build CiSE clusters: array of arrays of node ids, one per community
-    var clusterMap = {};
-    nodes.forEach(function (n) {
-      var c = n.data.community;
-      if (c !== "__none__") {
-        if (!clusterMap[c]) clusterMap[c] = [];
-        clusterMap[c].push(n.data.id);
-      }
-    });
-    var clusters = Object.values(clusterMap);
-
-    // Build legend entries: unique communities in data order
-    var legendEntries = [];
-    var seenComm = {};
-    nodes.forEach(function (n) {
-      var c = n.data.commInt;
-      if (c !== null && !(c in seenComm)) {
-        seenComm[c] = true;
-        legendEntries.push({ label: "Community " + c, color: n.data.color });
-      }
-    });
-    legendEntries.sort(function (a, b) {
-      return parseInt(a.label.split(" ")[1]) - parseInt(b.label.split(" ")[1]);
-    });
-    // Also add any type-fallback nodes
-    var hasNone = nodes.some(function (n) { return n.data.community === "__none__"; });
-    if (hasNone) legendEntries.push({ label: "Other", color: DEFAULT_COLOR });
-
-    return { nodes: nodes, edges: edges, clusters: clusters, legendEntries: legendEntries };
+  function communityColor(commInt) {
+    if (commInt === null || commInt === undefined) return null;
+    return COMMUNITY_COLORS[commInt % COMMUNITY_COLORS.length];
   }
 
   function extractData(el, keyMap) {
@@ -153,48 +43,193 @@
     return out;
   }
 
-  // ── Cytoscape styles ───────────────────────────────────────────────────────
+  // ── GraphML parser ─────────────────────────────────────────────────────────
+  function parseGraphML(xml, communityMeta) {
+    var keyMap = {};
+    xml.querySelectorAll("key").forEach(function (k) {
+      keyMap[k.getAttribute("id")] = k.getAttribute("attr.name");
+    });
 
+    // First pass: compute degree from edges
+    var degree = {};
+    var edgesRaw = [];
+    xml.querySelectorAll("edge").forEach(function (edgeEl) {
+      var src   = edgeEl.getAttribute("source");
+      var tgt   = edgeEl.getAttribute("target");
+      var props = extractData(edgeEl, keyMap);
+      degree[src] = (degree[src] || 0) + 1;
+      degree[tgt] = (degree[tgt] || 0) + 1;
+      edgesRaw.push({ src: src, tgt: tgt, props: props });
+    });
+
+    var nodes = [];
+    var clusterMap = {};
+    var legendEntries = [];
+    var seenComm = {};
+
+    xml.querySelectorAll("node").forEach(function (nodeEl) {
+      var id    = nodeEl.getAttribute("id");
+      var props = extractData(nodeEl, keyMap);
+      var type  = (props.type || "").toUpperCase();
+      var commRaw = props.community || null;
+      var commInt = commRaw !== null ? Math.round(parseFloat(commRaw)) : null;
+      var commKey = commInt !== null ? String(commInt) : "__none__";
+
+      var color = communityColor(commInt);
+      if (color === null) color = TYPE_COLORS[type] || DEFAULT_COLOR;
+
+      var deg   = degree[id] || 1;
+      var scale = 0.5 + (deg * 1.5 / 20);
+      var size  = Math.max(18, Math.min(60, 14 * scale + 8));
+
+      // Build cluster map for CiSE
+      if (commKey !== "__none__") {
+        if (!clusterMap[commKey]) clusterMap[commKey] = [];
+        clusterMap[commKey].push(id);
+      }
+
+      // Build legend (once per community, sorted later)
+      if (commInt !== null && !(commInt in seenComm)) {
+        seenComm[commInt] = true;
+        var meta  = communityMeta && communityMeta[commKey];
+        var label = meta ? meta.title : "Community " + commInt;
+        legendEntries.push({ commInt: commInt, commKey: commKey, label: label, color: color });
+      }
+
+      nodes.push({
+        data: {
+          id:          id,
+          label:       props.label || id,
+          type:        type,
+          community:   commKey,
+          commInt:     commInt,
+          color:       color,
+          degree:      deg,
+          size:        size,
+          description: props.description || "",
+        },
+      });
+    });
+
+    legendEntries.sort(function (a, b) { return a.commInt - b.commInt; });
+    if (nodes.some(function (n) { return n.data.community === "__none__"; })) {
+      legendEntries.push({ commKey: "__none__", label: "Other", color: DEFAULT_COLOR });
+    }
+
+    var edges = [];
+    edgesRaw.forEach(function (e, i) {
+      var weight = parseFloat(e.props.weight) || 1;
+      edges.push({
+        data: {
+          id:              "e" + i,
+          source:          e.src,
+          target:          e.tgt,
+          label:           e.props.label           || "",
+          fullDescription: e.props.full_description || "",
+          weight:          weight,
+          width:           Math.max(0.8, Math.min(5, Math.log2(weight + 1))),
+        },
+      });
+    });
+
+    return {
+      nodes: nodes,
+      edges: edges,
+      clusters: Object.values(clusterMap),
+      legendEntries: legendEntries,
+    };
+  }
+
+  // ── Layout builders ────────────────────────────────────────────────────────
+  function buildLayout(name, clusters) {
+    if (name === "circular") {
+      var hasCise = false;
+      try {
+        var t = cytoscape({ headless: true });
+        t.layout({ name: "cise" }).stop();
+        t.destroy();
+        hasCise = true;
+      } catch (_) {}
+      if (hasCise && clusters && clusters.length > 1) {
+        return {
+          name: "cise", clusters: clusters,
+          animate: true, animationDuration: 800, fit: true, padding: 44,
+          nodeSeparation: 14, idealInterClusterEdgeLengthCoefficient: 1.6,
+          allowNodesInsideCircle: false, maxRatioOfNodesInsideCircle: 0.1,
+          springCoeff: 0.45, gravity: 0.25, gravityRange: 3.8, numIter: 2500,
+        };
+      }
+      name = "radial"; // CiSE unavailable → fall through
+    }
+    if (name === "radial") {
+      return {
+        name: "concentric",
+        concentric:  function (node)  { return node.data("degree"); },
+        levelWidth:  function (nodes) { return Math.max(1, nodes.maxDegree() / 4); },
+        animate: true, animationDuration: 800, fit: true, padding: 44, minNodeSpacing: 12,
+      };
+    }
+    // "force"
+    return {
+      name: "cose",
+      animate: true, animationDuration: 800, fit: true, padding: 44,
+      nodeRepulsion: 400000, idealEdgeLength: 80, gravity: 80,
+      numIter: 1000, randomize: true,
+    };
+  }
+
+  // ── Cytoscape styles ───────────────────────────────────────────────────────
   function cyStyles() {
     return [
       {
         selector: "node",
         style: {
-          "background-color":   "data(color)",
-          "width":              "data(size)",
-          "height":             "data(size)",
-          "label":              "data(label)",
-          "color":              "#ffffff",
-          "font-size":          9,
-          "font-family":        "Inter, ui-sans-serif, system-ui, Arial, sans-serif",
-          "font-weight":        500,
-          "text-valign":        "center",
-          "text-halign":        "center",
-          "text-wrap":          "wrap",
-          "text-max-width":     68,
-          "border-width":       1.5,
-          "border-color":       "rgba(255,255,255,0.20)",
-          "text-outline-color": "rgba(0,0,0,0.75)",
-          "text-outline-width": 1.5,
-          "transition-property":"opacity border-width border-color",
-          "transition-duration":"150ms",
+          "background-color":    "data(color)",
+          "width":               "data(size)",
+          "height":              "data(size)",
+          "label":               "data(label)",
+          "color":               "#ffffff",
+          "font-size":            9,
+          "font-family":         "Inter, ui-sans-serif, system-ui, Arial, sans-serif",
+          "font-weight":          500,
+          "text-valign":         "center",
+          "text-halign":         "center",
+          "text-wrap":           "wrap",
+          "text-max-width":       68,
+          "border-width":         1.5,
+          "border-color":        "rgba(255,255,255,0.20)",
+          "text-outline-color":  "rgba(0,0,0,0.75)",
+          "text-outline-width":   1.5,
+          "transition-property": "opacity border-width border-color",
+          "transition-duration": "150ms",
+          "cursor":              "pointer",
         },
       },
       {
         selector: "edge",
         style: {
-          "width":              "data(width)",
-          "line-color":         "rgba(255,255,255,0.16)",
-          "target-arrow-color": "rgba(255,255,255,0.28)",
-          "target-arrow-shape": "vee",
-          "arrow-scale":         0.85,
-          "curve-style":        "bezier",
-          "opacity":             0.88,
+          "width":               "data(width)",
+          "line-color":          "rgba(255,255,255,0.16)",
+          "target-arrow-color":  "rgba(255,255,255,0.28)",
+          "target-arrow-shape":  "vee",
+          "arrow-scale":          0.85,
+          "curve-style":         "bezier",
+          "opacity":              0.88,
+          "transition-property": "opacity line-color",
+          "transition-duration": "150ms",
+          "cursor":              "pointer",
         },
       },
       {
         selector: "node:selected",
         style: { "border-color": "#a78bfa", "border-width": 3 },
+      },
+      {
+        selector: "edge:selected",
+        style: {
+          "line-color":         "rgba(167,139,250,0.65)",
+          "target-arrow-color": "rgba(167,139,250,0.85)",
+        },
       },
       {
         selector: ".dimmed",
@@ -203,149 +238,224 @@
       {
         selector: ".edge-label",
         style: {
-          "label":                    "data(label)",
-          "font-size":                 8,
-          "color":                    "rgba(255,255,255,0.7)",
-          "text-background-color":    "#0c1426",
-          "text-background-opacity":   0.9,
-          "text-background-padding":  "2px",
-          "text-background-shape":    "roundrectangle",
-          "opacity":                   1,
+          "label":                   "data(label)",
+          "font-size":                8,
+          "color":                   "rgba(255,255,255,0.7)",
+          "text-background-color":   "#0c1426",
+          "text-background-opacity":  0.9,
+          "text-background-padding": "2px",
+          "text-background-shape":   "roundrectangle",
+          "opacity":                  1,
         },
       },
     ];
   }
 
-  // ── Cytoscape init ─────────────────────────────────────────────────────────
-
-  function initCytoscape(container, tooltipEl, data) {
-    var layoutCfg = buildLayout(data.clusters);
-
-    var cy = cytoscape({
-      container:           container,
-      elements:            { nodes: data.nodes, edges: data.edges },
-      style:               cyStyles(),
-      layout:              layoutCfg,
-      wheelSensitivity:    0.22,
-      minZoom:             0.05,
-      maxZoom:             5,
-      boxSelectionEnabled: false,
+  // ── Community focus ────────────────────────────────────────────────────────
+  function applyFocus(commKey) {
+    if (!_cy) return;
+    _cy.elements().removeClass("dimmed");
+    if (!commKey) return;
+    _cy.nodes().forEach(function (n) {
+      if (n.data("community") !== commKey) n.addClass("dimmed");
     });
-
-    bindInteractions(cy, container, tooltipEl);
-    return cy;
+    _cy.edges().forEach(function (e) {
+      var src = _cy.getElementById(e.data("source")).data("community");
+      var tgt = _cy.getElementById(e.data("target")).data("community");
+      if (src !== commKey || tgt !== commKey) e.addClass("dimmed");
+    });
   }
 
-  function buildLayout(clusters) {
-    // Try CiSE first (community circles), fall back to concentric (degree-based rings)
-    var hasCise = false;
-    try {
-      var t = cytoscape({ headless: true });
-      t.layout({ name: "cise" }).stop();
-      t.destroy();
-      hasCise = true;
-    } catch (_) { hasCise = false; }
-
-    if (hasCise && clusters && clusters.length > 1) {
-      return {
-        name:                               "cise",
-        clusters:                            clusters,
-        animate:                             true,
-        animationDuration:                   900,
-        fit:                                 true,
-        padding:                             44,
-        nodeSeparation:                      14,
-        idealInterClusterEdgeLengthCoefficient: 1.6,
-        allowNodesInsideCircle:              false,
-        maxRatioOfNodesInsideCircle:         0.1,
-        springCoeff:                         0.45,
-        gravity:                             0.25,
-        gravityRange:                        3.8,
-        numIter:                             2500,
-      };
+  function toggleCommunityFocus(commKey) {
+    if (!_cy) return;
+    var legendEl = document.getElementById("graph-legend");
+    if (_focusedComm === commKey) {
+      _focusedComm = null;
+      _cy.elements().removeClass("dimmed");
+      if (legendEl) legendEl.querySelectorAll(".graph-legend-item").forEach(function (el) {
+        el.classList.remove("is-focused");
+      });
+    } else {
+      _focusedComm = commKey;
+      applyFocus(commKey);
+      if (legendEl) legendEl.querySelectorAll(".graph-legend-item").forEach(function (el) {
+        el.classList.toggle("is-focused", el.dataset.commKey === commKey);
+      });
     }
-    // Fallback: concentric by degree (hub nodes in centre)
-    return {
-      name:             "concentric",
-      concentric:       function (node) { return node.data("degree"); },
-      levelWidth:       function (nodes) { return Math.max(1, nodes.maxDegree() / 4); },
-      animate:           true,
-      animationDuration: 800,
-      fit:               true,
-      padding:           44,
-      minNodeSpacing:    12,
-    };
   }
 
-  // ── Interactions ───────────────────────────────────────────────────────────
-
-  function bindInteractions(cy, container, tooltipEl) {
-    cy.on("mouseover", "node", function (evt) {
-      var node = evt.target;
-      var hood = node.closedNeighborhood();
-      cy.elements().difference(hood).addClass("dimmed");
-      hood.edges().addClass("edge-label");
-      showTooltip(tooltipEl, node);
-    });
-
-    cy.on("mouseout", "node", function () {
-      cy.elements().removeClass("dimmed").removeClass("edge-label");
-      tooltipEl.hidden = true;
-    });
-
-    cy.on("tap", "node", function (evt) {
-      cy.elements().removeClass("dimmed").removeClass("edge-label");
-      var hood = evt.target.closedNeighborhood();
-      cy.elements().difference(hood).addClass("dimmed");
-      hood.edges().addClass("edge-label");
-    });
-
-    cy.on("tap", function (evt) {
-      if (evt.target === cy) {
-        cy.elements().removeClass("dimmed").removeClass("edge-label");
-      }
-    });
-
-    container.addEventListener("mousemove", function (e) {
-      if (!tooltipEl.hidden) positionTooltip(tooltipEl, container, e);
+  // ── Layout switching ───────────────────────────────────────────────────────
+  function switchLayout(name) {
+    if (!_cy || !_clusters) return;
+    _currentLayout = name;
+    _cy.layout(buildLayout(name, _clusters)).run();
+    document.querySelectorAll(".graph-layout-btn").forEach(function (btn) {
+      btn.classList.toggle("is-active", btn.dataset.layout === name);
     });
   }
 
-  function showTooltip(tooltipEl, node) {
-    var label  = node.data("label");
-    var type   = node.data("type");
-    var comm   = node.data("commInt");
-    var deg    = node.data("degree");
-    var typeLabel = TYPE_LABELS[type] || (type || "");
+  // ── Detail panel HTML builders ─────────────────────────────────────────────
+  function nodeDetailHTML(node, communityMeta) {
+    var label   = node.data("label");
+    var type    = node.data("type");
+    var commInt = node.data("commInt");
+    var desc    = node.data("description");
+    var deg     = node.data("degree");
+    var color   = node.data("color");
+
+    var typeLabel  = TYPE_LABELS[type] || (type ? type : "");
+    var commTitle  = "";
+    if (commInt !== null) {
+      var m = communityMeta && communityMeta[String(commInt)];
+      commTitle = m ? m.title : "Community " + commInt;
+    }
+
+    var neighbors = node.neighborhood("node").map(function (n) {
+      return "<span class=\"gdp-neighbor\">" + esc(n.data("label")) + "</span>";
+    }).join("");
+
+    return (
+      "<div class=\"gdp-header\">" +
+        (color ? "<span class=\"gdp-dot\" style=\"background:" + color + "\"></span>" : "") +
+        "<span class=\"gdp-name\">" + esc(label) + "</span>" +
+      "</div>" +
+      (typeLabel  ? "<span class=\"gdp-badge\">" + esc(typeLabel)  + "</span>" : "") +
+      (commTitle  ? "<div class=\"gdp-comm\">" + esc(commTitle) + "</div>" : "") +
+      "<div class=\"gdp-stat\">" + deg + " connection" + (deg !== 1 ? "s" : "") + "</div>" +
+      (desc ? "<div class=\"gdp-section-label\">Description</div><div class=\"gdp-desc\">" + esc(desc) + "</div>" : "") +
+      (neighbors ? "<div class=\"gdp-section-label\">Connected to</div><div class=\"gdp-neighbors\">" + neighbors + "</div>" : "")
+    );
+  }
+
+  function edgeDetailHTML(edge) {
+    var srcNode = _cy && _cy.getElementById(edge.data("source"));
+    var tgtNode = _cy && _cy.getElementById(edge.data("target"));
+    var srcLabel = srcNode ? esc(srcNode.data("label")) : esc(edge.data("source"));
+    var tgtLabel = tgtNode ? esc(tgtNode.data("label")) : esc(edge.data("target"));
+    var fullDesc = edge.data("fullDescription");
+    var weight   = edge.data("weight");
+
+    return (
+      "<div class=\"gdp-header\">" +
+        "<span class=\"gdp-name gdp-edge-name\">" + srcLabel + " → " + tgtLabel + "</span>" +
+      "</div>" +
+      "<div class=\"gdp-stat\">Weight: " + weight + "</div>" +
+      (fullDesc
+        ? "<div class=\"gdp-section-label\">Relationship</div><div class=\"gdp-desc\">" + esc(fullDesc) + "</div>"
+        : "")
+    );
+  }
+
+  // ── Detail panel show / hide ───────────────────────────────────────────────
+  function showDetailPanel(panel, html) {
+    panel.innerHTML =
+      "<button class=\"gdp-close\" id=\"gdp-close\" title=\"Close\">\u00d7</button>" +
+      "<div class=\"gdp-body\">" + html + "</div>";
+    panel.classList.add("is-open");
+    var closeBtn = document.getElementById("gdp-close");
+    if (closeBtn) closeBtn.addEventListener("click", function () { hideDetailPanel(panel); });
+  }
+
+  function hideDetailPanel(panel) {
+    panel.classList.remove("is-open");
+    if (_cy) _cy.elements().unselect();
+  }
+
+  // ── Hover tooltip ──────────────────────────────────────────────────────────
+  function showHoverTooltip(tooltipEl, node, communityMeta) {
+    var commInt  = node.data("commInt");
+    var typeLabel = TYPE_LABELS[node.data("type")] || "";
+    var commTitle = "";
+    if (commInt !== null) {
+      var m = communityMeta && communityMeta[String(commInt)];
+      commTitle = m ? m.title : "Community " + commInt;
+    }
     tooltipEl.innerHTML =
-      "<div class=\"graph-tip-name\">" + esc(label) + "</div>" +
-      (typeLabel ? "<div class=\"graph-tip-type\">" + esc(typeLabel) + "</div>" : "") +
-      (comm !== null ? "<div class=\"graph-tip-comm\">Community " + esc(String(comm)) + "</div>" : "") +
-      "<div class=\"graph-tip-deg\">" + deg + " connection" + (deg !== 1 ? "s" : "") + "</div>";
+      "<div class=\"graph-tip-name\">" + esc(node.data("label")) + "</div>" +
+      (typeLabel  ? "<div class=\"graph-tip-type\">" + esc(typeLabel) + "</div>"  : "") +
+      (commTitle  ? "<div class=\"graph-tip-comm\">" + esc(commTitle) + "</div>"  : "") +
+      "<div class=\"graph-tip-deg\">" + node.data("degree") + " connection" + (node.data("degree") !== 1 ? "s" : "") + "</div>";
     tooltipEl.hidden = false;
   }
 
   function positionTooltip(tooltipEl, container, e) {
     var rect = container.getBoundingClientRect();
-    var x = e.clientX - rect.left;
-    var y = e.clientY - rect.top;
-    var tw = tooltipEl.offsetWidth  || 175;
-    var th = tooltipEl.offsetHeight || 72;
+    var x = e.clientX - rect.left, y = e.clientY - rect.top;
+    var tw = tooltipEl.offsetWidth || 175, th = tooltipEl.offsetHeight || 72;
     tooltipEl.style.left = Math.min(x + 16, container.offsetWidth  - tw - 6) + "px";
     tooltipEl.style.top  = Math.max(4, Math.min(y - 14, container.offsetHeight - th - 6)) + "px";
   }
 
-  // ── Legend ─────────────────────────────────────────────────────────────────
+  // ── Interactions ───────────────────────────────────────────────────────────
+  function bindInteractions(cy, container, tooltipEl, detailPanel, communityMeta) {
 
-  function buildLegend(legendEntries) {
-    return legendEntries.map(function (e) {
-      return "<span class=\"graph-legend-item\">" +
-             "<span class=\"graph-legend-dot\" style=\"background:" + e.color + "\"></span>" +
-             esc(e.label) + "</span>";
-    }).join("");
+    // Hover on node
+    cy.on("mouseover", "node", function (evt) {
+      var node = evt.target;
+      var hood = node.closedNeighborhood();
+      cy.elements().difference(hood).addClass("dimmed");
+      hood.edges().addClass("edge-label");
+      showHoverTooltip(tooltipEl, node, communityMeta);
+    });
+    cy.on("mouseout", "node", function () {
+      cy.elements().removeClass("dimmed").removeClass("edge-label");
+      tooltipEl.hidden = true;
+      // Re-apply community focus if active
+      if (_focusedComm) applyFocus(_focusedComm);
+    });
+
+    // Hover on edge
+    cy.on("mouseover", "edge", function (evt) {
+      evt.target.addClass("edge-label");
+    });
+    cy.on("mouseout", "edge", function (evt) {
+      evt.target.removeClass("edge-label");
+    });
+
+    // Click on node → detail panel + dim neighbourhood
+    cy.on("tap", "node", function (evt) {
+      var node = evt.target;
+      cy.elements().removeClass("dimmed").removeClass("edge-label");
+      node.closedNeighborhood().edges().addClass("edge-label");
+      cy.elements().difference(node.closedNeighborhood()).addClass("dimmed");
+      tooltipEl.hidden = true;
+      showDetailPanel(detailPanel, nodeDetailHTML(node, communityMeta));
+    });
+
+    // Click on edge → detail panel
+    cy.on("tap", "edge", function (evt) {
+      var edge = evt.target;
+      cy.elements().removeClass("dimmed").removeClass("edge-label");
+      edge.addClass("edge-label");
+      tooltipEl.hidden = true;
+      showDetailPanel(detailPanel, edgeDetailHTML(edge));
+    });
+
+    // Click on canvas → reset
+    cy.on("tap", function (evt) {
+      if (evt.target !== cy) return;
+      cy.elements().removeClass("dimmed").removeClass("edge-label");
+      hideDetailPanel(detailPanel);
+      if (_focusedComm) applyFocus(_focusedComm);
+    });
+
+    // Follow mouse for tooltip
+    container.addEventListener("mousemove", function (e) {
+      if (!tooltipEl.hidden) positionTooltip(tooltipEl, container, e);
+    });
   }
 
   // ── Mount UI ───────────────────────────────────────────────────────────────
+  function buildLegendHTML(legendEntries) {
+    return legendEntries.map(function (e) {
+      return (
+        "<span class=\"graph-legend-item\" data-comm-key=\"" + esc(e.commKey) + "\" title=\"" + esc(e.label) + "\">" +
+        "<span class=\"graph-legend-dot\" style=\"background:" + e.color + "\"></span>" +
+        "<span class=\"graph-legend-label\">" + esc(e.label) + "</span>" +
+        "</span>"
+      );
+    }).join("");
+  }
 
   function mountUI(placeholder, legendEntries) {
     placeholder.classList.remove("graph-placeholder");
@@ -354,11 +464,18 @@
     var header = document.createElement("div");
     header.className = "graph-header";
     header.innerHTML =
-      "<div class=\"graph-legend\" id=\"graph-legend\">" + buildLegend(legendEntries) + "</div>" +
-      "<div class=\"graph-controls\">" +
-      "<button type=\"button\" class=\"graph-btn\" id=\"graph-fit\"   title=\"Fit to view\">⊞</button>" +
-      "<button type=\"button\" class=\"graph-btn\" id=\"graph-zoom-in\"  title=\"Zoom in\">+</button>" +
-      "<button type=\"button\" class=\"graph-btn\" id=\"graph-zoom-out\" title=\"Zoom out\">−</button>" +
+      "<div class=\"graph-legend\" id=\"graph-legend\">" + buildLegendHTML(legendEntries) + "</div>" +
+      "<div class=\"graph-header-right\">" +
+        "<div class=\"graph-layout-group\" role=\"group\" aria-label=\"Layout\">" +
+          "<button type=\"button\" class=\"graph-layout-btn is-active\" data-layout=\"circular\">Circular</button>" +
+          "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"radial\">Radial</button>" +
+          "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"force\">Force</button>" +
+        "</div>" +
+        "<div class=\"graph-controls\">" +
+          "<button type=\"button\" class=\"graph-btn\" id=\"graph-fit\"      title=\"Fit to view\">\u229e</button>" +
+          "<button type=\"button\" class=\"graph-btn\" id=\"graph-zoom-in\"  title=\"Zoom in\">+</button>" +
+          "<button type=\"button\" class=\"graph-btn\" id=\"graph-zoom-out\" title=\"Zoom out\">\u2212</button>" +
+        "</div>" +
       "</div>";
 
     var wrap = document.createElement("div");
@@ -372,95 +489,113 @@
     tooltipEl.className = "graph-tooltip";
     tooltipEl.hidden = true;
 
+    var detailPanel = document.createElement("div");
+    detailPanel.className = "graph-detail-panel";
+
     var loadingEl = document.createElement("div");
     loadingEl.className = "graph-loading";
     loadingEl.innerHTML = "<span class=\"graph-spinner\"></span>Loading graph\u2026";
 
     wrap.appendChild(cyDiv);
     wrap.appendChild(tooltipEl);
+    wrap.appendChild(detailPanel);
     wrap.appendChild(loadingEl);
 
     placeholder.innerHTML = "";
     placeholder.appendChild(header);
     placeholder.appendChild(wrap);
 
-    return { cyDiv: cyDiv, tooltipEl: tooltipEl, loadingEl: loadingEl };
+    return { cyDiv: cyDiv, tooltipEl: tooltipEl, detailPanel: detailPanel, loadingEl: loadingEl };
   }
 
-  function wireControls(cy) {
+  function wireControls(ui) {
     var fitBtn = document.getElementById("graph-fit");
     var ziBtn  = document.getElementById("graph-zoom-in");
     var zoBtn  = document.getElementById("graph-zoom-out");
-    if (fitBtn) fitBtn.addEventListener("click", function () { cy.fit(undefined, 44); });
-    if (ziBtn)  ziBtn.addEventListener("click", function () {
-      cy.zoom({ level: cy.zoom() * 1.35, renderedPosition: { x: cy.width() / 2, y: cy.height() / 2 } });
+    if (fitBtn) fitBtn.addEventListener("click", function () { if (_cy) _cy.fit(undefined, 44); });
+    if (ziBtn)  ziBtn.addEventListener("click",  function () {
+      if (_cy) _cy.zoom({ level: _cy.zoom() * 1.35, renderedPosition: { x: _cy.width() / 2, y: _cy.height() / 2 } });
     });
-    if (zoBtn)  zoBtn.addEventListener("click", function () {
-      cy.zoom({ level: cy.zoom() / 1.35, renderedPosition: { x: cy.width() / 2, y: cy.height() / 2 } });
+    if (zoBtn)  zoBtn.addEventListener("click",  function () {
+      if (_cy) _cy.zoom({ level: _cy.zoom() / 1.35, renderedPosition: { x: _cy.width() / 2, y: _cy.height() / 2 } });
     });
+
+    // Layout toggles
+    document.querySelectorAll(".graph-layout-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () { switchLayout(btn.dataset.layout); });
+    });
+
+    // Legend click → community focus
+    var legendEl = document.getElementById("graph-legend");
+    if (legendEl) {
+      legendEl.addEventListener("click", function (e) {
+        var item = e.target.closest(".graph-legend-item");
+        if (item) toggleCommunityFocus(item.dataset.commKey);
+      });
+    }
   }
 
   // ── Entry ──────────────────────────────────────────────────────────────────
-
-  function esc(s) {
-    var d = document.createElement("div");
-    d.textContent = String(s);
-    return d.innerHTML;
-  }
-
   function init() {
-    // Register CiSE plugin
     if (typeof cytoscapeCise !== "undefined" && typeof cytoscape !== "undefined") {
-      try { cytoscape.use(cytoscapeCise); } catch (_) { /* already registered */ }
+      try { cytoscape.use(cytoscapeCise); } catch (_) {}
     }
 
     var placeholder = document.getElementById("graph-placeholder");
     if (!placeholder) return;
 
-    // Show a minimal loading state immediately while fetching
-    var tempLoad = document.createElement("div");
-    tempLoad.className = "graph-loading";
-    tempLoad.style.position = "relative";
-    tempLoad.style.minHeight = "420px";
-    tempLoad.style.display = "flex";
-    tempLoad.style.alignItems = "center";
-    tempLoad.style.justifyContent = "center";
-    tempLoad.innerHTML = "<span class=\"graph-spinner\"></span>Loading graph\u2026";
+    // Quick loading state while fetching
     placeholder.classList.remove("graph-placeholder");
     placeholder.classList.add("graph-panel");
-    placeholder.innerHTML = "";
-    placeholder.appendChild(tempLoad);
+    placeholder.innerHTML =
+      "<div class=\"graph-loading\" style=\"min-height:420px;position:relative\">" +
+      "<span class=\"graph-spinner\"></span>Loading graph\u2026</div>";
 
-    fetch(GRAPHML_URL)
-      .then(function (r) {
-        if (!r.ok) throw new Error("HTTP " + r.status);
+    Promise.all([
+      fetch(GRAPHML_URL).then(function (r) {
+        if (!r.ok) throw new Error("GraphML: HTTP " + r.status);
         return r.text();
-      })
-      .then(function (text) {
-        var xml  = new DOMParser().parseFromString(text, "text/xml");
-        var data = parseGraphML(xml);
+      }),
+      fetch(META_URL).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+    ])
+    .then(function (results) {
+      var communityMeta = (results[1] && results[1].communities) ? results[1].communities : {};
+      var xml  = new DOMParser().parseFromString(results[0], "text/xml");
+      var data = parseGraphML(xml, communityMeta);
+      _clusters = data.clusters;
 
-        // Now we have legend info — mount full UI
-        placeholder.classList.remove("graph-panel");
-        placeholder.classList.add("graph-placeholder");
-        var ui = mountUI(placeholder, data.legendEntries);
+      // Re-mount full UI
+      placeholder.classList.remove("graph-panel");
+      placeholder.classList.add("graph-placeholder");
+      var ui = mountUI(placeholder, data.legendEntries);
 
-        var cy = initCytoscape(ui.cyDiv, ui.tooltipEl, data);
-
-        cy.one("layoutstop", function () {
-          ui.loadingEl.style.transition = "opacity 0.3s";
-          ui.loadingEl.style.opacity    = "0";
-          setTimeout(function () {
-            if (ui.loadingEl.parentNode) ui.loadingEl.parentNode.removeChild(ui.loadingEl);
-          }, 320);
-          wireControls(cy);
-        });
-      })
-      .catch(function (err) {
-        placeholder.innerHTML =
-          "<div class=\"graph-loading\" style=\"min-height:120px\">" +
-          "<span style=\"color:#f87171\">Could not load graph: " + esc(err.message) + "</span></div>";
+      _cy = cytoscape({
+        container:           ui.cyDiv,
+        elements:            { nodes: data.nodes, edges: data.edges },
+        style:               cyStyles(),
+        layout:              buildLayout("circular", _clusters),
+        wheelSensitivity:    0.22,
+        minZoom:             0.05,
+        maxZoom:             5,
+        boxSelectionEnabled: false,
       });
+
+      bindInteractions(_cy, ui.cyDiv, ui.tooltipEl, ui.detailPanel, communityMeta);
+
+      _cy.one("layoutstop", function () {
+        ui.loadingEl.style.transition = "opacity 0.3s";
+        ui.loadingEl.style.opacity    = "0";
+        setTimeout(function () {
+          if (ui.loadingEl.parentNode) ui.loadingEl.parentNode.removeChild(ui.loadingEl);
+        }, 320);
+        wireControls(ui);
+      });
+    })
+    .catch(function (err) {
+      placeholder.innerHTML =
+        "<div class=\"graph-loading\" style=\"min-height:120px\">" +
+        "<span style=\"color:#f87171\">Could not load graph: " + esc(err.message) + "</span></div>";
+    });
   }
 
   if (document.readyState === "loading") {

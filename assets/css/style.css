@@ -866,6 +866,196 @@ h2 {
 @keyframes graph-spin {
   to { transform: rotate(360deg); }
 }
+
+/* ── Graph header additions ─────────────────────────────────────────── */
+.graph-header {
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.graph-legend {
+  max-height: 56px;
+  overflow-y: auto;
+  flex: 1;
+  min-width: 0;
+  cursor: default;
+}
+.graph-legend-label {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.graph-legend-item {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.1rem 0.3rem;
+  transition: background 0.15s, opacity 0.15s;
+}
+.graph-legend-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.graph-legend-item.is-focused {
+  background: rgba(255, 255, 255, 0.12);
+  outline: 1px solid rgba(255, 255, 255, 0.28);
+}
+.graph-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+.graph-layout-group {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.graph-layout-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-right: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-family: inherit;
+  padding: 0.27rem 0.55rem;
+  transition: background 0.14s, color 0.14s;
+  white-space: nowrap;
+}
+.graph-layout-btn:last-child {
+  border-right: none;
+}
+.graph-layout-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text);
+}
+.graph-layout-btn.is-active {
+  background: rgba(124, 58, 237, 0.35);
+  color: #c4b5fd;
+}
+
+/* ── Graph detail panel ──────────────────────────────────────────────── */
+.graph-detail-panel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background: rgba(7, 12, 26, 0.96);
+  border-left: 1px solid transparent;
+  overflow: hidden;
+  transition: width 0.22s ease, border-color 0.22s;
+  z-index: 8;
+  border-radius: 0 0 var(--radius-sm) 0;
+}
+.graph-detail-panel.is-open {
+  width: 268px;
+  border-color: var(--border);
+  overflow-y: auto;
+}
+.gdp-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0.55rem 0.55rem 0 0;
+  padding: 0.18rem 0.5rem;
+  transition: background 0.14s;
+  z-index: 2;
+}
+.gdp-close:hover {
+  background: rgba(255, 255, 255, 0.13);
+  color: var(--text);
+}
+.gdp-body {
+  padding: 0.7rem 0.85rem 1rem;
+  overflow-wrap: break-word;
+}
+.gdp-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin-bottom: 0.45rem;
+  margin-top: 0.15rem;
+}
+.gdp-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+.gdp-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.35;
+  word-break: break-word;
+}
+.gdp-edge-name {
+  font-size: 0.82rem;
+}
+.gdp-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 5px;
+  padding: 0.1rem 0.45rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+.gdp-comm {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+  font-style: italic;
+}
+.gdp-stat {
+  font-size: 0.73rem;
+  color: var(--muted-2);
+  margin-bottom: 0.5rem;
+}
+.gdp-section-label {
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-2);
+  margin: 0.7rem 0 0.3rem;
+}
+.gdp-desc {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.55;
+}
+.gdp-neighbors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.1rem;
+}
+.gdp-neighbor {
+  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 0.12rem 0.4rem;
+  color: var(--muted);
+  word-break: break-word;
+}
 .detail-sources .list {
   margin-top: 0.35rem;
   max-height: 8em;
