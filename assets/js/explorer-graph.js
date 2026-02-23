@@ -137,6 +137,55 @@
       });
     });
 
+    // Keep only the largest connected component (removes island communities)
+    var nodeIds = new Set(nodes.map(function (n) { return n.data.id; }));
+    var adj = {};
+    nodeIds.forEach(function (id) { adj[id] = []; });
+    edgesRaw.forEach(function (e) {
+      if (nodeIds.has(e.src) && nodeIds.has(e.tgt)) {
+        adj[e.src].push(e.tgt);
+        adj[e.tgt].push(e.src);
+      }
+    });
+    var visited = {};
+    var components = [];
+    function dfs(id, comp) {
+      visited[id] = true;
+      comp.push(id);
+      (adj[id] || []).forEach(function (nid) {
+        if (!visited[nid]) dfs(nid, comp);
+      });
+    }
+    nodeIds.forEach(function (id) {
+      if (!visited[id]) {
+        var comp = [];
+        dfs(id, comp);
+        components.push(comp);
+      }
+    });
+    if (components.length > 0) {
+      components.sort(function (a, b) { return b.length - a.length; });
+      var keep = new Set(components[0]);
+      nodes = nodes.filter(function (n) { return keep.has(n.data.id); });
+      edges = edges.filter(function (e) {
+        return keep.has(e.data.source) && keep.has(e.data.target);
+      });
+      clusterMap = {};
+      nodes.forEach(function (n) {
+        var c = n.data.community;
+        if (c !== "__none__") {
+          if (!clusterMap[c]) clusterMap[c] = [];
+          clusterMap[c].push(n.data.id);
+        }
+      });
+      legendEntries = legendEntries.filter(function (e) {
+        if (e.commKey === "__none__") {
+          return nodes.some(function (n) { return n.data.community === "__none__"; });
+        }
+        return clusterMap[e.commKey] && clusterMap[e.commKey].length > 0;
+      });
+    }
+
     return {
       nodes: nodes,
       edges: edges,
