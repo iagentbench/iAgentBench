@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">INTERNAL AFFAIRS UNIT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Internal Affairs Unit of the Arizona Department of Public Safety is responsible for investigating complaints against the department's employees.</data>
+    </node>
+    <node id="1">
+      <data key="d0">ARIZONA DEPARTMENT OF PUBLIC SAFETY</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="2">
+      <data key="d0">DUTY OFFICER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Duty Officer of the Arizona Department of Public Safety is available 24 hours a day, year-round to receive complaints.</data>
+    </node>
+    <node id="3">
+      <data key="d0">AREA SUPERVISOR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Area Supervisors of the Arizona Department of Public Safety can also be contacted to file complaints, and they are available 24 hours a day, year-round.</data>
+    </node>
+    <node id="4">
+      <data key="d0">RACIAL PROFILING</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Arizona Department of Public Safety is committed to preventing racial profiling within the agency, and has policies, procedures, and training in place to enforce this commitment.</data>
+    </node>
+    <node id="5">
+      <data key="d0">PHOENIX</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The city where the Arizona Department of Public Safety headquarters is located</data>
+    </node>
+    <node id="6">
+      <data key="d0">AMBER ALERTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Arizona Department of Public Safety issues Amber Alerts to help find missing children</data>
+    </node>
+    <node id="7">
+      <data key="d0">BLUE ALERTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Arizona Department of Public Safety issues Blue Alerts to help find suspects who have harmed or killed law enforcement officers</data>
+    </node>
+    <node id="8">
+      <data key="d0">SAFE ALERTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Arizona Department of Public Safety issues SAFE Alerts to help find missing vulnerable adults</data>
+    </node>
+    <node id="9">
+      <data key="d0">TURQUOISE ALERTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Arizona Department of Public Safety issues Turquoise Alerts to help find missing Native American children</data>
+    </node>
+    <node id="10">
+      <data key="d0">ARIZONA</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="11">
+      <data key="d0">TEMPE POLICE DEPARTMENT</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="12">
+      <data key="d0">DEPARTMENT OF PUBLIC SAFETY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Arizona Department of Public Safety is a state law enforcement agency</data>
+    </node>
+    <node id="13">
+      <data key="d0">ANDREW MCCORMICK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Andrew McCormick is a LEOSA instructor at the Tempe Police Department</data>
+    </node>
+    <node id="14">
+      <data key="d0">TEMPE POLICE DEPT</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="15">
+      <data key="d0">AZDPS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Arizona Department of Public Safety, also referred to as AZDPS</data>
+    </node>
+    <node id="16">
+      <data key="d0">COLONEL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Colonel is a leadership position within the Arizona Department of Public Safety</data>
+    </node>
+    <node id="17">
+      <data key="d0">COMMAND STAFF</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Command Staff is a leadership group within the Arizona Department of Public Safety</data>
+    </node>
+    <node id="18">
+      <data key="d0">FALLEN TROOPERS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">0.0</data>
+      <data key="d5">An event or memorial for Arizona Department of Public Safety troopers who have died in the line of duty</data>
+    </node>
+    <node id="19">
+      <data key="d0">ARIZONA MEDAL OF VALOR</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">0.0</data>
+      <data key="d5">An award given by the Arizona Department of Public Safety to recognize acts of valor</data>
+    </node>
+    <node id="20">
+      <data key="d0">FINGERPRINT CLEARANCE CARD APPLICANT PROCESSING TEAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A team within the Arizona Department of Public Safety that processes fingerprint clearance card applications</data>
+    </node>
+    <node id="21">
+      <data key="d0">CONCEALED WEAPONS AND PERMITS LICENSING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that handles concealed weapons permits and licensing</data>
+    </node>
+    <node id="22">
+      <data key="d0">RECORDS REQUEST PUBLIC SERVICES PORTAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A public services portal operated by the Arizona Department of Public Safety for requesting records</data>
+    </node>
+    <node id="23">
+      <data key="d0">CLAIM PERSONAL PROPERTY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety for claiming personal property</data>
+    </node>
+    <node id="24">
+      <data key="d0">COURTS &amp; TRAFFIC TICKETS INFORMATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety for information on courts and traffic tickets</data>
+    </node>
+    <node id="25">
+      <data key="d0">HOUSEHOLD GOODS ENFORCEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that enforces regulations on household goods</data>
+    </node>
+    <node id="26">
+      <data key="d0">MISSING CHILDREN SEARCH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety for searching for missing children</data>
+    </node>
+    <node id="27">
+      <data key="d0">SEX OFFENDER COMPLIANCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that monitors sex offender compliance</data>
+    </node>
+    <node id="28">
+      <data key="d0">TOW TRUCK APPLICATION ENFORCEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that enforces tow truck application regulations</data>
+    </node>
+    <node id="29">
+      <data key="d0">CHAPLAINCY PROGRAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A program within the Arizona Department of Public Safety that provides chaplaincy services</data>
+    </node>
+    <node id="30">
+      <data key="d0">SERVICE COMMERCIAL VEHICLE ENFORCEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that enforces regulations on commercial vehicles</data>
+    </node>
+    <node id="31">
+      <data key="d0">DUI ENFORCEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that enforces DUI laws</data>
+    </node>
+    <node id="32">
+      <data key="d0">GIITEM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Gang and Immigration Intelligence Team Enforcement Mission, a division within the Arizona Department of Public Safety</data>
+    </node>
+    <node id="33">
+      <data key="d0">IMPAIRED DRIVING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that focuses on impaired driving enforcement</data>
+    </node>
+    <node id="34">
+      <data key="d0">MOVE OVER LAW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A division within the Arizona Department of Public Safety that enforces the Move Over law</data>
+    </node>
+    <node id="35">
+      <data key="d0">SCRAP METAL THEFT DATABASE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A database maintained by the Arizona Department of Public Safety to track scrap metal theft</data>
+    </node>
+    <node id="36">
+      <data key="d0">WANTED FUGITIVE TIPS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety for reporting wanted fugitives</data>
+    </node>
+    <node id="37">
+      <data key="d0">ADOT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Arizona Department of Transportation, a partner organization of the Arizona Department of Public Safety</data>
+    </node>
+    <node id="38">
+      <data key="d0">ADRS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Arizona Department of Rehabilitation Services, a partner organization of the Arizona Department of Public Safety</data>
+    </node>
+    <node id="39">
+      <data key="d0">AFIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Automated Fingerprint Identification System, a service provided by the Arizona Department of Public Safety</data>
+    </node>
+    <node id="40">
+      <data key="d0">CJIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Criminal Justice Information Services, a division of the Arizona Department of Public Safety</data>
+    </node>
+    <node id="41">
+      <data key="d0">CRIME LABORATORY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The crime laboratory operated by the Arizona Department of Public Safety</data>
+    </node>
+    <node id="42">
+      <data key="d0">BLOOD ALCOHOL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for blood alcohol testing</data>
+    </node>
+    <node id="43">
+      <data key="d0">BREATH ALCOHOL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for breath alcohol testing</data>
+    </node>
+    <node id="44">
+      <data key="d0">RAPID DNA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for rapid DNA analysis</data>
+    </node>
+    <node id="45">
+      <data key="d0">CONTROLLED SUBSTANCES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for controlled substances analysis</data>
+    </node>
+    <node id="46">
+      <data key="d0">DNA FIELD SERVICES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for DNA field services</data>
+    </node>
+    <node id="47">
+      <data key="d0">FIREARM/TOOLMARK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for firearm and toolmark analysis</data>
+    </node>
+    <node id="48">
+      <data key="d0">LATENT PRINTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for latent print analysis</data>
+    </node>
+    <node id="49">
+      <data key="d0">PROPERTY AND EVIDENCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for property and evidence analysis</data>
+    </node>
+    <node id="50">
+      <data key="d0">QUALITY ASSURANCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for quality assurance</data>
+    </node>
+    <node id="51">
+      <data key="d0">QUESTIONED DOCUMENTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for questioned documents analysis</data>
+    </node>
+    <node id="52">
+      <data key="d0">SIMPLIFIED LABORATORY REPORTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for simplified laboratory reports</data>
+    </node>
+    <node id="53">
+      <data key="d0">TOXICOLOGY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for toxicology analysis</data>
+    </node>
+    <node id="54">
+      <data key="d0">TRACE EVIDENCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety's crime laboratory for trace evidence analysis</data>
+    </node>
+    <node id="55">
+      <data key="d0">CRIME VICTIMS SERVICES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">A service provided by the Arizona Department of Public Safety for crime victims</data>
+    </node>
+    <node id="56">
+      <data key="d0">NCJ</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The National Criminal Justice, a service provided by the Arizona Department of Public Safety</data>
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">Unit part...</data>
+      <data key="d6">The Internal Affairs Unit is part of the Arizona Department of Public Safety and investigates complaints against the department's employees.</data>
+    </edge>
+    <edge id="e1" source="1" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">is an employee...</data>
+      <data key="d6">The Duty Officer is an employee of the Arizona Department of Public Safety who is available to receive complaints around the clock.</data>
+    </edge>
+    <edge id="e2" source="1" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">employees Arizona Department...</data>
+      <data key="d6">Area Supervisors are employees of the Arizona Department of Public Safety who can receive complaints from the public.</data>
+    </edge>
+    <edge id="e3" source="1" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">Public Safety taken...</data>
+      <data key="d6">The Arizona Department of Public Safety has taken steps to prevent racial profiling by its employees, including implementing policies, procedures, and training.</data>
+    </edge>
+    <edge id="e4" source="1" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">Public Safety...</data>
+      <data key="d6">The Arizona Department of Public Safety is the state law enforcement agency for the state of Arizona.</data>
+    </edge>
+    <edge id="e5" source="1" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">Arizona Department Public...</data>
+      <data key="d6">The headquarters of the Arizona Department of Public Safety is located in Phoenix, Arizona.</data>
+    </edge>
+    <edge id="e6" source="1" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Public Safety issues...</data>
+      <data key="d6">The Arizona Department of Public Safety issues Amber Alerts to help find missing children in the state.</data>
+    </edge>
+    <edge id="e7" source="1" target="7">
+      <data key="d3">9.0</data>
+      <data key="d4">Public Safety issues...</data>
+      <data key="d6">The Arizona Department of Public Safety issues Blue Alerts to help find suspects who have harmed or killed law enforcement officers in the state.</data>
+    </edge>
+    <edge id="e8" source="1" target="8">
+      <data key="d3">9.0</data>
+      <data key="d4">Public Safety issues...</data>
+      <data key="d6">The Arizona Department of Public Safety issues SAFE Alerts to help find missing vulnerable adults in the state.</data>
+    </edge>
+    <edge id="e9" source="1" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">Public Safety issues...</data>
+      <data key="d6">The Arizona Department of Public Safety issues Turquoise Alerts to help find missing Native American children in the state.</data>
+    </edge>
+    <edge id="e10" source="1" target="11">
+      <data key="d3">6.0</data>
+      <data key="d4">Department Arizona Department...</data>
+      <data key="d6">The Tempe Police Department and Arizona Department of Public Safety are both law enforcement agencies in Arizona that may coordinate on investigations and incidents.</data>
+    </edge>
+    <edge id="e11" source="12" target="14">
+      <data key="d3">7.0</data>
+      <data key="d4">Department Arizona Department...</data>
+      <data key="d6">The Tempe Police Department and the Arizona Department of Public Safety are both law enforcement agencies in the state of Arizona</data>
+    </edge>
+    <edge id="e12" source="12" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">Public Safety...</data>
+      <data key="d6">The Arizona Department of Public Safety is a state law enforcement agency in Arizona</data>
+    </edge>
+    <edge id="e13" source="12" target="15">
+      <data key="d3">9.0</data>
+      <data key="d4">abbreviation Arizona Department...</data>
+      <data key="d6">AZDPS is the abbreviation for the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e14" source="13" target="14">
+      <data key="d3">1.0</data>
+      <data key="d4">LEOSA instructor...</data>
+      <data key="d6">Andrew McCormick is a LEOSA instructor at the Tempe Police Department</data>
+    </edge>
+    <edge id="e15" source="14" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">Department located...</data>
+      <data key="d6">The Tempe Police Department is located in the state of Arizona</data>
+    </edge>
+    <edge id="e16" source="15" target="16">
+      <data key="d3">8.0</data>
+      <data key="d4">leadership position within...</data>
+      <data key="d6">The Colonel is a leadership position within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e17" source="15" target="17">
+      <data key="d3">8.0</data>
+      <data key="d4">leadership group within...</data>
+      <data key="d6">The Command Staff is a leadership group within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e18" source="15" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">event held...</data>
+      <data key="d6">The Fallen Troopers event is held by the Arizona Department of Public Safety to honor troopers who have died in the line of duty</data>
+    </edge>
+    <edge id="e19" source="15" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">Valor award...</data>
+      <data key="d6">The Arizona Medal of Valor is an award given by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e20" source="15" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">Card Applicant Processing...</data>
+      <data key="d6">The Fingerprint Clearance Card Applicant Processing Team is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e21" source="15" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">Permits Licensing division...</data>
+      <data key="d6">The Concealed Weapons and Permits Licensing division is within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e22" source="15" target="22">
+      <data key="d3">8.0</data>
+      <data key="d4">Public Services Portal...</data>
+      <data key="d6">The Records Request Public Services Portal is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e23" source="15" target="23">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Claiming personal property is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e24" source="15" target="24">
+      <data key="d3">8.0</data>
+      <data key="d4">traffic tickets...</data>
+      <data key="d6">Information on courts and traffic tickets is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e25" source="15" target="25">
+      <data key="d3">8.0</data>
+      <data key="d4">division within...</data>
+      <data key="d6">Household goods enforcement is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e26" source="15" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">children service provided...</data>
+      <data key="d6">Searching for missing children is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e27" source="15" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">division within...</data>
+      <data key="d6">Sex offender compliance is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e28" source="15" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">enforcement division within...</data>
+      <data key="d6">Tow truck application enforcement is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e29" source="15" target="29">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">The Chaplaincy Program is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e30" source="15" target="30">
+      <data key="d3">8.0</data>
+      <data key="d4">division within...</data>
+      <data key="d6">Commercial vehicle enforcement is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e31" source="15" target="31">
+      <data key="d3">8.0</data>
+      <data key="d4">division within Arizona...</data>
+      <data key="d6">DUI enforcement is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e32" source="15" target="32">
+      <data key="d3">8.0</data>
+      <data key="d4">division within Arizona...</data>
+      <data key="d6">GIITEM is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e33" source="15" target="33">
+      <data key="d3">8.0</data>
+      <data key="d4">division within...</data>
+      <data key="d6">Impaired driving enforcement is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e34" source="15" target="34">
+      <data key="d3">8.0</data>
+      <data key="d4">enforcement division within...</data>
+      <data key="d6">Move Over law enforcement is a division within the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e35" source="15" target="35">
+      <data key="d3">8.0</data>
+      <data key="d4">Theft Database maintained...</data>
+      <data key="d6">The Scrap Metal Theft Database is maintained by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e36" source="15" target="36">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Reporting wanted fugitives is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e37" source="15" target="37">
+      <data key="d3">8.0</data>
+      <data key="d4">Transportation partner...</data>
+      <data key="d6">The Arizona Department of Transportation is a partner organization of the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e38" source="15" target="38">
+      <data key="d3">8.0</data>
+      <data key="d4">Rehabilitation Services...</data>
+      <data key="d6">The Arizona Department of Rehabilitation Services is a partner organization of the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e39" source="15" target="39">
+      <data key="d3">8.0</data>
+      <data key="d4">Identification System service...</data>
+      <data key="d6">The Automated Fingerprint Identification System is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e40" source="15" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">Information Services division...</data>
+      <data key="d6">The Criminal Justice Information Services is a division of the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e41" source="15" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">operated Arizona...</data>
+      <data key="d6">The crime laboratory is operated by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e42" source="15" target="55">
+      <data key="d3">8.0</data>
+      <data key="d4">provided Arizona...</data>
+      <data key="d6">Crime victims services are provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e43" source="15" target="56">
+      <data key="d3">8.0</data>
+      <data key="d4">Justice service provided...</data>
+      <data key="d6">The National Criminal Justice is a service provided by the Arizona Department of Public Safety</data>
+    </edge>
+    <edge id="e44" source="41" target="42">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Blood alcohol testing is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e45" source="41" target="43">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Breath alcohol testing is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e46" source="41" target="44">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Rapid DNA analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e47" source="41" target="45">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Controlled substances analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e48" source="41" target="46">
+      <data key="d3">8.0</data>
+      <data key="d4">provided Arizona...</data>
+      <data key="d6">DNA field services are provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e49" source="41" target="47">
+      <data key="d3">8.0</data>
+      <data key="d4">analysis service provided...</data>
+      <data key="d6">Firearm and toolmark analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e50" source="41" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Latent print analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e51" source="41" target="49">
+      <data key="d3">8.0</data>
+      <data key="d4">analysis service provided...</data>
+      <data key="d6">Property and evidence analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e52" source="41" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Quality assurance is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e53" source="41" target="51">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Questioned documents analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e54" source="41" target="52">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Simplified laboratory reports are a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e55" source="41" target="53">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Toxicology analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+    <edge id="e56" source="41" target="54">
+      <data key="d3">8.0</data>
+      <data key="d4">service provided...</data>
+      <data key="d6">Trace evidence analysis is a service provided by the Arizona Department of Public Safety's crime laboratory</data>
+    </edge>
+  </graph>
+</graphml>

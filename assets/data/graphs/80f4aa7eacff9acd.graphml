@@ -1,0 +1,952 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">DR. TIM ORR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The author of the text, who discusses the challenges facing the Heritage Foundation and the broader decline of moral courage and sacred fear in Western institutions</data>
+    </node>
+    <node id="1">
+      <data key="d0">MOSES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">A biblical figure cited as an example of a "prophetic statesman" who "trembled before God so they could stand before kings"</data>
+    </node>
+    <node id="2">
+      <data key="d0">JEREMIAH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">A biblical prophet cited as an example of a "prophetic statesman" who warned that "when priests fear men, the city's walls already lean"</data>
+    </node>
+    <node id="3">
+      <data key="d0">LINCOLN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">A historical figure cited as an example of a "prophetic statesman" who fused "the priest's reverence with the warrior's resolve"</data>
+    </node>
+    <node id="4">
+      <data key="d0">CHURCHILL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">A historical figure cited as an example of a "prophetic statesman" who fused "the priest's reverence with the warrior's resolve"</data>
+    </node>
+    <node id="5">
+      <data key="d0">HERITAGE FOUNDATION</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="6">
+      <data key="d0">DONALD TRUMP</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Donald Trump is the former President of the United States. He initially disavowed Project 2025, a controversial government initiative, but has since nominated several of its authors to key government positions. This suggests a shift in his stance on the project.
+
+Additionally, Trump has been described as the former U.S. president who "won" the trade war, according to claims made by Roberts. This likely refers to the trade policies and negotiations Trump pursued during his presidency, which aimed to address perceived imbalances in international trade.
+
+Overall, Donald Trump's relationship with Project 2025 and his approach to trade policy during his time as president appear to be complex, with some initial opposition followed by a more supportive stance. The provided descriptions highlight these nuances, though they do not delve into the specific details or rationale behind Trump's evolving positions on these matters.</data>
+    </node>
+    <node id="7">
+      <data key="d0">RUSSELL VOUGHT</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Russell Vought, a self-described Christian nationalist, wrote a key chapter in Project 2025 and was confirmed by the Senate to lead the Office of Budget Management and the Consumer Financial Protection Bureau.</data>
+    </node>
+    <node id="8">
+      <data key="d0">JOHN RATCLIFFE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">John Ratcliffe, a Project 2025 author, was nominated by Trump to be the CIA director.</data>
+    </node>
+    <node id="9">
+      <data key="d0">BRENDAN CARR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Brendan Carr, a Project 2025 author, was chosen by Trump to oversee the Federal Communications Commission.</data>
+    </node>
+    <node id="10">
+      <data key="d0">TOM HOMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Tom Homan, a Project 2025 author, was appointed by Trump as the "border czar."</data>
+    </node>
+    <node id="11">
+      <data key="d0">PAUL ATKINS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Paul Atkins, a Project 2025 author, was nominated by Trump to head the Securities and Exchange Commission.</data>
+    </node>
+    <node id="12">
+      <data key="d0">PETER NAVARRO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Peter Navarro, a Project 2025 author, was appointed by Trump as a trade advisor.</data>
+    </node>
+    <node id="13">
+      <data key="d0">PROJECT 2025</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="14">
+      <data key="d0">ELON MUSK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Elon Musk is a prominent figure in the technology industry, known for his roles as the CEO of Tesla and SpaceX. Musk has been involved in various high-profile endeavors, including his participation in Donald Trump's 2017 presidential inauguration, where he was among the tech leaders invited to attend.
+
+In addition to his business ventures, Musk has also taken on a role in advising the government. Through the Department of Government Efficiency, he has provided input to President Trump on the potential for the president to exercise broad authority to reduce federal spending by billions of dollars.
+
+Musk's involvement in both the private and public sectors has made him a significant figure in the technology and political landscapes. His expertise and influence have been sought out by various entities, including the Trump administration, as they navigate complex issues and make decisions that impact the country and the world.
+
+Despite the diverse nature of Musk's activities, the information provided does not appear to be contradictory. The descriptions highlight Musk's multifaceted roles and the ways in which he has leveraged his knowledge and experience to contribute to both the private and public spheres.
+
+Overall, Elon Musk emerges as a highly influential and versatile individual, whose impact extends beyond the confines of his business ventures. His willingness to engage with the government and provide input on matters of policy and efficiency demonstrates his commitment to shaping the broader landscape in which he operates.</data>
+    </node>
+    <node id="15">
+      <data key="d0">DEPARTMENT OF GOVERNMENT EFFICIENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Department of Government Efficiency is an outside team advising Trump with broad authority from the president.</data>
+    </node>
+    <node id="16">
+      <data key="d0">DEPARTMENT OF EDUCATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Department of Education is a federal agency within the United States government responsible for establishing policies and administering programs related to education. It was created in 1979 under the Carter administration.
+
+However, there is a proposal known as "Project 2025" that calls for the complete elimination of the Department of Education. The project document specifically states that the Department of Education should be abolished. This suggests that there is a push to dismantle the agency and transfer its responsibilities to other government entities or to the states.
+
+The rationale behind this proposal is likely rooted in the belief that education is best managed at the state and local level, rather than by a centralized federal agency. Proponents of Project 2025 may argue that eliminating the Department of Education would reduce bureaucracy, increase flexibility for individual states, and potentially save taxpayer money.
+
+At this time, it is unclear whether Project 2025 has gained significant traction or support within the federal government. The Department of Education continues to operate and fulfill its mandate, but the future of the agency remains uncertain if this proposal gains more momentum. Any changes to the Department of Education would likely require congressional approval and could face opposition from those who believe in the importance of a federal role in education policy and funding.
+
+In summary, the Department of Education is currently a functioning federal agency, but there is a proposal known as Project 2025 that calls for its complete elimination. The outcome of this proposal and the future of the Department of Education remain to be seen.</data>
+    </node>
+    <node id="17">
+      <data key="d0">DEPARTMENT OF JUSTICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Project 2025 proposes that the entire federal bureaucracy, including independent agencies such as the Department of Justice, be placed under direct presidential control.</data>
+    </node>
+    <node id="18">
+      <data key="d0">FEDERAL BUREAU OF INVESTIGATION (FBI)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Project 2025 labels the FBI as a "bloated, arrogant, increasingly lawless organization" and calls for drastic overhauls of the agency.</data>
+    </node>
+    <node id="19">
+      <data key="d0">CONSUMER FINANCIAL PROTECTION BUREAU</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Russell Vought, a Project 2025 author, was put in charge of the Consumer Financial Protection Bureau, an agency the Trump administration has indicated it would like to close.</data>
+    </node>
+    <node id="20">
+      <data key="d0">OFFICE OF BUDGET MANAGEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Russell Vought, a Project 2025 author, was confirmed by the Senate to lead the Office of Budget Management, which administers the $6.75 trillion federal budget.</data>
+    </node>
+    <node id="21">
+      <data key="d0">TRUMP</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="22">
+      <data key="d0">ROBERT F KENNEDY JR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Robert F Kennedy Jr is Trump's nominee for health secretary, who said the president had ordered him to examine the safety record of mifepristone and left open the possibility of further regulation of the drug.</data>
+    </node>
+    <node id="23">
+      <data key="d0">DEPARTMENT OF HOMELAND SECURITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Department of Homeland Security is proposed to be dismantled and combined with other immigration enforcement units in other agencies, creating a much larger and more powerful border policing operation.</data>
+    </node>
+    <node id="24">
+      <data key="d0">PARIS AGREEMENT</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Paris Agreement on climate change seeks to limit emissions and global warming, which the Trump administration has taken the US out of.</data>
+    </node>
+    <node id="25">
+      <data key="d0">FEDERAL RESERVE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Project 2025 document suggests abolishing the Federal Reserve.</data>
+    </node>
+    <node id="26">
+      <data key="d0">CANADA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Canada is a neighboring country to the United States. It is a country that has been targeted by import taxes announced by former U.S. President Donald Trump.
+
+Canada is the world's second-largest country by total area, spanning from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean. It is a highly developed nation with a strong economy and a high standard of living. Canada is known for its diverse landscapes, from the rugged Rocky Mountains in the west to the vast boreal forests and tundra in the north.
+
+The country has a population of over 37 million people, with a diverse ethnic and cultural makeup. Canada is officially bilingual, with both English and French as the country's official languages. The capital city is Ottawa, but the largest city is Toronto, which is a global center of finance, technology, and culture.
+
+Canada has a mixed economy, with a strong emphasis on natural resources, manufacturing, and services. The country is a member of the G7, the Organization for Economic Cooperation and Development (OECD), and the United Nations, among other international organizations. Canada is also known for its progressive social policies, including universal healthcare, strong environmental protections, and a commitment to multiculturalism.
+
+In recent years, Canada has been the target of import taxes announced by former U.S. President Donald Trump. These tariffs have had an impact on the country's economy, particularly in industries such as steel and aluminum production. However, Canada has worked to diversify its trade relationships and has negotiated new trade agreements, such as the United States-Mexico-Canada Agreement (USMCA), to mitigate the effects of these tariffs.
+
+Overall, Canada is a prosperous and influential country that plays a significant role on the global stage. Its strong economy, diverse population, and commitment to social and environmental responsibility make it an important partner for many countries around the world.</data>
+    </node>
+    <node id="27">
+      <data key="d0">MEXICO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Mexico is one of the countries that Trump has announced import taxes targeting.</data>
+    </node>
+    <node id="28">
+      <data key="d0">CHINA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">China is one of the countries that Trump has announced import taxes targeting.</data>
+    </node>
+    <node id="29">
+      <data key="d0">NEW YORK UNIVERSITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">New York University is a private research university located in New York City. It is where Donald Trump's son currently attends.</data>
+    </node>
+    <node id="30">
+      <data key="d0">KAMALA HARRIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Kamala Harris is the former Vice President of the United States, having served under President Joe Biden. She lost the 2024 election to Donald Trump, but presided over the certification of the election results as required by the Constitution.</data>
+    </node>
+    <node id="31">
+      <data key="d0">JOE BIDEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Joe Biden was the 46th President of the United States, serving from 2021 to 2025. He was defeated by Donald Trump in the 2024 election.</data>
+    </node>
+    <node id="32">
+      <data key="d0">MARK ZUCKERBERG</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Mark Zuckerberg is the co-founder and CEO of Facebook, and was among the tech leaders invited to attend Donald Trump's 2017 inauguration.</data>
+    </node>
+    <node id="33">
+      <data key="d0">JEFF BEZOS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Jeff Bezos is the founder and former CEO of Amazon, and was among the tech leaders invited to attend Donald Trump's 2017 inauguration.</data>
+    </node>
+    <node id="34">
+      <data key="d0">MARCO RUBIO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Marco Rubio is a Republican Senator who participated in confirmation hearings for Donald Trump's cabinet nominees.</data>
+    </node>
+    <node id="35">
+      <data key="d0">PAM BONDI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Pam Bondi is a Republican politician who participated in confirmation hearings for Donald Trump's cabinet nominees.</data>
+    </node>
+    <node id="36">
+      <data key="d0">PETE HEGSETH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Pete Hegseth is a conservative commentator who was nominated by Donald Trump to serve as Secretary of Defense.</data>
+    </node>
+    <node id="37">
+      <data key="d0">ROBERT F. KENNEDY JR.</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Robert F. Kennedy Jr. is an environmental activist and vaccine skeptic who was nominated by Donald Trump to serve as Secretary of Health and Human Services.</data>
+    </node>
+    <node id="38">
+      <data key="d0">VLADIMIR PUTIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Vladimir Putin is the President of Russia who congratulated Donald Trump on his election victory.</data>
+    </node>
+    <node id="39">
+      <data key="d0">JOHN BOLTON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">John Bolton was a former adviser to President Donald Trump.</data>
+    </node>
+    <node id="40">
+      <data key="d0">JACK SMITH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Jack Smith was a former US Special Counsel who investigated President Donald Trump.</data>
+    </node>
+    <node id="41">
+      <data key="d0">GEORGE CLOONEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">George Clooney is an actor and prominent Democratic fundraiser who criticized the decision to replace President Joe Biden with Kamala Harris.</data>
+    </node>
+    <node id="42">
+      <data key="d0">KEVIN ROBERTS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Kevin Roberts is the current president of the Heritage Foundation, a prominent conservative think tank in the United States. Under his leadership, the organization has faced several controversies and accusations of shifting towards a more extreme, anti-establishment direction.
+
+According to the provided descriptions, Roberts has been directing Heritage Foundation employees to read his 2024 book "Dawn's Early Light," which suggests he is attempting to influence the organization's direction and messaging. Additionally, he has been accused of constraining the think tank's policy positions to align more closely with the Trump administration, moving away from its traditional conservative principles.
+
+Roberts has also made several controversial statements and decisions that have drawn criticism. He was accused of refusing to condemn Tucker Carlson's platforming of the neo-Nazi figure Nick Fuentes, and he posted a video defending the decision not to "cancel" a neo-Nazi. These actions have led to concerns that Roberts is pushing the Heritage Foundation towards a more extreme, right-wing agenda.
+
+Despite these controversies, the descriptions also indicate that Roberts is the current president of the Heritage Foundation, suggesting he maintains his position of leadership within the organization. The descriptions also note that he has been accused of shifting the organization's positions, though the specific nature of these shifts is not entirely clear.
+
+In summary, Kevin Roberts is the president of the Heritage Foundation, a prominent conservative think tank in the United States. Under his leadership, the organization has faced accusations of moving in a more extreme, anti-establishment direction, with Roberts being accused of constraining the think tank's policy positions, making controversial statements, and attempting to influence the organization's direction through his own writings. However, the descriptions provided do not offer a fully coherent and consistent picture of Roberts' tenure as president, and some contradictions remain unresolved.</data>
+    </node>
+    <node id="43">
+      <data key="d0">TUCKER CARLSON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Tucker Carlson is a prominent conservative media personality and host on the Fox News network. He is known for his controversial and often divisive commentary on political and social issues.
+
+Recently, Carlson has faced criticism for his involvement with the far-right figure Nick Fuentes. Fuentes is a Holocaust denier and self-described white nationalist who has expressed extremist and antisemitic views. Carlson interviewed Fuentes on his show, which led to significant backlash and turmoil, particularly within the conservative Heritage Foundation.
+
+The descriptions provided indicate that Carlson has a history of amplifying the views of white nationalist and neo-Nazi influencers like Fuentes. This has led to accusations that Carlson is helping to legitimize and mainstream these fringe ideologies. The interviews and associations with figures like Fuentes have been seen as a concerning trend, as they provide a platform for the spread of hateful and discriminatory rhetoric.
+
+Despite the controversies, Carlson remains a prominent and influential figure in the conservative media landscape. He continues to host his show on Fox News, where he regularly shares his conservative commentary and analysis on current events. However, his willingness to engage with and amplify the views of extremist figures like Fuentes has drawn significant criticism and scrutiny.
+
+In summary, Tucker Carlson is a conservative media personality who has faced criticism for his involvement with and amplification of far-right and neo-Nazi figures, such as his interview with the Holocaust denier and white nationalist Nick Fuentes. This has led to concerns about the normalization of extremist ideologies and the potential harm caused by providing a platform for such views.</data>
+    </node>
+    <node id="44">
+      <data key="d0">NICK FUENTES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Nick Fuentes is a controversial far-right political commentator who has been associated with various controversies and allegations. 
+
+Fuentes is widely known for his extremist views and associations with neo-Nazi and white nationalist ideologies. He has been described as a Holocaust denier and an antisemite, and his comments and actions have been condemned by many as promoting hateful and discriminatory rhetoric.
+
+Despite his controversial background, Fuentes has managed to gain a significant following, particularly among certain segments of the far-right. He has been interviewed by prominent media figures, such as Tucker Carlson, which has further amplified his influence and exposure.
+
+Fuentes' involvement with the Heritage Foundation has also been a source of controversy. He has been associated with controversies surrounding the organization, which has led to turmoil and scrutiny within the institution.
+
+Overall, Nick Fuentes is a highly polarizing figure whose views and actions have been the subject of intense criticism and debate. While he has a dedicated following among certain groups, his association with neo-Nazi and white nationalist ideologies has made him a controversial and divisive figure in the political landscape.</data>
+    </node>
+    <node id="45">
+      <data key="d0">AMERICAN NAZI PARTY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The American Nazi Party is referenced as potentially making a comeback due to the Heritage Foundation's stance</data>
+    </node>
+    <node id="46">
+      <data key="d0">AMY SWEARER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Amy Swearer is a senior legal fellow at the Heritage Foundation who strongly criticized Kevin Roberts' leadership and handling of the controversy</data>
+    </node>
+    <node id="47">
+      <data key="d0">ERIC KORSVALL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Eric Korsvall is the chief operating officer of the Heritage Foundation who threatened to fire anyone who leaked information from the organization</data>
+    </node>
+    <node id="48">
+      <data key="d0">WASHINGTON FREE BEACON</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The Washington Free Beacon is the news outlet that published the video of the Heritage Foundation meeting</data>
+    </node>
+    <node id="49">
+      <data key="d0">ELIANA JOHNSON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Eliana Johnson is the editor-in-chief of the Washington Free Beacon, which obtained the video of the Heritage Foundation meeting</data>
+    </node>
+    <node id="50">
+      <data key="d0">AMERICAN HERITAGE GIRLS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">American Heritage Girls is a Christ-centered character development program</data>
+    </node>
+    <node id="51">
+      <data key="d0">JOHN MALCOLM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">John Malcolm was the director of the Meese Center for Legal and Judicial Studies at the Heritage Foundation, who was summarily fired along with his deputy Jessica Reinsch</data>
+    </node>
+    <node id="52">
+      <data key="d0">JESSICA REINSCH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Jessica Reinsch was a deputy director at the Meese Center for Legal and Judicial Studies at the Heritage Foundation, who was summarily fired along with the director John Malcolm</data>
+    </node>
+    <node id="53">
+      <data key="d0">ADVANCING AMERICAN FREEDOM</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="54">
+      <data key="d0">DAWN'S EARLY LIGHT</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="55">
+      <data key="d0">REASON</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="56">
+      <data key="d0">ED FEULNER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The co-founder of The Heritage Foundation, who previously led the organization</data>
+    </node>
+    <node id="57">
+      <data key="d0">THE HERITAGE FOUNDATION</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="58">
+      <data key="d0">TRUMP ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Trump administration is the former US presidential administration that the Heritage Foundation under Kevin Roberts is accused of aligning its policy positions with</data>
+    </node>
+    <node id="59">
+      <data key="d0">NEW YORK TIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The New York Times is the publication that interviewed Kevin Roberts and reported on his aim to "institutionalize Trumpism" at the Heritage Foundation</data>
+    </node>
+    <node id="60">
+      <data key="d0">IAN SPEIR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Ian Speir is an attorney at Covenant Law and fellow at the Religious Freedom Institute who resigned from the Heritage Foundation's National Task Force to Combat Antisemitism.</data>
+    </node>
+    <node id="61">
+      <data key="d0">YAAKOV MENKEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Yaakov Menken is the executive vice President of the Coalition for Jewish Values, who also resigned from the Heritage Foundation's National Task Force to Combat Antisemitism.</data>
+    </node>
+    <node id="62">
+      <data key="d0">ARIE LIPNICK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Arie Lipnick is a member of the Board of Governors for the Combat Antisemitism Movement (CAM) who suspended further participation with the Heritage Foundation pending a meeting with the president.</data>
+    </node>
+    <node id="63">
+      <data key="d0">HILLSDALE COLLEGE</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="64">
+      <data key="d0">ISRAEL</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="65">
+      <data key="d0">ROBERTS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Roberts is a leader at the Heritage Foundation who has made comments that have been criticized as feeding into antisemitic tropes</data>
+    </node>
+    <node id="66">
+      <data key="d0">CAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">CAM is an organization that has suspended its participation in the National Task Force to Combat Antisemitism, a project of the Heritage Foundation, due to concerns over the Heritage Foundation's relationship with Tucker Carlson</data>
+    </node>
+    <node id="67">
+      <data key="d0">CJV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">CJV is an organization that has ended its collaboration with the Heritage Foundation due to concerns over the Heritage Foundation's normalization of antisemitism</data>
+    </node>
+    <node id="68">
+      <data key="d0">CARLSON</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="69">
+      <data key="d0">NATIONAL TASK FORCE TO COMBAT ANTISEMITISM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The National Task Force to Combat Antisemitism is a project of the Heritage Foundation</data>
+    </node>
+    <node id="70">
+      <data key="d0">HOLOCAUST</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Holocaust was the genocide of European Jews by Nazi Germany during World War II</data>
+    </node>
+    <node id="71">
+      <data key="d0">HAMAS</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="5">
+      <data key="d3">16.0</data>
+      <data key="d4">discussing challenges facing...</data>
+      <data key="d6">Dr. Tim Orr is discussing the challenges facing the Heritage Foundation in his text</data>
+    </edge>
+    <edge id="e1" source="1" target="5">
+      <data key="d3">14.0</data>
+      <data key="d4">contrasted with example...</data>
+      <data key="d6">The Heritage Foundation is contrasted with the example of Moses as a "prophetic statesman" who "trembled before God so they could stand before kings"</data>
+    </edge>
+    <edge id="e2" source="2" target="5">
+      <data key="d3">14.0</data>
+      <data key="d4">contrasted with example...</data>
+      <data key="d6">The Heritage Foundation is contrasted with the example of Jeremiah as a "prophetic statesman" who warned that "when priests fear men, the city's walls already lean"</data>
+    </edge>
+    <edge id="e3" source="3" target="5">
+      <data key="d3">14.0</data>
+      <data key="d4">contrasted with example...</data>
+      <data key="d6">The Heritage Foundation is contrasted with the example of Lincoln as a "prophetic statesman" who fused "the priest's reverence with the warrior's resolve"</data>
+    </edge>
+    <edge id="e4" source="4" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">contrasted with example...</data>
+      <data key="d6">The Heritage Foundation is contrasted with the example of Churchill as a "prophetic statesman" who fused "the priest's reverence with the warrior's resolve"</data>
+    </edge>
+    <edge id="e5" source="5" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">produced 900-page policy...</data>
+      <data key="d6">The Heritage Foundation produced the 900-page policy "wish list" known as Project 2025</data>
+    </edge>
+    <edge id="e6" source="6" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">Project 2025 but...</data>
+      <data key="d6">Trump initially disavowed Project 2025 but has since nominated several of its authors to key government positions</data>
+    </edge>
+    <edge id="e7" source="7" target="13">
+      <data key="d3">8.0</data>
+      <data key="d4">self-described Christian nationalist,...</data>
+      <data key="d6">Russell Vought, a self-described Christian nationalist, wrote a key chapter in Project 2025 and was confirmed to lead the Office of Budget Management and the Consumer Financial Protection Bureau</data>
+    </edge>
+    <edge id="e8" source="7" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">Russell Vought, a Project 2025 author, was put in charge of the Consumer Financial Protection Bureau, an agency the Trump administration has indicated it would like to close</data>
+    </edge>
+    <edge id="e9" source="7" target="20">
+      <data key="d3">1.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">Russell Vought, a Project 2025 author, was confirmed by the Senate to lead the Office of Budget Management, which administers the $6.75 trillion federal budget</data>
+    </edge>
+    <edge id="e10" source="8" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">John Ratcliffe, a Project 2025 author, was nominated by Trump to be the CIA director</data>
+    </edge>
+    <edge id="e11" source="9" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">Brendan Carr, a Project 2025 author, was chosen by Trump to oversee the Federal Communications Commission</data>
+    </edge>
+    <edge id="e12" source="10" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">Tom Homan, a Project 2025 author, was appointed by Trump as the "border czar"</data>
+    </edge>
+    <edge id="e13" source="11" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">Paul Atkins, a Project 2025 author, was nominated by Trump to head the Securities and Exchange Commission</data>
+    </edge>
+    <edge id="e14" source="12" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">Project 2025 author,...</data>
+      <data key="d6">Peter Navarro, a Project 2025 author, was appointed by Trump as a trade advisor</data>
+    </edge>
+    <edge id="e15" source="13" target="21">
+      <data key="d3">16.0</data>
+      <data key="d4">policy agenda developed...</data>
+      <data key="d6">Project 2025 is a policy agenda developed by the conservative think tank Heritage Foundation, outlining a vision for a potential second Trump presidency in 2025. While Trump initially distanced himself from the project, he has since appointed several of its authors to key government positions.
+
+The Project 2025 plan was created by the Heritage Foundation, a prominent conservative organization, as a blueprint for a potential second term for former President Donald Trump. The project outlines a wide range of policy proposals across various areas, including the economy, healthcare, immigration, and foreign affairs.
+
+Despite the project's origins, Trump initially disavowed any association with it, stating that he was not involved in its development. However, over time, the former president has taken a more favorable stance towards the initiative, and has nominated several individuals associated with Project 2025 to important government roles.
+
+This shift in Trump's position suggests that the policy proposals outlined in Project 2025 may have gained traction within the former president's inner circle and could potentially be implemented if he were to secure a second term in office.
+
+The comprehensive nature of the Project 2025 plan, combined with the involvement of key figures in the Trump administration, indicates that the former president and his allies may be actively working to advance the agenda outlined in the document. This could have significant implications for the future direction of the country, should Trump successfully mount a comeback in the 2024 presidential election.
+
+It is important to note that the information provided in the descriptions is not entirely consistent, as the initial disavowal of the project by Trump appears to have been followed by a more favorable stance towards it. This suggests that the relationship between the former president and Project 2025 may have evolved over time, and that the full extent of his involvement or endorsement of the plan is not entirely clear.
+
+Overall, Project 2025 represents a significant policy initiative that could have far-reaching consequences for the United States, particularly if it were to be implemented under a potential second Trump presidency. The former president's shifting stance on the project, and the involvement of its authors in his administration, underscores the need for continued monitoring and analysis of this development.</data>
+    </edge>
+    <edge id="e16" source="13" target="16">
+      <data key="d3">9.0</data>
+      <data key="d4">complete elimination...</data>
+      <data key="d6">Project 2025 calls for the complete elimination of the Department of Education</data>
+    </edge>
+    <edge id="e17" source="13" target="17">
+      <data key="d3">8.0</data>
+      <data key="d4">that entire federal...</data>
+      <data key="d6">Project 2025 proposes that the entire federal bureaucracy, including independent agencies such as the Department of Justice, be placed under direct presidential control</data>
+    </edge>
+    <edge id="e18" source="13" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">FBI "bloated,...</data>
+      <data key="d6">Project 2025 labels the FBI as a "bloated, arrogant, increasingly lawless organization" and calls for drastic overhauls of the agency</data>
+    </edge>
+    <edge id="e19" source="14" target="21">
+      <data key="d3">7.0</data>
+      <data key="d4">Department Government Efficiency,...</data>
+      <data key="d6">Elon Musk, through the Department of Government Efficiency, has advised Trump on broad authority from the president to chop billions in federal spending</data>
+    </edge>
+    <edge id="e20" source="15" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">Government Efficiency outside...</data>
+      <data key="d6">The Department of Government Efficiency is an outside team advising Trump with broad authority from the president</data>
+    </edge>
+    <edge id="e21" source="22" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">F Kennedy Jr...</data>
+      <data key="d6">Trump nominated Robert F Kennedy Jr as his health secretary, who said Trump ordered him to examine the safety of mifepristone</data>
+    </edge>
+    <edge id="e22" source="23" target="21">
+      <data key="d3">7.0</data>
+      <data key="d4">document proposes dismantling...</data>
+      <data key="d6">The Project 2025 document proposes dismantling the Department of Homeland Security and combining it with other immigration enforcement units</data>
+    </edge>
+    <edge id="e23" source="24" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">taken out...</data>
+      <data key="d6">The Trump administration has taken the US out of the Paris Agreement on climate change</data>
+    </edge>
+    <edge id="e24" source="25" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">document suggests abolishing...</data>
+      <data key="d6">The Project 2025 document suggests abolishing the Federal Reserve</data>
+    </edge>
+    <edge id="e25" source="16" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">document calls abolishing...</data>
+      <data key="d6">The Project 2025 document calls for abolishing the Department of Education</data>
+    </edge>
+    <edge id="e26" source="21" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">import taxes targeting...</data>
+      <data key="d6">Trump has announced import taxes targeting Canada</data>
+    </edge>
+    <edge id="e27" source="21" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">import taxes targeting...</data>
+      <data key="d6">Trump has announced import taxes targeting Mexico</data>
+    </edge>
+    <edge id="e28" source="21" target="28">
+      <data key="d3">1.0</data>
+      <data key="d4">import taxes targeting...</data>
+      <data key="d6">Trump has announced import taxes targeting China</data>
+    </edge>
+    <edge id="e29" source="13" target="5">
+      <data key="d3">25.0</data>
+      <data key="d4">conservative think tank,...</data>
+      <data key="d6">The Heritage Foundation, a conservative think tank, was involved in the development of Project 2025, a document outlining policy proposals for a potential Trump presidency in 2025. According to the provided information, the Heritage Foundation backed the $22 million budget for the writing of the Project 2025 document, and the organization was responsible for developing the policy wish list contained within the project.
+
+Project 2025 is a comprehensive set of policy recommendations and goals that the Heritage Foundation has put forward for a potential Trump administration in the year 2025. The project covers a wide range of issues, including economic policy, national security, and social issues. The Heritage Foundation, known for its conservative and pro-business leanings, has used its resources and influence to shape the content of the Project 2025 document.
+
+The exact details of the policy proposals within Project 2025 are not fully clear from the information provided. However, it is evident that the Heritage Foundation played a significant role in the development and funding of this project, which suggests that the policy recommendations are likely aligned with the organization's conservative ideological stance.
+
+It is important to note that the information provided does not indicate any direct contradictions or inconsistencies within the descriptions of Project 2025 and the Heritage Foundation's involvement. The descriptions suggest that the Heritage Foundation was the driving force behind the development of the Project 2025 document, providing both the financial resources and the policy direction for the project.
+
+In summary, Project 2025 is a policy document developed by the Heritage Foundation, a conservative think tank, with the aim of outlining a potential policy agenda for a Trump presidency in 2025. The Heritage Foundation provided the $22 million budget for the writing of the document and was responsible for the development of the policy proposals contained within it.</data>
+    </edge>
+    <edge id="e30" source="29" target="6">
+      <data key="d3">7.0</data>
+      <data key="d4">currently attends New...</data>
+      <data key="d6">Donald Trump's son currently attends New York University</data>
+    </edge>
+    <edge id="e31" source="30" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">2024 presidential election...</data>
+      <data key="d6">Kamala Harris lost the 2024 presidential election to Donald Trump</data>
+    </edge>
+    <edge id="e32" source="30" target="41">
+      <data key="d3">1.0</data>
+      <data key="d4">decision replace President...</data>
+      <data key="d6">George Clooney criticized the decision to replace President Joe Biden with Kamala Harris</data>
+    </edge>
+    <edge id="e33" source="31" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">Joe Biden 2024...</data>
+      <data key="d6">Donald Trump defeated Joe Biden in the 2024 presidential election</data>
+    </edge>
+    <edge id="e34" source="14" target="6">
+      <data key="d3">6.0</data>
+      <data key="d4">invited attend Donald...</data>
+      <data key="d6">Elon Musk was invited to attend Donald Trump's 2017 inauguration</data>
+    </edge>
+    <edge id="e35" source="32" target="6">
+      <data key="d3">6.0</data>
+      <data key="d4">invited attend Donald...</data>
+      <data key="d6">Mark Zuckerberg was invited to attend Donald Trump's 2017 inauguration</data>
+    </edge>
+    <edge id="e36" source="33" target="6">
+      <data key="d3">6.0</data>
+      <data key="d4">invited attend Donald...</data>
+      <data key="d6">Jeff Bezos was invited to attend Donald Trump's 2017 inauguration</data>
+    </edge>
+    <edge id="e37" source="34" target="6">
+      <data key="d3">7.0</data>
+      <data key="d4">confirmation hearings Donald...</data>
+      <data key="d6">Marco Rubio participated in confirmation hearings for Donald Trump's cabinet nominees</data>
+    </edge>
+    <edge id="e38" source="35" target="6">
+      <data key="d3">7.0</data>
+      <data key="d4">confirmation hearings Donald...</data>
+      <data key="d6">Pam Bondi participated in confirmation hearings for Donald Trump's cabinet nominees</data>
+    </edge>
+    <edge id="e39" source="36" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">nominated Donald Trump...</data>
+      <data key="d6">Pete Hegseth was nominated by Donald Trump to serve as Secretary of Defense</data>
+    </edge>
+    <edge id="e40" source="37" target="6">
+      <data key="d3">1.0</data>
+      <data key="d4">nominated Donald...</data>
+      <data key="d6">Robert F. Kennedy Jr. was nominated by Donald Trump to serve as Secretary of Health and Human Services</data>
+    </edge>
+    <edge id="e41" source="6" target="38">
+      <data key="d3">8.0</data>
+      <data key="d4">Donald Trump election...</data>
+      <data key="d6">Vladimir Putin congratulated Donald Trump on his election victory and believed he could manipulate him</data>
+    </edge>
+    <edge id="e42" source="6" target="39">
+      <data key="d3">7.0</data>
+      <data key="d4">former adviser President...</data>
+      <data key="d6">John Bolton was a former adviser to President Donald Trump</data>
+    </edge>
+    <edge id="e43" source="6" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">President Donald Trump...</data>
+      <data key="d6">Jack Smith investigated President Donald Trump as a US Special Counsel</data>
+    </edge>
+    <edge id="e44" source="42" target="5">
+      <data key="d3">67.0</data>
+      <data key="d4">comprehensive summary data...</data>
+      <data key="d6">Here is a comprehensive summary of the data provided:
+
+Kevin Roberts is the current president of the Heritage Foundation, a prominent conservative think tank based in Washington, D.C. Under his leadership, the organization has undergone some significant changes and controversies.
+
+According to the descriptions provided, Roberts has been directing Heritage Foundation employees to read his 2024 book "Dawn's Early Light" and pushing the organization in a more extreme, anti-establishment direction. This has led to the departure of many staffers who disagree with this new direction. Roberts has also been criticized for his handling of various controversies, including the decision not to "cancel" a neo-Nazi speaker and the fallout from a Carlson-Fuentes interview.
+
+Additionally, Roberts has been accused of subverting the Heritage Foundation's "one-voice policy" and aligning the organization's positions more closely with the Trump administration. This shift towards a more partisan and confrontational approach has been a source of concern for some observers, who worry that it may undermine the think tank's traditional role as a respected, non-partisan source of policy analysis.
+
+Despite these criticisms, Roberts remains the president of the Heritage Foundation and continues to shape the organization's direction and priorities. The descriptions provided suggest that his leadership has been a source of tension and debate within the conservative movement, with some praising his willingness to take a more aggressive stance, while others worry that he is jeopardizing the Foundation's credibility and influence.
+
+Overall, this summary highlights the significant changes and controversies that have occurred at the Heritage Foundation under Kevin Roberts' leadership, and the ongoing debate over the organization's direction and role in the broader conservative landscape.</data>
+    </edge>
+    <edge id="e45" source="42" target="43">
+      <data key="d3">15.0</data>
+      <data key="d4">Tucker Carlson Kevin...</data>
+      <data key="d6">Kevin Roberts and Tucker Carlson
+
+Kevin Roberts is the president of the Heritage Foundation, a conservative think tank. Tucker Carlson is a prominent conservative political commentator and television host.
+
+The provided descriptions indicate that Kevin Roberts defended Tucker Carlson's decision to amplify or interview the views of Nick Fuentes, a white nationalist influencer and neo-Nazi. This decision by Carlson has contributed to turmoil and controversy at the Heritage Foundation, where Roberts serves as president.
+
+The descriptions suggest that Carlson's decision to provide a platform for Fuentes, a known white nationalist and extremist, has been a source of concern and criticism. By defending Carlson's actions, Roberts has aligned himself with the amplification of these controversial and potentially harmful views.
+
+It is important to note that providing a platform for white nationalist or neo-Nazi ideologies can be seen as legitimizing and normalizing such extremist perspectives, which can have negative societal consequences. The decision to do so, and the defense of such actions, have understandably generated significant backlash and turmoil within the Heritage Foundation and the broader public discourse.
+
+In summary, Kevin Roberts, the president of the Heritage Foundation, has defended Tucker Carlson's decision to amplify the views of the white nationalist influencer and neo-Nazi, Nick Fuentes. This decision has contributed to turmoil and controversy within the Heritage Foundation, as the amplification of such extremist perspectives is widely considered to be harmful and unacceptable.</data>
+    </edge>
+    <edge id="e46" source="43" target="44">
+      <data key="d3">33.0</data>
+      <data key="d4">prominent conservative political...</data>
+      <data key="d6">Tucker Carlson, a prominent conservative political commentator, has faced criticism for amplifying the views of Nick Fuentes, a white nationalist influencer and Holocaust denier. Carlson interviewed Fuentes on his show, which led to significant backlash against the Heritage Foundation, a conservative think tank.
+
+The descriptions provided indicate that Carlson gave a platform to Fuentes, a neo-Nazi and Holocaust denier, by conducting a lengthy, two-hour interview with him. This interview allowed Fuentes to spread his extremist and hateful ideology to Carlson's large audience, which contributed to the turmoil at the Heritage Foundation.
+
+The Heritage Foundation, a prominent conservative organization, faced criticism and backlash due to Carlson's decision to interview Fuentes on his show. This suggests that Carlson's actions were seen as legitimizing and amplifying the views of a known white nationalist and neo-Nazi, which was unacceptable to many within the conservative movement.
+
+It is important to note that the descriptions provided do not contain any contradictory information. They all consistently describe Carlson's interview with Fuentes and the subsequent backlash against the Heritage Foundation. This indicates that Carlson's decision to provide a platform to Fuentes, a known Holocaust denier and neo-Nazi, was widely condemned and seen as a significant misstep.
+
+In summary, Tucker Carlson, a prominent conservative commentator, interviewed Nick Fuentes, a white nationalist influencer and Holocaust denier, on his show. This interview led to significant backlash against the Heritage Foundation, a conservative think tank, as Carlson's actions were seen as legitimizing and amplifying Fuentes' extremist and hateful ideology. The descriptions provided do not contain any contradictory information, and the overall summary highlights the controversy and criticism surrounding Carlson's decision to give a platform to Fuentes.</data>
+    </edge>
+    <edge id="e47" source="45" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">stance seen potentially...</data>
+      <data key="d6">The Heritage Foundation's stance is seen as potentially enabling a comeback of the American Nazi Party</data>
+    </edge>
+    <edge id="e48" source="42" target="46">
+      <data key="d3">18.0</data>
+      <data key="d4">senior fellow Heritage...</data>
+      <data key="d6">Amy Swearer, a senior fellow at the Heritage Foundation, strongly criticized Kevin Roberts' leadership and lack of courage in addressing the controversy</data>
+    </edge>
+    <edge id="e49" source="47" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">Heritage Foundation's COO,...</data>
+      <data key="d6">Eric Korsvall, the Heritage Foundation's COO, threatened to fire anyone who leaked information from the organization</data>
+    </edge>
+    <edge id="e50" source="5" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">Beacon obtained published...</data>
+      <data key="d6">The Washington Free Beacon obtained and published the video of the Heritage Foundation meeting</data>
+    </edge>
+    <edge id="e51" source="48" target="49">
+      <data key="d3">1.0</data>
+      <data key="d4">editor-in-chief Washington...</data>
+      <data key="d6">Eliana Johnson, as the editor-in-chief of the Washington Free Beacon, obtained the video of the Heritage Foundation meeting</data>
+    </edge>
+    <edge id="e52" source="5" target="43">
+      <data key="d3">12.0</data>
+      <data key="d4">been involved controversies...</data>
+      <data key="d6">Tucker Carlson has been involved in controversies related to the Heritage Foundation</data>
+    </edge>
+    <edge id="e53" source="5" target="44">
+      <data key="d3">7.0</data>
+      <data key="d4">been associated with...</data>
+      <data key="d6">Nick Fuentes has been associated with controversies involving the Heritage Foundation</data>
+    </edge>
+    <edge id="e54" source="5" target="50">
+      <data key="d3">1.0</data>
+      <data key="d4">Girls organization related...</data>
+      <data key="d6">The American Heritage Girls organization is related to the Heritage Foundation, though the exact nature of the relationship is unclear</data>
+    </edge>
+    <edge id="e55" source="42" target="54">
+      <data key="d3">10.0</data>
+      <data key="d4">book "Dawn's Early...</data>
+      <data key="d6">Kevin Roberts authored the book "Dawn's Early Light" which calls for burning down various institutions and charting a more extreme course for the conservative movement
+Kevin Roberts authored the book "Dawn's Early Light" in 2024, which has been described as an attempt to chart an alternative, more extreme course for the conservative movement, and Heritage employees were directed to read it</data>
+    </edge>
+    <edge id="e56" source="51" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">summarily fired from...</data>
+      <data key="d6">John Malcolm was summarily fired from his position as director of the Meese Center for Legal and Judicial Studies at the Heritage Foundation</data>
+    </edge>
+    <edge id="e57" source="52" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">summarily fired from...</data>
+      <data key="d6">Jessica Reinsch was summarily fired from her position as a deputy director at the Meese Center for Legal and Judicial Studies at the Heritage Foundation</data>
+    </edge>
+    <edge id="e58" source="5" target="53">
+      <data key="d3">8.0</data>
+      <data key="d4">Heritage Foundation staffers...</data>
+      <data key="d6">A large number of Heritage Foundation staffers departed the organization to join Advancing American Freedom, a nonprofit founded by former Vice President Mike Pence</data>
+    </edge>
+    <edge id="e59" source="5" target="55">
+      <data key="d3">7.0</data>
+      <data key="d4">turmoil exodus...</data>
+      <data key="d6">Reason reported on the turmoil and exodus of staffers at the Heritage Foundation under the leadership of Kevin Roberts</data>
+    </edge>
+    <edge id="e60" source="42" target="57">
+      <data key="d3">17.0</data>
+      <data key="d4">current president...</data>
+      <data key="d6">Kevin Roberts is the current president of The Heritage Foundation and has shifted the organization's positions</data>
+    </edge>
+    <edge id="e61" source="42" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">taken Heritage Foundation...</data>
+      <data key="d6">Kevin Roberts has taken The Heritage Foundation in a different direction compared to Ed Feulner's leadership</data>
+    </edge>
+    <edge id="e62" source="56" target="57">
+      <data key="d3">15.0</data>
+      <data key="d4">co-founder previous leader...</data>
+      <data key="d6">Ed Feulner was a co-founder and previous leader of The Heritage Foundation</data>
+    </edge>
+    <edge id="e63" source="57" target="6">
+      <data key="d3">1.0</data>
+      <data key="d4">Trump "won" trade...</data>
+      <data key="d6">Roberts claims that Trump "won" the trade war during his presidency, which is a shift from The Heritage Foundation's traditional free trade positions</data>
+    </edge>
+    <edge id="e64" source="42" target="59">
+      <data key="d3">1.0</data>
+      <data key="d4">interview New...</data>
+      <data key="d6">Kevin Roberts gave an interview to The New York Times in which he stated his aim to "institutionalize Trumpism" at the Heritage Foundation</data>
+    </edge>
+    <edge id="e65" source="58" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">under Kevin Roberts'...</data>
+      <data key="d6">The Heritage Foundation under Kevin Roberts' leadership is accused of constraining its policy positions to align with the preferences of the Trump administration</data>
+    </edge>
+    <edge id="e66" source="43" target="42">
+      <data key="d3">1.0</data>
+      <data key="d4">president Heritage Foundation,...</data>
+      <data key="d6">Kevin Roberts, the president of the Heritage Foundation, refused to condemn Tucker Carlson's platforming of Nick Fuentes, leading to resignations from the Heritage Foundation's National Task Force to Combat Antisemitism.</data>
+    </edge>
+    <edge id="e67" source="43" target="64">
+      <data key="d3">1.0</data>
+      <data key="d4">made anti-Israel rhetoric,...</data>
+      <data key="d6">Tucker Carlson has made anti-Israel rhetoric, including calling Israel's efforts to subdue Hamas and rescue hostages a "genocide", which is seen as supporting the "Hamas Support Network" that Project Esther aims to fight.</data>
+    </edge>
+    <edge id="e68" source="43" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">neo-Nazi commentator Nick...</data>
+      <data key="d6">Tucker Carlson's platforming of neo-Nazi commentator Nick Fuentes led to backlash against the Heritage Foundation, which the organization's president Kevin Roberts refused to condemn.</data>
+    </edge>
+    <edge id="e69" source="60" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">from Heritage Foundation's...</data>
+      <data key="d6">Ian Speir resigned from the Heritage Foundation's National Task Force to Combat Antisemitism due to the organization's refusal to condemn Tucker Carlson's actions.</data>
+    </edge>
+    <edge id="e70" source="61" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">Coalition Jewish Values,...</data>
+      <data key="d6">Yaakov Menken, representing the Coalition for Jewish Values, resigned from the Heritage Foundation's National Task Force to Combat Antisemitism due to the organization's refusal to condemn Tucker Carlson's actions.</data>
+    </edge>
+    <edge id="e71" source="62" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">Combat Antisemitism Movement,...</data>
+      <data key="d6">Arie Lipnick, representing the Combat Antisemitism Movement, suspended further participation with the Heritage Foundation pending a meeting with the president, due to the organization's refusal to condemn Tucker Carlson's actions.</data>
+    </edge>
+    <edge id="e72" source="42" target="63">
+      <data key="d3">1.0</data>
+      <data key="d4">president Heritage Foundation,...</data>
+      <data key="d6">Kevin Roberts, the president of the Heritage Foundation, made a speech at Hillsdale College addressing the controversy.</data>
+    </edge>
+    <edge id="e73" source="5" target="68">
+      <data key="d3">8.0</data>
+      <data key="d4">featured Heritage Foundation's...</data>
+      <data key="d6">Carlson has been featured on the Heritage Foundation's National Task Force to Combat Antisemitism, which has led to criticism of the Heritage Foundation's relationship with Carlson</data>
+    </edge>
+    <edge id="e74" source="5" target="65">
+      <data key="d3">7.0</data>
+      <data key="d4">leader Heritage Foundation...</data>
+      <data key="d6">Roberts is a leader at the Heritage Foundation who has made comments that have been criticized as feeding into antisemitic tropes, leading to concerns about the Heritage Foundation's moral leadership</data>
+    </edge>
+    <edge id="e75" source="5" target="66">
+      <data key="d3">8.0</data>
+      <data key="d4">participation National...</data>
+      <data key="d6">CAM has suspended its participation in the National Task Force to Combat Antisemitism, a project of the Heritage Foundation, due to concerns over the Heritage Foundation's relationship with Tucker Carlson</data>
+    </edge>
+    <edge id="e76" source="5" target="67">
+      <data key="d3">1.0</data>
+      <data key="d4">collaboration with Heritage...</data>
+      <data key="d6">CJV has ended its collaboration with the Heritage Foundation due to concerns over the Heritage Foundation's normalization of antisemitism</data>
+    </edge>
+    <edge id="e77" source="5" target="69">
+      <data key="d3">1.0</data>
+      <data key="d4">houses National Task...</data>
+      <data key="d6">The Heritage Foundation houses the National Task Force to Combat Antisemitism</data>
+    </edge>
+    <edge id="e78" source="65" target="70">
+      <data key="d3">7.0</data>
+      <data key="d4">been criticized feeding...</data>
+      <data key="d6">Roberts' comments have been criticized as feeding into antisemitic tropes, including those related to the Holocaust</data>
+    </edge>
+    <edge id="e79" source="68" target="71">
+      <data key="d3">8.0</data>
+      <data key="d4">accused supporting Hamas...</data>
+      <data key="d6">Carlson has been accused of supporting Hamas through his media commentary</data>
+    </edge>
+    <edge id="e80" source="68" target="70">
+      <data key="d3">8.0</data>
+      <data key="d4">accused treating Holocaust...</data>
+      <data key="d6">Carlson has been accused of treating Holocaust denial as legitimate political discourse</data>
+    </edge>
+  </graph>
+</graphml>

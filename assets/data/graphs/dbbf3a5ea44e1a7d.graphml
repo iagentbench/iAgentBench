@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">MENA GROWTH PARTNERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">MENA Growth Partners is a merchant bank based in Abu Dhabi that has been acquired by Piper Sandler to serve as its strategic investment banking hub in the GCC region. The organization was recently acquired by Piper Sandler, a leading global investment bank and asset management firm.
+
+MENA Growth Partners was established to provide investment banking services and advisory solutions to clients in the Middle East and North Africa (MENA) region. The firm specializes in areas such as mergers and acquisitions, capital raising, and strategic advisory. With its deep understanding of the local market and strong relationships with regional players, MENA Growth Partners has been able to facilitate cross-border transactions and help clients navigate the complexities of doing business in the MENA region.
+
+The acquisition by Piper Sandler is a strategic move that aims to strengthen Piper Sandler's presence and capabilities in the GCC (Gulf Cooperation Council) region. By integrating MENA Growth Partners into its operations, Piper Sandler can leverage the local expertise and network of the acquired firm to better serve its clients in the MENA region. This acquisition is expected to enhance Piper Sandler's ability to provide comprehensive investment banking services and advisory solutions to its clients, both in the MENA region and globally.
+
+The combined entity, with the expertise and resources of both MENA Growth Partners and Piper Sandler, is well-positioned to capitalize on the growing investment opportunities in the MENA region. The region has witnessed a surge in economic activity and investment inflows, driven by factors such as diversification efforts, infrastructure development, and the rise of new industries. MENA Growth Partners, now as part of Piper Sandler, is poised to play a significant role in facilitating cross-border transactions and supporting the growth and development of the MENA region's economy.
+
+Overall, the acquisition of MENA Growth Partners by Piper Sandler represents a strategic move that strengthens Piper Sandler's presence and capabilities in the MENA region, while also providing MENA Growth Partners with the resources and global reach of a leading investment bank to better serve its clients in the region.</data>
+    </node>
+    <node id="1">
+      <data key="d0">NABEEL SIDDIQUI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Nabeel Siddiqui is a managing director in the Piper Sandler London office who will relocate to the Abu Dhabi office to lead Piper Sandler's investment banking in the region in addition to maintaining responsibilities over his existing European business</data>
+    </node>
+    <node id="2">
+      <data key="d0">ABU DHABI</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Abu Dhabi is the location of the MENA Growth Partners office that will serve as Piper Sandler's strategic investment banking hub in the GCC region</data>
+    </node>
+    <node id="3">
+      <data key="d0">GCC REGION</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The GCC (Gulf Cooperation Council) region is the geographic area that Piper Sandler is targeting for its investment banking services through the acquisition of MENA Growth Partners</data>
+    </node>
+    <node id="4">
+      <data key="d0">PIPER SANDLER</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="5">
+      <data key="d0">PIPER SANDLER &amp; CO.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Piper Sandler &amp; Co. is the securities brokerage and investment banking services arm of Piper Sandler Companies in the U.S.</data>
+    </node>
+    <node id="6">
+      <data key="d0">PIPER SANDLER LTD.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Piper Sandler Ltd. is the securities brokerage and investment banking services arm of Piper Sandler Companies in the U.K.</data>
+    </node>
+    <node id="7">
+      <data key="d0">AVIDITI CAPITAL ADVISORS EUROPE GMBH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Aviditi Capital Advisors Europe GmbH is the securities brokerage and investment banking services arm of Piper Sandler Companies in the EU</data>
+    </node>
+    <node id="8">
+      <data key="d0">PIPER SANDLER MENA LTD.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Piper Sandler MENA Ltd. is the securities brokerage and investment banking services arm of Piper Sandler Companies in the Abu Dhabi Global Market</data>
+    </node>
+    <node id="9">
+      <data key="d0">PIPER SANDLER HONG KONG LTD.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Piper Sandler Hong Kong Ltd. is the securities brokerage and investment banking services arm of Piper Sandler Companies in Hong Kong</data>
+    </node>
+    <node id="10">
+      <data key="d0">PIPER SANDLER COMPANIES</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="11">
+      <data key="d0">NICK LAWLER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Nick Lawler is an employee at Piper Sandler Companies, likely in an investor relations or public relations role.</data>
+    </node>
+    <node id="12">
+      <data key="d0">MINNEAPOLIS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Minneapolis is the city where Piper Sandler Companies is headquartered.</data>
+    </node>
+    <node id="13">
+      <data key="d0">FOURTH QUARTER AND FULL YEAR 2025 FINANCIAL RESULTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Piper Sandler Companies will announce its fourth quarter and full year 2025 financial results on February 6, 2026.</data>
+    </node>
+    <node id="14">
+      <data key="d0">DAN WOLF</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Dan Wolf has joined Piper Sandler Companies' healthcare investment banking team. He is a new addition to the firm's healthcare investment banking team.
+
+Dan Wolf is an experienced professional in the healthcare investment banking industry. He has recently joined the team at Piper Sandler Companies, a leading global investment bank and institutional securities firm.
+
+In his new role, Dan Wolf will be part of Piper Sandler's healthcare investment banking team. This team specializes in providing strategic advisory and capital-raising services to clients in the healthcare sector, including pharmaceutical, biotechnology, medical device, and healthcare services companies.
+
+With his extensive background and expertise in healthcare investment banking, Dan Wolf is expected to contribute significantly to Piper Sandler's continued growth and success in this important industry. His addition to the team further strengthens Piper Sandler's capabilities in serving the evolving needs of healthcare clients.
+
+Piper Sandler is a well-respected firm in the investment banking industry, known for its deep sector expertise and innovative solutions. The company's healthcare investment banking team has a strong track record of advising clients on a wide range of transactions, including mergers and acquisitions, public and private equity and debt financings, and strategic partnerships.
+
+Dan Wolf's appointment to the healthcare investment banking team at Piper Sandler is a testament to his impressive credentials and the firm's commitment to expanding its capabilities in this dynamic and rapidly evolving sector. With his addition, Piper Sandler is well-positioned to continue providing exceptional service and value to its healthcare clients.</data>
+    </node>
+    <node id="15">
+      <data key="d0">J.P. PELTIER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">J.P. Peltier has been named the Global Co-Head of Investment Banking and Capital Markets at Piper Sandler Companies. Piper Sandler is a leading investment bank and institutional securities firm, providing a full suite of securities brokerage and investment banking services to corporations, private equity groups, public entities, and institutional clients.
+
+In his new role, J.P. Peltier will be responsible for leading the firm's global investment banking and capital markets business, working closely with the other Co-Head to drive the strategic direction and growth of these critical business lines. Peltier brings extensive experience and expertise in the investment banking industry, having held senior leadership positions at other prominent financial institutions prior to joining Piper Sandler.
+
+The appointment of J.P. Peltier as Global Co-Head of Investment Banking and Capital Markets underscores Piper Sandler's commitment to strengthening its position as a leading provider of investment banking and capital markets services to clients around the world. Peltier's proven track record of success and deep industry knowledge will be invaluable as the firm continues to expand its global reach and deliver innovative solutions to meet the evolving needs of its clients.
+
+Overall, the addition of J.P. Peltier to the Piper Sandler leadership team is a significant development that is expected to contribute to the firm's continued growth and success in the investment banking and capital markets space.</data>
+    </node>
+    <node id="16">
+      <data key="d0">MICHAEL PIPER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Michael Piper has been appointed as the Head of Fixed Income at Piper Sandler Companies. Piper Sandler is a leading investment bank and asset management firm that provides a broad range of financial services to corporations, institutional investors, and high-net-worth individuals.
+
+In his new role, Michael Piper will be responsible for leading the firm's fixed income business, which includes the trading, sales, and research of a wide range of fixed income securities. Piper has extensive experience in the financial industry, having previously held senior positions at other leading investment firms.
+
+The appointment of Michael Piper as the Head of Fixed Income at Piper Sandler is a strategic move by the firm to strengthen its fixed income capabilities and better serve its clients. Piper's expertise and leadership in the fixed income market will be invaluable in helping Piper Sandler to continue to grow and expand its business.
+
+Overall, the hiring of Michael Piper as the Head of Fixed Income at Piper Sandler Companies is a positive development for the firm and its clients. Piper's experience and leadership in the fixed income market will be a valuable asset as Piper Sandler continues to build its reputation as a leading investment bank and asset management firm.</data>
+    </node>
+    <node id="17">
+      <data key="d0">US REGULATORS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">US financial regulators that fined Piper Sandler $16 million for record-keeping failures</data>
+    </node>
+    <node id="18">
+      <data key="d0">CFTC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Commodity Futures Trading Commission (CFTC) fined Piper Sandler $2 million for record-keeping failures</data>
+    </node>
+    <node id="19">
+      <data key="d0">SECURITIES AND EXCHANGE COMMISSION (SEC)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The Securities and Exchange Commission (SEC) is the primary U.S. regulatory agency responsible for overseeing and enforcing federal securities laws. The SEC recently investigated the record-keeping practices of the investment firm Piper Sandler and imposed a $14 million fine on the company as a result of its findings.
+
+According to the provided descriptions, the SEC is a U.S. regulatory agency that conducted an investigation into Piper Sandler's record-keeping practices. The investigation resulted in a $14 million fine being levied against the firm. The descriptions indicate that the SEC will receive the $14 million settlement from Piper Sandler as a result of this enforcement action.
+
+The SEC is the primary financial regulatory agency in the United States, responsible for protecting investors, maintaining fair and orderly functioning of securities markets, and facilitating capital formation. It oversees key participants in the securities field, including securities exchanges, broker-dealers, investment advisors, and mutual funds.
+
+The descriptions provided do not contain any contradictory information about the SEC or its role in the Piper Sandler investigation and enforcement action. The SEC is consistently described as the U.S. financial regulatory agency that investigated Piper Sandler's record-keeping practices and imposed a $14 million fine on the firm as a result.
+
+In summary, the Securities and Exchange Commission (SEC) is the primary U.S. regulatory agency responsible for overseeing and enforcing federal securities laws. The SEC recently conducted an investigation into the record-keeping practices of the investment firm Piper Sandler and imposed a $14 million fine on the company as a result of its findings. The SEC will receive the $14 million settlement from Piper Sandler as a result of this enforcement action.</data>
+    </node>
+    <node id="20">
+      <data key="d0">COMMODITY FUTURES TRADING COMMISSION (CFTC)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The Commodity Futures Trading Commission (CFTC) is a U.S. regulatory agency that investigated the investment bank Piper Sandler's record-keeping practices. The CFTC found that Piper Sandler had failed to preserve required business communications and allowed its personnel to use unapproved, off-channel communications. As a result, the CFTC ordered Piper Sandler to pay a $2 million civil penalty in September 2024.
+
+The CFTC's investigation into Piper Sandler's record-keeping practices was part of the agency's broader efforts to ensure that financial institutions comply with regulatory requirements. The CFTC is responsible for overseeing the U.S. derivatives markets, including the trading of commodity futures and options, and it has the authority to investigate and take enforcement action against firms that violate its rules and regulations.
+
+In this case, the CFTC determined that Piper Sandler's failure to properly maintain and preserve its business communications was a serious violation of the agency's record-keeping requirements. These requirements are in place to ensure that regulators and law enforcement have access to the information they need to monitor and investigate potential market manipulation or other misconduct.
+
+The $2 million civil penalty imposed by the CFTC is intended to serve as a deterrent to Piper Sandler and other financial institutions, sending a clear message that the agency takes record-keeping violations seriously and will take appropriate enforcement action when necessary. The CFTC's investigation and enforcement action in this case are part of its ongoing efforts to maintain the integrity and transparency of the U.S. financial markets.</data>
+    </node>
+    <node id="21">
+      <data key="d0">WELLS FARGO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Wells Fargo is a major bank that has faced regulatory scrutiny and penalties in recent years. According to the information provided, Wells Fargo was one of several financial institutions that were fined a total of $549 million in 2023 for record-keeping failures.
+
+The descriptions indicate that Wells Fargo's issues are related to the Securities and Exchange Commission's (SEC) regulatory sweep on communication compliance. This suggests that the bank was found to have failed to properly maintain records of communications, which is a regulatory requirement for financial institutions.
+
+While the details of the specific violations are not provided, the significant fine of $549 million highlights the severity of the regulatory infractions. This penalty is likely to have a substantial impact on the bank's financial performance and reputation.
+
+It is important to note that the descriptions do not provide any additional context or details about the nature of the record-keeping failures or the specific regulatory requirements that Wells Fargo was found to have violated. The summary is limited to the information directly provided in the descriptions.
+
+In conclusion, Wells Fargo, a major bank, has faced regulatory penalties from the SEC in 2023 for record-keeping failures, resulting in a significant fine of $549 million. This incident underscores the importance of financial institutions maintaining proper communication and record-keeping practices to comply with regulatory requirements.</data>
+    </node>
+    <node id="22">
+      <data key="d0">GOLDMAN SACHS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Goldman Sachs was charged a $5.5 million civil penalty by the CFTC for failing to properly record and retain certain audio files</data>
+    </node>
+    <node id="23">
+      <data key="d0">SECURITIES AND EXCHANGE COMMISSION</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="24">
+      <data key="d0">COMMODITY FUTURES TRADING COMMISSION</data>
+      <data key="d1" />
+      <data key="d2">10.0</data>
+      <data key="d5" />
+    </node>
+    <node id="25">
+      <data key="d0">ZACKS INVESTMENT RESEARCH</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="26">
+      <data key="d0">CHAD R. ABRAHAM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Chad R. Abraham is the CEO of Piper Sandler</data>
+    </node>
+    <node id="27">
+      <data key="d0">INVESTMENT BANK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The text mentions a Wall Street investment bank that was fined</data>
+    </node>
+    <node id="28">
+      <data key="d0">OPPENHEIMER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Oppenheimer is another broker-dealer that settled similar charges with the SEC earlier this year, agreeing to pay $12 million in civil penalties</data>
+    </node>
+    <node id="29">
+      <data key="d0">JPMORGAN CHASE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">JPMorgan Chase is a major bank that has faced penalties in the SEC's regulatory sweep on communication compliance</data>
+    </node>
+    <node id="30">
+      <data key="d0">FTX</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">FTX is a bankrupt cryptocurrency exchange that recently reached a $12.7 billion settlement with the CFTC)("relationship"
+FTX is a bankrupt cryptocurrency exchange that recently reached a $12.7 billion settlement with the CFTC</data>
+    </node>
+    <node id="31">
+      <data key="d0">SEC</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="32">
+      <data key="d0">PIPER SANDLER HEDGING SERVICES LLC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Piper Sandler Hedging Services LLC is an introducing broker that was charged and fined by the Commodity Futures Trading Commission (CFTC) for various regulatory violations.
+
+According to the available information, Piper Sandler Hedging Services LLC was charged by the CFTC for failing to maintain and preserve records, as well as for failing to diligently supervise matters related to its business as a CFTC registrant. The CFTC also fined the company $2 million for alleged record-keeping violations.
+
+The record-keeping and supervisory failures appear to be the primary issues that led to the CFTC's enforcement actions against Piper Sandler Hedging Services LLC. As an introducing broker, the company is required to maintain accurate and complete records related to its futures trading activities and to properly supervise its operations to ensure compliance with CFTC regulations.
+
+The $2 million fine imposed by the CFTC suggests that the record-keeping violations were significant and widespread, potentially impacting the CFTC's ability to effectively oversee the company's activities and protect the integrity of the futures markets. The failure to diligently supervise matters related to the company's business as a CFTC registrant also raises concerns about the firm's internal controls and risk management practices.
+
+It is important to note that the CFTC's enforcement actions against Piper Sandler Hedging Services LLC do not appear to be related to any allegations of fraudulent or manipulative trading practices. The focus of the CFTC's charges and fines seems to be on the company's administrative and compliance failures, rather than on any direct harm to customers or the broader market.
+
+Nevertheless, the CFTC's enforcement actions against Piper Sandler Hedging Services LLC serve as a reminder of the importance of strict compliance with record-keeping and supervisory requirements for CFTC-registered entities. Failure to meet these regulatory standards can result in significant financial penalties and reputational damage, underscoring the need for introducing brokers to maintain robust internal controls and compliance programs.</data>
+    </node>
+    <node id="33">
+      <data key="d0">U.S. SECURITIES AND EXCHANGE COMMISSION (SEC)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The SEC alleged that Piper Sandler had widespread recordkeeping lapses, with employees routinely using non-approved communication platforms without proper retention or monitoring. Piper Sandler agreed to pay a multi-million-dollar penalty and adopt remedial compliance measures in August 2024.</data>
+    </node>
+    <node id="34">
+      <data key="d0">FINANCIAL INDUSTRY REGULATORY AUTHORITY (FINRA)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">FINRA alleged reporting deficiencies by Piper Sandler and the firm settled for $95,000 in November 2025. FINRA reporting obligations are important for regulators to detect misconduct and protect investors.</data>
+    </node>
+    <node id="35">
+      <data key="d0">STIFEL FINANCIAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Piper Sandler and Stifel Financial petitioned a federal court in 2025 to lift restrictions stemming from the 2003–2004 Global Research Analyst Settlement with the SEC, arguing the ongoing oversight requirements were burdensome, outdated, and anti-competitive.</data>
+    </node>
+    <node id="36">
+      <data key="d0">PIPER JAFFRAY COMPANIES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Piper Jaffray Companies merged with Sandler O'Neill + Partners, L.P. in January 2020 to form Piper Sandler Companies.</data>
+    </node>
+    <node id="37">
+      <data key="d0">SANDLER O'NEILL + PARTNERS, L.P.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Sandler O'Neill + Partners, L.P. merged with Piper Jaffray Companies in January 2020 to form Piper Sandler Companies.</data>
+    </node>
+    <node id="38">
+      <data key="d0">THE WHITE LAW GROUP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The White Law Group is a law firm that represents investors nationwide in FINRA arbitration matters</data>
+    </node>
+    <node id="39">
+      <data key="d0">INVESTOR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">
+Investors who invested through Piper Sandler &amp; Co. and experienced losses may have legal options</data>
+    </node>
+    <node id="40">
+      <data key="d0">FINRA ARBITRATION</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="41">
+      <data key="d0">RITHM CAPITAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Rithm Capital is a company that Piper Sandler served as a joint bookrunner for a $250 million preferred stock offering</data>
+    </node>
+    <node id="42">
+      <data key="d0">BV INVESTMENT PARTNERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">BV Investment Partners is a company that Piper Sandler served as a financial advisor for its acquisition of Altimeter Solutions Group</data>
+    </node>
+    <node id="43">
+      <data key="d0">CLEAR STREET CAPITAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Clear Street Capital is a company that Piper Sandler served as a joint placement agent for a $78.5 million unsecured notes offering</data>
+    </node>
+    <node id="44">
+      <data key="d0">GBANK FINANCIAL HOLDINGS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">GBank Financial Holdings is a company that Piper Sandler served as a joint placement agent for a $11 million subordinated notes offering</data>
+    </node>
+    <node id="45">
+      <data key="d0">ARROWHEAD PHARMACEUTICALS, INC.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Arrowhead Pharmaceuticals, Inc. is a company that Piper Sandler served as a passive bookrunner for a follow-on offering</data>
+    </node>
+    <node id="46">
+      <data key="d0">MONTE ROSA THERAPEUTICS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Monte Rosa Therapeutics is a company that Piper Sandler served as an active bookrunner for a follow-on offering</data>
+    </node>
+    <node id="47">
+      <data key="d0">BRIGHT MINDS BIOSCIENCES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Bright Minds Biosciences is a company that Piper Sandler served as an active bookrunner for a follow-on offering</data>
+    </node>
+    <node id="48">
+      <data key="d0">CRINETICS PHARMACEUTICALS, INC.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Crinetics Pharmaceuticals, Inc. is a company that Piper Sandler served as an active bookrunner for a follow-on offering</data>
+    </node>
+    <node id="49">
+      <data key="d0">PRAXIS PRECISION MEDICINES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Praxis Precision Medicines is a company that Piper Sandler served as a left bookrunner for a confidentially marketed follow-on offering</data>
+    </node>
+    <node id="50">
+      <data key="d0">ADAMAS TRUST, INC.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Adamas Trust, Inc. is a company that Piper Sandler served as an active bookrunner for a $90 million senior notes offering</data>
+    </node>
+    <node id="51">
+      <data key="d0">STRICKLAND BROTHERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Strickland Brothers is a company that Piper Sandler served as the sole placement agent for a debt financing</data>
+    </node>
+    <node id="52">
+      <data key="d0">ATLANTIC GLOBAL RISK LLC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Atlantic Global Risk LLC is a company that Piper Sandler served as a financial advisor for its acquisition by Howden</data>
+    </node>
+    <node id="53">
+      <data key="d0">BIOPHARMA MOGUL SUMMIT</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Biopharma Mogul Summit is an upcoming conference event taking place in Park City, UT</data>
+    </node>
+    <node id="54">
+      <data key="d0">MIDWEST DEPOSITORY STRATEGY FORUM</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Midwest Depository Strategy Forum is an upcoming conference event taking place in St. Louis, MO</data>
+    </node>
+    <node id="55">
+      <data key="d0">WESTERN BANK FORUM</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Western Bank Forum is an upcoming conference event taking place in Los Angeles, CA</data>
+    </node>
+    <node id="56">
+      <data key="d0">SUMMER K. MERSINGER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Summer K. Mersinger is a CFTC commissioner who issued a dissenting statement on the Piper Sandler enforcement action</data>
+    </node>
+    <node id="57">
+      <data key="d0">CAROLINE D. PHAM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Caroline D. Pham is a CFTC commissioner who issued a dissenting statement on the Piper Sandler enforcement action</data>
+    </node>
+    <edge id="e0" source="0" target="4">
+      <data key="d3">17.0</data>
+      <data key="d4">PIPER SANDLER MENA...</data>
+      <data key="d6">MENA GROWTH PARTNERS and PIPER SANDLER
+
+MENA Growth Partners is a strategic investment banking firm that has been acquired by Piper Sandler, a leading global investment bank and institutional securities firm. The acquisition of MENA Growth Partners by Piper Sandler will allow the latter to establish a strategic investment banking hub in the Gulf Cooperation Council (GCC) region.
+
+Piper Sandler, a well-established financial services firm, has recognized the growth potential and importance of the GCC region. By acquiring MENA Growth Partners, Piper Sandler aims to leverage the local expertise and regional knowledge of MENA Growth Partners to better serve its clients in the GCC markets.
+
+The acquisition of MENA Growth Partners by Piper Sandler is a strategic move that will enable both firms to capitalize on the growing opportunities in the GCC region. MENA Growth Partners, with its deep understanding of the local market dynamics and strong relationships with regional clients, will provide Piper Sandler with a solid foundation to expand its presence and service offerings in the GCC.
+
+Through this acquisition, Piper Sandler will be able to offer its clients a comprehensive suite of investment banking services, including mergers and acquisitions, capital raising, and advisory services, tailored to the specific needs of the GCC market. The combined expertise and resources of the two firms will allow them to provide more robust and specialized solutions to their clients, further strengthening their competitive position in the region.
+
+The integration of MENA Growth Partners into Piper Sandler's global platform will also create synergies and opportunities for cross-selling and collaboration, ultimately benefiting the clients of both firms. The acquisition is expected to enhance Piper Sandler's ability to identify and capitalize on emerging trends and opportunities in the GCC region, positioning the combined entity as a leading player in the regional investment banking landscape.
+
+Overall, the acquisition of MENA Growth Partners by Piper Sandler represents a strategic move that will strengthen the latter's presence and capabilities in the GCC region, while also providing MENA Growth Partners with the resources and global reach of a well-established investment banking firm. This partnership is expected to drive growth, innovation, and value creation for both firms and their clients in the years to come.</data>
+    </edge>
+    <edge id="e1" source="1" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">relocating from Piper...</data>
+      <data key="d6">Nabeel Siddiqui is relocating from the Piper Sandler London office to the Abu Dhabi office to lead Piper Sandler's investment banking in the GCC region</data>
+    </edge>
+    <edge id="e2" source="2" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">establishing strategic investment...</data>
+      <data key="d6">Piper Sandler is establishing its strategic investment banking hub in the GCC region in Abu Dhabi through the acquisition of MENA Growth Partners</data>
+    </edge>
+    <edge id="e3" source="3" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">targeting GCC region...</data>
+      <data key="d6">Piper Sandler is targeting the GCC region for its investment banking services through the acquisition of MENA Growth Partners</data>
+    </edge>
+    <edge id="e4" source="5" target="10">
+      <data key="d3">18.0</data>
+      <data key="d4">Piper Sandler Companies...</data>
+      <data key="d6">Piper Sandler &amp; Co. and Piper Sandler Companies are closely related entities operating in the financial services industry. Piper Sandler &amp; Co. is a subsidiary of the parent company, Piper Sandler Companies, and serves as the broker-dealer operating under the Piper Sandler Companies umbrella.
+
+Piper Sandler &amp; Co. is a securities brokerage and investment banking firm that provides a range of financial services to clients in the United States. As a subsidiary of Piper Sandler Companies, Piper Sandler &amp; Co. is responsible for the day-to-day operations of the broker-dealer business, including executing securities transactions, providing investment advice, and underwriting securities offerings.
+
+Piper Sandler Companies, on the other hand, is the parent organization that oversees the various business units and subsidiaries that make up the Piper Sandler brand. The company operates through several divisions, including investment banking, institutional securities, and asset management, among others. Piper Sandler Companies is responsible for setting the overall strategic direction of the organization and ensuring that its various business units work together seamlessly to serve the needs of its clients.
+
+While the descriptions provided do not contain any contradictory information, they do offer slightly different perspectives on the relationship between Piper Sandler &amp; Co. and Piper Sandler Companies. The first description emphasizes that Piper Sandler &amp; Co. is a subsidiary of the parent company, while the second description focuses on Piper Sandler &amp; Co. as the broker-dealer operating under the Piper Sandler Companies umbrella.
+
+Overall, Piper Sandler &amp; Co. and Piper Sandler Companies are closely integrated entities that work together to provide a comprehensive suite of financial services to their clients. Piper Sandler &amp; Co. is the primary operating unit responsible for the day-to-day execution of the firm's brokerage and investment banking activities, while Piper Sandler Companies provides strategic oversight and direction to ensure the long-term success and growth of the organization.</data>
+    </edge>
+    <edge id="e5" source="6" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">subsidiary Piper...</data>
+      <data key="d6">Piper Sandler Ltd. is a subsidiary of Piper Sandler Companies providing securities brokerage and investment banking services in the U.K.</data>
+    </edge>
+    <edge id="e6" source="7" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">Europe GmbH subsidiary...</data>
+      <data key="d6">Aviditi Capital Advisors Europe GmbH is a subsidiary of Piper Sandler Companies providing securities brokerage and investment banking services in the EU</data>
+    </edge>
+    <edge id="e7" source="8" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">Ltd. subsidiary...</data>
+      <data key="d6">Piper Sandler MENA Ltd. is a subsidiary of Piper Sandler Companies providing securities brokerage and investment banking services in the Abu Dhabi Global Market</data>
+    </edge>
+    <edge id="e8" source="9" target="10">
+      <data key="d3">1.0</data>
+      <data key="d4">Kong Ltd. subsidiary...</data>
+      <data key="d6">Piper Sandler Hong Kong Ltd. is a subsidiary of Piper Sandler Companies providing securities brokerage and investment banking services in Hong Kong</data>
+    </edge>
+    <edge id="e9" source="11" target="10">
+      <data key="d3">14.0</data>
+      <data key="d4">employee Piper Sandler...</data>
+      <data key="d6">Nick Lawler is an employee at Piper Sandler Companies, likely in an investor relations or public relations role.</data>
+    </edge>
+    <edge id="e10" source="12" target="10">
+      <data key="d3">18.0</data>
+      <data key="d4">headquartered Minneapolis, Minnesota....</data>
+      <data key="d6">Piper Sandler Companies is headquartered in Minneapolis, Minnesota.</data>
+    </edge>
+    <edge id="e11" source="13" target="10">
+      <data key="d3">2.0</data>
+      <data key="d4">will announce fourth...</data>
+      <data key="d6">Piper Sandler Companies will announce its fourth quarter and full year 2025 financial results on February 6, 2026.</data>
+    </edge>
+    <edge id="e12" source="14" target="10">
+      <data key="d3">16.0</data>
+      <data key="d4">joined Piper Sandler...</data>
+      <data key="d6">Dan Wolf has joined Piper Sandler Companies' healthcare investment banking team.</data>
+    </edge>
+    <edge id="e13" source="15" target="10">
+      <data key="d3">16.0</data>
+      <data key="d4">been named Global...</data>
+      <data key="d6">J.P. Peltier has been named the Global Co-Head of Investment Banking and Capital Markets at Piper Sandler Companies.</data>
+    </edge>
+    <edge id="e14" source="16" target="10">
+      <data key="d3">16.0</data>
+      <data key="d4">been appointed Head...</data>
+      <data key="d6">Michael Piper has been appointed as the Head of Fixed Income at Piper Sandler Companies.</data>
+    </edge>
+    <edge id="e15" source="17" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">Piper Sandler million...</data>
+      <data key="d6">US regulators fined Piper Sandler $16 million for record-keeping failures</data>
+    </edge>
+    <edge id="e16" source="18" target="4">
+      <data key="d3">2.0</data>
+      <data key="d4">Piper Sandler million...</data>
+      <data key="d6">The CFTC fined Piper Sandler $2 million for record-keeping failures</data>
+    </edge>
+    <edge id="e17" source="21" target="23">
+      <data key="d3">16.0</data>
+      <data key="d4">Wells Fargo $200...</data>
+      <data key="d6">The SEC fined Wells Fargo $200 million as part of a broader $549 million crackdown on record-keeping failures by financial institutions</data>
+    </edge>
+    <edge id="e18" source="22" target="24">
+      <data key="d3">2.0</data>
+      <data key="d4">Goldman Sachs million...</data>
+      <data key="d6">The CFTC charged Goldman Sachs a $5.5 million penalty for failing to properly record and retain certain audio files</data>
+    </edge>
+    <edge id="e19" source="4" target="23">
+      <data key="d3">27.0</data>
+      <data key="d4">Piper Sandler's record-keeping...</data>
+      <data key="d6">The SEC investigated Piper Sandler's record-keeping practices and fined the firm $14 million</data>
+    </edge>
+    <edge id="e20" source="4" target="24">
+      <data key="d3">27.0</data>
+      <data key="d4">Piper Sandler's record-keeping...</data>
+      <data key="d6">The CFTC investigated Piper Sandler's record-keeping practices and fined the firm $2 million</data>
+    </edge>
+    <edge id="e21" source="10" target="25">
+      <data key="d3">2.0</data>
+      <data key="d4">provided free stock...</data>
+      <data key="d6">Zacks Investment Research provided a free stock analysis report on Piper Sandler Companies</data>
+    </edge>
+    <edge id="e22" source="26" target="4">
+      <data key="d3">17.0</data>
+      <data key="d4">CEO Piper...</data>
+      <data key="d6">Chad R. Abraham is the CEO of Piper Sandler</data>
+    </edge>
+    <edge id="e23" source="23" target="27">
+      <data key="d3">9.0</data>
+      <data key="d4">investment bank's record-keeping...</data>
+      <data key="d6">The SEC investigated the investment bank's record-keeping practices and fined it $14 million</data>
+    </edge>
+    <edge id="e24" source="24" target="27">
+      <data key="d3">1.0</data>
+      <data key="d4">investment bank's record-keeping...</data>
+      <data key="d6">The CFTC investigated the investment bank's record-keeping practices and fined it $2 million</data>
+    </edge>
+    <edge id="e25" source="28" target="31">
+      <data key="d3">16.0</data>
+      <data key="d4">charges with SEC...</data>
+      <data key="d6">Oppenheimer settled similar charges with the SEC earlier this year, agreeing to pay $12 million in civil penalties</data>
+    </edge>
+    <edge id="e26" source="29" target="31">
+      <data key="d3">14.0</data>
+      <data key="d4">faced penalties SEC's...</data>
+      <data key="d6">JPMorgan Chase has faced penalties in the SEC's regulatory sweep on communication compliance</data>
+    </edge>
+    <edge id="e27" source="21" target="31">
+      <data key="d3">14.0</data>
+      <data key="d4">faced penalties SEC's...</data>
+      <data key="d6">Wells Fargo has faced penalties in the SEC's regulatory sweep on communication compliance</data>
+    </edge>
+    <edge id="e28" source="30" target="18">
+      <data key="d3">2.0</data>
+      <data key="d4">$12.7 billion settlement...</data>
+      <data key="d6">FTX recently reached a $12.7 billion settlement with the CFTC</data>
+    </edge>
+    <edge id="e29" source="4" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">Piper Sandler's record-keeping...</data>
+      <data key="d6">The SEC investigated Piper Sandler's record-keeping practices and Piper Sandler agreed to pay $14 million to settle the charges</data>
+    </edge>
+    <edge id="e30" source="4" target="18">
+      <data key="d3">18.0</data>
+      <data key="d4">investigated Piper Sandler's...</data>
+      <data key="d6">The CFTC also investigated Piper Sandler's record-keeping practices and Piper Sandler agreed to pay $2 million to settle the charges</data>
+    </edge>
+    <edge id="e31" source="32" target="24">
+      <data key="d3">18.0</data>
+      <data key="d4">Piper Sandler Hedging...</data>
+      <data key="d6">The CFTC charged Piper Sandler Hedging Services LLC for recordkeeping and supervision failures related to the firm-wide use of unapproved communication methods</data>
+    </edge>
+    <edge id="e32" source="32" target="4">
+      <data key="d3">23.0</data>
+      <data key="d4">Services LLC subsidiary...</data>
+      <data key="d6">Piper Sandler Hedging Services LLC is a subsidiary and affiliate of the broader Piper Sandler financial services firm. Piper Sandler is a leading investment bank and asset management firm that provides a wide range of financial services to clients.
+
+Piper Sandler Hedging Services LLC is a specialized division within the Piper Sandler organization that focuses on providing hedging and risk management solutions to its clients. As a subsidiary, Piper Sandler Hedging Services LLC is closely integrated with the parent company and benefits from the resources, expertise, and brand recognition of the Piper Sandler name.
+
+In its role as an affiliate, Piper Sandler Hedging Services LLC is closely aligned with the broader Piper Sandler financial services firm. This means that the hedging services division shares common ownership, management, and operational infrastructure with the parent company. Clients of Piper Sandler Hedging Services LLC can leverage the full suite of financial products and services offered by the Piper Sandler group, including investment banking, wealth management, and institutional research.
+
+By being both a subsidiary and an affiliate of Piper Sandler, the hedging services division is able to leverage the resources, expertise, and reputation of the larger organization while also maintaining a specialized focus on providing tailored hedging and risk management solutions to its clients. This integrated approach allows Piper Sandler Hedging Services LLC to offer a comprehensive suite of services to its clients, drawing on the broader capabilities of the Piper Sandler group.
+
+Overall, Piper Sandler Hedging Services LLC is a key component of the Piper Sandler financial services ecosystem, providing specialized hedging and risk management solutions to clients while also benefiting from the resources and brand recognition of the parent company. This integrated structure allows Piper Sandler Hedging Services LLC to deliver a unique and differentiated value proposition to its clients.</data>
+    </edge>
+    <edge id="e33" source="32" target="23">
+      <data key="d3">2.0</data>
+      <data key="d4">took action against...</data>
+      <data key="d6">The SEC also took action against a Piper Sandler affiliate for recordkeeping and supervision violations related to unapproved communication methods</data>
+    </edge>
+    <edge id="e34" source="20" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">Piper Sandler pay...</data>
+      <data key="d6">The CFTC ordered Piper Sandler to pay a $2 million penalty in 2024 for recordkeeping failures, indicating compliance weaknesses at the firm.</data>
+    </edge>
+    <edge id="e35" source="33" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">widespread recordkeeping lapses...</data>
+      <data key="d6">The SEC alleged widespread recordkeeping lapses at Piper Sandler, leading to a multi-million-dollar penalty and compliance remediation in 2024.</data>
+    </edge>
+    <edge id="e36" source="34" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">deficiencies Piper Sandler...</data>
+      <data key="d6">FINRA alleged reporting deficiencies by Piper Sandler and the firm settled for $95,000 in 2025, indicating issues with regulatory compliance.</data>
+    </edge>
+    <edge id="e37" source="35" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">Stifel Financial jointly...</data>
+      <data key="d6">Piper Sandler and Stifel Financial jointly petitioned to lift restrictions from the 2003-2004 Global Research Analyst Settlement, suggesting ongoing regulatory oversight challenges.</data>
+    </edge>
+    <edge id="e38" source="36" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">merged with Sandler...</data>
+      <data key="d6">Piper Jaffray Companies merged with Sandler O'Neill + Partners in 2020 to form Piper Sandler Companies.</data>
+    </edge>
+    <edge id="e39" source="37" target="10">
+      <data key="d3">1.0</data>
+      <data key="d4">Partners merged with...</data>
+      <data key="d6">Sandler O'Neill + Partners merged with Piper Jaffray Companies in 2020 to form Piper Sandler Companies.</data>
+    </edge>
+    <edge id="e40" source="38" target="39">
+      <data key="d3">9.0</data>
+      <data key="d4">Group represents investors...</data>
+      <data key="d6">The White Law Group represents investors nationwide in FINRA arbitration against broker-dealers</data>
+    </edge>
+    <edge id="e41" source="5" target="39">
+      <data key="d3">16.0</data>
+      <data key="d4">experienced losses through...</data>
+      <data key="d6">Investors may have experienced losses through Piper Sandler &amp; Co.
+Investors experienced losses through investments made with Piper Sandler &amp; Co.</data>
+    </edge>
+    <edge id="e42" source="39" target="40">
+      <data key="d3">1.0</data>
+      <data key="d4">most effective forum...</data>
+      <data key="d6">FINRA arbitration is the most effective forum for investors to resolve disputes with broker-dealers</data>
+    </edge>
+    <edge id="e43" source="14" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">added Dan Wolf...</data>
+      <data key="d6">Piper Sandler has added Dan Wolf to its healthcare investment banking team</data>
+    </edge>
+    <edge id="e44" source="15" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">been named Global...</data>
+      <data key="d6">J.P. Peltier has been named the Global Co-Head of Investment Banking and Capital Markets at Piper Sandler</data>
+    </edge>
+    <edge id="e45" source="16" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">been appointed Head...</data>
+      <data key="d6">Michael Piper has been appointed as the Head of Fixed Income at Piper Sandler</data>
+    </edge>
+    <edge id="e46" source="41" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">joint bookrunner...</data>
+      <data key="d6">Piper Sandler served as a joint bookrunner for a $250 million preferred stock offering by Rithm Capital</data>
+    </edge>
+    <edge id="e47" source="42" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">financial advisor...</data>
+      <data key="d6">Piper Sandler served as a financial advisor for BV Investment Partners' acquisition of Altimeter Solutions Group</data>
+    </edge>
+    <edge id="e48" source="43" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">joint placement agent...</data>
+      <data key="d6">Piper Sandler served as a joint placement agent for a $78.5 million unsecured notes offering by Clear Street Capital</data>
+    </edge>
+    <edge id="e49" source="44" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">joint placement agent...</data>
+      <data key="d6">Piper Sandler served as a joint placement agent for a $11 million subordinated notes offering by GBank Financial Holdings</data>
+    </edge>
+    <edge id="e50" source="45" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">passive bookrunner...</data>
+      <data key="d6">Piper Sandler served as a passive bookrunner for a follow-on offering by Arrowhead Pharmaceuticals, Inc.</data>
+    </edge>
+    <edge id="e51" source="46" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">active bookrunner...</data>
+      <data key="d6">Piper Sandler served as an active bookrunner for a follow-on offering by Monte Rosa Therapeutics</data>
+    </edge>
+    <edge id="e52" source="47" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">active bookrunner...</data>
+      <data key="d6">Piper Sandler served as an active bookrunner for a follow-on offering by Bright Minds Biosciences</data>
+    </edge>
+    <edge id="e53" source="48" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">active bookrunner...</data>
+      <data key="d6">Piper Sandler served as an active bookrunner for a follow-on offering by Crinetics Pharmaceuticals, Inc.</data>
+    </edge>
+    <edge id="e54" source="49" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">left bookrunner...</data>
+      <data key="d6">Piper Sandler served as a left bookrunner for a confidentially marketed follow-on offering by Praxis Precision Medicines</data>
+    </edge>
+    <edge id="e55" source="50" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">active bookrunner...</data>
+      <data key="d6">Piper Sandler served as an active bookrunner for a $90 million senior notes offering by Adamas Trust, Inc.</data>
+    </edge>
+    <edge id="e56" source="51" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">sole placement agent...</data>
+      <data key="d6">Piper Sandler served as the sole placement agent for a debt financing by Strickland Brothers</data>
+    </edge>
+    <edge id="e57" source="52" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">financial advisor...</data>
+      <data key="d6">Piper Sandler served as a financial advisor for the acquisition of Atlantic Global Risk LLC by Howden</data>
+    </edge>
+    <edge id="e58" source="53" target="10">
+      <data key="d3">7.0</data>
+      <data key="d4">providing details about...</data>
+      <data key="d6">Piper Sandler Companies is providing details about the Biopharma Mogul Summit event</data>
+    </edge>
+    <edge id="e59" source="54" target="10">
+      <data key="d3">7.0</data>
+      <data key="d4">providing details about...</data>
+      <data key="d6">Piper Sandler Companies is providing details about the Midwest Depository Strategy Forum event</data>
+    </edge>
+    <edge id="e60" source="55" target="10">
+      <data key="d3">1.0</data>
+      <data key="d4">providing details about...</data>
+      <data key="d6">Piper Sandler Companies is providing details about the Western Bank Forum event</data>
+    </edge>
+    <edge id="e61" source="32" target="20">
+      <data key="d3">9.0</data>
+      <data key="d4">Piper Sandler million...</data>
+      <data key="d6">The CFTC fined Piper Sandler $2 million for alleged record-keeping violations</data>
+    </edge>
+    <edge id="e62" source="32" target="19">
+      <data key="d3">1.0</data>
+      <data key="d4">also involved investigating...</data>
+      <data key="d6">The SEC was also involved in investigating Piper Sandler Hedging Services LLC</data>
+    </edge>
+    <edge id="e63" source="56" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">CFTC commissioner, issued...</data>
+      <data key="d6">Summer K. Mersinger, a CFTC commissioner, issued a dissenting statement on the Piper Sandler enforcement action</data>
+    </edge>
+    <edge id="e64" source="57" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">CFTC commissioner, issued...</data>
+      <data key="d6">Caroline D. Pham, a CFTC commissioner, issued a dissenting statement on the Piper Sandler enforcement action</data>
+    </edge>
+    <edge id="e65" source="19" target="20">
+      <data key="d3">1.0</data>
+      <data key="d4">action against Piper...</data>
+      <data key="d6">The CFTC's enforcement action against Piper Sandler was seen as potentially overstepping its jurisdiction compared to the SEC's authority</data>
+    </edge>
+  </graph>
+</graphml>

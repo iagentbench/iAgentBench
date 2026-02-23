@@ -1,0 +1,1176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">PAUL GODFREY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Paul Godfrey is the CEO of the National Post and was involved in the formation of Postmedia Network in 2010.</data>
+    </node>
+    <node id="1">
+      <data key="d0">NATIONAL POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The National Post is a major national daily newspaper based in Toronto, Ontario. It is owned and published by Postmedia Network, a Canadian media company.
+
+The National Post is a broadsheet newspaper, meaning it is published in a large format. It is considered one of the leading national newspapers in Canada, alongside publications such as The Globe and Mail.
+
+Postmedia Network, the parent company of the National Post, is a major media conglomerate in Canada. It owns and operates several other prominent newspapers, including the Montreal Gazette, Ottawa Citizen, and Vancouver Sun, among others. Postmedia Network is the largest publisher of daily newspapers in Canada.
+
+The National Post was first launched in 1998 and has since established itself as a prominent voice in Canadian journalism. It covers a wide range of topics, including news, politics, business, arts, and culture, providing in-depth reporting and analysis on issues of national importance.
+
+The newspaper is known for its conservative-leaning editorial stance and has been praised for its strong investigative journalism. It has also faced criticism at times for its perceived bias and the influence of its ownership on its editorial content.
+
+Overall, the National Post is a significant player in the Canadian media landscape, providing a national platform for news, commentary, and debate on issues that are important to Canadians.</data>
+    </node>
+    <node id="2">
+      <data key="d0">FINANCIAL POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Financial Post is a major business newspaper based in Toronto, Ontario. It is a Postmedia publication and is administratively part of the National Post, which is also owned by Postmedia Network.
+
+The Financial Post is a national business newspaper that covers a wide range of financial and economic news. It provides in-depth reporting and analysis on topics such as the stock market, corporate finance, personal finance, and economic policy. The newspaper is known for its authoritative and reliable coverage of business and financial news.
+
+Postmedia Network, the parent company of the Financial Post, is a leading media company in Canada. It owns several major newspapers, including the National Post, as well as various digital media properties. The Financial Post is one of the flagship publications within the Postmedia Network and is considered a prominent voice in the Canadian business and financial media landscape.
+
+Overall, the Financial Post is a well-respected and influential business newspaper that provides comprehensive coverage of the Canadian and global economy. Its reporting and analysis are widely read by business leaders, investors, and policymakers, making it an important source of information for the financial community in Canada.</data>
+    </node>
+    <node id="3">
+      <data key="d0">VANCOUVER SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Vancouver Sun is a broadsheet daily newspaper owned by Postmedia Network.</data>
+    </node>
+    <node id="4">
+      <data key="d0">POSTMEDIA NETWORK</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="5">
+      <data key="d0">CHATHAM ASSET MANAGEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Chatham Asset Management is an American media conglomerate that currently owns two-thirds (66%) of Postmedia Network, a major Canadian media company. Postmedia Network owns several prominent Canadian newspapers, including the National Post, as well as various other media properties.
+
+Chatham Asset Management's ownership of Postmedia Network gives it significant influence over the Canadian media landscape. As the majority shareholder, Chatham Asset Management has the ability to shape the editorial direction and business strategy of Postmedia Network's various media outlets.
+
+The relationship between Chatham Asset Management and Postmedia Network has been the subject of some scrutiny, with concerns raised about the potential for undue influence over the media. However, Chatham Asset Management has maintained that its ownership stake is purely an investment and that it does not interfere with the editorial independence of Postmedia Network's publications.
+
+Overall, Chatham Asset Management's position as the majority owner of Postmedia Network makes it a significant player in the Canadian media industry, with the ability to impact the information and narratives that reach Canadian audiences through Postmedia's various news outlets.</data>
+    </node>
+    <node id="6">
+      <data key="d0">CANWEST LIMITED PARTNERSHIP</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="7">
+      <data key="d0">NORWICH GAZETTE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A newspaper that closed in 2018</data>
+    </node>
+    <node id="8">
+      <data key="d0">PEMBROKE DAILY OBSERVER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A broadsheet newspaper that ceased its print edition in 2018</data>
+    </node>
+    <node id="9">
+      <data key="d0">STRATHMORE STANDARD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A tabloid newspaper that closed in 2018</data>
+    </node>
+    <node id="10">
+      <data key="d0">FINANCIAL POST BUSINESS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="11">
+      <data key="d0">LIVING WINDSOR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="12">
+      <data key="d0">MUSKOKA MAGAZINE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="13">
+      <data key="d0">KINGSTON LIFE MAGAZINE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="14">
+      <data key="d0">INTERIORS MAGAZINE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="15">
+      <data key="d0">BACKPACK MAGAZINE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="16">
+      <data key="d0">CANNABIS POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="17">
+      <data key="d0">MUSKOKA VISITOR GUIDE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="18">
+      <data key="d0">ONTARIO FARMER MAGAZINES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A group of magazines owned by Postmedia Network, including Hog, Beef, and Dairy</data>
+    </node>
+    <node id="19">
+      <data key="d0">SWERVE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="20">
+      <data key="d0">TVTIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A magazine owned by Postmedia Network</data>
+    </node>
+    <node id="21">
+      <data key="d0">CANADA.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Canada.com is a digital property owned by Postmedia Network, a Canadian media company. The website provides news and information to Canadians.
+
+Canada.com is a website that serves as a source of news and information for Canadian audiences. It is owned and operated by Postmedia Network, one of the largest media companies in Canada. Postmedia Network is a publicly-traded corporation that owns and operates several major Canadian news outlets, including newspapers, digital properties, and other media assets.
+
+The website Canada.com is part of Postmedia Network's portfolio of digital properties. It is designed to deliver a wide range of news, articles, and information to Canadian readers. The content on Canada.com covers a variety of topics, including national and local news, politics, business, sports, entertainment, and more.
+
+As a digital property owned by Postmedia Network, Canada.com benefits from the company's extensive resources and journalistic expertise. Postmedia Network employs a team of experienced journalists and editors who work to provide high-quality, reliable, and up-to-date information to the website's audience.
+
+Overall, Canada.com serves as an important digital platform for Postmedia Network, allowing the company to reach and engage with Canadian readers in the online space. The website's comprehensive coverage of news and information helps to inform and educate its audience, while also contributing to Postmedia Network's overall business strategy and presence in the Canadian media landscape.</data>
+    </node>
+    <node id="22">
+      <data key="d0">INFOMART.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A website owned by Postmedia Network</data>
+    </node>
+    <node id="23">
+      <data key="d0">CANOE.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">CANOE.COM is a website owned and operated by Postmedia Network, a major Canadian media company. The website serves as a digital property for Postmedia, providing a platform for news, entertainment, and other content.
+
+According to the information provided, CANOE.COM is a website that is part of Postmedia Network's portfolio of digital properties. Postmedia Network is a leading media company in Canada, owning and operating various news outlets and digital platforms.
+
+The descriptions indicate that CANOE.COM is a website that serves as a digital property for Postmedia, allowing the company to deliver news, entertainment, and other content to its audience through this online platform. The website is a key component of Postmedia's digital strategy, complementing its traditional print media offerings.
+
+Overall, CANOE.COM is a website that is owned and operated by the Postmedia Network, a major Canadian media company. The website serves as a digital platform for Postmedia to provide news, entertainment, and other content to its audience, as part of the company's broader media and digital initiatives.</data>
+    </node>
+    <node id="24">
+      <data key="d0">CELEBRATING.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A website owned by Postmedia Network</data>
+    </node>
+    <node id="25">
+      <data key="d0">CONNECTING.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A website owned by Postmedia Network</data>
+    </node>
+    <node id="26">
+      <data key="d0">DRIVING.CA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">DRIVING.CA is a website owned and operated by Postmedia Network, a Canadian media company. The website focuses on providing automotive news, reviews, and information to its readers.
+
+Driving.ca is a digital property of Postmedia, a leading media company in Canada. The website serves as a hub for automotive-related content, catering to a wide audience interested in the latest developments in the automotive industry. Driving.ca covers a range of topics, including new car releases, industry trends, vehicle reviews, and practical driving tips.
+
+The website's content is produced by a team of experienced automotive journalists and experts, who strive to deliver accurate, up-to-date, and informative articles to its readers. Driving.ca aims to be a trusted source of information for car enthusiasts, as well as those seeking guidance on purchasing, maintaining, and operating their vehicles.
+
+Through Driving.ca, Postmedia Network leverages its expertise in the media industry to provide a comprehensive online platform dedicated to the automotive sector. The website's content is accessible to readers across Canada, offering a valuable resource for those interested in the world of cars and transportation.
+
+Overall, Driving.ca is a digital property owned by Postmedia Network that serves as a comprehensive source of automotive news, reviews, and information for its readers. The website's focus on delivering high-quality, relevant content aligns with Postmedia's mission to provide engaging and informative media experiences to its audience.</data>
+    </node>
+    <node id="27">
+      <data key="d0">HOUSEHUNTING.CA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A website owned by Postmedia Network</data>
+    </node>
+    <node id="28">
+      <data key="d0">REMEMBERING.CA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">REMEMBERING.CA is a website owned and operated by Postmedia Network, a major Canadian media company. The website serves as a digital platform for providing obituaries and memorial services.
+
+Remembering.ca is a Postmedia property that focuses on commemorating the lives of deceased individuals. The website offers a range of services and features to help people honor the memory of their loved ones. This includes publishing detailed obituaries, allowing users to share condolences and tributes, and providing information about funeral arrangements and memorial services.
+
+The website's primary purpose is to create a centralized hub where individuals can find and access information related to the passing of friends, family members, or other community members. By consolidating these resources on a single digital platform, Remembering.ca aims to make the process of mourning and remembering more accessible and convenient for users.
+
+As a Postmedia property, Remembering.ca is part of a larger media conglomerate that operates various news and information outlets across Canada. This affiliation with Postmedia likely provides the website with access to a wide range of content and resources, which can be leveraged to enhance the user experience and the quality of the information presented.
+
+Overall, Remembering.ca serves as a comprehensive digital platform for individuals to commemorate the lives of their loved ones, access relevant information about funeral arrangements and memorial services, and connect with others who are grieving. The website's integration with Postmedia's broader media network may also enable it to provide additional value-added features and content to its users.</data>
+    </node>
+    <node id="29">
+      <data key="d0">SHOPLOCAL.CA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A website owned by Postmedia Network</data>
+    </node>
+    <node id="30">
+      <data key="d0">SWARMJAM.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A website owned by Postmedia Network</data>
+    </node>
+    <node id="31">
+      <data key="d0">QUICKTRAC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A software product owned by Postmedia Network</data>
+    </node>
+    <node id="32">
+      <data key="d0">QUICKWIRE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A software product owned by Postmedia Network</data>
+    </node>
+    <node id="33">
+      <data key="d0">METROLAND MEDIA GROUP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Metroland Media Group is a media group based in Canada. The company was involved in a proposed merger with Postmedia, another major media organization in the country.
+
+Metroland Media Group is a prominent player in the Canadian media landscape. As a media group, the company operates a variety of media outlets, including newspapers, magazines, and digital platforms. Metroland Media Group's portfolio covers a wide range of content and serves diverse audiences across the country.
+
+The proposed merger between Metroland Media Group and Postmedia was a significant development in the Canadian media industry. The two companies were in discussions to combine their operations, which would have created a larger, more consolidated media entity. The potential merger was seen as a strategic move to strengthen the companies' positions and better navigate the evolving media landscape.
+
+While the details of the proposed merger are not fully clear from the provided information, the fact that Metroland Media Group was involved in these discussions suggests that the company plays a prominent role in the Canadian media industry. The company's participation in such a high-profile transaction indicates its influence and importance within the sector.
+
+Overall, Metroland Media Group is a key player in the Canadian media landscape, operating a diverse range of media outlets and engaging in strategic partnerships and mergers to enhance its position in the industry.</data>
+    </node>
+    <node id="34">
+      <data key="d0">CANWEST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Canwest was the predecessor company to Postmedia Network, which was formed in 2010 after Canwest's assets were acquired.</data>
+    </node>
+    <node id="35">
+      <data key="d0">CANADIAN TIRE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Canadian Tire is a company that has a flyer featured in the article</data>
+    </node>
+    <node id="36">
+      <data key="d0">JOHN WEISSENBERGER</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="37">
+      <data key="d0">THE GROWTHOP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The GrowthOp is a digital property owned by Postmedia that covers the cannabis industry.</data>
+    </node>
+    <node id="38">
+      <data key="d0">HEALTHING.CA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Healthing.ca is a digital property owned by Postmedia that provides health and wellness information.</data>
+    </node>
+    <node id="39">
+      <data key="d0">LIVES TOLD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Lives Told is a digital property owned by Postmedia that features obituaries and remembrances.</data>
+    </node>
+    <node id="40">
+      <data key="d0">WORKING.COM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Working.com is a digital property owned by Postmedia that focuses on employment and career-related content.</data>
+    </node>
+    <node id="41">
+      <data key="d0">POSTMEDIA</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="42">
+      <data key="d0">THE PROVINCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Province is a regional newspaper based in Vancouver, British Columbia, Canada. It is a publication owned and operated by Postmedia, a major media conglomerate in the country.
+
+The Province serves the Vancouver metropolitan area and the surrounding region of British Columbia. As a Postmedia publication, it is part of the company's network of newspapers and digital media properties across Canada.
+
+The newspaper has a focus on news, sports, and entertainment coverage relevant to the local community in Vancouver and the broader province of British Columbia. It reports on a range of topics, including local politics, business, arts and culture, and community events.
+
+The Province has been in operation for many years, though the exact date of its founding is unclear from the information provided. As a regional newspaper, it competes with other media outlets in the Vancouver area, but maintains a distinct identity and readership.
+
+Overall, The Province can be characterized as a well-established, Postmedia-owned newspaper that serves as a primary source of news and information for the residents of Vancouver and the surrounding region of British Columbia.</data>
+    </node>
+    <node id="43">
+      <data key="d0">THE VANCOUVER SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Vancouver Sun is a regional newspaper owned by Postmedia and serving the Vancouver, British Columbia area.</data>
+    </node>
+    <node id="44">
+      <data key="d0">AIRDRIE ECHO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Airdrie Echo is a regional newspaper owned by Postmedia and serving the Airdrie, Alberta area.</data>
+    </node>
+    <node id="45">
+      <data key="d0">BOW VALLEY CRAG &amp; CANYON</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Bow Valley Crag &amp; Canyon is a regional newspaper owned by Postmedia and serving the Banff, Alberta area.</data>
+    </node>
+    <node id="46">
+      <data key="d0">CALGARY HERALD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Calgary Herald is a regional newspaper owned by Postmedia and serving the Calgary, Alberta area.</data>
+    </node>
+    <node id="47">
+      <data key="d0">CALGARY SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Calgary Sun is a regional newspaper owned by Postmedia and serving the Calgary, Alberta area.</data>
+    </node>
+    <node id="48">
+      <data key="d0">COCHRANE TIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Cochrane Times is a regional newspaper owned by Postmedia and serving the Cochrane, Alberta area.</data>
+    </node>
+    <node id="49">
+      <data key="d0">DAILY HERALD TRIBUNE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Daily Herald Tribune is a regional newspaper owned by Postmedia and serving the Grande Prairie, Alberta area.</data>
+    </node>
+    <node id="50">
+      <data key="d0">DEVON DISPATCH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Devon Dispatch is a regional newspaper owned by Postmedia and serving the Devon, Alberta area.</data>
+    </node>
+    <node id="51">
+      <data key="d0">EDMONTON EXAMINER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Edmonton Examiner is a regional newspaper owned by Postmedia and serving the Edmonton, Alberta area.</data>
+    </node>
+    <node id="52">
+      <data key="d0">EDMONTON JOURNAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Edmonton Journal is a regional newspaper owned by Postmedia and serving the Edmonton, Alberta area.</data>
+    </node>
+    <node id="53">
+      <data key="d0">EDMONTON SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Edmonton Sun is a regional newspaper owned by Postmedia and serving the Edmonton, Alberta area.</data>
+    </node>
+    <node id="54">
+      <data key="d0">FORT MCMURRAY TODAY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Fort McMurray Today is a regional newspaper owned by Postmedia and serving the Fort McMurray, Alberta area.</data>
+    </node>
+    <node id="55">
+      <data key="d0">LA NOUVELLE BEAUMONT NEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The La Nouvelle Beaumont News is a regional newspaper owned by Postmedia and serving the Beaumont, Alberta area.</data>
+    </node>
+    <node id="56">
+      <data key="d0">LEDUC REP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Leduc Rep is a regional newspaper owned by Postmedia and serving the Leduc, Alberta area.</data>
+    </node>
+    <node id="57">
+      <data key="d0">PEACE RIVER RECORD-GAZETTE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Peace River Record-Gazette is a regional newspaper owned by Postmedia and serving the Peace River, Alberta area.</data>
+    </node>
+    <node id="58">
+      <data key="d0">PINCHER CREEK ECHO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Pincher Creek Echo is a regional newspaper owned by Postmedia and serving the Pincher Creek, Alberta area.</data>
+    </node>
+    <node id="59">
+      <data key="d0">THE COLD LAKE SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Cold Lake Sun is a regional newspaper owned by Postmedia and serving the Cold Lake, Alberta area.</data>
+    </node>
+    <node id="60">
+      <data key="d0">THE DRAYTON VALLEY WESTERN REVIEW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Drayton Valley Western Review is a regional newspaper owned by Postmedia and serving the Drayton, Alberta area.</data>
+    </node>
+    <node id="61">
+      <data key="d0">THE FAIRVIEW POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Fairview Post is a regional newspaper owned by Postmedia and serving the Fairview, Alberta area.</data>
+    </node>
+    <node id="62">
+      <data key="d0">THE GROVE EXAMINER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Grove Examiner is a regional newspaper owned by Postmedia and serving the Spruce Grove, Alberta area.</data>
+    </node>
+    <node id="63">
+      <data key="d0">THE HANNA HERALD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Hanna Herald is a regional newspaper owned by Postmedia and serving the Hanna, Alberta area.</data>
+    </node>
+    <node id="64">
+      <data key="d0">THE HIGH RIVER TIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The High River Times is a regional newspaper owned by Postmedia and serving the High River, Alberta area.</data>
+    </node>
+    <node id="65">
+      <data key="d0">THE LEDUC-WETASKIWIN COUNTY MARKET</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Leduc-Wetaskiwin County Market is a regional newspaper owned by Postmedia and serving the Leduc, Alberta area.</data>
+    </node>
+    <node id="66">
+      <data key="d0">THE MAYERTHORPE FREELANCER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Mayerthorpe Freelancer is a regional newspaper owned by Postmedia and serving the Mayerthorpe, Alberta area.</data>
+    </node>
+    <node id="67">
+      <data key="d0">THE NANTON NEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Nanton News is a regional newspaper owned by Postmedia and serving the Nanton, Alberta area.</data>
+    </node>
+    <node id="68">
+      <data key="d0">THE PEACE COUNTRY SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Peace Country Sun is a regional newspaper owned by Postmedia and serving the Grande Prairie, Alberta area.</data>
+    </node>
+    <node id="69">
+      <data key="d0">THE RECORD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Record is a regional newspaper owned by Postmedia and serving the Fort Saskatchewan, Alberta area.</data>
+    </node>
+    <node id="70">
+      <data key="d0">THE SHERWOOD PARK NEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Sherwood Park News is a regional newspaper owned by Postmedia and serving the Sherwood Park, Alberta area.</data>
+    </node>
+    <node id="71">
+      <data key="d0">THE STONY PLAIN REPORTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Stony Plain Reporter is a regional newspaper owned by Postmedia and serving the Stony Plain, Alberta area.</data>
+    </node>
+    <node id="72">
+      <data key="d0">THE VULCAN ADVOCATE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Vulcan Advocate is a regional newspaper owned by Postmedia and serving the Vulcan, Alberta area.</data>
+    </node>
+    <node id="73">
+      <data key="d0">THE WETASKIWIN TIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Wetaskiwin Times is a regional newspaper owned by Postmedia and serving the Wetaskiwin, Alberta area.</data>
+    </node>
+    <node id="74">
+      <data key="d0">THE WHITECOURT STAR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Whitecourt Star is a regional newspaper owned by Postmedia and serving the Whitecourt, Alberta area.</data>
+    </node>
+    <node id="75">
+      <data key="d0">VERMILION STANDARD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Vermilion Standard is a regional newspaper owned by Postmedia and serving the Vermilion, Alberta area.</data>
+    </node>
+    <node id="76">
+      <data key="d0">REGINA LEADER-POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Regina Leader-Post is a regional newspaper owned by Postmedia and serving the Regina, Saskatchewan area.</data>
+    </node>
+    <node id="77">
+      <data key="d0">SASKATOON STARPHOENIX</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Saskatoon StarPhoenix is a regional newspaper owned by Postmedia and serving the Saskatoon, Saskatchewan area.</data>
+    </node>
+    <node id="78">
+      <data key="d0">THE JOURNAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Journal is a regional newspaper owned by Postmedia and serving the Melfort/Nipawin, Saskatchewan area.</data>
+    </node>
+    <node id="79">
+      <data key="d0">PRINCE GEORGE POST</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="80">
+      <data key="d0">ANDREW MACLEOD</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Andrew MacLeod is the Chief Executive Officer of Postmedia Network Canada Corp.</data>
+    </node>
+    <node id="81">
+      <data key="d0">DUNCAN CLARK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Duncan Clark is the Chief Content Officer of Postmedia.</data>
+    </node>
+    <node id="82">
+      <data key="d0">POSTMEDIA NETWORK CANADA CORP.</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="83">
+      <data key="d0">SALTWARE NETWORK INC.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">SaltWire Network Inc. is a newspaper chain in Atlantic Canada that was acquired by Postmedia</data>
+    </node>
+    <node id="84">
+      <data key="d0">THE HALIFAX HERALD LTD.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Halifax Herald Ltd. is a newspaper company in Atlantic Canada that was acquired by Postmedia</data>
+    </node>
+    <node id="85">
+      <data key="d0">KEVIN KLEIN</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="86">
+      <data key="d0">WINNIPEG SUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Winnipeg Sun is a newspaper that is being sold by Postmedia to a group led by Kevin Klein</data>
+    </node>
+    <node id="87">
+      <data key="d0">NORDSTAR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Nordstar is a company that was in talks to merge with Postmedia, but the merger did not go through</data>
+    </node>
+    <node id="88">
+      <data key="d0">STEVE MCCABE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Steve McCabe is an employee of Postmedia Network Inc.</data>
+    </node>
+    <node id="89">
+      <data key="d0">ROBERT CRIBB</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Robert Cribb is an employee of Postmedia Network Inc.</data>
+    </node>
+    <node id="90">
+      <data key="d0">ALYN EDWARDS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Alyn Edwards is an employee of Postmedia Network Inc.</data>
+    </node>
+    <node id="91">
+      <data key="d0">ROBIN ROBERTS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Robin Roberts is an employee of Postmedia Network Inc.</data>
+    </node>
+    <node id="92">
+      <data key="d0">POSTMEDIA NETWORK INC.</data>
+      <data key="d1" />
+      <data key="d2">6.0</data>
+      <data key="d5" />
+    </node>
+    <node id="93">
+      <data key="d0">FUNDING</data>
+      <data key="d1" />
+      <data key="d2">6.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">CEO National...</data>
+      <data key="d6">Paul Godfrey is the CEO of the National Post, which is owned by Postmedia Network.</data>
+    </edge>
+    <edge id="e1" source="0" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">involved formation...</data>
+      <data key="d6">Paul Godfrey was involved in the formation of Postmedia Network in 2010.</data>
+    </edge>
+    <edge id="e2" source="1" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">broadsheet daily newspaper...</data>
+      <data key="d6">The National Post is a broadsheet daily newspaper owned by Postmedia Network.</data>
+    </edge>
+    <edge id="e3" source="1" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">administratively part...</data>
+      <data key="d6">The Financial Post is administratively part of the National Post, which is owned by Postmedia Network.</data>
+    </edge>
+    <edge id="e4" source="3" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">broadsheet daily newspaper...</data>
+      <data key="d6">The Vancouver Sun is a broadsheet daily newspaper owned by Postmedia Network.</data>
+    </edge>
+    <edge id="e5" source="4" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">predecessor Postmedia...</data>
+      <data key="d6">Canwest Limited Partnership was the predecessor to Postmedia Network.</data>
+    </edge>
+    <edge id="e6" source="4" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">owns Postmedia Network....</data>
+      <data key="d6">Chatham Asset Management owns 66% of Postmedia Network.</data>
+    </edge>
+    <edge id="e7" source="7" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">owned Postmedia Network...</data>
+      <data key="d6">Norwich Gazette was owned by Postmedia Network and closed in 2018</data>
+    </edge>
+    <edge id="e8" source="8" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">owned Postmedia Network...</data>
+      <data key="d6">Pembroke Daily Observer was owned by Postmedia Network and ceased its print edition in 2018</data>
+    </edge>
+    <edge id="e9" source="9" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">tabloid newspaper owned...</data>
+      <data key="d6">Strathmore Standard was a tabloid newspaper owned by Postmedia Network that closed in 2018</data>
+    </edge>
+    <edge id="e10" source="10" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned...</data>
+      <data key="d6">Financial Post Business is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e11" source="11" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">Living Windsor is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e12" source="12" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">Muskoka Magazine is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e13" source="13" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned...</data>
+      <data key="d6">Kingston Life Magazine is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e14" source="14" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">Interiors Magazine is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e15" source="15" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">Backpack Magazine is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e16" source="16" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">Cannabis Post is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e17" source="17" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned...</data>
+      <data key="d6">Muskoka Visitor Guide is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e18" source="18" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">including Hog, Beef,...</data>
+      <data key="d6">Ontario Farmer Magazines, including Hog, Beef, and Dairy, are owned by Postmedia Network</data>
+    </edge>
+    <edge id="e19" source="19" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">Swerve is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e20" source="20" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">magazine owned Postmedia...</data>
+      <data key="d6">TVtimes is a magazine owned by Postmedia Network</data>
+    </edge>
+    <edge id="e21" source="21" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">website owned Postmedia...</data>
+      <data key="d6">Canada.com is a website owned by Postmedia Network
+Postmedia Network owns the Canada.com website</data>
+    </edge>
+    <edge id="e22" source="22" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">Infomart.com website Infomart.com...</data>
+      <data key="d6">Postmedia Network owns the Infomart.com website
+Infomart.com is a website owned by Postmedia Network</data>
+    </edge>
+    <edge id="e23" source="23" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">Canoe.com website Canoe.com...</data>
+      <data key="d6">Postmedia Network owns the Canoe.com website
+Canoe.com is a website owned by Postmedia Network</data>
+    </edge>
+    <edge id="e24" source="24" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">Celebrating.com website Celebrating.com...</data>
+      <data key="d6">Postmedia Network owns the Celebrating.com website
+Celebrating.com is a website owned by Postmedia Network</data>
+    </edge>
+    <edge id="e25" source="25" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">website owned Postmedia...</data>
+      <data key="d6">Connecting.com is a website owned by Postmedia Network
+Postmedia Network owns the Connecting.com website</data>
+    </edge>
+    <edge id="e26" source="26" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">website owned Postmedia...</data>
+      <data key="d6">Driving.ca is a website owned by Postmedia Network
+Postmedia Network owns the Driving.ca website</data>
+    </edge>
+    <edge id="e27" source="27" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">website owned Postmedia...</data>
+      <data key="d6">Househunting.ca is a website owned by Postmedia Network
+Postmedia Network owns the Househunting.ca website</data>
+    </edge>
+    <edge id="e28" source="28" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">Remembering.ca website Remembering.ca...</data>
+      <data key="d6">Postmedia Network owns the Remembering.ca website
+Remembering.ca is a website owned by Postmedia Network</data>
+    </edge>
+    <edge id="e29" source="29" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">website owned Postmedia...</data>
+      <data key="d6">Shoplocal.ca is a website owned by Postmedia Network
+Postmedia Network owns the Shoplocal.ca website</data>
+    </edge>
+    <edge id="e30" source="30" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">Swarmjam.com website Swarmjam.com...</data>
+      <data key="d6">Postmedia Network owns the Swarmjam.com website
+Swarmjam.com is a website owned by Postmedia Network</data>
+    </edge>
+    <edge id="e31" source="31" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">software product owned...</data>
+      <data key="d6">QuickTrac is a software product owned by Postmedia Network
+Postmedia Network owns the QuickTrac software product</data>
+    </edge>
+    <edge id="e32" source="32" target="4">
+      <data key="d3">2.0</data>
+      <data key="d4">QuickWire software product...</data>
+      <data key="d6">Postmedia Network owns the QuickWire software product
+QuickWire is a software product owned by Postmedia Network</data>
+    </edge>
+    <edge id="e33" source="34" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">formed 2010 after...</data>
+      <data key="d6">Postmedia Network was formed in 2010 after acquiring the assets of the former Canwest company.</data>
+    </edge>
+    <edge id="e34" source="5" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">American media conglomerate,...</data>
+      <data key="d6">Chatham Asset Management, an American media conglomerate, currently owns a majority 66% stake in Postmedia Network.</data>
+    </edge>
+    <edge id="e35" source="4" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">National Post newspaper....</data>
+      <data key="d6">Postmedia Network owns the National Post newspaper.</data>
+    </edge>
+    <edge id="e36" source="4" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">Financial Post newspaper....</data>
+      <data key="d6">Postmedia Network owns the Financial Post newspaper.</data>
+    </edge>
+    <edge id="e37" source="35" target="36">
+      <data key="d3">3.0</data>
+      <data key="d4">Canadian Tire's flyer,...</data>
+      <data key="d6">The article mentions Canadian Tire's flyer, which is likely relevant to Weissenberger's commentary on pipeline construction in Canada</data>
+    </edge>
+    <edge id="e38" source="36" target="1">
+      <data key="d3">1.0</data>
+      <data key="d4">published Weissenberger's commentary...</data>
+      <data key="d6">The National Post published Weissenberger's commentary on pipeline construction in Canada</data>
+    </edge>
+    <edge id="e39" source="1" target="41">
+      <data key="d3">9.0</data>
+      <data key="d4">National Post, national...</data>
+      <data key="d6">Postmedia owns the National Post, a national daily newspaper in Canada.</data>
+    </edge>
+    <edge id="e40" source="2" target="41">
+      <data key="d3">9.0</data>
+      <data key="d4">Financial Post, national...</data>
+      <data key="d6">Postmedia owns the Financial Post, a national business newspaper in Canada.</data>
+    </edge>
+    <edge id="e41" source="21" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property Canada.com,...</data>
+      <data key="d6">Postmedia owns the digital property Canada.com, which provides news and information to Canadians.</data>
+    </edge>
+    <edge id="e42" source="23" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property Canoe.com,...</data>
+      <data key="d6">Postmedia owns the digital property Canoe.com, which provides news, entertainment, and other content.</data>
+    </edge>
+    <edge id="e43" source="26" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property Driving.ca,...</data>
+      <data key="d6">Postmedia owns the digital property Driving.ca, which focuses on automotive news and information.</data>
+    </edge>
+    <edge id="e44" source="37" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property GrowthOp,...</data>
+      <data key="d6">Postmedia owns the digital property The GrowthOp, which covers the cannabis industry.</data>
+    </edge>
+    <edge id="e45" source="38" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property Healthing.ca,...</data>
+      <data key="d6">Postmedia owns the digital property Healthing.ca, which provides health and wellness information.</data>
+    </edge>
+    <edge id="e46" source="39" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property Lives...</data>
+      <data key="d6">Postmedia owns the digital property Lives Told, which features obituaries and remembrances.</data>
+    </edge>
+    <edge id="e47" source="28" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">digital property Remembering.ca,...</data>
+      <data key="d6">Postmedia owns the digital property Remembering.ca, which provides obituaries and memorial services.</data>
+    </edge>
+    <edge id="e48" source="40" target="41">
+      <data key="d3">1.0</data>
+      <data key="d4">digital property Working.com,...</data>
+      <data key="d6">Postmedia owns the digital property Working.com, which focuses on employment and career-related content.</data>
+    </edge>
+    <edge id="e49" source="41" target="79">
+      <data key="d3">8.0</data>
+      <data key="d4">Prince George Post,...</data>
+      <data key="d6">Postmedia owns the Prince George Post, a regional newspaper serving the Prince George, British Columbia area.</data>
+    </edge>
+    <edge id="e50" source="41" target="42">
+      <data key="d3">8.0</data>
+      <data key="d4">Province, regional newspaper...</data>
+      <data key="d6">Postmedia owns The Province, a regional newspaper serving the Vancouver, British Columbia area.</data>
+    </edge>
+    <edge id="e51" source="41" target="43">
+      <data key="d3">8.0</data>
+      <data key="d4">Vancouver Sun, regional...</data>
+      <data key="d6">Postmedia owns The Vancouver Sun, a regional newspaper serving the Vancouver, British Columbia area.</data>
+    </edge>
+    <edge id="e52" source="41" target="44">
+      <data key="d3">8.0</data>
+      <data key="d4">Airdrie Echo, regional...</data>
+      <data key="d6">Postmedia owns the Airdrie Echo, a regional newspaper serving the Airdrie, Alberta area.</data>
+    </edge>
+    <edge id="e53" source="41" target="45">
+      <data key="d3">8.0</data>
+      <data key="d4">Bow Valley Crag...</data>
+      <data key="d6">Postmedia owns the Bow Valley Crag &amp; Canyon, a regional newspaper serving the Banff, Alberta area.</data>
+    </edge>
+    <edge id="e54" source="41" target="46">
+      <data key="d3">8.0</data>
+      <data key="d4">Calgary Herald, regional...</data>
+      <data key="d6">Postmedia owns the Calgary Herald, a regional newspaper serving the Calgary, Alberta area.</data>
+    </edge>
+    <edge id="e55" source="41" target="47">
+      <data key="d3">8.0</data>
+      <data key="d4">Calgary Sun, regional...</data>
+      <data key="d6">Postmedia owns the Calgary Sun, a regional newspaper serving the Calgary, Alberta area.</data>
+    </edge>
+    <edge id="e56" source="41" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">Cochrane Times, regional...</data>
+      <data key="d6">Postmedia owns the Cochrane Times, a regional newspaper serving the Cochrane, Alberta area.</data>
+    </edge>
+    <edge id="e57" source="41" target="49">
+      <data key="d3">8.0</data>
+      <data key="d4">Daily Herald Tribune,...</data>
+      <data key="d6">Postmedia owns the Daily Herald Tribune, a regional newspaper serving the Grande Prairie, Alberta area.</data>
+    </edge>
+    <edge id="e58" source="41" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">Devon Dispatch, regional...</data>
+      <data key="d6">Postmedia owns the Devon Dispatch, a regional newspaper serving the Devon, Alberta area.</data>
+    </edge>
+    <edge id="e59" source="41" target="51">
+      <data key="d3">8.0</data>
+      <data key="d4">Edmonton Examiner, regional...</data>
+      <data key="d6">Postmedia owns the Edmonton Examiner, a regional newspaper serving the Edmonton, Alberta area.</data>
+    </edge>
+    <edge id="e60" source="41" target="52">
+      <data key="d3">8.0</data>
+      <data key="d4">Edmonton Journal, regional...</data>
+      <data key="d6">Postmedia owns the Edmonton Journal, a regional newspaper serving the Edmonton, Alberta area.</data>
+    </edge>
+    <edge id="e61" source="41" target="53">
+      <data key="d3">8.0</data>
+      <data key="d4">Edmonton Sun, regional...</data>
+      <data key="d6">Postmedia owns the Edmonton Sun, a regional newspaper serving the Edmonton, Alberta area.</data>
+    </edge>
+    <edge id="e62" source="41" target="54">
+      <data key="d3">8.0</data>
+      <data key="d4">Fort McMurray Today,...</data>
+      <data key="d6">Postmedia owns the Fort McMurray Today, a regional newspaper serving the Fort McMurray, Alberta area.</data>
+    </edge>
+    <edge id="e63" source="41" target="55">
+      <data key="d3">8.0</data>
+      <data key="d4">Nouvelle Beaumont News,...</data>
+      <data key="d6">Postmedia owns the La Nouvelle Beaumont News, a regional newspaper serving the Beaumont, Alberta area.</data>
+    </edge>
+    <edge id="e64" source="41" target="56">
+      <data key="d3">8.0</data>
+      <data key="d4">Leduc Rep, regional...</data>
+      <data key="d6">Postmedia owns the Leduc Rep, a regional newspaper serving the Leduc, Alberta area.</data>
+    </edge>
+    <edge id="e65" source="41" target="57">
+      <data key="d3">8.0</data>
+      <data key="d4">Peace River Record-Gazette,...</data>
+      <data key="d6">Postmedia owns the Peace River Record-Gazette, a regional newspaper serving the Peace River, Alberta area.</data>
+    </edge>
+    <edge id="e66" source="41" target="58">
+      <data key="d3">8.0</data>
+      <data key="d4">Pincher Creek Echo,...</data>
+      <data key="d6">Postmedia owns the Pincher Creek Echo, a regional newspaper serving the Pincher Creek, Alberta area.</data>
+    </edge>
+    <edge id="e67" source="41" target="59">
+      <data key="d3">8.0</data>
+      <data key="d4">Cold Lake Sun,...</data>
+      <data key="d6">Postmedia owns The Cold Lake Sun, a regional newspaper serving the Cold Lake, Alberta area.</data>
+    </edge>
+    <edge id="e68" source="41" target="60">
+      <data key="d3">8.0</data>
+      <data key="d4">Drayton Valley Western...</data>
+      <data key="d6">Postmedia owns The Drayton Valley Western Review, a regional newspaper serving the Drayton, Alberta area.</data>
+    </edge>
+    <edge id="e69" source="41" target="61">
+      <data key="d3">8.0</data>
+      <data key="d4">Fairview Post, regional...</data>
+      <data key="d6">Postmedia owns The Fairview Post, a regional newspaper serving the Fairview, Alberta area.</data>
+    </edge>
+    <edge id="e70" source="41" target="62">
+      <data key="d3">8.0</data>
+      <data key="d4">Grove Examiner, regional...</data>
+      <data key="d6">Postmedia owns The Grove Examiner, a regional newspaper serving the Spruce Grove, Alberta area.</data>
+    </edge>
+    <edge id="e71" source="41" target="63">
+      <data key="d3">8.0</data>
+      <data key="d4">Hanna Herald, regional...</data>
+      <data key="d6">Postmedia owns The Hanna Herald, a regional newspaper serving the Hanna, Alberta area.</data>
+    </edge>
+    <edge id="e72" source="41" target="64">
+      <data key="d3">8.0</data>
+      <data key="d4">High River Times,...</data>
+      <data key="d6">Postmedia owns The High River Times, a regional newspaper serving the High River, Alberta area.</data>
+    </edge>
+    <edge id="e73" source="41" target="65">
+      <data key="d3">8.0</data>
+      <data key="d4">Leduc-Wetaskiwin County Market,...</data>
+      <data key="d6">Postmedia owns The Leduc-Wetaskiwin County Market, a regional newspaper serving the Leduc, Alberta area.</data>
+    </edge>
+    <edge id="e74" source="41" target="66">
+      <data key="d3">8.0</data>
+      <data key="d4">Mayerthorpe Freelancer, regional...</data>
+      <data key="d6">Postmedia owns The Mayerthorpe Freelancer, a regional newspaper serving the Mayerthorpe, Alberta area.</data>
+    </edge>
+    <edge id="e75" source="41" target="67">
+      <data key="d3">8.0</data>
+      <data key="d4">Nanton News, regional...</data>
+      <data key="d6">Postmedia owns The Nanton News, a regional newspaper serving the Nanton, Alberta area.</data>
+    </edge>
+    <edge id="e76" source="41" target="68">
+      <data key="d3">8.0</data>
+      <data key="d4">Peace Country Sun,...</data>
+      <data key="d6">Postmedia owns The Peace Country Sun, a regional newspaper serving the Grande Prairie, Alberta area.</data>
+    </edge>
+    <edge id="e77" source="41" target="69">
+      <data key="d3">8.0</data>
+      <data key="d4">Record, regional newspaper...</data>
+      <data key="d6">Postmedia owns The Record, a regional newspaper serving the Fort Saskatchewan, Alberta area.</data>
+    </edge>
+    <edge id="e78" source="41" target="70">
+      <data key="d3">8.0</data>
+      <data key="d4">Sherwood Park News,...</data>
+      <data key="d6">Postmedia owns The Sherwood Park News, a regional newspaper serving the Sherwood Park, Alberta area.</data>
+    </edge>
+    <edge id="e79" source="41" target="71">
+      <data key="d3">8.0</data>
+      <data key="d4">Stony Plain Reporter,...</data>
+      <data key="d6">Postmedia owns The Stony Plain Reporter, a regional newspaper serving the Stony Plain, Alberta area.</data>
+    </edge>
+    <edge id="e80" source="41" target="72">
+      <data key="d3">8.0</data>
+      <data key="d4">Vulcan Advocate, regional...</data>
+      <data key="d6">Postmedia owns The Vulcan Advocate, a regional newspaper serving the Vulcan, Alberta area.</data>
+    </edge>
+    <edge id="e81" source="41" target="73">
+      <data key="d3">8.0</data>
+      <data key="d4">Wetaskiwin Times, regional...</data>
+      <data key="d6">Postmedia owns The Wetaskiwin Times, a regional newspaper serving the Wetaskiwin, Alberta area.</data>
+    </edge>
+    <edge id="e82" source="41" target="74">
+      <data key="d3">8.0</data>
+      <data key="d4">Whitecourt Star, regional...</data>
+      <data key="d6">Postmedia owns The Whitecourt Star, a regional newspaper serving the Whitecourt, Alberta area.</data>
+    </edge>
+    <edge id="e83" source="41" target="75">
+      <data key="d3">8.0</data>
+      <data key="d4">Vermilion Standard, regional...</data>
+      <data key="d6">Postmedia owns the Vermilion Standard, a regional newspaper serving the Vermilion, Alberta area.</data>
+    </edge>
+    <edge id="e84" source="41" target="76">
+      <data key="d3">8.0</data>
+      <data key="d4">Regina Leader-Post, regional...</data>
+      <data key="d6">Postmedia owns the Regina Leader-Post, a regional newspaper serving the Regina, Saskatchewan area.</data>
+    </edge>
+    <edge id="e85" source="41" target="77">
+      <data key="d3">8.0</data>
+      <data key="d4">Saskatoon StarPhoenix, regional...</data>
+      <data key="d6">Postmedia owns the Saskatoon StarPhoenix, a regional newspaper serving the Saskatoon, Saskatchewan area.</data>
+    </edge>
+    <edge id="e86" source="41" target="78">
+      <data key="d3">1.0</data>
+      <data key="d4">Journal, regional newspaper...</data>
+      <data key="d6">Postmedia owns The Journal, a regional newspaper serving the Melfort/Nipawin, Saskatchewan area.</data>
+    </edge>
+    <edge id="e87" source="80" target="82">
+      <data key="d3">9.0</data>
+      <data key="d4">Chief Executive Officer...</data>
+      <data key="d6">Andrew MacLeod is the Chief Executive Officer of Postmedia Network Canada Corp.</data>
+    </edge>
+    <edge id="e88" source="81" target="41">
+      <data key="d3">9.0</data>
+      <data key="d4">Chief Content Officer...</data>
+      <data key="d6">Duncan Clark is the Chief Content Officer of Postmedia.</data>
+    </edge>
+    <edge id="e89" source="82" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">Postmedia publication....</data>
+      <data key="d6">The National Post is a Postmedia publication.</data>
+    </edge>
+    <edge id="e90" source="82" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">Postmedia publication....</data>
+      <data key="d6">The Financial Post is a Postmedia publication.</data>
+    </edge>
+    <edge id="e91" source="82" target="42">
+      <data key="d3">1.0</data>
+      <data key="d4">Postmedia publication.</data>
+      <data key="d6">The Province is a Postmedia publication.</data>
+    </edge>
+    <edge id="e92" source="83" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">Network Inc., largest...</data>
+      <data key="d6">Postmedia acquired SaltWire Network Inc., the largest newspaper chain in Atlantic Canada</data>
+    </edge>
+    <edge id="e93" source="84" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">Halifax Herald Ltd.,...</data>
+      <data key="d6">Postmedia acquired The Halifax Herald Ltd., a major newspaper in Atlantic Canada</data>
+    </edge>
+    <edge id="e94" source="41" target="85">
+      <data key="d3">8.0</data>
+      <data key="d4">buying Winnipeg Sun...</data>
+      <data key="d6">Kevin Klein's group is buying the Winnipeg Sun from Postmedia</data>
+    </edge>
+    <edge id="e95" source="41" target="86">
+      <data key="d3">8.0</data>
+      <data key="d4">Winnipeg Sun...</data>
+      <data key="d6">Postmedia is selling the Winnipeg Sun to a group led by Kevin Klein</data>
+    </edge>
+    <edge id="e96" source="41" target="87">
+      <data key="d3">7.0</data>
+      <data key="d4">were talks merge,...</data>
+      <data key="d6">Postmedia and Nordstar were in talks to merge, but the merger did not happen</data>
+    </edge>
+    <edge id="e97" source="41" target="33">
+      <data key="d3">1.0</data>
+      <data key="d4">Media Group were...</data>
+      <data key="d6">Postmedia and Metroland Media Group were involved in the proposed merger that did not go through</data>
+    </edge>
+    <edge id="e98" source="82" target="92">
+      <data key="d3">18.0</data>
+      <data key="d4">wholly owned subsidiary...</data>
+      <data key="d6">Postmedia Network Inc. is a wholly owned subsidiary of Postmedia Network Canada Corp.</data>
+    </edge>
+    <edge id="e99" source="88" target="92">
+      <data key="d3">16.0</data>
+      <data key="d4">employee Postmedia Network...</data>
+      <data key="d6">Steve McCabe is an employee of Postmedia Network Inc.</data>
+    </edge>
+    <edge id="e100" source="89" target="92">
+      <data key="d3">16.0</data>
+      <data key="d4">employee Postmedia Network...</data>
+      <data key="d6">Robert Cribb is an employee of Postmedia Network Inc.</data>
+    </edge>
+    <edge id="e101" source="90" target="92">
+      <data key="d3">16.0</data>
+      <data key="d4">employee Postmedia Network...</data>
+      <data key="d6">Alyn Edwards is an employee of Postmedia Network Inc.</data>
+    </edge>
+    <edge id="e102" source="91" target="92">
+      <data key="d3">2.0</data>
+      <data key="d4">employee Postmedia Network...</data>
+      <data key="d6">Robin Roberts is an employee of Postmedia Network Inc.</data>
+    </edge>
+    <edge id="e103" source="92" target="93">
+      <data key="d3">1.0</data>
+      <data key="d4">received $14.9M funding...</data>
+      <data key="d6">Postmedia Network Inc. received $14.9M in funding in its last round of funding</data>
+    </edge>
+  </graph>
+</graphml>

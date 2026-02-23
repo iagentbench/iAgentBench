@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">FOREST SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The U.S. Department of Agriculture's Forest Service is a government agency that released the updated AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="1">
+      <data key="d0">AIRNOW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">AirNow is a program that provides the public with information about air quality and wildfire smoke</data>
+    </node>
+    <node id="2">
+      <data key="d0">JOSEPH GOFFMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Joseph Goffman is the EPA Assistant Administrator for Air and Radiation</data>
+    </node>
+    <node id="3">
+      <data key="d0">RANDY MOORE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Randy Moore is the Forest Service Chief</data>
+    </node>
+    <node id="4">
+      <data key="d0">ENVIRONMENT AND CLIMATE CHANGE CANADA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Environment and Climate Change Canada is the Canadian government agency that provided data for the updated AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="5">
+      <data key="d0">EPA</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="6">
+      <data key="d0">AIRNOW FIRE AND SMOKE MAP</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="7">
+      <data key="d0">U.S. FOREST SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The U.S. Forest Service is a federal agency that plays a significant role in managing and protecting the nation's forests and natural resources. As part of its responsibilities, the U.S. Forest Service leads the Interagency Wildland Fire Air Quality Response Program, which focuses on monitoring and addressing air quality issues related to wildfires.
+
+In addition to its leadership in the Interagency Wildland Fire Air Quality Response Program, the U.S. Forest Service also serves as a partner organization, providing air quality data and information to various stakeholders. This collaborative approach allows the agency to leverage its expertise and resources to support broader efforts in understanding and managing air quality challenges.
+
+The U.S. Forest Service's involvement in air quality-related initiatives is a testament to its commitment to environmental stewardship and its recognition of the importance of maintaining healthy air quality, particularly in areas affected by wildfires. By leading the Interagency Wildland Fire Air Quality Response Program and sharing its air quality data and information, the U.S. Forest Service plays a crucial role in helping communities and decision-makers better understand and address the air quality impacts of wildland fires.
+
+Overall, the U.S. Forest Service's multifaceted involvement in air quality-related efforts, including its leadership in the Interagency Wildland Fire Air Quality Response Program and its role as a partner organization providing air quality data and information, demonstrates the agency's commitment to environmental protection and its recognition of the importance of maintaining healthy air quality for the benefit of the public and the environment.</data>
+    </node>
+    <node id="8">
+      <data key="d0">U.S. ENVIRONMENTAL PROTECTION AGENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The U.S. Environmental Protection Agency is a federal agency that collaborates with the U.S. Forest Service on the AirNow program</data>
+    </node>
+    <node id="9">
+      <data key="d0">UNIVERSITY OF WASHINGTON</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The University of Washington is a prominent research institution located in Seattle, Washington. It plays a significant role in environmental research and data collection, particularly in the area of air quality.
+
+The University of Washington is a partner organization that provides air quality data and information to various stakeholders. Its School of Environmental and Forest Sciences has been actively involved in the development of the AirNow Fire and Smoke Map, a valuable resource for monitoring and understanding air quality conditions related to wildfires and smoke.
+
+The University of Washington's expertise in environmental sciences and its commitment to data-driven research have made it a valuable contributor to initiatives aimed at improving air quality and environmental monitoring. By partnering with organizations and providing data and technical support, the university is helping to advance our understanding of air quality issues and supporting efforts to address them.
+
+Through its research and collaborative efforts, the University of Washington is playing a crucial role in enhancing our knowledge and understanding of air quality, particularly in the context of wildfire-related smoke and its impact on communities. The university's involvement in the development of the AirNow Fire and Smoke Map demonstrates its dedication to translating scientific findings into practical tools that can benefit the public and policymakers.
+
+Overall, the University of Washington's engagement in air quality research and data provision highlights its commitment to environmental stewardship and its position as a leading institution in the field of environmental sciences.</data>
+    </node>
+    <node id="10">
+      <data key="d0">DROUGHT.GOV</data>
+      <data key="d1" />
+      <data key="d2">11.0</data>
+      <data key="d5" />
+    </node>
+    <node id="11">
+      <data key="d0">AIRFORCE ONE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Air Force One is the official air traffic control call sign of a United States Air Force aircraft carrying the President of the United States</data>
+    </node>
+    <node id="12">
+      <data key="d0">OFFICER TRAINING SCHOOL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Officer Training School is a commissioning program of the United States Air Force</data>
+    </node>
+    <node id="13">
+      <data key="d0">U.S. AIR FORCE</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="14">
+      <data key="d0">AIRMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Airman is the second lowest enlisted rank in the U.S. Air Force. An Airman is a member of the U.S. Air Force, the air warfare service branch of the United States Armed Forces. Airmen are responsible for a wide range of duties, from maintaining and operating aircraft to providing support services on air bases.
+
+The Airman rank is the entry-level position for enlisted personnel in the U.S. Air Force. Airmen are typically young individuals who have recently completed basic military training and are beginning their careers in the Air Force. They are responsible for carrying out a variety of tasks and duties, often under the supervision of more experienced non-commissioned officers.
+
+Airmen are an essential part of the Air Force's mission, as they contribute to the overall readiness and effectiveness of the service. They may be assigned to a variety of career fields, such as aircraft maintenance, communications, logistics, or security forces, depending on their skills and the needs of the Air Force.
+
+In addition to their military duties, Airmen are also expected to maintain high standards of personal conduct and professionalism. They are required to adhere to the Air Force's core values of integrity, service, and excellence, and to represent the service with honor and distinction.
+
+Overall, the Airman rank is an important part of the U.S. Air Force's enlisted force, and Airmen play a crucial role in supporting the service's mission and objectives.</data>
+    </node>
+    <node id="15">
+      <data key="d0">ARMED SERVICES APTITUDE BATTERY (ASVAB)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The ASVAB is an exam that all Airmen are required to complete before applying to join the Air Force</data>
+    </node>
+    <node id="16">
+      <data key="d0">OFFICER TRAINING SCHOOL (OTS)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Officer Training School (OTS) is a program within the United States Air Force that provides initial training and education for individuals seeking to become commissioned officers. The primary purpose of OTS is to transform enlisted Airmen into officers who can effectively lead and manage Air Force operations.
+
+The OTS program is designed to provide a comprehensive education and training experience for aspiring officers. During the program, candidates undergo rigorous physical, academic, and leadership training to prepare them for the responsibilities and challenges of being an Air Force officer. The curriculum covers a wide range of topics, including military history, ethics, management, and decision-making.
+
+One of the key features of OTS is that it allows enlisted Airmen to transition into the officer ranks. This pathway provides an opportunity for experienced and dedicated Airmen to further their careers and take on greater leadership roles within the Air Force. Through the OTS program, these individuals can leverage their existing knowledge and skills to become commissioned officers, contributing to the overall effectiveness and readiness of the Air Force.
+
+In addition to the OTS program for enlisted Airmen, the Air Force also offers direct commissioning opportunities for individuals with specific educational or professional backgrounds. These individuals may be able to bypass the traditional enlisted route and directly enter the officer training program, depending on the needs and requirements of the Air Force.
+
+Overall, the Officer Training School plays a crucial role in the Air Force's officer development and succession planning. By providing a structured and rigorous training program, OTS ensures that the Air Force has a steady supply of well-prepared and capable officers to lead the organization and fulfill its mission. The program's ability to leverage the expertise of enlisted Airmen further enhances the Air Force's overall talent pool and operational effectiveness.</data>
+    </node>
+    <node id="17">
+      <data key="d0">AIR FORCE ROTC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Air Force ROTC is a college program that trains students to become officers in the U.S. Air Force</data>
+    </node>
+    <node id="18">
+      <data key="d0">AIR FORCE ACADEMY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Air Force Academy is a prestigious military institution that trains students to become commissioned officers in the United States Air Force. Located in Colorado Springs, Colorado, the academy provides a rigorous academic and military education to prepare its cadets for careers as leaders in the Air Force.
+
+The primary mission of the Air Force Academy is to educate and train young men and women to become officers of character, committed to the core values of the Air Force: integrity, service, and excellence. Cadets undergo a four-year program that combines academic coursework, military training, and character development. They study a wide range of subjects, including engineering, science, humanities, and social sciences, while also participating in physical fitness activities, leadership development, and military drill.
+
+Upon graduation, cadets receive a Bachelor of Science degree and are commissioned as second lieutenants in the Air Force. They then go on to serve in various roles, such as pilots, navigators, engineers, intelligence officers, and more, contributing to the overall strength and capabilities of the U.S. Air Force.
+
+The Air Force Academy is highly selective, with a rigorous admissions process that considers factors such as academic performance, leadership potential, physical fitness, and character. The institution is known for its state-of-the-art facilities, including modern classrooms, research laboratories, athletic complexes, and a world-class cadet wing.
+
+Beyond its academic and military training, the Air Force Academy also places a strong emphasis on character development and ethical leadership. Cadets are expected to uphold the highest standards of integrity, discipline, and service, and are encouraged to participate in various extracurricular activities, such as sports, clubs, and community service projects.
+
+Overall, the Air Force Academy is a premier institution that plays a crucial role in shaping the future leaders of the U.S. Air Force. Its comprehensive education and training program, combined with its commitment to developing officers of character, make it a highly respected and sought-after destination for aspiring Airmen.</data>
+    </node>
+    <node id="19">
+      <data key="d0">AIR FORCE OFFICER QUALIFYING TEST (AFOQT)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The AFOQT is an exam that individuals must pass to become officers in the U.S. Air Force</data>
+    </node>
+    <node id="20">
+      <data key="d0">AIR NATIONAL GUARD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Air National Guard is a reserve component of the United States Air Force. It combines state-based and federal missions, as well as active and part-time duty. The Air National Guard is a vital part of the U.S. military, providing essential support and capabilities to the Air Force.
+
+The Air National Guard is organized at the state level, with each state and territory having its own Air National Guard units. These units are under the command of the state's governor, but can be federalized and placed under the command of the U.S. Air Force when needed. This dual state-federal structure allows the Air National Guard to respond to local and national emergencies, as well as support the Air Force's global operations.
+
+Air National Guard units are equipped with a variety of aircraft, including fighters, bombers, tankers, and airlift platforms. They play a crucial role in air superiority, air defense, aerial refueling, and tactical and strategic airlift. Air National Guard personnel are highly trained and experienced, with many serving in both the active-duty Air Force and the Air National Guard.
+
+In addition to their federal mission, Air National Guard units also have state-specific responsibilities, such as responding to natural disasters, providing homeland security, and supporting civil authorities. This dual role allows the Air National Guard to be a versatile and responsive force, capable of addressing a wide range of challenges.
+
+Overall, the Air National Guard is an essential component of the U.S. military, providing a unique blend of state-based and federal capabilities. Its members are dedicated professionals who are committed to serving their communities and their country.</data>
+    </node>
+    <node id="21">
+      <data key="d0">AIR FORCE RESERVE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Air Force Reserve is the reserve component of the United States Air Force. It is responsible for providing trained units and qualified personnel for active duty in the U.S. Air Force during times of war or national emergency.
+
+The Air Force Reserve Command is the organizational structure that oversees the Air Force Reserve. It is tasked with maintaining a ready and capable force that can be called upon to support the active-duty Air Force when needed.
+
+The Air Force Reserve is composed of both full-time and part-time personnel. Full-time reservists, known as Air Reserve Technicians (ARTs), serve in a dual-status capacity, working as civilian employees during the week and serving in their military roles on weekends and during annual training periods. Part-time reservists, known as Traditional Reservists, typically serve one weekend per month and two weeks per year, while maintaining civilian careers.
+
+Reservists in the Air Force undergo the same training and maintain the same qualifications as their active-duty counterparts. This ensures that they are fully prepared to integrate seamlessly with the active-duty force when called upon. The Air Force Reserve operates a wide range of aircraft and equipment, including fighter jets, cargo planes, tankers, and various support systems.
+
+In addition to its wartime role, the Air Force Reserve also plays a significant role in domestic operations, providing support for disaster relief efforts, humanitarian missions, and other domestic emergencies. Reservists have been called upon to assist with natural disasters, such as hurricanes and wildfires, as well as to support civil authorities during national crises.
+
+The Air Force Reserve is an essential component of the U.S. Air Force, providing a cost-effective and highly capable force that can be rapidly mobilized to support the active-duty mission. Its members are dedicated professionals who maintain a high level of readiness and expertise, ensuring that the Air Force is prepared to meet the challenges of the modern security environment.</data>
+    </node>
+    <node id="22">
+      <data key="d0">PRIOR SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Prior Service refers to individuals who have previously served in the military&gt;</data>
+    </node>
+    <node id="23">
+      <data key="d0">AIR FORCE ACTIVE DUTY</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="24">
+      <data key="d0">JUNIOR AIR FORCE ROTC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Junior Air Force ROTC programs are offered at many high schools for those interested in joining the Air Force</data>
+    </node>
+    <node id="25">
+      <data key="d0">AIRMEN</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="26">
+      <data key="d0">ASVAB EXAM</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">AIR FORCE RECRUITER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Air Force recruiters help individuals join the Air Force</data>
+    </node>
+    <node id="28">
+      <data key="d0">AIR FORCE</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="29">
+      <data key="d0">UNITED STATES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The country that operates the Pituffik Space Base in Greenland</data>
+    </node>
+    <node id="30">
+      <data key="d0">CANADA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Canada is a North American country that is known for its vast and diverse landscapes, vibrant cities, and strong international presence. According to the information provided, Canada is mentioned as part of the international navigation on the AirNow.gov website, which suggests that it is a country that is actively involved in monitoring and reporting on air quality. Additionally, Canada is known to jointly operate the North American Aerospace Defense Command (NORAD) with the United States, a critical defense organization that is responsible for the aerospace defense of North America.
+
+Canada is the second-largest country in the world by total area, spanning from the Atlantic Ocean to the Pacific Ocean and northward to the Arctic Ocean. It is a highly developed nation with a strong economy, a robust social welfare system, and a reputation for being a peaceful and inclusive society. Canada is known for its natural beauty, with iconic landscapes such as the Rocky Mountains, the Great Lakes, and the vast boreal forests that cover much of the country.
+
+The country is also known for its diverse population, with a rich cultural heritage that includes Indigenous peoples, as well as immigrants from around the world. Canada is officially a bilingual country, with both English and French as the official languages, reflecting its history as a former British and French colony.
+
+In terms of its international relations, Canada is a member of various international organizations, including the United Nations, the G7, and the North Atlantic Treaty Organization (NATO). It is known for its commitment to peacekeeping and its role in promoting global cooperation and diplomacy.
+
+Overall, the information provided suggests that Canada is a highly influential and important country on the global stage, with a strong commitment to environmental monitoring, defense, and international cooperation.</data>
+    </node>
+    <node id="31">
+      <data key="d0">GREENLAND</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="32">
+      <data key="d0">WILLIAM TELL WEAPONS MEET</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The Air Force is bringing back the William Tell Weapons competition in March</data>
+    </node>
+    <node id="33">
+      <data key="d0">AIR COMBAT COMMAND</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="34">
+      <data key="d0">HEALTHCARE CAREERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The U.S. Air Force offers various healthcare career opportunities, including positions in allied health, dentistry, healthcare administration, nursing, physicians and surgeons, and technicians and specialists</data>
+    </node>
+    <node id="35">
+      <data key="d0">BASIC MILITARY TRAINING</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Basic Military Training is the initial entry training program for enlisted members of the U.S. Air Force. It is the first step in the process of becoming an active-duty airman in the United States Air Force.
+
+The purpose of Basic Military Training is to transform civilian recruits into disciplined, motivated, and physically fit airmen who are ready to serve their country. During this intensive 8.5-week program, trainees are immersed in a structured environment that focuses on instilling core Air Force values, developing essential military skills, and building physical and mental resilience.
+
+The training curriculum covers a wide range of topics, including military customs and courtesies, drill and ceremony, weapons handling, physical fitness, and emergency preparedness. Trainees also receive instruction on the Air Force's history, mission, and organizational structure, as well as their roles and responsibilities as airmen.
+
+Throughout the training, trainees are challenged both physically and mentally, with a focus on teamwork, leadership, and problem-solving. They participate in a variety of exercises and simulations designed to test their abilities and prepare them for the demands of military service.
+
+Upon successful completion of Basic Military Training, graduates are awarded the rank of Airman Basic and are ready to move on to their respective technical training schools, where they will receive specialized instruction in their chosen career fields.
+
+Overall, Basic Military Training is a critical component of the Air Force's recruitment and training process, ensuring that new enlisted members are equipped with the knowledge, skills, and mindset necessary to excel in their roles and contribute to the overall mission of the U.S. Air Force.</data>
+    </node>
+    <node id="36">
+      <data key="d0">AIRMAN BASIC</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Airman Basic is the lowest enlisted rank in the U.S. Air Force</data>
+    </node>
+    <node id="37">
+      <data key="d0">PAY CALCULATOR</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="38">
+      <data key="d0">PARARESCUE (PJ)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Pararescue (PJ) is a special operations force of the United States Air Force responsible for recovering and providing medical treatment to downed military personnel in hostile environments</data>
+    </node>
+    <node id="39">
+      <data key="d0">BASIC MILITARY TRAINING (BMT)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Basic Military Training (BMT) is the initial entry training program for recruits of the U.S. Air Force. During BMT, Airmen learn the military structure, core values, and prepare physically and mentally for life as an Airman.
+
+The primary purpose of BMT is to transform civilian recruits into disciplined, motivated, and skilled Airmen who are ready to serve in the U.S. Air Force. The training program is designed to instill the core values of the Air Force - Integrity First, Service Before Self, and Excellence in All We Do.
+
+Throughout the training, Airmen are taught military customs and courtesies, drill and ceremony, weapons handling, and physical fitness. They also receive instruction on the Air Force's history, organization, and mission. Additionally, Airmen are trained in areas such as military law, code of conduct, and emergency preparedness.
+
+The BMT program is typically eight and a half weeks long and is conducted at one of two training locations: Lackland Air Force Base in Texas or Joint Base San Antonio-Lackland. The training is intense and challenging, both physically and mentally, as it is intended to push Airmen to their limits and help them develop the resilience and teamwork necessary for success in the Air Force.
+
+Upon successful completion of BMT, Airmen are awarded the Air Force Enlisted Insignia and are ready to move on to their respective technical training schools, where they will receive specialized instruction in their chosen career fields. This comprehensive training program ensures that new Airmen are well-prepared to fulfill their duties and contribute to the overall mission of the U.S. Air Force.</data>
+    </node>
+    <node id="40">
+      <data key="d0">SPECIAL WARFARE CANDIDATE COURSE (SWCC)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Special Warfare Candidate Course is a seven-week program where candidates undergo intense physical training and learn about the history and culture of Air Force Special Warfare</data>
+    </node>
+    <node id="41">
+      <data key="d0">SPECIAL WARFARE ASSESSMENT AND SELECTION COURSE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This four-week course is the final test for candidates to prove they are worthy to advance to the PJ training pipeline</data>
+    </node>
+    <node id="42">
+      <data key="d0">SPECIAL WARFARE PRE-DIVE COURSE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This four-week course prepares PJ candidates physically and mentally for the rigors of combat dive school</data>
+    </node>
+    <node id="43">
+      <data key="d0">SPECIAL WARFARE COMBAT DIVE COURSE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This five-week course in Panama City, FL trains PJ candidates to become expert divers for combat operations</data>
+    </node>
+    <node id="44">
+      <data key="d0">AIRBORNE SCHOOL</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This five-week course at Fort Benning, GA trains PJ candidates in basic parachuting and static line jump operations</data>
+    </node>
+    <node id="45">
+      <data key="d0">MILITARY FREE-FALL COURSE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This four-week course in Yuma, AZ and Jamul, CA trains PJ candidates in advanced skydiving techniques for combat operations</data>
+    </node>
+    <node id="46">
+      <data key="d0">SERE TRAINING</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This three-week course at Fairchild AFB, WA trains Special Warfare Airmen in survival, evasion, resistance, and escape techniques for hostile environments</data>
+    </node>
+    <node id="47">
+      <data key="d0">MODERNIZED PARARESCUE PROVIDER PROGRAM (MP3)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">This 39-week program at Lackland AFB, TX trains PJ candidates to become nationally registered EMTs and paramedics, as well as providing them with combat medical skills</data>
+    </node>
+    <node id="48">
+      <data key="d0">SKIP</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="49">
+      <data key="d0">THUNDERBIRDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Thunderbirds are the air demonstration squadron of the United States Air Force.</data>
+    </node>
+    <node id="50">
+      <data key="d0">MILITARY ENTRANCE PROCESSING STATION</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="51">
+      <data key="d0">ACTIVE DUTY</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">Forest Service collaborated...</data>
+      <data key="d6">The EPA and Forest Service collaborated to release the updated AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e1" source="0" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">provided data information...</data>
+      <data key="d6">The Forest Service provided data and information for the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e2" source="0" target="3">
+      <data key="d3">7.0</data>
+      <data key="d4">head Forest...</data>
+      <data key="d6">Randy Moore is the head of the Forest Service, which collaborated with the EPA on the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e3" source="0" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">collaborated with EPA...</data>
+      <data key="d6">The Forest Service collaborated with the EPA to develop and release the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e4" source="1" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">maintains AirNow program...</data>
+      <data key="d6">The EPA developed and maintains the AirNow program and website</data>
+    </edge>
+    <edge id="e5" source="1" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">Change Canada provided...</data>
+      <data key="d6">Environment and Climate Change Canada provided data from Canada to be included in the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e6" source="2" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">senior EPA official...</data>
+      <data key="d6">Joseph Goffman is a senior EPA official who commented on the updated AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e7" source="5" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">released AirNow Fire...</data>
+      <data key="d6">The EPA developed and released the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e8" source="7" target="1">
+      <data key="d3">18.0</data>
+      <data key="d4">Service leads Interagency...</data>
+      <data key="d6">The U.S. Forest Service leads the Interagency Wildland Fire Air Quality Response Program which is part of the AirNow collaborative effort</data>
+    </edge>
+    <edge id="e9" source="8" target="1">
+      <data key="d3">18.0</data>
+      <data key="d4">Protection Agency collaborates...</data>
+      <data key="d6">The U.S. Environmental Protection Agency collaborates with the U.S. Forest Service on the AirNow program</data>
+    </edge>
+    <edge id="e10" source="9" target="1">
+      <data key="d3">2.0</data>
+      <data key="d4">Washington provided development...</data>
+      <data key="d6">The University of Washington provided development work for the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e11" source="7" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">Service partner organization...</data>
+      <data key="d6">The U.S. Forest Service is a partner organization that collaborates with Drought.gov</data>
+    </edge>
+    <edge id="e12" source="9" target="10">
+      <data key="d3">1.0</data>
+      <data key="d4">Washington partner organization...</data>
+      <data key="d6">The University of Washington is a partner organization that collaborates with Drought.gov</data>
+    </edge>
+    <edge id="e13" source="8" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">partner organization that...</data>
+      <data key="d6">The U.S. EPA is a partner organization that collaborates with Drought.gov</data>
+    </edge>
+    <edge id="e14" source="11" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">aircraft operated...</data>
+      <data key="d6">Air Force One is an aircraft operated by the U.S. Air Force that carries the President of the United States</data>
+    </edge>
+    <edge id="e15" source="12" target="13">
+      <data key="d3">2.0</data>
+      <data key="d4">School (OTS) commissioning...</data>
+      <data key="d6">The Officer Training School (OTS) is a commissioning program for officers in the U.S. Air Force. It is part of the larger U.S. Air Force organization and is responsible for training and preparing individuals to become commissioned officers in the Air Force.
+
+The Officer Training School is a critical component of the U.S. Air Force, as it is responsible for transforming civilian candidates or enlisted personnel into officers who can lead and manage various aspects of the Air Force's operations. The program provides comprehensive training in military leadership, decision-making, and the application of Air Force doctrine and policies.
+
+During their time at the Officer Training School, candidates undergo a rigorous curriculum that covers a wide range of topics, including military history, ethics, communication, and tactical decision-making. They also receive physical training to ensure they are physically fit and capable of meeting the demands of their future roles as officers.
+
+Upon successful completion of the Officer Training School program, graduates are commissioned as second lieutenants in the U.S. Air Force. They are then assigned to various career fields and units within the Air Force, where they can apply the knowledge and skills they have acquired during their training.
+
+The Officer Training School plays a vital role in maintaining the strength and readiness of the U.S. Air Force. By providing high-quality training and education to its officer candidates, the school ensures that the Air Force has a cadre of well-prepared and capable leaders who can effectively manage and execute the Air Force's mission.
+
+Overall, the Officer Training School is an essential part of the U.S. Air Force, responsible for transforming civilians and enlisted personnel into commissioned officers who can lead and serve their country with distinction.</data>
+    </edge>
+    <edge id="e16" source="14" target="13">
+      <data key="d3">10.0</data>
+      <data key="d4">Air Force...</data>
+      <data key="d6">Airmen are members of the U.S. Air Force</data>
+    </edge>
+    <edge id="e17" source="14" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">ASVAB exam join...</data>
+      <data key="d6">Airmen must pass the ASVAB exam to join the Air Force</data>
+    </edge>
+    <edge id="e18" source="14" target="16">
+      <data key="d3">7.0</data>
+      <data key="d4">attend OTS become...</data>
+      <data key="d6">Enlisted Airmen can attend OTS to become officers in the Air Force</data>
+    </edge>
+    <edge id="e19" source="14" target="17">
+      <data key="d3">7.0</data>
+      <data key="d4">Air Force ROTC...</data>
+      <data key="d6">Airmen can attend Air Force ROTC to become officers in the Air Force</data>
+    </edge>
+    <edge id="e20" source="14" target="18">
+      <data key="d3">7.0</data>
+      <data key="d4">Air Force Academy...</data>
+      <data key="d6">Airmen can attend the Air Force Academy to become officers in the Air Force</data>
+    </edge>
+    <edge id="e21" source="14" target="19">
+      <data key="d3">1.0</data>
+      <data key="d4">AFOQT become officers...</data>
+      <data key="d6">Individuals must pass the AFOQT to become officers in the Air Force</data>
+    </edge>
+    <edge id="e22" source="13" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">Duty full-time military...</data>
+      <data key="d6">Air Force Active Duty is a full-time military service branch of the U.S. Air Force</data>
+    </edge>
+    <edge id="e23" source="13" target="20">
+      <data key="d3">1.0</data>
+      <data key="d4">Guard reserve component...</data>
+      <data key="d6">The Air National Guard is a reserve component of the U.S. Air Force</data>
+    </edge>
+    <edge id="e24" source="13" target="21">
+      <data key="d3">1.0</data>
+      <data key="d4">Reserve reserve component...</data>
+      <data key="d6">The Air Force Reserve is a reserve component of the U.S. Air Force</data>
+    </edge>
+    <edge id="e25" source="13" target="22">
+      <data key="d3">1.0</data>
+      <data key="d4">individuals who have...</data>
+      <data key="d6">Prior Service refers to individuals who have previously served in the U.S. Air Force</data>
+    </edge>
+    <edge id="e26" source="18" target="25">
+      <data key="d3">5.0</data>
+      <data key="d4">Air Force Academy...</data>
+      <data key="d6">Airmen can attend the Air Force Academy to receive training</data>
+    </edge>
+    <edge id="e27" source="24" target="25">
+      <data key="d3">5.0</data>
+      <data key="d4">can participate Junior...</data>
+      <data key="d6">High school students can participate in Junior Air Force ROTC programs to prepare for joining the Air Force</data>
+    </edge>
+    <edge id="e28" source="25" target="26">
+      <data key="d3">1.0</data>
+      <data key="d4">complete ASVAB exam...</data>
+      <data key="d6">Airmen are required to complete the ASVAB exam before applying to join the Air Force</data>
+    </edge>
+    <edge id="e29" source="25" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">Air Force...</data>
+      <data key="d6">Airmen are members of the Air Force</data>
+    </edge>
+    <edge id="e30" source="25" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">active duty Air...</data>
+      <data key="d6">Airmen serve on active duty in the Air Force</data>
+    </edge>
+    <edge id="e31" source="25" target="27">
+      <data key="d3">1.0</data>
+      <data key="d4">help individuals join...</data>
+      <data key="d6">Air Force recruiters help individuals join the Air Force as Airmen</data>
+    </edge>
+    <edge id="e32" source="29" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">operates Pituffik Space...</data>
+      <data key="d6">The United States operates the Pituffik Space Base in Greenland</data>
+    </edge>
+    <edge id="e33" source="29" target="30">
+      <data key="d3">9.0</data>
+      <data key="d4">Canada jointly operate...</data>
+      <data key="d6">The United States and Canada jointly operate NORAD</data>
+    </edge>
+    <edge id="e34" source="32" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">bringing back William...</data>
+      <data key="d6">The Air Force is bringing back the William Tell Weapons competition in March</data>
+    </edge>
+    <edge id="e35" source="32" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">holding William Tell...</data>
+      <data key="d6">Air Combat Command is holding the William Tell Air-to-Air Weapons competition in March</data>
+    </edge>
+    <edge id="e36" source="34" target="13">
+      <data key="d3">10.0</data>
+      <data key="d4">Force provides healthcare...</data>
+      <data key="d6">The U.S. Air Force provides healthcare career opportunities for Airmen across the globe</data>
+    </edge>
+    <edge id="e37" source="34" target="25">
+      <data key="d3">1.0</data>
+      <data key="d4">various healthcare careers...</data>
+      <data key="d6">Airmen work in the various healthcare careers offered by the U.S. Air Force</data>
+    </edge>
+    <edge id="e38" source="23" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">Active Duty full-time...</data>
+      <data key="d6">The Air Force Active Duty is a full-time component of the U.S. Air Force</data>
+    </edge>
+    <edge id="e39" source="20" target="13">
+      <data key="d3">16.0</data>
+      <data key="d4">Guard reserve component...</data>
+      <data key="d6">The Air National Guard is a reserve component of the U.S. Air Force that combines state-based and federal missions. It is a unique organization that serves both the individual states and the federal government, providing a versatile and adaptable force for a variety of military operations.
+
+The Air National Guard is composed of Air Force personnel who serve part-time, typically one weekend per month and two weeks per year, in addition to their civilian jobs. These Guardsmen are trained and equipped to the same standards as their active-duty counterparts, and they are capable of performing a wide range of missions, including air superiority, air mobility, air refueling, and air defense.
+
+One of the key features of the Air National Guard is its dual-mission structure. On the one hand, the Air National Guard is a reserve component of the U.S. Air Force, meaning that it can be called upon to support federal military operations both at home and abroad. In this capacity, Air National Guard units can be deployed to combat zones, provide humanitarian assistance, or participate in other military operations as needed.
+
+On the other hand, the Air National Guard also has a state-based mission, which means that it can be called upon by the governors of the individual states to respond to domestic emergencies, such as natural disasters, civil unrest, or homeland security threats. In this role, the Air National Guard can provide a range of support services, including search and rescue, medical evacuation, and disaster relief.
+
+The dual-mission structure of the Air National Guard allows it to be a highly versatile and responsive force, capable of adapting to a wide range of challenges and threats. This flexibility has made the Air National Guard an increasingly important component of the U.S. military, as it has been called upon to support a variety of operations both at home and abroad.
+
+Overall, the Air National Guard is a vital part of the U.S. Air Force, providing a unique blend of state-based and federal capabilities that make it an essential asset for the nation's defense and security.</data>
+    </edge>
+    <edge id="e40" source="21" target="13">
+      <data key="d3">16.0</data>
+      <data key="d4">Force Air Force...</data>
+      <data key="d6">The U.S. Air Force and the Air Force Reserve are closely related military organizations that work together to serve the nation. The Air Force Reserve is the reserve component of the U.S. Air Force, providing trained units and personnel for active duty when needed.
+
+The U.S. Air Force is the aerial warfare service branch of the United States Armed Forces. It is one of the eight uniformed services of the United States. The Air Force carries out its missions by maintaining air superiority, global integrated intelligence, surveillance, and reconnaissance, and a capability to rapidly deliver global mobility and combat power.
+
+The Air Force Reserve Command is the reserve component of the U.S. Air Force. It provides trained units and personnel for active duty, augmenting the active-duty Air Force when required. The Air Force Reserve is composed of both full-time and part-time personnel, with the majority serving part-time. These reservists train regularly to maintain their skills and readiness, and can be called upon to serve on active duty in times of war, national emergency, or as needed to support ongoing operations.
+
+The Air Force Reserve and the active-duty U.S. Air Force work closely together to fulfill the Air Force's mission. Reservists bring a wealth of experience and expertise to the table, having often served in the active-duty Air Force before transitioning to the Reserve. This allows the Air Force to maintain a robust and capable force, with the flexibility to surge personnel and resources as needed.
+
+In summary, the U.S. Air Force and the Air Force Reserve are complementary organizations that work together to defend the nation. The Air Force Reserve provides trained and ready personnel to augment the active-duty Air Force, ensuring the Air Force can fulfill its critical missions in air, space, and cyberspace. The two organizations are closely integrated, with the Air Force Reserve playing a vital role in the overall strength and capabilities of the U.S. Air Force.</data>
+    </edge>
+    <edge id="e41" source="35" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">initial entry training...</data>
+      <data key="d6">Basic Military Training is the initial entry training program for enlisted members of the U.S. Air Force</data>
+    </edge>
+    <edge id="e42" source="13" target="37">
+      <data key="d3">9.0</data>
+      <data key="d4">tool provided...</data>
+      <data key="d6">The Pay Calculator is a tool provided by the U.S. Air Force to estimate earnings</data>
+    </edge>
+    <edge id="e43" source="13" target="36">
+      <data key="d3">9.0</data>
+      <data key="d4">lowest enlisted rank...</data>
+      <data key="d6">Airman Basic is the lowest enlisted rank in the U.S. Air Force</data>
+    </edge>
+    <edge id="e44" source="13" target="14">
+      <data key="d3">18.0</data>
+      <data key="d4">Force aerial warfare...</data>
+      <data key="d6">The U.S. Air Force is the aerial warfare service branch of the United States Armed Forces. Airmen are members of the U.S. Air Force, the second-lowest enlisted rank in the service.
+
+Airmen are responsible for a wide range of duties within the U.S. Air Force, from maintaining and operating aircraft to providing support services on the ground. As the second-lowest enlisted rank, Airmen typically perform entry-level tasks and work under the supervision of more experienced Non-Commissioned Officers (NCOs).
+
+The U.S. Air Force is one of the most technologically advanced military branches, with a focus on air superiority, strategic bombing, and air mobility. Airmen play a crucial role in the Air Force's operations, contributing to the branch's ability to project power and support ground forces.
+
+Airmen undergo extensive training to develop the skills and knowledge necessary for their roles. This includes basic military training, as well as specialized technical training in their assigned career fields. Airmen are expected to maintain high standards of discipline, professionalism, and physical fitness to meet the demands of their duties.
+
+The U.S. Air Force is known for its commitment to innovation and technological advancement. Airmen are often at the forefront of these efforts, working with cutting-edge equipment and systems to ensure the Air Force's continued dominance in the air. They are also involved in a variety of humanitarian and disaster relief operations, showcasing the versatility and adaptability of the U.S. Air Force.
+
+Overall, Airmen are an integral part of the U.S. Air Force, contributing to the branch's mission of defending the nation and projecting American power around the world. Their dedication, skill, and professionalism are essential to the success of the Air Force and the broader U.S. military.</data>
+    </edge>
+    <edge id="e45" source="14" target="36">
+      <data key="d3">8.0</data>
+      <data key="d4">rank below Airman</data>
+      <data key="d6">Airman Basic is the rank below Airman</data>
+    </edge>
+    <edge id="e46" source="38" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">special operations force...</data>
+      <data key="d6">Pararescue is a special operations force within the U.S. Air Force responsible for recovering and providing medical treatment to downed military personnel</data>
+    </edge>
+    <edge id="e47" source="38" target="39">
+      <data key="d3">8.0</data>
+      <data key="d4">initial entry training...</data>
+      <data key="d6">BMT is the initial entry training program for all U.S. Air Force recruits, including those pursuing the Pararescue career field</data>
+    </edge>
+    <edge id="e48" source="38" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">key step...</data>
+      <data key="d6">The SWCC is a key step in the training pipeline for PJ candidates to prove they have what it takes to join Air Force Special Warfare</data>
+    </edge>
+    <edge id="e49" source="38" target="41">
+      <data key="d3">9.0</data>
+      <data key="d4">final test...</data>
+      <data key="d6">This course is the final test for PJ candidates to demonstrate they are worthy to advance to the PJ training pipeline</data>
+    </edge>
+    <edge id="e50" source="38" target="42">
+      <data key="d3">8.0</data>
+      <data key="d4">candidates physically mentally...</data>
+      <data key="d6">This course prepares PJ candidates physically and mentally for the rigors of the subsequent combat dive school</data>
+    </edge>
+    <edge id="e51" source="38" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">candidates become expert...</data>
+      <data key="d6">This course trains PJ candidates to become expert divers for combat operations, building on the pre-dive training</data>
+    </edge>
+    <edge id="e52" source="38" target="44">
+      <data key="d3">8.0</data>
+      <data key="d4">basic parachuting static...</data>
+      <data key="d6">PJ candidates learn basic parachuting and static line jump operations at this school, as they may need to airdrop in to reach downed personnel</data>
+    </edge>
+    <edge id="e53" source="38" target="45">
+      <data key="d3">8.0</data>
+      <data key="d4">candidates advanced skydiving...</data>
+      <data key="d6">This course trains PJ candidates in advanced skydiving techniques for combat operations, building on the airborne training</data>
+    </edge>
+    <edge id="e54" source="38" target="46">
+      <data key="d3">9.0</data>
+      <data key="d4">Special Warfare Airmen...</data>
+      <data key="d6">This training equips Special Warfare Airmen like PJs with survival, evasion, resistance, and escape skills for hostile environments</data>
+    </edge>
+    <edge id="e55" source="38" target="47">
+      <data key="d3">9.0</data>
+      <data key="d4">program provides candidates...</data>
+      <data key="d6">This extensive 39-week program provides PJ candidates with the necessary medical training and certifications to fulfill their combat medic role</data>
+    </edge>
+    <edge id="e56" source="38" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">member Pararescue...</data>
+      <data key="d6">Skip is a member of the Pararescue (PJ) special operations force in the U.S. Air Force</data>
+    </edge>
+    <edge id="e57" source="13" target="48">
+      <data key="d3">1.0</data>
+      <data key="d4">Pararescue Specialist...</data>
+      <data key="d6">Skip is a Pararescue Specialist in the U.S. Air Force</data>
+    </edge>
+    <edge id="e58" source="20" target="21">
+      <data key="d3">1.0</data>
+      <data key="d4">National Guard Air...</data>
+      <data key="d6">Both the Air National Guard and Air Force Reserve are reserve components of the U.S. Air Force with different missions and structures.</data>
+    </edge>
+    <edge id="e59" source="13" target="49">
+      <data key="d3">1.0</data>
+      <data key="d4">air demonstration squadron...</data>
+      <data key="d6">The Thunderbirds are the air demonstration squadron of the U.S. Air Force.</data>
+    </edge>
+    <edge id="e60" source="35" target="14">
+      <data key="d3">9.0</data>
+      <data key="d4">initial training program...</data>
+      <data key="d6">Basic Military Training is the initial training program for enlisted Airmen.</data>
+    </edge>
+    <edge id="e61" source="12" target="14">
+      <data key="d3">9.0</data>
+      <data key="d4">commissioning program...</data>
+      <data key="d6">Officer Training School is the commissioning program for officers in the U.S. Air Force.</data>
+    </edge>
+    <edge id="e62" source="28" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">applicants' physical fitness...</data>
+      <data key="d6">The MEPS evaluates applicants' physical fitness and health to determine their eligibility for the Air Force</data>
+    </edge>
+    <edge id="e63" source="28" target="35">
+      <data key="d3">9.0</data>
+      <data key="d4">initial training program...</data>
+      <data key="d6">BMT is the initial training program for enlisted Airmen joining the Air Force</data>
+    </edge>
+    <edge id="e64" source="28" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">initial training program...</data>
+      <data key="d6">OTS is the initial training program for officers joining the Air Force</data>
+    </edge>
+    <edge id="e65" source="28" target="51">
+      <data key="d3">8.0</data>
+      <data key="d4">serve full-time Air...</data>
+      <data key="d6">Active Duty Airmen serve full-time in the Air Force and have the opportunity to live around the United States and overseas</data>
+    </edge>
+    <edge id="e66" source="28" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">Air National Guard...</data>
+      <data key="d6">Airmen in the Air National Guard serve part-time or full-time in the state and role of their choice</data>
+    </edge>
+    <edge id="e67" source="28" target="21">
+      <data key="d3">1.0</data>
+      <data key="d4">Air Force Reserve...</data>
+      <data key="d6">Airmen in the Air Force Reserve can serve part-time or full-time to pursue a degree or advance in a different career while maintaining their civilian life</data>
+    </edge>
+    <edge id="e68" source="28" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">is a branch...</data>
+      <data key="d6">The Air Force is a branch of the United States military</data>
+    </edge>
+    <edge id="e69" source="28" target="25">
+      <data key="d3">1.0</data>
+      <data key="d4">who serve Air...</data>
+      <data key="d6">Airmen are individuals who serve in the Air Force</data>
+    </edge>
+  </graph>
+</graphml>

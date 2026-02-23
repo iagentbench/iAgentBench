@@ -1,0 +1,1443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">I-80 SINKHOLE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">6.0</data>
+      <data key="d5">An I-80 sinkhole prompted the Governor of New Jersey to request federal funding to repair the damages
+A sinkhole on Interstate 80 that prompted a state of emergency declaration</data>
+    </node>
+    <node id="1">
+      <data key="d0">READYNJ</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">6.0</data>
+      <data key="d5">ReadyNJ is a program run by the New Jersey Office of Emergency Management to help residents prepare for emergencies</data>
+    </node>
+    <node id="2">
+      <data key="d0">NJDOT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The New Jersey Department of Transportation, which issues emergency regulations and orders during winter storms</data>
+    </node>
+    <node id="3">
+      <data key="d0">NJ TURNPIKE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The New Jersey Turnpike, a major highway in the state</data>
+    </node>
+    <node id="4">
+      <data key="d0">GARDEN STATE PARKWAY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The Garden State Parkway, a major highway in New Jersey</data>
+    </node>
+    <node id="5">
+      <data key="d0">ATLANTIC CITY EXPRESSWAY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The Atlantic City Expressway, a major highway in New Jersey</data>
+    </node>
+    <node id="6">
+      <data key="d0">SNAP BENEFITS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The federal suspension of SNAP (Supplemental Nutrition Assistance Program) benefits, which prompted a state of emergency declaration</data>
+    </node>
+    <node id="7">
+      <data key="d0">COASTAL STORM</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">6.0</data>
+      <data key="d5">A coastal storm that prompted a state of emergency declaration</data>
+    </node>
+    <node id="8">
+      <data key="d0">FLASH FLOODING</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Flash flooding that prompted a state of emergency declaration</data>
+    </node>
+    <node id="9">
+      <data key="d0">SEVERE THUNDERSTORMS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Severe thunderstorms that prompted a state of emergency declaration</data>
+    </node>
+    <node id="10">
+      <data key="d0">NEW JERSEY</data>
+      <data key="d1" />
+      <data key="d2">6.0</data>
+      <data key="d5" />
+    </node>
+    <node id="11">
+      <data key="d0">GEORGIA</data>
+      <data key="d1" />
+      <data key="d2">15.0</data>
+      <data key="d5" />
+    </node>
+    <node id="12">
+      <data key="d0">UNITED STATES GOVERNMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The United States government is the federal government of the United States of America, which FEMA is an agency of.</data>
+    </node>
+    <node id="13">
+      <data key="d0">FEMA</data>
+      <data key="d1" />
+      <data key="d2">25.0</data>
+      <data key="d5" />
+    </node>
+    <node id="14">
+      <data key="d0">CLIMATE RESILIENCE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">FEMA's efforts to lead the whole community in building climate resilience, including through grants and other programs.</data>
+    </node>
+    <node id="15">
+      <data key="d0">READINESS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">FEMA's efforts to promote and sustain a ready FEMA and a prepared nation, including through training, planning, and coordination.</data>
+    </node>
+    <node id="16">
+      <data key="d0">INDIVIDUAL ASSISTANCE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">FEMA's provision of $879.1 million in grants to disaster survivors so far in 2025.</data>
+    </node>
+    <node id="17">
+      <data key="d0">MITIGATION GRANTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">FEMA has provided 119 hazard mitigation assistance sub-grants so far in 2025.</data>
+    </node>
+    <node id="18">
+      <data key="d0">DISASTER DECLARATIONS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">FEMA has made 119 disaster declarations for states and counties so far in 2025.</data>
+    </node>
+    <node id="19">
+      <data key="d0">FIRE INCIDENTS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">FEMA has responded to 72 fire incidents for states and counties so far in 2025.</data>
+    </node>
+    <node id="20">
+      <data key="d0">DEPARTMENT OF HOMELAND SECURITY</data>
+      <data key="d1" />
+      <data key="d2">25.0</data>
+      <data key="d5" />
+    </node>
+    <node id="21">
+      <data key="d0">NATIONAL FLOOD INSURANCE PROGRAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The National Flood Insurance Program (NFIP) is a federal program established by the United States Congress to provide affordable flood insurance to property owners, renters, and businesses. The program is managed by the Federal Emergency Management Agency (FEMA) and is designed to encourage communities to adopt and enforce floodplain management regulations.
+
+The NFIP offers flood insurance to individuals and businesses in participating communities. These communities must adopt and enforce floodplain management regulations in order to be eligible for the program. The program provides information about flood insurance and helps property owners, renters, and businesses understand their flood risk and the importance of having adequate coverage.
+
+The NFIP is a comprehensive program that aims to reduce the impact of flooding on private and public structures. It provides flood insurance to property owners, renters, and businesses, and encourages communities to adopt and enforce floodplain management regulations. This helps to mitigate the risk of flooding and reduce the financial burden on individuals and communities.
+
+Overall, the National Flood Insurance Program is a valuable resource for property owners, renters, and businesses in flood-prone areas. It provides affordable flood insurance and encourages communities to take proactive steps to reduce the impact of flooding. By participating in the program, individuals and communities can better protect themselves from the financial and emotional toll of flooding.</data>
+    </node>
+    <node id="22">
+      <data key="d0">FLOODPLAIN ADMINISTRATOR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The Floodplain Administrator is a local community official who plays a crucial role in the flood mapping process conducted by the Federal Emergency Management Agency (FEMA). Their primary responsibilities involve providing local knowledge and data to FEMA during the flood mapping process.
+
+The Floodplain Administrator serves as the liaison between the local community and FEMA, ensuring that the flood maps accurately reflect the unique characteristics and conditions of the area. They work closely with FEMA to share valuable information about the local landscape, historical flood events, and any other relevant data that can help FEMA develop accurate and comprehensive flood maps.
+
+The Floodplain Administrator's involvement in the flood mapping process is essential, as they possess a deep understanding of the local community and can provide insights that may not be readily available to FEMA from a national perspective. This collaboration between the Floodplain Administrator and FEMA helps to ensure that the flood maps are tailored to the specific needs and vulnerabilities of the local area, ultimately enhancing the community's preparedness and resilience in the face of potential flooding events.
+
+Through their work with FEMA, the Floodplain Administrator plays a crucial role in the development of accurate and reliable flood maps, which are essential for the community's disaster preparedness and mitigation efforts. By providing local knowledge and data, the Floodplain Administrator helps to ensure that the flood maps accurately reflect the unique characteristics and conditions of the area, enabling the community to make informed decisions and take appropriate actions to protect lives and property.</data>
+    </node>
+    <node id="23">
+      <data key="d0">COMMUNITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Communities participate in the National Flood Insurance Program and work with FEMA on flood mapping</data>
+    </node>
+    <node id="24">
+      <data key="d0">ENGINEERS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Engineers play a crucial role in the development and maintenance of flood maps, which are essential tools for disaster preparedness and response. These professionals work closely with the Federal Emergency Management Agency (FEMA) and local officials to gather and analyze data that informs the creation of these important documents.
+
+The descriptions provided indicate that engineers are involved in two key aspects of the flood mapping process. First, they work directly with FEMA to collect data that is used to create the flood maps. This data may include information on water levels, topography, and other relevant factors that help determine the risk of flooding in a given area.
+
+Secondly, local engineers and surveyors also contribute to the flood mapping process by collecting data that is used to inform the development of these maps. This local-level data collection helps to ensure that the flood maps accurately reflect the unique characteristics and risks of a particular community.
+
+While the descriptions provided do not appear to be contradictory, it is important to note that the roles and responsibilities of engineers in the flood mapping process may vary depending on the specific context and location. In some cases, engineers may be responsible for both the collection of data for FEMA and the local-level data collection, while in other instances, these tasks may be divided among different teams or organizations.
+
+Regardless of the specific division of labor, the work of engineers is essential to the creation of accurate and reliable flood maps. These maps are critical tools for emergency management, urban planning, and disaster response, as they help to identify areas at risk of flooding and inform the development of mitigation strategies and emergency preparedness plans.
+
+In summary, engineers play a vital role in the development and maintenance of flood maps, working closely with FEMA and local officials to collect and analyze data that informs the creation of these important documents. Their expertise and dedication help to ensure that communities are better prepared to respond to and recover from the devastating impacts of flooding.</data>
+    </node>
+    <node id="25">
+      <data key="d0">SURVEYORS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Surveyors play a crucial role in the development and maintenance of flood maps, which are essential tools for understanding and mitigating the risks associated with flooding. These professionals, often working in collaboration with local officials and agencies like the Federal Emergency Management Agency (FEMA), are responsible for collecting and analyzing data that informs the creation and updates of these important flood maps.
+
+The primary function of surveyors in this context is to gather on-the-ground data that can be used to accurately depict the topography, water flow patterns, and other relevant factors that contribute to flood risk. This may involve conducting field surveys, taking measurements, and gathering information about the local landscape and infrastructure. By working closely with FEMA and local authorities, surveyors ensure that the flood maps accurately reflect the current conditions and can be used to make informed decisions about flood preparedness and mitigation strategies.
+
+The data collected by surveyors is crucial for the development and maintenance of flood maps, which serve as essential tools for communities to understand and prepare for the risks associated with flooding. These maps provide valuable information about the extent and depth of potential flood events, allowing local officials and residents to make informed decisions about land use, infrastructure development, and emergency response planning.
+
+In addition to their work on flood maps, surveyors may also be involved in other aspects of flood risk management, such as the design and construction of flood control structures, the assessment of the effectiveness of existing flood mitigation measures, and the evaluation of the potential impacts of new development on flood risk.
+
+Overall, the role of surveyors in the context of flood mapping and risk management is essential, as their data-driven approach and collaboration with local authorities and agencies help to ensure that communities are better prepared to face the challenges posed by flooding.</data>
+    </node>
+    <node id="26">
+      <data key="d0">FLOOD MAPS</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">COMMUNITY MEMBERS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">26.0</data>
+      <data key="d5">Community members are invited to provide information to help local officials understand drainage and flooding in the area</data>
+    </node>
+    <node id="28">
+      <data key="d0">LETTER OF MAP CHANGE (LOMC)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The LOMC process allows communities to submit data to amend or revise the flood map after it is adopted</data>
+    </node>
+    <node id="29">
+      <data key="d0">RISK MAP</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Risk MAP is a FEMA program that provides a more user-friendly analysis of flood risks within a community</data>
+    </node>
+    <node id="30">
+      <data key="d0">READY.GOV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Ready.gov is a national public service campaign designed to educate and empower the American people to prepare for, respond to, and mitigate emergencies, including natural and man-made disasters. The website provides a comprehensive resource for individuals and families to learn about various types of emergencies and how to be ready for them.
+
+The primary focus of Ready.gov is to help people prepare for and respond to a wide range of emergencies, such as natural disasters (e.g., hurricanes, tornadoes, floods, earthquakes), as well as man-made disasters (e.g., terrorist attacks, chemical spills, power outages). The website offers detailed information and practical tips on topics like emergency planning, emergency kits, evacuation procedures, and how to stay informed during a crisis.
+
+One of the key features of Ready.gov is its emphasis on winter weather preparedness. The website provides valuable information on how to prepare for and respond to winter storms, including advice on staying safe during power outages, protecting your home and property, and ensuring the well-being of vulnerable individuals, such as the elderly and those with special needs.
+
+The information on Ready.gov is presented in a clear and user-friendly manner, with easy-to-follow checklists, videos, and interactive tools to help individuals and families develop their own emergency plans. The website also offers resources for specific populations, such as businesses, schools, and communities, to help them prepare for and respond to emergencies.
+
+Overall, Ready.gov is a comprehensive and authoritative resource for emergency preparedness and response, providing the American people with the knowledge and tools they need to stay safe and resilient in the face of a wide range of potential crises. By promoting awareness, planning, and self-reliance, the campaign aims to empower individuals and communities to be better prepared for and more resilient to the challenges posed by natural and man-made disasters.</data>
+    </node>
+    <node id="31">
+      <data key="d0">TEXAS DIVISION OF EMERGENCY MANAGEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">17.0</data>
+      <data key="d5">The Texas Division of Emergency Management is the state agency responsible for coordinating emergency response and recovery efforts in Texas</data>
+    </node>
+    <node id="32">
+      <data key="d0">ALABAMA EMERGENCY MANAGEMENT AGENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Alabama Emergency Management Agency (AEMA) is the state agency responsible for coordinating emergency response and recovery efforts in Alabama. It is also responsible for emergency management and preparedness in the state.
+
+The AEMA's primary role is to ensure the state is prepared to respond effectively to natural disasters, man-made emergencies, and other crises that may occur. The agency works closely with local emergency management agencies, first responders, and other state and federal partners to plan, train, and coordinate emergency operations.
+
+The AEMA is responsible for a wide range of activities, including:
+
+1. Disaster Preparedness: The agency develops and maintains comprehensive emergency plans, conducts risk assessments, and provides training and resources to local communities to help them prepare for potential disasters.
+
+2. Emergency Response: During an emergency, the AEMA coordinates the deployment of resources, such as search and rescue teams, emergency medical services, and disaster relief supplies, to affected areas. The agency also manages the state's emergency operations center, which serves as the central hub for coordinating response efforts.
+
+3. Recovery Assistance: After a disaster, the AEMA works with local governments and federal agencies to assess the damage, provide financial and technical assistance for recovery efforts, and help communities rebuild and restore essential services.
+
+4. Public Education: The AEMA engages in public outreach and education campaigns to raise awareness about emergency preparedness and encourage citizens to take proactive measures to protect themselves and their families.
+
+The agency is led by a director who is appointed by the governor and oversees a team of emergency management professionals, planners, and support staff. The AEMA's operations are funded through a combination of state and federal resources, ensuring the agency has the necessary resources to fulfill its critical mission.
+
+Overall, the Alabama Emergency Management Agency plays a vital role in ensuring the safety and resilience of Alabama's communities in the face of various emergencies and disasters. Through its comprehensive approach to emergency management, the AEMA helps to mitigate the impact of these events and support the state's recovery and long-term resilience.</data>
+    </node>
+    <node id="33">
+      <data key="d0">STATE EMERGENCY MANAGEMENT AGENCIES</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="34">
+      <data key="d0">FLOOD</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Flood is a natural disaster that occurs when excessive rainfall or other water-related events cause water to overflow its usual boundaries, leading to the inundation of land that is normally dry. Flooding is a coast-to-coast threat to some part of the United States and its territories nearly every day of the year, and it can cause significant damage to property and loss of life.
+
+Floods are discussed in various texts and are considered one of the most common and destructive natural disasters. They can be caused by a variety of factors, including heavy rainfall, rapid snowmelt, dam or levee failures, and coastal storms. Floods can range in size and severity, from localized flash floods to large-scale, widespread events that can affect entire regions.
+
+The impact of floods can be devastating, with the potential to destroy homes, businesses, infrastructure, and agricultural land. Floodwaters can also carry debris, contaminants, and other hazards that can pose a threat to human health and safety. In addition to the immediate damage, floods can also have long-term consequences, such as disrupting local economies, displacing residents, and causing environmental damage.
+
+To mitigate the effects of floods, communities and governments often implement various strategies, such as building flood control structures, improving drainage systems, and implementing early warning systems. Additionally, individuals can take steps to prepare for and respond to floods, such as having an emergency kit, securing their property, and evacuating when necessary.
+
+Overall, floods are a significant threat that require ongoing attention and preparedness to minimize their impact and protect lives and property.</data>
+    </node>
+    <node id="35">
+      <data key="d0">EMERGENCY MANAGEMENT AGENCY</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="36">
+      <data key="d0">NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION</data>
+      <data key="d1" />
+      <data key="d2">22.0</data>
+      <data key="d5" />
+    </node>
+    <node id="37">
+      <data key="d0">EMERGENCY ALERT SYSTEM</data>
+      <data key="d1" />
+      <data key="d2">22.0</data>
+      <data key="d5" />
+    </node>
+    <node id="38">
+      <data key="d0">U.S. CLIMATE RESILIENCE TOOLKIT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The U.S. Climate Resilience Toolkit is a website that provides tools, case studies, and other resources to help communities and organizations understand and address climate-related risks</data>
+    </node>
+    <node id="39">
+      <data key="d0">FEMA FLOOD MAP SERVICE CENTER</data>
+      <data key="d1" />
+      <data key="d2">24.0</data>
+      <data key="d5" />
+    </node>
+    <node id="40">
+      <data key="d0">U.S. DEPARTMENT OF HOMELAND SECURITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">22.0</data>
+      <data key="d5">The U.S. Department of Homeland Security is a federal executive department responsible for public security, including disaster and emergency management</data>
+    </node>
+    <node id="41">
+      <data key="d0">ESPAÑOL</data>
+      <data key="d1">GEO</data>
+      <data key="d2">22.0</data>
+      <data key="d5">The Ready.gov website is available in Spanish</data>
+    </node>
+    <node id="42">
+      <data key="d0">USAGOV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">USAGov is the official guide to government information and services</data>
+    </node>
+    <node id="43">
+      <data key="d0">U.S. GENERAL SERVICES ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The U.S. General Services Administration provides accessibility support and privacy policies for USAGov</data>
+    </node>
+    <node id="44">
+      <data key="d0">FEDERAL EMERGENCY MANAGEMENT AGENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The Federal Emergency Management Agency (FEMA) administers the National Flood Insurance Program</data>
+    </node>
+    <node id="45">
+      <data key="d0">HURRICANE KATRINA</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Katrina was the most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="46">
+      <data key="d0">SUPERSTORM SANDY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Superstorm Sandy was the second most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="47">
+      <data key="d0">HURRICANE HARVEY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Harvey was the third most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="48">
+      <data key="d0">HURRICANE IAN</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Ian was the fourth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="49">
+      <data key="d0">HURRICANE IKE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Ike was the fifth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="50">
+      <data key="d0">LOUISIANA SEVERE STORMS AND FLOODING</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The Louisiana severe storms and flooding in 2016 was the sixth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="51">
+      <data key="d0">HURRICANE IVAN</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Ivan was the seventh most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="52">
+      <data key="d0">TROPICAL STORM ALLISON</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Tropical Storm Allison was the eighth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="53">
+      <data key="d0">HURRICANE IRENE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Irene was the ninth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="54">
+      <data key="d0">HURRICANE HELENE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Hurricane Helene was the tenth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </node>
+    <node id="55">
+      <data key="d0">HOMEOWNERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Homeowners are a key stakeholder in flood insurance</data>
+    </node>
+    <node id="56">
+      <data key="d0">PRIVATE FLOOD INSURANCE</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="57">
+      <data key="d0">ASSURANT INC.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Assurant Inc. is an insurance company that is one of the top writers of private flood insurance in the US, with $141,687,000 in direct premiums written in 2024 and an 11.5% market share</data>
+    </node>
+    <node id="58">
+      <data key="d0">MS&amp;AD INSURANCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">MS&amp;AD Insurance is an insurance company that is one of the top writers of private flood insurance in the US, with $132,085,000 in direct premiums written in 2024 and a 10.7% market share</data>
+    </node>
+    <node id="59">
+      <data key="d0">BERKSHIRE HATHAWAY INC.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Berkshire Hathaway Inc. is an insurance company that is one of the top writers of private flood insurance in the US, with $132,035,000 in direct premiums written in 2024 and a 10.7% market share</data>
+    </node>
+    <node id="60">
+      <data key="d0">LIBERTY MUTUAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Liberty Mutual is an insurance company that is one of the top writers of private flood insurance in the US, with $92,687,000 in direct premiums written in 2024 and a 7.5% market share</data>
+    </node>
+    <node id="61">
+      <data key="d0">SWISS RE LTD.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Swiss Re Ltd. is an insurance company that is one of the top writers of private flood insurance in the US, with $77,548,000 in direct premiums written in 2024 and a 6.3% market share</data>
+    </node>
+    <node id="62">
+      <data key="d0">AMERICAN INTERNATIONAL GROUP (AIG)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">American International Group (AIG) is an insurance company that is one of the top writers of private flood insurance in the US, with $72,418,000 in direct premiums written in 2024 and a 5.9% market share</data>
+    </node>
+    <node id="63">
+      <data key="d0">ALLSTATE CORP.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Allstate Corp. is an insurance company that is one of the top writers of private flood insurance in the US, with $66,688,000 in direct premiums written in 2024 and a 5.4% market share</data>
+    </node>
+    <node id="64">
+      <data key="d0">SOMPO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Sompo is an insurance company that is one of the top writers of private flood insurance in the US, with $59,687,000 in direct premiums written in 2024 and a 4.8% market share</data>
+    </node>
+    <node id="65">
+      <data key="d0">CHUBB LTD.</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Chubb Ltd. is an insurance company that is one of the top writers of private flood insurance in the US, with $54,152,000 in direct premiums written in 2024 and a 4.4% market share</data>
+    </node>
+    <node id="66">
+      <data key="d0">NEW YORK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">New York has the twelfth highest rating for building codes and related factors among coastal states, with a score of 67 in 2024
+The New York metropolitan area is at high risk for both storm surge and hurricane wind, with 878,226 homes at risk for storm surge and 3,765,489 homes at risk for hurricane wind in 2024</data>
+    </node>
+    <node id="67">
+      <data key="d0">MIAMI</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Miami metropolitan area is at high risk for both storm surge and hurricane wind, with 509,133 homes at risk for storm surge and 2,048,827 homes at risk for hurricane wind in 2024</data>
+    </node>
+    <node id="68">
+      <data key="d0">HOUSTON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Houston metropolitan area is at high risk for both storm surge and hurricane wind, with 192,937 homes at risk for storm surge and 2,092,308 homes at risk for hurricane wind in 2024</data>
+    </node>
+    <node id="69">
+      <data key="d0">AXA</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="70">
+      <data key="d0">STORM SURGE</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="71">
+      <data key="d0">HURRICANE WIND</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="72">
+      <data key="d0">FLORIDA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Florida has the second highest rating for building codes and related factors among coastal states, with a score of 95 in 2024</data>
+    </node>
+    <node id="73">
+      <data key="d0">SOUTH CAROLINA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">South Carolina has the third highest rating for building codes and related factors among coastal states, with a score of 92 in 2024</data>
+    </node>
+    <node id="74">
+      <data key="d0">LOUISIANA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Louisiana has the fifth highest rating for building codes and related factors among coastal states, with a score of 91 in 2024</data>
+    </node>
+    <node id="75">
+      <data key="d0">CONNECTICUT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Connecticut has the sixth highest rating for building codes and related factors among coastal states, with a score of 90 in 2024</data>
+    </node>
+    <node id="76">
+      <data key="d0">RHODE ISLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Rhode Island has the seventh highest rating for building codes and related factors among coastal states, with a score of 90 in 2024</data>
+    </node>
+    <node id="77">
+      <data key="d0">NORTH CAROLINA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">North Carolina has the eighth highest rating for building codes and related factors among coastal states, with a score of 85 in 2024</data>
+    </node>
+    <node id="78">
+      <data key="d0">MASSACHUSETTS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Massachusetts has the ninth highest rating for building codes and related factors among coastal states, with a score of 77 in 2024</data>
+    </node>
+    <node id="79">
+      <data key="d0">MARYLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Maryland is a state located on the East Coast of the United States, known for its diverse landscapes, rich history, and vibrant culture. According to the data provided, Maryland has the tenth highest rating for building codes and related factors among coastal states, with a score of 77 in 2024. This suggests that the state has strong building regulations and infrastructure in place, which can be crucial in mitigating the impact of natural disasters and ensuring the safety of its residents.
+
+Additionally, the data indicates that the main address of the Federal Emergency Management Agency (FEMA) is located in Maryland. FEMA is the leading federal agency responsible for coordinating disaster response and recovery efforts across the United States. The fact that FEMA's headquarters is situated in Maryland underscores the state's importance in the realm of emergency management and disaster preparedness.
+
+Overall, the information provided paints a picture of Maryland as a state that prioritizes resilience and preparedness. With its high-ranking building codes and the presence of FEMA's headquarters, Maryland appears to be well-equipped to handle various challenges and emergencies that may arise. This comprehensive summary highlights the state's commitment to ensuring the safety and well-being of its residents, as well as its role in national disaster response and recovery efforts.</data>
+    </node>
+    <node id="80">
+      <data key="d0">NEW HAMPSHIRE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">New Hampshire has the thirteenth highest rating for building codes and related factors among coastal states, with a score of 47 in 2024</data>
+    </node>
+    <node id="81">
+      <data key="d0">MAINE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Maine has the fourteenth highest rating for building codes and related factors among coastal states, with a score of 46 in 2024</data>
+    </node>
+    <node id="82">
+      <data key="d0">MISSISSIPPI</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Mississippi has the fifteenth highest rating for building codes and related factors among coastal states, with a score of 44 in 2024</data>
+    </node>
+    <node id="83">
+      <data key="d0">TEXAS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Texas has the sixteenth highest rating for building codes and related factors among coastal states, with a score of 33 in 2024</data>
+    </node>
+    <node id="84">
+      <data key="d0">ALABAMA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Alabama is a state located in the southeastern region of the United States. According to the data provided, Alabama has the seventeenth highest rating for building codes and related factors among coastal states, with a score of 30 in 2024. This suggests that Alabama has a relatively strong set of building codes and regulations, which are important for ensuring the safety and resilience of structures, particularly in coastal areas that may be vulnerable to natural disasters.
+
+Additionally, the data indicates that Alabama is the state where the Alabama Emergency Management Agency is located. This agency is responsible for coordinating emergency response efforts and disaster management within the state. The presence of this agency in Alabama highlights the state's commitment to preparedness and disaster mitigation.
+
+Overall, the data suggests that Alabama is taking steps to enhance its resilience and emergency management capabilities. The state's relatively high rating for building codes and the presence of the Alabama Emergency Management Agency suggest that it is proactively addressing potential threats and working to protect its residents and infrastructure.</data>
+    </node>
+    <node id="85">
+      <data key="d0">DELAWARE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Delaware has the eighteenth highest rating for building codes and related factors among coastal states, with a score of 23 in 2024</data>
+    </node>
+    <node id="86">
+      <data key="d0">VIRGINIA</data>
+      <data key="d1" />
+      <data key="d2">15.0</data>
+      <data key="d5" />
+    </node>
+    <node id="87">
+      <data key="d0">BUILDING CODES</data>
+      <data key="d1" />
+      <data key="d2">15.0</data>
+      <data key="d5" />
+    </node>
+    <node id="88">
+      <data key="d0">FIRST STREET FOUNDATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">First Street Foundation is an organization that published a report on America's growing flood risk</data>
+    </node>
+    <node id="89">
+      <data key="d0">RESILIENCE BLOG</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Resilience Blog is an organization that discusses floods</data>
+    </node>
+    <node id="90">
+      <data key="d0">HURRICANE COAST</data>
+      <data key="d1">GEO</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Hurricane Coast is a geographic region discussed in the text</data>
+    </node>
+    <node id="91">
+      <data key="d0">IBHS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">IBHS is an organization mentioned in the text</data>
+    </node>
+    <node id="92">
+      <data key="d0">AMERICA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">8.0</data>
+      <data key="d5">America is the geographic region discussed in the context of growing flood risks</data>
+    </node>
+    <node id="93">
+      <data key="d0">FLOODSMART</data>
+      <data key="d1" />
+      <data key="d2">23.0</data>
+      <data key="d5" />
+    </node>
+    <node id="94">
+      <data key="d0">FLOOD MAP SERVICE CENTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The FLOOD MAP SERVICE CENTER is a government-provided resource that serves as the official public source for flood hazard information produced in support of the National Flood Insurance Program. The Flood Map Service Center is designed to help people understand their flood risk.
+
+The FLOOD MAP SERVICE CENTER is operated by the Federal Emergency Management Agency (FEMA), which is responsible for managing the National Flood Insurance Program. The center provides access to flood hazard maps, known as Flood Insurance Rate Maps (FIRMs), that delineate areas of high, moderate, and low flood risk. These maps are used by local communities, insurance companies, and individuals to assess flood risk and make informed decisions about flood insurance and mitigation measures.
+
+The FLOOD MAP SERVICE CENTER offers a variety of resources to help users navigate and interpret the flood hazard information. This includes online tools for searching and viewing flood maps, as well as educational materials and guidance on understanding flood risk and the National Flood Insurance Program. The center also provides support for users who need assistance in accessing or interpreting the flood hazard data.
+
+By providing a centralized and authoritative source for flood hazard information, the FLOOD MAP SERVICE CENTER plays a crucial role in helping communities and individuals prepare for and mitigate the impacts of flooding. The comprehensive data and resources available through the center empower people to make informed decisions about their flood risk and take appropriate actions to protect their property and safety.
+
+Overall, the FLOOD MAP SERVICE CENTER is a valuable government resource that supports the National Flood Insurance Program and helps communities and individuals understand and manage their flood risk.</data>
+    </node>
+    <node id="95">
+      <data key="d0">FLOOD RISK</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="96">
+      <data key="d0">HYATTSVILLE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The city where the main address of FEMA is located</data>
+    </node>
+    <node id="97">
+      <data key="d0">GOVERNOR GREG ABBOTT</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Greg Abbott is the Governor of Texas and is involved in the state's emergency response efforts.</data>
+    </node>
+    <node id="98">
+      <data key="d0">ALABAMA GOVERNOR'S OFFICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Governor's Office of the state of Alabama oversees the Alabama Emergency Management Agency.</data>
+    </node>
+    <node id="99">
+      <data key="d0">ALABAMA DEPARTMENT OF REVENUE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Alabama Department of Revenue works with the Alabama Emergency Management Agency to administer the Alabama Storm Shelter Tax Credit program.</data>
+    </node>
+    <node id="100">
+      <data key="d0">SBA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Small Business Administration (SBA) provides disaster assistance to businesses in Alabama.</data>
+    </node>
+    <node id="101">
+      <data key="d0">ALABAMA MUTUAL AID SYSTEM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Alabama Mutual Aid System coordinates emergency response resources across the state.</data>
+    </node>
+    <node id="102">
+      <data key="d0">ALABAMA EMERGENCY RESPONSE COMMISSION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Alabama Emergency Response Commission oversees emergency planning and response in the state.</data>
+    </node>
+    <node id="103">
+      <data key="d0">MADISON MCKINNEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Madison Mckinney is a staff member at the Alabama Emergency Management Agency.</data>
+    </node>
+    <node id="104">
+      <data key="d0">JALEESA DIGGINS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Jaleesa Diggins is a staff member at the Alabama Emergency Management Agency.</data>
+    </node>
+    <node id="105">
+      <data key="d0">JEFF SMITHERMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Jeff Smitherman is the Director of the Alabama Emergency Management Agency. He is responsible for overseeing the state's emergency preparedness, response, and recovery efforts. Smitherman has held this position for several years, during which he has worked to ensure that Alabama is well-equipped to handle a wide range of natural and man-made disasters.
+
+As the Director of the Alabama Emergency Management Agency, Smitherman plays a crucial role in coordinating the state's emergency management activities. He works closely with local, state, and federal agencies to develop and implement comprehensive emergency plans, ensuring that the state is prepared to respond effectively to any crisis. Smitherman's expertise and leadership have been instrumental in helping Alabama navigate through various emergencies, including severe storms, floods, and the COVID-19 pandemic.
+
+Smitherman's commitment to public safety and disaster preparedness is evident in his work. He has been recognized for his efforts, receiving awards and accolades from various organizations for his outstanding contributions to emergency management. Smitherman's dedication to his role and his unwavering commitment to protecting the people of Alabama have made him a respected and trusted figure in the state's emergency management community.
+
+Overall, Jeff Smitherman is a seasoned and highly capable leader who has played a vital role in ensuring the safety and well-being of the people of Alabama. His expertise, leadership, and commitment to emergency preparedness have been instrumental in helping the state navigate through challenging times and emerge stronger and more resilient.</data>
+    </node>
+    <node id="106">
+      <data key="d0">KAY IVEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Kay Ivey is the Governor of Alabama.</data>
+    </node>
+    <node id="107">
+      <data key="d0">JIM STEFKOVICH</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="108">
+      <data key="d0">READY ALABAMA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Ready Alabama is a preparedness program in Alabama</data>
+    </node>
+    <node id="109">
+      <data key="d0">ALABAMA 211</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Alabama 211 is a service that connects people to community resources</data>
+    </node>
+    <edge id="e0" source="0" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">New Jersey prompted...</data>
+      <data key="d6">The I-80 sinkhole in New Jersey prompted the Governor to request federal funding to repair the damages</data>
+    </edge>
+    <edge id="e1" source="1" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">program run New...</data>
+      <data key="d6">ReadyNJ is a program run by the New Jersey Office of Emergency Management to help residents of New Jersey prepare for emergencies</data>
+    </edge>
+    <edge id="e2" source="2" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">Department Transportation responsible...</data>
+      <data key="d6">The New Jersey Department of Transportation is responsible for issuing emergency regulations and orders in New Jersey during winter storms</data>
+    </edge>
+    <edge id="e3" source="3" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">major highway...</data>
+      <data key="d6">The NJ Turnpike is a major highway in the state of New Jersey</data>
+    </edge>
+    <edge id="e4" source="4" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">Parkway major highway...</data>
+      <data key="d6">The Garden State Parkway is a major highway in the state of New Jersey</data>
+    </edge>
+    <edge id="e5" source="5" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">Expressway major highway...</data>
+      <data key="d6">The Atlantic City Expressway is a major highway in the state of New Jersey</data>
+    </edge>
+    <edge id="e6" source="6" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">SNAP benefits prompted...</data>
+      <data key="d6">The federal suspension of SNAP benefits prompted the Governor of New Jersey to declare a state of emergency</data>
+    </edge>
+    <edge id="e7" source="7" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">New Jersey have...</data>
+      <data key="d6">Coastal storms in New Jersey have prompted the Governor to declare states of emergency</data>
+    </edge>
+    <edge id="e8" source="8" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">New Jersey prompted...</data>
+      <data key="d6">Flash flooding in New Jersey has prompted the Governor to declare states of emergency</data>
+    </edge>
+    <edge id="e9" source="9" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">New Jersey have...</data>
+      <data key="d6">Severe thunderstorms in New Jersey have prompted the Governor to declare states of emergency</data>
+    </edge>
+    <edge id="e10" source="12" target="13">
+      <data key="d3">10.0</data>
+      <data key="d4">federal government agency...</data>
+      <data key="d6">FEMA is a federal government agency that is part of the United States government and carries out its mission of disaster response and emergency management.</data>
+    </edge>
+    <edge id="e11" source="14" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">whole community building...</data>
+      <data key="d6">FEMA is leading the whole community in building climate resilience through its programs and initiatives.</data>
+    </edge>
+    <edge id="e12" source="15" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">sustaining ready FEMA...</data>
+      <data key="d6">FEMA is promoting and sustaining a ready FEMA and a prepared nation through its readiness efforts.</data>
+    </edge>
+    <edge id="e13" source="16" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">$879.1 million grants...</data>
+      <data key="d6">FEMA is providing $879.1 million in grants to disaster survivors so far in 2025 as part of its individual assistance efforts.</data>
+    </edge>
+    <edge id="e14" source="17" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">119 hazard mitigation...</data>
+      <data key="d6">FEMA has provided 119 hazard mitigation assistance sub-grants so far in 2025 to support community resilience.</data>
+    </edge>
+    <edge id="e15" source="18" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">119 disaster declarations...</data>
+      <data key="d6">FEMA has made 119 disaster declarations for states and counties so far in 2025 to support emergency response and recovery efforts.</data>
+    </edge>
+    <edge id="e16" source="19" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">fire incidents...</data>
+      <data key="d6">FEMA has responded to 72 fire incidents for states and counties so far in 2025 as part of its emergency management responsibilities.</data>
+    </edge>
+    <edge id="e17" source="13" target="20">
+      <data key="d3">1.0</data>
+      <data key="d4">agency within Department...</data>
+      <data key="d6">FEMA is an agency within the U.S. Department of Homeland Security.</data>
+    </edge>
+    <edge id="e18" source="21" target="13">
+      <data key="d3">45.0</data>
+      <data key="d4">Insurance Program (NFIP)...</data>
+      <data key="d6">The National Flood Insurance Program (NFIP) is a federal program managed and administered by the Federal Emergency Management Agency (FEMA). FEMA plays a crucial role in maintaining and updating flood maps and risk assessments for the NFIP, which provides flood insurance to participating communities.
+
+FEMA oversees and coordinates the NFIP, ensuring its effective operation and implementation. The agency is responsible for managing the program, which includes tasks such as setting insurance rates, determining eligibility criteria, and providing guidance to participating communities.
+
+Through the NFIP, FEMA aims to reduce the impact of flooding on private and public structures by providing affordable insurance coverage. The program is designed to encourage communities to adopt and enforce floodplain management regulations, which can help mitigate the risk of flood damage.
+
+FEMA's involvement in the NFIP extends beyond just managing the program. The agency also plays a key role in mapping and assessing flood risks across the country. FEMA's flood maps and risk assessments are essential tools for identifying areas prone to flooding, which helps communities and individuals make informed decisions about flood preparedness and mitigation.
+
+By overseeing and coordinating the NFIP, FEMA ensures that the program operates effectively and efficiently, providing flood insurance coverage to communities that participate in the program. The agency's comprehensive approach to flood risk management, including mapping, risk assessment, and program administration, helps to protect communities and individuals from the devastating effects of flooding.
+
+In summary, the National Flood Insurance Program is a federal program managed and administered by FEMA. FEMA is responsible for maintaining and updating flood maps and risk assessments, managing the program's operations, and coordinating with participating communities to reduce the impact of flooding on private and public structures.</data>
+    </edge>
+    <edge id="e19" source="21" target="22">
+      <data key="d3">1.0</data>
+      <data key="d4">works with FEMA...</data>
+      <data key="d6">The floodplain administrator works with FEMA as part of the National Flood Insurance Program to manage local flood risk</data>
+    </edge>
+    <edge id="e20" source="21" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">used National Flood...</data>
+      <data key="d6">Flood maps are used by the National Flood Insurance Program to determine insurance requirements</data>
+    </edge>
+    <edge id="e21" source="22" target="13">
+      <data key="d3">18.0</data>
+      <data key="d4">FEMA work closely...</data>
+      <data key="d6">The FLOODPLAIN ADMINISTRATOR and FEMA work closely together to collect data and create accurate flood maps. FEMA, the Federal Emergency Management Agency, collaborates with the local floodplain administrator to ensure the flood maps are as precise as possible.
+
+The floodplain administrator is responsible for managing the local floodplain and enforcing regulations related to development in flood-prone areas. FEMA, on the other hand, is a federal agency that plays a crucial role in disaster preparedness and response, including the management of the National Flood Insurance Program.
+
+Together, the FLOODPLAIN ADMINISTRATOR and FEMA work to gather data from various sources, such as historical flood records, topographical surveys, and hydraulic models, to create detailed flood maps. These maps are essential for identifying areas at risk of flooding, which helps communities plan and prepare for potential disasters.
+
+The collaboration between the FLOODPLAIN ADMINISTRATOR and FEMA ensures that the flood maps are as accurate as possible. FEMA provides technical expertise and resources to the local floodplain administrator, who has a deep understanding of the unique characteristics of the community. This partnership allows for the development of flood maps that accurately reflect the local conditions and risk factors.
+
+By working together, the FLOODPLAIN ADMINISTRATOR and FEMA can make informed decisions about land use, building codes, and emergency response plans, ultimately enhancing the community's resilience to flooding. The comprehensive flood maps generated through this collaboration are crucial for protecting lives, property, and infrastructure, and for ensuring the long-term sustainability of communities in flood-prone areas.
+
+In summary, the FLOODPLAIN ADMINISTRATOR and FEMA work hand-in-hand to collect data and create accurate flood maps, leveraging their respective expertise and resources to enhance community resilience and preparedness.</data>
+    </edge>
+    <edge id="e22" source="22" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">local official who...</data>
+      <data key="d6">The floodplain administrator is a local official who represents the community in the flood mapping process</data>
+    </edge>
+    <edge id="e23" source="23" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">communities develop strategies...</data>
+      <data key="d6">Flood maps help communities develop strategies for reducing their flood risk</data>
+    </edge>
+    <edge id="e24" source="24" target="26">
+      <data key="d3">7.0</data>
+      <data key="d4">expertise help create...</data>
+      <data key="d6">Engineers provide data and expertise to help create accurate flood maps</data>
+    </edge>
+    <edge id="e25" source="25" target="26">
+      <data key="d3">7.0</data>
+      <data key="d4">expertise help create...</data>
+      <data key="d6">Surveyors provide data and expertise to help create accurate flood maps</data>
+    </edge>
+    <edge id="e26" source="22" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">works with community...</data>
+      <data key="d6">The floodplain administrator works with community members to gather local knowledge for the flood maps</data>
+    </edge>
+    <edge id="e27" source="24" target="13">
+      <data key="d3">8.0</data>
+      <data key="d4">local engineers surveyors...</data>
+      <data key="d6">FEMA works with local engineers and surveyors to collect data for the flood maps</data>
+    </edge>
+    <edge id="e28" source="24" target="23">
+      <data key="d3">8.0</data>
+      <data key="d4">provides data information...</data>
+      <data key="d6">The local community provides data and information to the engineers for the flood maps</data>
+    </edge>
+    <edge id="e29" source="24" target="25">
+      <data key="d3">1.0</data>
+      <data key="d4">work together collect...</data>
+      <data key="d6">Engineers and surveyors work together to collect data for the flood maps</data>
+    </edge>
+    <edge id="e30" source="27" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">members provide information...</data>
+      <data key="d6">FEMA invites community members to provide information to help understand local drainage and flooding</data>
+    </edge>
+    <edge id="e31" source="28" target="23">
+      <data key="d3">8.0</data>
+      <data key="d4">allows communities submit...</data>
+      <data key="d6">The LOMC process allows communities to submit data to amend or revise the flood map after adoption</data>
+    </edge>
+    <edge id="e32" source="29" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">more user-friendly analysis...</data>
+      <data key="d6">Risk MAP provides a more user-friendly analysis of flood risks within a community</data>
+    </edge>
+    <edge id="e33" source="13" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">local community...</data>
+      <data key="d6">FEMA collaborates with the local community on the flood mapping process</data>
+    </edge>
+    <edge id="e34" source="23" target="25">
+      <data key="d3">8.0</data>
+      <data key="d4">provides data information...</data>
+      <data key="d6">The local community provides data and information to the surveyors for the flood maps</data>
+    </edge>
+    <edge id="e35" source="30" target="13">
+      <data key="d3">7.0</data>
+      <data key="d4">Ready.gov educate public...</data>
+      <data key="d6">FEMA partners with Ready.gov to educate the public on emergency preparedness</data>
+    </edge>
+    <edge id="e36" source="13" target="33">
+      <data key="d3">1.0</data>
+      <data key="d4">agencies coordinate with...</data>
+      <data key="d6">State emergency management agencies coordinate with FEMA during disaster response and recovery efforts</data>
+    </edge>
+    <edge id="e37" source="13" target="34">
+      <data key="d3">9.0</data>
+      <data key="d4">federal agency that...</data>
+      <data key="d6">FEMA is the federal agency that coordinates the national response to floods and other natural disasters</data>
+    </edge>
+    <edge id="e38" source="33" target="34">
+      <data key="d3">1.0</data>
+      <data key="d4">agencies work with...</data>
+      <data key="d6">State emergency management agencies work with FEMA to respond to and recover from floods within their respective states</data>
+    </edge>
+    <edge id="e39" source="34" target="35">
+      <data key="d3">9.0</data>
+      <data key="d4">responsible responding...</data>
+      <data key="d6">Emergency management agencies are responsible for responding to and managing the impacts of floods</data>
+    </edge>
+    <edge id="e40" source="13" target="30">
+      <data key="d3">8.0</data>
+      <data key="d4">official government website...</data>
+      <data key="d6">Ready.gov is an official government website that provides information on disaster preparedness and response, in coordination with FEMA.</data>
+    </edge>
+    <edge id="e41" source="13" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">National Flood Insurance...</data>
+      <data key="d6">FEMA administers the National Flood Insurance Program, which provides flood insurance to property owners.</data>
+    </edge>
+    <edge id="e42" source="30" target="21">
+      <data key="d3">7.0</data>
+      <data key="d4">purchasing flood insurance...</data>
+      <data key="d6">Ready.gov provides information on purchasing flood insurance through the National Flood Insurance Program.</data>
+    </edge>
+    <edge id="e43" source="30" target="36">
+      <data key="d3">7.0</data>
+      <data key="d4">emergency alerts from...</data>
+      <data key="d6">Ready.gov provides information on emergency alerts from NOAA Weather Radio and the Emergency Alert System.</data>
+    </edge>
+    <edge id="e44" source="36" target="37">
+      <data key="d3">1.0</data>
+      <data key="d4">alerts through Emergency...</data>
+      <data key="d6">NOAA provides emergency alerts through the Emergency Alert System to warn the public about hazards like floods.</data>
+    </edge>
+    <edge id="e45" source="38" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">Map Service Center...</data>
+      <data key="d6">The FEMA Flood Map Service Center is a tool provided through the U.S. Climate Resilience Toolkit to help users access and understand flood hazard information</data>
+    </edge>
+    <edge id="e46" source="21" target="39">
+      <data key="d3">1.0</data>
+      <data key="d4">Map Service Center...</data>
+      <data key="d6">The FEMA Flood Map Service Center provides flood hazard information in support of the National Flood Insurance Program</data>
+    </edge>
+    <edge id="e47" source="40" target="30">
+      <data key="d3">10.0</data>
+      <data key="d4">official website...</data>
+      <data key="d6">Ready.gov is an official website of the U.S. Department of Homeland Security</data>
+    </edge>
+    <edge id="e48" source="40" target="13">
+      <data key="d3">8.0</data>
+      <data key="d4">agency Department...</data>
+      <data key="d6">FEMA is an agency of the U.S. Department of Homeland Security</data>
+    </edge>
+    <edge id="e49" source="30" target="41">
+      <data key="d3">1.0</data>
+      <data key="d4">available Spanish...</data>
+      <data key="d6">The Ready.gov website is available in Spanish</data>
+    </edge>
+    <edge id="e50" source="42" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">official guide government...</data>
+      <data key="d6">USAGov is the official guide to government information and services provided by the United States government</data>
+    </edge>
+    <edge id="e51" source="42" target="43">
+      <data key="d3">1.0</data>
+      <data key="d4">Services Administration provides...</data>
+      <data key="d6">The U.S. General Services Administration provides support and policies for the USAGov website</data>
+    </edge>
+    <edge id="e52" source="44" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">Insurance Program administered...</data>
+      <data key="d6">The National Flood Insurance Program is administered by the Federal Emergency Management Agency</data>
+    </edge>
+    <edge id="e53" source="45" target="21">
+      <data key="d3">10.0</data>
+      <data key="d4">most significant flood...</data>
+      <data key="d6">Hurricane Katrina was the most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e54" source="46" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">second most significant...</data>
+      <data key="d6">Superstorm Sandy was the second most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e55" source="47" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">third most significant...</data>
+      <data key="d6">Hurricane Harvey was the third most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e56" source="48" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">fourth most significant...</data>
+      <data key="d6">Hurricane Ian was the fourth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e57" source="49" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">fifth most significant...</data>
+      <data key="d6">Hurricane Ike was the fifth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e58" source="50" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">storms flooding 2016...</data>
+      <data key="d6">The Louisiana severe storms and flooding in 2016 was the sixth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e59" source="51" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">seventh most significant...</data>
+      <data key="d6">Hurricane Ivan was the seventh most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e60" source="52" target="21">
+      <data key="d3">7.0</data>
+      <data key="d4">eighth most significant...</data>
+      <data key="d6">Tropical Storm Allison was the eighth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e61" source="53" target="21">
+      <data key="d3">7.0</data>
+      <data key="d4">ninth most significant...</data>
+      <data key="d6">Hurricane Irene was the ninth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e62" source="54" target="21">
+      <data key="d3">1.0</data>
+      <data key="d4">tenth most significant...</data>
+      <data key="d6">Hurricane Helene was the tenth most significant flood event in terms of National Flood Insurance Program payouts</data>
+    </edge>
+    <edge id="e63" source="21" target="56">
+      <data key="d3">8.0</data>
+      <data key="d4">is an alternative...</data>
+      <data key="d6">Private flood insurance is an alternative to the National Flood Insurance Program</data>
+    </edge>
+    <edge id="e64" source="21" target="55">
+      <data key="d3">7.0</data>
+      <data key="d4">key stakeholder flood...</data>
+      <data key="d6">Homeowners are a key stakeholder in flood insurance provided by the National Flood Insurance Program</data>
+    </edge>
+    <edge id="e65" source="55" target="56">
+      <data key="d3">1.0</data>
+      <data key="d4">flood insurance from...</data>
+      <data key="d6">Homeowners can purchase flood insurance from private insurers as an alternative to the National Flood Insurance Program</data>
+    </edge>
+    <edge id="e66" source="57" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top writers...</data>
+      <data key="d6">Assurant Inc. is one of the top writers of private flood insurance in the US, with an 11.5% market share</data>
+    </edge>
+    <edge id="e67" source="58" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top writers...</data>
+      <data key="d6">MS&amp;AD Insurance is one of the top writers of private flood insurance in the US, with a 10.7% market share</data>
+    </edge>
+    <edge id="e68" source="59" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top...</data>
+      <data key="d6">Berkshire Hathaway Inc. is one of the top writers of private flood insurance in the US, with a 10.7% market share</data>
+    </edge>
+    <edge id="e69" source="60" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top writers...</data>
+      <data key="d6">Liberty Mutual is one of the top writers of private flood insurance in the US, with a 7.5% market share</data>
+    </edge>
+    <edge id="e70" source="61" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top...</data>
+      <data key="d6">Swiss Re Ltd. is one of the top writers of private flood insurance in the US, with a 6.3% market share</data>
+    </edge>
+    <edge id="e71" source="62" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">(AIG) one...</data>
+      <data key="d6">American International Group (AIG) is one of the top writers of private flood insurance in the US, with a 5.9% market share</data>
+    </edge>
+    <edge id="e72" source="63" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top writers...</data>
+      <data key="d6">Allstate Corp. is one of the top writers of private flood insurance in the US, with a 5.4% market share</data>
+    </edge>
+    <edge id="e73" source="64" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">top writers...</data>
+      <data key="d6">Sompo is one of the top writers of private flood insurance in the US, with a 4.8% market share</data>
+    </edge>
+    <edge id="e74" source="65" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">one top writers...</data>
+      <data key="d6">Chubb Ltd. is one of the top writers of private flood insurance in the US, with a 4.4% market share</data>
+    </edge>
+    <edge id="e75" source="66" target="70">
+      <data key="d3">8.0</data>
+      <data key="d4">metropolitan area 878,226...</data>
+      <data key="d6">The New York metropolitan area has 878,226 homes at risk for storm surge in 2024</data>
+    </edge>
+    <edge id="e76" source="66" target="71">
+      <data key="d3">8.0</data>
+      <data key="d4">metropolitan area 3,765,489...</data>
+      <data key="d6">The New York metropolitan area has 3,765,489 homes at risk for hurricane wind in 2024</data>
+    </edge>
+    <edge id="e77" source="66" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">twelfth highest rating...</data>
+      <data key="d6">New York has the twelfth highest rating for building codes and related factors among coastal states, with a score of 67 in 2024</data>
+    </edge>
+    <edge id="e78" source="67" target="70">
+      <data key="d3">8.0</data>
+      <data key="d4">area 509,133 homes...</data>
+      <data key="d6">The Miami metropolitan area has 509,133 homes at risk for storm surge in 2024</data>
+    </edge>
+    <edge id="e79" source="67" target="71">
+      <data key="d3">8.0</data>
+      <data key="d4">area 2,048,827 homes...</data>
+      <data key="d6">The Miami metropolitan area has 2,048,827 homes at risk for hurricane wind in 2024</data>
+    </edge>
+    <edge id="e80" source="68" target="70">
+      <data key="d3">8.0</data>
+      <data key="d4">area 192,937 homes...</data>
+      <data key="d6">The Houston metropolitan area has 192,937 homes at risk for storm surge in 2024</data>
+    </edge>
+    <edge id="e81" source="68" target="71">
+      <data key="d3">1.0</data>
+      <data key="d4">area 2,092,308 homes...</data>
+      <data key="d6">The Houston metropolitan area has 2,092,308 homes at risk for hurricane wind in 2024</data>
+    </edge>
+    <edge id="e82" source="69" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">top writers...</data>
+      <data key="d6">AXA is one of the top writers of private flood insurance in the US, with a 13.0% market share</data>
+    </edge>
+    <edge id="e83" source="72" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">second highest rating...</data>
+      <data key="d6">Florida has the second highest rating for building codes and related factors among coastal states, with a score of 95 in 2024</data>
+    </edge>
+    <edge id="e84" source="73" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">third highest rating...</data>
+      <data key="d6">South Carolina has the third highest rating for building codes and related factors among coastal states, with a score of 92 in 2024</data>
+    </edge>
+    <edge id="e85" source="10" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">fourth highest rating...</data>
+      <data key="d6">New Jersey has the fourth highest rating for building codes and related factors among coastal states, with a score of 92 in 2024</data>
+    </edge>
+    <edge id="e86" source="74" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">fifth highest rating...</data>
+      <data key="d6">Louisiana has the fifth highest rating for building codes and related factors among coastal states, with a score of 91 in 2024</data>
+    </edge>
+    <edge id="e87" source="75" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">sixth highest rating...</data>
+      <data key="d6">Connecticut has the sixth highest rating for building codes and related factors among coastal states, with a score of 90 in 2024</data>
+    </edge>
+    <edge id="e88" source="76" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">seventh highest rating...</data>
+      <data key="d6">Rhode Island has the seventh highest rating for building codes and related factors among coastal states, with a score of 90 in 2024</data>
+    </edge>
+    <edge id="e89" source="77" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">eighth highest rating...</data>
+      <data key="d6">North Carolina has the eighth highest rating for building codes and related factors among coastal states, with a score of 85 in 2024</data>
+    </edge>
+    <edge id="e90" source="78" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">ninth highest rating...</data>
+      <data key="d6">Massachusetts has the ninth highest rating for building codes and related factors among coastal states, with a score of 77 in 2024</data>
+    </edge>
+    <edge id="e91" source="79" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">tenth highest rating...</data>
+      <data key="d6">Maryland has the tenth highest rating for building codes and related factors among coastal states, with a score of 77 in 2024</data>
+    </edge>
+    <edge id="e92" source="11" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">eleventh highest rating...</data>
+      <data key="d6">Georgia has the eleventh highest rating for building codes and related factors among coastal states, with a score of 67 in 2024</data>
+    </edge>
+    <edge id="e93" source="80" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">thirteenth highest rating...</data>
+      <data key="d6">New Hampshire has the thirteenth highest rating for building codes and related factors among coastal states, with a score of 47 in 2024</data>
+    </edge>
+    <edge id="e94" source="81" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">fourteenth highest rating...</data>
+      <data key="d6">Maine has the fourteenth highest rating for building codes and related factors among coastal states, with a score of 46 in 2024</data>
+    </edge>
+    <edge id="e95" source="82" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">fifteenth highest rating...</data>
+      <data key="d6">Mississippi has the fifteenth highest rating for building codes and related factors among coastal states, with a score of 44 in 2024</data>
+    </edge>
+    <edge id="e96" source="83" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">sixteenth highest rating...</data>
+      <data key="d6">Texas has the sixteenth highest rating for building codes and related factors among coastal states, with a score of 33 in 2024</data>
+    </edge>
+    <edge id="e97" source="84" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">seventeenth highest rating...</data>
+      <data key="d6">Alabama has the seventeenth highest rating for building codes and related factors among coastal states, with a score of 30 in 2024</data>
+    </edge>
+    <edge id="e98" source="85" target="87">
+      <data key="d3">1.0</data>
+      <data key="d4">eighteenth highest rating...</data>
+      <data key="d6">Delaware has the eighteenth highest rating for building codes and related factors among coastal states, with a score of 23 in 2024</data>
+    </edge>
+    <edge id="e99" source="86" target="87">
+      <data key="d3">9.0</data>
+      <data key="d4">highest rating building...</data>
+      <data key="d6">Virginia has the highest rating for building codes and related factors among coastal states, with a score of 96 in 2024</data>
+    </edge>
+    <edge id="e100" source="34" target="92">
+      <data key="d3">9.0</data>
+      <data key="d4">growing risk issue...</data>
+      <data key="d6">Floods are a growing risk issue facing America according to the text</data>
+    </edge>
+    <edge id="e101" source="34" target="91">
+      <data key="d3">1.0</data>
+      <data key="d4">organization that discusses...</data>
+      <data key="d6">IBHS is an organization that discusses and researches the issue of floods</data>
+    </edge>
+    <edge id="e102" source="88" target="89">
+      <data key="d3">7.0</data>
+      <data key="d4">published report America's...</data>
+      <data key="d6">First Street Foundation published a report on America's growing flood risk, which is discussed on the Resilience Blog</data>
+    </edge>
+    <edge id="e103" source="88" target="92">
+      <data key="d3">9.0</data>
+      <data key="d4">published report America's...</data>
+      <data key="d6">First Street Foundation published a report on America's growing flood risk</data>
+    </edge>
+    <edge id="e104" source="90" target="91">
+      <data key="d3">1.0</data>
+      <data key="d4">organization that discusses...</data>
+      <data key="d6">IBHS is an organization that discusses the Hurricane Coast region</data>
+    </edge>
+    <edge id="e105" source="21" target="93">
+      <data key="d3">1.0</data>
+      <data key="d4">website National Flood...</data>
+      <data key="d6">FloodSmart is the website for the National Flood Insurance Program, providing information and resources about flood insurance and flood preparedness</data>
+    </edge>
+    <edge id="e106" source="93" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">official website United...</data>
+      <data key="d6">FloodSmart is an official website of the United States government</data>
+    </edge>
+    <edge id="e107" source="93" target="94">
+      <data key="d3">1.0</data>
+      <data key="d4">Service Center resource...</data>
+      <data key="d6">The Flood Map Service Center is a resource linked on the FloodSmart website to help people understand their flood risk</data>
+    </edge>
+    <edge id="e108" source="13" target="17">
+      <data key="d3">1.0</data>
+      <data key="d4">grants help communities...</data>
+      <data key="d6">FEMA provides mitigation grants to help communities build resilience against flooding</data>
+    </edge>
+    <edge id="e109" source="26" target="95">
+      <data key="d3">1.0</data>
+      <data key="d4">information about community's...</data>
+      <data key="d6">Flood maps provide information about a community's flood risk</data>
+    </edge>
+    <edge id="e110" source="94" target="13">
+      <data key="d3">18.0</data>
+      <data key="d4">Service Center division...</data>
+      <data key="d6">The Flood Map Service Center is a division of FEMA that provides flood hazard information</data>
+    </edge>
+    <edge id="e111" source="94" target="21">
+      <data key="d3">2.0</data>
+      <data key="d4">Service Center provides...</data>
+      <data key="d6">The Flood Map Service Center provides flood hazard information in support of the National Flood Insurance Program</data>
+    </edge>
+    <edge id="e112" source="96" target="44">
+      <data key="d3">8.0</data>
+      <data key="d4">located Hyattsville, Maryland...</data>
+      <data key="d6">FEMA's main address is located in Hyattsville, Maryland</data>
+    </edge>
+    <edge id="e113" source="79" target="44">
+      <data key="d3">1.0</data>
+      <data key="d4">located Hyattsville, Maryland...</data>
+      <data key="d6">FEMA's main address is located in Hyattsville, Maryland</data>
+    </edge>
+    <edge id="e114" source="44" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">agency United States...</data>
+      <data key="d6">FEMA is an agency of the United States government</data>
+    </edge>
+    <edge id="e115" source="97" target="83">
+      <data key="d3">1.0</data>
+      <data key="d4">Texas, Greg Abbott...</data>
+      <data key="d6">As the Governor of Texas, Greg Abbott oversees the state's emergency response efforts.</data>
+    </edge>
+    <edge id="e116" source="31" target="83">
+      <data key="d3">9.0</data>
+      <data key="d4">Emergency Management...</data>
+      <data key="d6">The Texas Division of Emergency Management is the state agency responsible for emergency management in Texas.</data>
+    </edge>
+    <edge id="e117" source="98" target="32">
+      <data key="d3">8.0</data>
+      <data key="d4">Management Agency overseen...</data>
+      <data key="d6">The Alabama Emergency Management Agency is overseen by the Alabama Governor's Office</data>
+    </edge>
+    <edge id="e118" source="99" target="32">
+      <data key="d3">7.0</data>
+      <data key="d4">Management Agency works...</data>
+      <data key="d6">The Alabama Emergency Management Agency works with the Alabama Department of Revenue to administer the Alabama Storm Shelter Tax Credit program</data>
+    </edge>
+    <edge id="e119" source="13" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">assistance grants...</data>
+      <data key="d6">FEMA provides disaster assistance and grants to the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e120" source="100" target="32">
+      <data key="d3">7.0</data>
+      <data key="d4">disaster assistance businesses...</data>
+      <data key="d6">The SBA provides disaster assistance to businesses in Alabama through the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e121" source="101" target="32">
+      <data key="d3">8.0</data>
+      <data key="d4">Aid System coordinates...</data>
+      <data key="d6">The Alabama Mutual Aid System coordinates emergency response resources with the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e122" source="102" target="32">
+      <data key="d3">8.0</data>
+      <data key="d4">Response Commission oversees...</data>
+      <data key="d6">The Alabama Emergency Response Commission oversees emergency planning and response in coordination with the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e123" source="32" target="107">
+      <data key="d3">9.0</data>
+      <data key="d4">meteorologist Alabama...</data>
+      <data key="d6">Jim Stefkovich is a meteorologist at the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e124" source="32" target="103">
+      <data key="d3">8.0</data>
+      <data key="d4">staff member...</data>
+      <data key="d6">Madison Mckinney is a staff member at the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e125" source="32" target="104">
+      <data key="d3">8.0</data>
+      <data key="d4">staff member...</data>
+      <data key="d6">Jaleesa Diggins is a staff member at the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e126" source="32" target="105">
+      <data key="d3">10.0</data>
+      <data key="d4">Director Alabama...</data>
+      <data key="d6">Jeff Smitherman is the Director of the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e127" source="32" target="106">
+      <data key="d3">17.0</data>
+      <data key="d4">Management Agency (AEMA)...</data>
+      <data key="d6">The Alabama Emergency Management Agency (AEMA) is a state agency responsible for coordinating emergency response and disaster management efforts in Alabama. The agency is overseen by Kay Ivey, the Governor of Alabama.
+
+Kay Ivey is the current Governor of Alabama, having assumed office in 2017. As the state's chief executive, Ivey is responsible for the overall management and oversight of the Alabama Emergency Management Agency. The AEMA is tasked with preparing for, responding to, and recovering from natural disasters, man-made emergencies, and other crises that may affect the state of Alabama.
+
+The descriptions provided indicate that the AEMA is under the purview of the Governor's office, with Kay Ivey serving as the head of the agency. This aligns with the typical structure of state emergency management agencies, where the governor holds the ultimate authority and responsibility for the agency's operations and performance.
+
+The AEMA's primary responsibilities include coordinating disaster response efforts, managing emergency communications, and providing support and resources to local communities affected by crises. The agency works closely with federal agencies, such as the Federal Emergency Management Agency (FEMA), to ensure a comprehensive and coordinated approach to emergency management.
+
+Under Governor Ivey's leadership, the AEMA has been responsible for responding to a variety of natural disasters, including hurricanes, tornadoes, and floods, as well as other emergencies such as the COVID-19 pandemic. The agency's efforts have been crucial in helping Alabama communities prepare for, respond to, and recover from these events.
+
+Overall, the Alabama Emergency Management Agency plays a vital role in ensuring the safety and resilience of the state's residents, and its operations are overseen by the Governor, Kay Ivey, who is responsible for the agency's overall management and performance.</data>
+    </edge>
+    <edge id="e128" source="105" target="32">
+      <data key="d3">10.0</data>
+      <data key="d4">Director Alabama...</data>
+      <data key="d6">Jeff Smitherman is the Director of the Alabama Emergency Management Agency</data>
+    </edge>
+    <edge id="e129" source="32" target="108">
+      <data key="d3">8.0</data>
+      <data key="d4">Management Agency oversees...</data>
+      <data key="d6">The Alabama Emergency Management Agency oversees the Ready Alabama preparedness program</data>
+    </edge>
+    <edge id="e130" source="32" target="109">
+      <data key="d3">1.0</data>
+      <data key="d4">Management Agency works...</data>
+      <data key="d6">The Alabama Emergency Management Agency works with Alabama 211 to connect people to community resources</data>
+    </edge>
+  </graph>
+</graphml>

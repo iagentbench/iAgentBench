@@ -1,9 +1,9 @@
 (function () {
   "use strict";
 
-  var GRAPHML_URL   = "assets/temp/interactive_graph_temp.graphml";
-  var META_URL      = "assets/temp/interactive_graph_meta.json";
-  var COMMUNITY_DETAILS_URL = "assets/temp/community_details.json";
+  var MANIFEST_URL = "assets/data/graphs/manifest.json";
+  var GRAPHS_BASE  = "assets/data/graphs";
+  var _manifest    = null;
 
   // Notebook-exact community colour palette (index % 7)
   var COMMUNITY_COLORS = [
@@ -22,6 +22,9 @@
   var _clusters     = null;
   var _currentLayout = "force";
   var _focusedComm  = null;
+  var _currentSlug  = null;
+  var _placeholderEl = null;
+  var _uiRef        = null;
 
   // ── Helpers ────────────────────────────────────────────────────────────────
   function esc(s) {
@@ -585,29 +588,114 @@
     }
   }
 
-  // ── Entry ──────────────────────────────────────────────────────────────────
-  function init() {
-    if (typeof cytoscapeCise !== "undefined" && typeof cytoscape !== "undefined") {
-      try { cytoscape.use(cytoscapeCise); } catch (_) {}
-    }
+  function normalizeKeyTerms(keyTerms) {
+    if (keyTerms == null) return "";
+    if (Array.isArray(keyTerms)) return (keyTerms[0] != null ? String(keyTerms[0]) : keyTerms.join(" ")).trim();
+    return String(keyTerms).trim();
+  }
 
-    var placeholder = document.getElementById("graph-placeholder");
-    if (!placeholder) return;
-
-    // Quick loading state while fetching
+  function mountEmpty(placeholder) {
     placeholder.classList.remove("graph-placeholder");
     placeholder.classList.add("graph-panel");
-    placeholder.innerHTML =
-      "<div class=\"graph-loading\" style=\"min-height:420px;position:relative\">" +
-      "<span class=\"graph-spinner\"></span>Loading graph\u2026</div>";
+    var header = document.createElement("div");
+    header.className = "graph-header";
+    header.innerHTML =
+      "<div class=\"graph-legend\" id=\"graph-legend\"></div>" +
+      "<div class=\"graph-header-right\">" +
+        "<div class=\"graph-layout-group\" role=\"group\" aria-label=\"Layout\">" +
+          "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"circular\">Circular</button>" +
+          "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"radial\">Radial</button>" +
+          "<button type=\"button\" class=\"graph-layout-btn is-active\" data-layout=\"force\">Force</button>" +
+        "</div>" +
+        "<div class=\"graph-controls\">" +
+          "<button type=\"button\" class=\"graph-btn\" id=\"graph-fit\"      title=\"Fit to view\">\u229e</button>" +
+          "<button type=\"button\" class=\"graph-btn\" id=\"graph-zoom-in\"  title=\"Zoom in\">+</button>" +
+          "<button type=\"button\" class=\"graph-btn\" id=\"graph-zoom-out\" title=\"Zoom out\">\u2212</button>" +
+        "</div>" +
+      "</div>";
+    var wrap = document.createElement("div");
+    wrap.className = "graph-canvas-wrap";
+    var cyDiv = document.createElement("div");
+    cyDiv.id = "cy";
+    cyDiv.className = "graph-cy";
+    cyDiv.style.display = "none";
+    var placeholderMsg = document.createElement("div");
+    placeholderMsg.className = "graph-placeholder-msg";
+    placeholderMsg.id = "graph-placeholder-msg";
+    placeholderMsg.textContent = "Select a QA entry to view its graph";
+    var tooltipEl = document.createElement("div");
+    tooltipEl.className = "graph-tooltip";
+    tooltipEl.hidden = true;
+    var detailPanel = document.createElement("div");
+    detailPanel.className = "graph-detail-panel";
+    var loadingEl = document.createElement("div");
+    loadingEl.className = "graph-loading";
+    loadingEl.innerHTML = "<span class=\"graph-spinner\"></span>Loading graph\u2026";
+    loadingEl.style.display = "none";
+    wrap.appendChild(cyDiv);
+    wrap.appendChild(placeholderMsg);
+    wrap.appendChild(tooltipEl);
+    wrap.appendChild(detailPanel);
+    wrap.appendChild(loadingEl);
+    placeholder.innerHTML = "";
+    placeholder.appendChild(header);
+    placeholder.appendChild(wrap);
+    _placeholderEl = placeholderMsg;
+    _uiRef = { cyDiv: cyDiv, tooltipEl: tooltipEl, detailPanel: detailPanel, loadingEl: loadingEl };
+  }
+
+  function showPlaceholder(message) {
+    if (_cy) {
+      _cy.destroy();
+      _cy = null;
+    }
+    _clusters = null;
+    _currentSlug = null;
+    if (_placeholderEl) {
+      _placeholderEl.textContent = message || "Select a QA entry to view its graph";
+      _placeholderEl.style.display = "block";
+    }
+    if (_uiRef && _uiRef.cyDiv) _uiRef.cyDiv.style.display = "none";
+  }
+
+  function loadGraphForKeyTerms(keyTerms) {
+    var key = normalizeKeyTerms(keyTerms);
+    if (!key) {
+      showPlaceholder("Select a QA entry to view its graph");
+      return;
+    }
+    if (!_manifest || typeof _manifest !== "object") {
+      showPlaceholder("Graph manifest not loaded.");
+      return;
+    }
+    var slug = _manifest[key];
+    if (!slug) {
+      showPlaceholder("Graph visualization (coming soon)");
+      return;
+    }
+    if (_currentSlug === slug) return;
+
+    if (_cy) {
+      _cy.destroy();
+      _cy = null;
+    }
+    _currentSlug = slug;
+
+    var graphmlUrl = GRAPHS_BASE + "/" + slug + ".graphml";
+    var metaUrl   = GRAPHS_BASE + "/" + slug + "_meta.json";
+    var detailsUrl = GRAPHS_BASE + "/" + slug + "_details.json";
+
+    if (_placeholderEl) _placeholderEl.style.display = "none";
+    if (_uiRef && _uiRef.cyDiv) _uiRef.cyDiv.style.display = "block";
+    if (_uiRef && _uiRef.loadingEl) {
+      _uiRef.loadingEl.style.display = "block";
+      _uiRef.loadingEl.style.opacity = "1";
+    }
 
     Promise.all([
-      fetch(GRAPHML_URL).then(function (r) {
-        if (!r.ok) throw new Error("GraphML: HTTP " + r.status);
-        return r.text();
-      }),
-      fetch(META_URL).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
-      fetch(COMMUNITY_DETAILS_URL).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+      fetch(graphmlUrl).then(function (r) { if (!r.ok) throw new Error("GraphML"); return r.text(); }),
+      fetch(metaUrl).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+      fetch(detailsUrl).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
     ])
     .then(function (results) {
       var communityMeta = (results[1] && results[1].communities) ? results[1].communities : {};
@@ -620,13 +708,11 @@
       var data = parseGraphML(xml, communityMeta, communityDetailsById);
       _clusters = data.clusters;
 
-      // Re-mount full UI
-      placeholder.classList.remove("graph-panel");
-      placeholder.classList.add("graph-placeholder");
-      var ui = mountUI(placeholder, data.legendEntries);
+      var legendEl = document.getElementById("graph-legend");
+      if (legendEl) legendEl.innerHTML = buildLegendHTML(data.legendEntries);
 
       _cy = cytoscape({
-        container:           ui.cyDiv,
+        container:           _uiRef.cyDiv,
         elements:            { nodes: data.nodes, edges: data.edges },
         style:               cyStyles(),
         layout:              buildLayout("force", _clusters),
@@ -636,22 +722,48 @@
         boxSelectionEnabled: false,
       });
 
-      bindInteractions(_cy, ui.cyDiv, ui.tooltipEl, ui.detailPanel, communityMeta);
+      bindInteractions(_cy, _uiRef.cyDiv, _uiRef.tooltipEl, _uiRef.detailPanel, communityMeta);
 
       _cy.one("layoutstop", function () {
-        ui.loadingEl.style.transition = "opacity 0.3s";
-        ui.loadingEl.style.opacity    = "0";
-        setTimeout(function () {
-          if (ui.loadingEl.parentNode) ui.loadingEl.parentNode.removeChild(ui.loadingEl);
-        }, 320);
-        wireControls(ui, communityMeta, communityDetailsById);
+        if (_uiRef.loadingEl) {
+          _uiRef.loadingEl.style.transition = "opacity 0.3s";
+          _uiRef.loadingEl.style.opacity    = "0";
+          setTimeout(function () {
+            if (_uiRef.loadingEl && _uiRef.loadingEl.parentNode) _uiRef.loadingEl.style.display = "none";
+          }, 320);
+        }
+        wireControls(_uiRef, communityMeta, communityDetailsById);
       });
     })
     .catch(function (err) {
-      placeholder.innerHTML =
-        "<div class=\"graph-loading\" style=\"min-height:120px\">" +
-        "<span style=\"color:#f87171\">Could not load graph: " + esc(err.message) + "</span></div>";
+      console.error("Explorer graph load error:", err);
+      _currentSlug = null;
+      showPlaceholder("Graph visualization (coming soon)");
     });
+  }
+
+  // ── Entry ──────────────────────────────────────────────────────────────────
+  function init() {
+    if (typeof cytoscapeCise !== "undefined" && typeof cytoscape !== "undefined") {
+      try { cytoscape.use(cytoscapeCise); } catch (_) {}
+    }
+
+    var placeholder = document.getElementById("graph-placeholder");
+    if (!placeholder) return;
+
+    fetch(MANIFEST_URL)
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .then(function (manifest) {
+        _manifest = manifest && typeof manifest === "object" ? manifest : {};
+        mountEmpty(placeholder);
+        window.loadGraphForKeyTerms = loadGraphForKeyTerms;
+      })
+      .catch(function (err) {
+        console.error("Explorer graph manifest error:", err);
+        _manifest = {};
+        mountEmpty(placeholder);
+        window.loadGraphForKeyTerms = loadGraphForKeyTerms;
+      });
   }
 
   if (document.readyState === "loading") {

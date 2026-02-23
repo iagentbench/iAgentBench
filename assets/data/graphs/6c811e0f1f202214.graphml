@@ -1,0 +1,869 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">GOOGLE LLC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Google LLC is the parent company of YouTube</data>
+    </node>
+    <node id="1">
+      <data key="d0">NFL SUNDAY TICKET</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">0.0</data>
+      <data key="d5">NFL Sunday Ticket is a subscription service that allows viewers to watch NFL games</data>
+    </node>
+    <node id="2">
+      <data key="d0">YOUTUBE</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="3">
+      <data key="d0">PRESS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Press section on YouTube</data>
+    </node>
+    <node id="4">
+      <data key="d0">COPYRIGHT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Copyright section on YouTube</data>
+    </node>
+    <node id="5">
+      <data key="d0">CONTACT US</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Contact us section on YouTube</data>
+    </node>
+    <node id="6">
+      <data key="d0">CREATORS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Creators section on YouTube</data>
+    </node>
+    <node id="7">
+      <data key="d0">ADVERTISE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Advertise section on YouTube</data>
+    </node>
+    <node id="8">
+      <data key="d0">DEVELOPERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Developers section on YouTube</data>
+    </node>
+    <node id="9">
+      <data key="d0">TERMS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Terms section on YouTube</data>
+    </node>
+    <node id="10">
+      <data key="d0">PRIVACY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Privacy section on YouTube</data>
+    </node>
+    <node id="11">
+      <data key="d0">POLICY &amp; SAFETY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Policy &amp; Safety section on YouTube</data>
+    </node>
+    <node id="12">
+      <data key="d0">HOW YOUTUBE WORKS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">How YouTube Works section</data>
+    </node>
+    <node id="13">
+      <data key="d0">TEST NEW FEATURES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Test new features section on YouTube</data>
+    </node>
+    <node id="14">
+      <data key="d0">ABOUT</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="15">
+      <data key="d0">STACEY DOOLEY</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="16">
+      <data key="d0">VIVIAN TUCCARO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Amber Tuccaro's mother, who believes the police did not take her daughter's disappearance seriously enough because she was indigenous.</data>
+    </node>
+    <node id="17">
+      <data key="d0">JACOB TUCCARO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Amber Tuccaro's 14-month-old son who was left behind when she went missing.</data>
+    </node>
+    <node id="18">
+      <data key="d0">SHELLY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">A woman who works in an area of Edmonton, Alberta known as "death row" where many girls go missing or are found murdered. She has lost 10 friends, including her sister.</data>
+    </node>
+    <node id="19">
+      <data key="d0">AMBER TUCCARO</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="20">
+      <data key="d0">EDMONTON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Edmonton is a city in Canada that has been the site of tragic events and the focus of important social issues. 
+
+The city is where Amber Tuccaro, a young Indigenous woman, was last seen alive. Tuccaro's disappearance and the subsequent investigation have highlighted the disproportionate number of missing and murdered Indigenous women in Canada. The "death row" area of Edmonton is also known as a location where vulnerable individuals, often sex workers, face high risks.
+
+In the city, journalist Stacey Dooley has met with women working in the sex trade who are considered high-risk. This underscores the challenges and dangers faced by those involved in the sex industry, particularly in certain neighborhoods of Edmonton. The stories of these women shed light on the complex social and economic factors that can lead individuals, especially marginalized groups, to engage in sex work.
+
+Despite the tragic events and social issues that have occurred in Edmonton, the city remains an important part of Canada's landscape. As a major urban center, it grapples with the same challenges faced by many cities, including the need to address the vulnerabilities of its most marginalized residents. Ongoing efforts to support and protect these individuals, as well as to investigate and prevent crimes against them, are crucial for the well-being of the entire community.
+
+In summary, Edmonton is a city that has been the site of significant challenges, including the disappearance of Amber Tuccaro and the high-risk environment faced by sex workers in certain areas. However, the city also represents the broader need to address social inequities and protect the most vulnerable members of society, regardless of their circumstances.</data>
+    </node>
+    <node id="21">
+      <data key="d0">MISSING/MURDERED FRIENDS</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="22">
+      <data key="d0">ALTA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The town that Amber Tuccaro was from.</data>
+    </node>
+    <node id="23">
+      <data key="d0">CANADA</data>
+      <data key="d1" />
+      <data key="d2">6.0</data>
+      <data key="d5" />
+    </node>
+    <node id="24">
+      <data key="d0">INDIGENOUS WOMEN</data>
+      <data key="d1" />
+      <data key="d2">6.0</data>
+      <data key="d5" />
+    </node>
+    <node id="25">
+      <data key="d0">NHS FRONTLINE</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="26">
+      <data key="d0">CHILD DRUG RUNNERS</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">SOUTH KOREA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">South Korea is the country where Stacey Dooley investigates the "Molka" sex crime issue</data>
+    </node>
+    <node id="28">
+      <data key="d0">PHILIPPINES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Philippines is the country where Stacey Dooley investigates the issue of mothers sexually abusing their children</data>
+    </node>
+    <node id="29">
+      <data key="d0">NATIVE AMERICAN GIRLS AND WOMEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The group of people who have experienced disappearances and murders in Canada, which Stacey Dooley investigates</data>
+    </node>
+    <node id="30">
+      <data key="d0">CANADA'S LOST GIRLS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">"Canada's Lost Girls" is a documentary series produced by Stacey Dooley that investigates the high rates of missing and murdered indigenous women in Canada. The series sheds light on the alarming issue of the disappearance and murders of Native American girls and women in the country.
+
+The documentary series delves into the tragic reality faced by many indigenous communities in Canada, where young women and girls have been vanishing or found murdered at disproportionately high rates compared to the general population. Stacey Dooley, the host and producer of the series, aims to bring attention to this pressing social and human rights issue that has long been overlooked and underreported.
+
+Through interviews with families, community leaders, and law enforcement, the series provides a comprehensive look at the factors contributing to this crisis, including systemic discrimination, lack of resources, and the historical legacy of colonization. The documentary explores the pain and anguish experienced by the loved ones of the "lost girls," as they are often referred to, and the ongoing struggle to seek justice and closure.
+
+The series also highlights the resilience and strength of indigenous communities, who have been at the forefront of efforts to raise awareness and demand action from the Canadian government and authorities. "Canada's Lost Girls" serves as a powerful call to action, urging the public and policymakers to address the root causes of this issue and implement effective measures to protect the lives of indigenous women and girls.
+
+Through its in-depth reporting and emotional storytelling, the documentary series aims to shed light on a deeply troubling and often overlooked aspect of Canadian society, and to inspire meaningful change to prevent further tragedies and ensure the safety and well-being of all indigenous people in the country.</data>
+    </node>
+    <node id="31">
+      <data key="d0">DAVID MCCONNELL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The director of the TV episode "Stacey Dooley Investigates: Canada's Lost Girls"</data>
+    </node>
+    <node id="32">
+      <data key="d0">STACEY DOOLEY INVESTIGATES</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="33">
+      <data key="d0">BRITISH COLUMBIA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">7.0</data>
+      <data key="d5">British Columbia is a province located in western Canada. It is known for its diverse landscapes, ranging from the rugged Rocky Mountains to the lush rainforests and coastal regions.
+
+One of the notable features of British Columbia is the Highway of Tears, a stretch of highway that has been the site of numerous unsolved disappearances and murders of Indigenous women and girls. This tragic phenomenon has brought attention to the issue of missing and murdered Indigenous women in Canada.
+
+In addition to the Highway of Tears, British Columbia has also been the focus of investigative efforts by journalists, such as Stacey Dooley, who have traveled to the province to explore the cases and raise awareness about the ongoing challenges faced by the affected communities.
+
+British Columbia is a province with a rich cultural heritage, home to numerous Indigenous communities, as well as a thriving outdoor recreation industry. However, the province has also grappled with the complex and deeply concerning issue of missing and murdered Indigenous women, which has had a profound impact on the lives of many individuals and families.
+
+Overall, British Columbia is a diverse and complex province, with both its natural beauty and its social challenges being important aspects of its identity and history.</data>
+    </node>
+    <node id="34">
+      <data key="d0">ALBERTA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Alberta is a province located in western Canada. It is known for its diverse landscapes, ranging from the Rocky Mountains in the west to the vast prairies in the east. The province is home to a variety of wildlife, including grizzly bears, moose, and elk, and is a popular destination for outdoor enthusiasts.
+
+Stacey Dooley, a British television presenter and documentary filmmaker, has visited Alberta as part of her work. In her documentaries, Dooley has explored various aspects of life in the province, including the cases and issues that she has investigated.
+
+According to the descriptions provided, Stacey Dooley has traveled to Alberta to investigate specific cases or issues in the province. The descriptions do not provide any further details about the nature of these cases or the specific topics that Dooley has explored during her visits. However, it is clear that Alberta has been a focus of Dooley's work, and that she has used the province as a backdrop for her investigations and documentaries.
+
+Overall, Alberta is a diverse and dynamic province in Canada, known for its natural beauty and outdoor activities. Stacey Dooley has visited the province as part of her work, though the specific details of her investigations and the cases she has explored are not provided in the given descriptions.</data>
+    </node>
+    <node id="35">
+      <data key="d0">HIGHWAY OF TEARS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The "Highway of Tears" refers to a remote road in British Columbia, Canada where dozens of women, primarily indigenous, have gone missing or been murdered while hitchhiking since the 1980s. This stretch of highway, spanning approximately 500 kilometers, has become notorious for the high number of unsolved cases and the disproportionate impact on the indigenous community.
+
+The Highway of Tears is a remote and isolated road, cutting through the rugged and sparsely populated northern region of British Columbia. The lack of public transportation options and the vast distances between towns have forced many individuals, particularly women and girls, to rely on hitchhiking as a means of transportation. Unfortunately, this has made them vulnerable to predators, leading to a tragic and ongoing series of disappearances and murders.
+
+The victims of the Highway of Tears are predominantly indigenous women and girls, reflecting the broader societal issues of marginalization and violence faced by this community. The cases have garnered significant attention and concern, both within Canada and internationally, as the lack of progress in solving these crimes has highlighted the systemic challenges and biases that have hindered the investigation and resolution of these cases.
+
+Efforts have been made to address the issue, including the establishment of the Highway of Tears Symposium, which brought together community members, law enforcement, and government officials to discuss strategies for prevention and justice. Additionally, the Royal Canadian Mounted Police (RCMP) has launched various initiatives, such as the creation of a specialized task force and the implementation of improved communication and coordination between different jurisdictions.
+
+Despite these efforts, the Highway of Tears continues to be a tragic and unresolved issue, with many families still seeking answers and closure. The remote nature of the highway, the lack of resources, and the historical marginalization of the indigenous community have all contributed to the challenges in addressing this crisis effectively.
+
+In conclusion, the "Highway of Tears" represents a deeply troubling and ongoing tragedy in Canada, where the disappearance and murder of dozens of women, primarily indigenous, have left a lasting impact on the affected communities and the nation as a whole. The need for comprehensive solutions, including improved transportation options, enhanced law enforcement efforts, and a deeper understanding of the underlying societal issues, remains a pressing concern.</data>
+    </node>
+    <node id="36">
+      <data key="d0">INDIGENOUS WOMEN AND GIRLS</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="37">
+      <data key="d0">UNSOLVED CASES</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="38">
+      <data key="d0">POLICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The police in Canada have been criticized for failing to properly investigate cases involving missing and murdered indigenous women and girls</data>
+    </node>
+    <node id="39">
+      <data key="d0">FIRST NATIONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The First Nations are the indigenous peoples of Canada, and their women are disproportionately going missing or being murdered</data>
+    </node>
+    <node id="40">
+      <data key="d0">RESIDENTIAL SCHOOLS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Residential Schools were a system of boarding schools established in Canada with the goal of assimilating indigenous children into mainstream Canadian culture. These schools, which operated from the 19th century until the late 20th century, were funded by the Canadian government and operated by various Christian churches.
+
+The purpose of the Residential School system was to separate indigenous children from their families, languages, and cultural practices, in an effort to "kill the Indian in the child" and integrate them into Euro-Canadian society. Children were often forcibly taken from their homes and communities and sent to these schools, where they were forbidden from speaking their native languages or practicing their traditional customs.
+
+The conditions in the Residential Schools were often harsh, with reports of physical, emotional, and sexual abuse, as well as neglect and poor living conditions. Many children suffered from malnutrition, disease, and even death while attending these schools. The trauma experienced by the students has had lasting impacts on indigenous communities, contributing to issues such as substance abuse, mental health problems, and the breakdown of traditional family structures.
+
+Despite the assimilationist goals of the Residential School system, it ultimately failed to erase indigenous cultures and identities. Many survivors of the schools have gone on to become advocates for indigenous rights and have worked to preserve their languages and traditions. The legacy of the Residential Schools has been a significant factor in the ongoing process of reconciliation between indigenous peoples and the Canadian government.
+
+In recent years, the Canadian government has acknowledged the harms caused by the Residential School system and has taken steps to address the legacy of this dark chapter in the country's history. This includes the establishment of the Truth and Reconciliation Commission, which has worked to document the experiences of Residential School survivors and make recommendations for reconciliation and healing.
+
+Overall, the Residential School system represents a deeply troubling and complex part of Canada's history, one that has had lasting impacts on indigenous communities across the country. While the process of reconciliation is ongoing, the experiences of those who attended these schools serve as a powerful reminder of the need to confront and address the legacy of colonialism and the ongoing struggle for indigenous rights and self-determination.</data>
+    </node>
+    <node id="41">
+      <data key="d0">SIR JOHN A. MACDONALD</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Sir John A. Macdonald was the founder of the residential school system in Canada, with the goal of "taking the Indian out of the child"</data>
+    </node>
+    <node id="42">
+      <data key="d0">DOMESTIC VIOLENCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Domestic violence is a major issue on many indigenous reserves in Canada</data>
+    </node>
+    <node id="43">
+      <data key="d0">STEVE COURTOREILLE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Steve Courtoreille is a reserve chief and former student of the Residential Schools, who recalls the physical, mental, spiritual, and emotional abuse that occurred at the schools</data>
+    </node>
+    <node id="44">
+      <data key="d0">DONNA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Donna is a cab driver who states that indigenous people on the reserves "have no self-worth"</data>
+    </node>
+    <node id="45">
+      <data key="d0">INDIGENOUS PEOPLE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">
+The indigenous people, including those living on reserves in Canada, suffered trauma and abuse from the Residential School system</data>
+    </node>
+    <node id="46">
+      <data key="d0">TRUTH AND RECONCILIATION COMMISSION OF CANADA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The Truth and Reconciliation Commission of Canada was launched by the Canadian government to guide Canadians through the discovery of the facts behind the Residential School system and lay the foundation for reconciliation</data>
+    </node>
+    <node id="47">
+      <data key="d0">BBC WORLDWIDE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">BBC Worldwide is the commercial subsidiary of the BBC that produces and distributes content</data>
+    </node>
+    <node id="48">
+      <data key="d0">TRUTH AND RECONCILIATION COMMISSION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Truth and Reconciliation Commission was established in Canada to investigate the history and legacy of the residential school system</data>
+    </node>
+    <node id="49">
+      <data key="d0">RESERVES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Reserves are lands set aside by the Canadian government for the use and occupancy of indigenous peoples</data>
+    </node>
+    <node id="50">
+      <data key="d0">UNSOLVED MURDERS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Many murders of indigenous women in Canada have gone unsolved</data>
+    </node>
+    <node id="51">
+      <data key="d0">INDEGENOUS WOMEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Indigenous women in Canada who have gone missing</data>
+    </node>
+    <node id="52">
+      <data key="d0">DETROIT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Detroit is a city in the USA where Stacey Dooley travels to explore how homeless people are managing to survive</data>
+    </node>
+    <node id="53">
+      <data key="d0">THAILAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Thailand is a country where Stacey Dooley investigates the growing ya-ba drug craze</data>
+    </node>
+    <node id="54">
+      <data key="d0">PERU</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Peru is a country that was known as the cocaine capital of the world in 2013</data>
+    </node>
+    <node id="55">
+      <data key="d0">CHICAGO</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="56">
+      <data key="d0">THIS IS MY HOUSE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">4.0</data>
+      <data key="d5">This is My House is a BBC guessing game show where contestants try to convince a celebrity panel that the featured house is their own</data>
+    </node>
+    <node id="57">
+      <data key="d0">JUDI LOVE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Judi Love is a celebrity panelist on the second season of "This is My House"</data>
+    </node>
+    <node id="58">
+      <data key="d0">RICHARD MADELEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Richard Madeley is a celebrity panelist on the second season of "This is My House"</data>
+    </node>
+    <node id="59">
+      <data key="d0">BBC THREE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">BBC Three is the television channel that Stacey Dooley is presenting a new cooking show on</data>
+    </node>
+    <node id="60">
+      <data key="d0">HUNGRY FOR IT</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Hungry for It is a new cooking show that Stacey Dooley is presenting on BBC Three</data>
+    </node>
+    <node id="61">
+      <data key="d0">DNA FAMILY SECRETS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">1.0</data>
+      <data key="d5">DNA Family Secrets is another show that Stacey Dooley is presenting</data>
+    </node>
+    <node id="62">
+      <data key="d0">INDIGENOUS COMMUNITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The indigenous community in Canada that has experienced a high number of women and girls being murdered or disappearing</data>
+    </node>
+    <edge id="e0" source="0" target="2">
+      <data key="d3">10.0</data>
+      <data key="d4">operated Google LLC...</data>
+      <data key="d6">YouTube is owned and operated by Google LLC</data>
+    </edge>
+    <edge id="e1" source="1" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">feature service...</data>
+      <data key="d6">NFL Sunday Ticket is a feature or service available on YouTube</data>
+    </edge>
+    <edge id="e2" source="2" target="14">
+      <data key="d3">9.0</data>
+      <data key="d4">About section</data>
+      <data key="d6">YouTube has an About section</data>
+    </edge>
+    <edge id="e3" source="2" target="3">
+      <data key="d3">9.0</data>
+      <data key="d4">Press section</data>
+      <data key="d6">YouTube has a Press section</data>
+    </edge>
+    <edge id="e4" source="2" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">Copyright section</data>
+      <data key="d6">YouTube has a Copyright section</data>
+    </edge>
+    <edge id="e5" source="2" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">Contact section</data>
+      <data key="d6">YouTube has a Contact Us section</data>
+    </edge>
+    <edge id="e6" source="2" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Creators section</data>
+      <data key="d6">YouTube has a Creators section</data>
+    </edge>
+    <edge id="e7" source="2" target="7">
+      <data key="d3">9.0</data>
+      <data key="d4">Advertise section</data>
+      <data key="d6">YouTube has an Advertise section</data>
+    </edge>
+    <edge id="e8" source="2" target="8">
+      <data key="d3">9.0</data>
+      <data key="d4">Developers section</data>
+      <data key="d6">YouTube has a Developers section</data>
+    </edge>
+    <edge id="e9" source="2" target="9">
+      <data key="d3">9.0</data>
+      <data key="d4">Terms section</data>
+      <data key="d6">YouTube has a Terms section</data>
+    </edge>
+    <edge id="e10" source="2" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">Privacy section</data>
+      <data key="d6">YouTube has a Privacy section</data>
+    </edge>
+    <edge id="e11" source="2" target="11">
+      <data key="d3">9.0</data>
+      <data key="d4">Policy Safety section</data>
+      <data key="d6">YouTube has a Policy &amp; Safety section</data>
+    </edge>
+    <edge id="e12" source="2" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">How YouTube Works...</data>
+      <data key="d6">YouTube has a How YouTube Works section</data>
+    </edge>
+    <edge id="e13" source="2" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">Test new features...</data>
+      <data key="d6">YouTube has a Test new features section</data>
+    </edge>
+    <edge id="e14" source="2" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">series hosted...</data>
+      <data key="d6">Stacey Dooley's investigative series is hosted on the YouTube platform</data>
+    </edge>
+    <edge id="e15" source="2" target="1">
+      <data key="d3">1.0</data>
+      <data key="d4">Ticket subscription service...</data>
+      <data key="d6">The NFL Sunday Ticket subscription service is mentioned in the context of the YouTube page</data>
+    </edge>
+    <edge id="e16" source="2" target="0">
+      <data key="d3">1.0</data>
+      <data key="d4">subsidiary parent company...</data>
+      <data key="d6">YouTube is a subsidiary of the parent company Google LLC</data>
+    </edge>
+    <edge id="e17" source="16" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">Amber Tuccaro's mother,...</data>
+      <data key="d6">Vivian Tuccaro is Amber Tuccaro's mother, who believes the police did not take her daughter's disappearance seriously enough because she was indigenous.</data>
+    </edge>
+    <edge id="e18" source="17" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">behind 14-month-old son...</data>
+      <data key="d6">Amber Tuccaro left behind her 14-month-old son Jacob when she went missing.</data>
+    </edge>
+    <edge id="e19" source="18" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">area Edmonton, Alberta...</data>
+      <data key="d6">Shelly works in an area of Edmonton, Alberta known as "death row" where many girls go missing or are found murdered.</data>
+    </edge>
+    <edge id="e20" source="18" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">friends, including sister,...</data>
+      <data key="d6">Shelly has lost 10 friends, including her sister, who have gone missing or been murdered.</data>
+    </edge>
+    <edge id="e21" source="19" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">last seen alive...</data>
+      <data key="d6">Amber Tuccaro was last seen alive hitching a ride to the city of Edmonton.</data>
+    </edge>
+    <edge id="e22" source="19" target="22">
+      <data key="d3">8.0</data>
+      <data key="d4">from town Alta,...</data>
+      <data key="d6">Amber Tuccaro was from the town of Alta, Canada.</data>
+    </edge>
+    <edge id="e23" source="23" target="24">
+      <data key="d3">18.0</data>
+      <data key="d4">country with diverse...</data>
+      <data key="d6">Canada is a country with a diverse population, including a significant Indigenous community. Within this community, Indigenous women have faced disproportionate challenges and vulnerabilities. According to the provided data, Indigenous women in Canada are one of the most vulnerable groups, being four times more likely to go missing or be murdered than other Canadian women.
+
+The issue of missing and murdered Indigenous women is a prevalent and concerning problem in Canada. Indigenous women have been disproportionately affected by violence and murder, with the data highlighting the severity of this issue. This alarming statistic underscores the need for urgent action to address the systemic inequalities and discrimination that have contributed to this crisis.
+
+The data suggests that the vulnerability of Indigenous women in Canada is a complex and multifaceted issue, rooted in historical and ongoing social, economic, and political marginalization. Factors such as poverty, lack of access to resources, and the legacy of colonization have all played a role in exacerbating the risks faced by Indigenous women.
+
+To address this crisis, a comprehensive and collaborative approach is required, involving all levels of government, Indigenous communities, and civil society organizations. This may include measures such as improving access to social services, strengthening law enforcement and investigative efforts, and implementing educational and awareness campaigns to address the underlying societal biases and prejudices that contribute to the targeting of Indigenous women.
+
+Additionally, the active participation and leadership of Indigenous women themselves will be crucial in developing and implementing effective solutions. By centering the voices and experiences of those most affected, the response to this crisis can be more informed, culturally appropriate, and ultimately more effective in protecting and empowering Indigenous women in Canada.
+
+In conclusion, the data highlights the urgent need to address the disproportionate vulnerability of Indigenous women in Canada. By acknowledging the systemic nature of this issue and taking concerted action to address its root causes, Canada can work towards a more just and equitable society that protects and empowers all of its citizens, regardless of their background or identity.</data>
+    </edge>
+    <edge id="e24" source="15" target="25">
+      <data key="d3">8.0</data>
+      <data key="d4">NHS Intensive Care...</data>
+      <data key="d6">Stacey Dooley follows the NHS Intensive Care Units as they face the full force of the COVID-19 pandemic</data>
+    </edge>
+    <edge id="e25" source="15" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">nefarious underworld children...</data>
+      <data key="d6">Stacey Dooley explores the nefarious underworld of children selling drugs online</data>
+    </edge>
+    <edge id="e26" source="27" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">"Molka" sex crime...</data>
+      <data key="d6">Stacey Dooley investigated the "Molka" sex crime issue in South Korea</data>
+    </edge>
+    <edge id="e27" source="28" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">issue mothers sexually...</data>
+      <data key="d6">Stacey Dooley investigated the issue of mothers sexually abusing their children in the Philippines</data>
+    </edge>
+    <edge id="e28" source="23" target="15">
+      <data key="d3">51.0</data>
+      <data key="d4">500-word summary information...</data>
+      <data key="d6">Here is a 500-word summary of the information provided about CANADA and STACEY DOOLEY:
+
+STACEY DOOLEY, a British television presenter and documentary filmmaker, has traveled to CANADA to investigate the issue of missing and murdered indigenous women and girls in the country. This is a serious problem that has been ongoing for decades, with many indigenous women and girls disappearing or being killed, often without their cases being properly investigated or the perpetrators being brought to justice.
+
+Dooley's investigations have focused on shedding light on this tragic situation and raising awareness about the plight of indigenous women in Canada. She has traveled to different parts of the country, speaking with affected families, community leaders, and law enforcement officials to better understand the scope of the problem and the factors contributing to it.
+
+Through her documentaries, Dooley has highlighted the disproportionately high rates of violence and disappearances affecting indigenous women in Canada compared to the general population. She has explored the historical and societal factors that have led to this crisis, including the legacy of colonialism, systemic discrimination, and lack of adequate resources and support for indigenous communities.
+
+Dooley's reporting has also emphasized the personal stories and experiences of the victims and their loved ones, giving a human face to the statistics and underscoring the devastating impact of these tragedies on individuals, families, and communities. She has worked to amplify the voices of indigenous activists and advocates who have been tirelessly working to address this issue and demand justice and accountability.
+
+Overall, Dooley's work in Canada has aimed to shine a spotlight on this critical human rights issue and to spur action from policymakers, law enforcement, and the broader public to address the root causes of the problem and ensure the safety and well-being of indigenous women and girls in the country. Her documentaries have been widely acclaimed for their sensitive and impactful storytelling, and have played a significant role in raising awareness and driving change on this important issue.</data>
+    </edge>
+    <edge id="e29" source="23" target="29">
+      <data key="d3">1.0</data>
+      <data key="d4">location where disappearance...</data>
+      <data key="d6">Canada is the location where the disappearance and murders of Native American girls and women have occurred, which Stacey Dooley investigates</data>
+    </edge>
+    <edge id="e30" source="29" target="15">
+      <data key="d3">5.0</data>
+      <data key="d4">disappearance murders...</data>
+      <data key="d6">Stacey Dooley investigates the disappearance and murders of Native American girls and women in Canada</data>
+    </edge>
+    <edge id="e31" source="15" target="32">
+      <data key="d3">5.0</data>
+      <data key="d4">the presenter of...</data>
+      <data key="d6">Stacey Dooley is the presenter of the TV episode "Stacey Dooley Investigates: Canada's Lost Girls"</data>
+    </edge>
+    <edge id="e32" source="31" target="32">
+      <data key="d3">1.0</data>
+      <data key="d4">the director of...</data>
+      <data key="d6">David McConnell is the director of the TV episode "Stacey Dooley Investigates: Canada's Lost Girls"</data>
+    </edge>
+    <edge id="e33" source="23" target="36">
+      <data key="d3">18.0</data>
+      <data key="d4">indigenous women girls...</data>
+      <data key="d6">Over a thousand indigenous women and girls have disappeared or been murdered in Canada over decades</data>
+    </edge>
+    <edge id="e34" source="23" target="19">
+      <data key="d3">16.0</data>
+      <data key="d4">indigenous woman who...</data>
+      <data key="d6">Amber Tuccaro was an indigenous woman who was abducted and murdered in Canada in 2010</data>
+    </edge>
+    <edge id="e35" source="35" target="36">
+      <data key="d3">16.0</data>
+      <data key="d4">women girls have...</data>
+      <data key="d6">Dozens of indigenous women and girls have vanished or been murdered while hitchhiking on the Highway of Tears since 1980</data>
+    </edge>
+    <edge id="e36" source="19" target="37">
+      <data key="d3">8.0</data>
+      <data key="d4">remains unsolved, with...</data>
+      <data key="d6">Amber Tuccaro's case remains unsolved, with many unanswered questions</data>
+    </edge>
+    <edge id="e37" source="36" target="38">
+      <data key="d3">1.0</data>
+      <data key="d4">been criticized failing...</data>
+      <data key="d6">The police have been criticized for failing to properly investigate cases involving missing and murdered indigenous women and girls</data>
+    </edge>
+    <edge id="e38" source="39" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">indigenous people...</data>
+      <data key="d6">The First Nations are the indigenous people of Canada who are disproportionately affected by the issue of missing and murdered women</data>
+    </edge>
+    <edge id="e39" source="39" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">system Canada, which...</data>
+      <data key="d6">The residential school system in Canada, which forcibly assimilated indigenous children, has contributed to issues in indigenous communities like domestic violence</data>
+    </edge>
+    <edge id="e40" source="39" target="42">
+      <data key="d3">8.0</data>
+      <data key="d4">chronic problem many...</data>
+      <data key="d6">Domestic violence is a chronic problem on many First Nations reserves in Canada</data>
+    </edge>
+    <edge id="e41" source="40" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">Macdonald founded residential...</data>
+      <data key="d6">Sir John A. Macdonald founded the residential school system in Canada with the goal of assimilating indigenous children</data>
+    </edge>
+    <edge id="e42" source="15" target="23">
+      <data key="d3">2.0</data>
+      <data key="d4">British journalist, traveled...</data>
+      <data key="d6">Stacey Dooley, a British journalist, traveled to Canada to investigate the issue of missing and murdered indigenous women. Dooley created a documentary to shed light on this pressing social and human rights concern affecting the indigenous communities in Canada.
+
+The documentary follows Dooley as she delves into the complex and tragic circumstances surrounding the disappearance and deaths of numerous indigenous women across Canada. Indigenous women and girls in Canada face disproportionately high rates of violence, exploitation, and murder compared to non-indigenous women. Many of these cases remain unsolved, with families and communities left searching for answers and justice.
+
+Through interviews with victims' families, community leaders, and law enforcement, Dooley's documentary aims to raise awareness about this critical issue and the systemic failures that have allowed it to persist. The documentary explores the historical and societal factors that contribute to the vulnerability of indigenous women, including the legacy of colonization, poverty, discrimination, and lack of adequate resources and support systems.
+
+Dooley's investigation also highlights the efforts of indigenous activists, organizations, and allies who are working tirelessly to demand accountability, improve data collection, and implement effective strategies to protect indigenous women and girls. The documentary emphasizes the resilience and strength of these communities as they continue to fight for justice and systemic change.
+
+Overall, Stacey Dooley's documentary on the issue of missing and murdered indigenous women in Canada serves as a powerful and important contribution to the ongoing efforts to address this critical human rights crisis. By amplifying the voices and stories of those affected, the documentary aims to spark meaningful dialogue, policy reforms, and concrete actions to ensure the safety and well-being of indigenous women and girls in Canada.</data>
+    </edge>
+    <edge id="e43" source="15" target="30">
+      <data key="d3">1.0</data>
+      <data key="d4">documentary "Canada's Lost...</data>
+      <data key="d6">Stacey Dooley created the documentary "Canada's Lost Girls" to investigate the issue of missing and murdered indigenous women</data>
+    </edge>
+    <edge id="e44" source="40" target="23">
+      <data key="d3">18.0</data>
+      <data key="d4">were established run...</data>
+      <data key="d6">The Residential Schools were established and run by the Canadian government as a means of assimilating indigenous children and stripping them of their culture</data>
+    </edge>
+    <edge id="e45" source="40" target="45">
+      <data key="d3">18.0</data>
+      <data key="d4">inflicted trauma abuse...</data>
+      <data key="d6">The Residential Schools inflicted trauma and abuse on indigenous children, leading to ongoing issues of violence and dysfunction on the reserves</data>
+    </edge>
+    <edge id="e46" source="40" target="43">
+      <data key="d3">16.0</data>
+      <data key="d4">student Residential...</data>
+      <data key="d6">Steve Courtoreille was a student at the Residential Schools and experienced the abuse and trauma firsthand</data>
+    </edge>
+    <edge id="e47" source="44" target="45">
+      <data key="d3">8.0</data>
+      <data key="d4">indigenous people reserves...</data>
+      <data key="d6">Donna's statement that indigenous people on the reserves "have no self-worth" suggests an ongoing issue of low self-esteem and lack of agency among the indigenous population</data>
+    </edge>
+    <edge id="e48" source="23" target="46">
+      <data key="d3">8.0</data>
+      <data key="d4">Reconciliation Commission launched...</data>
+      <data key="d6">The Truth and Reconciliation Commission was launched by the Canadian government to address the harms caused by the Residential School system</data>
+    </edge>
+    <edge id="e49" source="45" target="46">
+      <data key="d3">1.0</data>
+      <data key="d4">Reconciliation Commission aimed...</data>
+      <data key="d6">The Truth and Reconciliation Commission aimed to guide Canadians through the discovery of the facts behind the Residential School system and lay the foundation for reconciliation with indigenous peoples</data>
+    </edge>
+    <edge id="e50" source="47" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">produced distributed...</data>
+      <data key="d6">Stacey Dooley's investigation was produced and distributed by BBC Worldwide</data>
+    </edge>
+    <edge id="e51" source="23" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">system Canada...</data>
+      <data key="d6">The residential school system in Canada was a key part of the history and legacy that the Truth and Reconciliation Commission investigated</data>
+    </edge>
+    <edge id="e52" source="48" target="40">
+      <data key="d3">1.0</data>
+      <data key="d4">Reconciliation Commission established...</data>
+      <data key="d6">The Truth and Reconciliation Commission was established to investigate the history and legacy of the residential school system in Canada</data>
+    </edge>
+    <edge id="e53" source="49" target="24">
+      <data key="d3">1.0</data>
+      <data key="d4">Canada often live...</data>
+      <data key="d6">Indigenous women in Canada often live on reserves, which are lands set aside by the government for indigenous peoples</data>
+    </edge>
+    <edge id="e54" source="50" target="24">
+      <data key="d3">8.0</data>
+      <data key="d4">indigenous women Canada...</data>
+      <data key="d6">Many murders of indigenous women in Canada have gone unsolved</data>
+    </edge>
+    <edge id="e55" source="51" target="23">
+      <data key="d3">6.0</data>
+      <data key="d4">country where issue...</data>
+      <data key="d6">Canada is the country where the issue of missing indigenous women is occurring</data>
+    </edge>
+    <edge id="e56" source="36" target="15">
+      <data key="d3">2.0</data>
+      <data key="d4">cases disappearance...</data>
+      <data key="d6">Stacey Dooley investigates the cases of disappearance and murder of indigenous women and girls in Canada</data>
+    </edge>
+    <edge id="e57" source="52" target="15">
+      <data key="d3">16.0</data>
+      <data key="d4">Detroit explore how...</data>
+      <data key="d6">Stacey Dooley travels to Detroit to explore how homeless people are surviving</data>
+    </edge>
+    <edge id="e58" source="15" target="55">
+      <data key="d3">14.0</data>
+      <data key="d4">Chicago report...</data>
+      <data key="d6">Stacey Dooley travels to Chicago to report on the high rate of youth homicides</data>
+    </edge>
+    <edge id="e59" source="15" target="53">
+      <data key="d3">16.0</data>
+      <data key="d4">growing ya-ba drug...</data>
+      <data key="d6">Stacey Dooley investigates the growing ya-ba drug craze in Thailand</data>
+    </edge>
+    <edge id="e60" source="15" target="54">
+      <data key="d3">16.0</data>
+      <data key="d4">why Peru became...</data>
+      <data key="d6">Stacey Dooley investigates why Peru became the cocaine capital of the world in 2013</data>
+    </edge>
+    <edge id="e61" source="56" target="15">
+      <data key="d3">16.0</data>
+      <data key="d4">first season "This...</data>
+      <data key="d6">Stacey Dooley hosted the first season of "This is My House" but is not returning for the second season</data>
+    </edge>
+    <edge id="e62" source="56" target="57">
+      <data key="d3">14.0</data>
+      <data key="d4">new celebrity panelist...</data>
+      <data key="d6">Judi Love is a new celebrity panelist on the second season of "This is My House"</data>
+    </edge>
+    <edge id="e63" source="56" target="58">
+      <data key="d3">8.0</data>
+      <data key="d4">new celebrity panelist...</data>
+      <data key="d6">Richard Madeley is a new celebrity panelist on the second season of "This is My House"</data>
+    </edge>
+    <edge id="e64" source="15" target="60">
+      <data key="d3">8.0</data>
+      <data key="d4">presenting new cooking...</data>
+      <data key="d6">Stacey Dooley is presenting the new cooking show "Hungry for It" on BBC Three</data>
+    </edge>
+    <edge id="e65" source="15" target="61">
+      <data key="d3">1.0</data>
+      <data key="d4">presenting show "DNA...</data>
+      <data key="d6">Stacey Dooley is presenting the show "DNA Family Secrets"</data>
+    </edge>
+    <edge id="e66" source="32" target="15">
+      <data key="d3">9.0</data>
+      <data key="d4">host investigator...</data>
+      <data key="d6">Stacey Dooley is the host and investigator for the TV show "Stacey Dooley Investigates"</data>
+    </edge>
+    <edge id="e67" source="32" target="23">
+      <data key="d3">2.0</data>
+      <data key="d4">investigating issue...</data>
+      <data key="d6">The TV show is investigating the issue of missing women in Canada</data>
+    </edge>
+    <edge id="e68" source="35" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">Highway Tears...</data>
+      <data key="d6">Stacey Dooley travels to the Highway of Tears to investigate the disappearances and murders of women there</data>
+    </edge>
+    <edge id="e69" source="35" target="19">
+      <data key="d3">1.0</data>
+      <data key="d4">connected broader...</data>
+      <data key="d6">Amber Tuccaro's murder is connected to the broader issue of missing and murdered indigenous women along the Highway of Tears</data>
+    </edge>
+    <edge id="e70" source="35" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">Tears located...</data>
+      <data key="d6">The Highway of Tears is located in the province of British Columbia</data>
+    </edge>
+    <edge id="e71" source="35" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">girls have gone...</data>
+      <data key="d6">Many indigenous women and girls have gone missing or been murdered along the Highway of Tears</data>
+    </edge>
+    <edge id="e72" source="20" target="15">
+      <data key="d3">7.0</data>
+      <data key="d4">Edmonton meet with...</data>
+      <data key="d6">Stacey Dooley travels to Edmonton to meet with women in the sex trade who are at high-risk</data>
+    </edge>
+    <edge id="e73" source="20" target="34">
+      <data key="d3">9.0</data>
+      <data key="d4">city located province...</data>
+      <data key="d6">Edmonton is a city located in the province of Alberta</data>
+    </edge>
+    <edge id="e74" source="19" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">case Amber Tuccaro,...</data>
+      <data key="d6">Stacey Dooley investigates the case of Amber Tuccaro, a murdered indigenous woman, and the lack of justice for her and other victims</data>
+    </edge>
+    <edge id="e75" source="19" target="62">
+      <data key="d3">1.0</data>
+      <data key="d4">indigenous woman who...</data>
+      <data key="d6">Amber Tuccaro was an indigenous woman who was murdered, representing the broader issue of missing and murdered indigenous women</data>
+    </edge>
+    <edge id="e76" source="62" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">missing murdered indigenous...</data>
+      <data key="d6">The issue of missing and murdered indigenous women and girls is a dark secret in Canada</data>
+    </edge>
+    <edge id="e77" source="15" target="59">
+      <data key="d3">9.0</data>
+      <data key="d4">documentary issue...</data>
+      <data key="d6">Stacey Dooley produced a documentary on the issue of missing indigenous women in Canada for BBC Three</data>
+    </edge>
+    <edge id="e78" source="30" target="15">
+      <data key="d3">1.0</data>
+      <data key="d4">documentary series "Canada's...</data>
+      <data key="d6">Stacey Dooley produced the documentary series "Canada's Lost Girls" to shed light on the crisis of missing and murdered indigenous women in Canada</data>
+    </edge>
+    <edge id="e79" source="15" target="24">
+      <data key="d3">9.0</data>
+      <data key="d4">series "Canada's Lost...</data>
+      <data key="d6">Stacey Dooley's documentary series "Canada's Lost Girls" investigates the crisis of missing and murdered indigenous women in Canada</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,997 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">SASKEVAC APPLICATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The SaskEvac application is used to provide emergency alerts and information to residents of Saskatchewan.</data>
+    </node>
+    <node id="1">
+      <data key="d0">FIRE BAN</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Fire bans are issued by the SPSA to restrict open fires and other activities during high-risk fire conditions.</data>
+    </node>
+    <node id="2">
+      <data key="d0">SASKATCHEWAN PUBLIC SAFETY AGENCY</data>
+      <data key="d1" />
+      <data key="d2">25.0</data>
+      <data key="d5" />
+    </node>
+    <node id="3">
+      <data key="d0">SPSA RESPONSE CENTRE AREA OFFICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Local SPSA offices that provide information on wildfire status</data>
+    </node>
+    <node id="4">
+      <data key="d0">DAILY FIRE DANGER MAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A map produced by the SPSA showing the daily fire danger level across Saskatchewan</data>
+    </node>
+    <node id="5">
+      <data key="d0">CURRENT FIRE BANS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">25.0</data>
+      <data key="d5">An interactive map and PDF produced by the SPSA showing current fire bans in Saskatchewan</data>
+    </node>
+    <node id="6">
+      <data key="d0">SASKATCHEWAN</data>
+      <data key="d1" />
+      <data key="d2">24.0</data>
+      <data key="d5" />
+    </node>
+    <node id="7">
+      <data key="d0">SCOTT MOE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Scott Moe is the Premier of Saskatchewan. He has taken on the responsibility of leading the province during a challenging time, as Saskatchewan has been affected by wildfires that have impacted communities across the province.
+
+As Premier, Scott Moe has declared a provincial State of Emergency in response to the wildfires. This declaration allows the provincial government to access additional resources and support to assist affected communities and coordinate emergency response efforts.
+
+Under Moe's leadership, the Saskatchewan government has been working to address the ongoing wildfire situation. This includes deploying firefighting resources, providing evacuation support, and ensuring the safety and well-being of residents in the affected areas.
+
+Premier Moe has emphasized the importance of public safety and has urged residents to follow the guidance of local authorities and emergency responders. He has also expressed his gratitude to the firefighters, first responders, and volunteers who have been working tirelessly to combat the wildfires and support those in need.
+
+Overall, Scott Moe's role as Premier of Saskatchewan during this challenging time has been to provide leadership, coordinate emergency response efforts, and ensure the safety and well-being of the people of Saskatchewan. His declaration of a provincial State of Emergency demonstrates his commitment to addressing the wildfires and their impact on communities across the province.</data>
+    </node>
+    <node id="8">
+      <data key="d0">GOVERNMENT OF SASKATCHEWAN</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="9">
+      <data key="d0">WILDFIRES</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Wildfires in Saskatchewan
+
+Wildfires have been a significant issue in the Canadian province of Saskatchewan, with multiple active fires causing widespread disruption and evacuation of local communities. According to the available data, there are currently 17 active wildfires in Saskatchewan that have led to the evacuation of 15 communities.
+
+The wildfires in northern Saskatchewan have forced many communities to evacuate their homes as the fires continue to burn through the region. The Saskatchewan Public Safety Agency (SPSA) is responsible for coordinating the response to these wildfires, which have already burned hundreds of thousands of hectares of forest.
+
+The scale and intensity of the wildfires in Saskatchewan have been a major concern, with the fires forcing thousands of people to evacuate their homes for their safety. The SPSA has been working tirelessly to manage the situation, deploying resources and personnel to combat the flames and protect the affected communities.
+
+Despite the challenges posed by the wildfires, the authorities in Saskatchewan have been working to ensure the safety and well-being of the residents. Emergency shelters have been set up, and evacuation orders have been issued to ensure that people can safely leave the affected areas.
+
+The impact of the wildfires on the local communities has been significant, with many people forced to leave their homes and businesses behind. The SPSA has been providing support and assistance to the evacuees, ensuring that they have access to essential services and resources during this difficult time.
+
+Overall, the wildfires in Saskatchewan have been a major challenge for the province, but the authorities have been working diligently to respond to the situation and protect the affected communities. As the fires continue to burn, it is crucial that the public remains vigilant and follows the guidance of the SPSA and other emergency services to ensure their safety.</data>
+    </node>
+    <node id="10">
+      <data key="d0">EMERGENCY AND CRISIS SUPPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Emergency and Crisis Support (ECS) is a program within SPSA intended to meet the urgent, basic needs of individuals who have been forced from their homes due to a disaster.</data>
+    </node>
+    <node id="11">
+      <data key="d0">MUNICIPALITIES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Municipalities in Saskatchewan are responsible under legislation to manage their response when events threaten the safety of people, property and the environment.</data>
+    </node>
+    <node id="12">
+      <data key="d0">SASKATCHEWAN EVACUATION APP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The Saskatchewan Evacuation App is a tool developed to provide residents with a means of providing their community with necessary information required where an evacuation is necessary.</data>
+    </node>
+    <node id="13">
+      <data key="d0">TREASURY BOARD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The Saskatchewan Public Safety Agency (SPSA) is a Treasury Board Crown Agency.</data>
+    </node>
+    <node id="14">
+      <data key="d0">SASK911</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Sask911 is a program operated by the SPSA to provide emergency assistance</data>
+    </node>
+    <node id="15">
+      <data key="d0">SASKALERT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">SaskAlert is an emergency alert system operated by the SPSA to keep people updated on emergency alerts</data>
+    </node>
+    <node id="16">
+      <data key="d0">STEVE ROBERTS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Steve Roberts is the Vice President of Operations with the Saskatchewan Public Safety Agency (SPSA). The provided descriptions are consistent and do not contain any contradictions.
+
+Steve Roberts has been serving as the Vice President of Operations with the SPSA, a government agency responsible for public safety and emergency management in the Canadian province of Saskatchewan. In this role, he oversees the day-to-day operations of the agency, ensuring the efficient and effective delivery of critical public safety services to the people of Saskatchewan.
+
+The SPSA is a crucial organization that plays a vital role in protecting the well-being and security of Saskatchewan's residents. As the Vice President of Operations, Steve Roberts is responsible for coordinating the agency's various departments and ensuring that they work together seamlessly to respond to emergencies, manage disasters, and promote public safety initiatives.
+
+Steve Roberts' extensive experience and expertise in the field of public safety make him well-suited for this important position. He has a deep understanding of the challenges and complexities involved in managing emergency situations and has a proven track record of leading successful operations and initiatives.
+
+Under Steve Roberts' leadership, the SPSA has been able to enhance its capabilities and improve its response times, ensuring that the people of Saskatchewan can feel safe and secure in their communities. He is known for his collaborative approach, working closely with other government agencies, community organizations, and stakeholders to develop and implement comprehensive public safety strategies.
+
+Overall, Steve Roberts' role as the Vice President of Operations with the SPSA is crucial in ensuring the safety and well-being of the people of Saskatchewan. His dedication, expertise, and commitment to public service make him a valuable asset to the agency and the province as a whole.</data>
+    </node>
+    <node id="17">
+      <data key="d0">MARLO PRITCHARD</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Marlo Pritchard is the President and Fire Commissioner of the Saskatchewan Public Safety Agency (SPSA). The SPSA is a government agency responsible for public safety and emergency management in the Canadian province of Saskatchewan.
+
+As the President of the SPSA, Marlo Pritchard is the head of the organization and is responsible for overseeing its operations and ensuring the effective delivery of its services. The SPSA is tasked with a wide range of responsibilities, including fire prevention and suppression, emergency medical services, search and rescue, and disaster response and recovery.
+
+Pritchard's role as the President and Fire Commissioner of the SPSA involves providing strategic leadership and direction to the agency, as well as ensuring that it is equipped with the necessary resources and personnel to fulfill its mandate. He is responsible for developing and implementing policies and procedures that guide the SPSA's operations, and for collaborating with other government agencies and stakeholders to coordinate emergency response efforts.
+
+In addition to his leadership role, Pritchard is also responsible for representing the SPSA and advocating for its interests at the provincial and national levels. He works closely with elected officials, community organizations, and other stakeholders to ensure that the SPSA's priorities and concerns are heard and addressed.
+
+Overall, Marlo Pritchard's position as the President and Fire Commissioner of the Saskatchewan Public Safety Agency is a critical one, as he is responsible for ensuring the safety and well-being of the people of Saskatchewan in the face of a wide range of emergencies and disasters.</data>
+    </node>
+    <node id="18">
+      <data key="d0">BEAR CREEK RESORT SUBDIVISION</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A subdivision in Saskatchewan that has been evacuated due to the wildfires.</data>
+    </node>
+    <node id="19">
+      <data key="d0">LAC LA PLONGE SUBDIVISION</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A subdivision in Saskatchewan, mostly cabins, that has been evacuated due to the wildfires.</data>
+    </node>
+    <node id="20">
+      <data key="d0">SHOE FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Shoe Fire is a large wildfire that has been burning in the Narrow Hills region of Saskatchewan, Canada. The fire has grown to become the largest active wildfire in the province, with a reported size ranging from 305,343 hectares to over 554,000 hectares.
+
+The Shoe Fire is located near the Lower Fishing Lakes and Narrow Hills Provincial Park. The fire has been burning through the forested and rugged terrain of the area, causing significant damage and disruption to the local environment and communities.
+
+Despite the varying estimates of the fire's size, it is clear that the Shoe Fire is a massive and devastating event. The fire has consumed a vast area of land, likely destroying valuable natural resources and habitats. The proximity to the Lower Fishing Lakes and Narrow Hills Provincial Park suggests that the fire may also be threatening important ecological and recreational areas.
+
+Firefighters and emergency responders have been working tirelessly to contain and control the Shoe Fire, but the sheer scale of the blaze has made it a challenging and ongoing battle. Residents in the surrounding areas have likely been impacted by the fire, with potential evacuations, road closures, and air quality issues.
+
+The Shoe Fire is a stark reminder of the increasing frequency and severity of wildfires in many parts of the world, driven by factors such as climate change, drought, and human activity. As the global community continues to grapple with the challenges posed by these natural disasters, it is crucial that policymakers, emergency services, and local communities work together to develop effective strategies for prevention, mitigation, and response.</data>
+    </node>
+    <node id="21">
+      <data key="d0">PISEW FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Pisew Fire is a large wildfire that has been burning west of La Ronge, Saskatchewan. The fire has consumed over 185,000 hectares of land, making it a significant and extensive blaze.
+
+The Pisew wildfire is the primary entity being described in the provided data. Based on the information given, the fire is located to the west of the town of La Ronge, a community in northern Saskatchewan. The fire has been burning a vast area, covering more than 185,000 hectares of land.
+
+The descriptions provided do not contain any contradictory information about the Pisew Fire. Both descriptions consistently identify the fire as a large wildfire west of La Ronge, and the second description confirms the name "Pisew wildfire" for the same entity.
+
+In summary, the Pisew Fire is a significant and extensive wildfire that has been burning west of La Ronge, Saskatchewan. The fire has consumed over 185,000 hectares of land, making it a major incident that is likely requiring significant resources and attention from local authorities and emergency services.</data>
+    </node>
+    <node id="22">
+      <data key="d0">WOLF FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A large wildfire near Denare Beach that is currently burning over 161,000 hectares.</data>
+    </node>
+    <node id="23">
+      <data key="d0">MUSKEG FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A new wildfire north of La Plonge Indian Reserve and Beauval that has grown to over 8,000 hectares.</data>
+    </node>
+    <node id="24">
+      <data key="d0">QUEBEC</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Quebec is a province in Canada that has played a significant role in assisting with the ongoing wildfires in the country. According to the information provided, Quebec has sent resources to aid in the firefighting efforts.
+
+Specifically, Quebec has provided two water bombers to help with the firefighting efforts in the neighboring province of Saskatchewan. Water bombers are specialized aircraft used to drop large quantities of water or fire retardant on active wildfires, making them a valuable asset in the fight against these devastating natural disasters.
+
+The decision by the Quebec government to deploy these water bombers demonstrates the province's commitment to supporting its fellow Canadians in times of crisis. Wildfires can have far-reaching consequences, affecting not only the immediate area but also the surrounding regions, and the willingness of Quebec to lend its resources is a testament to the strong sense of unity and cooperation within the country.
+
+By providing these water bombers, Quebec is contributing to the overall firefighting efforts, helping to contain the spread of the wildfires and protect the affected communities. This type of cross-provincial collaboration is crucial in effectively managing and responding to large-scale emergencies, such as the ongoing wildfire situation.
+
+In summary, the province of Quebec has demonstrated its support and solidarity with other parts of Canada by sending resources, specifically two water bombers, to assist with the firefighting efforts in Saskatchewan. This action highlights Quebec's commitment to helping its fellow Canadians and its role in the broader national response to the wildfires.</data>
+    </node>
+    <node id="25">
+      <data key="d0">MURRAY WOOD</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Murray Wood is an opinion columnist who wrote about the slow pace of bureaucracy in Saskatchewan during the recent cold snap</data>
+    </node>
+    <node id="26">
+      <data key="d0">FIRE BANS</data>
+      <data key="d1" />
+      <data key="d2">24.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">CHRISTOPHER LAKE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Christopher Lake is a community located in Saskatchewan, Canada. According to the provided descriptions, this area has recently been affected by wildfires, with vehicles being reported driving through thick smoke in the region.
+
+The descriptions indicate that the wildfires have created hazardous conditions in the Christopher Lake area, with smoke significantly reducing visibility for drivers. While the exact details of the wildfire situation are not provided, it is clear that the community is dealing with the impacts of the fire, which is impacting transportation and potentially other aspects of daily life.
+
+Despite the challenging circumstances, the descriptions suggest that the residents of Christopher Lake are continuing to navigate the situation, with vehicles still being able to travel through the area, albeit in difficult conditions due to the smoke. The community appears to be resilient in the face of the wildfire threat.
+
+Overall, the summary paints a picture of Christopher Lake as a community in Saskatchewan that is currently grappling with the effects of a nearby wildfire, with smoke creating hazardous driving conditions for residents and travelers passing through the area. The descriptions indicate that the situation is ongoing, and the community is working to manage the impacts of the fire.</data>
+    </node>
+    <node id="28">
+      <data key="d0">RICHARD WEBER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Richard Weber is a part-time resident of Candle Lake in Saskatchewan, having previously owned the area lumber yard and worked at a pulp mill. He is now retired and trying to get things done at his lakefront property, while being mindful of the heavy smoke from the nearby fires</data>
+    </node>
+    <node id="29">
+      <data key="d0">CANDLE LAKE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Candle Lake is a community located in northern Saskatchewan, Canada. According to the provided descriptions, it is currently facing a threat from a nearby wildfire, leading to a voluntary evacuation notice being issued for the area.
+
+The community of Candle Lake is a resort village, known for its lakefront properties and recreational activities. One of the residents mentioned is Richard Weber, who owns a lakefront property in Candle Lake.
+
+The wildfire situation in the area has had a significant impact on the community. The heavy smoke has grounded pilots, disrupting air travel in and out of the region. The village office is working on maintaining a registry of the people who have evacuated the area as a result of the threat.
+
+Despite the challenging circumstances, the descriptions suggest that the community is taking proactive measures to ensure the safety of its residents. The voluntary evacuation notice allows people to leave the area if they feel it is necessary, while the village office is working to keep track of those who have already evacuated.
+
+Overall, Candle Lake is facing a serious threat from a nearby wildfire, leading to a voluntary evacuation and disruptions to the normal operations of the resort village. The community is working to address the situation and ensure the safety of its residents, while also maintaining a record of those who have left the area.</data>
+    </node>
+    <node id="30">
+      <data key="d0">KAYLE NEIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Kayle Neis is a journalist and photographer for the Regina Leader-Post, a newspaper based in Regina, Saskatchewan, Canada. Neis was on the ground in Christopher Lake, providing updates and capturing images related to the wildfire situation in the area.
+
+According to the information provided, Neis was responsible for taking a photograph of vehicles driving through the thick smoke generated by the wildfire in Christopher Lake. This image was likely used in the Regina Leader-Post's coverage of the event, helping to illustrate the challenging conditions faced by residents and emergency responders.
+
+In addition to his photographic work, Neis also served as a reporter, covering the wildfire situation and providing updates to the public. As a journalist from the Regina Leader-Post, Neis was on the scene, gathering information and relaying the latest developments to the newspaper's readers.
+
+The descriptions indicate that Neis played a crucial role in the Regina Leader-Post's coverage of the wildfire in Christopher Lake. By combining his skills as a photographer and a reporter, Neis was able to provide a comprehensive and visually compelling account of the situation, informing the public and documenting the events as they unfolded.
+
+Overall, Kayle Neis is a dedicated journalist and photographer who contributed to the Regina Leader-Post's reporting on the wildfire in Christopher Lake. Through his on-the-ground efforts, Neis helped to inform and educate the public about the challenges and impacts of the fire, playing a valuable role in the newspaper's coverage of this important event.</data>
+    </node>
+    <node id="31">
+      <data key="d0">BRANDON HARDER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Brandon Harder is a journalist and reporter for the Regina Leader-Post, a newspaper based in Regina, Saskatchewan, Canada. He has been on the ground providing updates and coverage of the wildfire situation in the Christopher Lake area.
+
+According to the information provided, Brandon Harder is a reporter who has been reporting on the wildfire situation in the Christopher Lake region. The descriptions indicate that he has been present at the scene, providing first-hand updates and coverage of the ongoing events.
+
+The descriptions consistently identify Brandon Harder as a journalist and reporter for the Regina Leader-Post, a local newspaper in Regina, Saskatchewan. This suggests that he is a professional journalist who has been assigned to cover the wildfire story for his publication.
+
+The descriptions do not contain any contradictory information about Brandon Harder or his role in reporting on the wildfire situation. They all consistently describe him as a reporter from the Regina Leader-Post who has been on the ground providing updates and coverage of the events unfolding in the Christopher Lake area.
+
+In summary, Brandon Harder is a journalist and reporter for the Regina Leader-Post who has been actively covering the wildfire situation in the Christopher Lake region. He has been on the ground, providing first-hand updates and reporting on the ongoing events for his publication.</data>
+    </node>
+    <node id="32">
+      <data key="d0">REGINA LEADER-POST</data>
+      <data key="d1" />
+      <data key="d2">18.0</data>
+      <data key="d5" />
+    </node>
+    <node id="33">
+      <data key="d0">PETER BALLANTYNE CREE NATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The Peter Ballantyne Cree Nation is a community located in northern Saskatchewan, Canada. Recently, the nation has faced significant challenges due to the presence of surrounding wildfires, which have forced the evacuation of over 1,700 people from the neighboring Pelican Narrows.
+
+In response to the emergency situation, the Peter Ballantyne Cree Nation has set up an evacuation center in the city of Prince Albert. This center is providing temporary shelter, food, and other essential services to the displaced residents from Pelican Narrows and the surrounding areas.
+
+The wildfires have posed a serious threat to the safety and well-being of the Peter Ballantyne Cree Nation community. The nation has had to take swift action to ensure the protection and evacuation of its members, demonstrating the resilience and adaptability of the community in the face of this natural disaster.
+
+Despite the challenges, the Peter Ballantyne Cree Nation has come together to support one another and coordinate the evacuation efforts. The establishment of the evacuation center in Prince Albert is a testament to the nation's commitment to the well-being of its people and their ability to mobilize resources and assistance during times of crisis.
+
+As the situation continues to evolve, the Peter Ballantyne Cree Nation remains vigilant and focused on the safety and well-being of its community members. The nation's response to the wildfires showcases its strength, unity, and dedication to protecting its people and its land in the face of this environmental threat.</data>
+    </node>
+    <node id="34">
+      <data key="d0">SANDY BAY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Sandy Bay is a community located in Saskatchewan, Canada that is part of the Peter Ballantyne Cree Nation. The community is currently being impacted by the Pelican 2 wildfire, which is threatening the area.
+
+The Pelican 2 wildfire is a large and dangerous wildfire that has been burning in the region near Sandy Bay. The fire has forced the evacuation of the community as it poses a significant threat to the safety and well-being of the residents. 
+
+Sandy Bay is a remote community that is home to members of the Peter Ballantyne Cree Nation. The community relies on the surrounding natural resources and landscape for sustenance and livelihood. The threat of the Pelican 2 wildfire has put the community and its way of life at risk.
+
+Firefighters and emergency responders are working tirelessly to contain the Pelican 2 wildfire and protect the community of Sandy Bay. Residents have been evacuated to safer areas as a precautionary measure. The situation remains fluid and the community faces an uncertain future as the wildfire continues to burn in the region.
+
+Despite the challenges, the people of Sandy Bay are resilient and are coming together to support one another during this difficult time. The community is relying on its strong cultural ties and traditional knowledge to navigate the crisis and ensure the safety and well-being of all its members.
+
+In summary, the community of Sandy Bay in Saskatchewan, Canada is facing a significant threat from the Pelican 2 wildfire, which has forced the evacuation of the community and put its way of life at risk. The situation remains fluid, but the people of Sandy Bay are drawing on their resilience and community spirit to weather the storm and protect their home.</data>
+    </node>
+    <node id="35">
+      <data key="d0">TIMOTHY UNDERWOOD</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Timothy Underwood is a councillor for the Peter Ballantyne Cree Nation representing the community of Sandy Bay. He is concerned about the lack of resources to fight fires in the area.</data>
+    </node>
+    <node id="36">
+      <data key="d0">PELICAN NARROWS</data>
+      <data key="d1" />
+      <data key="d2">11.0</data>
+      <data key="d5" />
+    </node>
+    <node id="37">
+      <data key="d0">LA RONGE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">La Ronge is a community located in northern Saskatchewan, within the Cumberland region. The town has recently faced challenges due to wildfires in the surrounding area.
+
+According to the provided descriptions, La Ronge has been evacuated due to wildfires that have affected the community. The descriptions indicate that a forest area near La Ronge has burned down in the past, suggesting that the town has experienced the impact of forest fires before.
+
+Despite the challenges posed by the wildfires, La Ronge is a community that is situated within the Cumberland region of Saskatchewan. This region is known for its natural beauty and resources, which likely contribute to the town's identity and way of life.
+
+The comprehensive summary of the data provided suggests that La Ronge is a resilient community that has faced the threat of wildfires in the past and has had to undergo evacuation measures to ensure the safety of its residents. However, the town remains an integral part of the Cumberland region, with its location and natural surroundings playing a significant role in its identity and development.
+
+Overall, the summary highlights the challenges faced by La Ronge due to the wildfires, while also acknowledging the town's place within the broader context of the Cumberland region in Saskatchewan.</data>
+    </node>
+    <node id="38">
+      <data key="d0">LOWER FISHING LAKE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Lower Fishing Lake is a region in Saskatchewan, Canada that has been impacted by a large wildfire. According to the information provided, the wildfire has grown to almost 500,000 hectares in size, prompting evacuations in the area.
+
+The wildfire, known as the Shoe fire, is located near Lower Fishing Lake. The exact proximity of the lake to the fire is not specified, but the descriptions indicate that the lake is in the general vicinity of the ongoing wildfire incident.
+
+The size of the wildfire, at nearly 500,000 hectares, suggests that it is a significant and potentially dangerous event. Wildfires of this magnitude can pose a serious threat to nearby communities and natural environments, necessitating the evacuation of residents as a precautionary measure.
+
+While the descriptions do not provide detailed information about the specific impacts on Lower Fishing Lake or the surrounding region, the proximity of the lake to the Shoe fire indicates that the area is likely experiencing the effects of the wildfire, such as smoke, reduced air quality, and potential damage to local infrastructure and natural resources.
+
+In summary, Lower Fishing Lake is a region in Saskatchewan that is currently being impacted by a large wildfire, known as the Shoe fire, which has grown to almost 500,000 hectares in size and has prompted evacuations in the area. The lake is located near the ongoing wildfire incident, though the exact details of the impact on the lake and surrounding region are not provided in the given information.</data>
+    </node>
+    <node id="39">
+      <data key="d0">NARROW HILLS PROVINCIAL PARK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Narrow Hills Provincial Park is located near the Shoe fire</data>
+    </node>
+    <node id="40">
+      <data key="d0">CANDLE LAKE AIRPARK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">18.0</data>
+      <data key="d5">The Candle Lake Airpark is where a grounded helicopter contracted by the Saskatchewan Public Safety Agency is located</data>
+    </node>
+    <node id="41">
+      <data key="d0">NOVA SCOTIA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A province in Canada that has sent fire crews to assist with the wildfires</data>
+    </node>
+    <node id="42">
+      <data key="d0">NEW BRUNSWICK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A province in Canada that has sent fire crews to assist with the wildfires</data>
+    </node>
+    <node id="43">
+      <data key="d0">BRITISH COLUMBIA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A province in Canada that has fire crews ready to deploy and cycle out local crews</data>
+    </node>
+    <node id="44">
+      <data key="d0">P.E.I.</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Prince Edward Island, a province in Canada that has fire crews ready to deploy</data>
+    </node>
+    <node id="45">
+      <data key="d0">ALASKA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A state in the United States that has sent resources to assist with the wildfires</data>
+    </node>
+    <node id="46">
+      <data key="d0">PAULINE MORIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The mayor of Sandy Bay, who is coordinating the community's response to the wildfire</data>
+    </node>
+    <node id="47">
+      <data key="d0">PETER BEATTY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The chief of the Peter Ballantyne Cree Nation, who is coordinating the community's response to the wildfire</data>
+    </node>
+    <node id="48">
+      <data key="d0">MONTREAL LAKE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">11.0</data>
+      <data key="d5">A community in Saskatchewan that has made a joint emergency declaration with the PBCN and Lac La Ronge Indian Band</data>
+    </node>
+    <node id="49">
+      <data key="d0">PELICAN 2 WILDFIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">A large wildfire burning in northeastern Saskatchewan that is threatening the community of Sandy Bay</data>
+    </node>
+    <node id="50">
+      <data key="d0">NATALIE HASELL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">A warning preparedness meteorologist at Environment and Climate Change Canada</data>
+    </node>
+    <node id="51">
+      <data key="d0">ENVIRONMENT AND CLIMATE CHANGE CANADA</data>
+      <data key="d1" />
+      <data key="d2">17.0</data>
+      <data key="d5" />
+    </node>
+    <node id="52">
+      <data key="d0">DANIELLE DESJARDINS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Danielle Desjardins is a warning preparedness meteorologist with Environment and Climate Change Canada who says there will be no significant rain to help the wildfires for the foreseeable future</data>
+    </node>
+    <node id="53">
+      <data key="d0">ALEC SALLOUM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Alec Salloum is a reporter from the Regina Leader-Post covering the wildfire and weather forecasting situation</data>
+    </node>
+    <node id="54">
+      <data key="d0">SASK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Sask is an abbreviation for the Canadian province of Saskatchewan.</data>
+    </node>
+    <node id="55">
+      <data key="d0">TOWN OF MARSHALL</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The Town of Marshall is one of the communities served by the Legacy Regional Protective Services</data>
+    </node>
+    <node id="56">
+      <data key="d0">TOWN OF LASHBURN</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The Town of Lashburn is one of the communities served by the Legacy Regional Protective Services</data>
+    </node>
+    <node id="57">
+      <data key="d0">RM OF WILTON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The RM of Wilton is one of the communities served by the Legacy Regional Protective Services</data>
+    </node>
+    <node id="58">
+      <data key="d0">LEGACY REGIONAL PROTECTIVE SERVICES</data>
+      <data key="d1" />
+      <data key="d2">23.0</data>
+      <data key="d5" />
+    </node>
+    <node id="59">
+      <data key="d0">DEAN PETERS</data>
+      <data key="d1" />
+      <data key="d2">23.0</data>
+      <data key="d5" />
+    </node>
+    <node id="60">
+      <data key="d0">PUBLIC SAFETY AGENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The public safety agency in Saskatchewan is providing updates on the wildfires</data>
+    </node>
+    <node id="61">
+      <data key="d0">SASKATCHEWAN PUBLIC SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Saskatchewan Public Service is the civil service of the Government of Saskatchewan, providing jobs and employment opportunities</data>
+    </node>
+    <node id="62">
+      <data key="d0">NARROW HILLS</data>
+      <data key="d1" />
+      <data key="d2">10.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">SaskEvac application provide...</data>
+      <data key="d6">The SPSA operates the SaskEvac application to provide emergency alerts and information to residents</data>
+    </edge>
+    <edge id="e1" source="1" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">responsible issuing fire...</data>
+      <data key="d6">The SPSA is responsible for issuing fire bans in Saskatchewan to mitigate wildfire risk</data>
+    </edge>
+    <edge id="e2" source="2" target="6">
+      <data key="d3">27.0</data>
+      <data key="d4">Safety Agency (SPSA)...</data>
+      <data key="d6">The Saskatchewan Public Safety Agency (SPSA) is the government agency responsible for public safety in the province of Saskatchewan. The SPSA operates within the province of Saskatchewan and is tasked with a variety of responsibilities, including wildfire mitigation work.
+
+The SPSA plays a crucial role in ensuring the safety and well-being of the people of Saskatchewan. As the primary agency responsible for public safety in the province, the SPSA is responsible for a wide range of activities, including emergency response, disaster management, and the prevention and mitigation of various threats to public safety.
+
+One of the key responsibilities of the SPSA is wildfire mitigation work. Saskatchewan is prone to wildfires, and the SPSA is tasked with taking proactive measures to prevent and manage these events. This includes activities such as fuel management, fire suppression, and public education campaigns to help residents understand the risks and take appropriate precautions.
+
+In addition to its wildfire-related responsibilities, the SPSA also plays a role in other areas of public safety, such as emergency medical services, search and rescue operations, and the coordination of disaster response efforts. The agency works closely with other government agencies, as well as with local communities and organizations, to ensure a comprehensive and coordinated approach to public safety.
+
+Overall, the Saskatchewan Public Safety Agency is a vital component of the province's infrastructure, providing essential services and support to the people of Saskatchewan. Through its various programs and initiatives, the SPSA works to protect the safety and well-being of all residents, and to ensure that the province is prepared to respond effectively to a wide range of emergencies and disasters.</data>
+    </edge>
+    <edge id="e3" source="2" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">daily fire danger...</data>
+      <data key="d6">The SPSA produces a daily fire danger map to inform the public of wildfire risk</data>
+    </edge>
+    <edge id="e4" source="2" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">information current fire...</data>
+      <data key="d6">The SPSA publishes information on current fire bans in effect across Saskatchewan</data>
+    </edge>
+    <edge id="e5" source="3" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">local offices across...</data>
+      <data key="d6">The SPSA has local offices across Saskatchewan to provide information on wildfires and emergencies</data>
+    </edge>
+    <edge id="e6" source="2" target="8">
+      <data key="d3">18.0</data>
+      <data key="d4">Saskatchewan oversees directs...</data>
+      <data key="d6">The Government of Saskatchewan oversees and directs the Saskatchewan Public Safety Agency, which is responsible for emergency management and wildfire response in the province</data>
+    </edge>
+    <edge id="e7" source="2" target="9">
+      <data key="d3">3.0</data>
+      <data key="d4">Safety Agency (SPSA)...</data>
+      <data key="d6">The Saskatchewan Public Safety Agency (SPSA) is the government organization responsible for managing and responding to the wildfires that have been affecting communities across the province of Saskatchewan. The SPSA plays a crucial role in coordinating the firefighting efforts, providing updates to the public, and supporting evacuation efforts when necessary.
+
+The SPSA's primary mandate is to ensure the safety and well-being of the residents of Saskatchewan in the face of natural disasters, such as the ongoing wildfires. The agency works closely with local authorities, emergency services, and other stakeholders to effectively manage the response to these events.
+
+One of the key responsibilities of the SPSA is to provide timely and accurate information to the public about the status of the wildfires, including the affected areas, the progress of firefighting efforts, and any necessary evacuation orders. The agency utilizes various communication channels, such as press releases, social media, and emergency alert systems, to keep the public informed and aware of the situation.
+
+In addition to information-sharing, the SPSA is also responsible for coordinating the firefighting efforts across the province. This involves deploying and managing firefighting resources, including personnel, equipment, and aerial support, to the areas most affected by the wildfires. The agency works closely with local fire departments, provincial and federal agencies, and other organizations to ensure a coordinated and effective response.
+
+When necessary, the SPSA also supports evacuation efforts in communities threatened by the wildfires. This includes working with local authorities to identify and secure safe evacuation routes, providing transportation assistance, and ensuring that evacuees have access to essential services and resources.
+
+Overall, the Saskatchewan Public Safety Agency plays a vital role in protecting the people and communities of Saskatchewan from the dangers posed by the ongoing wildfires. Through its comprehensive approach to emergency management, the SPSA is able to effectively respond to these natural disasters and minimize the impact on the province's residents.</data>
+    </edge>
+    <edge id="e8" source="7" target="8">
+      <data key="d3">18.0</data>
+      <data key="d4">Moe leads Government...</data>
+      <data key="d6">As Premier, Scott Moe leads the Government of Saskatchewan and declared the provincial State of Emergency</data>
+    </edge>
+    <edge id="e9" source="10" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">Crisis Support program...</data>
+      <data key="d6">The Emergency and Crisis Support program is part of the Saskatchewan Public Safety Agency and is intended to meet the urgent, basic needs of individuals who have been forced from their homes due to a disaster.</data>
+    </edge>
+    <edge id="e10" source="11" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">provide support municipalities...</data>
+      <data key="d6">The SPSA can provide support to municipalities in Saskatchewan when they have exhausted their local capacity and mutual aid agreements.</data>
+    </edge>
+    <edge id="e11" source="8" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">Saskatchewan, through SPSA,...</data>
+      <data key="d6">The Government of Saskatchewan, through the SPSA, can allocate provincial resources to support the evacuation of residents when requested by municipalities or First Nations.</data>
+    </edge>
+    <edge id="e12" source="12" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">App developed...</data>
+      <data key="d6">The Saskatchewan Evacuation App was developed by the SPSA to provide residents with a means of providing their community with necessary information required where an evacuation is necessary.</data>
+    </edge>
+    <edge id="e13" source="2" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">Treasury Board Crown...</data>
+      <data key="d6">The SPSA is a Treasury Board Crown Agency.</data>
+    </edge>
+    <edge id="e14" source="14" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">Sask911 program provide...</data>
+      <data key="d6">The SPSA operates the Sask911 program to provide emergency assistance</data>
+    </edge>
+    <edge id="e15" source="14" target="15">
+      <data key="d3">1.0</data>
+      <data key="d4">both programs operated...</data>
+      <data key="d6">Sask911 and SaskAlert are both programs operated by the SPSA to provide emergency services</data>
+    </edge>
+    <edge id="e16" source="15" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">SaskAlert emergency alert...</data>
+      <data key="d6">The SPSA operates the SaskAlert emergency alert system</data>
+    </edge>
+    <edge id="e17" source="16" target="2">
+      <data key="d3">10.0</data>
+      <data key="d4">Vice President Operations...</data>
+      <data key="d6">Steve Roberts is the Vice President of Operations at the Saskatchewan Public Safety Agency (SPSA). In this role, he is responsible for providing information about the wildfires that have been affecting the region.
+
+The SPSA is a government agency in the Canadian province of Saskatchewan that is responsible for public safety and emergency management. As the Vice President of Operations, Steve Roberts plays a crucial role in the agency's response to natural disasters, such as the ongoing wildfires.
+
+Based on the information provided, Steve Roberts is a key figure in the SPSA's efforts to address the wildfires. He is the primary source of information about the situation, and his expertise and leadership are essential in the agency's efforts to protect the public and mitigate the impact of the fires.
+
+The SPSA is a critical organization in Saskatchewan, responsible for ensuring the safety and well-being of the province's residents. With Steve Roberts at the helm of its operations, the agency is well-equipped to respond to the challenges posed by the wildfires and other emergencies.
+
+Overall, the summary of the data provided indicates that Steve Roberts is a highly capable and experienced leader within the SPSA, and that the agency is playing a vital role in addressing the ongoing wildfires in the region.</data>
+    </edge>
+    <edge id="e18" source="17" target="2">
+      <data key="d3">10.0</data>
+      <data key="d4">President Fire Commissioner...</data>
+      <data key="d6">Marlo Pritchard is the President and Fire Commissioner of the Saskatchewan Public Safety Agency (SPSA). In this role, he is responsible for overseeing the agency's response to the ongoing wildfires in the region.
+
+The SPSA is a government organization in the Canadian province of Saskatchewan that is tasked with ensuring public safety and emergency preparedness. As the President and Fire Commissioner, Marlo Pritchard is the head of the agency and is leading its efforts to manage the wildfire situation.
+
+Pritchard's responsibilities include coordinating the deployment of firefighting resources, communicating with the public and other government agencies, and making critical decisions to protect the safety of residents. He is working closely with local authorities and emergency responders to monitor the situation, assess the risks, and implement appropriate response strategies.
+
+Under Pritchard's leadership, the SPSA has been actively engaged in firefighting operations, evacuations, and providing support to affected communities. The agency has mobilized its resources, including firefighters, equipment, and emergency supplies, to combat the wildfires and mitigate the impact on the population.
+
+Pritchard's extensive experience in public safety and emergency management has been instrumental in the SPSA's response to the wildfires. He has a proven track record of leading successful operations during crisis situations and is known for his ability to make informed decisions under pressure.
+
+As the President and Fire Commissioner, Marlo Pritchard is committed to ensuring the safety and well-being of the people of Saskatchewan. He is working tirelessly to coordinate the SPSA's efforts and to provide the necessary support and resources to the communities affected by the wildfires.
+
+Overall, Marlo Pritchard's role as the President and Fire Commissioner of the Saskatchewan Public Safety Agency is crucial in the ongoing response to the wildfires. His leadership, expertise, and dedication are essential in protecting the lives and property of the people of Saskatchewan during this challenging time.</data>
+    </edge>
+    <edge id="e19" source="18" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">Resort subdivision been...</data>
+      <data key="d6">The Bear Creek Resort subdivision has been evacuated due to the threat from the wildfires.</data>
+    </edge>
+    <edge id="e20" source="19" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">Plonge subdivision, mostly...</data>
+      <data key="d6">The Lac La Plonge subdivision, mostly cabins, has been evacuated due to the wildfires.</data>
+    </edge>
+    <edge id="e21" source="20" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">near Lower Fishing...</data>
+      <data key="d6">The Shoe Fire near Lower Fishing Lakes is one of the largest wildfires, burning over 554,000 hectares.</data>
+    </edge>
+    <edge id="e22" source="21" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">west Ronge...</data>
+      <data key="d6">The Pisew Fire west of La Ronge is another large wildfire, burning over 185,000 hectares.</data>
+    </edge>
+    <edge id="e23" source="22" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">near Denare Beach...</data>
+      <data key="d6">The Wolf Fire near Denare Beach is currently burning over 161,000 hectares.</data>
+    </edge>
+    <edge id="e24" source="23" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">north Plonge Indian...</data>
+      <data key="d6">The Muskeg Fire north of La Plonge Indian Reserve and Beauval is a new wildfire that has grown to over 8,000 hectares.</data>
+    </edge>
+    <edge id="e25" source="9" target="6">
+      <data key="d3">10.0</data>
+      <data key="d4">Saskatchewan facing severe...</data>
+      <data key="d6">The province of Saskatchewan is facing a severe wildfire crisis in 2025. According to the data provided, the region is experiencing one of its most destructive wildfire seasons, with 66 active fires as of July 2, 2025.
+
+The wildfires are primarily occurring in northern Saskatchewan, forcing evacuations in the affected areas. The fires have become a significant threat to the local population and the surrounding environment.
+
+The scale and intensity of these wildfires are a cause for concern, as they have the potential to cause widespread damage and disruption to the region. The situation is particularly challenging, as the province is dealing with the ongoing effects of the wildfires, which have already forced the evacuation of residents from the affected areas.
+
+The data suggests that the wildfires in Saskatchewan are a serious and ongoing issue that requires immediate attention and action. The provincial authorities and emergency services are likely working tirelessly to contain the fires, protect the local population, and mitigate the environmental impact of the disaster.
+
+It is crucial that the people of Saskatchewan remain vigilant and follow the instructions of the authorities to ensure their safety during this challenging time. The province may also need to seek additional support and resources from the federal government and other agencies to effectively manage the crisis.
+
+Overall, the wildfire situation in Saskatchewan is a significant and concerning event that requires a comprehensive and coordinated response to protect the people, the environment, and the long-term well-being of the region.</data>
+    </edge>
+    <edge id="e26" source="24" target="6">
+      <data key="d3">1.0</data>
+      <data key="d4">two water bombers...</data>
+      <data key="d6">Quebec has provided two water bombers to help with firefighting efforts in Saskatchewan.</data>
+    </edge>
+    <edge id="e27" source="25" target="6">
+      <data key="d3">7.0</data>
+      <data key="d4">opinion piece about...</data>
+      <data key="d6">Murray Wood wrote an opinion piece about the slow pace of bureaucracy in Saskatchewan during the recent cold snap</data>
+    </edge>
+    <edge id="e28" source="2" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">Safety Agency implemented...</data>
+      <data key="d6">The Saskatchewan Public Safety Agency implemented fire bans in the province on July 2, 2025</data>
+    </edge>
+    <edge id="e29" source="26" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">implemented province...</data>
+      <data key="d6">Fire bans were implemented in the province of Saskatchewan</data>
+    </edge>
+    <edge id="e30" source="27" target="6">
+      <data key="d3">5.0</data>
+      <data key="d4">located within province...</data>
+      <data key="d6">Christopher Lake is located within the province of Saskatchewan where the wildfires are occurring</data>
+    </edge>
+    <edge id="e31" source="28" target="29">
+      <data key="d3">7.0</data>
+      <data key="d4">part-time resident Candle...</data>
+      <data key="d6">Richard Weber is a part-time resident of Candle Lake in Saskatchewan where he has a lakefront property</data>
+    </edge>
+    <edge id="e32" source="28" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">mindful effects...</data>
+      <data key="d6">Richard Weber is mindful of the effects the heavy smoke from the nearby wildfires could have on him</data>
+    </edge>
+    <edge id="e33" source="9" target="30">
+      <data key="d3">8.0</data>
+      <data key="d4">ground providing updates...</data>
+      <data key="d6">Kayle Neis was on the ground providing updates on the wildfire situation in Saskatchewan</data>
+    </edge>
+    <edge id="e34" source="9" target="31">
+      <data key="d3">1.0</data>
+      <data key="d4">ground providing updates...</data>
+      <data key="d6">Brandon Harder was on the ground providing updates on the wildfire situation in Saskatchewan</data>
+    </edge>
+    <edge id="e35" source="30" target="32">
+      <data key="d3">8.0</data>
+      <data key="d4">journalist reporting...</data>
+      <data key="d6">Kayle Neis is a journalist reporting for the Regina Leader-Post on the wildfire situation</data>
+    </edge>
+    <edge id="e36" source="31" target="32">
+      <data key="d3">8.0</data>
+      <data key="d4">journalist reporting...</data>
+      <data key="d6">Brandon Harder is a journalist reporting for the Regina Leader-Post on the wildfire situation</data>
+    </edge>
+    <edge id="e37" source="29" target="28">
+      <data key="d3">7.0</data>
+      <data key="d4">part-time resident Candle...</data>
+      <data key="d6">Richard Weber is a part-time resident of Candle Lake who is preparing his property as the nearby wildfire may threaten the community</data>
+    </edge>
+    <edge id="e38" source="33" target="35">
+      <data key="d3">8.0</data>
+      <data key="d4">councillor representing community...</data>
+      <data key="d6">Timothy Underwood is a councillor representing the community of Sandy Bay within the Peter Ballantyne Cree Nation</data>
+    </edge>
+    <edge id="e39" source="33" target="34">
+      <data key="d3">8.0</data>
+      <data key="d4">community within Peter...</data>
+      <data key="d6">Sandy Bay is a community within the Peter Ballantyne Cree Nation that is threatened by the nearby wildfires</data>
+    </edge>
+    <edge id="e40" source="33" target="36">
+      <data key="d3">8.0</data>
+      <data key="d4">from Peter Ballantyne...</data>
+      <data key="d6">Over 1,700 evacuees from the Peter Ballantyne Cree Nation have left the neighboring community of Pelican Narrows due to the Pelican Fire</data>
+    </edge>
+    <edge id="e41" source="34" target="35">
+      <data key="d3">1.0</data>
+      <data key="d4">concerned about lack...</data>
+      <data key="d6">Timothy Underwood is concerned about the lack of resources in Sandy Bay to fight the nearby wildfires</data>
+    </edge>
+    <edge id="e42" source="37" target="6">
+      <data key="d3">1.0</data>
+      <data key="d4">community located northern...</data>
+      <data key="d6">La Ronge is a community located in northern Saskatchewan that has experienced wildfires in the past</data>
+    </edge>
+    <edge id="e43" source="2" target="34">
+      <data key="d3">14.0</data>
+      <data key="d4">communicated lack resources...</data>
+      <data key="d6">Sandy Bay has communicated its lack of resources and preparedness concerns to government officials</data>
+    </edge>
+    <edge id="e44" source="20" target="38">
+      <data key="d3">16.0</data>
+      <data key="d4">located near Lower...</data>
+      <data key="d6">The Shoe fire is located near Lower Fishing Lake</data>
+    </edge>
+    <edge id="e45" source="20" target="39">
+      <data key="d3">16.0</data>
+      <data key="d4">located near Narrow...</data>
+      <data key="d6">The Shoe fire is located near Narrow Hills Provincial Park</data>
+    </edge>
+    <edge id="e46" source="29" target="40">
+      <data key="d3">18.0</data>
+      <data key="d4">Airpark located Candle...</data>
+      <data key="d6">The Candle Lake Airpark is located in Candle Lake</data>
+    </edge>
+    <edge id="e47" source="29" target="32">
+      <data key="d3">16.0</data>
+      <data key="d4">reporters covering wildfire...</data>
+      <data key="d6">The Regina Leader-Post has reporters covering the wildfire situation in Candle Lake</data>
+    </edge>
+    <edge id="e48" source="32" target="30">
+      <data key="d3">9.0</data>
+      <data key="d4">reporter Regina...</data>
+      <data key="d6">Kayle Neis is a reporter for the Regina Leader-Post</data>
+    </edge>
+    <edge id="e49" source="32" target="31">
+      <data key="d3">1.0</data>
+      <data key="d4">reporter Regina...</data>
+      <data key="d6">Brandon Harder is a reporter for the Regina Leader-Post</data>
+    </edge>
+    <edge id="e50" source="41" target="9">
+      <data key="d3">6.0</data>
+      <data key="d4">sent fire crews...</data>
+      <data key="d6">Nova Scotia has sent fire crews to assist with the wildfires in Saskatchewan</data>
+    </edge>
+    <edge id="e51" source="42" target="9">
+      <data key="d3">6.0</data>
+      <data key="d4">sent fire crews...</data>
+      <data key="d6">New Brunswick has sent fire crews to assist with the wildfires in Saskatchewan</data>
+    </edge>
+    <edge id="e52" source="43" target="9">
+      <data key="d3">6.0</data>
+      <data key="d4">fire crews ready...</data>
+      <data key="d6">British Columbia has fire crews ready to deploy and cycle out local crews fighting the wildfires</data>
+    </edge>
+    <edge id="e53" source="44" target="9">
+      <data key="d3">6.0</data>
+      <data key="d4">fire crews ready...</data>
+      <data key="d6">Prince Edward Island has fire crews ready to deploy to assist with the wildfires</data>
+    </edge>
+    <edge id="e54" source="45" target="9">
+      <data key="d3">6.0</data>
+      <data key="d4">resources assist with...</data>
+      <data key="d6">Alaska has sent resources to assist with the wildfires in Saskatchewan</data>
+    </edge>
+    <edge id="e55" source="24" target="9">
+      <data key="d3">6.0</data>
+      <data key="d4">resources assist with...</data>
+      <data key="d6">Quebec has sent resources to assist with the wildfires in Saskatchewan</data>
+    </edge>
+    <edge id="e56" source="34" target="46">
+      <data key="d3">9.0</data>
+      <data key="d4">mayor Sandy Bay...</data>
+      <data key="d6">Pauline Morin is the mayor of Sandy Bay and is coordinating the community's response to the Pelican 2 wildfire</data>
+    </edge>
+    <edge id="e57" source="47" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">chief Peter...</data>
+      <data key="d6">Peter Beatty is the chief of the Peter Ballantyne Cree Nation and is coordinating the community's response to the Pelican 2 wildfire</data>
+    </edge>
+    <edge id="e58" source="48" target="33">
+      <data key="d3">8.0</data>
+      <data key="d4">Peter Ballantyne Cree...</data>
+      <data key="d6">Montreal Lake and the Peter Ballantyne Cree Nation have made a joint emergency declaration in response to the Pelican 2 wildfire</data>
+    </edge>
+    <edge id="e59" source="49" target="33">
+      <data key="d3">8.0</data>
+      <data key="d4">wildfire threatening Peter...</data>
+      <data key="d6">The Pelican 2 wildfire is threatening the Peter Ballantyne Cree Nation, leading to the evacuation of over 1,700 people</data>
+    </edge>
+    <edge id="e60" source="9" target="51">
+      <data key="d3">8.0</data>
+      <data key="d4">Change Canada providing...</data>
+      <data key="d6">Environment and Climate Change Canada is providing weather forecasting and smoke tracking services related to the wildfires</data>
+    </edge>
+    <edge id="e61" source="9" target="27">
+      <data key="d3">7.0</data>
+      <data key="d4">through thick wildfire...</data>
+      <data key="d6">Vehicles were driving through thick wildfire smoke in the community of Christopher Lake</data>
+    </edge>
+    <edge id="e62" source="50" target="51">
+      <data key="d3">9.0</data>
+      <data key="d4">warning preparedness meteorologist...</data>
+      <data key="d6">Natalie Hasell is a warning preparedness meteorologist at Environment and Climate Change Canada</data>
+    </edge>
+    <edge id="e63" source="27" target="30">
+      <data key="d3">1.0</data>
+      <data key="d4">photographer Regina Leader-Post,...</data>
+      <data key="d6">Kayle Neis, a photographer for the Regina Leader-Post, captured an image of vehicles driving through wildfire smoke in Christopher Lake</data>
+    </edge>
+    <edge id="e64" source="51" target="52">
+      <data key="d3">9.0</data>
+      <data key="d4">meteorologist who works...</data>
+      <data key="d6">Danielle Desjardins is a meteorologist who works for Environment and Climate Change Canada</data>
+    </edge>
+    <edge id="e65" source="51" target="53">
+      <data key="d3">1.0</data>
+      <data key="d4">reporting weather forecasting...</data>
+      <data key="d6">Alec Salloum is reporting on the weather forecasting information provided by Environment and Climate Change Canada</data>
+    </edge>
+    <edge id="e66" source="52" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">providing forecasts information...</data>
+      <data key="d6">Danielle Desjardins is providing forecasts and information about the lack of rain to help the wildfires</data>
+    </edge>
+    <edge id="e67" source="30" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">reporting wildfire situation...</data>
+      <data key="d6">Kayle Neis is reporting on the wildfire situation in Christopher Lake</data>
+    </edge>
+    <edge id="e68" source="31" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">reporting wildfire situation...</data>
+      <data key="d6">Brandon Harder is reporting on the wildfire situation in Christopher Lake</data>
+    </edge>
+    <edge id="e69" source="6" target="2">
+      <data key="d3">18.0</data>
+      <data key="d4">government agency responsible...</data>
+      <data key="d6">The SPSA is the government agency responsible for public safety and emergency management in the province of Saskatchewan, including responding to wildfires.</data>
+    </edge>
+    <edge id="e70" source="6" target="54">
+      <data key="d3">9.0</data>
+      <data key="d4">abbreviation Canadian province...</data>
+      <data key="d6">Sask is an abbreviation for the Canadian province of Saskatchewan.</data>
+    </edge>
+    <edge id="e71" source="9" target="2">
+      <data key="d3">10.0</data>
+      <data key="d4">response wildfires...</data>
+      <data key="d6">The SPSA coordinates the response to the wildfires that have been impacting Saskatchewan, including evacuations, firefighting efforts, and providing assistance to affected residents.</data>
+    </edge>
+    <edge id="e72" source="38" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">grown almost 500,000...</data>
+      <data key="d6">A large wildfire has grown to almost 500,000 hectares in size near Lower Fishing Lake, prompting evacuations</data>
+    </edge>
+    <edge id="e73" source="37" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">prompted mandatory evacuation...</data>
+      <data key="d6">The Pisew Fire prompted mandatory evacuation orders in La Ronge</data>
+    </edge>
+    <edge id="e74" source="6" target="9">
+      <data key="d3">9.0</data>
+      <data key="d4">over 250 wildfires...</data>
+      <data key="d6">There have been over 250 wildfires in Saskatchewan so far this year, well above the 5-year average</data>
+    </edge>
+    <edge id="e75" source="7" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Premier Saskatchewan</data>
+      <data key="d6">Scott Moe is the Premier of Saskatchewan</data>
+    </edge>
+    <edge id="e76" source="55" target="58">
+      <data key="d3">7.0</data>
+      <data key="d4">Protective Services provides...</data>
+      <data key="d6">The Legacy Regional Protective Services provides fire and emergency services to the Town of Marshall</data>
+    </edge>
+    <edge id="e77" source="56" target="58">
+      <data key="d3">7.0</data>
+      <data key="d4">Protective Services provides...</data>
+      <data key="d6">The Legacy Regional Protective Services provides fire and emergency services to the Town of Lashburn</data>
+    </edge>
+    <edge id="e78" source="57" target="58">
+      <data key="d3">7.0</data>
+      <data key="d4">Protective Services provides...</data>
+      <data key="d6">The Legacy Regional Protective Services provides fire and emergency services to the RM of Wilton</data>
+    </edge>
+    <edge id="e79" source="58" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">Protective Services must...</data>
+      <data key="d6">The Legacy Regional Protective Services must comply with standards and requirements set by the Saskatchewan Public Safety Agency</data>
+    </edge>
+    <edge id="e80" source="58" target="59">
+      <data key="d3">9.0</data>
+      <data key="d4">Regional Fire Chief...</data>
+      <data key="d6">Dean Peters is the Regional Fire Chief of the Legacy Regional Protective Services</data>
+    </edge>
+    <edge id="e81" source="60" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">agency providing information...</data>
+      <data key="d6">The public safety agency is providing information about the wildfires in Saskatchewan</data>
+    </edge>
+    <edge id="e82" source="61" target="8">
+      <data key="d3">9.0</data>
+      <data key="d4">Saskatchewan oversees manages...</data>
+      <data key="d6">The Government of Saskatchewan oversees and manages the Saskatchewan Public Service</data>
+    </edge>
+    <edge id="e83" source="21" target="54">
+      <data key="d3">9.0</data>
+      <data key="d4">located province...</data>
+      <data key="d6">The Pisew fire is located in the province of Saskatchewan</data>
+    </edge>
+    <edge id="e84" source="21" target="37">
+      <data key="d3">8.0</data>
+      <data key="d4">located west...</data>
+      <data key="d6">The Pisew fire is located west of the town of La Ronge</data>
+    </edge>
+    <edge id="e85" source="20" target="54">
+      <data key="d3">9.0</data>
+      <data key="d4">located province...</data>
+      <data key="d6">The Shoe fire is located in the province of Saskatchewan</data>
+    </edge>
+    <edge id="e86" source="20" target="62">
+      <data key="d3">1.0</data>
+      <data key="d4">located Narrow...</data>
+      <data key="d6">The Shoe fire is located in the Narrow Hills region</data>
+    </edge>
+  </graph>
+</graphml>

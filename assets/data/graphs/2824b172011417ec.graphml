@@ -1,0 +1,873 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">GAZA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Gaza is a region located in the Middle East, bordering Israel. It has been the site of a long-standing conflict between the Palestinian people and the Israeli government. 
+
+The Gaza region has been a central focus of the ongoing Israeli-Palestinian conflict. It is a territory that has been involved in various military confrontations and hostage crises between the two sides. In recent years, the region has been the site of several wars, including the Gaza War, which resulted in significant loss of life and destruction.
+
+According to the provided descriptions, the Gaza region has been the scene of attacks by the Palestinian group Hamas, which has been engaged in a conflict with Israel. These attacks have led to a significant number of casualties, with over 47,000 Palestinians reported to have been killed during the conflict.
+
+The descriptions also mention a ceasefire that was welcomed by the Association of Southeast Asian Nations (ASEAN) and reached after a war in the Gaza region. This ceasefire was likely a result of efforts to de-escalate the conflict and provide some respite for the people of Gaza, who have been heavily impacted by the ongoing violence.
+
+Despite the ceasefire, the situation in Gaza remains fragile, with the region continuing to be a site of tension and unrest. The descriptions indicate that over 200,000 Gazans were harmed in the war following a reported massacre on October 7th, highlighting the ongoing humanitarian crisis in the region.
+
+In summary, Gaza is a region that has been at the center of the Israeli-Palestinian conflict, with a history of military confrontations, attacks, and hostage crises. The region has seen significant loss of life and destruction, and the people of Gaza have faced a severe humanitarian crisis as a result of the ongoing violence. While a ceasefire has been reached, the situation in Gaza remains volatile and in need of further efforts to achieve a lasting peace.</data>
+    </node>
+    <node id="1">
+      <data key="d0">WEST BANK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The West Bank is a territory located in the Middle East, situated between the Jordan River and Israel. It is a region that has been the site of ongoing conflict and tensions between Israelis and Palestinians.
+
+According to the provided descriptions, the West Bank is the area where Israeli forces recently conducted a raid. The raid took place in the city of Jenin, which is located within the West Bank. The descriptions indicate that the Israeli military operation in the West Bank was a significant event, though the specific details and circumstances surrounding the raid are not provided.
+
+The West Bank has a complex and contentious history, with both Israelis and Palestinians claiming rights to the land. The region has been occupied by Israel since the 1967 Six-Day War, and the status of the West Bank has been a central issue in the Israeli-Palestinian conflict. The area is home to Israeli settlements, as well as Palestinian communities and cities, leading to ongoing disputes over land, resources, and political control.
+
+Despite the lack of additional context in the provided descriptions, it is clear that the recent Israeli raid in the West Bank is part of the broader tensions and conflicts that have characterized the region for decades. The West Bank remains a highly contested and politically sensitive area, with both Israelis and Palestinians asserting their claims and interests in the territory.
+
+In summary, the West Bank is a region in the Middle East that has been the site of a recent Israeli military raid, reflecting the ongoing tensions and conflicts in the area. The West Bank is a complex and politically charged territory, with a history of occupation, settlement, and disputes between Israelis and Palestinians.</data>
+    </node>
+    <node id="2">
+      <data key="d0">HAMAS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Hamas is a Palestinian Islamist-nationalist political organization and militant group that has been in conflict with Israel. It is a Sunni-Islamic fundamentalist terrorist organization and political party that has waged an armed struggle against Israel.
+
+Hamas was responsible for carrying out an attack on southern Israel on October 7, 2023. The group has also been involved in the kidnapping of Israeli hostages, who are currently being held in the Gaza Strip. Hamas is considered a Palestinian Islamist-nationalist political party and resistance movement.
+
+Despite the group's involvement in terrorist activities, Hamas also functions as a political party, participating in Palestinian elections and governance. The organization's goals include the establishment of a Palestinian state and the liberation of Palestine from Israeli occupation.
+
+Hamas' actions and ideology have been a source of significant controversy and conflict in the region. The group's use of violence and its designation as a terrorist organization by several countries and international bodies have made it a target of Israeli and international counterterrorism efforts.
+
+At the same time, Hamas enjoys significant support among some segments of the Palestinian population, who view the group as a legitimate resistance movement against Israeli occupation. This complex and multifaceted nature of Hamas has contributed to the ongoing tensions and challenges in the Israeli-Palestinian conflict.
+
+In summary, Hamas is a Palestinian Islamist-nationalist political organization and militant group that has been engaged in an armed struggle against Israel. The group has carried out terrorist attacks, kidnapped Israeli hostages, and is considered a Sunni-Islamic fundamentalist terrorist organization by many countries and international bodies. However, Hamas also functions as a political party and enjoys support among some Palestinians who view it as a resistance movement against Israeli occupation.</data>
+    </node>
+    <node id="3">
+      <data key="d0">LT GENERAL HERZI HALEVI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Herzi Halevi is the top Israeli general who resigned citing failures over the October 7th Hamas attack</data>
+    </node>
+    <node id="4">
+      <data key="d0">TAHER AL-NUNU</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Taher al-Nunu is a Hamas official who said four female Israeli hostages will be released</data>
+    </node>
+    <node id="5">
+      <data key="d0">ISRAEL</data>
+      <data key="d1" />
+      <data key="d2">11.0</data>
+      <data key="d5" />
+    </node>
+    <node id="6">
+      <data key="d0">HERZI HALEVI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Herzi Halevi is the Chief of Staff of the Israel Defense Forces (IDF). He has recently announced his resignation following the security failures during the October 7, 2023 attack by Hamas.
+
+Halevi has served as the IDF Chief of Staff, leading the Israeli armed forces. However, the October 7th attack by Hamas exposed significant security lapses under Halevi's command. The attack caught the IDF off guard, resulting in heavy casualties and a public outcry over the military's failure to prevent the assault.
+
+In the aftermath of the attack, Halevi has taken responsibility for the security failures and announced his resignation from the position of IDF Chief of Staff. This decision comes as a result of the public and political pressure following the devastating Hamas attack, which has been widely criticized as a major intelligence and operational failure on the part of the Israeli military leadership.
+
+Despite his resignation, Halevi's tenure as the IDF Chief of Staff has been marked by his efforts to modernize and strengthen the Israeli armed forces. During his time in the role, he has overseen the implementation of new technologies, strategies, and training programs aimed at enhancing the military's capabilities and readiness.
+
+However, the October 7th attack has overshadowed Halevi's achievements, and his resignation is seen as a necessary step to restore public confidence in the IDF's ability to protect the country. The Israeli government and military leadership are now tasked with finding a successor who can address the security vulnerabilities exposed by the Hamas assault and rebuild the public's trust in the armed forces.
+
+In the end, Herzi Halevi's legacy as the IDF Chief of Staff will be defined by both his efforts to modernize the military and the security failures that led to his resignation. The lessons learned from this incident will undoubtedly shape the future of the Israeli defense establishment as it works to prevent such attacks from occurring again.</data>
+    </node>
+    <node id="7">
+      <data key="d0">JINSAFUT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Jinsafut is a Palestinian village in the West Bank that was attacked by Israeli settlers</data>
+    </node>
+    <node id="8">
+      <data key="d0">AL-FUNDUQ</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Al-Funduq is another Palestinian village in the West Bank that was attacked by Israeli settlers</data>
+    </node>
+    <node id="9">
+      <data key="d0">PALESTINIAN RED CRESCENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The Palestinian Red Crescent is the organization that treated 12 people injured in the settler attacks</data>
+    </node>
+    <node id="10">
+      <data key="d0">ISRAELI SETTLERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Israeli settlers are the masked men who attacked the Palestinian villages of Jinsafut and Al-Funduq</data>
+    </node>
+    <node id="11">
+      <data key="d0">PALESTINIAN PRISONERS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Palestinian prisoners who were released in exchange for hostages allege abuse in Israeli jails</data>
+    </node>
+    <node id="12">
+      <data key="d0">ASEAN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">ASEAN (Association of Southeast Asian Nations) is a regional intergovernmental organization comprising 10 Southeast Asian countries: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, the Philippines, Singapore, Thailand, and Vietnam. ASEAN was established in 1967 with the aim of accelerating economic growth, social progress, and cultural development in the region, as well as promoting regional peace and stability.
+
+The provided descriptions indicate that ASEAN, as a Southeast Asian bloc, welcomed the ceasefire in Gaza and called for the release of all hostages. This suggests that ASEAN has taken a stance on international issues, particularly those related to conflict and human rights, and has expressed its support for peaceful resolutions and the protection of human life.
+
+ASEAN's involvement in the Gaza ceasefire and call for the release of hostages demonstrates its role as a regional organization that is engaged in global affairs and is willing to voice its position on matters of international concern. This aligns with ASEAN's principles of promoting regional peace, stability, and cooperation, as well as its commitment to upholding human rights and international law.
+
+Overall, the summary of the provided data suggests that ASEAN is a prominent regional organization in Southeast Asia that is actively involved in addressing global issues and promoting its values and interests on the international stage. The organization's stance on the Gaza ceasefire and the release of hostages reflects its desire to contribute to the resolution of conflicts and the protection of human rights, which are key priorities for ASEAN and its member states.</data>
+    </node>
+    <node id="13">
+      <data key="d0">MALAYSIA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Malaysia is a country located in Southeast Asia. It is the chair of the Association of Southeast Asian Nations (ASEAN) for the current term. In this role, Malaysia has welcomed the recent ceasefire agreement between Israel and Gaza.
+
+As the chair of ASEAN, Malaysia is responsible for leading and coordinating the activities and initiatives of the regional organization. ASEAN is a political and economic union of 10 member states, including Malaysia, Indonesia, Singapore, Thailand, the Philippines, Vietnam, Brunei, Laos, Myanmar, and Cambodia.
+
+In its capacity as the ASEAN chair, Malaysia has played a crucial role in facilitating dialogue and cooperation among the member states. This includes addressing regional issues, promoting economic integration, and fostering closer ties between the countries.
+
+The recent ceasefire agreement between Israel and Gaza is a significant development in the ongoing conflict in the Middle East. As the ASEAN chair, Malaysia has welcomed this development and expressed its support for a peaceful resolution to the conflict. Malaysia has long been a vocal advocate for the rights of the Palestinian people and has consistently condemned the actions of the Israeli government.
+
+Malaysia's role as the ASEAN chair during this period has allowed it to leverage its regional influence to contribute to the de-escalation of tensions in the Middle East. The country's diplomatic efforts and its ability to bring together the ASEAN member states have been instrumental in this process.
+
+Overall, Malaysia's position as the ASEAN chair has provided it with a platform to play a more prominent role in regional and global affairs. The country's leadership in welcoming the Gaza ceasefire is a testament to its commitment to promoting peace and stability in the region.</data>
+    </node>
+    <node id="14">
+      <data key="d0">BENJAMIN NETANYAHU</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Benjamin Netanyahu is an Israeli politician who has served as the Prime Minister of Israel. He is a former Prime Minister of Israel, having held the position multiple times.
+
+Netanyahu first became Prime Minister in 1996 and served until 1999. He was then re-elected to the position in 2009 and served until 2021, making him the longest-serving Prime Minister in Israel's history. During his time as Prime Minister, Netanyahu has been a central figure in Israeli politics, known for his conservative and nationalist policies.
+
+As Prime Minister, Netanyahu has taken a hardline stance on issues related to national security and the Israeli-Palestinian conflict. He has been a vocal critic of the Iran nuclear deal and has advocated for a strong military presence in the region. Netanyahu has also been a proponent of Israeli settlement expansion in the West Bank, which has been a source of controversy and international criticism.
+
+Despite his political longevity, Netanyahu has also faced numerous legal challenges and scandals during his tenure. He has been the subject of several corruption investigations, and in 2019, he was indicted on charges of bribery, fraud, and breach of trust. However, Netanyahu has maintained his innocence and has continued to serve as Prime Minister throughout the legal proceedings.
+
+Overall, Benjamin Netanyahu is a polarizing figure in Israeli politics, with supporters and critics both within Israel and internationally. His long tenure as Prime Minister and his unyielding stance on key issues have made him a central figure in the ongoing political and social debates within Israel and the broader Middle East region.</data>
+    </node>
+    <node id="15">
+      <data key="d0">PALESTINE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Palestine is the territory where the Israeli-Palestinian conflict takes place</data>
+    </node>
+    <node id="16">
+      <data key="d0">ISRAEL DEFENSE FORCES (IDF)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The Israel Defense Forces (IDF) is the military force of Israel. It is responsible for the defense and security of the country. The IDF has been involved in various military operations and conflicts throughout its history.
+
+Herzi Halevi, who previously served as the Chief of Staff of the IDF, has been involved in operations related to the release of Israeli hostages. The IDF has played a crucial role in the defense of Israel, but it has also faced challenges in preventing certain attacks, such as the October 7, 2023 attack by Hamas.
+
+Despite these challenges, the IDF remains a vital component of Israel's national security strategy. It is composed of various branches, including the Army, Air Force, and Navy, and is responsible for maintaining the country's military readiness and capabilities.
+
+The IDF's mission is to protect the State of Israel, its citizens, and its interests. It is a highly trained and well-equipped force that has been involved in numerous conflicts and operations throughout its history. The IDF's personnel are drawn from the country's mandatory conscription system, which requires all Israeli citizens to serve in the military for a certain period of time.
+
+In addition to its military responsibilities, the IDF also plays a role in disaster relief and humanitarian aid efforts both within Israel and abroad. The IDF has been involved in providing assistance during natural disasters and other emergencies, demonstrating its commitment to the well-being of the Israeli people and the international community.
+
+Overall, the Israel Defense Forces is a critical component of Israel's national security and plays a vital role in the country's defense and security. Despite the challenges it has faced, the IDF remains a highly capable and respected military force that is dedicated to protecting the State of Israel and its citizens.</data>
+    </node>
+    <node id="17">
+      <data key="d0">OCTOBER 7, 2023</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">15.0</data>
+      <data key="d5">On October 7, 2023, a devastating attack was carried out by the Palestinian militant group Hamas and other Islamist organizations against Israel. The attack resulted in the deaths of over 1,200 Israeli civilians and the abduction of more than 250 others, who were taken hostage and transported into the Gaza Strip.
+
+The incident, which has been widely condemned by the international community, was one of the deadliest attacks against Israel in recent history. According to reports, the attack involved a coordinated series of bombings and shootings targeting civilian areas, as well as the seizure of a number of Israeli citizens.
+
+The exact details of the attack are still being investigated, but it is clear that the perpetrators were well-organized and had access to significant resources and weaponry. The hostages are currently being held in undisclosed locations within the Gaza Strip, and their fate remains uncertain.
+
+The Israeli government has vowed to take all necessary measures to secure the release of the hostages and to bring the perpetrators to justice. However, the situation remains highly volatile, and there are concerns that the attack could further escalate tensions in the region.
+
+The international community has also condemned the attack in the strongest possible terms, with many countries and organizations calling for an immediate ceasefire and the resumption of peace negotiations between Israel and the Palestinian authorities.
+
+Overall, the October 7, 2023 attack has been a devastating blow to the people of Israel and has raised serious concerns about the ongoing conflict in the region. The international community will continue to closely monitor the situation and work towards a peaceful resolution.</data>
+    </node>
+    <node id="18">
+      <data key="d0">YARON FINKELMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Yaron Finkelman is the former commander of the IDF's Southern Command who also resigned following the October 7, 2023 attack</data>
+    </node>
+    <node id="19">
+      <data key="d0">OCTOBER 7 ATTACKS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The October 7 attacks were a series of attacks carried out by Hamas against Israel, which led to the capture of Israeli hostages.</data>
+    </node>
+    <node id="20">
+      <data key="d0">BILD LEAK AFFAIR</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The Bild leak affair was a scandal involving the leaking of sensitive information from the IDF, which led to an investigation involving Herzi Halevi.</data>
+    </node>
+    <node id="21">
+      <data key="d0">GAZA STRIP</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Gaza Strip is a territory where Israeli hostages are being held by Hamas</data>
+    </node>
+    <node id="22">
+      <data key="d0">NASSER HOSPITAL</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Nasser Hospital is located in Khan Younis, Gaza</data>
+    </node>
+    <node id="23">
+      <data key="d0">ISRAELI HOSTAGES</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="24">
+      <data key="d0">KHAN YOUNIS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Khan Younis is a city in the Gaza Strip where the Nasser Hospital is located</data>
+    </node>
+    <node id="25">
+      <data key="d0">MATANYAHU ENGLMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Matanyahu Englman is the State Comptroller of Israel, an independent auditor</data>
+    </node>
+    <node id="26">
+      <data key="d0">SIMCHAT TORAH MASSACRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Simchat Torah Massacre refers to a terrorist attack carried out by the Hamas organization on Israeli communities near the Gaza border on October 7. The attack targeted Israelis celebrating the Jewish holiday of Simchat Torah, which marks the completion of the annual reading of the Torah.
+
+According to the available descriptions, the incident involved Hamas militants launching attacks on the Israeli communities located near the Gaza border. The attacks occurred as Israelis were gathered to observe the Simchat Torah festivities, making them a deliberate target of the terrorist action.
+
+While the exact details of the incident may vary slightly between the provided descriptions, the core facts remain consistent. The Simchat Torah Massacre was a premeditated and coordinated attack by Hamas against Israeli civilians celebrating a religious holiday. The attack took place in the vicinity of the Gaza border, where the Israeli communities targeted were located.
+
+It is important to note that the Simchat Torah Massacre was a tragic event that resulted in the loss of innocent lives and caused significant distress and suffering among the affected Israeli communities. The attack was a blatant act of terrorism, designed to target and harm civilians engaged in peaceful religious observances.
+
+In summary, the Simchat Torah Massacre refers to a Hamas-orchestrated terrorist attack that occurred on October 7, targeting Israeli communities near the Gaza border during the Simchat Torah holiday celebrations. The incident resulted in casualties and was a deliberate attempt by the Hamas organization to inflict harm on Israeli civilians.</data>
+    </node>
+    <node id="27">
+      <data key="d0">ISRAEL DEFENSE FORCES</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="28">
+      <data key="d0">POLITICAL-SECURITY CABINET</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Political-Security Cabinet is a government body in Israel</data>
+    </node>
+    <node id="29">
+      <data key="d0">OCTOBER 7</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">October 7 refers to the date of the terrorist attacks by Hamas on Israeli communities near the Gaza border</data>
+    </node>
+    <node id="30">
+      <data key="d0">UNITED STATES ARMED FORCES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The military forces of the United States</data>
+    </node>
+    <node id="31">
+      <data key="d0">CHARLES Q. BROWN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Charles Q. Brown is the Chairman of the Joint Chiefs of Staff of the U.S. Armed Forces</data>
+    </node>
+    <node id="32">
+      <data key="d0">MICHAEL "ERIK" KURILLA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Michael "Erik" Kurilla is the Commander of CENTCOM, the United States Central Command</data>
+    </node>
+    <node id="33">
+      <data key="d0">NATIONAL DEFENSE UNIVERSITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The National Defense University is an institution that provides education to U.S. and international military officers and government officials</data>
+    </node>
+    <node id="34">
+      <data key="d0">SWORDS OF IRON WAR</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A war that the IDF was involved in, during which Herzi Halevi served as Chief of Staff</data>
+    </node>
+    <node id="35">
+      <data key="d0">IDF</data>
+      <data key="d1" />
+      <data key="d2">4.0</data>
+      <data key="d5" />
+    </node>
+    <node id="36">
+      <data key="d0">JEWISH COMMUNITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The Jewish community in Washington DC that the IDF Chief of Staff met with</data>
+    </node>
+    <node id="37">
+      <data key="d0">AVIV KOHAVI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Aviv Kohavi was the IDF chief of staff before Herzi Halevi.</data>
+    </node>
+    <node id="38">
+      <data key="d0">YONAH JEREMY BOB</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Yonah Jeremy Bob is a journalist who has written several articles about the events surrounding the October 7 massacre and its aftermath.</data>
+    </node>
+    <node id="39">
+      <data key="d0">OREN SOLOMON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Oren Solomon was the Brig.-Gen. in charge of the Nova probe who accused the IDF of covering up the investigations into the October 7 massacre.</data>
+    </node>
+    <node id="40">
+      <data key="d0">OCTOBER 7 MASSACRE</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="41">
+      <data key="d0">NOVA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Nova probe was investigating the failures related to the October 7 massacre.</data>
+    </node>
+    <node id="42">
+      <data key="d0">QATAR</data>
+      <data key="d1">GEO</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Qatar is a country located in the Middle East, situated on the northeastern coast of the Arabian Peninsula. It is a sovereign state that has been the target of a strike by Israel, according to the information provided.
+
+The available descriptions indicate that the strike by Israel on Qatar occurred in the aftermath of the October 7 massacre, though the details of this event are not clearly specified. The descriptions suggest that Qatar was the target of this strike by Israel, but they do not provide any further information about the nature, scale, or consequences of the attack.
+
+Given the limited and potentially contradictory nature of the information provided, it is difficult to provide a comprehensive summary of the situation. The descriptions do not offer enough context or details to determine the specific circumstances surrounding the alleged strike, the reasons for it, or the impact it had on Qatar.
+
+Without additional information, it is not possible to resolve any potential contradictions or to provide a more detailed and coherent summary of the events involving Qatar and Israel. The available data is insufficient to paint a clear picture of the situation, and any further conclusions would be speculative.
+
+In summary, the provided information indicates that Qatar was the target of a strike by Israel in the aftermath of the October 7 massacre, but the details and context of this event are not clearly specified. A more comprehensive understanding of the situation would require additional details and clarification from reliable sources.</data>
+    </node>
+    <node id="43">
+      <data key="d0">SOUTHERN MOSHAV</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Herzi Halevi gave a presentation to Israeli residents in the southern moshav, discussing Israel's strike on Qatar and the aftermath of October 7.</data>
+    </node>
+    <node id="44">
+      <data key="d0">HALEVI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Halevi is a former chief of the IDF who gave a presentation to Israeli residents</data>
+    </node>
+    <node id="45">
+      <data key="d0">JERUSALEM POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">The Jerusalem Post is a news organization that published an editorial about hostages held in Gaza</data>
+    </node>
+    <node id="46">
+      <data key="d0">SHIN BET</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Shin Bet is Israel's internal security service that is investigating the 2024 Israeli secret document leak scandal</data>
+    </node>
+    <node id="47">
+      <data key="d0">YEDIOTH AHRONOTH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Yedioth Ahronoth is an Israeli newspaper that reported on the 2024 Israeli secret document leak scandal</data>
+    </node>
+    <node id="48">
+      <data key="d0">AXIOS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Axios is an American website that reported on the 2024 Israeli secret document leak scandal</data>
+    </node>
+    <node id="49">
+      <data key="d0">ELI FELDSTEIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Eli Feldstein is the spokesperson for Benjamin Netanyahu who was arrested as part of the 2024 Israeli secret document leak scandal</data>
+    </node>
+    <node id="50">
+      <data key="d0">2024 ISRAELI SECRET DOCUMENT LEAK SCANDAL</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="51">
+      <data key="d0">GAZA WAR</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">8.0</data>
+      <data key="d5">A conflict between Israel and Gaza that occurred prior to the document leak scandal</data>
+    </node>
+    <node id="52">
+      <data key="d0">GAZA WAR HOSTAGE CRISIS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">8.0</data>
+      <data key="d5">A hostage crisis that occurred during the Gaza War</data>
+    </node>
+    <node id="53">
+      <data key="d0">BILD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">A German newspaper that reported on the document leak scandal</data>
+    </node>
+    <edge id="e0" source="0" target="5">
+      <data key="d3">18.0</data>
+      <data key="d4">between Israel Gaza...</data>
+      <data key="d6">The ongoing conflict between Israel and Gaza is a complex and multifaceted issue that has been a source of tension and violence in the region for decades. Israel and Gaza are neighboring territories, with Gaza being a Palestinian territory under the control of the Hamas political organization.
+
+The conflict between Israel and Gaza is rooted in a long-standing dispute over land and sovereignty. Israel, which was established as a Jewish state in 1948, has been engaged in a conflict with the Palestinian people, who have been seeking their own independent state. This conflict has led to a series of wars and ongoing tensions between the two sides.
+
+In the case of Gaza, the conflict has been particularly intense, with Israel and Hamas, the militant group that controls the territory, engaged in a cycle of violence and retaliation. Israel has imposed a blockade on Gaza, citing security concerns, which has led to a humanitarian crisis in the territory. Hamas, on the other hand, has launched rocket attacks and other forms of violence against Israeli targets.
+
+Despite the ongoing conflict, both Israel and Gaza have a vested interest in finding a peaceful resolution to the situation. Israel seeks to ensure the security of its citizens, while Gaza seeks to achieve its goal of an independent Palestinian state. However, the path to a lasting peace has been elusive, with both sides often unwilling to make the necessary concessions to reach a compromise.
+
+In recent years, there have been several attempts to broker a ceasefire and negotiate a long-term solution to the conflict, but these efforts have often been met with setbacks and renewed violence. The situation remains volatile, with the potential for further escalation and conflict.
+
+Overall, the conflict between Israel and Gaza is a complex and multifaceted issue that has had a significant impact on the lives of people in the region. While the path to a lasting peace may be difficult, it is essential that both sides continue to work towards a resolution that addresses the underlying issues and concerns of all parties involved.</data>
+    </edge>
+    <edge id="e1" source="1" target="5">
+      <data key="d3">17.0</data>
+      <data key="d4">region located...</data>
+      <data key="d6">The West Bank is a region located in the Middle East, bordered by Israel and the Jordan River. It has been a subject of ongoing conflict between Israel and the Palestinian people. 
+
+Israel, a country in the same region, has maintained a military occupation of the West Bank since 1967. This occupation has been a source of tension and controversy, with Israel's actions in the region often drawing international scrutiny.
+
+According to the information provided, Israel has conducted raids in the West Bank city of Jenin, which is located within the occupied territory. These raids are part of Israel's efforts to maintain control and security in the region. The West Bank is considered by many to be a key part of the ongoing Israeli-Palestinian conflict, with both sides claiming historical and political rights to the land.
+
+Despite the occupation, the West Bank remains home to a significant Palestinian population, who have been fighting for their own independent state and self-determination. The situation in the West Bank is complex, with competing claims, ongoing violence, and a lack of a clear resolution to the conflict.
+
+In summary, the West Bank is a region under Israeli occupation, with the Israeli government conducting military operations and raids in the area as part of its efforts to maintain control. This occupation has been a source of tension and conflict between Israel and the Palestinian people, who continue to assert their own claims to the land and the right to self-determination.</data>
+    </edge>
+    <edge id="e2" source="2" target="5">
+      <data key="d3">10.0</data>
+      <data key="d4">attack October 7th...</data>
+      <data key="d6">Hamas carried out an attack on October 7th that sparked the latest conflict with Israel</data>
+    </edge>
+    <edge id="e3" source="2" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">Hamas official negotiating...</data>
+      <data key="d6">Taher al-Nunu is a Hamas official negotiating a hostage exchange</data>
+    </edge>
+    <edge id="e4" source="3" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">top Israeli general...</data>
+      <data key="d6">Herzi Halevi resigned as top Israeli general due to failures over the October 7th Hamas attack</data>
+    </edge>
+    <edge id="e5" source="5" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">West Bank territory...</data>
+      <data key="d6">Israel occupies the West Bank territory where the Palestinian villages were attacked</data>
+    </edge>
+    <edge id="e6" source="5" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">military offensive Gaza...</data>
+      <data key="d6">Israel launched a military offensive in Gaza that killed 47,000 Palestinians</data>
+    </edge>
+    <edge id="e7" source="5" target="11">
+      <data key="d3">8.0</data>
+      <data key="d4">abuse Israeli jails...</data>
+      <data key="d6">Palestinian prisoners allege abuse in Israeli jails</data>
+    </edge>
+    <edge id="e8" source="6" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">Israeli armed forces...</data>
+      <data key="d6">Herzi Halevi resigned as Israeli armed forces chief of staff due to security failures that allowed a Hamas attack</data>
+    </edge>
+    <edge id="e9" source="7" target="8">
+      <data key="d3">7.0</data>
+      <data key="d4">Al-Funduq Palestinian villages...</data>
+      <data key="d6">Both Jinsafut and Al-Funduq are Palestinian villages in the West Bank that were attacked by Israeli settlers</data>
+    </edge>
+    <edge id="e10" source="7" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">Crescent treated people...</data>
+      <data key="d6">The Palestinian Red Crescent treated 12 people injured in the settler attack on Jinsafut</data>
+    </edge>
+    <edge id="e11" source="0" target="12">
+      <data key="d3">7.0</data>
+      <data key="d4">ceasefire Gaza...</data>
+      <data key="d6">ASEAN welcomed the ceasefire in Gaza</data>
+    </edge>
+    <edge id="e12" source="10" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">Palestinian villages occupied...</data>
+      <data key="d6">Israeli settlers attacked Palestinian villages in the occupied West Bank</data>
+    </edge>
+    <edge id="e13" source="12" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">chair ASEAN that...</data>
+      <data key="d6">Malaysia is the chair of ASEAN that welcomed the Gaza ceasefire</data>
+    </edge>
+    <edge id="e14" source="12" target="0">
+      <data key="d3">7.0</data>
+      <data key="d4">ceasefire Gaza called...</data>
+      <data key="d6">ASEAN welcomed a ceasefire in Gaza and called for the release of all hostages</data>
+    </edge>
+    <edge id="e15" source="7" target="10">
+      <data key="d3">5.0</data>
+      <data key="d4">Palestinian village Jinsafut...</data>
+      <data key="d6">Israeli settlers attacked the Palestinian village of Jinsafut</data>
+    </edge>
+    <edge id="e16" source="2" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">Palestinian political organization...</data>
+      <data key="d6">Hamas is a Palestinian political organization involved in the conflict with Israel</data>
+    </edge>
+    <edge id="e17" source="14" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">former Prime Minister...</data>
+      <data key="d6">Benjamin Netanyahu was a former Prime Minister of Israel</data>
+    </edge>
+    <edge id="e18" source="15" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">conflict with Palestine...</data>
+      <data key="d6">Israel is in conflict with Palestine over the control of the region</data>
+    </edge>
+    <edge id="e19" source="16" target="6">
+      <data key="d3">36.0</data>
+      <data key="d4">Forces (IDF) military...</data>
+      <data key="d6">The Israel Defense Forces (IDF) is the military force of Israel, responsible for the country's defense and security. Herzi Halevi, a prominent figure within the IDF, served as the Chief of Staff during a critical period.
+
+According to the information provided, Herzi Halevi was the Chief of Staff of the IDF and led the military's efforts to secure the release of Israeli hostages held by Hamas. This suggests that Halevi played a crucial role in negotiating and coordinating the release of Israeli citizens who had been taken captive by the Palestinian militant group.
+
+However, the descriptions also indicate that Halevi was the Chief of Staff during the October 7, 2023 attack and took responsibility for the security failures that occurred. This suggests that there may have been a security breach or incident that took place under Halevi's leadership, and he was held accountable for the shortcomings in the IDF's response.
+
+To reconcile these seemingly contradictory descriptions, it is possible that Halevi's tenure as Chief of Staff involved both successful hostage negotiations as well as security challenges that led to failures. As the head of the IDF, Halevi would have been responsible for overseeing a wide range of military operations and security matters, and it is not uncommon for leaders to face both successes and setbacks during their time in office.
+
+In summary, Herzi Halevi served as the Chief of Staff of the Israel Defense Forces (IDF) during a significant period. He led the military's efforts to secure the release of Israeli hostages held by Hamas, demonstrating his diplomatic and negotiation skills. However, he also took responsibility for security failures that occurred under his leadership, suggesting that he faced complex challenges in maintaining the IDF's readiness and effectiveness. Despite these contradictions, Halevi's role as the Chief of Staff of the IDF underscores his importance and influence within the Israeli military establishment.</data>
+    </edge>
+    <edge id="e20" source="16" target="18">
+      <data key="d3">16.0</data>
+      <data key="d4">commander IDF's...</data>
+      <data key="d6">Yaron Finkelman was the commander of the IDF's Southern Command during the October 7, 2023 attack and also resigned due to the security failures</data>
+    </edge>
+    <edge id="e21" source="16" target="17">
+      <data key="d3">18.0</data>
+      <data key="d4">prevent October...</data>
+      <data key="d6">The IDF failed to prevent the October 7, 2023 attack by Hamas, resulting in over 1,200 Israeli deaths and 250 hostages taken</data>
+    </edge>
+    <edge id="e22" source="16" target="2">
+      <data key="d3">11.0</data>
+      <data key="d4">Forces (IDF) Hamas...</data>
+      <data key="d6">The Israel Defense Forces (IDF) and Hamas have a long-standing conflict, with both sides engaging in military operations and attacks against each other. According to the information provided, the IDF was unable to prevent an attack carried out by Hamas on October 7, 2023. The IDF has also been involved in operations aimed at securing the release of Israeli hostages held by Hamas.
+
+The IDF is the military force of Israel, responsible for the country's defense and security. It is a highly trained and well-equipped force, with a reputation for its effectiveness in combat operations. The IDF has been involved in numerous conflicts with various adversaries, including Hamas, a Palestinian Islamist group that has been designated as a terrorist organization by several countries.
+
+Hamas, on the other hand, is a Palestinian Islamist group that has been engaged in a long-standing conflict with Israel. The group has been responsible for numerous attacks against Israeli civilians and military targets, including the October 7, 2023 attack that the IDF failed to prevent. Hamas has also been involved in the capture and detention of Israeli hostages, which has led to the IDF conducting operations to try to secure their release.
+
+The conflict between the IDF and Hamas is complex and multifaceted, with both sides engaging in military operations, attacks, and other forms of conflict. While the provided descriptions do not provide a comprehensive overview of the entire conflict, they do highlight the ongoing tensions and the challenges faced by both sides in addressing the situation.
+
+It is important to note that the information provided may be incomplete or potentially contradictory, and further research would be necessary to fully understand the context and details of the conflict between the IDF and Hamas. However, based on the available information, this summary provides a high-level overview of the key entities and their involvement in the ongoing conflict.</data>
+    </edge>
+    <edge id="e23" source="17" target="6">
+      <data key="d3">18.0</data>
+      <data key="d4">IDF Chief Staff...</data>
+      <data key="d6">Herzi Halevi resigned as IDF Chief of Staff due to the security failures during the October 7, 2023 attack</data>
+    </edge>
+    <edge id="e24" source="17" target="18">
+      <data key="d3">16.0</data>
+      <data key="d4">Southern Command commander...</data>
+      <data key="d6">Yaron Finkelman resigned as Southern Command commander due to the security failures during the October 7, 2023 attack</data>
+    </edge>
+    <edge id="e25" source="2" target="6">
+      <data key="d3">16.0</data>
+      <data key="d4">Staff, Herzi Halevi...</data>
+      <data key="d6">As IDF Chief of Staff, Herzi Halevi was involved in negotiations and operations to secure the release of Israeli hostages held by Hamas</data>
+    </edge>
+    <edge id="e26" source="2" target="19">
+      <data key="d3">1.0</data>
+      <data key="d4">attacks were carried...</data>
+      <data key="d6">The October 7 attacks were carried out by Hamas against Israel, leading to the capture of Israeli hostages</data>
+    </edge>
+    <edge id="e27" source="6" target="20">
+      <data key="d3">7.0</data>
+      <data key="d4">involved investigation...</data>
+      <data key="d6">Herzi Halevi was involved in the investigation of the Bild leak affair, which involved the leaking of sensitive IDF information</data>
+    </edge>
+    <edge id="e28" source="21" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">Israeli Chief Staff,...</data>
+      <data key="d6">Herzi Halevi, as the Israeli Chief of Staff, is overseeing the military operations in the Gaza Strip to try to secure the release of the Israeli hostages</data>
+    </edge>
+    <edge id="e29" source="21" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">group holding Israeli...</data>
+      <data key="d6">Hamas is the group holding the Israeli hostages in the Gaza Strip</data>
+    </edge>
+    <edge id="e30" source="21" target="23">
+      <data key="d3">8.0</data>
+      <data key="d4">being held captive...</data>
+      <data key="d6">The Israeli hostages are being held captive by Hamas in the Gaza Strip</data>
+    </edge>
+    <edge id="e31" source="21" target="22">
+      <data key="d3">1.0</data>
+      <data key="d4">located Gaza Strip,...</data>
+      <data key="d6">Nasser Hospital is located in the Gaza Strip, where the conflict between Israel and Hamas is taking place</data>
+    </edge>
+    <edge id="e32" source="21" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">military conflict with...</data>
+      <data key="d6">Israel is engaged in a military conflict with Hamas in the Gaza Strip to try to secure the release of the Israeli hostages</data>
+    </edge>
+    <edge id="e33" source="21" target="24">
+      <data key="d3">1.0</data>
+      <data key="d4">city located within...</data>
+      <data key="d6">Khan Younis is a city located within the Gaza Strip</data>
+    </edge>
+    <edge id="e34" source="2" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">Israeli hostages holding...</data>
+      <data key="d6">Hamas kidnapped the Israeli hostages and is holding them in the Gaza Strip</data>
+    </edge>
+    <edge id="e35" source="2" target="17">
+      <data key="d3">9.0</data>
+      <data key="d4">began October 2023...</data>
+      <data key="d6">The hostage crisis began on October 7, 2023 when Hamas and other Islamists attacked Israel and kidnapped the hostages</data>
+    </edge>
+    <edge id="e36" source="17" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">began October 2023...</data>
+      <data key="d6">The hostage crisis began on October 7, 2023 when Hamas and other Islamists attacked Israel and kidnapped the hostages</data>
+    </edge>
+    <edge id="e37" source="6" target="25">
+      <data key="d3">8.0</data>
+      <data key="d4">calling IDF...</data>
+      <data key="d6">The State Comptroller is calling on the IDF Chief of Staff to cooperate with the probe into the failures of October 7</data>
+    </edge>
+    <edge id="e38" source="25" target="14">
+      <data key="d3">8.0</data>
+      <data key="d4">calling Prime Minister...</data>
+      <data key="d6">The State Comptroller is calling on Prime Minister Netanyahu to cooperate with the probe into the failures of October 7</data>
+    </edge>
+    <edge id="e39" source="25" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">requesting documents from...</data>
+      <data key="d6">The State Comptroller is requesting documents from the Political-Security Cabinet related to the October 7 failures</data>
+    </edge>
+    <edge id="e40" source="25" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">Comptroller, Englman conducting...</data>
+      <data key="d6">As the State Comptroller, Englman is conducting an audit of the failures on October 7 in Israel</data>
+    </edge>
+    <edge id="e41" source="2" target="26">
+      <data key="d3">2.0</data>
+      <data key="d4">comprehensive summary data...</data>
+      <data key="d6">Here is a comprehensive summary of the data provided:
+
+Hamas is a Palestinian Sunni-Islamic fundamentalist terrorist organization and political party that has been active in the Gaza Strip and parts of the West Bank. The group is known for carrying out attacks against Israeli civilian and military targets.
+
+The Simchat Torah massacre refers to a terrorist attack that was perpetrated by Hamas against Israeli communities near the Gaza Strip. Simchat Torah is a Jewish holiday celebrating the completion of the annual reading of the Torah. 
+
+According to the information provided, Hamas was responsible for carrying out attacks on Israeli communities near Gaza that led to the Simchat Torah massacre. The Simchat Torah massacre itself was a terrorist attack carried out by Hamas against these Israeli communities.
+
+While the descriptions provided are brief, they do not appear to be contradictory. Hamas is clearly identified as the perpetrator of the attacks that resulted in the Simchat Torah massacre. The descriptions indicate that Hamas targeted Israeli civilian communities near Gaza, likely in an effort to inflict casualties and spread fear among the Israeli population.
+
+In summary, Hamas, the Palestinian Sunni-Islamic fundamentalist terrorist organization, carried out attacks on Israeli communities near Gaza that culminated in the Simchat Torah massacre - a terrorist attack perpetrated by Hamas against these same Israeli civilian targets. The attack occurred during the Jewish holiday of Simchat Torah, which celebrates the completion of the annual reading of the Torah.</data>
+    </edge>
+    <edge id="e42" source="26" target="27">
+      <data key="d3">7.0</data>
+      <data key="d4">conducting internal probe...</data>
+      <data key="d6">The IDF is conducting an internal probe into its own failures related to the Simchat Torah massacre</data>
+    </edge>
+    <edge id="e43" source="2" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">Hamas engaged...</data>
+      <data key="d6">The IDF and Hamas are engaged in an ongoing conflict, with Hamas carrying out attacks on Israeli communities near Gaza</data>
+    </edge>
+    <edge id="e44" source="2" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">operates out...</data>
+      <data key="d6">Hamas is based in and operates out of the Gaza region</data>
+    </edge>
+    <edge id="e45" source="14" target="27">
+      <data key="d3">7.0</data>
+      <data key="d4">Benjamin Netanyahu commander-in-chief...</data>
+      <data key="d6">As Prime Minister, Benjamin Netanyahu is the commander-in-chief of the IDF and oversees their operations</data>
+    </edge>
+    <edge id="e46" source="29" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">attacks occurred Israeli...</data>
+      <data key="d6">The October 7 attacks occurred on Israeli communities near the Gaza border</data>
+    </edge>
+    <edge id="e47" source="6" target="35">
+      <data key="d3">10.0</data>
+      <data key="d4">Chief Staff...</data>
+      <data key="d6">Herzi Halevi is the Chief of Staff of the IDF</data>
+    </edge>
+    <edge id="e48" source="6" target="30">
+      <data key="d3">8.0</data>
+      <data key="d4">with senior officials...</data>
+      <data key="d6">Herzi Halevi met with senior officials in the U.S. Armed Forces during his visit</data>
+    </edge>
+    <edge id="e49" source="6" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">with Charles Brown,...</data>
+      <data key="d6">Herzi Halevi met with Charles Q. Brown, the Chairman of the Joint Chiefs of Staff, at the Pentagon</data>
+    </edge>
+    <edge id="e50" source="6" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">with Michael "Erik"...</data>
+      <data key="d6">Herzi Halevi met with Michael "Erik" Kurilla, the Commander of CENTCOM, for a joint situational assessment</data>
+    </edge>
+    <edge id="e51" source="6" target="33">
+      <data key="d3">8.0</data>
+      <data key="d4">lecture officers from...</data>
+      <data key="d6">Herzi Halevi delivered a lecture to officers from the U.S. and around the world at the National Defense University</data>
+    </edge>
+    <edge id="e52" source="6" target="34">
+      <data key="d3">1.0</data>
+      <data key="d4">Chief Staff...</data>
+      <data key="d6">Herzi Halevi served as Chief of Staff of the IDF during the Swords of Iron War</data>
+    </edge>
+    <edge id="e53" source="6" target="36">
+      <data key="d3">1.0</data>
+      <data key="d4">with briefed members...</data>
+      <data key="d6">Herzi Halevi met with and briefed members of the Jewish community in Washington DC</data>
+    </edge>
+    <edge id="e54" source="37" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">Aviv Kohavi IDF...</data>
+      <data key="d6">Herzi Halevi replaced Aviv Kohavi as the IDF chief of staff in 2023</data>
+    </edge>
+    <edge id="e55" source="38" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">written several articles...</data>
+      <data key="d6">Yonah Jeremy Bob has written several articles about the events surrounding the October 7 massacre and its aftermath</data>
+    </edge>
+    <edge id="e56" source="39" target="35">
+      <data key="d3">8.0</data>
+      <data key="d4">Brig.-Gen. charge...</data>
+      <data key="d6">Oren Solomon, the Brig.-Gen. in charge of the Nova probe, accused the IDF of covering up the investigations into the October 7 massacre</data>
+    </edge>
+    <edge id="e57" source="6" target="40">
+      <data key="d3">9.0</data>
+      <data key="d4">IDF chief staff...</data>
+      <data key="d6">Herzi Halevi resigned as IDF chief of staff due to the IDF's failure to prevent the October 7 massacre</data>
+    </edge>
+    <edge id="e58" source="6" target="43">
+      <data key="d3">7.0</data>
+      <data key="d4">presentation Israeli residents...</data>
+      <data key="d6">Herzi Halevi gave a presentation to Israeli residents in the southern moshav, discussing Israel's strike on Qatar and the aftermath of October 7</data>
+    </edge>
+    <edge id="e59" source="40" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">responsible October...</data>
+      <data key="d6">Hamas terrorists were responsible for the October 7, 2023 attack that killed 1,200 people and took over 200 hostages</data>
+    </edge>
+    <edge id="e60" source="40" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">investigating failures related...</data>
+      <data key="d6">The Nova probe was investigating the failures related to the October 7 massacre</data>
+    </edge>
+    <edge id="e61" source="40" target="0">
+      <data key="d3">1.0</data>
+      <data key="d4">were harmed war...</data>
+      <data key="d6">Over 200,000 Gazans were harmed in the war following the October 7 massacre</data>
+    </edge>
+    <edge id="e62" source="42" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">in the aftermath...</data>
+      <data key="d6">Israel struck Qatar in the aftermath of the October 7 massacre</data>
+    </edge>
+    <edge id="e63" source="35" target="44">
+      <data key="d3">16.0</data>
+      <data key="d4">former chief IDF...</data>
+      <data key="d6">Halevi is a former chief of the IDF and discussed military shortcomings</data>
+    </edge>
+    <edge id="e64" source="42" target="44">
+      <data key="d3">14.0</data>
+      <data key="d4">strike Qatar...</data>
+      <data key="d6">Halevi discussed Israel's strike on Qatar in his presentation</data>
+    </edge>
+    <edge id="e65" source="44" target="0">
+      <data key="d3">14.0</data>
+      <data key="d4">aftermath war...</data>
+      <data key="d6">Halevi discussed the aftermath of the war in Gaza with Israeli residents</data>
+    </edge>
+    <edge id="e66" source="45" target="0">
+      <data key="d3">2.0</data>
+      <data key="d4">editorial called release...</data>
+      <data key="d6">The Jerusalem Post editorial called for the release of hostages held in Gaza</data>
+    </edge>
+    <edge id="e67" source="46" target="14">
+      <data key="d3">9.0</data>
+      <data key="d4">investigating 2024 Israeli...</data>
+      <data key="d6">Shin Bet is investigating the 2024 Israeli secret document leak scandal, which involves Netanyahu's government</data>
+    </edge>
+    <edge id="e68" source="47" target="50">
+      <data key="d3">7.0</data>
+      <data key="d4">2024 Israeli secret...</data>
+      <data key="d6">Yedioth Ahronoth reported on the 2024 Israeli secret document leak scandal</data>
+    </edge>
+    <edge id="e69" source="48" target="50">
+      <data key="d3">1.0</data>
+      <data key="d4">2024 Israeli secret...</data>
+      <data key="d6">Axios reported on the 2024 Israeli secret document leak scandal</data>
+    </edge>
+    <edge id="e70" source="49" target="14">
+      <data key="d3">8.0</data>
+      <data key="d4">spokesperson Benjamin Netanyahu...</data>
+      <data key="d6">Eli Feldstein is the spokesperson for Benjamin Netanyahu and was arrested as part of the 2024 Israeli secret document leak scandal</data>
+    </edge>
+    <edge id="e71" source="14" target="50">
+      <data key="d3">16.0</data>
+      <data key="d4">power during time...</data>
+      <data key="d6">Benjamin Netanyahu was in power during the time of the document leak scandal</data>
+    </edge>
+    <edge id="e72" source="51" target="50">
+      <data key="d3">14.0</data>
+      <data key="d4">precursor event that...</data>
+      <data key="d6">The Gaza War was a precursor event that led to the document leak scandal</data>
+    </edge>
+    <edge id="e73" source="51" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">Gaza War...</data>
+      <data key="d6">Israel was involved in the Gaza War</data>
+    </edge>
+    <edge id="e74" source="51" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">Gaza War...</data>
+      <data key="d6">Gaza was involved in the Gaza War</data>
+    </edge>
+    <edge id="e75" source="52" target="50">
+      <data key="d3">12.0</data>
+      <data key="d4">during Gaza War...</data>
+      <data key="d6">The hostage crisis during the Gaza War was related to the later document leak scandal</data>
+    </edge>
+    <edge id="e76" source="52" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">hostage crisis involved</data>
+      <data key="d6">The Gaza War hostage crisis involved Israel</data>
+    </edge>
+    <edge id="e77" source="52" target="0">
+      <data key="d3">1.0</data>
+      <data key="d4">hostage crisis involved</data>
+      <data key="d6">The Gaza War hostage crisis involved Gaza</data>
+    </edge>
+    <edge id="e78" source="53" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">Bild reported document...</data>
+      <data key="d6">The German newspaper Bild reported on the document leak scandal</data>
+    </edge>
+  </graph>
+</graphml>

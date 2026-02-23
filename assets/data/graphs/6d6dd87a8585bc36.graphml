@@ -1,0 +1,1322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">DONALD TRUMP</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Donald Trump is a prominent American political figure who has served as the President of the United States. He is the current president, serving his second term, and was previously the former president of the United States.
+
+As the former president, Trump has been an influential figure within the Republican Party. During his time in office, he signed an executive order to strip many federal workers of their collective bargaining rights, citing national security concerns. This action was seen by some as an encroachment on the terrain reserved for Congress by the Constitution.
+
+However, since leaving office, Trump has taken a more supportive stance towards labor unions, a position that some Republicans have followed. He has also been critical of Jack Smith, a special counsel appointed to investigate him, and has called for Smith to be prosecuted.
+
+Despite the contradictory information provided, it is clear that Donald Trump has had a significant impact on American politics, both during his time as president and in the years since. He remains a polarizing figure, with supporters and critics alike, and his actions and statements continue to shape the political landscape.
+
+In summary, Donald Trump is a former and current President of the United States, who has been an influential figure within the Republican Party. His actions and policies have had a significant impact on the country, and he continues to be a prominent and controversial political figure.</data>
+    </node>
+    <node id="1">
+      <data key="d0">AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The American Federation of Government Employees is a labor union representing federal workers that had been fighting Trump's executive orders in court</data>
+    </node>
+    <node id="2">
+      <data key="d0">LIZ SHULER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Liz Shuler is the president of the AFL-CIO labor federation, which has been advocating for the legislation to restore federal workers' collective bargaining rights</data>
+    </node>
+    <node id="3">
+      <data key="d0">HOUSE REPUBLICANS</data>
+      <data key="d1" />
+      <data key="d2">15.0</data>
+      <data key="d5" />
+    </node>
+    <node id="4">
+      <data key="d0">FEDERAL WORKFORCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">19.0</data>
+      <data key="d5">President Trump sees the federal workforce as an impediment to pushing through his agenda</data>
+    </node>
+    <node id="5">
+      <data key="d0">AFL-CIO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The AFL-CIO is the largest federation of unions in the United States, representing over 12 million workers</data>
+    </node>
+    <node id="6">
+      <data key="d0">FEDERAL WORKERS</data>
+      <data key="d1" />
+      <data key="d2">24.0</data>
+      <data key="d5" />
+    </node>
+    <node id="7">
+      <data key="d0">CONGRESS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The United States Congress is the legislative branch of the federal government, responsible for directing and appropriating federal spending. As the legislative branch, Congress is tasked with drafting and passing laws, as well as overseeing the executive branch and its activities.
+
+Congress is composed of two chambers: the Senate and the House of Representatives. The Senate has 100 members, two from each state, while the House has 435 members, with the number of representatives per state based on population. Members of Congress are elected by the people to represent their interests and concerns at the federal level.
+
+One of the primary responsibilities of Congress is to direct and appropriate federal spending. This means that Congress, not the president, has the power to decide how taxpayer money is allocated and spent. Congress is responsible for passing annual appropriations bills that fund the various agencies and programs of the federal government.
+
+However, in recent years, there has been some concern that Congress has not done enough to stand in the way of the president's actions. Some have argued that Congress has been too deferential to the executive branch, allowing the president to take actions that may not align with the will of Congress or the American people.
+
+Despite these criticisms, Congress remains a vital and important part of the American system of government. It serves as a check on the power of the executive branch, and its members are responsible for representing the interests of their constituents at the federal level.
+
+Overall, the United States Congress is the legislative branch of the federal government, responsible for drafting and passing laws, directing federal spending, and overseeing the executive branch. While it has faced some criticism in recent years, Congress remains a crucial component of the American system of government.</data>
+    </node>
+    <node id="8">
+      <data key="d0">LABOR UNIONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Labor unions are organizations that represent workers and negotiate with employers</data>
+    </node>
+    <node id="9">
+      <data key="d0">CNN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">CNN is a major news organization</data>
+    </node>
+    <node id="10">
+      <data key="d0">SENATE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The Senate is the upper chamber of the United States Congress, which serves as the legislative branch of the federal government. It is composed of 100 members, with each state represented by two Senators, regardless of the state's population.
+
+The U.S. Senate plays a crucial role in the federal government, as it holds the power to approve treaties, confirm presidential appointments, and conduct impeachment trials. In the event that the President of the United States is impeached, the Senate holds the trial and votes on whether to convict and remove the official from office.
+
+While the Senate is generally seen as a more deliberative and less partisan body compared to the House of Representatives, there have been instances where Republican Senators have voiced frustrations with their party's leadership on various issues, such as foreign policy and healthcare. This reflects the diverse range of perspectives and interests represented within the Senate.
+
+Despite these occasional disagreements, the Senate remains an essential component of the U.S. Congress, working alongside the House of Representatives to enact laws, provide oversight of the executive branch, and address the needs and concerns of the American people.</data>
+    </node>
+    <node id="11">
+      <data key="d0">FACEBOOK</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="12">
+      <data key="d0">MINNESOTA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">19.0</data>
+      <data key="d5">The U.S. state of Minnesota</data>
+    </node>
+    <node id="13">
+      <data key="d0">CHRIS MADEL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">19.0</data>
+      <data key="d5">A Minnesota GOP gubernatorial candidate who dropped out of the race</data>
+    </node>
+    <node id="14">
+      <data key="d0">TRUMP</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">19.0</data>
+      <data key="d5">Donald Trump is the former President of the United States. He served as the 45th president, holding office from 2017 to 2021.
+
+During his presidency, Trump's leadership and policies faced both support and criticism from various individuals and groups. Some of his early actions, such as efforts to thin the federal workforce, sparked backlash. Additionally, his policies and actions were met with resistance from some Senate Republicans.
+
+Trump has been a vocal figure, both during and after his presidency. He has criticized individuals like Jack Smith and called for them to be prosecuted. Composer Philip Glass has also protested against Trump's leadership.
+
+Despite the mixed reactions to his presidency, Donald Trump remains a prominent and influential figure in American politics. His time in office and the ongoing discussions surrounding his actions and legacy continue to shape the political landscape.
+
+Overall, the provided descriptions offer a comprehensive overview of Donald Trump's tenure as the former President of the United States, highlighting both the support and criticism he has received for his leadership and policies.</data>
+    </node>
+    <node id="15">
+      <data key="d0">PHILIP GLASS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Philip Glass is an American composer known for his pioneering work in minimalist music. He has had a prolific career, composing numerous symphonies, operas, and other musical works.
+
+Recently, Glass made headlines when he canceled the premiere of a symphony at the Kennedy Center in protest of President Trump's leadership. This decision was a bold statement, as Glass is known for his commitment to his craft and his reluctance to get involved in political controversies.
+
+Despite his decision to cancel the symphony premiere, Glass remains one of the most respected and influential composers of his generation. He is widely recognized for his unique style, which is characterized by repetitive patterns, slowly evolving harmonies, and a focus on the exploration of musical time and space.
+
+Glass's music has been widely performed and recorded, and he has received numerous accolades and awards for his contributions to the field of classical music. He has also collaborated with a wide range of artists, including visual artists, filmmakers, and choreographers, further expanding the reach and impact of his work.
+
+In addition to his musical accomplishments, Glass is also known for his commitment to social and political causes. His decision to cancel the Kennedy Center symphony premiere was a reflection of his belief that artists have a responsibility to use their platforms to speak out against injustice and oppression.
+
+Overall, Philip Glass is a highly respected and influential figure in the world of classical music, known for his innovative and thought-provoking compositions, as well as his willingness to take a stand on important social and political issues.</data>
+    </node>
+    <node id="16">
+      <data key="d0">KENNEDY CENTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">22.0</data>
+      <data key="d5">The Kennedy Center is a renowned performing arts center located in Washington, D.C. It was established in 1971 and named after the 35th President of the United States, John F. Kennedy.
+
+The Kennedy Center is a multi-venue performing arts complex that hosts a wide range of cultural events and performances. It is home to several resident artistic organizations, including the National Symphony Orchestra, the Washington National Opera, and the Washington Ballet. The center's main building, designed by architect Edward Durell Stone, features a distinctive modern architecture with a large, open-air plaza and a series of performance halls and theaters.
+
+The Kennedy Center is a hub for the performing arts in the nation's capital, offering a diverse program of music, dance, theater, and other cultural events throughout the year. It is a popular destination for both local residents and visitors to Washington, D.C., attracting millions of attendees annually.
+
+In addition to its regular programming, the Kennedy Center has also been the site of significant cultural events, such as the premiere of a Philip Glass symphony. This renowned composer's work was scheduled to be premiered at the Kennedy Center, further solidifying the center's reputation as a premier venue for the performing arts.
+
+Overall, the Kennedy Center is a vital cultural institution that plays a crucial role in the artistic and cultural life of Washington, D.C. and the surrounding region. Its commitment to excellence in the performing arts and its diverse programming make it a beloved and iconic destination for both local and international audiences.</data>
+    </node>
+    <node id="17">
+      <data key="d0">INDIA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">7.0</data>
+      <data key="d5">India is a country located in South Asia. It is a large and diverse nation, home to over 1.3 billion people, making it the second-most populous country in the world. India has a rich cultural heritage, with a long history dating back thousands of years.
+
+Recently, India has announced a significant free trade deal with the European Union (EU), which is expected to affect up to 2 billion people. This trade agreement is seen as a major economic and diplomatic achievement for India, as it aims to strengthen economic ties between the two regions and facilitate the flow of goods, services, and investments.
+
+India is a federal republic, with a parliamentary system of government. It is a diverse country, with a wide range of languages, religions, and ethnic groups. The official languages of India are Hindi and English, though there are numerous other regional languages spoken throughout the country.
+
+India's economy is one of the largest in the world, with a rapidly growing middle class and a thriving technology sector. The country has made significant strides in recent years, with a focus on infrastructure development, industrialization, and the promotion of foreign investment.
+
+Despite its economic progress, India still faces a number of challenges, including poverty, inequality, and environmental degradation. The government has implemented various social welfare programs and initiatives to address these issues, but more work remains to be done.
+
+Overall, India is a complex and multifaceted country, with a rich cultural heritage, a dynamic economy, and a diverse population. The recent free trade deal with the EU is a testament to India's growing global influence and its commitment to strengthening its economic ties with the international community.</data>
+    </node>
+    <node id="18">
+      <data key="d0">EU</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The European Union</data>
+    </node>
+    <node id="19">
+      <data key="d0">PRETTI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">19.0</data>
+      <data key="d5">Pretti, whose death scrambled Second Amendment politics for Trump</data>
+    </node>
+    <node id="20">
+      <data key="d0">GROK</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="21">
+      <data key="d0">ELON MUSK</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="22">
+      <data key="d0">EUROPEAN UNION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The European Union (EU) is a political and economic union of 27 member states. It is a powerful organization that has made significant strides in various areas, including trade and technology regulation.
+
+One of the EU's recent achievements is the announcement of a free trade deal with India, which could potentially affect up to 2 billion people. This deal is expected to boost economic cooperation and trade between the EU and India, two of the world's largest economies.
+
+However, the EU has also taken on a more regulatory role, particularly in the technology sector. The EU has opened an investigation into Elon Musk's AI chatbot, Grok, over concerns about the production of sexualized images. This investigation highlights the EU's commitment to ensuring that emerging technologies, such as AI, are developed and used in a responsible and ethical manner.
+
+Despite the contradictory information provided in the descriptions, the EU's actions can be seen as a balanced approach to promoting economic growth while also prioritizing the protection of its citizens and upholding its values. The EU's investigation into Grok does not necessarily contradict its free trade deal with India, as the EU is demonstrating its willingness to engage in both economic cooperation and regulatory oversight as needed.
+
+In summary, the European Union is a powerful political and economic union that is actively shaping global affairs. It has announced a significant free trade deal with India, while also taking a proactive stance in regulating emerging technologies, such as AI, to ensure they are developed and used responsibly. The EU's actions reflect its commitment to balancing economic growth with the protection of its citizens and the promotion of its values.</data>
+    </node>
+    <node id="23">
+      <data key="d0">ARTIFICIAL INTELLIGENCE IMAGES</data>
+      <data key="d1" />
+      <data key="d2">19.0</data>
+      <data key="d5" />
+    </node>
+    <node id="24">
+      <data key="d0">THE VILLAGES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The Villages, a traditionally conservative area, is becoming a force for Democrats</data>
+    </node>
+    <node id="25">
+      <data key="d0">DEMOCRATS</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="26">
+      <data key="d0">JEFF VAN DREW</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Jeff Van Drew is a Republican Representative from New Jersey who voted in favor of the bill, but said he was not trying to send a message to the president</data>
+    </node>
+    <node id="27">
+      <data key="d0">REPUBLICANS</data>
+      <data key="d1" />
+      <data key="d2">15.0</data>
+      <data key="d5" />
+    </node>
+    <node id="28">
+      <data key="d0">DEMOCRATIC PARTY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The Democratic Party is a major political party in the United States, with a long history and a diverse set of policies and priorities. While the party has traditionally had strong ties to labor unions, it is also a broad coalition of various interest groups and ideological factions.
+
+The Democratic Party is often seen as being more progressive and left-leaning than its counterpart, the Republican Party. It has generally advocated for policies that aim to support working-class Americans, such as strengthening labor unions, increasing the minimum wage, and expanding access to healthcare and social services.
+
+However, the party's positions and priorities can vary depending on the specific political climate and the views of its elected officials. In the context of the 2026 midterm elections, the Democratic Party is likely to focus on a range of issues, including the economy, healthcare, and the environment.
+
+While President Trump has expressed concerns that the Democratic Party may try to find a reason to impeach him if they win the 2026 midterm elections, it is important to note that the impeachment process is a complex and highly political one, and the decision to pursue impeachment would ultimately be up to the elected representatives in Congress.
+
+Overall, the Democratic Party is a diverse and dynamic political organization that plays a significant role in shaping the political landscape of the United States. Its policies and priorities are likely to continue evolving in response to the changing needs and concerns of the American people.</data>
+    </node>
+    <node id="29">
+      <data key="d0">WHITE HOUSE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The White House is the executive office of the President of the United States. It serves as the official residence and workplace of the President, and is a symbol of the American presidency and the United States government.
+
+The White House is located in Washington, D.C. and has been the official residence of every U.S. president since John Adams in 1800. The building is a National Historic Landmark and is one of the most recognizable landmarks in the world.
+
+In addition to serving as the President's official residence, the White House also houses the Executive Office of the President, which includes the Office of the President and several federal agencies that support the President's work. These agencies are responsible for a wide range of functions, including policy development, national security, and public outreach.
+
+The White House is also mentioned in the context of immigration enforcement. As the seat of the executive branch of the U.S. government, the White House plays a significant role in shaping and implementing the country's immigration policies. The President, along with their administration, is responsible for enforcing immigration laws and regulations, and the White House is often the center of debates and discussions around these issues.
+
+Overall, the White House is a complex and multifaceted institution that serves as the symbolic and functional center of the American presidency and the U.S. government. It is a place of great historical significance and continues to play a crucial role in the country's political and social landscape.</data>
+    </node>
+    <node id="30">
+      <data key="d0">JOE BIDEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Joe Biden is the current president of the United States. He was elected in 2020 and assumed office on January 20, 2021. Prior to becoming president, Biden served as the 47th vice president of the United States under President Barack Obama from 2009 to 2017.
+
+The descriptions provided about Joe Biden's presidency are contradictory. The first description states that he is the current president, while the second description states that he was the previous president. To resolve this contradiction, the comprehensive summary is that Joe Biden is the current president of the United States, having been elected in 2020 and assuming office in January 2021. He is not the previous president, as that would be his predecessor, Donald Trump.
+
+In summary, Joe Biden is the 46th and current president of the United States, having been elected in 2020 and taking office on January 20, 2021. Prior to becoming president, he served as the 47th vice president under President Barack Obama from 2009 to 2017.</data>
+    </node>
+    <node id="31">
+      <data key="d0">CHUCK SCHUMER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Chuck Schumer is the Senate Minority Leader for the Democratic Party</data>
+    </node>
+    <node id="32">
+      <data key="d0">MAKE AMERICA GREAT AGAIN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A political movement and slogan associated with Donald Trump and his supporters</data>
+    </node>
+    <node id="33">
+      <data key="d0">REPUBLICAN PARTY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The Republican Party is the conservative political party in the United States. It is currently led by former President Donald Trump, who has been a dominant figure within the party in recent years. The party currently controls both houses of Congress, though its majority in the House of Representatives is slim and facing challenges.
+
+The Republican Party is known for its conservative values and policies, which generally include support for lower taxes, reduced government regulation, and a strong national defense. The party has traditionally been supported by a base of voters who identify as socially and fiscally conservative, though its coalition has evolved over time.
+
+In the 2020 presidential election, the Republican Party's nominee, Donald Trump, was defeated by the Democratic candidate, Joe Biden. However, Trump has continued to be a prominent voice within the party, and has been urging Republicans to win back control of Congress in the 2022 midterm elections.
+
+Despite the party's current challenges, the Republican Party remains a significant political force in the United States. Its supporters are passionate and engaged, and the party continues to play a key role in shaping the country's political landscape.
+
+Overall, the Republican Party is a complex and multifaceted organization, with a long and storied history in American politics. Its future direction and influence will likely continue to be a subject of intense debate and scrutiny in the years to come.</data>
+    </node>
+    <node id="34">
+      <data key="d0">HOUSE OF REPRESENTATIVES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The House of Representatives is one of the two chambers of the United States Congress, along with the Senate. It is currently controlled by the Republican Party with a slim majority.
+
+The House of Representatives is the lower chamber of the U.S. Congress, with 435 voting members, each representing a congressional district for a two-year term. The number of representatives a state has is based on its population, with more populous states having more representatives. The House is responsible for initiating revenue bills, impeaching federal officials, and electing the President if there is no electoral college majority.
+
+The House of Representatives plays a crucial role in the legislative process, working alongside the Senate to pass bills and resolutions that are then sent to the President for signature or veto. As the more numerous and directly representative body, the House is often seen as more responsive to public opinion than the Senate.
+
+While the House is currently controlled by the Republican Party, the majority is slim, with a narrow margin of seats. This means that bipartisan cooperation and compromise may be necessary to pass legislation, as neither party has a commanding majority. The balance of power in the House can shift significantly in each election, with the majority party often changing hands between the Democrats and Republicans.
+
+Overall, the House of Representatives is a vital institution in the American system of government, serving as a direct link between the people and their elected representatives in Congress. Its role in the legislative process, oversight of the executive branch, and representation of diverse constituencies makes it a crucial component of the nation's democratic system.</data>
+    </node>
+    <node id="35">
+      <data key="d0">MARJORIE TAYLOR GREENE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Marjorie Taylor Greene is a Republican Congresswoman from Georgia. She has been a controversial figure in American politics, known for her outspoken and sometimes divisive views.
+
+Greene first gained national attention when she broke with former President Donald Trump over his reluctance to release investigative files related to the Jeffrey Epstein case. This move was seen as a departure from her typically staunch support for the former president.
+
+However, more recently, Greene has made headlines for a different reason – her resignation from Congress. This decision has contributed to the shrinking Republican majority in the House of Representatives, as her departure leaves a vacant seat that the party will need to defend in an upcoming special election.
+
+Despite the contradictory information provided in the descriptions, it appears that Greene's resignation from Congress is the more recent and significant development. While her previous disagreement with Trump over the Epstein case may have been noteworthy, her decision to step down from her elected position is likely to have a more immediate and tangible impact on the political landscape.
+
+In summary, Marjorie Taylor Greene is a Republican Congresswoman from Georgia who has been a controversial figure in American politics. She recently resigned from her position, contributing to the shrinking Republican majority in the House of Representatives. This decision is the more significant and current development in her political career, overshadowing her previous disagreement with former President Trump.</data>
+    </node>
+    <node id="36">
+      <data key="d0">DOUG LAMALFA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Doug LaMalfa is a Republican Congressman from California who recently passed away, further reducing the Republican majority in the House.</data>
+    </node>
+    <node id="37">
+      <data key="d0">EPSTEIN FILES TRANSPARENCY ACT</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The Epstein Files Transparency Act is a bill that some Republican lawmakers defied the White House to support, joining with Democrats.</data>
+    </node>
+    <node id="38">
+      <data key="d0">BRIAN FITZPATRICK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Brian Fitzpatrick is a Republican Congressman from Pennsylvania who broke with his party on a recent vote, arguing that ideas supported by most members should determine the legislative agenda, not just party leadership.</data>
+    </node>
+    <node id="39">
+      <data key="d0">HOUSE DEMOCRATS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The Democratic members of the House of Representatives.</data>
+    </node>
+    <node id="40">
+      <data key="d0">GOP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The GOP, also known as the Grand Old Party, is the Republican Party, one of the two major political parties in the United States. The GOP has a long and storied history, dating back to its founding in the 1850s as a political movement opposed to the expansion of slavery.
+
+Over the years, the GOP has evolved and adapted to changing political landscapes, but it has remained a powerful force in American politics. The party is known for its conservative values, including a strong belief in limited government, free-market economics, and traditional social values.
+
+The GOP's core principles include a commitment to individual liberty, fiscal responsibility, and a strong national defense. The party has historically been associated with policies that favor business interests, lower taxes, and a more limited role for the federal government in the lives of citizens.
+
+Despite its conservative leanings, the GOP has also been home to a diverse range of political views and factions, from moderates to staunch conservatives. This diversity has at times led to internal divisions and power struggles within the party, but it has also allowed the GOP to adapt and evolve in response to changing political realities.
+
+Today, the GOP remains a major player in American politics, with a significant presence in Congress, state legislatures, and local governments across the country. The party's influence and impact on the political landscape continue to be felt, as it works to advance its agenda and compete with the Democratic Party for the hearts and minds of the American electorate.</data>
+    </node>
+    <node id="41">
+      <data key="d0">DEPARTMENT OF GOVERNMENT EFFICIENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The Department of Government Efficiency is a federal agency led by Elon Musk that is implementing budget cuts and layoffs</data>
+    </node>
+    <node id="42">
+      <data key="d0">NATIONAL NUCLEAR SECURITY ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Nuclear Security Administration is a federal agency that safeguards America's nuclear weapons, and has had employees laid off</data>
+    </node>
+    <node id="43">
+      <data key="d0">CENTERS FOR DISEASE CONTROL AND PREVENTION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The Centers for Disease Control and Prevention is a major employer in Atlanta that has had over 1,000 workers laid off</data>
+    </node>
+    <node id="44">
+      <data key="d0">NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The National Oceanic and Atmospheric Administration (NOAA) is a US government scientific agency that plays a crucial role in monitoring and understanding the Earth's environment. NOAA is responsible for a wide range of activities, including weather forecasting, climate research, ocean exploration, and environmental protection.
+
+As a government agency, NOAA is funded through federal appropriations, and there are concerns among some attendees about potential cuts to its budget. This is a significant issue, as NOAA's work is essential for providing accurate weather predictions, tracking climate change, and protecting the nation's natural resources.
+
+NOAA's diverse portfolio of responsibilities includes operating a fleet of research and survey ships, managing a network of weather satellites, and conducting scientific research on a variety of environmental topics. The agency's work is vital for supporting a wide range of industries, from agriculture and transportation to tourism and emergency management.
+
+Despite the concerns about potential budget cuts, NOAA continues to play a crucial role in advancing our understanding of the natural world and helping to address pressing environmental challenges. The agency's scientists and researchers work tirelessly to collect and analyze data, develop new technologies, and provide critical information to policymakers and the public.
+
+In summary, the National Oceanic and Atmospheric Administration is a vital US government scientific agency that is responsible for a wide range of environmental monitoring and research activities. While there are concerns about potential budget cuts, NOAA's work remains essential for protecting the nation's natural resources and supporting a wide range of industries and communities.</data>
+    </node>
+    <node id="45">
+      <data key="d0">PAUL TONKO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Paul Tonko is a Democratic US Representative from New York. He has been serving in the United States House of Representatives since 2009, representing New York's 20th congressional district.
+
+Tonko is a member of the Democratic Party and has been a vocal advocate for progressive policies during his time in Congress. He has worked on a range of issues, including renewable energy, environmental protection, and healthcare reform.
+
+As a Congressman, Tonko has been recognized for his efforts to promote clean energy and address climate change. He has been a strong supporter of initiatives to expand the use of renewable energy sources, such as solar and wind power, and has worked to strengthen environmental regulations to protect air and water quality.
+
+In addition to his work on energy and environmental issues, Tonko has also been a proponent of healthcare reform. He has supported the Affordable Care Act and has worked to expand access to healthcare services for his constituents.
+
+Overall, Paul Tonko is a experienced and respected Democratic Congressman who has been a vocal advocate for progressive policies during his time in the House of Representatives.</data>
+    </node>
+    <node id="46">
+      <data key="d0">NOAA</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="47">
+      <data key="d0">DOGE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">DOGE, also known as Dogecoin, is a cryptocurrency that has gained significant attention in recent years. Dogecoin was initially created as a lighthearted and playful alternative to traditional cryptocurrencies, featuring the Shiba Inu dog as its mascot.
+
+One of the key aspects of DOGE is its association with Elon Musk, the CEO of Tesla and SpaceX. Musk has been vocal about his support for Dogecoin, often tweeting about the cryptocurrency and even suggesting that it could become the "currency of the internet." This association has contributed to the growing popularity and interest in DOGE, as Musk's influence in the tech and business world has helped to raise the profile of the cryptocurrency.
+
+Despite its origins as a joke, Dogecoin has evolved into a legitimate cryptocurrency with a dedicated community of supporters. The cryptocurrency operates on a decentralized blockchain network, similar to other cryptocurrencies, and can be used for various transactions and payments. While the value of DOGE has fluctuated over time, it has experienced significant price increases, particularly during periods of high market interest and speculation.
+
+One of the unique aspects of Dogecoin is its relatively low transaction fees and fast processing times, which have made it an attractive option for smaller transactions and micropayments. Additionally, the Dogecoin community has been known for its charitable initiatives, with the community often rallying to support various causes and organizations.
+
+Overall, DOGE, or Dogecoin, is a cryptocurrency that has gained a significant following and has become a recognizable part of the broader cryptocurrency landscape. While its origins may have been lighthearted, Dogecoin has evolved into a legitimate cryptocurrency with a dedicated community and a growing presence in the digital asset market.</data>
+    </node>
+    <node id="48">
+      <data key="d0">VOTERS</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="49">
+      <data key="d0">HOUSE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The lower chamber of the US Congress</data>
+    </node>
+    <node id="50">
+      <data key="d0">MUSK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Elon Musk, the CEO of Tesla and SpaceX</data>
+    </node>
+    <node id="51">
+      <data key="d0">DEPARTMENT OF EDUCATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">A US government department</data>
+    </node>
+    <node id="52">
+      <data key="d0">JIMMY CARTER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">A former US President</data>
+    </node>
+    <node id="53">
+      <data key="d0">JOHN LEWIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">A civil rights leader and former US Representative</data>
+    </node>
+    <node id="54">
+      <data key="d0">FOX NEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Fox News is a media organization that reported on Jack Smith's testimony to Congress</data>
+    </node>
+    <node id="55">
+      <data key="d0">JACK SMITH</data>
+      <data key="d1" />
+      <data key="d2">11.0</data>
+      <data key="d5" />
+    </node>
+    <node id="56">
+      <data key="d0">JIM JORDAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Jim Jordan, the Republican chairman, said the cases against Trump were always about politics</data>
+    </node>
+    <node id="57">
+      <data key="d0">BRANDON GILL</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Brandon Gill, a Republican representative, grilled Smith over subpoenas of phone records belonging to several Republicans</data>
+    </node>
+    <node id="58">
+      <data key="d0">DARRELL ISSA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Darrell Issa, a Republican representative, accused Smith of "spying" on the lawmakers whose records were subpoenaed</data>
+    </node>
+    <node id="59">
+      <data key="d0">MARSHA BLACKBURN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Marsha Blackburn is a senator whose phone records were subpoenaed by Smith</data>
+    </node>
+    <node id="60">
+      <data key="d0">BILL HAGERTY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Bill Hagerty is a senator whose phone records were subpoenaed by Smith</data>
+    </node>
+    <node id="61">
+      <data key="d0">LINDSEY GRAHAM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Lindsey Graham is a senator whose phone records were subpoenaed by Smith</data>
+    </node>
+    <node id="62">
+      <data key="d0">RON JOHNSON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Ron Johnson is a senator whose phone records were subpoenaed by Smith</data>
+    </node>
+    <node id="63">
+      <data key="d0">MIKE KELLY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Mike Kelly is a Republican representative whose phone records were subpoenaed by Jack Smith</data>
+    </node>
+    <node id="64">
+      <data key="d0">DEPARTMENT OF JUSTICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The US Department of Justice, led by Attorney General Pam Bondi, is expected to try to indict Jack Smith</data>
+    </node>
+    <node id="65">
+      <data key="d0">PAM BONDI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Pam Bondi is the Attorney General who is expected to oversee the potential indictment of Jack Smith</data>
+    </node>
+    <node id="66">
+      <data key="d0">REBECCA BALINT</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Rebecca Balint is a Democratic Representative who questioned Jack Smith during a hearing</data>
+    </node>
+    <node id="67">
+      <data key="d0">KEVIN KILEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Kevin Kiley is a Republican Representative who pressed Jack Smith during a hearing</data>
+    </node>
+    <node id="68">
+      <data key="d0">KRISTI NOEM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Kristi Noem, a Republican politician</data>
+    </node>
+    <node id="69">
+      <data key="d0">LORI TRAHAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Lori Trahan, a Republican member of Congress</data>
+    </node>
+    <node id="70">
+      <data key="d0">TRUMP ORDER</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">18.0</data>
+      <data key="d5">An executive order issued by former President Donald Trump</data>
+    </node>
+    <node id="71">
+      <data key="d0">REPUBLICANS IN CONGRESS</data>
+      <data key="d1" />
+      <data key="d2">18.0</data>
+      <data key="d5" />
+    </node>
+    <node id="72">
+      <data key="d0">SUSAN COLLINS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A Republican Senator from Maine who has criticized President Trump's tariffs, saying they will harm Maine's industries</data>
+    </node>
+    <node id="73">
+      <data key="d0">JOSH HAWLEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A Republican Senator from Missouri who warned of a "massive crisis" if Congress does not act to renew enhanced health care subsidies</data>
+    </node>
+    <node id="74">
+      <data key="d0">DON BACON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A Republican Congressman from Nebraska who has been a consistent critic of President Trump's approach to Russia's incursion into Ukraine</data>
+    </node>
+    <node id="75">
+      <data key="d0">JOHN KENNEDY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A Republican Senator from Louisiana who pushed back on President Trump's calls to end the filibuster</data>
+    </node>
+    <node id="76">
+      <data key="d0">JEFFREY EPSTEIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A convicted sex offender whose case led to a break between President Trump and Congresswoman Marjorie Taylor Greene</data>
+    </node>
+    <node id="77">
+      <data key="d0">JEFF FLAKE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">A former Republican Senator from Arizona who did not run for re-election in 2018 in part because he refused to unconditionally back President Trump</data>
+    </node>
+    <node id="78">
+      <data key="d0">VLADIMIR PUTIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The President of Russia, whose incursion into Ukraine has been criticized by some Republican lawmakers</data>
+    </node>
+    <node id="79">
+      <data key="d0">VOLODYMYR ZELENSKY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The President of Ukraine, who has received a "condescending, boorish behavior" from President Trump and Vice President, according to Congressman Bacon</data>
+    </node>
+    <node id="80">
+      <data key="d0">LISA MURKOWSKI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Lisa Murkowski is a Republican Senator from Alaska who has expressed disagreement with some of the actions of the White House</data>
+    </node>
+    <node id="81">
+      <data key="d0">JOHN THUNE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">John Thune is the Senate Majority Leader and a Republican from South Dakota who says Congress has not relinquished its authority as an independent, coequal branch</data>
+    </node>
+    <node id="82">
+      <data key="d0">MOLLY REYNOLDS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Molly Reynolds is an expert on Congress from the Brookings Institution who says Congress has been ceding power to the executive and judicial branches for decades</data>
+    </node>
+    <node id="83">
+      <data key="d0">JANUARY 6TH ATTACK</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The attack on the U.S. Capitol building on January 6, 2021</data>
+    </node>
+    <edge id="e0" source="0" target="3">
+      <data key="d3">9.0</data>
+      <data key="d4">House Republicans Donald...</data>
+      <data key="d6">Donald Trump and House Republicans
+
+Donald Trump has significant influence over the Republican members of the House of Representatives, though his grip has weakened in recent votes. The House Republicans have not always been in lockstep with the former president, as evidenced by their recent vote to rebuke Trump's actions to strip federal workers of their collective bargaining rights.
+
+Despite Trump's waning influence, he still maintains a strong hold over a significant portion of the House Republican caucus. Many GOP representatives remain loyal to the former president and are willing to support his agenda, even when it goes against the party's traditional positions. This dynamic has led to tensions within the Republican Party, as some members seek to distance themselves from Trump's more controversial policies and statements.
+
+At the same time, the House Republicans have shown a willingness to break with Trump on certain issues. The vote to rebuke his actions on federal worker collective bargaining rights is a notable example of this. This suggests that while Trump's influence remains substantial, there are limits to his control over the House GOP, and some representatives are willing to chart their own course when they believe it is in the best interest of their constituents.
+
+Overall, the relationship between Donald Trump and the House Republicans is a complex and evolving one. While the former president still holds sway over a significant portion of the caucus, there are signs that his grip may be loosening, and that some House Republicans are willing to exercise their own independent judgment on key issues. As the political landscape continues to shift, it will be important to monitor the dynamics between Trump and the House GOP, and how these relationships shape the legislative agenda and policy outcomes in the coming years.</data>
+    </edge>
+    <edge id="e1" source="0" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Government Employees been...</data>
+      <data key="d6">The American Federation of Government Employees has been fighting Trump's executive orders in court to take away federal workers' rights</data>
+    </edge>
+    <edge id="e2" source="0" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">federal workers collective...</data>
+      <data key="d6">President Trump stripped federal workers of their collective bargaining rights through an executive order</data>
+    </edge>
+    <edge id="e3" source="0" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">federal workforce...</data>
+      <data key="d6">President Trump sees the federal workforce as an impediment to his agenda and has sought to weaken unions and workers' rights</data>
+    </edge>
+    <edge id="e4" source="1" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">AFL-CIO, Liz Shuler...</data>
+      <data key="d6">As president of the AFL-CIO, Liz Shuler has been advocating for the legislation to restore federal workers' collective bargaining rights</data>
+    </edge>
+    <edge id="e5" source="1" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">Government Employees represents...</data>
+      <data key="d6">The American Federation of Government Employees represents and advocates for federal workers</data>
+    </edge>
+    <edge id="e6" source="1" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">larger labor federation...</data>
+      <data key="d6">The AFL-CIO is the larger labor federation that the American Federation of Government Employees is a part of</data>
+    </edge>
+    <edge id="e7" source="7" target="0">
+      <data key="d3">7.0</data>
+      <data key="d4">with Congress during...</data>
+      <data key="d6">Donald Trump interacted with Congress during his presidency</data>
+    </edge>
+    <edge id="e8" source="7" target="8">
+      <data key="d3">8.0</data>
+      <data key="d4">work with Congress...</data>
+      <data key="d6">Labor unions lobby and work with Congress on legislation affecting workers</data>
+    </edge>
+    <edge id="e9" source="7" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">includes both House...</data>
+      <data key="d6">The US Congress includes both the House of Representatives and the Senate</data>
+    </edge>
+    <edge id="e10" source="7" target="11">
+      <data key="d3">7.0</data>
+      <data key="d4">with regulate social...</data>
+      <data key="d6">Congress may interact with or regulate social media platforms like Facebook</data>
+    </edge>
+    <edge id="e11" source="7" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">with covered...</data>
+      <data key="d6">Congress may interact with or be covered by major news organizations like CNN</data>
+    </edge>
+    <edge id="e12" source="8" target="0">
+      <data key="d3">1.0</data>
+      <data key="d4">interactions relationships with...</data>
+      <data key="d6">Donald Trump had interactions and relationships with labor unions during his presidency</data>
+    </edge>
+    <edge id="e13" source="13" target="14">
+      <data key="d3">8.0</data>
+      <data key="d4">Trump's immigration policy...</data>
+      <data key="d6">Chris Madel cited Trump's immigration policy as a reason for dropping out of the Minnesota gubernatorial race</data>
+    </edge>
+    <edge id="e14" source="14" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">Second Amendment politics...</data>
+      <data key="d6">Pretti's death scrambled Second Amendment politics for Trump</data>
+    </edge>
+    <edge id="e15" source="15" target="16">
+      <data key="d3">16.0</data>
+      <data key="d4">renowned American composer,...</data>
+      <data key="d6">Philip Glass, a renowned American composer, has canceled the premiere of one of his symphonies at the prestigious Kennedy Center in Washington, D.C., in protest of the leadership of former U.S. President Donald Trump.
+
+The decision to cancel the symphony premiere was made by Glass as a form of political protest against the policies and actions of the Trump administration. The three descriptions provided all convey the same core information – that Glass, known for his innovative and influential minimalist compositions, has chosen to withdraw his work from the Kennedy Center's programming in order to voice his dissent against the Trump presidency.
+
+The Kennedy Center, one of the most esteemed performing arts venues in the United States, has a long history of hosting high-profile musical events and premieres. Glass's decision to cancel the symphony premiere at this prestigious institution underscores the depth of his opposition to the Trump administration's policies and leadership.
+
+While the specific reasons for Glass's protest are not explicitly stated in the provided descriptions, it is reasonable to assume that the composer's decision was motivated by his concerns over the direction of the country under Trump's presidency. The descriptions suggest that Glass felt compelled to take a stand and use his artistic platform to express his political views and dissatisfaction with the Trump administration's actions and policies.
+
+In the face of this decision, the Kennedy Center is likely to face the challenge of finding a suitable replacement for the canceled symphony premiere, as well as navigating the potential public and media attention surrounding Glass's protest. The center's response to this situation will be closely watched, as it navigates the delicate balance between artistic expression and political neutrality.
+
+Overall, this incident highlights the intersection of art, politics, and social activism, as a renowned composer like Philip Glass uses his creative platform to voice his opposition to the leadership of the country. The comprehensive summary provided here aims to capture the essence of this event and the motivations behind Glass's decision, while acknowledging the potential complexities and implications that may arise from his protest.</data>
+    </edge>
+    <edge id="e16" source="17" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">have announced free...</data>
+      <data key="d6">India and the EU have announced a free trade deal affecting up to 2 billion people</data>
+    </edge>
+    <edge id="e17" source="20" target="21">
+      <data key="d3">17.0</data>
+      <data key="d4">chatbot created Elon...</data>
+      <data key="d6">Grok is an AI chatbot created by Elon Musk's company
+Elon Musk's company created the AI chatbot Grok</data>
+    </edge>
+    <edge id="e18" source="20" target="22">
+      <data key="d3">9.0</data>
+      <data key="d4">investigating Elon Musk's...</data>
+      <data key="d6">The European Union is investigating Elon Musk's AI chatbot, GROK, over concerns about the generation of sexualized images. According to the provided descriptions, the European Union is looking into GROK, which is an AI chatbot developed by Elon Musk, for its production of inappropriate and sexualized content.
+
+The investigation by the European Union appears to be focused on the ability of GROK to generate images with sexual themes or content. This is a concerning development, as AI chatbots and language models have the potential to produce content that could be harmful or unethical, especially when it comes to the depiction of sensitive topics like sexuality.
+
+It is important to note that the descriptions provided do not offer any additional details about the specific nature of the sexualized images or the extent of the investigation by the European Union. However, the fact that a regulatory body like the European Union is looking into this issue suggests that there are legitimate concerns about the potential misuse or abuse of GROK's capabilities.
+
+As an AI assistant, it is crucial to address these types of concerns and ensure that the development and deployment of advanced language models like GROK are done in a responsible and ethical manner. The European Union's investigation into GROK's image generation capabilities is a reminder of the need for robust oversight and regulation in the field of artificial intelligence, particularly when it comes to the potential for harm or misuse.
+
+In conclusion, the European Union is investigating Elon Musk's AI chatbot, GROK, over concerns about the generation of sexualized images. This investigation highlights the importance of responsible AI development and the need for ongoing monitoring and regulation to protect against the potential misuse of these powerful technologies.</data>
+    </edge>
+    <edge id="e19" source="16" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">scheduled premiere symphony...</data>
+      <data key="d6">Philip Glass was scheduled to premiere a symphony at the Kennedy Center, but has cancelled it in protest of Trump's leadership</data>
+    </edge>
+    <edge id="e20" source="14" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">protesting Trump's leadership...</data>
+      <data key="d6">Philip Glass is protesting Trump's leadership by cancelling the premiere of his symphony at the Kennedy Center</data>
+    </edge>
+    <edge id="e21" source="22" target="17">
+      <data key="d3">8.0</data>
+      <data key="d4">have announced free...</data>
+      <data key="d6">India and the EU have announced a free trade deal affecting up to 2 billion people</data>
+    </edge>
+    <edge id="e22" source="14" target="12">
+      <data key="d3">1.0</data>
+      <data key="d4">Minnesota after Pretti's...</data>
+      <data key="d6">Trump's about-face in Minnesota after Pretti's death is latest in pattern of sudden shifts</data>
+    </edge>
+    <edge id="e23" source="17" target="22">
+      <data key="d3">9.0</data>
+      <data key="d4">European Union have...</data>
+      <data key="d6">India and the European Union have announced a free trade deal that will have a significant impact on a combined population of up to 2 billion people.
+
+The agreement, which is still in the negotiation phase, aims to eliminate tariffs and facilitate the flow of goods and services between India and the 27 member states of the European Union. This landmark deal is expected to boost economic growth and create new opportunities for businesses and consumers on both sides.
+
+The proposed free trade agreement (FTA) is the result of ongoing discussions and negotiations between Indian and EU officials. Both parties have expressed a strong commitment to finalizing the deal, which has the potential to become one of the largest free trade agreements in the world.
+
+The FTA is expected to cover a wide range of sectors, including agriculture, manufacturing, services, and technology. It is also likely to address issues such as intellectual property rights, investment protection, and regulatory cooperation.
+
+The announcement of the FTA has been welcomed by business leaders and policymakers in both India and the European Union. They believe that the agreement will help to strengthen the economic ties between the two regions and open up new markets for their respective products and services.
+
+However, the negotiations are still ongoing, and there may be some challenges and complexities that need to be resolved before the final agreement is reached. Both sides will need to carefully balance their respective interests and concerns to ensure that the FTA is mutually beneficial.
+
+Overall, the announcement of the India-EU free trade deal is a significant development that has the potential to reshape the global economic landscape. If successfully implemented, it could lead to increased trade, investment, and cooperation between the two regions, ultimately benefiting the people and economies of both India and the European Union.</data>
+    </edge>
+    <edge id="e24" source="14" target="23">
+      <data key="d3">7.0</data>
+      <data key="d4">AI-generated images, which...</data>
+      <data key="d6">Trump has used AI-generated images, which has raised concerns about the erosion of public trust in such technologies.</data>
+    </edge>
+    <edge id="e25" source="15" target="14">
+      <data key="d3">8.0</data>
+      <data key="d4">canceling performance protest...</data>
+      <data key="d6">Philip Glass is canceling a performance in protest of Trump's leadership</data>
+    </edge>
+    <edge id="e26" source="24" target="25">
+      <data key="d3">1.0</data>
+      <data key="d4">area Villages...</data>
+      <data key="d6">The traditionally conservative area of The Villages is becoming a force for Democrats</data>
+    </edge>
+    <edge id="e27" source="26" target="27">
+      <data key="d3">6.0</data>
+      <data key="d4">Republican who backed...</data>
+      <data key="d6">Jeff Van Drew is a Republican who backed the bill, but said he was not trying to send a message to the president</data>
+    </edge>
+    <edge id="e28" source="26" target="0">
+      <data key="d3">1.0</data>
+      <data key="d4">switched parties become...</data>
+      <data key="d6">Jeff Van Drew switched parties to become a Republican during Trump's first term</data>
+    </edge>
+    <edge id="e29" source="27" target="0">
+      <data key="d3">7.0</data>
+      <data key="d4">followed Trump's lead...</data>
+      <data key="d6">Some Republicans have followed Trump's lead in becoming more supportive of labor unions</data>
+    </edge>
+    <edge id="e30" source="27" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">traditionally been key...</data>
+      <data key="d6">Labor unions have traditionally been a key part of the Democratic Party's coalition</data>
+    </edge>
+    <edge id="e31" source="27" target="25">
+      <data key="d3">16.0</data>
+      <data key="d4">clear advantage...</data>
+      <data key="d6">The Democratic Party has a clear advantage on the generic congressional ballot despite public dissatisfaction with the Republican-controlled government in Washington</data>
+    </edge>
+    <edge id="e32" source="0" target="25">
+      <data key="d3">16.0</data>
+      <data key="d4">capitalizing public dissatisfaction...</data>
+      <data key="d6">The Democratic Party is capitalizing on public dissatisfaction with President Donald Trump and the Republican-controlled government</data>
+    </edge>
+    <edge id="e33" source="31" target="25">
+      <data key="d3">2.0</data>
+      <data key="d4">Senate Minority Leader,...</data>
+      <data key="d6">Chuck Schumer, as the Senate Minority Leader, is a key leader of the Democratic Party in Congress, though the party's base is dissatisfied with the party's efforts to oppose Republican policies</data>
+    </edge>
+    <edge id="e34" source="25" target="27">
+      <data key="d3">14.0</data>
+      <data key="d4">political parties...</data>
+      <data key="d6">The two major political parties in the US have opposing views on many issues, leading to a divided political landscape</data>
+    </edge>
+    <edge id="e35" source="0" target="27">
+      <data key="d3">23.0</data>
+      <data key="d4">Republican Party Donald...</data>
+      <data key="d6">Donald Trump and the Republican Party
+
+Donald Trump, the 45th President of the United States, has had a complex relationship with the Republican Party. While the majority of Republicans have shown support for Trump and his policies, there have been instances where some Republican lawmakers have been willing to push back against the president.
+
+The Republican Party, as a whole, has generally been supportive of Donald Trump. A majority of Republicans view him as having a positive effect on the party, and the party has largely aligned itself with Trump's agenda. This alignment is evident in the party's support for Trump's policies, such as tax cuts, conservative judicial appointments, and a hardline stance on immigration.
+
+However, there have been instances where some Republican lawmakers have been willing to challenge Trump's actions or statements. This pushback has been particularly evident on issues where Trump's positions have diverged from traditional Republican values or where his actions have been perceived as damaging to the party's long-term interests.
+
+For example, some Republican lawmakers have been critical of Trump's handling of the COVID-19 pandemic, his attempts to overturn the results of the 2020 presidential election, and his role in the January 6th attack on the U.S. Capitol. These lawmakers have expressed concerns about the impact of Trump's actions on the party's reputation and its ability to appeal to a broader range of voters.
+
+Despite these instances of pushback, the Republican Party has largely remained united behind Trump, with the majority of its members continuing to support the president and his agenda. This support has been driven by a variety of factors, including the party's desire to maintain its political power, the loyalty of Trump's core supporters, and the party's belief that aligning with Trump's populist message can help it win elections.
+
+Overall, the relationship between Donald Trump and the Republican Party is a complex and evolving one. While the party has generally been supportive of Trump, there have been instances where some Republican lawmakers have been willing to challenge the president's actions or positions. As the party looks to the future, it will need to navigate this delicate balance between maintaining its support for Trump and addressing the concerns of those within its ranks who are wary of the president's influence.</data>
+    </edge>
+    <edge id="e36" source="0" target="32">
+      <data key="d3">18.0</data>
+      <data key="d4">closely tied...</data>
+      <data key="d6">The MAGA movement is closely tied to and supportive of Donald Trump and his political agenda</data>
+    </edge>
+    <edge id="e37" source="27" target="7">
+      <data key="d3">2.0</data>
+      <data key="d4">currently controls Congress,...</data>
+      <data key="d6">The Republican Party currently controls Congress, but there are concerns about their effectiveness in passing new legislation and their level of support for Trump</data>
+    </edge>
+    <edge id="e38" source="33" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">major political party...</data>
+      <data key="d6">The Republican Party is a major political party in the United States, and Donald Trump has been a prominent figure within the party in recent years. Trump, who served as the 45th President of the United States from 2017 to 2021, has maintained a significant influence over the Republican Party and its members in Congress, though his grip on the party has weakened in some recent votes.
+
+As the former president, Trump continues to be a powerful voice within the Republican Party. He has been actively involved in shaping the party's agenda and has endorsed numerous Republican candidates for various elected offices. However, his influence has faced some challenges, as evidenced by the party's actions in certain recent votes that have not aligned with Trump's preferences.
+
+Despite this, Trump remains a central figure within the Republican Party and is actively working to ensure the party's success in the upcoming 2026 midterm elections. He has been urging the party to win these elections, as he believes that a Republican-controlled Congress would help to prevent him from being impeached again.
+
+The relationship between Trump and the Republican Party is complex and multifaceted. While he has been a dominant force within the party, his influence has faced some resistance and challenges. As the party continues to navigate the political landscape, the role of Donald Trump and his relationship with the Republican Party will likely continue to be a topic of significant interest and discussion.</data>
+    </edge>
+    <edge id="e39" source="33" target="34">
+      <data key="d3">1.0</data>
+      <data key="d4">currently controls House...</data>
+      <data key="d6">The Republican Party currently controls the House of Representatives, though its majority is slim and facing challenges.</data>
+    </edge>
+    <edge id="e40" source="33" target="10">
+      <data key="d3">1.0</data>
+      <data key="d4">controls Senate, though...</data>
+      <data key="d6">The Republican Party controls the Senate, though some Republican Senators have voiced frustrations with the party leadership.</data>
+    </edge>
+    <edge id="e41" source="33" target="37">
+      <data key="d3">1.0</data>
+      <data key="d4">defied White House...</data>
+      <data key="d6">Some Republican lawmakers defied the White House to support the Epstein Files Transparency Act, joining with Democrats.</data>
+    </edge>
+    <edge id="e42" source="33" target="38">
+      <data key="d3">1.0</data>
+      <data key="d4">with Republican Party...</data>
+      <data key="d6">Brian Fitzpatrick broke with his Republican Party on a recent vote, arguing that ideas supported by most members should determine the legislative agenda.</data>
+    </edge>
+    <edge id="e43" source="34" target="35">
+      <data key="d3">1.0</data>
+      <data key="d4">resignation from House...</data>
+      <data key="d6">Marjorie Taylor Greene's resignation from the House of Representatives has contributed to the shrinking Republican majority.</data>
+    </edge>
+    <edge id="e44" source="34" target="36">
+      <data key="d3">1.0</data>
+      <data key="d4">further reduced Republican...</data>
+      <data key="d6">Doug LaMalfa's passing has further reduced the Republican majority in the House of Representatives.</data>
+    </edge>
+    <edge id="e45" source="34" target="25">
+      <data key="d3">1.0</data>
+      <data key="d4">main opposition party...</data>
+      <data key="d6">The Democratic Party is the main opposition party to the Republican majority in the House of Representatives.</data>
+    </edge>
+    <edge id="e46" source="3" target="39">
+      <data key="d3">1.0</data>
+      <data key="d4">majority House faces...</data>
+      <data key="d6">The slim Republican majority in the House faces challenges from the House Democrats.</data>
+    </edge>
+    <edge id="e47" source="25" target="10">
+      <data key="d3">6.0</data>
+      <data key="d4">minority party Senate...</data>
+      <data key="d6">Democrats are the minority party in the Senate</data>
+    </edge>
+    <edge id="e48" source="25" target="34">
+      <data key="d3">6.0</data>
+      <data key="d4">minority party House...</data>
+      <data key="d6">Democrats are the minority party in the House of Representatives</data>
+    </edge>
+    <edge id="e49" source="10" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">slim majority Senate...</data>
+      <data key="d6">Republicans hold a slim majority in the Senate</data>
+    </edge>
+    <edge id="e50" source="34" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">narrow majority House...</data>
+      <data key="d6">Republicans hold a narrow majority in the House of Representatives</data>
+    </edge>
+    <edge id="e51" source="40" target="33">
+      <data key="d3">10.0</data>
+      <data key="d4">GOP synonymous...</data>
+      <data key="d6">The Republican Party and the GOP are synonymous terms for the same political party.</data>
+    </edge>
+    <edge id="e52" source="21" target="41">
+      <data key="d3">9.0</data>
+      <data key="d4">head Department...</data>
+      <data key="d6">Elon Musk is the head of the Department of Government Efficiency that is implementing the budget cuts and layoffs</data>
+    </edge>
+    <edge id="e53" source="41" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">carrying out sweeping...</data>
+      <data key="d6">Donald Trump is carrying out the sweeping budget cuts and mass firings of federal workers through the Department of Government Efficiency led by Elon Musk</data>
+    </edge>
+    <edge id="e54" source="41" target="42">
+      <data key="d3">8.0</data>
+      <data key="d4">Government Efficiency fired...</data>
+      <data key="d6">The Department of Government Efficiency has fired employees from the National Nuclear Security Administration</data>
+    </edge>
+    <edge id="e55" source="41" target="43">
+      <data key="d3">8.0</data>
+      <data key="d4">Government Efficiency laid...</data>
+      <data key="d6">The Department of Government Efficiency has laid off over 1,000 workers from the Centers for Disease Control and Prevention</data>
+    </edge>
+    <edge id="e56" source="41" target="7">
+      <data key="d3">9.0</data>
+      <data key="d4">have oversight control...</data>
+      <data key="d6">Congress is supposed to have oversight and control over federal spending, not the executive branch led by the Department of Government Efficiency</data>
+    </edge>
+    <edge id="e57" source="0" target="30">
+      <data key="d3">1.0</data>
+      <data key="d4">Donald Trump president...</data>
+      <data key="d6">Joe Biden succeeded Donald Trump as president of the United States</data>
+    </edge>
+    <edge id="e58" source="3" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">members broader Republican...</data>
+      <data key="d6">House Republicans are members of the broader Republican party facing backlash</data>
+    </edge>
+    <edge id="e59" source="21" target="7">
+      <data key="d3">8.0</data>
+      <data key="d4">Elon Musk testify...</data>
+      <data key="d6">Some attendees want Elon Musk to testify before Congress under oath about his actions</data>
+    </edge>
+    <edge id="e60" source="21" target="47">
+      <data key="d3">1.0</data>
+      <data key="d4">been involved with...</data>
+      <data key="d6">Elon Musk has been involved with the cryptocurrency DOGE, which some constituents are concerned about</data>
+    </edge>
+    <edge id="e61" source="45" target="46">
+      <data key="d3">1.0</data>
+      <data key="d4">protested potential cuts...</data>
+      <data key="d6">Paul Tonko has protested potential cuts to NOAA, which some of his constituents want him to fight harder against</data>
+    </edge>
+    <edge id="e62" source="25" target="48">
+      <data key="d3">7.0</data>
+      <data key="d4">facing criticism from...</data>
+      <data key="d6">Some Democratic representatives are facing criticism from constituents for not fighting hard enough against the Trump administration's policies</data>
+    </edge>
+    <edge id="e63" source="14" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">aggressively cut size...</data>
+      <data key="d6">Trump's efforts to aggressively cut the size of the federal workforce are causing backlash from voters</data>
+    </edge>
+    <edge id="e64" source="27" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">frustration with Republican...</data>
+      <data key="d6">Voters are expressing frustration with the Republican party over the economic situation and actions of the Trump administration</data>
+    </edge>
+    <edge id="e65" source="49" target="25">
+      <data key="d3">8.0</data>
+      <data key="d4">minority party House...</data>
+      <data key="d6">Democrats are the minority party in the House of Representatives</data>
+    </edge>
+    <edge id="e66" source="10" target="25">
+      <data key="d3">8.0</data>
+      <data key="d4">minority party Senate...</data>
+      <data key="d6">Democrats are the minority party in the Senate</data>
+    </edge>
+    <edge id="e67" source="25" target="7">
+      <data key="d3">8.0</data>
+      <data key="d4">minority party Congress...</data>
+      <data key="d6">Democrats are the minority party in Congress</data>
+    </edge>
+    <edge id="e68" source="25" target="50">
+      <data key="d3">7.0</data>
+      <data key="d4">Musk's efforts related...</data>
+      <data key="d6">Democrats are protesting Musk's efforts related to Dogecoin</data>
+    </edge>
+    <edge id="e69" source="25" target="45">
+      <data key="d3">9.0</data>
+      <data key="d4">Democratic Representative</data>
+      <data key="d6">Paul Tonko is a Democratic Representative</data>
+    </edge>
+    <edge id="e70" source="45" target="44">
+      <data key="d3">8.0</data>
+      <data key="d4">protested cuts NOAA</data>
+      <data key="d6">Paul Tonko has protested cuts at NOAA</data>
+    </edge>
+    <edge id="e71" source="45" target="51">
+      <data key="d3">8.0</data>
+      <data key="d4">protested cuts Department...</data>
+      <data key="d6">Paul Tonko has protested cuts at the Department of Education</data>
+    </edge>
+    <edge id="e72" source="45" target="53">
+      <data key="d3">1.0</data>
+      <data key="d4">Paul Tonko should...</data>
+      <data key="d6">The constituent suggests Paul Tonko should take more aggressive action like John Lewis did</data>
+    </edge>
+    <edge id="e73" source="52" target="53">
+      <data key="d3">5.0</data>
+      <data key="d4">John Lewis were...</data>
+      <data key="d6">Jimmy Carter and John Lewis were both prominent political figures</data>
+    </edge>
+    <edge id="e74" source="54" target="55">
+      <data key="d3">1.0</data>
+      <data key="d4">Jack Smith's testimony...</data>
+      <data key="d6">Fox News reported on Jack Smith's testimony to Congress</data>
+    </edge>
+    <edge id="e75" source="55" target="7">
+      <data key="d3">1.0</data>
+      <data key="d4">before Congress...</data>
+      <data key="d6">Jack Smith testified before the U.S. Congress</data>
+    </edge>
+    <edge id="e76" source="55" target="0">
+      <data key="d3">32.0</data>
+      <data key="d4">comprehensive summary data...</data>
+      <data key="d6">Here is a comprehensive summary of the data provided:
+
+Jack Smith and Donald Trump are two prominent figures who have been involved in a legal dispute. 
+
+Jack Smith, a former federal prosecutor, was appointed as a special counsel to investigate potential wrongdoing by Donald Trump. Smith has indicted Trump, defending the indictments as being conducted in a by-the-book and apolitical manner. 
+
+On the other hand, Trump has been highly critical of Smith, and has called for Smith to be prosecuted. Trump has alleged that the Department of Justice under Attorney General Pam Bondi will try to indict him at Trump's direction.
+
+The descriptions provided present a contradictory picture of the situation. Smith claims the indictments are justified and not politically motivated, while Trump alleges the process is being manipulated for political purposes. 
+
+To resolve this contradiction, it is important to consider the broader context and evidence surrounding the case. Special counsel investigations are intended to be independent and impartial, conducted without political interference. However, the highly polarized political environment means that accusations of bias and improper motives are common.
+
+Ultimately, the truth will likely emerge through the judicial process, as the evidence is carefully examined and the legal merits of the case are determined. It is crucial that the rule of law is upheld, and that the investigation is allowed to proceed without undue political influence from either side.
+
+In summary, Jack Smith and Donald Trump are engaged in a high-profile legal dispute, with Smith leading an investigation that has resulted in Trump's indictment, while Trump alleges the process is politically motivated. The full truth of the matter remains to be seen as the case progresses through the legal system.</data>
+    </edge>
+    <edge id="e77" source="55" target="56">
+      <data key="d3">7.0</data>
+      <data key="d4">Republican chairman, said...</data>
+      <data key="d6">Jim Jordan, the Republican chairman, said the cases against Trump were always about politics</data>
+    </edge>
+    <edge id="e78" source="55" target="57">
+      <data key="d3">7.0</data>
+      <data key="d4">Smith over subpoenas...</data>
+      <data key="d6">Brandon Gill grilled Smith over subpoenas of phone records belonging to several Republicans</data>
+    </edge>
+    <edge id="e79" source="55" target="58">
+      <data key="d3">7.0</data>
+      <data key="d4">Smith "spying"...</data>
+      <data key="d6">Darrell Issa accused Smith of "spying" on the lawmakers whose records were subpoenaed</data>
+    </edge>
+    <edge id="e80" source="55" target="59">
+      <data key="d3">5.0</data>
+      <data key="d4">Marsha Blackburn's phone...</data>
+      <data key="d6">Jack Smith subpoenaed Marsha Blackburn's phone records</data>
+    </edge>
+    <edge id="e81" source="55" target="60">
+      <data key="d3">5.0</data>
+      <data key="d4">Bill Hagerty's phone...</data>
+      <data key="d6">Jack Smith subpoenaed Bill Hagerty's phone records</data>
+    </edge>
+    <edge id="e82" source="55" target="61">
+      <data key="d3">5.0</data>
+      <data key="d4">Lindsey Graham's phone...</data>
+      <data key="d6">Jack Smith subpoenaed Lindsey Graham's phone records</data>
+    </edge>
+    <edge id="e83" source="55" target="62">
+      <data key="d3">5.0</data>
+      <data key="d4">Ron Johnson's phone...</data>
+      <data key="d6">Jack Smith subpoenaed Ron Johnson's phone records</data>
+    </edge>
+    <edge id="e84" source="55" target="63">
+      <data key="d3">1.0</data>
+      <data key="d4">Mike Kelly's phone...</data>
+      <data key="d6">Jack Smith subpoenaed Mike Kelly's phone records</data>
+    </edge>
+    <edge id="e85" source="55" target="64">
+      <data key="d3">16.0</data>
+      <data key="d4">Attorney General Bondi,...</data>
+      <data key="d6">The DOJ, led by Attorney General Bondi, is expected to try to indict Smith</data>
+    </edge>
+    <edge id="e86" source="55" target="66">
+      <data key="d3">6.0</data>
+      <data key="d4">during hearing...</data>
+      <data key="d6">Balint questioned Smith during a hearing</data>
+    </edge>
+    <edge id="e87" source="55" target="67">
+      <data key="d3">4.0</data>
+      <data key="d4">during hearing...</data>
+      <data key="d6">Kiley pressed Smith during a hearing</data>
+    </edge>
+    <edge id="e88" source="55" target="14">
+      <data key="d3">8.0</data>
+      <data key="d4">Smith called him...</data>
+      <data key="d6">Trump has criticized Smith and called for him to be prosecuted</data>
+    </edge>
+    <edge id="e89" source="64" target="65">
+      <data key="d3">1.0</data>
+      <data key="d4">Attorney General who...</data>
+      <data key="d6">Bondi is the Attorney General who is expected to oversee the potential indictment of Jack Smith</data>
+    </edge>
+    <edge id="e90" source="7" target="27">
+      <data key="d3">8.0</data>
+      <data key="d4">conflict between Republicans...</data>
+      <data key="d6">There is tension and conflict between the Republicans and the rest of Congress
+The Republicans control a portion of the seats in the US Congress</data>
+    </edge>
+    <edge id="e91" source="7" target="71">
+      <data key="d3">9.0</data>
+      <data key="d4">faction within...</data>
+      <data key="d6">The Republicans are a faction within the US Congress</data>
+    </edge>
+    <edge id="e92" source="7" target="55">
+      <data key="d3">8.0</data>
+      <data key="d4">testified before Congress</data>
+      <data key="d6">Jack Smith testified before Congress</data>
+    </edge>
+    <edge id="e93" source="14" target="27">
+      <data key="d3">6.0</data>
+      <data key="d4">over Republican party...</data>
+      <data key="d6">Trump has influence over the Republican party in Congress</data>
+    </edge>
+    <edge id="e94" source="68" target="27">
+      <data key="d3">5.0</data>
+      <data key="d4">Republican politician who...</data>
+      <data key="d6">Kristi Noem is a Republican politician who is facing issues with the Republican party</data>
+    </edge>
+    <edge id="e95" source="40" target="71">
+      <data key="d3">9.0</data>
+      <data key="d4">another term Republican...</data>
+      <data key="d6">The GOP is another term for the Republican members of Congress</data>
+    </edge>
+    <edge id="e96" source="69" target="71">
+      <data key="d3">8.0</data>
+      <data key="d4">Republican member Congress</data>
+      <data key="d6">Lori Trahan is a Republican member of Congress</data>
+    </edge>
+    <edge id="e97" source="70" target="71">
+      <data key="d3">1.0</data>
+      <data key="d4">Congress dealing with...</data>
+      <data key="d6">The Republicans in Congress are dealing with the aftermath of a Trump executive order</data>
+    </edge>
+    <edge id="e98" source="0" target="40">
+      <data key="d3">8.0</data>
+      <data key="d4">allowed President Trump...</data>
+      <data key="d6">The Republican Party has allowed President Trump to expand his authority, even when his actions have encroached on terrain the Constitution reserved for Congress</data>
+    </edge>
+    <edge id="e99" source="0" target="72">
+      <data key="d3">6.0</data>
+      <data key="d4">criticized President Trump's...</data>
+      <data key="d6">Senator Collins has criticized President Trump's tariffs, saying they will harm Maine's industries</data>
+    </edge>
+    <edge id="e100" source="0" target="73">
+      <data key="d3">7.0</data>
+      <data key="d4">"massive crisis"...</data>
+      <data key="d6">Senator Hawley warned of a "massive crisis" if Congress does not act to renew enhanced health care subsidies, which President Trump has signaled indifference to</data>
+    </edge>
+    <edge id="e101" source="0" target="74">
+      <data key="d3">8.0</data>
+      <data key="d4">been consistent critic...</data>
+      <data key="d6">Congressman Bacon has been a consistent critic of President Trump's approach to Russia's incursion into Ukraine</data>
+    </edge>
+    <edge id="e102" source="0" target="75">
+      <data key="d3">6.0</data>
+      <data key="d4">back President Trump's...</data>
+      <data key="d6">Senator Kennedy pushed back on President Trump's calls to end the filibuster</data>
+    </edge>
+    <edge id="e103" source="0" target="35">
+      <data key="d3">7.0</data>
+      <data key="d4">with President Trump...</data>
+      <data key="d6">Congresswoman Greene broke with President Trump over his reluctance to release investigative files into Jeffrey Epstein</data>
+    </edge>
+    <edge id="e104" source="0" target="76">
+      <data key="d3">7.0</data>
+      <data key="d4">release investigative files...</data>
+      <data key="d6">President Trump's reluctance to release investigative files into Jeffrey Epstein led to a break between him and Congresswoman Marjorie Taylor Greene</data>
+    </edge>
+    <edge id="e105" source="0" target="77">
+      <data key="d3">1.0</data>
+      <data key="d4">did not run...</data>
+      <data key="d6">Former Senator Flake did not run for re-election in 2018 in part because he refused to unconditionally back President Trump</data>
+    </edge>
+    <edge id="e106" source="0" target="7">
+      <data key="d3">8.0</data>
+      <data key="d4">not done much...</data>
+      <data key="d6">The Republican-controlled Congress has not done much to stand in the way of President Trump's actions, even when they have encroached on terrain the Constitution reserved for them</data>
+    </edge>
+    <edge id="e107" source="0" target="78">
+      <data key="d3">8.0</data>
+      <data key="d4">taken "velvet glove,...</data>
+      <data key="d6">President Trump has taken a "velvet glove, red carpet treatment" approach towards Putin's incursion into Ukraine, in contrast to his "condescending, boorish behavior" towards President Zelensky</data>
+    </edge>
+    <edge id="e108" source="0" target="79">
+      <data key="d3">1.0</data>
+      <data key="d4">Vice President have...</data>
+      <data key="d6">President Trump and Vice President have shown a "condescending, boorish behavior" towards President Zelensky, according to Congressman Bacon</data>
+    </edge>
+    <edge id="e109" source="80" target="29">
+      <data key="d3">7.0</data>
+      <data key="d4">disagreement with some...</data>
+      <data key="d6">Murkowski has expressed disagreement with some actions of the White House and wants Congress to assert its constitutional powers more</data>
+    </edge>
+    <edge id="e110" source="81" target="7">
+      <data key="d3">6.0</data>
+      <data key="d4">not relinquished authority...</data>
+      <data key="d6">Thune says Congress has not relinquished its authority as an independent, coequal branch, despite criticism</data>
+    </edge>
+    <edge id="e111" source="82" target="7">
+      <data key="d3">8.0</data>
+      <data key="d4">been ceding power...</data>
+      <data key="d6">Reynolds says Congress has been ceding power to the executive and judicial branches for decades, which has escalated under Trump</data>
+    </edge>
+    <edge id="e112" source="29" target="7">
+      <data key="d3">8.0</data>
+      <data key="d4">White House coequal...</data>
+      <data key="d6">Congress and the White House are coequal branches of government with checks and balances</data>
+    </edge>
+    <edge id="e113" source="29" target="83">
+      <data key="d3">1.0</data>
+      <data key="d4">actions inactions may...</data>
+      <data key="d6">The White House's actions or inactions may have contributed to the January 6th attack on Congress</data>
+    </edge>
+    <edge id="e114" source="7" target="83">
+      <data key="d3">8.0</data>
+      <data key="d4">attack Capitol...</data>
+      <data key="d6">The January 6th attack on the Capitol was a significant event involving Congress</data>
+    </edge>
+    <edge id="e115" source="28" target="0">
+      <data key="d3">7.0</data>
+      <data key="d4">Democratic Party will...</data>
+      <data key="d6">Trump believes the Democratic Party will try to impeach him again if they win the 2026 midterm elections</data>
+    </edge>
+    <edge id="e116" source="0" target="34">
+      <data key="d3">8.0</data>
+      <data key="d4">Representatives would need...</data>
+      <data key="d6">The House of Representatives would need to approve impeachment charges against Trump</data>
+    </edge>
+    <edge id="e117" source="0" target="10">
+      <data key="d3">8.0</data>
+      <data key="d4">need two-thirds majority...</data>
+      <data key="d6">The Senate would need a two-thirds majority to convict and remove Trump from office if impeached</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,1314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">NFL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The National Football League is the top professional American football league in the United States</data>
+    </node>
+    <node id="1">
+      <data key="d0">NBA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The National Basketball Association is the premier professional basketball league in the United States and Canada</data>
+    </node>
+    <node id="2">
+      <data key="d0">CFB</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">College Football is the American football played at the collegiate level in the United States</data>
+    </node>
+    <node id="3">
+      <data key="d0">MLB</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Major League Baseball is the top professional baseball league in the United States and Canada</data>
+    </node>
+    <node id="4">
+      <data key="d0">UNRIVALED BETTING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Unrivaled Betting is a sports betting platform and service offered by Bleacher Report</data>
+    </node>
+    <node id="5">
+      <data key="d0">SPORTS ON HBO MAX</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Sports on HBO Max is a collection of sports programming and content available on the HBO Max streaming service</data>
+    </node>
+    <node id="6">
+      <data key="d0">NHL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The National Hockey League is the premier professional ice hockey league in North America</data>
+    </node>
+    <node id="7">
+      <data key="d0">COLLEGE BASKETBALL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">College Basketball refers to the sport of basketball played at the collegiate level in the United States</data>
+    </node>
+    <node id="8">
+      <data key="d0">WNBA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Women's National Basketball Association is the premier professional women's basketball league in the United States</data>
+    </node>
+    <node id="9">
+      <data key="d0">WORLD FOOTBALL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">World Football refers to the sport of association football, also known as soccer, played globally</data>
+    </node>
+    <node id="10">
+      <data key="d0">NASCAR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The National Association for Stock Car Auto Racing is the premier organization for stock car racing in the United States</data>
+    </node>
+    <node id="11">
+      <data key="d0">TENNIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Tennis is a racket sport played globally at the professional and amateur levels</data>
+    </node>
+    <node id="12">
+      <data key="d0">GOLF</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Golf is a club-and-ball sport played on outdoor courses across the world</data>
+    </node>
+    <node id="13">
+      <data key="d0">WWE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">World Wrestling Entertainment is the largest professional wrestling promotion in the world</data>
+    </node>
+    <node id="14">
+      <data key="d0">MMA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Mixed Martial Arts is a full-contact combat sport that allows the use of both striking and grappling techniques</data>
+    </node>
+    <node id="15">
+      <data key="d0">BOXING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Boxing is a combat sport in which two people, usually wearing protective gloves, throw punches at each other for a predetermined amount of time in a boxing ring</data>
+    </node>
+    <node id="16">
+      <data key="d0">ALL ELITE WRESTLING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">All Elite Wrestling is a professional wrestling promotion founded in 2019</data>
+    </node>
+    <node id="17">
+      <data key="d0">FORMULA 1</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">Formula One is the highest class of international open-wheel racing for single-seat formula racing cars</data>
+    </node>
+    <node id="18">
+      <data key="d0">MOTO GP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">MotoGP is the premier class of motorcycle road racing events held on road circuits and temporary street circuits</data>
+    </node>
+    <node id="19">
+      <data key="d0">BLEACHER REPORT</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="20">
+      <data key="d0">MIAMI DOLPHINS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Miami Dolphins are a professional American football team based in Miami Gardens, Florida</data>
+    </node>
+    <node id="21">
+      <data key="d0">NEW YORK JETS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The New York Jets are a professional American football team based in East Rutherford, New Jersey</data>
+    </node>
+    <node id="22">
+      <data key="d0">NEW ENGLAND PATRIOTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The New England Patriots are a professional American football team based in Foxborough, Massachusetts</data>
+    </node>
+    <node id="23">
+      <data key="d0">CINCINNATI BENGALS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Cincinnati Bengals are a professional American football team based in Cincinnati, Ohio</data>
+    </node>
+    <node id="24">
+      <data key="d0">CLEVELAND BROWNS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Cleveland Browns are a professional American football team based in Cleveland, Ohio</data>
+    </node>
+    <node id="25">
+      <data key="d0">BALTIMORE RAVENS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Baltimore Ravens are a professional American football team based in Baltimore, Maryland</data>
+    </node>
+    <node id="26">
+      <data key="d0">PITTSBURGH STEELERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Pittsburgh Steelers are a professional American football team based in Pittsburgh, Pennsylvania</data>
+    </node>
+    <node id="27">
+      <data key="d0">INDIANAPOLIS COLTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Indianapolis Colts are a professional American football team based in Indianapolis, Indiana</data>
+    </node>
+    <node id="28">
+      <data key="d0">JACKSONVILLE JAGUARS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Jacksonville Jaguars are a professional American football team based in Jacksonville, Florida</data>
+    </node>
+    <node id="29">
+      <data key="d0">HOUSTON TEXANS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Houston Texans are a professional American football team based in Houston, Texas</data>
+    </node>
+    <node id="30">
+      <data key="d0">TENNESSEE TITANS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Tennessee Titans are a professional American football team based in Nashville, Tennessee</data>
+    </node>
+    <node id="31">
+      <data key="d0">DENVER BRONCOS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Denver Broncos are a professional American football team based in Denver, Colorado</data>
+    </node>
+    <node id="32">
+      <data key="d0">LOS ANGELES CHARGERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Los Angeles Chargers are a professional American football team based in Los Angeles, California</data>
+    </node>
+    <node id="33">
+      <data key="d0">KANSAS CITY CHIEFS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Kansas City Chiefs are a professional American football team based in Kansas City, Missouri</data>
+    </node>
+    <node id="34">
+      <data key="d0">LAS VEGAS RAIDERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Las Vegas Raiders are a professional American football team based in Paradise, Nevada</data>
+    </node>
+    <node id="35">
+      <data key="d0">WASHINGTON COMMANDERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Washington Commanders are a professional American football team based in Landover, Maryland</data>
+    </node>
+    <node id="36">
+      <data key="d0">DALLAS COWBOYS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Dallas Cowboys are a professional American football team based in Arlington, Texas</data>
+    </node>
+    <node id="37">
+      <data key="d0">PHILADELPHIA EAGLES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Philadelphia Eagles are a professional American football team based in Philadelphia, Pennsylvania</data>
+    </node>
+    <node id="38">
+      <data key="d0">NEW YORK GIANTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The New York Giants are a professional American football team based in East Rutherford, New Jersey</data>
+    </node>
+    <node id="39">
+      <data key="d0">CHICAGO BEARS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Chicago Bears are a professional American football team based in Chicago, Illinois</data>
+    </node>
+    <node id="40">
+      <data key="d0">DETROIT LIONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Detroit Lions are a professional American football team based in Detroit, Michigan</data>
+    </node>
+    <node id="41">
+      <data key="d0">GREEN BAY PACKERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Green Bay Packers are a professional American football team based in Green Bay, Wisconsin</data>
+    </node>
+    <node id="42">
+      <data key="d0">MINNESOTA VIKINGS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Minnesota Vikings are a professional American football team based in Eagan, Minnesota</data>
+    </node>
+    <node id="43">
+      <data key="d0">TAMPA BAY BUCCANEERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Tampa Bay Buccaneers are a professional American football team based in Tampa, Florida</data>
+    </node>
+    <node id="44">
+      <data key="d0">ATLANTA FALCONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Atlanta Falcons are a professional American football team based in Atlanta, Georgia</data>
+    </node>
+    <node id="45">
+      <data key="d0">CAROLINA PANTHERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Carolina Panthers are a professional American football team based in Charlotte, North Carolina</data>
+    </node>
+    <node id="46">
+      <data key="d0">NEW ORLEANS SAINTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The New Orleans Saints are a professional American football team based in New Orleans, Louisiana</data>
+    </node>
+    <node id="47">
+      <data key="d0">SAN FRANCISCO 49ERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The San Francisco 49ers are a professional American football team based in Santa Clara, California</data>
+    </node>
+    <node id="48">
+      <data key="d0">ARIZONA CARDINALS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Arizona Cardinals are a professional American football team based in Glendale, Arizona</data>
+    </node>
+    <node id="49">
+      <data key="d0">LOS ANGELES RAMS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Los Angeles Rams are a professional American football team based in Inglewood, California</data>
+    </node>
+    <node id="50">
+      <data key="d0">SEATTLE SEAHAWKS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The Seattle Seahawks are a professional American football team based in Seattle, Washington</data>
+    </node>
+    <node id="51">
+      <data key="d0">BUFFALO BILLS</data>
+      <data key="d1" />
+      <data key="d2">1.0</data>
+      <data key="d5" />
+    </node>
+    <node id="52">
+      <data key="d0">HILLSONG: A MEGACHURCH EXPOSED</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Hillsong: A Megachurch Exposed is an original documentary series on Discovery+ that explores the controversies surrounding the Hillsong megachurch</data>
+    </node>
+    <node id="53">
+      <data key="d0">LOVE OFF THE GRID</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Love Off the Grid is an original reality series on Discovery+ that follows couples who choose to live off the grid</data>
+    </node>
+    <node id="54">
+      <data key="d0">NAKED AND AFRAID OF LOVE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Naked and Afraid of Love is an original reality series on Discovery+ that combines the Naked and Afraid franchise with a dating competition</data>
+    </node>
+    <node id="55">
+      <data key="d0">QUEEN OF METH</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Queen of Meth is an original documentary series on Discovery+ that explores the rise and fall of a major methamphetamine distributor</data>
+    </node>
+    <node id="56">
+      <data key="d0">THE HAUNTED MUSEUM</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Haunted Museum is an original paranormal series on Discovery+ that features Zak Bagans investigating haunted artifacts</data>
+    </node>
+    <node id="57">
+      <data key="d0">SELLING THE HAMPTONS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Selling the Hamptons is an original reality series on Discovery+ that follows luxury real estate agents in the Hamptons</data>
+    </node>
+    <node id="58">
+      <data key="d0">KENDRA SELLS HOLLYWOOD</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Kendra Sells Hollywood is an original reality series on Discovery+ that follows former Playboy model Kendra Wilkinson as she transitions into a real estate career</data>
+    </node>
+    <node id="59">
+      <data key="d0">MILLION DOLLAR WHEELS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Million Dollar Wheels is an original automotive series on Discovery+ that showcases high-end and rare car collections</data>
+    </node>
+    <node id="60">
+      <data key="d0">MAGNOLIA NETWORK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Magnolia Network is a lifestyle and home improvement network that has content featured on Discovery+</data>
+    </node>
+    <node id="61">
+      <data key="d0">OWN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">OWN (Oprah Winfrey Network) has content featured on Discovery+</data>
+    </node>
+    <node id="62">
+      <data key="d0">DISCOVERY+</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="63">
+      <data key="d0">HGTV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">HGTV is a popular television network that has been part of Discovery, Inc.'s portfolio since the company's acquisition of Scripps Networks Interactive. The network is known for its diverse range of home improvement, real estate, and lifestyle programming, featuring both new and classic series.
+
+HGTV's content can now be found on the Discovery+ streaming platform, allowing viewers to access the network's extensive library of shows on-demand. This integration with Discovery+ provides HGTV fans with greater flexibility and convenience in accessing their favorite programs.
+
+As a result of the Discovery, Inc. acquisition, HGTV has become part of a larger media conglomerate, benefiting from the resources and distribution channels of the parent company. This has likely enabled the network to continue producing high-quality content and expanding its reach to viewers across various platforms.
+
+Overall, HGTV remains a prominent and well-respected television network, known for its focus on home improvement, real estate, and lifestyle-related programming. The network's integration with Discovery+ has further enhanced its accessibility and allowed it to reach a wider audience in the evolving media landscape.</data>
+    </node>
+    <node id="64">
+      <data key="d0">FOOD NETWORK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The Food Network is a popular television network that has been a part of Discovery, Inc.'s portfolio since the company's acquisition of Scripps Networks Interactive. The network is known for featuring a wide range of new and classic series, which are now available on the Discovery+ streaming platform.
+
+The Food Network has a long history of providing viewers with a diverse array of culinary-focused programming. The network's lineup includes both new and established series, catering to a wide range of food enthusiasts. With the integration of the Food Network into Discovery, Inc.'s broader media ecosystem, viewers can now access the network's content through the Discovery+ streaming service, in addition to traditional television channels.
+
+The acquisition of Scripps Networks Interactive by Discovery, Inc. has allowed the Food Network to expand its reach and leverage the resources of the larger media conglomerate. This has enabled the network to continue producing high-quality content and introducing new series that cater to the evolving preferences of its audience.
+
+Through the Discovery+ platform, viewers can now access a comprehensive collection of Food Network programming, including both current and classic shows. This expanded accessibility allows food enthusiasts to explore a wide range of culinary genres, from cooking competitions and instructional programs to travel-inspired food adventures and celebrity chef-led series.
+
+The integration of the Food Network into the Discovery, Inc. portfolio has strengthened the network's position within the media landscape, ensuring that its unique brand of food-focused entertainment remains accessible to audiences across various platforms and devices. As the media industry continues to evolve, the Food Network's presence within the Discovery, Inc. ecosystem positions it for continued growth and success in the years to come.</data>
+    </node>
+    <node id="65">
+      <data key="d0">TLC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">TLC is one of the television brands operated by Discovery, Inc. It features a variety of new and classic series that are available on the Discovery+ streaming platform.
+
+TLC is a popular cable television network that has been part of the Discovery, Inc. portfolio for many years. As a Discovery brand, TLC offers a diverse range of programming, including reality shows, documentaries, and lifestyle content. The network is known for its eclectic mix of programming, which often focuses on topics related to family, relationships, and personal growth.
+
+In addition to its linear television channel, TLC also has a strong presence on the Discovery+ streaming service. Discovery+ offers a vast library of content from across the Discovery family of networks, including TLC's new and classic series. Viewers can access a wide variety of TLC shows, from long-running favorites to the latest premieres, all in one convenient streaming platform.
+
+The combination of TLC's linear television offerings and its presence on Discovery+ allows the network to reach a diverse audience and cater to a wide range of viewer preferences. Whether viewers prefer to watch TLC's content on traditional cable or through on-demand streaming, they can access a wealth of engaging and informative programming.
+
+Overall, TLC is a well-established and respected television brand within the Discovery, Inc. portfolio. Its diverse programming, combined with its availability on both linear television and the Discovery+ streaming service, makes it a popular choice for viewers seeking a unique and engaging entertainment experience.</data>
+    </node>
+    <node id="66">
+      <data key="d0">ID</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">ID (Investigation Discovery) has new and classic series featured on Discovery+</data>
+    </node>
+    <node id="67">
+      <data key="d0">CNN</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="68">
+      <data key="d0">UNITED STATES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The US version of Discovery+ is only available to subscribers in the United States, including its territories</data>
+    </node>
+    <node id="69">
+      <data key="d0">BRAZIL</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Brazil</data>
+    </node>
+    <node id="70">
+      <data key="d0">CANADA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Canada</data>
+    </node>
+    <node id="71">
+      <data key="d0">DENMARK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Denmark</data>
+    </node>
+    <node id="72">
+      <data key="d0">FINLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Finland</data>
+    </node>
+    <node id="73">
+      <data key="d0">INDIA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in India</data>
+    </node>
+    <node id="74">
+      <data key="d0">IRELAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Ireland</data>
+    </node>
+    <node id="75">
+      <data key="d0">ITALY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Italy</data>
+    </node>
+    <node id="76">
+      <data key="d0">NETHERLANDS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in the Netherlands</data>
+    </node>
+    <node id="77">
+      <data key="d0">NORWAY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Norway</data>
+    </node>
+    <node id="78">
+      <data key="d0">PHILIPPINES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in the Philippines</data>
+    </node>
+    <node id="79">
+      <data key="d0">POLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Poland</data>
+    </node>
+    <node id="80">
+      <data key="d0">SPAIN</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Spain</data>
+    </node>
+    <node id="81">
+      <data key="d0">SWEDEN</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in Sweden</data>
+    </node>
+    <node id="82">
+      <data key="d0">UNITED ARAB EMIRATES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in the United Arab Emirates</data>
+    </node>
+    <node id="83">
+      <data key="d0">UNITED KINGDOM</data>
+      <data key="d1">GEO</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Discovery+ is available in the United Kingdom</data>
+    </node>
+    <node id="84">
+      <data key="d0">AMAZON FIRE TV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Streaming device platform that supports Discovery+</data>
+    </node>
+    <node id="85">
+      <data key="d0">APPLE TV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Streaming device platform that supports Discovery+</data>
+    </node>
+    <node id="86">
+      <data key="d0">GOOGLE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Provides Android devices and platforms that support Discovery+</data>
+    </node>
+    <node id="87">
+      <data key="d0">MICROSOFT XBOX</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Gaming console platform that supports Discovery+</data>
+    </node>
+    <node id="88">
+      <data key="d0">ROKU</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Streaming device platform that supports Discovery+</data>
+    </node>
+    <node id="89">
+      <data key="d0">SAMSUNG</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Smart TV manufacturer that supports Discovery+</data>
+    </node>
+    <node id="90">
+      <data key="d0">VIZIO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Smart TV manufacturer that supports Discovery+</data>
+    </node>
+    <node id="91">
+      <data key="d0">LG</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Smart TV manufacturer that supports Discovery+</data>
+    </node>
+    <node id="92">
+      <data key="d0">WARNER BROS. DISCOVERY, INC.</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="93">
+      <data key="d0">JOHN HENDRICKS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">John Hendricks was the founder of Discovery, Inc.</data>
+    </node>
+    <node id="94">
+      <data key="d0">SCRIPPS NETWORKS INTERACTIVE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Scripps Networks Interactive was a company that Discovery, Inc. acquired in 2018, adding networks such as Food Network, HGTV, and Travel Channel to its portfolio.</data>
+    </node>
+    <node id="95">
+      <data key="d0">WARNER BROS. DISCOVERY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">6.0</data>
+      <data key="d5">In May 2021, AT&amp;T announced its proposal to merge its media subsidiary WarnerMedia with Discovery, Inc. The transaction was approved and completed on April 8, 2022, forming the new company Warner Bros. Discovery.</data>
+    </node>
+    <node id="96">
+      <data key="d0">DISCOVERY, INC.</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="97">
+      <data key="d0">ANIMAL PLANET</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">One of the television brands operated by Discovery, Inc.</data>
+    </node>
+    <node id="98">
+      <data key="d0">SCIENCE CHANNEL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">One of the television brands operated by Discovery, Inc.</data>
+    </node>
+    <node id="99">
+      <data key="d0">TRAVEL CHANNEL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">One of the television networks added to Discovery, Inc.'s portfolio after acquiring Scripps Networks Interactive.</data>
+    </node>
+    <node id="100">
+      <data key="d0">EUROSPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">A pan-European group of sports channels owned or operated by Discovery, Inc.</data>
+    </node>
+    <node id="101">
+      <data key="d0">GOLFTV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">An international golf-focused streaming service owned or operated by Discovery, Inc.</data>
+    </node>
+    <node id="102">
+      <data key="d0">DISCOVERY COMMUNICATIONS NORDIC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Discovery's regional operations that include general-interest channels in Norway, Sweden, Denmark and Finland.</data>
+    </node>
+    <node id="103">
+      <data key="d0">TVN GROUP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">A portfolio of channels owned or operated by Discovery, Inc. in Poland.</data>
+    </node>
+    <node id="104">
+      <data key="d0">ADVANCE PUBLICATIONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The parent company of Discovery, Inc.</data>
+    </node>
+    <node id="105">
+      <data key="d0">DISCOVERY CHANNEL</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="106">
+      <data key="d0">WARNER BROS.</data>
+      <data key="d1" />
+      <data key="d2">6.0</data>
+      <data key="d5" />
+    </node>
+    <node id="107">
+      <data key="d0">OREGON DEPARTMENT OF EMERGENCY MANAGEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">The Oregon Department of Emergency Management is the state agency responsible for coordinating emergency response and recovery efforts</data>
+    </node>
+    <node id="108">
+      <data key="d0">OREGON</data>
+      <data key="d1" />
+      <data key="d2">4.0</data>
+      <data key="d5" />
+    </node>
+    <node id="109">
+      <data key="d0">FRONTLINE WILDFIRE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Frontline Wildfire is an organization that provides information about Oregon wildfires</data>
+    </node>
+    <node id="110">
+      <data key="d0">FIREHOUSE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Firehouse is a media organization that reports on fire-related news</data>
+    </node>
+    <node id="111">
+      <data key="d0">USA TODAY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">USA Today is a media organization that reported on a fire related to Discovery</data>
+    </node>
+    <node id="112">
+      <data key="d0">ACORN FIRE SECURITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Acorn Fire Security is an organization that sells fire detection equipment</data>
+    </node>
+    <node id="113">
+      <data key="d0">CINCINNATI ENQUIRER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">4.0</data>
+      <data key="d5">The Cincinnati Enquirer is a media organization that reported on a fire-related incident</data>
+    </node>
+    <node id="114">
+      <data key="d0">DISCOVERY COMPANY</data>
+      <data key="d1" />
+      <data key="d2">4.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the National Football League</data>
+    </edge>
+    <edge id="e1" source="1" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the National Basketball Association</data>
+    </edge>
+    <edge id="e2" source="2" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for College Football</data>
+    </edge>
+    <edge id="e3" source="3" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for Major League Baseball</data>
+    </edge>
+    <edge id="e4" source="4" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">sports betting platform...</data>
+      <data key="d6">Bleacher Report offers a sports betting platform and service called Unrivaled Betting</data>
+    </edge>
+    <edge id="e5" source="5" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">sports programming content...</data>
+      <data key="d6">Bleacher Report provides sports programming and content for the HBO Max streaming service</data>
+    </edge>
+    <edge id="e6" source="6" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the National Hockey League</data>
+    </edge>
+    <edge id="e7" source="7" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for College Basketball</data>
+    </edge>
+    <edge id="e8" source="8" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Women's National Basketball Association</data>
+    </edge>
+    <edge id="e9" source="9" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for global football/soccer</data>
+    </edge>
+    <edge id="e10" source="10" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for NASCAR racing</data>
+    </edge>
+    <edge id="e11" source="11" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for professional tennis</data>
+    </edge>
+    <edge id="e12" source="12" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for professional golf</data>
+    </edge>
+    <edge id="e13" source="13" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for World Wrestling Entertainment</data>
+    </edge>
+    <edge id="e14" source="14" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for Mixed Martial Arts</data>
+    </edge>
+    <edge id="e15" source="15" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for professional boxing</data>
+    </edge>
+    <edge id="e16" source="16" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for All Elite Wrestling</data>
+    </edge>
+    <edge id="e17" source="17" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for Formula One racing</data>
+    </edge>
+    <edge id="e18" source="18" target="19">
+      <data key="d3">1.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for MotoGP motorcycle racing</data>
+    </edge>
+    <edge id="e19" source="19" target="51">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Buffalo Bills</data>
+    </edge>
+    <edge id="e20" source="19" target="20">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Miami Dolphins</data>
+    </edge>
+    <edge id="e21" source="19" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the New York Jets</data>
+    </edge>
+    <edge id="e22" source="19" target="22">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the New England Patriots</data>
+    </edge>
+    <edge id="e23" source="19" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Cincinnati Bengals</data>
+    </edge>
+    <edge id="e24" source="19" target="24">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Cleveland Browns</data>
+    </edge>
+    <edge id="e25" source="19" target="25">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Baltimore Ravens</data>
+    </edge>
+    <edge id="e26" source="19" target="26">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Pittsburgh Steelers</data>
+    </edge>
+    <edge id="e27" source="19" target="27">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Indianapolis Colts</data>
+    </edge>
+    <edge id="e28" source="19" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Jacksonville Jaguars</data>
+    </edge>
+    <edge id="e29" source="19" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Houston Texans</data>
+    </edge>
+    <edge id="e30" source="19" target="30">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Tennessee Titans</data>
+    </edge>
+    <edge id="e31" source="19" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Denver Broncos</data>
+    </edge>
+    <edge id="e32" source="19" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Los Angeles Chargers</data>
+    </edge>
+    <edge id="e33" source="19" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Kansas City Chiefs</data>
+    </edge>
+    <edge id="e34" source="19" target="34">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Las Vegas Raiders</data>
+    </edge>
+    <edge id="e35" source="19" target="35">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Washington Commanders</data>
+    </edge>
+    <edge id="e36" source="19" target="36">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Dallas Cowboys</data>
+    </edge>
+    <edge id="e37" source="19" target="37">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Philadelphia Eagles</data>
+    </edge>
+    <edge id="e38" source="19" target="38">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the New York Giants</data>
+    </edge>
+    <edge id="e39" source="19" target="39">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Chicago Bears</data>
+    </edge>
+    <edge id="e40" source="19" target="40">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Detroit Lions</data>
+    </edge>
+    <edge id="e41" source="19" target="41">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Green Bay Packers</data>
+    </edge>
+    <edge id="e42" source="19" target="42">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Minnesota Vikings</data>
+    </edge>
+    <edge id="e43" source="19" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Tampa Bay Buccaneers</data>
+    </edge>
+    <edge id="e44" source="19" target="44">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Atlanta Falcons</data>
+    </edge>
+    <edge id="e45" source="19" target="45">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Carolina Panthers</data>
+    </edge>
+    <edge id="e46" source="19" target="46">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the New Orleans Saints</data>
+    </edge>
+    <edge id="e47" source="19" target="47">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the San Francisco 49ers</data>
+    </edge>
+    <edge id="e48" source="19" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Arizona Cardinals</data>
+    </edge>
+    <edge id="e49" source="19" target="49">
+      <data key="d3">9.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Los Angeles Rams</data>
+    </edge>
+    <edge id="e50" source="19" target="50">
+      <data key="d3">1.0</data>
+      <data key="d4">news, highlights, analysis...</data>
+      <data key="d6">Bleacher Report provides news, highlights, and analysis for the Seattle Seahawks</data>
+    </edge>
+    <edge id="e51" source="52" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original documentary series Hillsong: A Megachurch Exposed</data>
+    </edge>
+    <edge id="e52" source="53" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original reality series Love Off the Grid</data>
+    </edge>
+    <edge id="e53" source="54" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original reality series Naked and Afraid of Love</data>
+    </edge>
+    <edge id="e54" source="55" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original documentary series Queen of Meth</data>
+    </edge>
+    <edge id="e55" source="56" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original paranormal series The Haunted Museum</data>
+    </edge>
+    <edge id="e56" source="57" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original reality series Selling the Hamptons</data>
+    </edge>
+    <edge id="e57" source="58" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original reality series Kendra Sells Hollywood</data>
+    </edge>
+    <edge id="e58" source="59" target="62">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for the original automotive series Million Dollar Wheels</data>
+    </edge>
+    <edge id="e59" source="60" target="62">
+      <data key="d3">7.0</data>
+      <data key="d4">from Magnolia Network...</data>
+      <data key="d6">Discovery+ features content from the Magnolia Network</data>
+    </edge>
+    <edge id="e60" source="61" target="62">
+      <data key="d3">1.0</data>
+      <data key="d4">from Oprah Winfrey...</data>
+      <data key="d6">Discovery+ features content from the Oprah Winfrey Network (OWN)</data>
+    </edge>
+    <edge id="e61" source="62" target="67">
+      <data key="d3">9.0</data>
+      <data key="d4">streaming home original...</data>
+      <data key="d6">Discovery+ is the streaming home for original content from CNN</data>
+    </edge>
+    <edge id="e62" source="62" target="63">
+      <data key="d3">9.0</data>
+      <data key="d4">classic series from...</data>
+      <data key="d6">Discovery+ features new and classic series from HGTV</data>
+    </edge>
+    <edge id="e63" source="62" target="64">
+      <data key="d3">9.0</data>
+      <data key="d4">classic series from...</data>
+      <data key="d6">Discovery+ features new and classic series from Food Network</data>
+    </edge>
+    <edge id="e64" source="62" target="65">
+      <data key="d3">9.0</data>
+      <data key="d4">classic series from...</data>
+      <data key="d6">Discovery+ features new and classic series from TLC</data>
+    </edge>
+    <edge id="e65" source="62" target="66">
+      <data key="d3">1.0</data>
+      <data key="d4">classic series from...</data>
+      <data key="d6">Discovery+ features new and classic series from ID (Investigation Discovery)</data>
+    </edge>
+    <edge id="e66" source="68" target="62">
+      <data key="d3">5.0</data>
+      <data key="d4">available subscribers...</data>
+      <data key="d6">Discovery+ is only available to subscribers in the United States and its territories</data>
+    </edge>
+    <edge id="e67" source="69" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Brazil</data>
+      <data key="d6">Discovery+ is available in Brazil</data>
+    </edge>
+    <edge id="e68" source="70" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Canada</data>
+      <data key="d6">Discovery+ is available in Canada</data>
+    </edge>
+    <edge id="e69" source="71" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Denmark</data>
+      <data key="d6">Discovery+ is available in Denmark</data>
+    </edge>
+    <edge id="e70" source="72" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Finland</data>
+      <data key="d6">Discovery+ is available in Finland</data>
+    </edge>
+    <edge id="e71" source="73" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available India</data>
+      <data key="d6">Discovery+ is available in India</data>
+    </edge>
+    <edge id="e72" source="74" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Ireland</data>
+      <data key="d6">Discovery+ is available in Ireland</data>
+    </edge>
+    <edge id="e73" source="75" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Italy</data>
+      <data key="d6">Discovery+ is available in Italy</data>
+    </edge>
+    <edge id="e74" source="76" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">in the Netherlands...</data>
+      <data key="d6">Discovery+ is available in the Netherlands</data>
+    </edge>
+    <edge id="e75" source="77" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Norway</data>
+      <data key="d6">Discovery+ is available in Norway</data>
+    </edge>
+    <edge id="e76" source="78" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">in the Philippines...</data>
+      <data key="d6">Discovery+ is available in the Philippines</data>
+    </edge>
+    <edge id="e77" source="79" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Poland</data>
+      <data key="d6">Discovery+ is available in Poland</data>
+    </edge>
+    <edge id="e78" source="80" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Spain</data>
+      <data key="d6">Discovery+ is available in Spain</data>
+    </edge>
+    <edge id="e79" source="81" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">available Sweden</data>
+      <data key="d6">Discovery+ is available in Sweden</data>
+    </edge>
+    <edge id="e80" source="82" target="62">
+      <data key="d3">3.0</data>
+      <data key="d4">United Arab Emirates...</data>
+      <data key="d6">Discovery+ is available in the United Arab Emirates</data>
+    </edge>
+    <edge id="e81" source="83" target="62">
+      <data key="d3">1.0</data>
+      <data key="d4">United Kingdom...</data>
+      <data key="d6">Discovery+ is available in the United Kingdom</data>
+    </edge>
+    <edge id="e82" source="62" target="92">
+      <data key="d3">5.0</data>
+      <data key="d4">operated Warner Bros....</data>
+      <data key="d6">Discovery+ is owned and operated by Warner Bros. Discovery, Inc.</data>
+    </edge>
+    <edge id="e83" source="62" target="84">
+      <data key="d3">4.0</data>
+      <data key="d4">Amazon Fire streaming...</data>
+      <data key="d6">Discovery+ is available on Amazon Fire TV streaming devices</data>
+    </edge>
+    <edge id="e84" source="62" target="85">
+      <data key="d3">4.0</data>
+      <data key="d4">Apple devices...</data>
+      <data key="d6">Discovery+ is available on Apple TV devices</data>
+    </edge>
+    <edge id="e85" source="62" target="86">
+      <data key="d3">4.0</data>
+      <data key="d4">Google Android devices...</data>
+      <data key="d6">Discovery+ is available on Google Android devices and platforms</data>
+    </edge>
+    <edge id="e86" source="62" target="87">
+      <data key="d3">4.0</data>
+      <data key="d4">Microsoft Xbox gaming...</data>
+      <data key="d6">Discovery+ is available on Microsoft Xbox gaming consoles</data>
+    </edge>
+    <edge id="e87" source="62" target="88">
+      <data key="d3">4.0</data>
+      <data key="d4">Roku streaming devices...</data>
+      <data key="d6">Discovery+ is available on Roku streaming devices</data>
+    </edge>
+    <edge id="e88" source="62" target="89">
+      <data key="d3">4.0</data>
+      <data key="d4">Samsung Smart TVs...</data>
+      <data key="d6">Discovery+ is available on Samsung Smart TVs</data>
+    </edge>
+    <edge id="e89" source="62" target="90">
+      <data key="d3">4.0</data>
+      <data key="d4">VIZIO Smart TVs...</data>
+      <data key="d6">Discovery+ is available on VIZIO Smart TVs</data>
+    </edge>
+    <edge id="e90" source="62" target="91">
+      <data key="d3">1.0</data>
+      <data key="d4">Smart TVs...</data>
+      <data key="d6">Discovery+ is available on LG Smart TVs</data>
+    </edge>
+    <edge id="e91" source="93" target="96">
+      <data key="d3">1.0</data>
+      <data key="d4">founder Discovery, Inc....</data>
+      <data key="d6">John Hendricks was the founder of Discovery, Inc.</data>
+    </edge>
+    <edge id="e92" source="94" target="96">
+      <data key="d3">8.0</data>
+      <data key="d4">Scripps Networks Interactive...</data>
+      <data key="d6">Discovery, Inc. acquired Scripps Networks Interactive in 2018, adding several new television networks to its portfolio.</data>
+    </edge>
+    <edge id="e93" source="95" target="96">
+      <data key="d3">27.0</data>
+      <data key="d4">multinational media...</data>
+      <data key="d6">Warner Bros. Discovery is a multinational media and entertainment company formed in 2022 through the merger of Discovery, Inc. and the former WarnerMedia division of AT&amp;T.
+
+Discovery, Inc. was one of the predecessor companies that merged to create the new entity of Warner Bros. Discovery. Prior to the merger, Discovery, Inc. was an American mass media company that operated various television brands, including the Discovery Channel, HGTV, Food Network, TLC, Investigation Discovery, and Animal Planet, among others.
+
+The merger between Discovery, Inc. and WarnerMedia, a division of AT&amp;T, resulted in the creation of Warner Bros. Discovery. This new company combines the extensive media and entertainment assets of both organizations, including Warner Bros.' film and television studios, cable networks, and the HBO and HBO Max streaming platforms, with Discovery's portfolio of popular nonfiction and reality-based content.
+
+The merger was completed in April 2022, with the new company being led by David Zaslav, the former CEO of Discovery, Inc. The combined entity is poised to become a major player in the global media landscape, with a diverse range of content offerings and a strong presence in both traditional and digital media platforms.
+
+Warner Bros. Discovery is expected to leverage the strengths of its constituent companies to create synergies and drive growth. The merger is also seen as a strategic move to better compete in the rapidly evolving media industry, where streaming services and direct-to-consumer offerings have become increasingly important.
+
+Overall, the formation of Warner Bros. Discovery represents a significant consolidation in the media and entertainment industry, bringing together two major players to create a new, powerful entity that will shape the future of content creation, distribution, and consumption.</data>
+    </edge>
+    <edge id="e94" source="96" target="105">
+      <data key="d3">9.0</data>
+      <data key="d4">one television brands...</data>
+      <data key="d6">Discovery Channel is one of the television brands operated by Discovery, Inc.</data>
+    </edge>
+    <edge id="e95" source="96" target="97">
+      <data key="d3">9.0</data>
+      <data key="d4">one television brands...</data>
+      <data key="d6">Animal Planet is one of the television brands operated by Discovery, Inc.</data>
+    </edge>
+    <edge id="e96" source="96" target="98">
+      <data key="d3">9.0</data>
+      <data key="d4">one television brands...</data>
+      <data key="d6">Science Channel is one of the television brands operated by Discovery, Inc.</data>
+    </edge>
+    <edge id="e97" source="96" target="65">
+      <data key="d3">9.0</data>
+      <data key="d4">television brands operated...</data>
+      <data key="d6">TLC is one of the television brands operated by Discovery, Inc.</data>
+    </edge>
+    <edge id="e98" source="96" target="64">
+      <data key="d3">8.0</data>
+      <data key="d4">added Discovery, Inc.'s...</data>
+      <data key="d6">Food Network was added to Discovery, Inc.'s portfolio after acquiring Scripps Networks Interactive.</data>
+    </edge>
+    <edge id="e99" source="96" target="63">
+      <data key="d3">8.0</data>
+      <data key="d4">Discovery, Inc.'s portfolio...</data>
+      <data key="d6">HGTV was added to Discovery, Inc.'s portfolio after acquiring Scripps Networks Interactive.</data>
+    </edge>
+    <edge id="e100" source="96" target="99">
+      <data key="d3">8.0</data>
+      <data key="d4">added Discovery, Inc.'s...</data>
+      <data key="d6">Travel Channel was added to Discovery, Inc.'s portfolio after acquiring Scripps Networks Interactive.</data>
+    </edge>
+    <edge id="e101" source="96" target="100">
+      <data key="d3">8.0</data>
+      <data key="d4">pan-European group sports...</data>
+      <data key="d6">Eurosport is a pan-European group of sports channels owned or operated by Discovery, Inc.</data>
+    </edge>
+    <edge id="e102" source="96" target="101">
+      <data key="d3">8.0</data>
+      <data key="d4">international golf-focused streaming...</data>
+      <data key="d6">GolfTV is an international golf-focused streaming service owned or operated by Discovery, Inc.</data>
+    </edge>
+    <edge id="e103" source="96" target="102">
+      <data key="d3">8.0</data>
+      <data key="d4">operates general-interest channels...</data>
+      <data key="d6">Discovery Communications Nordic operates general-interest channels in Norway, Sweden, Denmark and Finland for Discovery, Inc.</data>
+    </edge>
+    <edge id="e104" source="96" target="103">
+      <data key="d3">8.0</data>
+      <data key="d4">portfolio channels owned...</data>
+      <data key="d6">TVN Group is a portfolio of channels owned or operated by Discovery, Inc. in Poland.</data>
+    </edge>
+    <edge id="e105" source="96" target="104">
+      <data key="d3">1.0</data>
+      <data key="d4">parent company Discovery,...</data>
+      <data key="d6">Advance Publications is the parent company of Discovery, Inc.</data>
+    </edge>
+    <edge id="e106" source="95" target="106">
+      <data key="d3">9.0</data>
+      <data key="d4">one predecessor companies...</data>
+      <data key="d6">Warner Bros. was one of the predecessor companies that merged to form Warner Bros. Discovery</data>
+    </edge>
+    <edge id="e107" source="107" target="108">
+      <data key="d3">18.0</data>
+      <data key="d4">Emergency Management...</data>
+      <data key="d6">The Oregon Department of Emergency Management is the state agency responsible for coordinating emergency response in Oregon</data>
+    </edge>
+    <edge id="e108" source="108" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">involved fire...</data>
+      <data key="d6">The Discovery Company was involved in a fire incident in Oregon</data>
+    </edge>
+    <edge id="e109" source="109" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">fire related...</data>
+      <data key="d6">Frontline Wildfire reported on a fire related to the Discovery Company</data>
+    </edge>
+    <edge id="e110" source="110" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">fire related...</data>
+      <data key="d6">Firehouse reported on a fire related to the Discovery Company</data>
+    </edge>
+    <edge id="e111" source="111" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">fire related...</data>
+      <data key="d6">USA Today reported on a fire related to the Discovery Company</data>
+    </edge>
+    <edge id="e112" source="112" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">sells equipment related...</data>
+      <data key="d6">Acorn Fire Security sells equipment related to fires at the Discovery Company</data>
+    </edge>
+    <edge id="e113" source="113" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">reported fire related...</data>
+      <data key="d6">The Cincinnati Enquirer reported on a fire related to the Discovery Company</data>
+    </edge>
+    <edge id="e114" source="19" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">fire related...</data>
+      <data key="d6">Bleacher Report reported on a fire related to the Discovery Company</data>
+    </edge>
+    <edge id="e115" source="62" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">streaming service owned...</data>
+      <data key="d6">Discovery+ is a streaming service owned by the Discovery Company</data>
+    </edge>
+  </graph>
+</graphml>

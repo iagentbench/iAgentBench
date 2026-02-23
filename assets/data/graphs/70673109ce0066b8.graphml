@@ -1,0 +1,1628 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">28.0</data>
+      <data key="d5">The text discusses U.S. Forest Service activities related to wildfire management and firefighting.</data>
+    </node>
+    <node id="1">
+      <data key="d0">U.S. FOREST SERVICE</data>
+      <data key="d1" />
+      <data key="d2">20.0</data>
+      <data key="d5" />
+    </node>
+    <node id="2">
+      <data key="d0">NATIONAL INTERAGENCY FIRE CENTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center (NIFC) is a critical organization that plays a vital role in coordinating wildland fire management and response across the United States. As the central hub for wildland firefighting efforts, the NIFC is responsible for overseeing and coordinating the efforts of various federal, state, and local agencies to effectively manage and respond to wildland fires.
+
+The NIFC's primary function is to provide a unified command and control structure for wildland fire management. This includes gathering and disseminating information about emerging and ongoing wildland fires, as well as coordinating the deployment of resources and personnel to combat these fires. The center also serves as a clearinghouse for data and information related to wildland fires, providing the IRWIN (Integrated Reporting of Wildland-Fire Information) feeds with up-to-date data on fire locations and boundaries.
+
+One of the key responsibilities of the NIFC is to ensure that wildland firefighting efforts are carried out in a coordinated and efficient manner. This involves the coordination of resources and personnel from various agencies, including the U.S. Forest Service, the Bureau of Land Management, the National Park Service, and the Bureau of Indian Affairs, among others. By working together, these agencies are able to leverage their collective expertise and resources to effectively combat wildland fires and protect communities and natural resources.
+
+In addition to its role in coordinating wildland firefighting efforts, the NIFC also plays a critical role in providing training and support to wildland firefighters. The center offers a variety of training programs and resources to help firefighters develop the skills and knowledge they need to safely and effectively combat wildland fires. This includes training in areas such as fire behavior, tactics, and safety.
+
+Overall, the National Interagency Fire Center is a vital organization that plays a crucial role in protecting communities and natural resources from the devastating effects of wildland fires. Through its coordinated efforts and comprehensive approach to wildland fire management, the NIFC is able to help ensure that these fires are effectively contained and controlled, minimizing the impact on people, property, and the environment.</data>
+    </node>
+    <node id="3">
+      <data key="d0">NASA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">28.0</data>
+      <data key="d5">NASA operates the FIRMS (Fire Information for Resource Management System) which tracks current wildfires in the US and Canada.</data>
+    </node>
+    <node id="4">
+      <data key="d0">AIRNOW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">28.0</data>
+      <data key="d5">AirNow provides a fire and smoke map to track current wildfires and air quality across the United States.</data>
+    </node>
+    <node id="5">
+      <data key="d0">WFCA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">28.0</data>
+      <data key="d5">The Wildfire Coordinating Agency (WFCA) provides a map to track current wildfires in the US.</data>
+    </node>
+    <node id="6">
+      <data key="d0">NATIONAL WILDFIRE COORDINATING GROUP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">29.0</data>
+      <data key="d5">The National Wildfire Coordinating Group (NWCG) is an organization that plays a crucial role in coordinating wildland firefighting efforts across the United States. Established to foster cooperation and standardization among various federal, state, and local agencies involved in wildland fire management, the NWCG serves as a central hub for information, training, and resource sharing.
+
+One of the primary functions of the NWCG is to provide a comprehensive glossary of wildland fire definitions and acronyms. This glossary serves as a valuable resource for firefighters, land managers, and other professionals working in the field of wildland fire management. By establishing a common language and understanding of key terms, the NWCG helps to ensure effective communication and coordination among the diverse agencies and individuals involved in wildland firefighting.
+
+In addition to its role in defining and standardizing wildland fire terminology, the NWCG also plays a crucial role in coordinating the overall wildland firefighting efforts across the United States. The organization brings together representatives from various federal, state, and local agencies, including the U.S. Forest Service, the Bureau of Land Management, the National Park Service, and state forestry departments, among others. By fostering collaboration and coordination among these entities, the NWCG helps to ensure a more efficient and effective response to wildland fires, ultimately protecting lives, property, and natural resources.
+
+The NWCG's efforts in coordinating wildland firefighting extend beyond just the immediate response to fires. The organization also plays a key role in developing and disseminating best practices, training programs, and safety protocols for wildland firefighters. This helps to ensure that firefighters are well-equipped, trained, and prepared to handle the unique challenges and hazards associated with fighting wildland fires.
+
+Overall, the National Wildfire Coordinating Group is a vital organization that plays a critical role in the management and response to wildland fires in the United States. Through its efforts in standardizing terminology, coordinating firefighting efforts, and developing training and safety protocols, the NWCG helps to ensure that the nation's wildland firefighting capabilities are as effective and efficient as possible.</data>
+    </node>
+    <node id="7">
+      <data key="d0">ARCGIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">28.0</data>
+      <data key="d5">ArcGIS provides a web map to track current wildfire activity in the United States.</data>
+    </node>
+    <node id="8">
+      <data key="d0">INCIWEB</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">INCIWEB is an interagency all-risk incident information management system operated by the National Interagency Fire Center. It provides information on a variety of natural disasters and emergencies, including wildland fire emergencies, prescribed fires, and other natural disasters.
+
+The primary purpose of INCIWEB is to serve as an information management system for incident commanders and the public. It is designed to be an interagency platform, allowing for the coordination and dissemination of information across different agencies and jurisdictions.
+
+INCIWEB collects and consolidates data from various sources, including federal, state, and local agencies, to provide a comprehensive and up-to-date overview of ongoing incidents. This information can include details about the location, size, and status of the incident, as well as any evacuation orders, road closures, and other relevant details.
+
+The system is particularly useful during large-scale incidents, such as wildfires, where multiple agencies and resources may be involved in the response and management efforts. By providing a centralized platform for information sharing, INCIWEB helps to improve coordination and communication among the various stakeholders, ensuring a more efficient and effective response.
+
+In addition to its role in incident management, INCIWEB also serves as a valuable resource for the public, providing them with timely and accurate information about ongoing incidents in their area. This can help individuals and communities to better prepare and respond to emergencies, as well as stay informed about the status of ongoing events.
+
+Overall, INCIWEB is a critical tool for incident management and public information sharing, helping to ensure a coordinated and effective response to a wide range of natural disasters and emergencies.</data>
+    </node>
+    <node id="9">
+      <data key="d0">US FOREST SERVICE</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="10">
+      <data key="d0">INCIDENT AND POSITION STANDARDS COMMITTEE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">29.0</data>
+      <data key="d5">The Incident and Position Standards Committee is responsible for updating the NWCG Standards for Wildland Fire Position Qualifications, PMS 310-1.</data>
+    </node>
+    <node id="11">
+      <data key="d0">INCIDENT BUSINESS COMMITTEE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">29.0</data>
+      <data key="d5">The Incident Business Committee is responsible for updating the Emergency Equipment Shift Ticket, OF 297.</data>
+    </node>
+    <node id="12">
+      <data key="d0">S-320, INTRODUCTION TO INCIDENT MANAGEMENT TEAMS (BLENDED)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">30.0</data>
+      <data key="d5">S-320, INTRODUCTION TO INCIDENT MANAGEMENT TEAMS (BLENDED)
+
+S-320, INTRODUCTION TO INCIDENT MANAGEMENT TEAMS (BLENDED) is a new blended training course that combines online learning with instructor-led training. The course is designed for individuals seeking to build leadership skills and gain experience in incident management.
+
+The course provides an introduction to incident management teams, which are responsible for coordinating and managing emergency response efforts. Participants will learn about the roles and responsibilities of different team members, as well as the processes and procedures involved in incident management.
+
+The blended format of the course allows for a more flexible and engaging learning experience. The online component provides participants with the opportunity to learn at their own pace and review course materials as needed, while the instructor-led training sessions offer hands-on practice and the chance to interact with experienced instructors and fellow participants.
+
+Through the course, participants will develop a range of skills, including communication, decision-making, and problem-solving. They will also gain a better understanding of the challenges and complexities involved in incident management, and learn strategies for effectively leading and coordinating a team during emergency situations.
+
+Overall, S-320, INTRODUCTION TO INCIDENT MANAGEMENT TEAMS (BLENDED) is a comprehensive and innovative training program that aims to equip individuals with the knowledge and skills necessary to effectively manage and respond to a wide range of emergency situations.</data>
+    </node>
+    <node id="13">
+      <data key="d0">ICS-100, INTRODUCTION TO INCIDENT COMMAND SYSTEM (ICS)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">30.0</data>
+      <data key="d5">ICS-100, INTRODUCTION TO INCIDENT COMMAND SYSTEM (ICS)
+
+ICS-100, Introduction to Incident Command System (ICS), is a prerequisite training course for the S-320 course. The ICS-100 course provides an introduction to the Incident Command System, which is a standardized approach to the command, control, and coordination of emergency response. The course covers the basic features of ICS, including its organizational structure, roles and responsibilities, and the management of resources and communications during an incident.
+
+The ICS-100 course is designed to prepare individuals for their roles in an incident response, whether they are first responders, emergency managers, or members of the general public. The course covers the fundamental principles of ICS, such as the chain of command, span of control, and the use of common terminology. It also introduces the various components of the ICS, including the Incident Commander, the General Staff, and the Command and General Staff.
+
+The ICS-100 course is a prerequisite for the S-320 course, which is a more advanced training program that focuses on the management of complex incidents. By completing the ICS-100 course, individuals will have a solid foundation in the principles and practices of the Incident Command System, which will enable them to effectively participate in and support incident response efforts.
+
+Overall, the ICS-100 course is an essential component of emergency preparedness and response training, and is a critical step in the development of individuals who may be called upon to respond to a wide range of incidents, from natural disasters to man-made emergencies.</data>
+    </node>
+    <node id="14">
+      <data key="d0">NWCG</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The National Wildfire Coordinating Group (NWCG) is announcing the availability of the S-320 course on the Wildland Fire Learning Portal</data>
+    </node>
+    <node id="15">
+      <data key="d0">ICS-200, BASIC ICS FOR INITIAL RESPONSE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">30.0</data>
+      <data key="d5">ICS-200 is a prerequisite training for the S-320 course</data>
+    </node>
+    <node id="16">
+      <data key="d0">ICS-700, AN INTRODUCTION TO THE NATIONAL INCIDENT MANAGEMENT SYSTEM (NIMS)</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">30.0</data>
+      <data key="d5">ICS-700 is a prerequisite training for the S-320 course</data>
+    </node>
+    <node id="17">
+      <data key="d0">WILDLAND FIRE LEARNING PORTAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The Wildland Fire Learning Portal is where the S-320 course is available</data>
+    </node>
+    <node id="18">
+      <data key="d0">NWCG POSITION TASK BOOKS (PTBS)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">NWCG position task books are a key component of the qualification process for specified NWCG positions</data>
+    </node>
+    <node id="19">
+      <data key="d0">RT-130 WFSTAR REFRESHER</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">31.0</data>
+      <data key="d5">Updates for the RT-130 WFSTAR Refresher for 2025 and the 2024 Fire Year in Review are available</data>
+    </node>
+    <node id="20">
+      <data key="d0">NWCG TRAINING CATALOG</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The NWCG training catalog has migrated to the Wildland Fire Learning Portal</data>
+    </node>
+    <node id="21">
+      <data key="d0">PMS 310-1 AND ALL POSITIONS QUALIFICATION REQUIREMENTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The PMS 310-1 and All Positions Qualification Requirements web pages are updated, and a new PDF report is available for download or print</data>
+    </node>
+    <node id="22">
+      <data key="d0">2025 PROFESSIONAL READING PROGRAM</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The Wildland Fire Leadership Development Program is announcing the 2025 Professional Reading List</data>
+    </node>
+    <node id="23">
+      <data key="d0">NWCG DATA STANDARDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">New EDG/Web Integration Data Elements and Geospatial Data Layer tables offer a quick view of the standards managed in the EDG Explorer database platform</data>
+    </node>
+    <node id="24">
+      <data key="d0">NWCG GLOSSARY OF WILDLAND FIRE, PMS 205</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The NWCG Glossary of Wildland Fire terms is managed in the EDG database system, and a quick view is available on the NWCG website</data>
+    </node>
+    <node id="25">
+      <data key="d0">RT-130</data>
+      <data key="d1" />
+      <data key="d2">29.0</data>
+      <data key="d5" />
+    </node>
+    <node id="26">
+      <data key="d0">BUREAU OF LAND MANAGEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">17.0</data>
+      <data key="d5">The Bureau of Land Management (BLM) is a federal agency within the United States Department of the Interior that is responsible for administering and managing public lands. As one of the primary member organizations of the National Wildfire Coordinating Group (NWCG), the BLM plays a crucial role in the nation's wildland fire management efforts.
+
+The BLM's involvement in wildland fire management is significant, as it will be part of the U.S. Wildland Fire Service, a unified organization that aims to enhance the coordination and effectiveness of wildfire response across the country. The BLM's fire program, along with other participating agencies, will work together to ensure a cohesive and efficient approach to wildfire suppression, prevention, and mitigation.
+
+The BLM's role in the U.S. Wildland Fire Service is a testament to its expertise and experience in managing and responding to wildfires. As a member of the NWCG, the BLM collaborates with other federal, state, and local agencies to develop and implement standardized policies, procedures, and training programs for wildland firefighters. This collaborative approach helps to ensure a consistent and effective response to wildfire incidents across the nation.
+
+In addition to its fire management responsibilities, the BLM is also responsible for managing and protecting a vast network of public lands, including national monuments, wilderness areas, and other natural resources. The agency's mission is to sustain the health, diversity, and productivity of these public lands for the benefit of present and future generations.
+
+Overall, the Bureau of Land Management plays a critical role in the nation's wildland fire management efforts, as well as in the stewardship of public lands. Its participation in the U.S. Wildland Fire Service and its membership in the NWCG demonstrate the agency's commitment to protecting communities and natural resources from the threat of wildfires.</data>
+    </node>
+    <node id="27">
+      <data key="d0">FISH AND WILDLIFE SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">One of the primary member organizations of NWCG</data>
+    </node>
+    <node id="28">
+      <data key="d0">FOREST SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The Forest Service is a government agency that plays a significant role in various aspects of natural resource management and research. As one of the primary member organizations of the National Wildfire Coordinating Group (NWCG), the Forest Service is actively involved in wildland fire management, working to protect and manage the nation's forests and grasslands.
+
+The Forest Service's responsibilities extend beyond fire management, as it also conducts research and development on mass timber and other forest products. This research aims to explore innovative ways to utilize the resources found within the nation's forests, contributing to the development of sustainable and efficient forest management practices.
+
+As a government agency, the Forest Service is tasked with overseeing the management and conservation of the country's public lands, including national forests and grasslands. This involves a wide range of activities, such as managing recreational use, protecting wildlife habitats, and ensuring the long-term health and productivity of these natural resources.
+
+The Forest Service's work is guided by a commitment to science-based decision-making and a focus on balancing the needs of various stakeholders, including the public, industry, and environmental groups. Through its research and development efforts, the agency seeks to find innovative solutions that address the complex challenges facing the nation's forests and natural resources.
+
+Overall, the Forest Service plays a crucial role in the stewardship of the country's natural resources, working to ensure their sustainable use and preservation for present and future generations. Its involvement in wildland fire management, forest product research, and natural resource conservation demonstrates the breadth and importance of its work in supporting the health and resilience of the nation's ecosystems.</data>
+    </node>
+    <node id="29">
+      <data key="d0">INTERNATIONAL ASSOCIATION OF FIRE CHIEFS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">One of the primary member organizations of NWCG</data>
+    </node>
+    <node id="30">
+      <data key="d0">INTERTRIBAL TIMBER COUNCIL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">One of the primary member organizations of NWCG</data>
+    </node>
+    <node id="31">
+      <data key="d0">NATIONAL ASSOCIATION OF STATE FORESTERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">One of the primary member organizations of NWCG</data>
+    </node>
+    <node id="32">
+      <data key="d0">NATIONAL PARK SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The National Park Service (NPS) is a federal agency within the United States Department of the Interior that manages and preserves the country's national parks and monuments. As one of the primary member organizations of the National Wildfire Coordinating Group (NWCG), the National Park Service plays a crucial role in the nation's wildland fire management efforts.
+
+The National Park Service is responsible for protecting and managing over 400 national parks, monuments, and other protected areas across the United States. This includes iconic natural wonders such as Yellowstone, Yosemite, and the Grand Canyon, as well as historic sites and cultural landmarks. The agency's mission is to preserve the natural and cultural resources of these areas for the enjoyment, education, and inspiration of present and future generations.
+
+In addition to its role in managing the national park system, the National Park Service is also one of the fire programs that will be part of the U.S. Wildland Fire Service. This integrated approach to wildland fire management allows the NPS to work closely with other federal, state, and local agencies to coordinate and respond to wildfire incidents across the country.
+
+The National Park Service's fire management program is responsible for preventing, suppressing, and managing wildfires within the national park system. This includes maintaining a fleet of specialized firefighting equipment, training and deploying firefighters, and implementing prescribed burning and other fuel reduction strategies to mitigate the risk of catastrophic wildfires.
+
+Through its participation in the NWCG, the National Park Service collaborates with other federal, state, and local agencies to develop and implement national standards, policies, and best practices for wildland fire management. This ensures a coordinated and effective response to wildfire incidents, regardless of jurisdiction.
+
+Overall, the National Park Service plays a vital role in preserving the natural and cultural heritage of the United States, while also contributing to the nation's wildland fire management efforts. As a member of the NWCG and a key component of the U.S. Wildland Fire Service, the NPS continues to be a crucial partner in protecting communities and ecosystems from the threat of catastrophic wildfires.</data>
+    </node>
+    <node id="33">
+      <data key="d0">U.S. DEPARTMENT OF DEFENSE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">One of the primary member organizations of NWCG</data>
+    </node>
+    <node id="34">
+      <data key="d0">U.S. FIRE ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">One of the primary member organizations of NWCG</data>
+    </node>
+    <node id="35">
+      <data key="d0">BUREAU OF INDIAN AFFAIRS</data>
+      <data key="d1" />
+      <data key="d2">31.0</data>
+      <data key="d5" />
+    </node>
+    <node id="36">
+      <data key="d0">MISSOULA FIRE SCIENCES LABORATORY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Missoula Fire Sciences Laboratory, also known as the "Fire Lab", is a leading global center for fire science research conducted by the US Forest Service</data>
+    </node>
+    <node id="37">
+      <data key="d0">FIRE MODELING INSTITUTE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Fire Modeling Institute is a center of expertise within the US Forest Service that informs fire management, planning, and science implementation through fire and fuels modeling</data>
+    </node>
+    <node id="38">
+      <data key="d0">NATIONAL FIRE DANGER RATING SYSTEM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The National Fire Danger Rating System allows fire managers to estimate current and future fire danger within a given area</data>
+    </node>
+    <node id="39">
+      <data key="d0">FIRE BEHAVIOR ASSESSMENT TEAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Fire Behavior Assessment Team measures pre-fire fuels and vegetation, active-fire behavior, and post-fire effects to study post-fire recovery and inform Burned Area Emergency Response activities</data>
+    </node>
+    <node id="40">
+      <data key="d0">BEHAVEPLUS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">BehavePlus is a program that calculates fire behavior for fire management applications using specified fuel and moisture conditions</data>
+    </node>
+    <node id="41">
+      <data key="d0">FLAMMAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">FlamMap is a fire mapping and analysis system that simulates potential fire behavior characteristics, fire growth and spread, and conditional burn probabilities under constant environmental conditions</data>
+    </node>
+    <node id="42">
+      <data key="d0">FOREST SERVICE FIREFIGHTERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Forest Service firefighters respond to many of the wildfires that burn millions of acres in the US each year</data>
+    </node>
+    <node id="43">
+      <data key="d0">FIRE BEHAVIOR</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="44">
+      <data key="d0">PATHHOUSE LLC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">PathHouse LLC is a company that has co-patented a mass timber modular floor cassette with the US Forest Service</data>
+    </node>
+    <node id="45">
+      <data key="d0">WILLAMETTE NATIONAL FOREST</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Willamette National Forest in Oregon is replacing employee houses lost to fire with mass timber units</data>
+    </node>
+    <node id="46">
+      <data key="d0">SEATTLE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Forest Service grants are sparking mass timber projects in Seattle</data>
+    </node>
+    <node id="47">
+      <data key="d0">WOODWORKS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">WoodWorks is a program within the US Forest Service that is finding ways to enable mass timber buildings to reach the same heights as concrete and steel structures</data>
+    </node>
+    <node id="48">
+      <data key="d0">MASS TIMBER</data>
+      <data key="d1" />
+      <data key="d2">13.0</data>
+      <data key="d5" />
+    </node>
+    <node id="49">
+      <data key="d0">U.S. WILDLAND FIRE SERVICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">17.0</data>
+      <data key="d5">The U.S. Wildland Fire Service is a federal agency responsible for wildland firefighting in the United States. It is a major player in the country's efforts to combat and manage wildfires, particularly on public lands.
+
+The agency was recently created by the U.S. Department of the Interior as a means of consolidating and coordinating the department's various firefighting resources and capabilities. This move was intended to improve the efficiency and effectiveness of the department's wildland fire management efforts.
+
+While the U.S. Wildland Fire Service is a relatively new entity, it is instructed to collaborate closely with the U.S. Forest Service, another key federal agency involved in wildland firefighting. This collaboration allows the two organizations to leverage their respective strengths and resources to tackle the growing challenge of wildfires across the country.
+
+The U.S. Wildland Fire Service is responsible for a wide range of firefighting and fire management activities, including fire suppression, prescribed burning, and hazard mitigation. The agency employs a highly trained and skilled workforce of firefighters, managers, and support personnel who are dedicated to protecting communities, natural resources, and critical infrastructure from the devastating effects of wildfires.
+
+In addition to its firefighting duties, the U.S. Wildland Fire Service also plays a key role in conducting research and developing new technologies and strategies to improve wildland fire management. This includes exploring innovative approaches to fire prevention, early detection, and rapid response, as well as advancing our understanding of fire behavior and ecology.
+
+Overall, the U.S. Wildland Fire Service is a vital component of the nation's efforts to address the growing threat of wildfires, which have become increasingly frequent and severe due to factors such as climate change, drought, and human activity. By working closely with other federal, state, and local agencies, the service is committed to protecting lives, property, and the environment from the devastating impacts of these natural disasters.</data>
+    </node>
+    <node id="50">
+      <data key="d0">BRIAN FENNESSY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Brian Fennessy is the inaugural chief of the U.S. Wildland Fire Service, a newly established organization responsible for managing and responding to wildfires across the United States. Prior to this role, Fennessy served as the head of the Orange County Fire Authority in California.
+
+As the first Fire Chief of the U.S. Wildland Fire Service, Fennessy brings a wealth of experience and expertise in firefighting and emergency management. He has a proven track record of leading large-scale operations and coordinating multi-agency responses to complex fire incidents.
+
+During his tenure at the Orange County Fire Authority, Fennessy was instrumental in implementing innovative strategies and technologies to enhance the department's capabilities in wildfire prevention and suppression. He is known for his collaborative approach, working closely with local, state, and federal agencies to develop comprehensive emergency response plans.
+
+In his new role as the inaugural chief of the U.S. Wildland Fire Service, Fennessy will be responsible for overseeing the coordination and deployment of resources across the country to effectively manage and mitigate the growing threat of wildfires. He will work closely with state and local fire departments, as well as federal agencies, to ensure a unified and coordinated response to these natural disasters.
+
+Fennessy's appointment to this critical position underscores the importance of a dedicated national-level organization to address the increasing frequency and severity of wildfires. With his extensive experience and proven leadership skills, he is well-equipped to lead the U.S. Wildland Fire Service in its mission to protect communities, preserve natural resources, and enhance the overall resilience of the nation in the face of these environmental challenges.</data>
+    </node>
+    <node id="51">
+      <data key="d0">DOUG BURGUM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Doug Burgum is the Secretary of the U.S. Department of the Interior. In this role, he has taken significant actions related to wildland fire management in the United States.
+
+Specifically, Burgum issued an order to establish the U.S. Wildland Fire Service (USWFS). This new agency was announced by Burgum in his capacity as the Secretary of the Interior. The USWFS will be responsible for coordinating and overseeing the federal government's efforts to prevent, manage, and respond to wildfires across the country.
+
+The creation of the USWFS is a major initiative aimed at improving the nation's wildland fire management capabilities. Wildfires have become an increasingly pressing issue in recent years, with larger, more intense, and more frequent blazes causing significant damage to communities, ecosystems, and critical infrastructure. By establishing the USWFS, Burgum and the Department of the Interior are seeking to enhance the coordination, resources, and expertise dedicated to addressing this growing challenge.
+
+As the head of the Department of the Interior, Burgum oversees a wide range of federal agencies and programs related to land management, natural resources, and environmental protection. His decision to create the USWFS demonstrates his commitment to prioritizing wildland fire mitigation and response as a key part of the department's mission.
+
+Overall, Doug Burgum's actions as the Secretary of the U.S. Department of the Interior, particularly the establishment of the U.S. Wildland Fire Service, represent a significant step forward in the federal government's efforts to tackle the growing threat of wildfires across the United States.</data>
+    </node>
+    <node id="52">
+      <data key="d0">BROOKE ROLLINS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Brooke Rollins is the Secretary of the U.S. Department of Agriculture who announced the consolidation of the fire leadership structure within the U.S. Forest Service</data>
+    </node>
+    <node id="53">
+      <data key="d0">U.S. DEPARTMENT OF THE INTERIOR</data>
+      <data key="d1" />
+      <data key="d2">19.0</data>
+      <data key="d5" />
+    </node>
+    <node id="54">
+      <data key="d0">NACO</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="55">
+      <data key="d0">COUNTIES</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="56">
+      <data key="d0">EXECUTIVE ORDER 14308</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">19.0</data>
+      <data key="d5">Executive Order 14308, titled "Empowering Commonsense Wildfire Prevention and Response", was signed by President Trump and directed the Departments of the Interior and Agriculture to take steps to streamline federal wildfire response procedures</data>
+    </node>
+    <node id="57">
+      <data key="d0">ORANGE COUNTY FIRE AUTHORITY</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="58">
+      <data key="d0">U.S. DEPARTMENT OF AGRICULTURE</data>
+      <data key="d1" />
+      <data key="d2">19.0</data>
+      <data key="d5" />
+    </node>
+    <node id="59">
+      <data key="d0">ROADLESS RULE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">22.0</data>
+      <data key="d5">2001 rule that prohibited road construction, reconstruction and logging on almost 45 million acres of U.S. Forest Service land</data>
+    </node>
+    <node id="60">
+      <data key="d0">SECURE RURAL SCHOOLS REAUTHORIZATION ACT OF 2025</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Act signed into law in 2025 that reauthorizes the Secure Rural Schools program, providing critical funding for timber-dependent counties</data>
+    </node>
+    <node id="61">
+      <data key="d0">SPEED ACT</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Bill passed by the U.S. House of Representatives in 2025 that would strengthen county involvement in decision-making and reform the federal environmental review process</data>
+    </node>
+    <node id="62">
+      <data key="d0">ENDANGERED SPECIES ACT AMENDMENTS ACT OF 2025</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Bill advanced by the House Natural Resources Committee in 2025 that would address key county concerns by improving the implementation of the Endangered Species Act</data>
+    </node>
+    <node id="63">
+      <data key="d0">SKYWAY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">20.0</data>
+      <data key="d5">The Skyway is a location where the U.S. Forest Service is constructing a new fire station</data>
+    </node>
+    <node id="64">
+      <data key="d0">WILDFIRE COMMUNICATION</data>
+      <data key="d1" />
+      <data key="d2">17.0</data>
+      <data key="d5" />
+    </node>
+    <node id="65">
+      <data key="d0">NATIONAL FIRE NEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">National Fire News is a resource provided by the National Interagency Fire Center.</data>
+    </node>
+    <node id="66">
+      <data key="d0">NATIONAL FIRE YEAR THEMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">National Fire Year Themes are annual themes recognized by the National Interagency Fire Center.</data>
+    </node>
+    <node id="67">
+      <data key="d0">PREPAREDNESS LEVELS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">Preparedness Levels are a system used by the National Interagency Fire Center to indicate the national wildfire situation.</data>
+    </node>
+    <node id="68">
+      <data key="d0">INTERNATIONAL SUPPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center coordinates international support for wildfire management.</data>
+    </node>
+    <node id="69">
+      <data key="d0">MILITARY SUPPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center coordinates military support for wildfire suppression.</data>
+    </node>
+    <node id="70">
+      <data key="d0">MEDIA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center provides information and resources for media outlets.</data>
+    </node>
+    <node id="71">
+      <data key="d0">FIRE PREVENTION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center promotes fire prevention efforts.</data>
+    </node>
+    <node id="72">
+      <data key="d0">MAPS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center provides various wildland fire maps and data.</data>
+    </node>
+    <node id="73">
+      <data key="d0">NEWS RELEASES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center publishes news releases on wildland fire topics.</data>
+    </node>
+    <node id="74">
+      <data key="d0">SITUATION REPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The Situation Report is a resource provided by the National Interagency Fire Center with information on current wildfire activity.</data>
+    </node>
+    <node id="75">
+      <data key="d0">STATISTICS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center collects and publishes statistics on wildland fires.</data>
+    </node>
+    <node id="76">
+      <data key="d0">NATIONAL WILDLAND FIREFIGHTER DAY</data>
+      <data key="d1" />
+      <data key="d2">26.0</data>
+      <data key="d5" />
+    </node>
+    <node id="77">
+      <data key="d0">NATIONAL INTERAGENCY COORDINATION CENTER</data>
+      <data key="d1" />
+      <data key="d2">26.0</data>
+      <data key="d5" />
+    </node>
+    <node id="78">
+      <data key="d0">PUBLIC INFORMATION OFFICER BULLETIN BOARD</data>
+      <data key="d1" />
+      <data key="d2">26.0</data>
+      <data key="d5" />
+    </node>
+    <node id="79">
+      <data key="d0">DEPARTMENT OF THE INTERIOR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">18.0</data>
+      <data key="d5">The Department of the Interior is a federal agency that plays a significant role in wildland fire management and oversight. According to the provided descriptions, the Department of the Interior is responsible for wildland fire management and has previously requested funding for a new Wildland Fire Service. Additionally, the Department of the Interior has formally announced the establishment of the U.S. Wildland Fire Service, which is a new entity under the Department's purview.
+
+Furthermore, the Department of the Interior oversees the National Interagency Fire Center, which is a collaborative effort between various federal agencies to coordinate and manage wildland fire response and prevention efforts across the United States. This oversight role allows the Department to ensure a cohesive and coordinated approach to addressing wildland fire challenges.
+
+The Department of the Interior's involvement in wildland fire management is crucial, as it plays a vital role in protecting natural resources, public safety, and communities from the devastating effects of wildfires. By establishing the U.S. Wildland Fire Service and overseeing the National Interagency Fire Center, the Department is demonstrating its commitment to enhancing the nation's wildland fire management capabilities and preparedness.
+
+Overall, the Department of the Interior's responsibilities in this domain include, but are not limited to, wildland fire management, the establishment of the U.S. Wildland Fire Service, and the oversight of the National Interagency Fire Center. These efforts aim to ensure a comprehensive and coordinated approach to addressing the growing challenges posed by wildland fires across the United States.</data>
+    </node>
+    <node id="80">
+      <data key="d0">WILDLAND FIRE OPEN DATA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">Wildland Fire Open Data is a data portal provided by the National Interagency Fire Center that offers interactive maps and downloadable data on historical fire perimeters.</data>
+    </node>
+    <node id="81">
+      <data key="d0">ENTERPRISE GEOSPATIAL PORTAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The Enterprise Geospatial Portal is a platform provided by the National Interagency Fire Center that offers various maps and data related to wildland fires.</data>
+    </node>
+    <node id="82">
+      <data key="d0">U.S. DROUGHT MONITOR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The U.S. Drought Monitor is a resource provided by the National Interagency Fire Center.</data>
+    </node>
+    <node id="83">
+      <data key="d0">NATIONAL WILDLAND FIRE OUTLOOKS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center publishes national wildland fire outlooks.</data>
+    </node>
+    <node id="84">
+      <data key="d0">CURRENT LARGE WILDFIRE MAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center provides a current map of large wildfires.</data>
+    </node>
+    <node id="85">
+      <data key="d0">INCIDENT MANAGEMENT SITUATION REPORT MAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The National Interagency Fire Center publishes an incident management situation report map.</data>
+    </node>
+    <node id="86">
+      <data key="d0">NATIONAL FIRE WEATHER FORECASTS</data>
+      <data key="d1" />
+      <data key="d2">26.0</data>
+      <data key="d5" />
+    </node>
+    <node id="87">
+      <data key="d0">ERICK WALKER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">23.0</data>
+      <data key="d5">Erick Walker is the Forest Supervisor of the Lake Tahoe Basin Management Unit</data>
+    </node>
+    <node id="88">
+      <data key="d0">LAKE TAHOE BASIN MANAGEMENT UNIT</data>
+      <data key="d1" />
+      <data key="d2">23.0</data>
+      <data key="d5" />
+    </node>
+    <node id="89">
+      <data key="d0">NATIONAL FOREST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">National forests are public lands managed by the U.S. Forest Service</data>
+    </node>
+    <node id="90">
+      <data key="d0">CHICO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Chico is a city located in northern California. It is the site of a new U.S. Forest Service fire station that is currently under construction. The fire station is being built to serve the surrounding region and provide emergency response capabilities for the local community.
+
+The descriptions provided indicate that Chico, California is the specific location where this new U.S. Forest Service fire station is being constructed. The fire station will be operated by the U.S. Forest Service, a federal agency responsible for managing and protecting national forests and grasslands. This new facility will enhance the Forest Service's ability to respond to fires and other emergencies in the Chico area and the surrounding region.
+
+The construction of the new fire station in Chico is an important development that will improve the community's access to emergency services and support the Forest Service's mission of safeguarding the nation's natural resources. By establishing a presence in Chico, the U.S. Forest Service will be better equipped to address any fire-related or other emergency situations that may arise in the local area.
+
+Overall, the information provided suggests that Chico, California has been selected as the location for a new U.S. Forest Service fire station, which is currently in the process of being built. This new facility will play a crucial role in enhancing the emergency response capabilities and overall safety of the Chico community and the surrounding region.</data>
+    </node>
+    <node id="91">
+      <data key="d0">FEATHER RIVER INTERAGENCY HOTSHOT CREW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">20.0</data>
+      <data key="d5">The Feather River Interagency Hotshot Crew will be housed at the new U.S. Forest Service fire station in Chico</data>
+    </node>
+    <node id="92">
+      <data key="d0">PLUMAS NATIONAL FOREST FEATHER RIVER RANGER DISTRICT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The Plumas National Forest Feather River Ranger District will have one of its two engines housed at the new U.S. Forest Service fire station in Chico</data>
+    </node>
+    <node id="93">
+      <data key="d0">JAMES LICO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">24.0</data>
+      <data key="d5">James Lico is the Division Chief for the Plumas National Forest, Feather River Ranger District</data>
+    </node>
+    <node id="94">
+      <data key="d0">ZENI</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Zeni is a U.S. Forest Service official who provided details about the new fire station</data>
+    </node>
+    <node id="95">
+      <data key="d0">AMERICA THE BEAUTIFUL - NATIONAL PARKS AND FEDERAL RECREATIONAL LANDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">21.0</data>
+      <data key="d5">The America the Beautiful - National Parks and Federal Recreational Lands is a suite of annual and lifetime passes that provides U.S. citizens and visitors an affordable and convenient way to recreate on Federal recreational lands.</data>
+    </node>
+    <node id="96">
+      <data key="d0">USGS ONLINE STORE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">21.0</data>
+      <data key="d5">The USGS Online Store is where the America the Beautiful - National Parks and Federal Recreational Lands passes can be purchased.</data>
+    </node>
+    <node id="97">
+      <data key="d0">RECREATION.GOV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">21.0</data>
+      <data key="d5">Recreation.gov is a website where the America the Beautiful - National Parks and Federal Recreational Lands passes will be available in a new digital format starting in January 2026.</data>
+    </node>
+    <node id="98">
+      <data key="d0">PRESIDENTS' DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on February 16, 2026</data>
+    </node>
+    <node id="99">
+      <data key="d0">MEMORIAL DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on May 25, 2026</data>
+    </node>
+    <node id="100">
+      <data key="d0">NATIONAL GET OUTDOORS DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on June 13, 2026</data>
+    </node>
+    <node id="101">
+      <data key="d0">INDEPENDENCE DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on July 4, 2026</data>
+    </node>
+    <node id="102">
+      <data key="d0">CONSTITUTION DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on September 17, 2026</data>
+    </node>
+    <node id="103">
+      <data key="d0">NATIONAL PUBLIC LANDS DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on September 26, 2026</data>
+    </node>
+    <node id="104">
+      <data key="d0">THEODORE ROOSEVELT'S BIRTHDAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on October 27, 2026</data>
+    </node>
+    <node id="105">
+      <data key="d0">VETERANS DAY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">20.0</data>
+      <data key="d5">A fee-free day on U.S. Forest Service lands on November 11, 2026</data>
+    </node>
+    <node id="106">
+      <data key="d0">MARTIN LUTHER KING JR. DAY</data>
+      <data key="d1" />
+      <data key="d2">20.0</data>
+      <data key="d5" />
+    </node>
+    <node id="107">
+      <data key="d0">SPECIAL RECREATION PERMITS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Special Recreation Permits are issued by the Forest Service to individuals for activities like off-highway vehicle riding, boating, rock climbing, and using shooting ranges or groomed cross-country ski trails</data>
+    </node>
+    <node id="108">
+      <data key="d0">SPECIAL USE PERMITS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Special Use Permits are issued by the Forest Service to profit and non-profit organizations for group activities, outfitting and guiding, and recreation events</data>
+    </node>
+    <node id="109">
+      <data key="d0">WILD AND SCENIC RIVERS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The Forest Service may require permits for boating on designated Wild and Scenic Rivers</data>
+    </node>
+    <node id="110">
+      <data key="d0">WILDERNESS AREAS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The Forest Service may require permits for access to wilderness areas with limited access</data>
+    </node>
+    <node id="111">
+      <data key="d0">NATIONAL FORESTS</data>
+      <data key="d1" />
+      <data key="d2">13.0</data>
+      <data key="d5" />
+    </node>
+    <node id="112">
+      <data key="d0">FIRIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">FIRIS (California only) provides early fire perimeter and 3-hour forecasting models for the WFCA Fire Map</data>
+    </node>
+    <node id="113">
+      <data key="d0">PULSEPOINT FOUNDATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">PulsePoint Foundation provides the near real-time 911 dispatch call data that is used in the WFCA Fire Map</data>
+    </node>
+    <node id="114">
+      <data key="d0">UCSD WIFIRE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">UCSD WIFIRE FIRIS provides data and models for the WFCA Fire Map</data>
+    </node>
+    <node id="115">
+      <data key="d0">CALIFORNIA FIRE CHIEFS ASSOCIATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The California Fire Chiefs Association is a partner in the WFCA Fire Map</data>
+    </node>
+    <node id="116">
+      <data key="d0">FLIGHTRADAR24</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Flightradar24 is a partner in the WFCA Fire Map</data>
+    </node>
+    <node id="117">
+      <data key="d0">MAPBOX</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Mapbox is a partner in the WFCA Fire Map</data>
+    </node>
+    <node id="118">
+      <data key="d0">WESTERN FIRE CHIEFS ASSOCIATION</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="119">
+      <data key="d0">DAILY DISPATCH</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="120">
+      <data key="d0">FIRE STATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">20.0</data>
+      <data key="d5">The U.S. Forest Service is constructing a new fire station on the Skyway</data>
+    </node>
+    <node id="121">
+      <data key="d0">DEPARTMENT OF AGRICULTURE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">18.0</data>
+      <data key="d5">The Department of Agriculture's Forest Service is the largest employer of federal wildland firefighters and has been working with the Department of the Interior to improve collaboration on wildfire response.</data>
+    </node>
+    <node id="122">
+      <data key="d0">U.S. CONGRESS</data>
+      <data key="d1" />
+      <data key="d2">17.0</data>
+      <data key="d5" />
+    </node>
+    <node id="123">
+      <data key="d0">JOHN FENNESSY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">John Fennessy is the new chief of the USWFS, with nearly 50 years of experience in wildland firefighting</data>
+    </node>
+    <node id="124">
+      <data key="d0">GRASSROOTS WILDLAND FIREFIGHTERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">An advocacy group that welcomed Fennessy's hiring as USWFS chief</data>
+    </node>
+    <node id="125">
+      <data key="d0">THE WILDERNESS SOCIETY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">An advocacy group concerned that the USWFS will focus too heavily on fire suppression rather than mitigation strategies</data>
+    </node>
+    <node id="126">
+      <data key="d0">USWFS</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="127">
+      <data key="d0">SENATE APPROPRIATIONS COMMITTEE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Senate Appropriations Committee recently passed funding for the Department of the Interior without specific funding for the USWFS</data>
+    </node>
+    <node id="128">
+      <data key="d0">PATTY MURRAY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Patty Murray is the Vice Chair of the Senate Appropriations Committee</data>
+    </node>
+    <node id="129">
+      <data key="d0">TRUMP</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">President Trump is expected to sign the funding measure for the Department of the Interior</data>
+    </node>
+    <edge id="e0" source="0" target="1">
+      <data key="d3">10.0</data>
+      <data key="d4">Service responsible firefighting...</data>
+      <data key="d6">The U.S. Forest Service is responsible for firefighting and managing wildfires on national forests and grasslands.</data>
+    </edge>
+    <edge id="e1" source="0" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates wildland firefighting efforts across the US.</data>
+    </edge>
+    <edge id="e2" source="0" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">tracks current wildfires...</data>
+      <data key="d6">NASA's FIRMS system tracks current wildfires in the US and Canada.</data>
+    </edge>
+    <edge id="e3" source="0" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">fire smoke map...</data>
+      <data key="d6">AirNow provides a fire and smoke map to track current wildfires and air quality across the US.</data>
+    </edge>
+    <edge id="e4" source="0" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">Agency provides map...</data>
+      <data key="d6">The Wildfire Coordinating Agency provides a map to track current wildfires in the US.</data>
+    </edge>
+    <edge id="e5" source="0" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Coordinating Group coordinates...</data>
+      <data key="d6">The National Wildfire Coordinating Group coordinates wildland firefighting efforts across the US.</data>
+    </edge>
+    <edge id="e6" source="0" target="7">
+      <data key="d3">1.0</data>
+      <data key="d4">web map track...</data>
+      <data key="d6">ArcGIS provides a web map to track current wildfire activity in the United States.</data>
+    </edge>
+    <edge id="e7" source="6" target="2">
+      <data key="d3">7.0</data>
+      <data key="d4">Fire Center works...</data>
+      <data key="d6">The National Interagency Fire Center works with the National Wildfire Coordinating Group to provide information and definitions related to wildland fire</data>
+    </edge>
+    <edge id="e8" source="8" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">interagency system that...</data>
+      <data key="d6">InciWeb is an interagency system that provides information to the public on incidents managed by the US Forest Service and other agencies</data>
+    </edge>
+    <edge id="e9" source="9" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">Service one...</data>
+      <data key="d6">The US Forest Service is one of the 8 agencies and organizations that are part of the National Interagency Fire Center</data>
+    </edge>
+    <edge id="e10" source="10" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Position Standards Committee...</data>
+      <data key="d6">The Incident and Position Standards Committee is a part of the National Wildfire Coordinating Group and is responsible for updating the NWCG Standards for Wildland Fire Position Qualifications, PMS 310-1.</data>
+    </edge>
+    <edge id="e11" source="10" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">Position Standards Committee...</data>
+      <data key="d6">The Incident and Position Standards Committee is responsible for the development and updates to the S-320 training course.</data>
+    </edge>
+    <edge id="e12" source="11" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Committee part...</data>
+      <data key="d6">The Incident Business Committee is a part of the National Wildfire Coordinating Group and is responsible for updating the Emergency Equipment Shift Ticket, OF 297.</data>
+    </edge>
+    <edge id="e13" source="12" target="13">
+      <data key="d3">10.0</data>
+      <data key="d4">INCIDENT MANAGEMENT TEAMS...</data>
+      <data key="d6">The S-320, INTRODUCTION TO INCIDENT MANAGEMENT TEAMS (BLENDED) and ICS-100, INTRODUCTION TO INCIDENT COMMAND SYSTEM (ICS) are two related training courses that are part of the Incident Command System (ICS) curriculum.
+
+The ICS-100 course is a prerequisite for the S-320 training course. This means that individuals must complete the ICS-100 course before they can enroll in the S-320 course. The ICS-100 course provides an introduction to the Incident Command System, which is a standardized approach to the command, control, and coordination of emergency response.
+
+The S-320 course, on the other hand, is a more advanced training that focuses on the introduction to Incident Management Teams (IMTs). IMTs are specialized teams that are responsible for managing and coordinating the response to large-scale incidents, such as natural disasters, wildfires, or other emergencies. The S-320 course covers topics such as the roles and responsibilities of IMT members, the process of establishing and managing an IMT, and the coordination of resources and personnel during an incident.
+
+By completing the ICS-100 course, individuals gain a foundational understanding of the Incident Command System, which is essential for their participation in the more advanced S-320 course. The ICS-100 course provides the necessary knowledge and skills to effectively function within the ICS framework, which is crucial for the successful management of complex incidents.
+
+In summary, the ICS-100 and S-320 courses are part of the Incident Command System curriculum, with the ICS-100 course serving as a prerequisite for the S-320 course. The ICS-100 course provides an introduction to the Incident Command System, while the S-320 course focuses on the introduction to Incident Management Teams and their role in managing large-scale incidents.</data>
+    </edge>
+    <edge id="e14" source="14" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">availability S-320...</data>
+      <data key="d6">NWCG is announcing the availability of the S-320 course on the Wildland Fire Learning Portal</data>
+    </edge>
+    <edge id="e15" source="14" target="17">
+      <data key="d3">9.0</data>
+      <data key="d4">Learning Portal where...</data>
+      <data key="d6">The Wildland Fire Learning Portal is where the S-320 course is available</data>
+    </edge>
+    <edge id="e16" source="14" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">books key component...</data>
+      <data key="d6">NWCG position task books are a key component of the qualification process for specified NWCG positions</data>
+    </edge>
+    <edge id="e17" source="14" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">RT-130 WFSTAR Refresher...</data>
+      <data key="d6">Updates for the RT-130 WFSTAR Refresher for 2025 and the 2024 Fire Year in Review are available</data>
+    </edge>
+    <edge id="e18" source="14" target="20">
+      <data key="d3">9.0</data>
+      <data key="d4">catalog migrated...</data>
+      <data key="d6">The NWCG training catalog has migrated to the Wildland Fire Learning Portal</data>
+    </edge>
+    <edge id="e19" source="14" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">All Positions Qualification...</data>
+      <data key="d6">The PMS 310-1 and All Positions Qualification Requirements web pages are updated, and a new PDF report is available for download or print</data>
+    </edge>
+    <edge id="e20" source="14" target="22">
+      <data key="d3">9.0</data>
+      <data key="d4">Leadership Development Program...</data>
+      <data key="d6">The Wildland Fire Leadership Development Program is announcing the 2025 Professional Reading List</data>
+    </edge>
+    <edge id="e21" source="14" target="23">
+      <data key="d3">9.0</data>
+      <data key="d4">Data Elements Geospatial...</data>
+      <data key="d6">New EDG/Web Integration Data Elements and Geospatial Data Layer tables offer a quick view of the standards managed in the EDG Explorer database platform</data>
+    </edge>
+    <edge id="e22" source="14" target="24">
+      <data key="d3">1.0</data>
+      <data key="d4">Wildland Fire terms...</data>
+      <data key="d6">The NWCG Glossary of Wildland Fire terms is managed in the EDG database system, and a quick view is available on the NWCG website</data>
+    </edge>
+    <edge id="e23" source="14" target="35">
+      <data key="d3">9.0</data>
+      <data key="d4">Indian Affairs primary...</data>
+      <data key="d6">The Bureau of Indian Affairs is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e24" source="14" target="26">
+      <data key="d3">9.0</data>
+      <data key="d4">Land Management primary...</data>
+      <data key="d6">The Bureau of Land Management is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e25" source="14" target="27">
+      <data key="d3">9.0</data>
+      <data key="d4">Wildlife Service primary...</data>
+      <data key="d6">The Fish and Wildlife Service is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e26" source="14" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">primary member organization...</data>
+      <data key="d6">The Forest Service is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e27" source="14" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Chiefs...</data>
+      <data key="d6">The International Association of Fire Chiefs is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e28" source="14" target="30">
+      <data key="d3">9.0</data>
+      <data key="d4">Council primary member...</data>
+      <data key="d6">The Intertribal Timber Council is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e29" source="14" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">State Foresters...</data>
+      <data key="d6">The National Association of State Foresters is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e30" source="14" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">Service primary member...</data>
+      <data key="d6">The National Park Service is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e31" source="14" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">Defense primary...</data>
+      <data key="d6">The U.S. Department of Defense is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e32" source="14" target="34">
+      <data key="d3">1.0</data>
+      <data key="d4">Administration primary member...</data>
+      <data key="d6">The U.S. Fire Administration is a primary member organization of NWCG</data>
+    </edge>
+    <edge id="e33" source="12" target="15">
+      <data key="d3">9.0</data>
+      <data key="d4">prerequisite training S-320...</data>
+      <data key="d6">ICS-200 is a prerequisite training for the S-320 course</data>
+    </edge>
+    <edge id="e34" source="12" target="16">
+      <data key="d3">9.0</data>
+      <data key="d4">prerequisite training S-320...</data>
+      <data key="d6">ICS-700 is a prerequisite training for the S-320 course</data>
+    </edge>
+    <edge id="e35" source="10" target="25">
+      <data key="d3">9.0</data>
+      <data key="d4">Position Standards Committee...</data>
+      <data key="d6">The Incident and Position Standards Committee is responsible for questions about RT-130</data>
+    </edge>
+    <edge id="e36" source="36" target="9">
+      <data key="d3">9.0</data>
+      <data key="d4">Sciences Laboratory leading...</data>
+      <data key="d6">The Missoula Fire Sciences Laboratory is a leading fire science research center within the US Forest Service</data>
+    </edge>
+    <edge id="e37" source="37" target="9">
+      <data key="d3">8.0</data>
+      <data key="d4">Institute center...</data>
+      <data key="d6">The Fire Modeling Institute is a center of expertise within the US Forest Service that informs fire management and planning</data>
+    </edge>
+    <edge id="e38" source="38" target="9">
+      <data key="d3">8.0</data>
+      <data key="d4">Danger Rating System...</data>
+      <data key="d6">The National Fire Danger Rating System is a tool used by US Forest Service fire managers to estimate fire danger</data>
+    </edge>
+    <edge id="e39" source="39" target="9">
+      <data key="d3">8.0</data>
+      <data key="d4">Assessment Team conducts...</data>
+      <data key="d6">The Fire Behavior Assessment Team conducts field measurements to support US Forest Service research on post-fire recovery</data>
+    </edge>
+    <edge id="e40" source="40" target="9">
+      <data key="d3">8.0</data>
+      <data key="d4">fire behavior calculation...</data>
+      <data key="d6">BehavePlus is a fire behavior calculation tool developed and used by the US Forest Service</data>
+    </edge>
+    <edge id="e41" source="41" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">fire mapping analysis...</data>
+      <data key="d6">FlamMap is a fire mapping and analysis system developed and used by the US Forest Service</data>
+    </edge>
+    <edge id="e42" source="9" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">is critical for...</data>
+      <data key="d6">Understanding fire behavior is critical for the US Forest Service to manage fire and its effects</data>
+    </edge>
+    <edge id="e43" source="9" target="42">
+      <data key="d3">1.0</data>
+      <data key="d4">are part of...</data>
+      <data key="d6">Forest Service firefighters are part of the US Forest Service and respond to wildfires</data>
+    </edge>
+    <edge id="e44" source="9" target="44">
+      <data key="d3">9.0</data>
+      <data key="d4">Service PathHouse LLC...</data>
+      <data key="d6">The US Forest Service and PathHouse LLC co-patented a mass timber modular floor cassette</data>
+    </edge>
+    <edge id="e45" source="9" target="45">
+      <data key="d3">8.0</data>
+      <data key="d4">Service supporting Willamette...</data>
+      <data key="d6">The US Forest Service is supporting the Willamette National Forest in replacing employee housing with mass timber units</data>
+    </edge>
+    <edge id="e46" source="9" target="46">
+      <data key="d3">7.0</data>
+      <data key="d4">Service providing grants...</data>
+      <data key="d6">The US Forest Service is providing grants to spark mass timber projects in Seattle</data>
+    </edge>
+    <edge id="e47" source="9" target="47">
+      <data key="d3">1.0</data>
+      <data key="d4">program within Forest...</data>
+      <data key="d6">WoodWorks is a program within the US Forest Service focused on enabling mass timber buildings to reach the same heights as concrete and steel</data>
+    </edge>
+    <edge id="e48" source="44" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">co-patented mass timber...</data>
+      <data key="d6">The Forest Service has co-patented a mass timber modular floor cassette with PathHouse LLC</data>
+    </edge>
+    <edge id="e49" source="45" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">supporting Willamette National...</data>
+      <data key="d6">The Forest Service is supporting the Willamette National Forest in replacing employee housing with mass timber units</data>
+    </edge>
+    <edge id="e50" source="46" target="28">
+      <data key="d3">7.0</data>
+      <data key="d4">providing grants spark...</data>
+      <data key="d6">The Forest Service is providing grants to spark mass timber projects in Seattle</data>
+    </edge>
+    <edge id="e51" source="47" target="28">
+      <data key="d3">1.0</data>
+      <data key="d4">program within Forest...</data>
+      <data key="d6">WoodWorks is a program within the Forest Service focused on enabling mass timber buildings to reach the same heights as concrete and steel</data>
+    </edge>
+    <edge id="e52" source="28" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">pioneering development...</data>
+      <data key="d6">The Forest Service is pioneering the development and use of mass timber through research, innovation, and partnerships</data>
+    </edge>
+    <edge id="e53" source="49" target="53">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Service created...</data>
+      <data key="d6">The U.S. Wildland Fire Service was created by the U.S. Department of the Interior to consolidate the department's firefighting resources</data>
+    </edge>
+    <edge id="e54" source="49" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Fire Service Forest...</data>
+      <data key="d6">The U.S. Wildland Fire Service and U.S. Forest Service are designated as the two major federal wildland firefighting agencies and are instructed to collaborate closely</data>
+    </edge>
+    <edge id="e55" source="49" target="50">
+      <data key="d3">9.0</data>
+      <data key="d4">appointed first Fire...</data>
+      <data key="d6">Brian Fennessy was appointed as the first Fire Chief of the U.S. Wildland Fire Service</data>
+    </edge>
+    <edge id="e56" source="49" target="51">
+      <data key="d3">8.0</data>
+      <data key="d4">Secretary Department...</data>
+      <data key="d6">Doug Burgum, as Secretary of the U.S. Department of the Interior, announced the creation of the U.S. Wildland Fire Service</data>
+    </edge>
+    <edge id="e57" source="50" target="57">
+      <data key="d3">9.0</data>
+      <data key="d4">headed Orange County...</data>
+      <data key="d6">Brian Fennessy previously headed the Orange County Fire Authority before becoming the first Fire Chief of the U.S. Wildland Fire Service</data>
+    </edge>
+    <edge id="e58" source="1" target="52">
+      <data key="d3">8.0</data>
+      <data key="d4">Secretary Department...</data>
+      <data key="d6">Brooke Rollins, as Secretary of the U.S. Department of Agriculture, announced the consolidation of the fire leadership structure within the U.S. Forest Service</data>
+    </edge>
+    <edge id="e59" source="53" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">directed Department...</data>
+      <data key="d6">Executive Order 14308 directed the Department of the Interior to take steps to consolidate firefighting resources across federal agencies</data>
+    </edge>
+    <edge id="e60" source="54" target="55">
+      <data key="d3">1.0</data>
+      <data key="d4">governments across United...</data>
+      <data key="d6">NACo represents county governments across the United States and is a critical partner for wildfire mitigation and response efforts</data>
+    </edge>
+    <edge id="e61" source="56" target="58">
+      <data key="d3">1.0</data>
+      <data key="d4">directed Department Agriculture...</data>
+      <data key="d6">Executive Order 14308 directed the Department of Agriculture to take steps to streamline federal wildfire response procedures</data>
+    </edge>
+    <edge id="e62" source="49" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">Wildland Fire Service...</data>
+      <data key="d6">The Forest Service and U.S. Wildland Fire Service are instructed to collaborate to the fullest extent possible on all aspects of fire response operations</data>
+    </edge>
+    <edge id="e63" source="49" target="55">
+      <data key="d3">1.0</data>
+      <data key="d4">expertise that essential...</data>
+      <data key="d6">Counties have significant expertise that is essential to wildfire mitigation and response planning, and should be included in planning changes to federal wildland firefighting procedures</data>
+    </edge>
+    <edge id="e64" source="55" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">expertise that essential...</data>
+      <data key="d6">Counties have significant expertise that is essential to wildfire mitigation and response planning, and should be included in planning changes to federal wildland firefighting procedures</data>
+    </edge>
+    <edge id="e65" source="55" target="60">
+      <data key="d3">9.0</data>
+      <data key="d4">Secure Rural Schools...</data>
+      <data key="d6">The reauthorization of the Secure Rural Schools program is a major victory for counties and ensures they receive critical funding</data>
+    </edge>
+    <edge id="e66" source="55" target="61">
+      <data key="d3">8.0</data>
+      <data key="d4">would strengthen county...</data>
+      <data key="d6">The SPEED Act would strengthen county involvement in decision-making and reform the federal environmental review process</data>
+    </edge>
+    <edge id="e67" source="55" target="62">
+      <data key="d3">1.0</data>
+      <data key="d4">Act Amendments Act...</data>
+      <data key="d6">The Endangered Species Act Amendments Act of 2025 would address key county concerns by improving the implementation of the Endangered Species Act</data>
+    </edge>
+    <edge id="e68" source="59" target="52">
+      <data key="d3">9.0</data>
+      <data key="d4">Secretary Agriculture, announced...</data>
+      <data key="d6">Brooke Rollins, as U.S. Secretary of Agriculture, announced the repeal of the 2001 Roadless Rule</data>
+    </edge>
+    <edge id="e69" source="63" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Service building new...</data>
+      <data key="d6">The U.S. Forest Service is building a new fire station on the Skyway</data>
+    </edge>
+    <edge id="e70" source="26" target="64">
+      <data key="d3">1.0</data>
+      <data key="d4">awarded contract advanced...</data>
+      <data key="d6">The BLM has awarded a contract for advanced wildfire communication kits as part of the Investing in America agenda</data>
+    </edge>
+    <edge id="e71" source="65" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides National Fire News resources</data>
+    </edge>
+    <edge id="e72" source="66" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center recognizes...</data>
+      <data key="d6">The National Interagency Fire Center recognizes National Fire Year Themes</data>
+    </edge>
+    <edge id="e73" source="67" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates the Preparedness Levels system</data>
+    </edge>
+    <edge id="e74" source="68" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates international support for wildfire management</data>
+    </edge>
+    <edge id="e75" source="69" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates military support for wildfire suppression</data>
+    </edge>
+    <edge id="e76" source="70" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides information and resources for media outlets</data>
+    </edge>
+    <edge id="e77" source="71" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center promotes...</data>
+      <data key="d6">The National Interagency Fire Center promotes fire prevention efforts</data>
+    </edge>
+    <edge id="e78" source="8" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center operates...</data>
+      <data key="d6">The National Interagency Fire Center operates the InciWeb incident information system</data>
+    </edge>
+    <edge id="e79" source="72" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides various wildland fire maps and data</data>
+    </edge>
+    <edge id="e80" source="73" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center publishes...</data>
+      <data key="d6">The National Interagency Fire Center publishes news releases on wildland fire topics</data>
+    </edge>
+    <edge id="e81" source="74" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the Situation Report on current wildfire activity</data>
+    </edge>
+    <edge id="e82" source="75" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center collects...</data>
+      <data key="d6">The National Interagency Fire Center collects and publishes statistics on wildland fires</data>
+    </edge>
+    <edge id="e83" source="2" target="76">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center recognizes...</data>
+      <data key="d6">The National Interagency Fire Center recognizes National Wildland Firefighter Day</data>
+    </edge>
+    <edge id="e84" source="2" target="77">
+      <data key="d3">5.0</data>
+      <data key="d4">Coordination Center part...</data>
+      <data key="d6">The National Interagency Coordination Center is part of the National Interagency Fire Center</data>
+    </edge>
+    <edge id="e85" source="2" target="78">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the PIO Bulletin Board resource</data>
+    </edge>
+    <edge id="e86" source="79" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center agency...</data>
+      <data key="d6">The National Interagency Fire Center is an agency under the Department of the Interior.</data>
+    </edge>
+    <edge id="e87" source="80" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the Wildland Fire Open Data portal for accessing historical fire data.</data>
+    </edge>
+    <edge id="e88" source="81" target="2">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center operates...</data>
+      <data key="d6">The National Interagency Fire Center operates the Enterprise Geospatial Portal for accessing maps and data related to wildland fires.</data>
+    </edge>
+    <edge id="e89" source="2" target="86">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center source...</data>
+      <data key="d6">The National Interagency Fire Center is the source of national fire weather forecasts.</data>
+    </edge>
+    <edge id="e90" source="2" target="82">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the U.S. Drought Monitor data and information.</data>
+    </edge>
+    <edge id="e91" source="2" target="83">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center publishes...</data>
+      <data key="d6">The National Interagency Fire Center publishes the national wildland fire outlooks.</data>
+    </edge>
+    <edge id="e92" source="2" target="84">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the current large wildfire map.</data>
+    </edge>
+    <edge id="e93" source="2" target="85">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center publishes...</data>
+      <data key="d6">The National Interagency Fire Center publishes the incident management situation report map.</data>
+    </edge>
+    <edge id="e94" source="1" target="88">
+      <data key="d3">9.0</data>
+      <data key="d4">Basin Management Unit...</data>
+      <data key="d6">The Lake Tahoe Basin Management Unit is a division of the U.S. Forest Service that manages the national forest lands around Lake Tahoe</data>
+    </edge>
+    <edge id="e95" source="87" target="88">
+      <data key="d3">1.0</data>
+      <data key="d4">Forest Supervisor...</data>
+      <data key="d6">Erick Walker is the Forest Supervisor of the Lake Tahoe Basin Management Unit</data>
+    </edge>
+    <edge id="e96" source="88" target="89">
+      <data key="d3">1.0</data>
+      <data key="d4">Basin Management Unit...</data>
+      <data key="d6">The Lake Tahoe Basin Management Unit manages the national forest lands around Lake Tahoe</data>
+    </edge>
+    <edge id="e97" source="90" target="1">
+      <data key="d3">17.0</data>
+      <data key="d4">Service constructing new...</data>
+      <data key="d6">The U.S. Forest Service is constructing a new fire station in the city of Chico, California. The two descriptions provided are not contradictory, but rather complementary, providing additional details about the project.
+
+The U.S. Forest Service is a federal agency responsible for managing and protecting the national forests and grasslands in the United States. As part of their mission, the Forest Service is building a new fire station in the city of Chico, located in the state of California.
+
+The new fire station is being constructed to enhance the Forest Service's ability to respond to and manage wildfires and other emergencies within the Chico area and surrounding regions. The station will serve as a hub for firefighting operations, providing a centralized location for equipment, personnel, and resources to be deployed as needed.
+
+The descriptions indicate that the construction of the new fire station is currently underway. The project is likely part of the Forest Service's ongoing efforts to improve its infrastructure and capabilities in order to better protect the nation's forests and communities from the growing threat of wildfires.
+
+The new fire station in Chico will be an important asset for the local community, as it will provide a dedicated resource for responding to emergencies and supporting the overall safety and well-being of the residents. The facility will be equipped with the necessary equipment and personnel to effectively combat fires, provide emergency medical services, and assist in other disaster response efforts.
+
+Overall, the construction of the new U.S. Forest Service fire station in Chico, California is a positive development that will enhance the agency's ability to fulfill its mission of protecting and managing the nation's natural resources, while also supporting the safety and security of the local community.</data>
+    </edge>
+    <edge id="e98" source="91" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Interagency Hotshot Crew...</data>
+      <data key="d6">The Feather River Interagency Hotshot Crew will be housed at the new U.S. Forest Service fire station in Chico</data>
+    </edge>
+    <edge id="e99" source="92" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Forest Feather River...</data>
+      <data key="d6">The Plumas National Forest Feather River Ranger District will have one of its two engines housed at the new U.S. Forest Service fire station in Chico</data>
+    </edge>
+    <edge id="e100" source="92" target="93">
+      <data key="d3">9.0</data>
+      <data key="d4">Division Chief...</data>
+      <data key="d6">James Lico is the Division Chief for the Plumas National Forest, Feather River Ranger District</data>
+    </edge>
+    <edge id="e101" source="94" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Forest Service official...</data>
+      <data key="d6">Zeni is a U.S. Forest Service official who provided details about the new fire station</data>
+    </edge>
+    <edge id="e102" source="95" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">Beautiful National Parks...</data>
+      <data key="d6">The America the Beautiful - National Parks and Federal Recreational Lands passes can be used on lands managed by the U.S. Forest Service.</data>
+    </edge>
+    <edge id="e103" source="95" target="96">
+      <data key="d3">8.0</data>
+      <data key="d4">Store where America...</data>
+      <data key="d6">The USGS Online Store is where the America the Beautiful - National Parks and Federal Recreational Lands passes can currently be purchased.</data>
+    </edge>
+    <edge id="e104" source="95" target="97">
+      <data key="d3">1.0</data>
+      <data key="d4">2026, America Beautiful...</data>
+      <data key="d6">Starting in January 2026, the America the Beautiful - National Parks and Federal Recreational Lands passes will be available in a new digital format through Recreation.gov.</data>
+    </edge>
+    <edge id="e105" source="1" target="106">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Martin Luther King Jr. Day.</data>
+    </edge>
+    <edge id="e106" source="1" target="98">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Presidents' Day.</data>
+    </edge>
+    <edge id="e107" source="1" target="99">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Memorial Day.</data>
+    </edge>
+    <edge id="e108" source="1" target="100">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on National Get Outdoors Day.</data>
+    </edge>
+    <edge id="e109" source="1" target="101">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Independence Day.</data>
+    </edge>
+    <edge id="e110" source="1" target="102">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Constitution Day.</data>
+    </edge>
+    <edge id="e111" source="1" target="103">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on National Public Lands Day.</data>
+    </edge>
+    <edge id="e112" source="1" target="104">
+      <data key="d3">8.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Theodore Roosevelt's Birthday.</data>
+    </edge>
+    <edge id="e113" source="1" target="105">
+      <data key="d3">1.0</data>
+      <data key="d4">Service waives recreation...</data>
+      <data key="d6">The U.S. Forest Service waives recreation fees on Veterans Day.</data>
+    </edge>
+    <edge id="e114" source="107" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">issues Special Recreation...</data>
+      <data key="d6">The Forest Service issues Special Recreation Permits to individuals for certain recreational activities</data>
+    </edge>
+    <edge id="e115" source="108" target="28">
+      <data key="d3">1.0</data>
+      <data key="d4">issues Special Use...</data>
+      <data key="d6">The Forest Service issues Special Use Permits to organizations for group activities, outfitting, and recreation events</data>
+    </edge>
+    <edge id="e116" source="28" target="111">
+      <data key="d3">9.0</data>
+      <data key="d4">manages national forests</data>
+      <data key="d6">The Forest Service manages national forests</data>
+    </edge>
+    <edge id="e117" source="28" target="109">
+      <data key="d3">8.0</data>
+      <data key="d4">may require permits...</data>
+      <data key="d6">The Forest Service may require permits for boating on designated Wild and Scenic Rivers</data>
+    </edge>
+    <edge id="e118" source="28" target="110">
+      <data key="d3">1.0</data>
+      <data key="d4">may require permits...</data>
+      <data key="d6">The Forest Service may require permits for access to wilderness areas with limited access</data>
+    </edge>
+    <edge id="e119" source="2" target="118">
+      <data key="d3">8.0</data>
+      <data key="d4">Map uses data...</data>
+      <data key="d6">The WFCA Fire Map uses data from the National Interagency Fire Center</data>
+    </edge>
+    <edge id="e120" source="112" target="118">
+      <data key="d3">8.0</data>
+      <data key="d4">Map uses data...</data>
+      <data key="d6">The WFCA Fire Map uses data and models from FIRIS for California</data>
+    </edge>
+    <edge id="e121" source="113" target="118">
+      <data key="d3">8.0</data>
+      <data key="d4">Map uses near...</data>
+      <data key="d6">The WFCA Fire Map uses near real-time 911 dispatch call data from PulsePoint Foundation</data>
+    </edge>
+    <edge id="e122" source="114" target="118">
+      <data key="d3">8.0</data>
+      <data key="d4">Map uses data...</data>
+      <data key="d6">The WFCA Fire Map uses data and models from UCSD WIFIRE FIRIS</data>
+    </edge>
+    <edge id="e123" source="115" target="118">
+      <data key="d3">8.0</data>
+      <data key="d4">Chiefs Association partner...</data>
+      <data key="d6">The California Fire Chiefs Association is a partner in the WFCA Fire Map</data>
+    </edge>
+    <edge id="e124" source="116" target="118">
+      <data key="d3">8.0</data>
+      <data key="d4">partner WFCA Fire...</data>
+      <data key="d6">Flightradar24 is a partner in the WFCA Fire Map</data>
+    </edge>
+    <edge id="e125" source="117" target="118">
+      <data key="d3">1.0</data>
+      <data key="d4">partner WFCA Fire...</data>
+      <data key="d6">Mapbox is a partner in the WFCA Fire Map</data>
+    </edge>
+    <edge id="e126" source="118" target="119">
+      <data key="d3">1.0</data>
+      <data key="d4">Map displays fire...</data>
+      <data key="d6">The WFCA Fire Map displays fire headlines from the Daily Dispatch</data>
+    </edge>
+    <edge id="e127" source="1" target="120">
+      <data key="d3">1.0</data>
+      <data key="d4">Service building new...</data>
+      <data key="d6">The U.S. Forest Service is building a new fire station on the Skyway</data>
+    </edge>
+    <edge id="e128" source="50" target="49">
+      <data key="d3">9.0</data>
+      <data key="d4">appointed inaugural chief...</data>
+      <data key="d6">Brian Fennessy was appointed as the inaugural chief of the U.S. Wildland Fire Service.</data>
+    </edge>
+    <edge id="e129" source="79" target="49">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Service established...</data>
+      <data key="d6">The U.S. Wildland Fire Service was established by the Department of the Interior to consolidate and streamline the department's various fire programs.</data>
+    </edge>
+    <edge id="e130" source="79" target="121">
+      <data key="d3">1.0</data>
+      <data key="d4">Interior Department...</data>
+      <data key="d6">The Department of the Interior and the Department of Agriculture's Forest Service have been working to improve collaboration on wildfire response.</data>
+    </edge>
+    <edge id="e131" source="49" target="122">
+      <data key="d3">8.0</data>
+      <data key="d4">declined provide funding...</data>
+      <data key="d6">The U.S. Congress declined to provide funding for the establishment of the U.S. Wildland Fire Service.</data>
+    </edge>
+    <edge id="e132" source="49" target="26">
+      <data key="d3">8.0</data>
+      <data key="d4">Land Management's fire...</data>
+      <data key="d6">The Bureau of Land Management's fire program will be consolidated into the U.S. Wildland Fire Service.</data>
+    </edge>
+    <edge id="e133" source="49" target="32">
+      <data key="d3">1.0</data>
+      <data key="d4">Service's fire program...</data>
+      <data key="d6">The National Park Service's fire program will be consolidated into the U.S. Wildland Fire Service.</data>
+    </edge>
+    <edge id="e134" source="79" target="1">
+      <data key="d3">7.0</data>
+      <data key="d4">Service Department...</data>
+      <data key="d6">The U.S. Forest Service and Department of the Interior both manage federal wildland firefighting, but Congress did not fund a consolidated Wildland Fire Service as proposed</data>
+    </edge>
+    <edge id="e135" source="79" target="129">
+      <data key="d3">7.0</data>
+      <data key="d4">expected sign funding...</data>
+      <data key="d6">President Trump is expected to sign the funding measure for the Department of the Interior, which did not include USWFS funding</data>
+    </edge>
+    <edge id="e136" source="51" target="126">
+      <data key="d3">8.0</data>
+      <data key="d4">Interior Secretary, issued...</data>
+      <data key="d6">Doug Burgum, as Interior Secretary, issued an order to establish the USWFS</data>
+    </edge>
+    <edge id="e137" source="123" target="126">
+      <data key="d3">9.0</data>
+      <data key="d4">hired new chief...</data>
+      <data key="d6">John Fennessy was hired as the new chief of the USWFS, bringing decades of experience in wildland firefighting</data>
+    </edge>
+    <edge id="e138" source="123" target="124">
+      <data key="d3">7.0</data>
+      <data key="d4">Firefighters advocacy group...</data>
+      <data key="d6">The Grassroots Wildland Firefighters advocacy group welcomed Fennessy's hiring as USWFS chief due to his extensive experience</data>
+    </edge>
+    <edge id="e139" source="125" target="126">
+      <data key="d3">1.0</data>
+      <data key="d4">advocacy group concerned...</data>
+      <data key="d6">The Wilderness Society advocacy group is concerned the USWFS will focus too heavily on fire suppression rather than mitigation strategies</data>
+    </edge>
+    <edge id="e140" source="126" target="127">
+      <data key="d3">8.0</data>
+      <data key="d4">Committee did not...</data>
+      <data key="d6">The Senate Appropriations Committee did not provide specific funding for the USWFS in the recent appropriations bill</data>
+    </edge>
+    <edge id="e141" source="127" target="128">
+      <data key="d3">8.0</data>
+      <data key="d4">Vice Chair...</data>
+      <data key="d6">Patty Murray is the Vice Chair of the Senate Appropriations Committee</data>
+    </edge>
+  </graph>
+</graphml>

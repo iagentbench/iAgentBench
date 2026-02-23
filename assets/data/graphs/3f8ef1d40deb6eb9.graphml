@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">ALLEGHENY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Allegheny is a county in Pennsylvania</data>
+    </node>
+    <node id="1">
+      <data key="d0">VALLEY NEWS DISPATCH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Valley News Dispatch is a local newspaper serving the Pittsburgh metropolitan area
+Valley News Dispatch is a local news publication</data>
+    </node>
+    <node id="2">
+      <data key="d0">BETHEL PARK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Bethel Park is a municipality in Allegheny County, Pennsylvania</data>
+    </node>
+    <node id="3">
+      <data key="d0">CHARTIERS VALLEY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Chartiers Valley is a region in Allegheny County, Pennsylvania</data>
+    </node>
+    <node id="4">
+      <data key="d0">NORTH ALLEGHENY JOURNAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">North Allegheny Journal is a local news publication</data>
+    </node>
+    <node id="5">
+      <data key="d0">NORTH HILLS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">1.0</data>
+      <data key="d5">North Hills is a region in Allegheny County, Pennsylvania</data>
+    </node>
+    <node id="6">
+      <data key="d0">SOUTH HILLS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">South Hills is a region in Allegheny County, Pennsylvania</data>
+    </node>
+    <node id="7">
+      <data key="d0">STEELERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Pittsburgh Steelers are a professional American football team</data>
+    </node>
+    <node id="8">
+      <data key="d0">PENGUINS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Pittsburgh Penguins are a professional ice hockey team</data>
+    </node>
+    <node id="9">
+      <data key="d0">PIRATES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Pittsburgh Pirates are a professional baseball team</data>
+    </node>
+    <node id="10">
+      <data key="d0">PITT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The University of Pittsburgh is a public research university</data>
+    </node>
+    <node id="11">
+      <data key="d0">DUQUESNE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Duquesne University is a private Catholic university</data>
+    </node>
+    <node id="12">
+      <data key="d0">ROBERT MORRIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Robert Morris University is a private university</data>
+    </node>
+    <node id="13">
+      <data key="d0">PITTSBURGH</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="14">
+      <data key="d0">NORTH JOURNAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">1.0</data>
+      <data key="d5">The North Journal is a local newspaper serving the North Hills area</data>
+    </node>
+    <node id="15">
+      <data key="d0">SOUTH HILLS RECORD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The South Hills Record is a local newspaper serving the South Hills area</data>
+    </node>
+    <node id="16">
+      <data key="d0">TRIBUNE-REVIEW</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="17">
+      <data key="d0">CINDY CLEMISHIRE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Here is a comprehensive summary of the data provided:
+
+Cindy Clemishire is a woman who has filed a lawsuit against Gateway Church, its senior pastor Robert Morris, and his wife. The lawsuit alleges that the church and Morris benefited financially from hiding known information about sexual abuse claims against Morris.
+
+According to the details provided, Cindy Clemishire has publicly accused Robert Morris of sexually abusing her when she was 12 years old in 1982. The lawsuit claims that the church and its leadership failed to report these alleged incidents of sexual abuse.
+
+While the descriptions provided some contradictory information, with one stating that no further details were given about Cindy Clemishire, the other two descriptions clearly identify her as the woman who has accused Robert Morris of sexual abuse and is now suing the church and its leadership.
+
+In summary, Cindy Clemishire is a woman who has come forward with allegations of sexual abuse against Robert Morris, the senior pastor of Gateway Church. She has filed a lawsuit against the church, Morris, and his wife, claiming that they financially benefited from hiding known information about the abuse claims. The lawsuit alleges that the church and its leadership failed to report the alleged incidents of sexual abuse.</data>
+    </node>
+    <node id="18">
+      <data key="d0">JAMES MORRIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">James Morris is the son of Robert Morris, the founder and senior pastor of Gateway Church. He was previously an associate senior pastor at Gateway Church, but he and his wife Bridgette Morris have stepped down from their leadership roles following allegations against his father.
+
+According to the information provided, James Morris was a speaker at the Gateway Conference, which suggests he was involved in the church's activities and leadership. However, the descriptions also indicate that he and his wife Bridgette Morris have stepped down from their positions at the church, likely due to the allegations against his father, Robert Morris.
+
+The exact nature of the allegations against Robert Morris is not specified in the given information. However, the fact that James Morris and his wife have stepped down from their roles at the church suggests that the allegations were serious enough to warrant their departure from the church's leadership.
+
+Despite the allegations and the subsequent resignation of James Morris and his wife from their positions, the descriptions still identify James Morris as the son of Robert Morris, the founder and senior pastor of Gateway Church. This suggests that James Morris maintains a familial connection to the church, even if he is no longer actively involved in its leadership.
+
+In summary, James Morris is the son of Robert Morris, the founder and senior pastor of Gateway Church. He previously held a leadership role as an associate senior pastor at the church, but he and his wife Bridgette Morris have stepped down from their positions following allegations against his father. The exact nature of the allegations is not specified, but they were serious enough to warrant the departure of James Morris and his wife from the church's leadership.</data>
+    </node>
+    <node id="19">
+      <data key="d0">BRIDGETTE MORRIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Bridgette Morris was the executive pastor at Gateway Church and the daughter-in-law of Robert Morris, but she stepped down from her leadership role along with her husband James Morris following the allegations against her father-in-law</data>
+    </node>
+    <node id="20">
+      <data key="d0">HAYNES &amp; BOONE LLP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">21.0</data>
+      <data key="d5">Haynes &amp; Boone LLP is the law firm that Gateway Church retained to conduct an internal investigation into the allegations against Robert Morris</data>
+    </node>
+    <node id="21">
+      <data key="d0">GATEWAY CHURCH</data>
+      <data key="d1" />
+      <data key="d2">21.0</data>
+      <data key="d5" />
+    </node>
+    <node id="22">
+      <data key="d0">THE WARTBURG WATCH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">18.0</data>
+      <data key="d5">The Wartburg Watch is the religious blog where Cindy Clemishire first publicly shared her story of being sexually abused by Robert Morris</data>
+    </node>
+    <node id="23">
+      <data key="d0">THE CHRISTIAN POST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The Christian Post is the news outlet where Robert Morris admitted to "inappropriate sexual behavior with a young lady" in his early 20s</data>
+    </node>
+    <node id="24">
+      <data key="d0">KEMTAL GLASGOW</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">21.0</data>
+      <data key="d5">Kemtal Glasgow was an executive pastor at Gateway Church's Southlake campus who was fired over a "moral issue".</data>
+    </node>
+    <node id="25">
+      <data key="d0">TRA WILLBANKS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">21.0</data>
+      <data key="d5">Tra Willbanks is a church elder at Gateway Church. In this role, he has made several significant announcements and decisions.
+
+Firstly, Tra Willbanks announced the appointment of Daniel Floyd as the new senior pastor of Gateway Church. This suggests that Tra Willbanks plays a leadership role in the church and is involved in the selection of key personnel, such as the senior pastor.
+
+Additionally, Tra Willbanks announced the firing of Kemtal Glasgow, another individual associated with Gateway Church. This indicates that Tra Willbanks has the authority to make personnel decisions and take disciplinary actions within the church.
+
+Furthermore, Tra Willbanks announced the findings of an investigation into allegations against Robert Morris, who is also connected to Gateway Church. This suggests that Tra Willbanks is involved in addressing and resolving issues or controversies within the church community.
+
+In summary, Tra Willbanks is a church elder at Gateway Church who has the authority to make significant decisions, such as appointing a new senior pastor, terminating the employment of church staff, and overseeing investigations into allegations against other church leaders. His role appears to be one of leadership and oversight within the church organization.</data>
+    </node>
+    <node id="26">
+      <data key="d0">KENNETH FAMBRO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">21.0</data>
+      <data key="d5">Kenneth Fambro is a church elder at Gateway Church who announced staff cuts and the church's need for more elders.</data>
+    </node>
+    <node id="27">
+      <data key="d0">CHILD SEXUAL ABUSE</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="28">
+      <data key="d0">OSAGE COUNTY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Osage County in Oklahoma is the location where the alleged child sexual abuse charges against Robert Morris took place. According to the provided descriptions, Robert Morris turned himself in on the child sexual abuse charges in Osage County.
+
+The descriptions indicate that the alleged child sexual abuse by Robert Morris occurred in Osage County, Oklahoma. While the details of the specific allegations are not provided, the information suggests that Robert Morris was accused of committing child sexual abuse crimes within the geographical boundaries of Osage County.
+
+The descriptions also state that Robert Morris turned himself in on these child sexual abuse charges in Osage County. This implies that the authorities in Osage County were involved in the investigation and prosecution of the alleged crimes committed by Robert Morris.
+
+Overall, the summary of the provided data is that Osage County, Oklahoma was the location where the alleged child sexual abuse by Robert Morris took place, and where he subsequently turned himself in to the authorities in relation to these charges. The descriptions do not contain any contradictory information, and a comprehensive summary has been provided within the 500-word limit.</data>
+    </node>
+    <node id="29">
+      <data key="d0">GENTNER DRUMMOND</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Gentner Drummond is the Oklahoma Attorney General who announced the indictment of Robert Morris on child sexual abuse charges.</data>
+    </node>
+    <node id="30">
+      <data key="d0">GATEWAY CONFERENCE</data>
+      <data key="d1" />
+      <data key="d2">17.0</data>
+      <data key="d5" />
+    </node>
+    <node id="31">
+      <data key="d0">TAMMIE FLOYD</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Tammie Floyd is the wife of Daniel Floyd, the new senior pastor of Gateway Church.</data>
+    </node>
+    <node id="32">
+      <data key="d0">DANIEL FLOYD</data>
+      <data key="d1" />
+      <data key="d2">22.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="13">
+      <data key="d3">5.0</data>
+      <data key="d4">Allegheny County, Pennsylvania...</data>
+      <data key="d6">Pittsburgh is located in Allegheny County, Pennsylvania</data>
+    </edge>
+    <edge id="e1" source="0" target="2">
+      <data key="d3">5.0</data>
+      <data key="d4">municipality located Allegheny...</data>
+      <data key="d6">Bethel Park is a municipality located in Allegheny County, Pennsylvania</data>
+    </edge>
+    <edge id="e2" source="0" target="3">
+      <data key="d3">5.0</data>
+      <data key="d4">region located Allegheny...</data>
+      <data key="d6">Chartiers Valley is a region located in Allegheny County, Pennsylvania</data>
+    </edge>
+    <edge id="e3" source="0" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">Journal local news...</data>
+      <data key="d6">The North Allegheny Journal is a local news publication covering the North Allegheny region of Allegheny County</data>
+    </edge>
+    <edge id="e4" source="0" target="5">
+      <data key="d3">5.0</data>
+      <data key="d4">region located...</data>
+      <data key="d6">The North Hills is a region located in northern Allegheny County, Pennsylvania</data>
+    </edge>
+    <edge id="e5" source="0" target="6">
+      <data key="d3">5.0</data>
+      <data key="d4">region located...</data>
+      <data key="d6">The South Hills is a region located in southern Allegheny County, Pennsylvania</data>
+    </edge>
+    <edge id="e6" source="1" target="13">
+      <data key="d3">14.0</data>
+      <data key="d4">Dispatch local newspaper...</data>
+      <data key="d6">The Valley News Dispatch is a local newspaper serving the Pittsburgh metropolitan area
+The Valley News Dispatch is a local news publication covering the Pittsburgh metropolitan area</data>
+    </edge>
+    <edge id="e7" source="5" target="14">
+      <data key="d3">9.0</data>
+      <data key="d4">local newspaper serving...</data>
+      <data key="d6">The North Journal is a local newspaper serving the North Hills area</data>
+    </edge>
+    <edge id="e8" source="6" target="15">
+      <data key="d3">1.0</data>
+      <data key="d4">Record local newspaper...</data>
+      <data key="d6">The South Hills Record is a local newspaper serving the South Hills area</data>
+    </edge>
+    <edge id="e9" source="7" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">professional American football...</data>
+      <data key="d6">The Pittsburgh Steelers are a professional American football team based in Pittsburgh</data>
+    </edge>
+    <edge id="e10" source="8" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">professional ice hockey...</data>
+      <data key="d6">The Pittsburgh Penguins are a professional ice hockey team based in Pittsburgh</data>
+    </edge>
+    <edge id="e11" source="9" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">professional baseball team...</data>
+      <data key="d6">The Pittsburgh Pirates are a professional baseball team based in Pittsburgh</data>
+    </edge>
+    <edge id="e12" source="10" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">Pittsburgh public research...</data>
+      <data key="d6">The University of Pittsburgh is a public research university located in Pittsburgh</data>
+    </edge>
+    <edge id="e13" source="11" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">private Catholic university...</data>
+      <data key="d6">Duquesne University is a private Catholic university located in Pittsburgh</data>
+    </edge>
+    <edge id="e14" source="12" target="13">
+      <data key="d3">1.0</data>
+      <data key="d4">private university located...</data>
+      <data key="d6">Robert Morris University is a private university located in the Pittsburgh metropolitan area</data>
+    </edge>
+    <edge id="e15" source="13" target="16">
+      <data key="d3">9.0</data>
+      <data key="d4">local newspaper serving...</data>
+      <data key="d6">The Tribune-Review is a local newspaper serving the Pittsburgh metropolitan area</data>
+    </edge>
+    <edge id="e16" source="12" target="21">
+      <data key="d3">27.0</data>
+      <data key="d4">founding pastor Gateway...</data>
+      <data key="d6">Robert Morris is the founding pastor of Gateway Church, a prominent megachurch based in Texas. However, Morris has faced significant controversy and allegations in recent years.
+
+According to the information provided, Robert Morris has been indicted on child sexual abuse charges. The descriptions indicate that allegations of sexual abuse against Morris surfaced, leading to his resignation from Gateway Church. While the exact details of the allegations are not specified, the fact that Morris has been indicted suggests that there is credible evidence of wrongdoing.
+
+It is important to note that the descriptions provided present contradictory information. One description states that Morris "has been indicted on child sexual abuse charges," while the other says he "resigned after allegations of sexual abuse against him surfaced." This suggests that the allegations may not have resulted in a formal indictment, or that the indictment may have occurred after his resignation.
+
+Despite the contradictory information, the overall picture that emerges is one of a prominent religious leader accused of serious sexual misconduct, particularly involving minors. This is a grave and concerning situation that has likely had a significant impact on the Gateway Church community, as well as the broader public.
+
+It is crucial that any allegations of sexual abuse be thoroughly investigated and that appropriate actions be taken to protect victims and hold perpetrators accountable. The church and its leadership should also prioritize transparency, accountability, and support for those affected by these allegations.
+
+In conclusion, Robert Morris, the founding pastor of Gateway Church, has faced serious allegations of child sexual abuse, leading to his indictment and resignation from the church. While the exact details of the allegations are not entirely clear, the situation highlights the importance of addressing and preventing sexual abuse within religious institutions and communities.</data>
+    </edge>
+    <edge id="e17" source="12" target="17">
+      <data key="d3">18.0</data>
+      <data key="d4">accused Robert Morris...</data>
+      <data key="d6">Cindy Clemishire publicly accused Robert Morris of sexually abusing her when she was 12 years old in the 1980s</data>
+    </edge>
+    <edge id="e18" source="12" target="18">
+      <data key="d3">16.0</data>
+      <data key="d4">associate senior pastor...</data>
+      <data key="d6">James Morris was the associate senior pastor at Gateway Church and the son of Robert Morris, but he stepped down from his leadership role following the allegations against his father</data>
+    </edge>
+    <edge id="e19" source="12" target="19">
+      <data key="d3">16.0</data>
+      <data key="d4">executive pastor Gateway...</data>
+      <data key="d6">Bridgette Morris was the executive pastor at Gateway Church and the daughter-in-law of Robert Morris, but she stepped down from her leadership role following the allegations against her father-in-law</data>
+    </edge>
+    <edge id="e20" source="12" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">"inappropriate sexual behavior...</data>
+      <data key="d6">Robert Morris admitted to "inappropriate sexual behavior with a young lady" in his early 20s in an interview with The Christian Post</data>
+    </edge>
+    <edge id="e21" source="17" target="22">
+      <data key="d3">8.0</data>
+      <data key="d4">publicly shared story...</data>
+      <data key="d6">Cindy Clemishire first publicly shared her story of being sexually abused by Robert Morris on the religious blog The Wartburg Watch</data>
+    </edge>
+    <edge id="e22" source="20" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">law firm Haynes...</data>
+      <data key="d6">Gateway Church retained the law firm Haynes &amp; Boone LLP to conduct an internal investigation into the allegations against Robert Morris</data>
+    </edge>
+    <edge id="e23" source="12" target="27">
+      <data key="d3">1.0</data>
+      <data key="d4">been indicted multiple...</data>
+      <data key="d6">Robert Morris has been indicted on multiple child sexual abuse charges.</data>
+    </edge>
+    <edge id="e24" source="12" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">sexual abuse Robert...</data>
+      <data key="d6">The alleged child sexual abuse by Robert Morris took place in Osage County, Oklahoma.</data>
+    </edge>
+    <edge id="e25" source="12" target="29">
+      <data key="d3">1.0</data>
+      <data key="d4">Oklahoma Attorney General,...</data>
+      <data key="d6">Gentner Drummond, the Oklahoma Attorney General, announced the indictment of Robert Morris on child sexual abuse charges.</data>
+    </edge>
+    <edge id="e26" source="24" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">executive pastor Gateway...</data>
+      <data key="d6">Kemtal Glasgow was an executive pastor at Gateway Church's Southlake campus who was fired over a "moral issue".</data>
+    </edge>
+    <edge id="e27" source="25" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">church elder Gateway...</data>
+      <data key="d6">Tra Willbanks is a church elder at Gateway Church who announced the firing of Kemtal Glasgow and the findings of an investigation into allegations against Robert Morris.</data>
+    </edge>
+    <edge id="e28" source="26" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">church elder Gateway...</data>
+      <data key="d6">Kenneth Fambro is a church elder at Gateway Church who announced staff cuts and the church's need for more elders.</data>
+    </edge>
+    <edge id="e29" source="18" target="30">
+      <data key="d3">8.0</data>
+      <data key="d4">son Robert Morris,...</data>
+      <data key="d6">James Morris, the son of Robert Morris, was a speaker at the Gateway Conference.</data>
+    </edge>
+    <edge id="e30" source="21" target="12">
+      <data key="d3">8.0</data>
+      <data key="d4">senior pastor Gateway...</data>
+      <data key="d6">Robert Morris was the senior pastor of Gateway Church before resigning due to the sexual abuse allegations. The church has filed a civil suit against him over his retirement payout request.</data>
+    </edge>
+    <edge id="e31" source="21" target="17">
+      <data key="d3">1.0</data>
+      <data key="d4">suing Gateway Church...</data>
+      <data key="d6">Cindy Clemishire is suing Gateway Church for defamation and failing to report alleged sexual abuse. The lawsuit claims the church benefited financially from hiding known information about the abuse claims.</data>
+    </edge>
+    <edge id="e32" source="21" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">announced new senior...</data>
+      <data key="d6">Daniel Floyd was announced as the new senior pastor of Gateway Church, replacing Robert Morris.</data>
+    </edge>
+    <edge id="e33" source="21" target="25">
+      <data key="d3">1.0</data>
+      <data key="d4">church elder Gateway...</data>
+      <data key="d6">Tra Willbanks is a church elder at Gateway Church who announced the new senior pastor.</data>
+    </edge>
+    <edge id="e34" source="17" target="12">
+      <data key="d3">8.0</data>
+      <data key="d4">suing Robert Morris...</data>
+      <data key="d6">Cindy Clemishire is suing Robert Morris for defamation and failing to report alleged sexual abuse that occurred. The lawsuit claims the church and Morris benefited financially from hiding known information about the abuse claims.</data>
+    </edge>
+    <edge id="e35" source="31" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">Tammie Floyd married...</data>
+      <data key="d6">Daniel Floyd and Tammie Floyd are married and co-founded Lifepoint Church together.</data>
+    </edge>
+  </graph>
+</graphml>

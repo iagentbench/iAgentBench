@@ -1,0 +1,1298 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">HOUSTON HOBBY AIRPORT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Houston Hobby Airport is a public airport located in Houston, Texas, United States. It is one of the two major airports serving the Houston metropolitan area, the other being George Bush Intercontinental Airport.
+
+According to the information provided, Houston Hobby Airport was the departure point for a Southwest Airlines flight that was later evacuated. The descriptions indicate that a Southwest Airlines plane was evacuated at Houston Hobby Airport, though the specific details and reasons for the evacuation are not provided.
+
+Houston Hobby Airport serves as a focus city for Southwest Airlines, which operates a significant portion of the airport's commercial passenger traffic. The airport offers flights to destinations across the United States, as well as some international destinations in Mexico and the Caribbean.
+
+In addition to commercial passenger service, Houston Hobby Airport also handles general aviation, corporate, and military traffic. The airport has two runways and a terminal building that includes various amenities for passengers, such as restaurants, shops, and ground transportation options.
+
+Overall, Houston Hobby Airport is an important transportation hub for the Houston region, serving both commercial and general aviation needs. The information provided suggests that the airport was the departure point for a Southwest Airlines flight that was later evacuated, though the specific circumstances surrounding the evacuation are not clear from the given descriptions.</data>
+    </node>
+    <node id="1">
+      <data key="d0">LOS CABOS INTERNATIONAL AIRPORT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Southwest Airlines plane was headed to Los Cabos International Airport in Mexico</data>
+    </node>
+    <node id="2">
+      <data key="d0">HOUSTON FIRE DEPARTMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Houston Fire Department (HFD) is the fire department responsible for providing fire protection and emergency medical services to the city of Houston, Texas. On a recent incident, the HFD demonstrated their professionalism and quick response in handling an emergency situation.
+
+According to the provided descriptions, the HFD responded to an emergency landing of a Southwest Airlines flight, where the plane's engine had caught fire. The department was able to quickly extinguish the engine fire upon arrival. The descriptions indicate that the HFD received a report of the engine fire on the Southwest Airlines plane and promptly responded to the scene.
+
+The HFD's actions were crucial in ensuring the safety of the passengers and crew on board the aircraft. By effectively extinguishing the engine fire, the department prevented the situation from escalating and potentially causing further damage or injuries. The department's swift and efficient response showcases their preparedness and expertise in handling such emergency situations.
+
+Overall, the Houston Fire Department's handling of the engine fire on the Southwest Airlines flight demonstrates their commitment to public safety and their ability to respond effectively to emergency calls. The department's professionalism and quick action were instrumental in resolving the incident and ensuring the well-being of all those involved.</data>
+    </node>
+    <node id="3">
+      <data key="d0">BOEING 737</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The Boeing 737 is a narrow-body, twin-engine jet airliner developed and manufactured by Boeing Commercial Airplanes. It is one of the most widely used passenger aircraft in the world, with over 10,000 units delivered since its first flight in 1967.
+
+The Boeing 737 that was involved in the Southwest Airlines incident was a part of the 737 series. The specific model of the aircraft was not provided in the descriptions, but it is known that the plane was operated by Southwest Airlines and experienced an engine fire incident, leading to the evacuation of passengers.
+
+The Boeing 737 is known for its reliability, fuel efficiency, and versatility, making it a popular choice among airlines around the world. It is available in various models, ranging from the smaller 737-700 to the larger 737-900ER, with each model offering different passenger and cargo capacities, as well as range capabilities.
+
+The 737 has undergone several generations of upgrades and improvements over the years, with the latest being the 737 MAX series, which features more fuel-efficient engines and advanced avionics. However, the 737 model involved in the Southwest Airlines incident was not specified, so it is unclear if it was a 737 Classic, Next-Generation, or MAX series aircraft.
+
+Overall, the Boeing 737 is a well-established and widely used commercial aircraft that has proven its reliability and safety over the decades. While the specific details of the Southwest Airlines incident were not provided, it is clear that the aircraft involved was a Boeing 737, which is a testament to the popularity and widespread use of this aircraft model in the aviation industry.</data>
+    </node>
+    <node id="4">
+      <data key="d0">SOUTHWEST AIRLINES</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="5">
+      <data key="d0">HOUSTON</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="6">
+      <data key="d0">TONY ROACH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Tony Roach is the EVP of customer and brand at Southwest Airlines</data>
+    </node>
+    <node id="7">
+      <data key="d0">CLINT HENDERSON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Clint Henderson is a travel expert and managing editor of The Points Guy</data>
+    </node>
+    <node id="8">
+      <data key="d0">DELTA AIR LINES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Delta Air Lines is a competitor of Southwest Airlines</data>
+    </node>
+    <node id="9">
+      <data key="d0">UNITED AIRLINES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">United Airlines is a competitor of Southwest Airlines</data>
+    </node>
+    <node id="10">
+      <data key="d0">ASSIGNED SEATING</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="11">
+      <data key="d0">CABO SAN LUCAS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Cabo San Lucas is a popular tourist destination located at the southern tip of the Baja California Peninsula in Mexico. The descriptions provided indicate that a Southwest Airlines flight was headed to Cabo San Lucas when it had to return to Hobby Airport.
+
+Cabo San Lucas is known for its stunning beaches, vibrant nightlife, and proximity to the Sea of Cortez. It is a popular spring break and vacation spot, attracting visitors from around the world. The town is home to a variety of resorts, restaurants, and outdoor activities, including fishing, snorkeling, and water sports.
+
+The Southwest Airlines flight that was headed to Cabo San Lucas likely originated from a different location and was making the journey to the Mexican destination. However, for some reason, the flight had to turn back and return to Hobby Airport, which is located in Houston, Texas. The exact reason for the flight's diversion is not provided in the descriptions, but it could have been due to mechanical issues, weather conditions, or other unforeseen circumstances.
+
+Overall, Cabo San Lucas is a renowned tourist destination that attracts visitors from around the world, and the Southwest Airlines flight was likely carrying passengers who were eager to experience the town's unique blend of natural beauty, entertainment, and relaxation. The fact that the flight had to return to its origin point is an unfortunate incident, but it does not diminish the appeal of Cabo San Lucas as a premier vacation spot.</data>
+    </node>
+    <node id="12">
+      <data key="d0">FEDERAL AVIATION ADMINISTRATION</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="13">
+      <data key="d0">ENGINE FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The engine fire that forced the Southwest flight to return to Houston Hobby Airport</data>
+    </node>
+    <node id="14">
+      <data key="d0">SOUTHWEST FLIGHT</data>
+      <data key="d1" />
+      <data key="d2">5.0</data>
+      <data key="d5" />
+    </node>
+    <node id="15">
+      <data key="d0">PLUS-SIZE PASSENGERS</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="16">
+      <data key="d0">AIRLINES</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="17">
+      <data key="d0">RAPID REWARDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Rapid Rewards is Southwest Airlines' loyalty program that allows customers to earn and redeem points for flights</data>
+    </node>
+    <node id="18">
+      <data key="d0">LYFT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Lyft is a ridesharing company that has partnered with Southwest Airlines to provide transportation services to customers</data>
+    </node>
+    <node id="19">
+      <data key="d0">APPLE WALLET</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Apple Wallet is a digital wallet service provided by Apple that allows users to store and access their boarding passes</data>
+    </node>
+    <node id="20">
+      <data key="d0">GOOGLE PAY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Google Pay is a digital wallet and payment platform provided by Google that allows users to store and access their boarding passes</data>
+    </node>
+    <node id="21">
+      <data key="d0">SOUTHWEST BOT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Southwest Bot is an automated customer service chatbot provided by Southwest Airlines to answer customer questions</data>
+    </node>
+    <node id="22">
+      <data key="d0">SOUTHWEST MOBILE APP</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="23">
+      <data key="d0">HOBBY AIRPORT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Hobby Airport is a public airport located in Houston, Texas. It serves as a major hub for Southwest Airlines and is the second-largest airport in the Houston metropolitan area, after George Bush Intercontinental Airport.
+
+On a recent flight, a Southwest Airlines plane had to make an emergency landing at Hobby Airport due to an engine fire. The flight was forced to return to the airport and evacuate the passengers as a result of the incident. This emergency landing at Hobby Airport was necessary to ensure the safety of the passengers and crew on board the Southwest Airlines flight.
+
+Hobby Airport is equipped to handle such emergency situations and has the necessary infrastructure and personnel to respond effectively. The airport's runways, air traffic control, and emergency services were able to facilitate the safe landing and evacuation of the aircraft.
+
+Overall, Hobby Airport plays a crucial role in the Houston aviation landscape, serving both commercial and private flights. While the recent emergency landing incident was a concerning event, the airport's ability to handle the situation demonstrates its preparedness and commitment to passenger safety.</data>
+    </node>
+    <node id="24">
+      <data key="d0">DENVER INTERNATIONAL AIRPORT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The incident occurred at Denver International Airport, where the Southwest Airlines flight was parked
+The incident occurred at Denver International Airport, where the Southwest Airlines flight was parked at the gate</data>
+    </node>
+    <node id="25">
+      <data key="d0">JENNIFER RODGERS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Jennifer Rodgers was a passenger on the Southwest Airlines flight and witnessed the incident</data>
+    </node>
+    <node id="26">
+      <data key="d0">CATHERINE RIOS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Catherine Rios captured dramatic video footage of the passengers evacuating the plane</data>
+    </node>
+    <node id="27">
+      <data key="d0">JAQUETTA ANDERSON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Jaquetta Anderson was a witness to the chaotic evacuation of the plane</data>
+    </node>
+    <node id="28">
+      <data key="d0">PASSENGER'S SMARTPHONE</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="29">
+      <data key="d0">WILLIAM P. HOBBY AIRPORT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Southwest Airlines flight eventually landed at William P. Hobby Airport in Houston</data>
+    </node>
+    <node id="30">
+      <data key="d0">WILLIAM P. HOBBY INTERNATIONAL AIRPORT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">William P. Hobby International Airport is the airport in Houston, Texas where Southwest Airlines Flight 3006 took off from and made an emergency landing</data>
+    </node>
+    <node id="31">
+      <data key="d0">LAS VEGAS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Las Vegas is a city located in the state of Nevada, known for its vibrant and lively atmosphere. As a popular destination for travelers, Las Vegas is renowned for its world-famous casinos, luxurious hotels, and diverse entertainment options along the iconic Las Vegas Strip.
+
+The city is situated in the Mojave Desert and is known for its hot, dry climate. Las Vegas is a major hub for tourism, attracting millions of visitors each year who come to experience the city's unique blend of gambling, shows, dining, and nightlife.
+
+The Las Vegas Strip, a 4.2-mile stretch of Las Vegas Boulevard, is the heart of the city and home to some of the most iconic hotels and casinos, including the Bellagio, Caesars Palace, and MGM Grand. These establishments offer a wide range of gaming options, from slot machines and table games to high-stakes poker rooms.
+
+In addition to its renowned casinos, Las Vegas is also known for its vibrant entertainment scene. The city is home to numerous world-class shows, concerts, and performances, ranging from Cirque du Soleil productions to residencies by famous musicians and comedians.
+
+Beyond the Strip, Las Vegas offers a variety of other attractions and activities, including the Neon Museum, which showcases the city's rich history through its collection of vintage neon signs, and the Red Rock Canyon National Conservation Area, a stunning natural landscape just a short drive from the city center.
+
+Overall, Las Vegas is a unique and dynamic destination that offers a one-of-a-kind experience for visitors, with its combination of gambling, entertainment, and luxurious accommodations. Whether you're looking to try your luck at the tables, catch a show, or simply soak in the energy of the city, Las Vegas has something to offer for everyone.</data>
+    </node>
+    <node id="32">
+      <data key="d0">BELLAGIO FOUNTAINS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Bellagio Fountains are a popular attraction in Las Vegas, featuring a water show set to music and lights</data>
+    </node>
+    <node id="33">
+      <data key="d0">THE VENETIAN CANALS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Venetian Canals are a unique and picturesque indoor canal system located in Las Vegas, Nevada. Visitors to this iconic attraction can experience the charm and ambiance of Venice, Italy, without leaving the desert city.
+
+The Venetian Canals are an artificial waterway system that winds through the heart of the Venetian Resort, one of the most renowned hotels and casinos in Las Vegas. Modeled after the famous canals of Venice, this indoor waterway system allows visitors to take a leisurely gondola ride, gliding along the tranquil waters while taking in the sights and sounds of the surrounding Venetian-inspired architecture.
+
+The canals are lined with charming bridges, cobblestone walkways, and lush landscaping, creating a truly immersive and picturesque experience. Visitors can choose to ride in a traditional Venetian gondola, piloted by a skilled gondolier who serenades them with Italian songs as they float along the canals.
+
+The Venetian Canals are not only a popular tourist attraction but also a beloved destination for locals and visitors alike. The indoor setting of the canals provides a respite from the bustling energy of the Las Vegas Strip, offering a peaceful and romantic escape for those seeking a unique and memorable experience.
+
+Whether you're admiring the intricate details of the Venetian-style buildings, enjoying a gondola ride, or simply strolling along the charming walkways, the Venetian Canals provide a truly one-of-a-kind experience that transports visitors to the heart of Italy, right in the middle of the Nevada desert.</data>
+    </node>
+    <node id="34">
+      <data key="d0">CAESARS PALACE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Caesars Palace is a renowned luxury hotel and casino located on the iconic Las Vegas Strip. This iconic destination is known for its opulent and grandiose atmosphere, offering visitors a truly indulgent experience.
+
+The hotel features a wide range of high-end shopping, dining, and entertainment options. Guests can indulge in world-class cuisine at the property's numerous gourmet restaurants, featuring a diverse array of culinary offerings from renowned chefs. The hotel also boasts a vast array of luxury retail outlets, catering to the discerning tastes of its clientele.
+
+In addition to its impressive dining and shopping amenities, Caesars Palace is also renowned for its extensive entertainment offerings. The property hosts a variety of live performances, ranging from concerts by renowned artists to theatrical productions and comedy shows. Visitors can also enjoy a range of recreational activities, such as the hotel's expansive pool complex and state-of-the-art fitness facilities.
+
+The hotel's accommodations are equally impressive, with luxurious guest rooms and suites that offer stunning views of the Las Vegas skyline. Each room is meticulously appointed with high-end furnishings and amenities, ensuring a truly exceptional and comfortable stay.
+
+Overall, Caesars Palace is a true embodiment of the grandeur and opulence that has become synonymous with the Las Vegas experience. Its unparalleled blend of luxury, entertainment, and hospitality makes it a must-visit destination for discerning travelers seeking an unforgettable and indulgent experience in the heart of the Las Vegas Strip.</data>
+    </node>
+    <node id="35">
+      <data key="d0">THE HIGH ROLLER OBSERVATION WHEEL</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The High Roller Observation Wheel is a giant Ferris wheel located on the Las Vegas Strip, offering visitors panoramic views of the city. This impressive structure stands tall, providing an unparalleled vantage point to take in the sights and sounds of the iconic Las Vegas landscape.
+
+The High Roller Observation Wheel is a popular attraction that allows guests to experience the city from a unique perspective. Soaring high above the bustling streets, the wheel offers a 360-degree view of the surrounding area, including the famous Las Vegas Strip, the glittering casinos, and the distant mountains that frame the city.
+
+Riders can enjoy the scenic journey as the wheel slowly rotates, providing ample time to take in the breathtaking vistas. The observation cabins are designed to offer a comfortable and enjoyable experience, with ample space and panoramic windows that allow for unobstructed views.
+
+The High Roller Observation Wheel is a testament to the ingenuity and ambition of Las Vegas, showcasing the city's commitment to providing world-class entertainment and attractions for visitors from around the globe. Whether you're a first-time visitor or a seasoned local, the High Roller Observation Wheel is a must-see destination that offers a truly unforgettable experience.
+
+With its impressive size, stunning views, and convenient location on the Las Vegas Strip, the High Roller Observation Wheel has become an iconic landmark and a symbol of the city's vibrant and ever-evolving landscape. It is a testament to the city's commitment to providing its visitors with unforgettable experiences and a unique perspective on the wonders of Las Vegas.</data>
+    </node>
+    <node id="36">
+      <data key="d0">THE COLOSSEUM</data>
+      <data key="d1">GEO</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The Colosseum is a theater located within Caesars Palace that hosts various shows and performances</data>
+    </node>
+    <node id="37">
+      <data key="d0">LUXOR HOTEL &amp; CASINO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Luxor Hotel &amp; Casino is a pyramid-shaped resort on the Las Vegas Strip</data>
+    </node>
+    <node id="38">
+      <data key="d0">HELL'S KITCHEN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Hell's Kitchen is a highly-rated restaurant on the Las Vegas Strip</data>
+    </node>
+    <node id="39">
+      <data key="d0">GORDON RAMSAY STEAK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Gordon Ramsay Steak is a top-rated restaurant on the Las Vegas Strip</data>
+    </node>
+    <node id="40">
+      <data key="d0">CATCH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Catch is a renowned restaurant on the Las Vegas Strip</data>
+    </node>
+    <node id="41">
+      <data key="d0">RED ROCK CANYON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Red Rock Canyon is a scenic natural area located just outside of Las Vegas, popular for hiking</data>
+    </node>
+    <node id="42">
+      <data key="d0">HOOVER DAM</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Hoover Dam is a classic American architectural marvel located near Las Vegas</data>
+    </node>
+    <node id="43">
+      <data key="d0">VALLEY OF FIRE STATE PARK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Valley of Fire State Park is a park near Las Vegas known for its iconic red sandstone formations</data>
+    </node>
+    <node id="44">
+      <data key="d0">SEVEN MAGIC MOUNTAINS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Seven Magic Mountains is an art installation near Las Vegas featuring vibrant stacked boulders</data>
+    </node>
+    <node id="45">
+      <data key="d0">GRAND CANYON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Grand Canyon is a landmark natural wonder that can be visited on day trips from Las Vegas</data>
+    </node>
+    <node id="46">
+      <data key="d0">DEATH VALLEY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Death Valley is a natural landmark that can be visited on day trips from Las Vegas</data>
+    </node>
+    <node id="47">
+      <data key="d0">MCCARRAN INTERNATIONAL AIRPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">McCarran International Airport is the airport serving the Las Vegas area</data>
+    </node>
+    <node id="48">
+      <data key="d0">LAS VEGAS STRIP</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="49">
+      <data key="d0">THE MOB MUSEUM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Mob Museum is a museum in Las Vegas that explores the history of organized crime and law enforcement</data>
+    </node>
+    <node id="50">
+      <data key="d0">THE NEON MUSEUM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Neon Museum is an outdoor museum in Las Vegas that displays historic neon signs</data>
+    </node>
+    <node id="51">
+      <data key="d0">LAS VEGAS NATURAL HISTORY MUSEUM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Las Vegas Natural History Museum is a museum that showcases the natural history and geology of the Las Vegas region</data>
+    </node>
+    <node id="52">
+      <data key="d0">PHOENIX</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Arizona</data>
+    </node>
+    <node id="53">
+      <data key="d0">SAN DIEGO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in California</data>
+    </node>
+    <node id="54">
+      <data key="d0">BURBANK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in California</data>
+    </node>
+    <node id="55">
+      <data key="d0">LONG BEACH</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in California</data>
+    </node>
+    <node id="56">
+      <data key="d0">BALTIMORE/WASHINGTON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Airport serving the Baltimore-Washington metropolitan area</data>
+    </node>
+    <node id="57">
+      <data key="d0">AUSTIN</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Texas</data>
+    </node>
+    <node id="58">
+      <data key="d0">SAN ANTONIO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Texas</data>
+    </node>
+    <node id="59">
+      <data key="d0">SAN FRANCISCO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in California</data>
+    </node>
+    <node id="60">
+      <data key="d0">KANSAS CITY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Missouri</data>
+    </node>
+    <node id="61">
+      <data key="d0">ATLANTA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Atlanta is a city located in the state of Georgia in the southeastern United States. It is the capital and most populous city of Georgia, with a population of over 500,000 people within the city limits and over 6 million in the metropolitan area.
+
+Atlanta is a major transportation hub, with Hartsfield-Jackson Atlanta International Airport being the world's busiest airport. The city is a center of business, finance, and commerce, and is home to the headquarters of many major corporations. Atlanta is also a cultural and entertainment hub, with a thriving arts scene, professional sports teams, and a variety of museums and attractions.
+
+The city has a diverse population and is known for its vibrant neighborhoods, each with its own unique character and offerings. Atlanta is also a hub for higher education, with several major universities and colleges located within the city limits.
+
+Overall, Atlanta is a dynamic and growing city that plays a significant role in the economic, cultural, and political landscape of the southeastern United States.</data>
+    </node>
+    <node id="62">
+      <data key="d0">ORANGE COUNTY/SANTA ANA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Region in California</data>
+    </node>
+    <node id="63">
+      <data key="d0">NASHVILLE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Tennessee</data>
+    </node>
+    <node id="64">
+      <data key="d0">MILWAUKEE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Wisconsin</data>
+    </node>
+    <node id="65">
+      <data key="d0">ONTARIO/LA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Region in California</data>
+    </node>
+    <node id="66">
+      <data key="d0">INDIANAPOLIS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Indiana</data>
+    </node>
+    <node id="67">
+      <data key="d0">ALBUQUERQUE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in New Mexico</data>
+    </node>
+    <node id="68">
+      <data key="d0">COLUMBUS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Ohio</data>
+    </node>
+    <node id="69">
+      <data key="d0">RENO/TAHOE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Region in Nevada</data>
+    </node>
+    <node id="70">
+      <data key="d0">CHICAGO (O'HARE)</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Airport in Chicago, Illinois</data>
+    </node>
+    <node id="71">
+      <data key="d0">PITTSBURGH</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Pittsburgh is a city located in the state of Pennsylvania. It is a major metropolitan area known for its rich history, vibrant culture, and thriving economy.
+
+Pittsburgh was founded in the late 18th century at the confluence of the Allegheny, Monongahela, and Ohio rivers. The city played a significant role in the industrial revolution, becoming a hub for steel production and other manufacturing industries. Today, Pittsburgh has transitioned into a diverse, modern city with a strong focus on technology, healthcare, and education.
+
+The city is home to a number of renowned universities, including the University of Pittsburgh and Carnegie Mellon University, which have contributed to its reputation as a center of innovation and research. Pittsburgh is also known for its impressive skyline, which features a mix of historic and contemporary architecture, as well as its extensive network of bridges, which have earned it the nickname "the City of Bridges."
+
+In addition to its academic and industrial achievements, Pittsburgh is also recognized for its vibrant cultural scene. The city boasts a thriving arts community, with numerous museums, galleries, and performing arts venues. It is also home to several professional sports teams, including the Pittsburgh Steelers (NFL), Pittsburgh Penguins (NHL), and Pittsburgh Pirates (MLB), which have a dedicated and passionate fan base.
+
+Overall, Pittsburgh is a dynamic and multifaceted city that has undergone a remarkable transformation in recent decades, transitioning from a heavily industrialized center to a thriving, diverse, and forward-looking metropolitan area.</data>
+    </node>
+    <node id="72">
+      <data key="d0">PORTLAND, OR</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Oregon</data>
+    </node>
+    <node id="73">
+      <data key="d0">ORLANDO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Florida</data>
+    </node>
+    <node id="74">
+      <data key="d0">TAMPA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Florida</data>
+    </node>
+    <node id="75">
+      <data key="d0">NEW ORLEANS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Louisiana</data>
+    </node>
+    <node id="76">
+      <data key="d0">SEATTLE/TACOMA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Region in Washington</data>
+    </node>
+    <node id="77">
+      <data key="d0">EL PASO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Texas</data>
+    </node>
+    <node id="78">
+      <data key="d0">OMAHA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Nebraska</data>
+    </node>
+    <node id="79">
+      <data key="d0">SALT LAKE CITY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Utah</data>
+    </node>
+    <node id="80">
+      <data key="d0">CLEVELAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Ohio</data>
+    </node>
+    <node id="81">
+      <data key="d0">OKLAHOMA CITY</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Oklahoma</data>
+    </node>
+    <node id="82">
+      <data key="d0">BUFFALO/NIAGARA FALLS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Region in New York</data>
+    </node>
+    <node id="83">
+      <data key="d0">HONOLULU (OAHU)</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Hawaii</data>
+    </node>
+    <node id="84">
+      <data key="d0">COLORADO SPRINGS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Colorado</data>
+    </node>
+    <node id="85">
+      <data key="d0">FRESNO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in California</data>
+    </node>
+    <node id="86">
+      <data key="d0">TUCSON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Arizona</data>
+    </node>
+    <node id="87">
+      <data key="d0">RALEIGH/DURHAM</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Region in North Carolina</data>
+    </node>
+    <node id="88">
+      <data key="d0">BOISE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Idaho</data>
+    </node>
+    <node id="89">
+      <data key="d0">WASHINGTON, D.C. (REAGAN NATIONAL)</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Airport in Washington, D.C.</data>
+    </node>
+    <node id="90">
+      <data key="d0">SPOKANE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Washington</data>
+    </node>
+    <node id="91">
+      <data key="d0">LOUISVILLE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">City in Kentucky</data>
+    </node>
+    <node id="92">
+      <data key="d0">DETROIT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Detroit is a city located in the state of Michigan in the United States. It is a major metropolitan area and a significant economic and cultural center in the Midwest region.
+
+Detroit has a long and storied history, having been founded in 1701 by the French explorer Antoine de la Mothe Cadillac. The city played a crucial role in the development of the automotive industry, earning it the nickname "Motor City." Detroit was home to the headquarters of the "Big Three" automakers - Ford, General Motors, and Chrysler - and was a hub of manufacturing and innovation in the 20th century.
+
+Despite facing economic challenges in recent decades, Detroit remains an important city with a diverse population and a rich cultural heritage. The city is known for its vibrant music scene, which has produced influential genres like Motown and techno. Detroit is also home to numerous museums, art galleries, and performing arts venues, showcasing the city's artistic and intellectual vitality.
+
+In addition to its automotive and cultural significance, Detroit is a major transportation hub, with a busy international airport and a strategic location on the Detroit River, which connects the Great Lakes to the St. Lawrence Seaway. The city's riverfront has undergone significant redevelopment in recent years, with the creation of parks, recreational areas, and commercial developments.
+
+Overall, Detroit is a complex and multifaceted city that has played a vital role in the history and development of the United States. While it has faced its share of challenges, Detroit remains a resilient and dynamic place that continues to evolve and contribute to the broader cultural and economic landscape of the country.</data>
+    </node>
+    <node id="93">
+      <data key="d0">HOUSTON (HOBBY)</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="94">
+      <data key="d0">BOARDING SYSTEM</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="95">
+      <data key="d0">BOEING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Boeing is the manufacturer of the 737 aircraft used by Southwest Airlines</data>
+    </node>
+    <node id="96">
+      <data key="d0">CFM INTERNATIONAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">CFM International is a joint venture between GE and Safran that manufactures the engines used on the Boeing 737 aircraft</data>
+    </node>
+    <node id="97">
+      <data key="d0">BOEING 737-800</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The specific model of Boeing 737 aircraft involved in the incident</data>
+    </node>
+    <edge id="e0" source="0" target="4">
+      <data key="d3">13.0</data>
+      <data key="d4">public airport located...</data>
+      <data key="d6">Houston Hobby Airport is a public airport located in Houston, Texas, and serves as a hub for Southwest Airlines. The airport is known for its convenient location and efficient operations.
+
+On a recent day, a Southwest Airlines flight departed from Houston Hobby Airport. The flight was part of Southwest Airlines' extensive network, which connects numerous destinations across the United States. Southwest Airlines is a major low-cost carrier and one of the largest airlines in the world, known for its friendly customer service and affordable fares.
+
+However, the routine flight from Houston Hobby Airport took an unexpected turn when the Southwest Airlines plane was evacuated after a reported engine fire. The incident occurred at the airport, prompting a swift response from the airport's emergency services and personnel. The safety of the passengers and crew was the top priority, and the evacuation was carried out smoothly and efficiently.
+
+While the details of the engine fire are still under investigation, the incident highlights the importance of safety protocols and the preparedness of both the airport and the airline in handling such situations. Houston Hobby Airport and Southwest Airlines have a strong track record of safe and reliable operations, and they work closely together to ensure the well-being of their passengers and the smooth functioning of the airport.
+
+Overall, the summary of the data provided indicates that Houston Hobby Airport and Southwest Airlines have a close working relationship, with the airport serving as a hub for the airline's operations. The incident of the reported engine fire and the subsequent evacuation of the plane demonstrate the commitment of both entities to prioritize safety and respond effectively to unexpected situations.</data>
+    </edge>
+    <edge id="e1" source="0" target="5">
+      <data key="d3">5.0</data>
+      <data key="d4">city where Houston...</data>
+      <data key="d6">Houston is the city where the Houston Hobby Airport is located</data>
+    </edge>
+    <edge id="e2" source="1" target="4">
+      <data key="d3">4.0</data>
+      <data key="d4">plane headed Los...</data>
+      <data key="d6">The Southwest Airlines plane was headed to Los Cabos International Airport in Mexico when it had to return to Houston Hobby Airport</data>
+    </edge>
+    <edge id="e3" source="2" target="4">
+      <data key="d3">29.0</data>
+      <data key="d4">Department responded emergency...</data>
+      <data key="d6">The Houston Fire Department responded to the emergency landing of Southwest Airlines Flight 3006 and extinguished the engine fire. According to the provided descriptions, the Houston Fire Department was called to the scene after reports of an engine fire on the Southwest Airlines flight. The fire department successfully extinguished the fire on the plane.
+
+The incident occurred when Southwest Airlines Flight 3006 experienced an engine fire, prompting an emergency landing at the nearest airport. The Houston Fire Department was dispatched to the scene and was able to put out the engine fire, preventing further damage to the aircraft and ensuring the safety of the passengers and crew.
+
+This collaborative effort between the Houston Fire Department and Southwest Airlines demonstrates the importance of emergency response teams in addressing critical situations in the aviation industry. The fire department's prompt and effective action likely prevented a more serious incident from occurring and allowed the flight to resume its operations after the necessary repairs were made.
+
+Overall, the Houston Fire Department's response to the engine fire on the Southwest Airlines flight was a successful and coordinated effort that ensured the safety of all involved. The consistent details provided in the descriptions suggest a clear and coherent understanding of the events that transpired.</data>
+    </edge>
+    <edge id="e4" source="3" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">plane that evacuated...</data>
+      <data key="d6">The Southwest Airlines plane that was evacuated was a Boeing 737 aircraft</data>
+    </edge>
+    <edge id="e5" source="6" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">EVP customer...</data>
+      <data key="d6">Tony Roach is the EVP of customer and brand at Southwest Airlines</data>
+    </edge>
+    <edge id="e6" source="7" target="4">
+      <data key="d3">2.0</data>
+      <data key="d4">travel expert who...</data>
+      <data key="d6">Clint Henderson is a travel expert who commented on the changes at Southwest Airlines</data>
+    </edge>
+    <edge id="e7" source="8" target="4">
+      <data key="d3">14.0</data>
+      <data key="d4">Delta Air Lines...</data>
+      <data key="d6">Southwest Airlines and Delta Air Lines are competitors in the airline industry</data>
+    </edge>
+    <edge id="e8" source="9" target="4">
+      <data key="d3">14.0</data>
+      <data key="d4">United Airlines competitors...</data>
+      <data key="d6">Southwest Airlines and United Airlines are competitors in the airline industry</data>
+    </edge>
+    <edge id="e9" source="4" target="10">
+      <data key="d3">25.0</data>
+      <data key="d4">major airline, recently...</data>
+      <data key="d6">Southwest Airlines, a major U.S. airline, has recently implemented a new assigned seating policy for its flights. This change represents a departure from the company's previous open seating policy, where passengers were free to choose their own seats upon boarding the aircraft.
+
+Under the new assigned seating policy, Southwest Airlines now assigns specific seats to passengers when they check in for their flights. This means that passengers will no longer be able to choose their own seats on a first-come, first-served basis. Instead, they will be assigned a designated seat by the airline's system.
+
+The implementation of this new seating policy is a significant change for Southwest Airlines, which has long been known for its open seating approach. The company has cited various reasons for the change, including the potential for improved efficiency and customer experience.
+
+By assigning seats in advance, Southwest Airlines aims to streamline the boarding process and reduce the time it takes for passengers to find their seats. This could lead to faster turnaround times for the aircraft, potentially improving the overall on-time performance of the airline.
+
+Additionally, the assigned seating policy may provide more predictability and control for passengers, as they will know their seat assignments ahead of time. This could be particularly beneficial for families or groups traveling together, as they can ensure they are seated together.
+
+It is important to note that while this change represents a departure from Southwest Airlines' traditional open seating approach, the company has stated that it remains committed to providing a positive and affordable travel experience for its customers. The airline has emphasized that the new assigned seating policy is designed to enhance the overall customer experience, rather than to impose additional fees or restrictions.
+
+In summary, Southwest Airlines has implemented a new assigned seating policy, which marks a significant change from its previous open seating approach. This change is intended to improve efficiency, customer experience, and overall on-time performance for the airline's flights. While it represents a departure from the company's traditional seating model, Southwest Airlines has assured its customers that it remains dedicated to providing a positive and affordable travel experience.</data>
+    </edge>
+    <edge id="e10" source="0" target="14">
+      <data key="d3">1.0</data>
+      <data key="d4">return Houston...</data>
+      <data key="d6">The Southwest flight had to return to Houston Hobby Airport due to the engine fire</data>
+    </edge>
+    <edge id="e11" source="11" target="4">
+      <data key="d3">20.0</data>
+      <data key="d4">Southwest Airlines Cabo...</data>
+      <data key="d6">Cabo San Lucas and Southwest Airlines
+
+Cabo San Lucas is a popular tourist destination located at the southern tip of the Baja California Peninsula in Mexico. It is known for its beautiful beaches, vibrant nightlife, and stunning natural scenery. The city is a frequent destination for travelers, particularly those seeking a warm, sunny getaway.
+
+Southwest Airlines is a major American airline that operates flights to various domestic and international destinations, including Cabo San Lucas. The airline is known for its affordable fares, friendly customer service, and extensive route network.
+
+According to the provided descriptions, a Southwest Airlines flight was headed to Cabo San Lucas when it encountered an issue that required it to return to Hobby Airport. The exact nature of the issue is not specified in the descriptions, but it is clear that the flight did not reach its intended destination of Cabo San Lucas.
+
+Despite this incident, the descriptions indicate that Southwest Airlines regularly operates flights to Cabo San Lucas, Mexico. This suggests that the city is a popular and well-served destination for the airline and its passengers.
+
+In summary, Cabo San Lucas is a renowned tourist destination in Mexico, and Southwest Airlines is a major airline that provides service to the city. While a specific Southwest Airlines flight encountered an issue that required it to return to the departure airport, the overall relationship between Cabo San Lucas and Southwest Airlines appears to be a positive one, with the airline regularly offering flights to the popular Mexican destination.</data>
+    </edge>
+    <edge id="e12" source="4" target="12">
+      <data key="d3">1.0</data>
+      <data key="d4">investigating cause...</data>
+      <data key="d6">The FAA is investigating the cause of the engine fire on the Southwest Airlines flight</data>
+    </edge>
+    <edge id="e13" source="13" target="14">
+      <data key="d3">9.0</data>
+      <data key="d4">forced Southwest flight...</data>
+      <data key="d6">The engine fire forced the Southwest flight to return to the airport</data>
+    </edge>
+    <edge id="e14" source="4" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">implementing new policy...</data>
+      <data key="d6">Southwest Airlines is implementing a new policy to charge extra for plus-size passengers who cannot fit between the armrests of their seat</data>
+    </edge>
+    <edge id="e15" source="15" target="16">
+      <data key="d3">7.0</data>
+      <data key="d4">passengers purchase additional...</data>
+      <data key="d6">Airlines allow plus-size passengers to purchase an additional seat with refund option</data>
+    </edge>
+    <edge id="e16" source="17" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">Rapid Rewards loyalty...</data>
+      <data key="d6">Southwest Airlines operates the Rapid Rewards loyalty program for its customers</data>
+    </edge>
+    <edge id="e17" source="17" target="22">
+      <data key="d3">1.0</data>
+      <data key="d4">app allows customers...</data>
+      <data key="d6">The Southwest mobile app allows customers to access and manage their Rapid Rewards account</data>
+    </edge>
+    <edge id="e18" source="18" target="4">
+      <data key="d3">7.0</data>
+      <data key="d4">partnered with Lyft...</data>
+      <data key="d6">Southwest Airlines has partnered with Lyft to provide transportation services to its customers</data>
+    </edge>
+    <edge id="e19" source="19" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">customers store boarding...</data>
+      <data key="d6">Southwest Airlines allows customers to store their boarding passes in Apple Wallet</data>
+    </edge>
+    <edge id="e20" source="19" target="22">
+      <data key="d3">8.0</data>
+      <data key="d4">app allows customers...</data>
+      <data key="d6">The Southwest mobile app allows customers to save their boarding passes to Apple Wallet</data>
+    </edge>
+    <edge id="e21" source="20" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">customers store boarding...</data>
+      <data key="d6">Southwest Airlines allows customers to store their boarding passes in Google Pay</data>
+    </edge>
+    <edge id="e22" source="20" target="22">
+      <data key="d3">8.0</data>
+      <data key="d4">app allows customers...</data>
+      <data key="d6">The Southwest mobile app allows customers to save their boarding passes to Google Pay</data>
+    </edge>
+    <edge id="e23" source="21" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">customer service chatbot...</data>
+      <data key="d6">Southwest Airlines provides a customer service chatbot to assist customers with their questions</data>
+    </edge>
+    <edge id="e24" source="23" target="4">
+      <data key="d3">16.0</data>
+      <data key="d4">flight return...</data>
+      <data key="d6">The Southwest Airlines flight had to return to Hobby Airport due to an engine fire</data>
+    </edge>
+    <edge id="e25" source="24" target="4">
+      <data key="d3">9.0</data>
+      <data key="d4">Denver International Airport,...</data>
+      <data key="d6">The incident occurred at Denver International Airport, where the Southwest Airlines flight was parked</data>
+    </edge>
+    <edge id="e26" source="25" target="4">
+      <data key="d3">16.0</data>
+      <data key="d4">passenger Southwest...</data>
+      <data key="d6">Jennifer Rodgers was a passenger on the Southwest Airlines flight where the incident occurred</data>
+    </edge>
+    <edge id="e27" source="26" target="4">
+      <data key="d3">14.0</data>
+      <data key="d4">video footage passengers...</data>
+      <data key="d6">Catherine Rios captured video footage of the passengers evacuating the Southwest Airlines flight</data>
+    </edge>
+    <edge id="e28" source="27" target="4">
+      <data key="d3">14.0</data>
+      <data key="d4">evacuation Southwest...</data>
+      <data key="d6">Jaquetta Anderson witnessed the evacuation of the Southwest Airlines flight</data>
+    </edge>
+    <edge id="e29" source="4" target="28">
+      <data key="d3">18.0</data>
+      <data key="d4">battery caught fire...</data>
+      <data key="d6">A passenger's smartphone battery caught fire on the Southwest Airlines flight, causing the evacuation</data>
+    </edge>
+    <edge id="e30" source="4" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">flight headed Houston,...</data>
+      <data key="d6">The Southwest Airlines flight was headed to Houston, Texas</data>
+    </edge>
+    <edge id="e31" source="4" target="29">
+      <data key="d3">1.0</data>
+      <data key="d4">flight eventually landed...</data>
+      <data key="d6">The Southwest Airlines flight eventually landed at William P. Hobby Airport in Houston</data>
+    </edge>
+    <edge id="e32" source="30" target="4">
+      <data key="d3">16.0</data>
+      <data key="d4">3006 took off...</data>
+      <data key="d6">Southwest Airlines Flight 3006 took off from and made an emergency landing at William P. Hobby International Airport in Houston</data>
+    </edge>
+    <edge id="e33" source="30" target="2">
+      <data key="d3">2.0</data>
+      <data key="d4">Department located...</data>
+      <data key="d6">The Houston Fire Department is located at and responded to the emergency at William P. Hobby International Airport</data>
+    </edge>
+    <edge id="e34" source="5" target="13">
+      <data key="d3">9.0</data>
+      <data key="d4">occurred Southwest Airlines...</data>
+      <data key="d6">The engine fire occurred on a Southwest Airlines flight at Houston's Hobby Airport</data>
+    </edge>
+    <edge id="e35" source="4" target="13">
+      <data key="d3">20.0</data>
+      <data key="d4">major airline, experienced...</data>
+      <data key="d6">Southwest Airlines, a major U.S. airline, experienced an engine fire on one of its flights, leading to an emergency evacuation. The incident occurred on a Southwest Airlines flight.
+
+According to the provided descriptions, the engine fire happened on a Southwest Airlines flight. The flight was operated by Southwest Airlines, the company responsible for the aircraft and its maintenance. The engine fire prompted an emergency evacuation of the passengers and crew, ensuring their safety.
+
+The descriptions do not provide any additional details about the specific flight, such as the origin, destination, or the number of people on board. However, the consistent references to "a Southwest Airlines flight" and "Southwest Airlines" indicate that this was a routine flight operated by the airline.
+
+Southwest Airlines is known for its extensive domestic route network and its commitment to providing affordable and reliable air travel. The company has a strong safety record, and incidents like this engine fire are relatively rare. The prompt and effective response by the airline's crew and emergency personnel likely prevented any serious injuries or further escalation of the situation.
+
+In summary, Southwest Airlines experienced an engine fire on one of its flights, leading to an emergency evacuation of the passengers and crew. The airline's quick action and safety protocols ensured the well-being of those on board. While the incident is concerning, it appears to be an isolated event, and Southwest Airlines' overall safety record remains strong.</data>
+    </edge>
+    <edge id="e36" source="4" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">flight made emergency...</data>
+      <data key="d6">The Southwest Airlines flight made an emergency landing at Houston's Hobby Airport</data>
+    </edge>
+    <edge id="e37" source="31" target="4">
+      <data key="d3">18.0</data>
+      <data key="d4">cheap flights popular...</data>
+      <data key="d6">Southwest Airlines offers cheap flights to the popular travel destination of Las Vegas</data>
+    </edge>
+    <edge id="e38" source="31" target="32">
+      <data key="d3">16.0</data>
+      <data key="d4">must-see attraction...</data>
+      <data key="d6">The Bellagio Fountains are a must-see attraction on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e39" source="31" target="33">
+      <data key="d3">14.0</data>
+      <data key="d4">provide unique experience...</data>
+      <data key="d6">The Venetian Canals provide a unique experience for visitors to Las Vegas</data>
+    </edge>
+    <edge id="e40" source="31" target="34">
+      <data key="d3">16.0</data>
+      <data key="d4">renowned luxury hotel...</data>
+      <data key="d6">Caesars Palace is a renowned luxury hotel and casino on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e41" source="31" target="35">
+      <data key="d3">2.0</data>
+      <data key="d4">Observation Wheel offers...</data>
+      <data key="d6">The High Roller Observation Wheel offers panoramic views of the Las Vegas skyline</data>
+    </edge>
+    <edge id="e42" source="33" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">indoor attraction located...</data>
+      <data key="d6">The Venetian Canals are an indoor attraction located within the Venetian resort on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e43" source="34" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">major hotel casino...</data>
+      <data key="d6">Caesars Palace is a major hotel and casino located on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e44" source="34" target="36">
+      <data key="d3">8.0</data>
+      <data key="d4">located within Caesars...</data>
+      <data key="d6">The Colosseum theater is located within the Caesars Palace resort</data>
+    </edge>
+    <edge id="e45" source="35" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">large Ferris wheel...</data>
+      <data key="d6">The High Roller is a large Ferris wheel attraction on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e46" source="37" target="48">
+      <data key="d3">8.0</data>
+      <data key="d4">Casino pyramid-shaped...</data>
+      <data key="d6">The Luxor Hotel &amp; Casino is a pyramid-shaped resort located on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e47" source="38" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">highly-rated restaurant located...</data>
+      <data key="d6">Hell's Kitchen is a highly-rated restaurant located on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e48" source="39" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">top restaurant located...</data>
+      <data key="d6">Gordon Ramsay Steak is a top restaurant located on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e49" source="40" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">renowned restaurant located...</data>
+      <data key="d6">Catch is a renowned restaurant located on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e50" source="41" target="31">
+      <data key="d3">8.0</data>
+      <data key="d4">natural area located...</data>
+      <data key="d6">Red Rock Canyon is a natural area located just outside of Las Vegas, popular for hiking</data>
+    </edge>
+    <edge id="e51" source="42" target="31">
+      <data key="d3">8.0</data>
+      <data key="d4">major landmark located...</data>
+      <data key="d6">The Hoover Dam is a major landmark located near Las Vegas that visitors can tour</data>
+    </edge>
+    <edge id="e52" source="43" target="31">
+      <data key="d3">8.0</data>
+      <data key="d4">State Park day...</data>
+      <data key="d6">Valley of Fire State Park is a day trip destination from Las Vegas known for its red sandstone formations</data>
+    </edge>
+    <edge id="e53" source="44" target="31">
+      <data key="d3">7.0</data>
+      <data key="d4">art installation located...</data>
+      <data key="d6">Seven Magic Mountains is an art installation located near Las Vegas that visitors can view</data>
+    </edge>
+    <edge id="e54" source="45" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">natural wonder that...</data>
+      <data key="d6">The Grand Canyon is a natural wonder that can be visited on day trips from Las Vegas</data>
+    </edge>
+    <edge id="e55" source="46" target="31">
+      <data key="d3">8.0</data>
+      <data key="d4">natural landmark that...</data>
+      <data key="d6">Death Valley is a natural landmark that can be visited on day trips from Las Vegas</data>
+    </edge>
+    <edge id="e56" source="47" target="31">
+      <data key="d3">1.0</data>
+      <data key="d4">main airport serving...</data>
+      <data key="d6">McCarran International Airport is the main airport serving the Las Vegas area</data>
+    </edge>
+    <edge id="e57" source="32" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">famous attraction located...</data>
+      <data key="d6">The Bellagio Fountains are a famous attraction located on the Las Vegas Strip</data>
+    </edge>
+    <edge id="e58" source="31" target="49">
+      <data key="d3">8.0</data>
+      <data key="d4">popular attraction located...</data>
+      <data key="d6">The Mob Museum is a popular attraction located in downtown Las Vegas</data>
+    </edge>
+    <edge id="e59" source="31" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">outdoor museum...</data>
+      <data key="d6">The Neon Museum is an outdoor museum in Las Vegas that displays historic neon signs</data>
+    </edge>
+    <edge id="e60" source="31" target="51">
+      <data key="d3">1.0</data>
+      <data key="d4">Natural History Museum...</data>
+      <data key="d6">The Las Vegas Natural History Museum is located in the city of Las Vegas</data>
+    </edge>
+    <edge id="e61" source="52" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Phoenix...</data>
+      <data key="d6">Southwest Airlines offers flights from Phoenix to Las Vegas</data>
+    </edge>
+    <edge id="e62" source="53" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from San...</data>
+      <data key="d6">Southwest Airlines offers flights from San Diego to Las Vegas</data>
+    </edge>
+    <edge id="e63" source="54" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Burbank...</data>
+      <data key="d6">Southwest Airlines offers flights from Burbank to Las Vegas</data>
+    </edge>
+    <edge id="e64" source="55" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Long...</data>
+      <data key="d6">Southwest Airlines offers flights from Long Beach to Las Vegas</data>
+    </edge>
+    <edge id="e65" source="56" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Baltimore/Washington...</data>
+      <data key="d6">Southwest Airlines offers flights from Baltimore/Washington to Las Vegas</data>
+    </edge>
+    <edge id="e66" source="57" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Austin...</data>
+      <data key="d6">Southwest Airlines offers flights from Austin to Las Vegas</data>
+    </edge>
+    <edge id="e67" source="58" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from San...</data>
+      <data key="d6">Southwest Airlines offers flights from San Antonio to Las Vegas</data>
+    </edge>
+    <edge id="e68" source="59" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from San...</data>
+      <data key="d6">Southwest Airlines offers flights from San Francisco to Las Vegas</data>
+    </edge>
+    <edge id="e69" source="60" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Kansas...</data>
+      <data key="d6">Southwest Airlines offers flights from Kansas City to Las Vegas</data>
+    </edge>
+    <edge id="e70" source="61" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Atlanta...</data>
+      <data key="d6">Southwest Airlines offers flights from Atlanta to Las Vegas</data>
+    </edge>
+    <edge id="e71" source="62" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Orange...</data>
+      <data key="d6">Southwest Airlines offers flights from Orange County/Santa Ana to Las Vegas</data>
+    </edge>
+    <edge id="e72" source="63" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Nashville...</data>
+      <data key="d6">Southwest Airlines offers flights from Nashville to Las Vegas</data>
+    </edge>
+    <edge id="e73" source="64" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Milwaukee...</data>
+      <data key="d6">Southwest Airlines offers flights from Milwaukee to Las Vegas</data>
+    </edge>
+    <edge id="e74" source="65" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Ontario/LA...</data>
+      <data key="d6">Southwest Airlines offers flights from Ontario/LA to Las Vegas</data>
+    </edge>
+    <edge id="e75" source="66" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Indianapolis...</data>
+      <data key="d6">Southwest Airlines offers flights from Indianapolis to Las Vegas</data>
+    </edge>
+    <edge id="e76" source="67" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Albuquerque...</data>
+      <data key="d6">Southwest Airlines offers flights from Albuquerque to Las Vegas</data>
+    </edge>
+    <edge id="e77" source="68" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Columbus...</data>
+      <data key="d6">Southwest Airlines offers flights from Columbus to Las Vegas</data>
+    </edge>
+    <edge id="e78" source="69" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Reno/Tahoe...</data>
+      <data key="d6">Southwest Airlines offers flights from Reno/Tahoe to Las Vegas</data>
+    </edge>
+    <edge id="e79" source="70" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Chicago...</data>
+      <data key="d6">Southwest Airlines offers flights from Chicago (O'Hare) to Las Vegas</data>
+    </edge>
+    <edge id="e80" source="71" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Pittsburgh...</data>
+      <data key="d6">Southwest Airlines offers flights from Pittsburgh to Las Vegas</data>
+    </edge>
+    <edge id="e81" source="72" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Portland,...</data>
+      <data key="d6">Southwest Airlines offers flights from Portland, OR to Las Vegas</data>
+    </edge>
+    <edge id="e82" source="73" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Orlando...</data>
+      <data key="d6">Southwest Airlines offers flights from Orlando to Las Vegas</data>
+    </edge>
+    <edge id="e83" source="74" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Tampa...</data>
+      <data key="d6">Southwest Airlines offers flights from Tampa to Las Vegas</data>
+    </edge>
+    <edge id="e84" source="75" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from New...</data>
+      <data key="d6">Southwest Airlines offers flights from New Orleans to Las Vegas</data>
+    </edge>
+    <edge id="e85" source="76" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Seattle/Tacoma...</data>
+      <data key="d6">Southwest Airlines offers flights from Seattle/Tacoma to Las Vegas</data>
+    </edge>
+    <edge id="e86" source="77" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Paso...</data>
+      <data key="d6">Southwest Airlines offers flights from El Paso to Las Vegas</data>
+    </edge>
+    <edge id="e87" source="78" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Omaha...</data>
+      <data key="d6">Southwest Airlines offers flights from Omaha to Las Vegas</data>
+    </edge>
+    <edge id="e88" source="79" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Salt...</data>
+      <data key="d6">Southwest Airlines offers flights from Salt Lake City to Las Vegas</data>
+    </edge>
+    <edge id="e89" source="80" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Cleveland...</data>
+      <data key="d6">Southwest Airlines offers flights from Cleveland to Las Vegas</data>
+    </edge>
+    <edge id="e90" source="81" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Oklahoma...</data>
+      <data key="d6">Southwest Airlines offers flights from Oklahoma City to Las Vegas</data>
+    </edge>
+    <edge id="e91" source="82" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Buffalo/Niagara...</data>
+      <data key="d6">Southwest Airlines offers flights from Buffalo/Niagara Falls to Las Vegas</data>
+    </edge>
+    <edge id="e92" source="83" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Honolulu...</data>
+      <data key="d6">Southwest Airlines offers flights from Honolulu (Oahu) to Las Vegas</data>
+    </edge>
+    <edge id="e93" source="84" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Colorado...</data>
+      <data key="d6">Southwest Airlines offers flights from Colorado Springs to Las Vegas</data>
+    </edge>
+    <edge id="e94" source="85" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Fresno...</data>
+      <data key="d6">Southwest Airlines offers flights from Fresno to Las Vegas</data>
+    </edge>
+    <edge id="e95" source="86" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Tucson...</data>
+      <data key="d6">Southwest Airlines offers flights from Tucson to Las Vegas</data>
+    </edge>
+    <edge id="e96" source="87" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Raleigh/Durham...</data>
+      <data key="d6">Southwest Airlines offers flights from Raleigh/Durham to Las Vegas</data>
+    </edge>
+    <edge id="e97" source="88" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Boise...</data>
+      <data key="d6">Southwest Airlines offers flights from Boise to Las Vegas</data>
+    </edge>
+    <edge id="e98" source="89" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Washington,...</data>
+      <data key="d6">Southwest Airlines offers flights from Washington, D.C. (Reagan National) to Las Vegas</data>
+    </edge>
+    <edge id="e99" source="90" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Spokane...</data>
+      <data key="d6">Southwest Airlines offers flights from Spokane to Las Vegas</data>
+    </edge>
+    <edge id="e100" source="91" target="4">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Louisville...</data>
+      <data key="d6">Southwest Airlines offers flights from Louisville to Las Vegas</data>
+    </edge>
+    <edge id="e101" source="92" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">flights from Detroit...</data>
+      <data key="d6">Southwest Airlines offers flights from Detroit to Las Vegas</data>
+    </edge>
+    <edge id="e102" source="4" target="93">
+      <data key="d3">5.0</data>
+      <data key="d4">flights from Houston...</data>
+      <data key="d6">Southwest Airlines offers flights from Houston (Hobby) to Las Vegas</data>
+    </edge>
+    <edge id="e103" source="4" target="3">
+      <data key="d3">25.0</data>
+      <data key="d4">major American airline...</data>
+      <data key="d6">Southwest Airlines is a major American airline that operates a fleet of Boeing 737 aircraft. The Boeing 737 is a popular narrow-body passenger jet that has been in service with numerous airlines around the world.
+
+Southwest Airlines is known for its low-cost, no-frills approach to air travel. The airline operates a point-to-point route network, primarily serving domestic destinations within the United States. Southwest's fleet is composed entirely of Boeing 737 aircraft, which are known for their fuel efficiency and reliability.
+
+The Boeing 737 is a twin-engine, narrow-body jet that has been in production since the late 1960s. It is one of the most widely used commercial aircraft in the world, with over 10,000 units delivered to date. The 737 is known for its versatility, with various models designed to accommodate different passenger and cargo capacities.
+
+In the provided descriptions, it is mentioned that a Boeing 737 operated by Southwest Airlines was involved in an engine fire incident. While the details of the specific incident are not provided, it is important to note that engine fires are relatively rare occurrences in modern commercial aviation. Airlines and aircraft manufacturers work diligently to ensure the safety and reliability of their aircraft through rigorous maintenance, inspection, and safety protocols.
+
+Overall, the summary indicates that Southwest Airlines is a major U.S. airline that operates a fleet of Boeing 737 aircraft, which are known for their efficiency and reliability. The mention of an engine fire incident involving a Southwest Airlines Boeing 737 suggests that even the most well-maintained and reliable aircraft can occasionally experience technical issues, but the industry's focus on safety helps to mitigate the risks and ensure the continued safe operation of commercial flights.</data>
+    </edge>
+    <edge id="e104" source="3" target="13">
+      <data key="d3">18.0</data>
+      <data key="d4">occurred Boeing 737...</data>
+      <data key="d6">The engine fire occurred on the Boeing 737 aircraft</data>
+    </edge>
+    <edge id="e105" source="4" target="94">
+      <data key="d3">9.0</data>
+      <data key="d4">also changed boarding...</data>
+      <data key="d6">Southwest Airlines has also changed its boarding system as part of the new policy</data>
+    </edge>
+    <edge id="e106" source="12" target="4">
+      <data key="d3">10.0</data>
+      <data key="d4">investigating engine fire...</data>
+      <data key="d6">The FAA is investigating the engine fire incident involving a Southwest Airlines flight</data>
+    </edge>
+    <edge id="e107" source="95" target="4">
+      <data key="d3">17.0</data>
+      <data key="d4">Boeing 737 aircraft...</data>
+      <data key="d6">Southwest Airlines operates Boeing 737 aircraft</data>
+    </edge>
+    <edge id="e108" source="96" target="4">
+      <data key="d3">17.0</data>
+      <data key="d4">aircraft used Southwest...</data>
+      <data key="d6">The Boeing 737 aircraft used by Southwest Airlines are powered by CFM International engines</data>
+    </edge>
+    <edge id="e109" source="96" target="97">
+      <data key="d3">1.0</data>
+      <data key="d4">aircraft involved uses...</data>
+      <data key="d6">The Boeing 737-800 aircraft involved uses CFM International engines</data>
+    </edge>
+    <edge id="e110" source="4" target="97">
+      <data key="d3">9.0</data>
+      <data key="d4">737-800 model involved...</data>
+      <data key="d6">The specific Boeing 737-800 model was involved in the Southwest Airlines incident</data>
+    </edge>
+  </graph>
+</graphml>

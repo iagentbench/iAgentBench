@@ -1,0 +1,873 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">TAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">TAP is the national airline of Portugal, a state-owned company that has been at the center of several recent developments and controversies.
+
+Firstly, TAP is making a strategic investment in Porto, Portugal, indicating the airline's focus on expanding its operations and presence in the country. This investment suggests TAP's commitment to strengthening its position as the national carrier.
+
+However, TAP has also been undergoing a restructuring process, which has included personnel cuts and salary reductions. This restructuring suggests the airline may be facing financial or operational challenges that necessitate cost-cutting measures.
+
+Additionally, TAP has been involved in a scandal regarding compensation payments to a former administrator, Alexandra Reis. The General Inspection of Finance (IGF) had considered the 500,000 euro payment to Reis to be illegal, violating the statute of the public manager. This scandal has led to an "irremediable incompatibility" between TAP's CEO, Christine Ourmières-Widener, and Reis, resulting in Reis' departure from the company.
+
+Despite these challenges, TAP remains the national airline of Portugal and is considered the state-owned airline company in the country. The airline's central role in the Portuguese aviation industry and its involvement in the recent scandal have made it a subject of significant public and regulatory scrutiny.
+
+In summary, TAP is the national airline of Portugal, a state-owned company that is making strategic investments in Porto while also undergoing restructuring and facing a scandal related to compensation payments to a former administrator. The airline's position as the national carrier and its recent developments have made it a prominent figure in the Portuguese aviation landscape.</data>
+    </node>
+    <node id="1">
+      <data key="d0">PORTUGAL</data>
+      <data key="d1">GEO</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Portugal is a country located in southwestern Europe, known for its rich history, vibrant culture, and stunning natural landscapes. The nation is home to TAP Air Portugal, the national airline of the country, which is owned by the Portuguese government.
+
+Recently, Portugal has been the center of a political scandal involving Pedro Nuno Santos, the former Minister of Infrastructure and Housing. The scandal is related to the management and operations of TAP Air Portugal, the national airline. The details of the scandal are still unfolding, but it has garnered significant attention both within Portugal and internationally.
+
+In addition to the TAP Air Portugal scandal, Portugal has also been the site of a significant political event – the 2024 Portuguese legislative election. This election, which took place in Portugal, is an important democratic process that determines the composition of the country's parliament and the leadership of the government.
+
+Overall, Portugal is a complex and multifaceted country, with a rich history, a vibrant culture, and a dynamic political landscape. The recent events surrounding TAP Air Portugal and the 2024 Portuguese legislative election have further highlighted the country's importance on the global stage.</data>
+    </node>
+    <node id="2">
+      <data key="d0">PEDRO NUNO SANTOS</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="3">
+      <data key="d0">TAP CEO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The CEO of TAP who received a controversial severance payment that led to the scandal</data>
+    </node>
+    <node id="4">
+      <data key="d0">PORTUGUESE SOCIALISTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The political party in Portugal that rejected a parliamentary hearing on the TAP scandal</data>
+    </node>
+    <node id="5">
+      <data key="d0">ANTONIO COSTA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Antonio Costa is the current Prime Minister of Portugal. He has been in this position since 2015, leading the center-left Socialist Party.
+
+Recently, Costa has faced some political challenges within his government. In December 2022, he accepted the resignation of his Infrastructure Minister, Pedro Nuno Santos, following a controversy surrounding the severance package given to the former CEO of the state-owned airline TAP. This scandal has caused instability and weakened Costa's government, which was already struggling with other issues.
+
+Despite these difficulties, Costa remains the Prime Minister of Portugal. He has not resigned, contrary to some reports. The descriptions provided contain some contradictory information, with one stating that Costa was the "former Prime Minister" who resigned due to a corruption probe. However, this appears to be inaccurate, as Costa is still the incumbent Prime Minister and has not resigned.
+
+In summary, Antonio Costa is the current Prime Minister of Portugal, leading the country since 2015. His government has faced some recent challenges, including the resignation of a key minister due to the TAP scandal. While this controversy has caused instability, Costa remains in his position as the head of the Portuguese government.</data>
+    </node>
+    <node id="6">
+      <data key="d0">LUFTHANSA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Lufthansa is a foreign rival airline that may bid for TAP during its privatization</data>
+    </node>
+    <node id="7">
+      <data key="d0">AIR FRANCE-KLM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Air France-KLM is a foreign rival airline that may bid for TAP during its privatization</data>
+    </node>
+    <node id="8">
+      <data key="d0">IAG</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">IAG (International Airlines Group) is the owner of British Airways and a foreign rival airline that may bid for TAP during its privatization</data>
+    </node>
+    <node id="9">
+      <data key="d0">JOAO GALAMBA</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="10">
+      <data key="d0">SOCIALIST PARTY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The political party led by Prime Minister Antonio Costa</data>
+    </node>
+    <node id="11">
+      <data key="d0">OPPOSITION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The political opposition in Portugal that is accusing the government of lying about the TAP scandal</data>
+    </node>
+    <node id="12">
+      <data key="d0">FORMER EXECUTIVE BOARD MEMBER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">A former executive board member of TAP who received an irregular severance payment of 500,000 euros</data>
+    </node>
+    <node id="13">
+      <data key="d0">ALEXANDRA REIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Alexandra Reis was a former executive at TAP Air Portugal, the national airline of Portugal. She held various positions within the company, including serving on the executive board.
+
+In 2021, when Reis left TAP Air Portugal, she received a severance payment of 500,000 euros. This payment has been the subject of significant controversy and scrutiny.
+
+According to the information provided, the severance payment received by Reis has been deemed improper, irregular, and potentially illegal. Authorities have launched investigations into the circumstances surrounding this compensation package, as it appears to have been granted despite the airline receiving government aid.
+
+Reis' role at the time of her departure from TAP Air Portugal is also a point of contention. Some sources describe her as a former administrator or manager at the airline, while others state that she was the Secretary of State for the Treasury in the Portuguese government. This discrepancy suggests that Reis may have held dual roles, both within the airline and in the government.
+
+Regardless of her exact title or position, the 500,000 euro severance payment received by Reis has been widely criticized as improper and potentially illegal. The investigations into this matter are ongoing, and it remains to be seen what the final outcome will be.
+
+In summary, Alexandra Reis was a former executive at TAP Air Portugal who received a controversial 500,000 euro severance payment upon her departure from the company. This payment has been deemed improper and is currently under investigation by the authorities in Portugal.</data>
+    </node>
+    <node id="14">
+      <data key="d0">FERNANDO MEDINA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">5.0</data>
+      <data key="d5">Fernando Medina is the Finance Minister of Portugal. He has been involved in a controversy surrounding the severance payment made to Alexandra Reis, the former CEO and chairman of TAP Air Portugal.
+
+According to the provided descriptions, Medina announced the dismissal of the TAP Air Portugal CEO and chairman, and the requirement for Alexandra Reis to return €450,110 of the severance payment. He also requested Alexandra Reis's resignation over the severance payment controversy.
+
+The descriptions indicate that Medina, as the Finance Minister of Portugal, asked Alexandra Reis to step down or resign from her position. This was in response to the controversy surrounding the severance payment she received upon leaving her role at TAP Air Portugal.
+
+The descriptions do not provide any contradictory information about Medina's actions or involvement in this matter. They consistently describe him as the Finance Minister of Portugal who took action against Alexandra Reis due to the severance payment controversy.
+
+In summary, Fernando Medina, the Finance Minister of Portugal, was involved in the dismissal of the TAP Air Portugal CEO and chairman, Alexandra Reis, and the requirement for Reis to return a portion of her severance payment. Medina requested Reis's resignation over the severance payment controversy.</data>
+    </node>
+    <node id="15">
+      <data key="d0">HUGO MENDES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Hugo Mendes was the Secretary of State who had oversight of aviation and informed Pedro Nuno Santos about the 500,000 euro compensation payment to Alexandra Reis.</data>
+    </node>
+    <node id="16">
+      <data key="d0">CHRISTINE OURMIÈRES-WIDENER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Christine Ourmières-Widener is the former director general and CEO of TAP Air Portugal, the national airline of Portugal. She held this position until recently when she was dismissed by the Portuguese government following an investigation into an irregular severance payment made during her tenure.
+
+The details surrounding Ourmières-Widener's departure from TAP Air Portugal are as follows:
+
+Ourmières-Widener was the CEO of TAP Air Portugal during the time when the airline made an improper compensation payment to Alexandra Reis, a former TAP executive. This payment was the subject of an investigation by the Inspectorate-General of Finance (IGF), the Portuguese government's financial oversight body.
+
+The IGF report on the matter found that the severance payment made to Reis was irregular and not in accordance with the company's policies. As a result of this finding, the Portuguese government decided to dismiss both Ourmières-Widener and the TAP president, Manuel Beja, from their positions.
+
+It is important to note that while the descriptions provided mention Reis by name, some refer to her as "Maria Reis" while others use the name "Alexandra Reis". This discrepancy has been resolved, and it is clear that the severance payment in question was made to Alexandra Reis, not Maria Reis.
+
+In summary, Christine Ourmières-Widener was the CEO of TAP Air Portugal until she was fired by the Portuguese government following an investigation into an improper severance payment made to a former TAP executive, Alexandra Reis, during her tenure as the airline's top executive. The dismissal of Ourmières-Widener and the TAP president was a result of the findings of the IGF report on this matter.</data>
+    </node>
+    <node id="17">
+      <data key="d0">MANUEL BEJA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Manuel Beja was the chairman of TAP Air Portugal, the national airline of Portugal, until he was dismissed from his position along with the CEO. According to the provided descriptions, Beja was the president of TAP who was dismissed, along with the CEO Christine Ourmières-Widener, following an IGF (Inspeção-Geral de Finanças) report on an improper compensation payment.
+
+The dismissal of Beja and the CEO appears to be related to the findings of the IGF report, which likely uncovered issues or irregularities in the compensation practices at TAP Air Portugal during their tenure. While the exact details of the improper payment are not specified, the report seems to have led to the removal of both the chairman (Beja) and the CEO from their positions at the airline.
+
+It is important to note that the descriptions provided do not contain any contradictory information about Manuel Beja's role or the circumstances surrounding his dismissal. The two descriptions are consistent in stating that Beja was the chairman or president of TAP Air Portugal, and that he was dismissed from his position along with the CEO, following the IGF report on the improper compensation payment.
+
+In summary, Manuel Beja was the chairman or president of TAP Air Portugal, the national airline of Portugal, until he was dismissed from his position along with the CEO, Christine Ourmières-Widener, following an IGF report that uncovered issues or irregularities in the company's compensation practices during their tenure.</data>
+    </node>
+    <node id="18">
+      <data key="d0">JUDICIAL POLICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">8.0</data>
+      <data key="d5">The Judicial Police conducted searches at the General Secretariat of the Government as part of the investigation into the 500,000 euro compensation payment.</data>
+    </node>
+    <node id="19">
+      <data key="d0">GENERAL INSPECTION OF FINANCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The General Inspection of Finance had already considered the 500,000 euro compensation payment to Alexandra Reis to be illegal, violating the statute of the public manager.</data>
+    </node>
+    <node id="20">
+      <data key="d0">SECURITIES MARKET COMMISSION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">The Securities Market Commission received false information about the departure of Alexandra Reis from TAP.</data>
+    </node>
+    <node id="21">
+      <data key="d0">PUBLIC PROSECUTION SERVICE</data>
+      <data key="d1" />
+      <data key="d2">8.0</data>
+      <data key="d5" />
+    </node>
+    <node id="22">
+      <data key="d0">PORTUGUESE SOCIALIST PARTY (PS)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The Portuguese Socialist Party is the center-left political party in Portugal</data>
+    </node>
+    <node id="23">
+      <data key="d0">JOSE LUIS CARNEIRO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">8.0</data>
+      <data key="d5">Jose Luis Carneiro is the Interior Minister of Portugal who ran against Pedro Nuno Santos for the PS leadership</data>
+    </node>
+    <node id="24">
+      <data key="d0">LUIS MONTENEGRO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Luis Montenegro is the leader of the center-right Social Democratic Party (PSD) who will face Pedro Nuno Santos in the upcoming snap elections</data>
+    </node>
+    <node id="25">
+      <data key="d0">CHEGA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Chega is a right-wing populist party in Portugal that has seen a significant surge in support in recent years. Led by André Ventura, the party first gained prominence in the 2024 Portuguese legislative election, where it became the third-largest party in parliament, securing 50 seats.
+
+Chega's rise has been attributed to its populist and nationalist rhetoric, which has resonated with a segment of the Portuguese electorate. The party has positioned itself as a voice for those who feel left behind by the political establishment, and its platform includes calls for tougher immigration policies, a crackdown on crime, and a more assertive stance on national sovereignty.
+
+Despite its rapid growth, Chega's political ideology has been a source of controversy. The party has been accused of promoting xenophobic and anti-democratic ideas, and its leader, André Ventura, has faced criticism for making inflammatory statements targeting minority groups. However, the party's supporters argue that it is simply giving voice to the concerns of ordinary Portuguese citizens who feel that their interests have been neglected by the traditional political parties.
+
+As the country prepares for upcoming elections, Chega is poised to play an increasingly influential role in Portuguese politics. The party's ability to capitalize on discontent and harness the power of populist messaging has allowed it to gain a significant foothold in the political landscape, and it is likely to continue to be a force to be reckoned with in the years to come.
+
+It is important to note that the descriptions provided about Chega's political ideology and its potential impact on the upcoming elections may be subject to differing interpretations and perspectives. While the party's rise has been well-documented, the long-term implications of its growing influence remain to be seen. As with any political party, it is crucial to approach Chega's activities and rhetoric with a critical eye and to consider a range of sources and viewpoints when assessing its role in Portuguese politics.</data>
+    </node>
+    <node id="26">
+      <data key="d0">PORTUGUESE POLITICS</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">EUROPEAN UNION (EU)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The European Union, where Portugal is a member state</data>
+    </node>
+    <node id="28">
+      <data key="d0">EURONEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">News organization reporting on the government reshuffle in Portugal</data>
+    </node>
+    <node id="29">
+      <data key="d0">TAP AIR PORTUGAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">TAP Air Portugal is the national airline of Portugal. It is a state-owned carrier that has been at the center of controversy in recent years.
+
+TAP Air Portugal was originally founded in 1945 and has served as the flag carrier airline of Portugal for decades. In 2020, the airline was renationalized by the Portuguese government after a period of partial privatization. This renationalization came as TAP Air Portugal was facing significant financial difficulties and required over 2 billion euros in government aid to stay afloat.
+
+The renationalization of TAP Air Portugal has been a source of controversy, particularly around the issue of severance payments to former executives. There were reports that the airline paid out large compensation packages to some departing managers, which drew criticism from the public and government officials. This controversy highlighted the challenges facing the airline as it sought to restructure and return to profitability with the support of the Portuguese state.
+
+Despite the recent turmoil, TAP Air Portugal continues to operate as Portugal's national airline, serving destinations across Europe, Africa, and the Americas. The carrier plays a vital role in the country's air transportation infrastructure and economy. However, the airline's reliance on government support and the ongoing debates around its management and operations suggest that TAP Air Portugal will likely continue to face scrutiny and pressure to reform in the years ahead.
+
+In summary, TAP Air Portugal is the state-owned national airline of Portugal that has been at the center of controversy in recent years. After being renationalized in 2020 and receiving over 2 billion euros in government aid, the airline has faced criticism over severance payments to former executives. Nevertheless, TAP Air Portugal remains an important part of Portugal's transportation network and economy, even as it works to restructure and return to financial stability.</data>
+    </node>
+    <node id="30">
+      <data key="d0">EUROPEAN UNION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The European Union provided 3.2 billion euros in public aid to TAP Air Portugal when it was renationalized in 2020</data>
+    </node>
+    <node id="31">
+      <data key="d0">MARIA REIS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Maria Reis was the head of the public company in charge of air traffic control, and was later dismissed from TAP by the director general</data>
+    </node>
+    <node id="32">
+      <data key="d0">GENERAL PROSECUTOR'S OFFICE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The General Prosecutor's Office in Portugal announced an investigation into the compensation given to Maria Reis after her dismissal from TAP</data>
+    </node>
+    <node id="33">
+      <data key="d0">2020</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">12.0</data>
+      <data key="d5">TAP was renationalized in 2020 in order to receive 3.2 billion euros in public aid</data>
+    </node>
+    <node id="34">
+      <data key="d0">JANUARY</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The early legislative elections in Portugal took place in January</data>
+    </node>
+    <node id="35">
+      <data key="d0">ANDRÉ VENTURA</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">André Ventura is a Portuguese politician who is the leader of the right-wing populist Chega party. He is currently running for the position of President of Portugal.
+
+Ventura, born in 1982, first entered the political scene in 2019 when he founded the Chega party. The party is known for its nationalist and anti-immigration stance, as well as its criticism of the political establishment. Ventura himself has been described as a right-wing populist, with his rhetoric often targeting minority groups and the perceived failures of mainstream politicians.
+
+Despite the controversial nature of his party's platform, Ventura has managed to gain a significant following in Portugal. In the 2019 legislative elections, Chega won a single seat in the Portuguese parliament, marking the first time a far-right party had representation in the country's democratic system since the end of the dictatorship in 1974.
+
+Ventura's decision to run for the presidency is seen by many as a strategic move to further increase the visibility and influence of his party. As a presidential candidate, he will have the opportunity to reach a wider audience and potentially sway public opinion in his favor.
+
+However, Ventura's candidacy has also faced significant opposition from various sectors of Portuguese society. Critics have accused him of promoting divisive and intolerant policies, and have raised concerns about the potential impact of his presidency on the country's democratic institutions.
+
+Despite these challenges, Ventura remains a polarizing figure in Portuguese politics, with his supporters praising his willingness to challenge the status quo and his opponents condemning his perceived extremism. As the presidential election approaches, the outcome of Ventura's campaign will be closely watched, both within Portugal and internationally, as a potential indicator of the broader political trends shaping the country's future.</data>
+    </node>
+    <node id="36">
+      <data key="d0">SOCIALIST PARTY (PS)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Socialist Party (PS) is a center-left political party in Portugal, led by Pedro Nuno Santos. In the 2024 Portuguese legislative election, the PS came in second place, winning 78 seats and losing its previous absolute majority in the parliament.
+
+The PS is a social-democratic party that advocates for a mixed economy with a strong role for the state in regulating the market and providing a social safety net. The party's platform focuses on issues such as workers' rights, environmental protection, and investment in public services like healthcare and education.
+
+Despite losing its outright majority, the PS remains a significant force in Portuguese politics. As the second-largest party in the parliament, it will likely play a key role in forming the next government and shaping the country's political agenda for the coming years.
+
+The party's loss of its absolute majority in 2024 may be seen as a shift in voter sentiment, with some Portuguese citizens seeking a change from the previous PS-led government. However, the party's enduring popularity and its ability to form coalitions with other left-leaning parties suggest that it will continue to be a major player in Portuguese politics.
+
+Overall, the Socialist Party (PS) remains a central force in the Portuguese political landscape, with its leader Pedro Nuno Santos and its center-left platform continuing to influence the country's political direction.</data>
+    </node>
+    <node id="37">
+      <data key="d0">ANTÓNIO COSTA</data>
+      <data key="d1" />
+      <data key="d2">3.0</data>
+      <data key="d5" />
+    </node>
+    <node id="38">
+      <data key="d0">2024 PORTUGUESE LEGISLATIVE ELECTION</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The 2024 Portuguese legislative election saw the center-right Luís Montenegro form a minority government, ending nearly a decade of rule by the Socialist Party</data>
+    </node>
+    <node id="39">
+      <data key="d0">NAV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">5.0</data>
+      <data key="d5">NAV is the state-owned air traffic control company in Portugal, where Alexandra Reis was later appointed as a director</data>
+    </node>
+    <node id="40">
+      <data key="d0">PARLAMENTO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Portuguese Parliament, where officials from TAP and the government have been called to provide more information</data>
+    </node>
+    <node id="41">
+      <data key="d0">PRIMEIRO-MINISTRO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Prime Minister of Portugal, who stated an intention to privatize TAP within 12 months</data>
+    </node>
+    <node id="42">
+      <data key="d0">LUIS RODRIGUES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Luis Rodrigues is the current president of SATA Air Acores and CEO of its subsidiary Azores Airlines, who will take over as both chairman and CEO of TAP Air Portugal.</data>
+    </node>
+    <node id="43">
+      <data key="d0">JOSÉ MANUEL BOLIEIRO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">José Manuel Bolieiro is the president of the regional government of the Azores, who has agreed to Luis Rodrigues taking on the TAP Air Portugal leadership roles.</data>
+    </node>
+    <node id="44">
+      <data key="d0">MÁRIO CHAVES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Mário Chaves was the COO and CCO of SATA Air Acores, who has left to become the new director general of TAP Air Portugal's regional carrier Portugália Airlines.</data>
+    </node>
+    <node id="45">
+      <data key="d0">INSPECTORATE GENERAL OF FINANCE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The Inspectorate General of Finance (IGF) is the government agency that conducted the investigation into the irregular severance payment at TAP Air Portugal.</data>
+    </node>
+    <node id="46">
+      <data key="d0">LISBON</data>
+      <data key="d1" />
+      <data key="d2">0.0</data>
+      <data key="d5" />
+    </node>
+    <node id="47">
+      <data key="d0">TAP PORTUGAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">TAP Portugal is an airline</data>
+    </node>
+    <node id="48">
+      <data key="d0">SATA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">SATA is an airline</data>
+    </node>
+    <node id="49">
+      <data key="d0">EUROPEAN HANDBALL CHAMPIONSHIP</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Portugal is making its debut in the European Handball Championship in 2026</data>
+    </node>
+    <node id="50">
+      <data key="d0">MINISTER FOR INFRASTRUCTURE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">12.0</data>
+      <data key="d5">The Minister for Infrastructure in Portugal has resigned due to a TAP scandal</data>
+    </node>
+    <node id="51">
+      <data key="d0">PORTO</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="52">
+      <data key="d0">SRS LEGAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">SRS Legal is a major law firm in Portugal that advised TAP on the severance payment to Alexandra Reis. A person has been made an arguido (formal suspect) in relation to this case.</data>
+    </node>
+    <node id="53">
+      <data key="d0">MINISTÉRIO PÚBLICO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The Ministério Público (Public Prosecutor's Office) is the organization that André Ventura believes should choose the Attorney General</data>
+    </node>
+    <edge id="e0" source="0" target="2">
+      <data key="d3">74.0</data>
+      <data key="d4">Infrastructure Housing...</data>
+      <data key="d6">Pedro Nuno Santos was the Infrastructure and Housing Minister in Portugal, responsible for overseeing the state-owned airline TAP. In this role, he authorized a 500,000 euro compensation payment to Alexandra Reis, the former TAP CEO.
+
+The payment to Reis was later deemed improper by the Inspectorate-General of Finance (IGF). As the minister overseeing TAP, Santos believed the payment was the best solution for the incompatibility between Reis and the TAP CEO. However, the severance package sparked public outcry, leading to Santos' resignation as Infrastructure Minister.
+
+Despite the controversy, Santos remained responsible for overseeing TAP as the Infrastructure and Housing Minister. The scandal involving the severance payments to the TAP CEO was a key factor in Santos' decision to step down from his ministerial position.
+
+In summary, Pedro Nuno Santos was the Infrastructure and Housing Minister who authorized a controversial 500,000 euro severance payment to the former TAP CEO, Alexandra Reis. This payment was later deemed improper, leading to significant public backlash and Santos' eventual resignation from his ministerial role. Throughout his tenure, Santos was responsible for overseeing the state-owned airline TAP.</data>
+    </edge>
+    <edge id="e1" source="0" target="1">
+      <data key="d3">27.0</data>
+      <data key="d4">national airline Portugal....</data>
+      <data key="d6">TAP Portugal is the national airline of Portugal. It is a state-owned airline, with the Portuguese government holding a majority stake in the company.
+
+TAP was founded in 1945 and has since grown to become one of the leading airlines in Europe, serving destinations across the continent as well as in Africa, the Americas, and Asia. As the national carrier, TAP plays a significant role in Portugal's transportation infrastructure and economy.
+
+In recent years, TAP has faced some challenges, including a scandal involving severance payments to executives. This issue became a major political topic in Portugal, as the government's handling of the situation was scrutinized. The controversy highlighted the complex relationship between TAP, as a state-owned enterprise, and the Portuguese government.
+
+Despite these challenges, TAP continues to be an important asset for Portugal. The airline operates a fleet of modern aircraft and offers a range of services to its passengers, including business and economy class, as well as various loyalty programs and amenities. TAP is also known for its commitment to sustainability, with initiatives aimed at reducing its environmental impact.
+
+Overall, TAP Portugal is a vital component of Portugal's transportation network and a symbol of the country's national identity. While it has faced some difficulties, the airline remains an important player in the European aviation industry and a key contributor to Portugal's economic and social development.</data>
+    </edge>
+    <edge id="e2" source="0" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">received controversial severance...</data>
+      <data key="d6">The TAP CEO received a controversial severance payment that led to the scandal involving the infrastructure minister</data>
+    </edge>
+    <edge id="e3" source="0" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">rejected parliamentary hearing...</data>
+      <data key="d6">The Portuguese Socialists rejected a parliamentary hearing on the TAP scandal, indicating their involvement or interest in the issue</data>
+    </edge>
+    <edge id="e4" source="2" target="0">
+      <data key="d3">8.0</data>
+      <data key="d4">resigned Infrastructure Minister...</data>
+      <data key="d6">Pedro Nuno Santos resigned as Infrastructure Minister predecessor over the TAP airline scandal</data>
+    </edge>
+    <edge id="e5" source="0" target="9">
+      <data key="d3">8.0</data>
+      <data key="d4">Infrastructure Minister due...</data>
+      <data key="d6">Joao Galamba resigned as Infrastructure Minister due to the TAP airline scandal</data>
+    </edge>
+    <edge id="e6" source="0" target="5">
+      <data key="d3">7.0</data>
+      <data key="d4">caused instability Antonio...</data>
+      <data key="d6">The TAP scandal has caused instability in Antonio Costa's government</data>
+    </edge>
+    <edge id="e7" source="0" target="6">
+      <data key="d3">6.0</data>
+      <data key="d4">TAP during privatization...</data>
+      <data key="d6">Lufthansa may bid for TAP during its privatization</data>
+    </edge>
+    <edge id="e8" source="0" target="7">
+      <data key="d3">6.0</data>
+      <data key="d4">bid TAP during...</data>
+      <data key="d6">Air France-KLM may bid for TAP during its privatization</data>
+    </edge>
+    <edge id="e9" source="0" target="8">
+      <data key="d3">1.0</data>
+      <data key="d4">TAP during privatization</data>
+      <data key="d6">IAG may bid for TAP during its privatization</data>
+    </edge>
+    <edge id="e10" source="0" target="12">
+      <data key="d3">1.0</data>
+      <data key="d4">board member received...</data>
+      <data key="d6">The former executive board member received an irregular severance payment from TAP</data>
+    </edge>
+    <edge id="e11" source="5" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">leader Socialist...</data>
+      <data key="d6">Antonio Costa is the leader of the Socialist Party</data>
+    </edge>
+    <edge id="e12" source="5" target="11">
+      <data key="d3">8.0</data>
+      <data key="d4">accusing Antonio Costa's...</data>
+      <data key="d6">The opposition is accusing Antonio Costa's government of lying about the TAP scandal</data>
+    </edge>
+    <edge id="e13" source="0" target="13">
+      <data key="d3">50.0</data>
+      <data key="d4">Portuguese airline company,...</data>
+      <data key="d6">TAP is a Portuguese airline company, and Alexandra Reis is a former employee who received a controversial severance payment from the company.
+
+According to the provided descriptions, Alexandra Reis was a former administrator at TAP who received a €500,000 severance package when she left the company. The severance payment was considered controversial, as it was a significant amount of money for an employee who was departing the company.
+
+Further details indicate that Alexandra Reis held the position of secretary of state for the treasury at the time she received the severance payment from TAP. This suggests that her departure from the airline company may have been related to her government role, though the exact circumstances are not entirely clear.
+
+Overall, the available information paints a picture of a controversial severance agreement between TAP and Alexandra Reis, a former employee who went on to hold a government position. The large sum of money involved in the severance package, as well as the potential connection to Reis' government role, have likely contributed to the controversy surrounding this situation.
+
+It is important to note that the provided descriptions do not contain any contradictory information, and the summary presented here aims to consolidate the key details into a coherent and comprehensive overview of the situation involving TAP and Alexandra Reis.</data>
+    </edge>
+    <edge id="e14" source="13" target="14">
+      <data key="d3">30.0</data>
+      <data key="d4">Fernando Medina two...</data>
+      <data key="d6">Alexandra Reis and Fernando Medina are two individuals involved in a controversy surrounding a severance payment made by TAP, the Portuguese national airline.
+
+According to the provided descriptions, Fernando Medina, in his role as the Finance Minister, requested the resignation of Alexandra Reis over the TAP severance payment controversy. The descriptions indicate that Medina, as the Minister for Finance, asked Reis to resign after the controversy surrounding the TAP severance package.
+
+The descriptions suggest that there was a controversy or issue related to a severance payment made by TAP, the national airline of Portugal. This controversy appears to have involved both Alexandra Reis and Fernando Medina, with Medina, in his capacity as the Finance Minister, requesting Reis's resignation in the aftermath of the TAP severance payment issue.
+
+While the descriptions provided do not offer detailed information about the specifics of the controversy, they clearly indicate that there was a significant issue related to a severance payment made by TAP, which led to Medina, as the Finance Minister, asking for Reis's resignation. The descriptions suggest that this was a high-profile and impactful event, as it involved the resignation of a government official.
+
+In summary, the available information indicates that Alexandra Reis and Fernando Medina were both involved in a controversy surrounding a severance payment made by the Portuguese national airline, TAP. Medina, in his role as the Finance Minister, requested Reis's resignation in the aftermath of this controversy.</data>
+    </edge>
+    <edge id="e15" source="5" target="2">
+      <data key="d3">6.0</data>
+      <data key="d4">Prime Minister Portugal,...</data>
+      <data key="d6">Antonio Costa, the Prime Minister of Portugal, accepted the resignation of Pedro Nuno Santos as the Minister for Infrastructure and Housing. This resignation came in the wake of the TAP severance payment controversy.
+
+Pedro Nuno Santos had served as the Infrastructure and Housing Minister in Antonio Costa's government. However, he tendered his resignation after the controversy surrounding the severance payment made to the former CEO of TAP, the national airline of Portugal.
+
+The TAP severance payment issue had caused significant public outcry and political turmoil in Portugal. The government's handling of the situation, particularly the decision to grant a substantial severance package to the former CEO, was widely criticized by the public and opposition parties.
+
+In the face of this controversy, Pedro Nuno Santos decided to step down from his position as the Infrastructure and Housing Minister. Antonio Costa, the Prime Minister, accepted his resignation, acknowledging the need to address the concerns raised by the public and restore trust in the government's decision-making process.
+
+The resignation of Pedro Nuno Santos is seen as a significant political development in Portugal, as it highlights the government's willingness to hold its officials accountable for their actions and decisions. The move is also expected to pave the way for a reshuffling of the cabinet, as Antonio Costa seeks to regain the confidence of the Portuguese people and move forward with his administration's agenda.
+
+Overall, the resignation of Pedro Nuno Santos as the Infrastructure and Housing Minister, and its acceptance by Prime Minister Antonio Costa, reflects the ongoing efforts of the Portuguese government to address the TAP severance payment controversy and maintain transparency and accountability in its decision-making processes.</data>
+    </edge>
+    <edge id="e16" source="0" target="16">
+      <data key="d3">23.0</data>
+      <data key="d4">CEO TAP,...</data>
+      <data key="d6">Christine Ourmières-Widener was the CEO of TAP, the national airline of Portugal, during a period of controversy and scrutiny. 
+
+According to the provided descriptions, Ourmières-Widener was the CEO of TAP when the airline made a severance payment to Alexandra Reis, a former TAP executive. This payment was later deemed improper by an IGF (Inspeção-Geral de Finanças) report.
+
+The descriptions indicate that Ourmières-Widener's tenure as CEO of TAP ended following the release of the IGF report, suggesting that she was dismissed from her position as a result of the findings regarding the improper compensation payment.
+
+While the descriptions do not provide explicit details on the nature of the severance payment or the circumstances surrounding Ourmières-Widener's dismissal, they suggest that the CEO was held accountable for the improper actions that occurred under her leadership at TAP.
+
+In summary, Christine Ourmières-Widener served as the CEO of TAP, the national airline of Portugal, during a period when the company made an improper severance payment to a former executive. This payment was later criticized in an IGF report, and Ourmières-Widener was subsequently dismissed from her position as CEO, likely as a result of the findings and the controversy surrounding the incident.</data>
+    </edge>
+    <edge id="e17" source="0" target="17">
+      <data key="d3">1.0</data>
+      <data key="d4">president TAP who...</data>
+      <data key="d6">Manuel Beja was the president of TAP who was dismissed following the IGF report on the improper compensation payment</data>
+    </edge>
+    <edge id="e18" source="0" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">Finance considered...</data>
+      <data key="d6">The General Inspection of Finance had considered the 500,000 euro compensation payment to Alexandra Reis to be illegal.</data>
+    </edge>
+    <edge id="e19" source="13" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">Pedro Nuno Santos...</data>
+      <data key="d6">As Infrastructure Minister, Pedro Nuno Santos authorized the 500,000 euro compensation payment to Alexandra Reis, which was later deemed improper</data>
+    </edge>
+    <edge id="e20" source="13" target="20">
+      <data key="d3">1.0</data>
+      <data key="d4">Commission received false...</data>
+      <data key="d6">The Securities Market Commission received false information about the departure of Alexandra Reis from TAP.</data>
+    </edge>
+    <edge id="e21" source="15" target="2">
+      <data key="d3">7.0</data>
+      <data key="d4">Secretary State overseeing...</data>
+      <data key="d6">Hugo Mendes, as Secretary of State overseeing aviation, informed Pedro Nuno Santos about the 500,000 euro compensation payment to Alexandra Reis</data>
+    </edge>
+    <edge id="e22" source="2" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">Service investigating Pedro...</data>
+      <data key="d6">The Public Prosecution Service is investigating Pedro Nuno Santos for suspected crimes related to the 500,000 euro compensation payment to Alexandra Reis.</data>
+    </edge>
+    <edge id="e23" source="2" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">conducted searches General...</data>
+      <data key="d6">The Judicial Police conducted searches at the General Secretariat of the Government as part of the investigation into the 500,000 euro compensation payment.</data>
+    </edge>
+    <edge id="e24" source="22" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">elected new...</data>
+      <data key="d6">Pedro Nuno Santos was elected as the new leader of the Portuguese Socialist Party</data>
+    </edge>
+    <edge id="e25" source="22" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">Prime Minister leader...</data>
+      <data key="d6">Antonio Costa resigned as Prime Minister and leader of the PS following a corruption probe</data>
+    </edge>
+    <edge id="e26" source="5" target="27">
+      <data key="d3">1.0</data>
+      <data key="d4">Portuguese Prime Minister...</data>
+      <data key="d6">Antonio Costa's resignation as Portuguese Prime Minister had repercussions in Brussels, where he was considered a front-runner for an EU top job</data>
+    </edge>
+    <edge id="e27" source="23" target="2">
+      <data key="d3">7.0</data>
+      <data key="d4">defeated Jose Luis...</data>
+      <data key="d6">Pedro Nuno Santos defeated Jose Luis Carneiro in the PS leadership election</data>
+    </edge>
+    <edge id="e28" source="24" target="2">
+      <data key="d3">7.0</data>
+      <data key="d4">Luis Montenegro will...</data>
+      <data key="d6">Pedro Nuno Santos and Luis Montenegro will face off in the upcoming snap elections in Portugal</data>
+    </edge>
+    <edge id="e29" source="25" target="26">
+      <data key="d3">1.0</data>
+      <data key="d4">party could increase...</data>
+      <data key="d6">The hard-right Chega party could increase its influence in the upcoming Portuguese elections</data>
+    </edge>
+    <edge id="e30" source="28" target="1">
+      <data key="d3">2.0</data>
+      <data key="d4">government reshuffle...</data>
+      <data key="d6">Euronews is reporting on the government reshuffle in Portugal</data>
+    </edge>
+    <edge id="e31" source="2" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">resigned from government...</data>
+      <data key="d6">Pedro Nuno Santos resigned from the government due to the TAP Air Portugal controversy</data>
+    </edge>
+    <edge id="e32" source="13" target="29">
+      <data key="d3">17.0</data>
+      <data key="d4">former executive board...</data>
+      <data key="d6">Alexandra Reis was a former executive board member of TAP Air Portugal, the national airline of Portugal. During her time at the company, she received a severance payment of 500,000 euros when she left the organization.
+
+The severance payment received by Alexandra Reis has been deemed irregular and illegal. According to the available information, the 500,000 euro payment made to Reis upon her departure from TAP Air Portugal was considered an unusual and improper compensation arrangement.
+
+TAP Air Portugal is the flag carrier airline of Portugal, headquartered in Lisbon. As a former executive board member of the company, Alexandra Reis held a senior position within the organization. However, the circumstances surrounding her departure and the substantial severance payment she received have raised concerns and scrutiny.
+
+In summary, Alexandra Reis, a former executive at TAP Air Portugal, received a 500,000 euro severance payment upon leaving the company. This payment has been deemed irregular and illegal, indicating that the compensation arrangement was not in line with standard practices or regulations. The details and justification for the sizeable severance payment are currently under investigation and review.</data>
+    </edge>
+    <edge id="e33" source="13" target="16">
+      <data key="d3">8.0</data>
+      <data key="d4">Alexandra Reis from...</data>
+      <data key="d6">Christine Ourmières-Widener dismissed Alexandra Reis from TAP Air Portugal</data>
+    </edge>
+    <edge id="e34" source="29" target="5">
+      <data key="d3">1.0</data>
+      <data key="d4">Portugal controversy impacted...</data>
+      <data key="d6">The TAP Air Portugal controversy has impacted the Portuguese government, leading to a mini-reshuffle</data>
+    </edge>
+    <edge id="e35" source="29" target="1">
+      <data key="d3">18.0</data>
+      <data key="d4">national airline...</data>
+      <data key="d6">TAP Air Portugal is the national airline of Portugal. It is a state-owned carrier, serving as the flag carrier of the country.
+
+TAP Air Portugal was founded in 1945 and is headquartered in Lisbon, Portugal. The airline operates a fleet of over 100 aircraft, serving a network of destinations across Europe, Africa, North America, and South America. TAP Air Portugal is a member of the Star Alliance, the world's largest airline alliance, which allows it to offer its passengers a comprehensive global network.
+
+As the national airline of Portugal, TAP Air Portugal plays a significant role in the country's aviation industry and economy. It is responsible for connecting Portugal to the rest of the world, facilitating trade, tourism, and cultural exchange. The airline is also a major employer in Portugal, providing jobs for thousands of people.
+
+TAP Air Portugal is known for its commitment to providing high-quality service to its passengers. The airline offers a range of amenities, including in-flight entertainment, gourmet meals, and comfortable seating. TAP Air Portugal also has a strong focus on sustainability, with initiatives to reduce its environmental impact and promote eco-friendly practices.
+
+Overall, TAP Air Portugal is an important part of Portugal's national identity and a vital component of the country's transportation infrastructure. As the state-owned national airline, it serves as a symbol of Portuguese pride and a key driver of the nation's economic and cultural connections with the rest of the world.</data>
+    </edge>
+    <edge id="e36" source="29" target="30">
+      <data key="d3">1.0</data>
+      <data key="d4">provided billion euros...</data>
+      <data key="d6">The European Union provided 3.2 billion euros in public aid to TAP Air Portugal when it was renationalized in 2020</data>
+    </edge>
+    <edge id="e37" source="16" target="0">
+      <data key="d3">8.0</data>
+      <data key="d4">director general TAP...</data>
+      <data key="d6">Christine Ourmières-Widener is the director general of TAP who dismissed Maria Reis</data>
+    </edge>
+    <edge id="e38" source="31" target="0">
+      <data key="d3">8.0</data>
+      <data key="d4">head public...</data>
+      <data key="d6">Maria Reis was the head of the public company in charge of air traffic control, and was later dismissed from TAP by the director general</data>
+    </edge>
+    <edge id="e39" source="31" target="32">
+      <data key="d3">7.0</data>
+      <data key="d4">Office Portugal announced...</data>
+      <data key="d6">The General Prosecutor's Office in Portugal announced an investigation into the compensation given to Maria Reis after her dismissal from TAP</data>
+    </edge>
+    <edge id="e40" source="5" target="0">
+      <data key="d3">1.0</data>
+      <data key="d4">dismissal Maria Reis...</data>
+      <data key="d6">The controversy around the dismissal of Maria Reis from TAP has further weakened the government of Antonio Costa</data>
+    </edge>
+    <edge id="e41" source="5" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">Prime Minister Portugal...</data>
+      <data key="d6">Antonio Costa is the Prime Minister of Portugal</data>
+    </edge>
+    <edge id="e42" source="0" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">2020 order...</data>
+      <data key="d6">TAP was renationalized in 2020 in order to receive 3.2 billion euros in public aid</data>
+    </edge>
+    <edge id="e43" source="34" target="1">
+      <data key="d3">1.0</data>
+      <data key="d4">elections Portugal took...</data>
+      <data key="d6">The early legislative elections in Portugal took place in January</data>
+    </edge>
+    <edge id="e44" source="2" target="36">
+      <data key="d3">16.0</data>
+      <data key="d4">is the leader...</data>
+      <data key="d6">Pedro Nuno Santos is the leader of the Socialist Party (PS) which came in second place in the 2024 election</data>
+    </edge>
+    <edge id="e45" source="35" target="25">
+      <data key="d3">16.0</data>
+      <data key="d4">leader right-wing...</data>
+      <data key="d6">André Ventura is the leader of the right-wing populist Chega party which saw a surge in support in the 2024 election</data>
+    </edge>
+    <edge id="e46" source="36" target="37">
+      <data key="d3">9.0</data>
+      <data key="d4">Prime Minister before...</data>
+      <data key="d6">António Costa was the Prime Minister before the 2024 election as a member of the Socialist Party (PS)</data>
+    </edge>
+    <edge id="e47" source="36" target="24">
+      <data key="d3">16.0</data>
+      <data key="d4">party defeated incumbent...</data>
+      <data key="d6">Luís Montenegro's center-right party defeated the incumbent Socialist Party (PS) in the 2024 Portuguese legislative election</data>
+    </edge>
+    <edge id="e48" source="36" target="25">
+      <data key="d3">12.0</data>
+      <data key="d4">lost seats...</data>
+      <data key="d6">The Socialist Party (PS) lost seats to the surging right-wing populist Chega party in the 2024 Portuguese legislative election</data>
+    </edge>
+    <edge id="e49" source="25" target="24">
+      <data key="d3">14.0</data>
+      <data key="d4">party defeated right-wing...</data>
+      <data key="d6">Luís Montenegro's center-right party defeated the right-wing populist Chega party, which became the third-largest party, in the 2024 Portuguese legislative election</data>
+    </edge>
+    <edge id="e50" source="38" target="24">
+      <data key="d3">10.0</data>
+      <data key="d4">party won 2024...</data>
+      <data key="d6">Luís Montenegro's center-right party won the 2024 Portuguese legislative election and formed a minority government</data>
+    </edge>
+    <edge id="e51" source="38" target="1">
+      <data key="d3">1.0</data>
+      <data key="d4">legislative election took...</data>
+      <data key="d6">The 2024 Portuguese legislative election took place in Portugal</data>
+    </edge>
+    <edge id="e52" source="29" target="2">
+      <data key="d3">16.0</data>
+      <data key="d4">Infrastructure, Pedro Nuno...</data>
+      <data key="d6">As Minister of Infrastructure, Pedro Nuno Santos was responsible for overseeing TAP Air Portugal, which was involved in the controversial compensation payment to Alexandra Reis</data>
+    </edge>
+    <edge id="e53" source="29" target="13">
+      <data key="d3">16.0</data>
+      <data key="d4">large compensation payment...</data>
+      <data key="d6">Alexandra Reis received a large compensation payment from TAP Air Portugal when she left the company, despite the airline receiving government aid</data>
+    </edge>
+    <edge id="e54" source="13" target="39">
+      <data key="d3">12.0</data>
+      <data key="d4">Air Portugal, Alexandra...</data>
+      <data key="d6">After leaving TAP Air Portugal, Alexandra Reis was appointed as a director at the state-owned air traffic control company NAV</data>
+    </edge>
+    <edge id="e55" source="0" target="40">
+      <data key="d3">7.0</data>
+      <data key="d4">called TAP government...</data>
+      <data key="d6">The Parliament has called for TAP and government officials to provide more information about the situation at TAP</data>
+    </edge>
+    <edge id="e56" source="0" target="41">
+      <data key="d3">1.0</data>
+      <data key="d4">stated intention privatize...</data>
+      <data key="d6">The Prime Minister stated an intention to privatize TAP within 12 months due to the restructuring and personnel cuts at the airline</data>
+    </edge>
+    <edge id="e57" source="16" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">CEO TAP Air...</data>
+      <data key="d6">Christine Ourmières-Widener was the CEO of TAP Air Portugal until she was fired by the Portuguese government following an investigation into an irregular severance payment.</data>
+    </edge>
+    <edge id="e58" source="16" target="45">
+      <data key="d3">9.0</data>
+      <data key="d4">led dismissal...</data>
+      <data key="d6">The IGF investigation led to the dismissal of Christine Ourmières-Widener as CEO of TAP Air Portugal.</data>
+    </edge>
+    <edge id="e59" source="17" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">chairman TAP Air...</data>
+      <data key="d6">Manuel Beja was the chairman of TAP Air Portugal until he was dismissed along with the CEO.</data>
+    </edge>
+    <edge id="e60" source="13" target="45">
+      <data key="d3">8.0</data>
+      <data key="d4">found that €500,000...</data>
+      <data key="d6">The IGF investigation found that the €500,000 severance payment to Alexandra Reis, a former TAP executive, was illegal.</data>
+    </edge>
+    <edge id="e61" source="14" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">Finance Minister Portugal...</data>
+      <data key="d6">Fernando Medina is the Finance Minister of Portugal who announced the dismissal of the TAP Air Portugal CEO and chairman, and the requirement for Alexandra Reis to return €450,110 of the severance payment.</data>
+    </edge>
+    <edge id="e62" source="14" target="45">
+      <data key="d3">9.0</data>
+      <data key="d4">Fernando Medina announced...</data>
+      <data key="d6">As Finance Minister, Fernando Medina announced the findings of the IGF investigation and the required repayment of funds by Alexandra Reis.</data>
+    </edge>
+    <edge id="e63" source="2" target="29">
+      <data key="d3">7.0</data>
+      <data key="d4">Infrastructure Minister...</data>
+      <data key="d6">Pedro Nuno Santos was the Infrastructure Minister of Portugal who was dismissed around the same time as the TAP Air Portugal CEO and chairman.</data>
+    </edge>
+    <edge id="e64" source="42" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">current president SATA...</data>
+      <data key="d6">Luis Rodrigues is the current president of SATA Air Acores and CEO of its subsidiary Azores Airlines, who will take over as both chairman and CEO of TAP Air Portugal.</data>
+    </edge>
+    <edge id="e65" source="43" target="29">
+      <data key="d3">7.0</data>
+      <data key="d4">is the president...</data>
+      <data key="d6">José Manuel Bolieiro is the president of the regional government of the Azores, who has agreed to Luis Rodrigues taking on the TAP Air Portugal leadership roles.</data>
+    </edge>
+    <edge id="e66" source="44" target="29">
+      <data key="d3">1.0</data>
+      <data key="d4">COO CCO...</data>
+      <data key="d6">Mário Chaves was the COO and CCO of SATA Air Acores, who has left to become the new director general of TAP Air Portugal's regional carrier Portugália Airlines.</data>
+    </edge>
+    <edge id="e67" source="29" target="46">
+      <data key="d3">1.0</data>
+      <data key="d4">based Lisbon,...</data>
+      <data key="d6">TAP Air Portugal is based in Lisbon, the capital of Portugal.</data>
+    </edge>
+    <edge id="e68" source="46" target="29">
+      <data key="d3">8.0</data>
+      <data key="d4">hub TAP Air...</data>
+      <data key="d6">Lisbon is a hub for TAP Air Portugal</data>
+    </edge>
+    <edge id="e69" source="47" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">national airline Portugal...</data>
+      <data key="d6">TAP Portugal is the national airline of Portugal</data>
+    </edge>
+    <edge id="e70" source="48" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">airline based Portugal</data>
+      <data key="d6">SATA is an airline based in Portugal</data>
+    </edge>
+    <edge id="e71" source="46" target="1">
+      <data key="d3">10.0</data>
+      <data key="d4">municipality within country...</data>
+      <data key="d6">Lisbon is a municipality within the country of Portugal</data>
+    </edge>
+    <edge id="e72" source="49" target="1">
+      <data key="d3">8.0</data>
+      <data key="d4">European Handball Championship...</data>
+      <data key="d6">Portugal is participating in the European Handball Championship for the first time in 2026</data>
+    </edge>
+    <edge id="e73" source="0" target="51">
+      <data key="d3">14.0</data>
+      <data key="d4">strategic investment...</data>
+      <data key="d6">TAP is making a strategic investment in the city of Porto, Portugal</data>
+    </edge>
+    <edge id="e74" source="0" target="50">
+      <data key="d3">1.0</data>
+      <data key="d4">Infrastructure resigned due...</data>
+      <data key="d6">The Minister for Infrastructure resigned due to a scandal involving TAP</data>
+    </edge>
+    <edge id="e75" source="0" target="52">
+      <data key="d3">2.0</data>
+      <data key="d4">TAP severance payment...</data>
+      <data key="d6">SRS Legal advised TAP on the severance payment to Alexandra Reis, and a person from the firm has been made an arguido</data>
+    </edge>
+    <edge id="e76" source="53" target="35">
+      <data key="d3">1.0</data>
+      <data key="d4">Ministério Público should...</data>
+      <data key="d6">André Ventura believes the Ministério Público should choose the Attorney General</data>
+    </edge>
+  </graph>
+</graphml>

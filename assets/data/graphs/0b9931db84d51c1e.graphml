@@ -1,0 +1,906 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">FIONA CARRICK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Fiona Carrick is the former president of the Woden Valley Community Council and is running as an independent candidate in the upcoming ACT election</data>
+    </node>
+    <node id="1">
+      <data key="d0">ACT ELECTION</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The upcoming election for the Australian Capital Territory Legislative Assembly</data>
+    </node>
+    <node id="2">
+      <data key="d0">MURRUMBIDGEE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Murrumbidgee electorate in the ACT, which is a key seat in the upcoming election</data>
+    </node>
+    <node id="3">
+      <data key="d0">WODEN CIT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The Woden campus of the Canberra Institute of Technology</data>
+    </node>
+    <node id="4">
+      <data key="d0">SPIRE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">The SPIRE hospital expansion project in Canberra</data>
+    </node>
+    <node id="5">
+      <data key="d0">WODEN VALLEY COMMUNITY COUNCIL</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="6">
+      <data key="d0">THE CANBERRA TIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Canberra Times is a newspaper published by Australian Community Media, a major media company in Australia. It serves as the primary news source for the Canberra region, providing residents with a wide range of news and information.
+
+The Canberra Times has been an integral part of the Canberra community for many years, reporting on local, national, and international events that are of interest to its readers. As one of the publications under the Australian Community Media umbrella, the newspaper benefits from the resources and expertise of a larger media organization, allowing it to deliver high-quality journalism to its audience.
+
+The Canberra Times is known for its comprehensive coverage of news and current affairs, with a focus on issues that are relevant to the Canberra community. The newspaper covers a variety of topics, including politics, business, sports, arts and culture, and community events. It also provides in-depth analysis and commentary on important issues, helping readers to stay informed and engaged with the world around them.
+
+In addition to its print edition, The Canberra Times also has a strong online presence, with a website and mobile app that allow readers to access news and information on the go. This digital platform enables the newspaper to reach a wider audience and provide timely updates on breaking news and developing stories.
+
+Overall, The Canberra Times is a respected and trusted source of news and information for the Canberra region. Its commitment to quality journalism and its deep connection to the local community make it an invaluable resource for residents of the nation's capital.</data>
+    </node>
+    <node id="7">
+      <data key="d0">CANBERRA</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="8">
+      <data key="d0">HIGH TEMPERATURES</data>
+      <data key="d1" />
+      <data key="d2">12.0</data>
+      <data key="d5" />
+    </node>
+    <node id="9">
+      <data key="d0">ACM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">ACM (Australian Community Media) is a media company that owns The Canberra Times and other regional newspapers</data>
+    </node>
+    <node id="10">
+      <data key="d0">DAVID POPE</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="11">
+      <data key="d0">AUSTRALIAN NATIONAL UNIVERSITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Australian National University (ANU) is where Mark Kenny is a professor at the Australian Studies Institute.</data>
+    </node>
+    <node id="12">
+      <data key="d0">DEMOCRACY SAUSAGE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Democracy Sausage is a podcast hosted by Mark Kenny.</data>
+    </node>
+    <node id="13">
+      <data key="d0">MARK KENNY</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="14">
+      <data key="d0">THE SYDNEY MORNING HERALD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The Sydney Morning Herald is a newspaper where Elesa Kurtz works as a photographer</data>
+    </node>
+    <node id="15">
+      <data key="d0">ELESA KURTZ</data>
+      <data key="d1" />
+      <data key="d2">11.0</data>
+      <data key="d5" />
+    </node>
+    <node id="16">
+      <data key="d0">BRISBANE TIMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The Brisbane Times is a newspaper published in Brisbane, Australia</data>
+    </node>
+    <node id="17">
+      <data key="d0">AUSTRALIAN FINANCIAL REVIEW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">The Australian Financial Review is a business newspaper published in Australia</data>
+    </node>
+    <node id="18">
+      <data key="d0">NINE.COM.AU</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Nine.com.au is a news and media website operated by Nine Entertainment Co.</data>
+    </node>
+    <node id="19">
+      <data key="d0">DOMAIN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Domain is a real estate classifieds and property information website</data>
+    </node>
+    <node id="20">
+      <data key="d0">DRIVE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Drive is a motoring news and reviews website</data>
+    </node>
+    <node id="21">
+      <data key="d0">CLASSIFIEDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Classifieds is a section for classified advertisements</data>
+    </node>
+    <node id="22">
+      <data key="d0">CANBERRA TIMES</data>
+      <data key="d1" />
+      <data key="d2">13.0</data>
+      <data key="d5" />
+    </node>
+    <node id="23">
+      <data key="d0">BRISBANE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">13.0</data>
+      <data key="d5">Brisbane is the capital city of Queensland, Australia and where the Brisbane Times is published</data>
+    </node>
+    <node id="24">
+      <data key="d0">TRI-CITIES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Tri-Cities is a region where an election is taking place.</data>
+    </node>
+    <node id="25">
+      <data key="d0">CITY OF WEST RICHLAND</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">3.0</data>
+      <data key="d5">The City of West Richland is a municipality in Benton County, Washington</data>
+    </node>
+    <node id="26">
+      <data key="d0">NANCY ALDRICH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Nancy Aldrich is a candidate for West Richland City Council Position 1</data>
+    </node>
+    <node id="27">
+      <data key="d0">JOHN SMART</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">John Smart is a candidate for West Richland City Council Position 1</data>
+    </node>
+    <node id="28">
+      <data key="d0">KEN STOKER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Ken Stoker is a candidate for West Richland City Council Position 2</data>
+    </node>
+    <node id="29">
+      <data key="d0">DAVID COLE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">David Cole is a candidate for West Richland City Council Position 3</data>
+    </node>
+    <node id="30">
+      <data key="d0">ROBERT HARVEY PERKES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Robert Harvey Perkes is a candidate for West Richland City Council Position 3</data>
+    </node>
+    <node id="31">
+      <data key="d0">BRADEN SLOUGHTER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Braden Sloughter is a council member for the City of West Richland. He is currently a candidate for West Richland City Council Position 4.
+
+Sloughter has been serving on the West Richland City Council, representing the community in this role. As a council member, he has been involved in the decision-making processes and governance of the city. 
+
+In addition to his current council position, Sloughter is now running for West Richland City Council Position 4. This indicates that he is seeking re-election or a new term on the city council. As a candidate, Sloughter is likely campaigning and engaging with constituents to secure their support and votes in the upcoming election.
+
+Overall, Braden Sloughter is an active and involved member of the West Richland community, serving on the city council and now running for a council position. His dual roles as a current council member and a candidate for a council seat suggest that he is dedicated to continued public service and representation of the West Richland community.</data>
+    </node>
+    <node id="32">
+      <data key="d0">WEST RICHLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">3.0</data>
+      <data key="d5">West Richland is a city located in Benton County, Washington. It is one of the cities that makes up the Tri-Cities region, which also includes the cities of Richland, Kennewick, and Pasco.
+
+West Richland is situated in the southeastern part of Washington state, near the confluence of the Yakima and Columbia rivers. The city has a population of around 15,000 residents, making it a relatively small but growing community.
+
+The Tri-Cities region, of which West Richland is a part, is known for its strong economy, which is largely driven by the presence of the Hanford Site, a former nuclear production complex that is now a major center for environmental cleanup and research. The region is also home to several other major employers, including the Pacific Northwest National Laboratory, a leading research institution.
+
+In addition to its economic strengths, West Richland is also known for its natural beauty and outdoor recreation opportunities. The city is surrounded by rolling hills and vineyards, and is located near several state parks and wildlife refuges. Residents and visitors alike enjoy hiking, biking, and other outdoor activities in the area.
+
+Overall, West Richland is a thriving community that is an integral part of the larger Tri-Cities region. Its strong economy, natural beauty, and growing population make it an attractive place to live and work.</data>
+    </node>
+    <node id="33">
+      <data key="d0">RICHARD BLOOM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Richard Bloom is a council member for the City of West Richland</data>
+    </node>
+    <node id="34">
+      <data key="d0">MAY HAYS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">May Hays is the mayor of the City of West Richland</data>
+    </node>
+    <node id="35">
+      <data key="d0">FRED BRINK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">3.0</data>
+      <data key="d5">Fred Brink is a council member for the City of West Richland</data>
+    </node>
+    <node id="36">
+      <data key="d0">KENNEWICK WARD DISTRICT #1</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Kennewick Ward District #1 is a district within the city of Kennewick</data>
+    </node>
+    <node id="37">
+      <data key="d0">AUSTIN MILLER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Austin Miller is a council member for Kennewick Ward District #1</data>
+    </node>
+    <node id="38">
+      <data key="d0">TINA GREGORY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Tina Gregory is a council member for Kennewick Ward District #1</data>
+    </node>
+    <node id="39">
+      <data key="d0">JASON MCSHANE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">17.0</data>
+      <data key="d5">Jason McShane is a council member for Kennewick Ward District #1</data>
+    </node>
+    <node id="40">
+      <data key="d0">KENNEWICK WARD DISTRICT #2</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Kennewick Ward District #2 is a district within the city of Kennewick</data>
+    </node>
+    <node id="41">
+      <data key="d0">LOREN ANDERSON</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Loren Anderson is a council member for Kennewick Ward District #2</data>
+    </node>
+    <node id="42">
+      <data key="d0">WARREN HUGHS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Warren Hughs is a council member for Kennewick Ward District #3 and a candidate for Kennewick City Council Position 3 Ward 3. Based on the information provided, it appears that Warren Hughs currently holds a position on the Kennewick City Council, representing Ward District #3, and is also running for re-election to the same position.
+
+The descriptions indicate that Warren Hughs is an incumbent council member for Kennewick Ward District #3 and is seeking to retain his seat on the city council. As a council member, he is responsible for representing the interests of the constituents in his ward and contributing to the decision-making process for the city of Kennewick.
+
+Given that Warren Hughs is both a current council member and a candidate for the same position, it suggests that he is seeking to continue his service on the Kennewick City Council. The descriptions do not provide any additional details about his background, qualifications, or specific policy positions, but they do confirm his involvement in the local government and his commitment to serving the community.
+
+Overall, the summary indicates that Warren Hughs is a dedicated public servant who is actively engaged in the political process and is seeking to maintain his role on the Kennewick City Council. His candidacy for the same position he currently holds suggests that he is seeking to build on his existing experience and continue to contribute to the governance of the city.</data>
+    </node>
+    <node id="43">
+      <data key="d0">KENNEWICK</data>
+      <data key="d1">GEO</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Kennewick is a city located in the state of Washington. It is one of the cities that make up the Tri-Cities region, which also includes the cities of Pasco and Richland. The Tri-Cities region is situated along the Columbia River in southeastern Washington.
+
+Kennewick is a growing and thriving community, with a population of over 80,000 as of the latest census data. The city is known for its mild climate, with hot, dry summers and relatively mild winters. Kennewick is a hub for various industries, including agriculture, manufacturing, and technology.
+
+The city is home to a diverse range of attractions and amenities, including several parks, museums, and cultural centers. Kennewick's riverfront area is a popular destination for outdoor recreation, with opportunities for fishing, boating, and hiking along the Columbia River. The city also hosts several annual events and festivals, such as the Benton-Franklin Fair and the Tri-Cities Water Follies hydroplane races.
+
+Kennewick is a vibrant and dynamic community that offers a high quality of life for its residents. The city's strategic location, thriving economy, and abundance of recreational and cultural opportunities make it an attractive destination for both residents and visitors alike.</data>
+    </node>
+    <node id="44">
+      <data key="d0">JOHN TRUMBO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">John Trumbo is a candidate for Kennewick City Council Position 3 Ward 3</data>
+    </node>
+    <node id="45">
+      <data key="d0">GLORIA TYLER BAKER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Gloria Tyler Baker is a candidate for Kennewick City Council Position 4 At Large</data>
+    </node>
+    <node id="46">
+      <data key="d0">DANIELLE SCHUSTER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Danielle Schuster is a candidate for Kennewick City Council Position 4 At Large</data>
+    </node>
+    <node id="47">
+      <data key="d0">BRAD KLIPPERT</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">18.0</data>
+      <data key="d5">Brad Klippert is a candidate for Kennewick City Council Position 4 At Large</data>
+    </node>
+    <node id="48">
+      <data key="d0">RICHLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Richland is a city located in the state of Washington. It is one of the cities that make up the Tri-Cities region, which also includes the cities of Pasco and Kennewick. The Tri-Cities region is situated along the Columbia River in southeastern Washington.
+
+Richland is known for its role in the Manhattan Project during World War II, as it was the site of the Hanford Site, a nuclear production complex that played a crucial part in the development of the atomic bomb. Today, the Hanford Site is a major center for nuclear research and environmental cleanup efforts.
+
+The city of Richland has a population of around 55,000 residents, making it one of the larger cities in the Tri-Cities region. The local economy is heavily influenced by the presence of the Hanford Site, with many residents employed in the nuclear industry or in supporting businesses and services.
+
+Richland is known for its well-planned, modern layout, with wide streets and ample green spaces. The city is home to several parks, including the popular Columbia Point Marina Park, which offers scenic views of the Columbia River and the surrounding landscape.
+
+The city is also home to several educational institutions, including the Washington State University Tri-Cities campus, which offers a range of undergraduate and graduate programs. Richland is also known for its vibrant arts and cultural scene, with several museums, galleries, and performing arts venues.
+
+Overall, Richland is a thriving city that plays an important role in the Tri-Cities region, both economically and culturally. Its history, natural beauty, and commitment to education and innovation make it a unique and dynamic community in the state of Washington.</data>
+    </node>
+    <node id="49">
+      <data key="d0">ROBERT WALKO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Robert Walko is a candidate for Richland City Council Position 3</data>
+    </node>
+    <node id="50">
+      <data key="d0">PAT HOLTEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Pat Holten is a candidate for Richland City Council Position 3</data>
+    </node>
+    <node id="51">
+      <data key="d0">SANDRA KENT</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Sandra Kent is a candidate for Richland City Council Position 3</data>
+    </node>
+    <node id="52">
+      <data key="d0">JORDAN LEE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Jordan Lee is a candidate for Richland City Council Position 4</data>
+    </node>
+    <node id="53">
+      <data key="d0">JOHN MAIER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">John Maier is a candidate for Richland City Council Position 4</data>
+    </node>
+    <node id="54">
+      <data key="d0">DONALD LANDSMAN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Donald Landsman is a candidate for Richland City Council Position 4</data>
+    </node>
+    <node id="55">
+      <data key="d0">KYLE SALTZ</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Kyle Saltz is a candidate for Richland City Council Position 6</data>
+    </node>
+    <node id="56">
+      <data key="d0">KURT H MAIER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Kurt H Maier is a candidate for Richland City Council Position 6</data>
+    </node>
+    <node id="57">
+      <data key="d0">FIAIN UIR</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Fiain Uir is a candidate for Richland City Council Position 6</data>
+    </node>
+    <node id="58">
+      <data key="d0">JOSHUA SHORT</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Joshua Short is a candidate for Richland City Council Position 7</data>
+    </node>
+    <node id="59">
+      <data key="d0">TONY SANCHEZ</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Tony Sanchez is a candidate for Richland City Council Position 7</data>
+    </node>
+    <node id="60">
+      <data key="d0">KENNEWICK SCHOOL DISTRICT 17</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Kennewick School District 17 is a local school district</data>
+    </node>
+    <node id="61">
+      <data key="d0">MIKE LUZZO</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Mike Luzzo is a candidate for Kennewick School District 17 Director No. 1</data>
+    </node>
+    <node id="62">
+      <data key="d0">ROBERT FRANKLIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Robert Franklin is a candidate for Kennewick School District 17 Director No. 1</data>
+    </node>
+    <node id="63">
+      <data key="d0">MICAH VALENTINE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Micah Valentine is a candidate for Kennewick School District 17 Director No. 1</data>
+    </node>
+    <node id="64">
+      <data key="d0">NIC (NICOLAS) UHNAK</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Nic (Nicolas) Uhnak is a candidate for Kennewick School District 17 Director No. 2</data>
+    </node>
+    <node id="65">
+      <data key="d0">GABE GALBRAITH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">20.0</data>
+      <data key="d5">Gabe Galbraith is a candidate for Kennewick School District 17 Director No. 2</data>
+    </node>
+    <node id="66">
+      <data key="d0">FINLEY SCHOOL DISTRICT 53</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">19.0</data>
+      <data key="d5">Finley School District 53 is a local school district</data>
+    </node>
+    <node id="67">
+      <data key="d0">RORY BUSH</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">19.0</data>
+      <data key="d5">Rory Bush is a candidate for Finley School District 53 Director District 2</data>
+    </node>
+    <node id="68">
+      <data key="d0">CHRIS KNIGHTEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">19.0</data>
+      <data key="d5">Chris Knighten is a candidate for Finley School District 53 Director At-Large</data>
+    </node>
+    <node id="69">
+      <data key="d0">PASCO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">4.0</data>
+      <data key="d5">Pasco is one of the cities that makes up the Tri-Cities region</data>
+    </node>
+    <node id="70">
+      <data key="d0">TRI-CITIES VOTE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">4.0</data>
+      <data key="d5">The Tri-Cities Vote is a nonpartisan, community-driven collection of information to help voters in the Tri-Cities region decide on candidates and issues)&lt;|COMPLETE|&gt;Understood. Here is the output with additional entities and relationships extracted from the text:("entity"</data>
+    </node>
+    <node id="71">
+      <data key="d0">AUSTRALIAN COMMUNITY MEDIA</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">president Woden...</data>
+      <data key="d6">Fiona Carrick was the president of the Woden Valley Community Council before resigning to run as an independent candidate</data>
+    </edge>
+    <edge id="e1" source="0" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">running independent candidate...</data>
+      <data key="d6">Fiona Carrick is running as an independent candidate in the upcoming ACT election</data>
+    </edge>
+    <edge id="e2" source="0" target="2">
+      <data key="d3">8.0</data>
+      <data key="d4">running Murrumbidgee electorate,...</data>
+      <data key="d6">Fiona Carrick is running in the Murrumbidgee electorate, which is a key seat in the ACT election</data>
+    </edge>
+    <edge id="e3" source="0" target="3">
+      <data key="d3">7.0</data>
+      <data key="d4">raised questions about...</data>
+      <data key="d6">Fiona Carrick has raised questions about the decision-making process around the Woden CIT site</data>
+    </edge>
+    <edge id="e4" source="0" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">raised questions about...</data>
+      <data key="d6">Fiona Carrick has raised questions about the decision-making process around the SPIRE hospital expansion project</data>
+    </edge>
+    <edge id="e5" source="0" target="7">
+      <data key="d3">9.0</data>
+      <data key="d4">running election...</data>
+      <data key="d6">Fiona Carrick is running for election in the Canberra-based ACT Legislative Assembly</data>
+    </edge>
+    <edge id="e6" source="0" target="6">
+      <data key="d3">1.0</data>
+      <data key="d4">reported Fiona Carrick's...</data>
+      <data key="d6">The Canberra Times reported on Fiona Carrick's candidacy for the ACT election</data>
+    </edge>
+    <edge id="e7" source="5" target="7">
+      <data key="d3">8.0</data>
+      <data key="d4">Community Council represents...</data>
+      <data key="d6">The Woden Valley Community Council represents the local community in Canberra</data>
+    </edge>
+    <edge id="e8" source="7" target="8">
+      <data key="d3">8.0</data>
+      <data key="d4">high temperatures that...</data>
+      <data key="d6">Canberra is experiencing high temperatures that are causing difficulties</data>
+    </edge>
+    <edge id="e9" source="6" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">featured Canberra...</data>
+      <data key="d6">David Pope's cartoons are featured in The Canberra Times</data>
+    </edge>
+    <edge id="e10" source="6" target="9">
+      <data key="d3">1.0</data>
+      <data key="d4">owned media...</data>
+      <data key="d6">The Canberra Times is owned by the media company ACM</data>
+    </edge>
+    <edge id="e11" source="11" target="13">
+      <data key="d3">18.0</data>
+      <data key="d4">professor Australian...</data>
+      <data key="d6">Mark Kenny is a professor at the Australian National University's Australian Studies Institute.</data>
+    </edge>
+    <edge id="e12" source="12" target="13">
+      <data key="d3">18.0</data>
+      <data key="d4">Democracy Sausage podcast....</data>
+      <data key="d6">Mark Kenny hosts the Democracy Sausage podcast.</data>
+    </edge>
+    <edge id="e13" source="13" target="6">
+      <data key="d3">18.0</data>
+      <data key="d4">political analyst...</data>
+      <data key="d6">Mark Kenny is the political analyst for The Canberra Times newspaper.</data>
+    </edge>
+    <edge id="e14" source="14" target="15">
+      <data key="d3">18.0</data>
+      <data key="d4">photographer Sydney...</data>
+      <data key="d6">Elesa Kurtz is a photographer at The Sydney Morning Herald</data>
+    </edge>
+    <edge id="e15" source="7" target="15">
+      <data key="d3">2.0</data>
+      <data key="d4">photos tells stories...</data>
+      <data key="d6">Elesa Kurtz takes photos and tells stories about Canberra</data>
+    </edge>
+    <edge id="e16" source="16" target="22">
+      <data key="d3">7.0</data>
+      <data key="d4">Brisbane Times both...</data>
+      <data key="d6">The Canberra Times and Brisbane Times are both major newspapers in Australia</data>
+    </edge>
+    <edge id="e17" source="16" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">published city...</data>
+      <data key="d6">The Brisbane Times is published in the city of Brisbane, Australia</data>
+    </edge>
+    <edge id="e18" source="17" target="22">
+      <data key="d3">7.0</data>
+      <data key="d4">Australian Financial Review...</data>
+      <data key="d6">The Canberra Times and Australian Financial Review are both major newspapers in Australia</data>
+    </edge>
+    <edge id="e19" source="18" target="22">
+      <data key="d3">6.0</data>
+      <data key="d4">Nine.com.au both media...</data>
+      <data key="d6">The Canberra Times and Nine.com.au are both media properties in Australia</data>
+    </edge>
+    <edge id="e20" source="19" target="22">
+      <data key="d3">6.0</data>
+      <data key="d4">Domain both media...</data>
+      <data key="d6">The Canberra Times and Domain are both media properties in Australia</data>
+    </edge>
+    <edge id="e21" source="20" target="22">
+      <data key="d3">6.0</data>
+      <data key="d4">Drive both media...</data>
+      <data key="d6">The Canberra Times and Drive are both media properties in Australia</data>
+    </edge>
+    <edge id="e22" source="21" target="22">
+      <data key="d3">1.0</data>
+      <data key="d4">Classifieds both sections...</data>
+      <data key="d6">The Canberra Times and Classifieds are both sections of the same media ecosystem</data>
+    </edge>
+    <edge id="e23" source="22" target="7">
+      <data key="d3">9.0</data>
+      <data key="d4">published city...</data>
+      <data key="d6">The Canberra Times is published in the city of Canberra, Australia</data>
+    </edge>
+    <edge id="e24" source="24" target="15">
+      <data key="d3">6.0</data>
+      <data key="d4">candidate election...</data>
+      <data key="d6">Elesa Kurtz is a candidate in the election taking place in the Tri-Cities region</data>
+    </edge>
+    <edge id="e25" source="5" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">Woden Valley Community...</data>
+      <data key="d6">The president of the Woden Valley Community Council is running as an independent candidate</data>
+    </edge>
+    <edge id="e26" source="25" target="26">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate West Richland...</data>
+      <data key="d6">Nancy Aldrich is a candidate for West Richland City Council Position 1</data>
+    </edge>
+    <edge id="e27" source="25" target="27">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate West Richland...</data>
+      <data key="d6">John Smart is a candidate for West Richland City Council Position 1</data>
+    </edge>
+    <edge id="e28" source="25" target="28">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate West Richland...</data>
+      <data key="d6">Ken Stoker is a candidate for West Richland City Council Position 2</data>
+    </edge>
+    <edge id="e29" source="25" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate West Richland...</data>
+      <data key="d6">David Cole is a candidate for West Richland City Council Position 3</data>
+    </edge>
+    <edge id="e30" source="25" target="30">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate West...</data>
+      <data key="d6">Robert Harvey Perkes is a candidate for West Richland City Council Position 3</data>
+    </edge>
+    <edge id="e31" source="25" target="31">
+      <data key="d3">1.0</data>
+      <data key="d4">candidate West Richland...</data>
+      <data key="d6">Braden Sloughter is a candidate for West Richland City Council Position 4</data>
+    </edge>
+    <edge id="e32" source="25" target="32">
+      <data key="d3">10.0</data>
+      <data key="d4">West Richland local...</data>
+      <data key="d6">The City of West Richland is the local government for the city of West Richland, Washington. West Richland is a city located in Benton County, Washington, United States. The City of West Richland serves as the local government for the city, providing essential services and overseeing the administration and development of the community.
+
+West Richland is situated in the Tri-Cities region of southeastern Washington, which includes the cities of Richland, Kennewick, and Pasco. The city is known for its scenic natural surroundings, with the Yakima River and the Rattlesnake Mountains providing a picturesque backdrop. West Richland has a population of approximately 15,000 residents, making it a mid-sized city in the region.
+
+The City of West Richland is responsible for a wide range of municipal functions, including public safety, infrastructure maintenance, community development, and recreational services. The city government is led by an elected mayor and city council, who work together to address the needs and priorities of the local community.
+
+West Richland is recognized for its commitment to sustainable practices and environmental stewardship. The city has implemented various initiatives to promote renewable energy, water conservation, and waste reduction, reflecting its dedication to preserving the natural resources and quality of life for its residents.
+
+Overall, the City of West Richland serves as the local government for the city of West Richland, Washington, providing essential services and working to enhance the community's livability, economic prosperity, and environmental sustainability.</data>
+    </edge>
+    <edge id="e33" source="31" target="25">
+      <data key="d3">5.0</data>
+      <data key="d4">council member...</data>
+      <data key="d6">Braden Sloughter is a council member for the City of West Richland</data>
+    </edge>
+    <edge id="e34" source="33" target="25">
+      <data key="d3">5.0</data>
+      <data key="d4">council member...</data>
+      <data key="d6">Richard Bloom is a council member for the City of West Richland</data>
+    </edge>
+    <edge id="e35" source="34" target="25">
+      <data key="d3">5.0</data>
+      <data key="d4">mayor City...</data>
+      <data key="d6">May Hays is the mayor of the City of West Richland</data>
+    </edge>
+    <edge id="e36" source="35" target="25">
+      <data key="d3">5.0</data>
+      <data key="d4">council member...</data>
+      <data key="d6">Fred Brink is a council member for the City of West Richland</data>
+    </edge>
+    <edge id="e37" source="36" target="37">
+      <data key="d3">5.0</data>
+      <data key="d4">council member Kennewick...</data>
+      <data key="d6">Austin Miller is a council member for Kennewick Ward District #1</data>
+    </edge>
+    <edge id="e38" source="36" target="38">
+      <data key="d3">5.0</data>
+      <data key="d4">council member Kennewick...</data>
+      <data key="d6">Tina Gregory is a council member for Kennewick Ward District #1</data>
+    </edge>
+    <edge id="e39" source="36" target="39">
+      <data key="d3">5.0</data>
+      <data key="d4">council member Kennewick...</data>
+      <data key="d6">Jason McShane is a council member for Kennewick Ward District #1</data>
+    </edge>
+    <edge id="e40" source="36" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">district within...</data>
+      <data key="d6">Kennewick Ward District #1 is a district within the city of Kennewick</data>
+    </edge>
+    <edge id="e41" source="40" target="41">
+      <data key="d3">5.0</data>
+      <data key="d4">council member Kennewick...</data>
+      <data key="d6">Loren Anderson is a council member for Kennewick Ward District #2</data>
+    </edge>
+    <edge id="e42" source="40" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">district within...</data>
+      <data key="d6">Kennewick Ward District #2 is a district within the city of Kennewick</data>
+    </edge>
+    <edge id="e43" source="42" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Kennewick City...</data>
+      <data key="d6">Warren Hughs is a candidate for Kennewick City Council Position 3 Ward 3</data>
+    </edge>
+    <edge id="e44" source="44" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Kennewick City...</data>
+      <data key="d6">John Trumbo is a candidate for Kennewick City Council Position 3 Ward 3</data>
+    </edge>
+    <edge id="e45" source="45" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Kennewick...</data>
+      <data key="d6">Gloria Tyler Baker is a candidate for Kennewick City Council Position 4 At Large</data>
+    </edge>
+    <edge id="e46" source="46" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Kennewick City...</data>
+      <data key="d6">Danielle Schuster is a candidate for Kennewick City Council Position 4 At Large</data>
+    </edge>
+    <edge id="e47" source="47" target="43">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Kennewick City...</data>
+      <data key="d6">Brad Klippert is a candidate for Kennewick City Council Position 4 At Large</data>
+    </edge>
+    <edge id="e48" source="48" target="49">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Robert Walko is a candidate for Richland City Council Position 3</data>
+    </edge>
+    <edge id="e49" source="48" target="50">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Pat Holten is a candidate for Richland City Council Position 3</data>
+    </edge>
+    <edge id="e50" source="48" target="51">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Sandra Kent is a candidate for Richland City Council Position 3</data>
+    </edge>
+    <edge id="e51" source="48" target="52">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Jordan Lee is a candidate for Richland City Council Position 4</data>
+    </edge>
+    <edge id="e52" source="48" target="53">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">John Maier is a candidate for Richland City Council Position 4</data>
+    </edge>
+    <edge id="e53" source="48" target="54">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Donald Landsman is a candidate for Richland City Council Position 4</data>
+    </edge>
+    <edge id="e54" source="48" target="55">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Kyle Saltz is a candidate for Richland City Council Position 6</data>
+    </edge>
+    <edge id="e55" source="48" target="56">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland...</data>
+      <data key="d6">Kurt H Maier is a candidate for Richland City Council Position 6</data>
+    </edge>
+    <edge id="e56" source="48" target="57">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Fiain Uir is a candidate for Richland City Council Position 6</data>
+    </edge>
+    <edge id="e57" source="48" target="58">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Joshua Short is a candidate for Richland City Council Position 7</data>
+    </edge>
+    <edge id="e58" source="48" target="59">
+      <data key="d3">9.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Tony Sanchez is a candidate for Richland City Council Position 7</data>
+    </edge>
+    <edge id="e59" source="57" target="32">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Richland City...</data>
+      <data key="d6">Fiain Uir is a candidate for Richland City Council Position 6 and lives in West Richland</data>
+    </edge>
+    <edge id="e60" source="60" target="61">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Mike Luzzo is a candidate for Kennewick School District 17 Director No. 1</data>
+    </edge>
+    <edge id="e61" source="60" target="62">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Robert Franklin is a candidate for Kennewick School District 17 Director No. 1</data>
+    </edge>
+    <edge id="e62" source="60" target="63">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Micah Valentine is a candidate for Kennewick School District 17 Director No. 1</data>
+    </edge>
+    <edge id="e63" source="60" target="64">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick...</data>
+      <data key="d6">Nic (Nicolas) Uhnak is a candidate for Kennewick School District 17 Director No. 2</data>
+    </edge>
+    <edge id="e64" source="60" target="65">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Gabe Galbraith is a candidate for Kennewick School District 17 Director No. 2</data>
+    </edge>
+    <edge id="e65" source="61" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Mike Luzzo is a candidate for Kennewick School District</data>
+    </edge>
+    <edge id="e66" source="62" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Robert Franklin is a candidate for Kennewick School District</data>
+    </edge>
+    <edge id="e67" source="63" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Micah Valentine is a candidate for Kennewick School District</data>
+    </edge>
+    <edge id="e68" source="64" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick...</data>
+      <data key="d6">Nic (Nicolas) Uhnak is a candidate for Kennewick School District</data>
+    </edge>
+    <edge id="e69" source="65" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Kennewick School...</data>
+      <data key="d6">Gabe Galbraith is a candidate for Kennewick School District</data>
+    </edge>
+    <edge id="e70" source="66" target="67">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Finley School...</data>
+      <data key="d6">Rory Bush is a candidate for Finley School District 53 Director District 2</data>
+    </edge>
+    <edge id="e71" source="66" target="68">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Finley School...</data>
+      <data key="d6">Chris Knighten is a candidate for Finley School District 53 Director At-Large</data>
+    </edge>
+    <edge id="e72" source="67" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Finley School...</data>
+      <data key="d6">Rory Bush is a candidate for Finley School District</data>
+    </edge>
+    <edge id="e73" source="68" target="43">
+      <data key="d3">5.0</data>
+      <data key="d4">candidate Finley School...</data>
+      <data key="d6">Chris Knighten is a candidate for Finley School District</data>
+    </edge>
+    <edge id="e74" source="43" target="70">
+      <data key="d3">9.0</data>
+      <data key="d4">website provides information...</data>
+      <data key="d6">The Tri-Cities Vote website provides information to help voters in Kennewick</data>
+    </edge>
+    <edge id="e75" source="69" target="70">
+      <data key="d3">9.0</data>
+      <data key="d4">website provides information...</data>
+      <data key="d6">The Tri-Cities Vote website provides information to help voters in Pasco</data>
+    </edge>
+    <edge id="e76" source="48" target="70">
+      <data key="d3">9.0</data>
+      <data key="d4">website provides information...</data>
+      <data key="d6">The Tri-Cities Vote website provides information to help voters in Richland</data>
+    </edge>
+    <edge id="e77" source="32" target="70">
+      <data key="d3">1.0</data>
+      <data key="d4">website provides information...</data>
+      <data key="d6">The Tri-Cities Vote website provides information to help voters in West Richland</data>
+    </edge>
+    <edge id="e78" source="70" target="24">
+      <data key="d3">9.0</data>
+      <data key="d4">website provides information...</data>
+      <data key="d6">The Tri-Cities Vote website provides information to help voters in the Tri-Cities region</data>
+    </edge>
+    <edge id="e79" source="6" target="71">
+      <data key="d3">2.0</data>
+      <data key="d4">newspaper published...</data>
+      <data key="d6">The Canberra Times is a newspaper published by Australian Community Media, a media company that operates in Australia. The Canberra Times is one of the many publications under the Australian Community Media umbrella.
+
+Australian Community Media is a major player in the Australian media landscape, with a diverse portfolio of publications and digital platforms. The company has a strong presence in regional and rural areas, catering to the information needs of communities across the country.
+
+The Canberra Times, as one of Australian Community Media's flagship publications, has a long and storied history. Established in 1926, the newspaper has been a trusted source of news and information for the people of Canberra and the surrounding region for decades. It covers a wide range of topics, including local, national, and international news, as well as sports, entertainment, and lifestyle content.
+
+The Canberra Times is known for its high-quality journalism and its commitment to providing accurate and unbiased reporting. The newspaper's team of experienced journalists and editors work tirelessly to ensure that the information they present to their readers is reliable and up-to-date.
+
+In addition to its print edition, The Canberra Times also has a strong online presence, with a website and mobile app that allow readers to access the latest news and information on the go. The newspaper's digital platforms also offer a range of multimedia content, including videos, podcasts, and interactive features.
+
+Overall, The Canberra Times and Australian Community Media play a vital role in the Australian media landscape, providing essential news and information to communities across the country. The company's commitment to quality journalism and its diverse portfolio of publications make it a key player in the industry.</data>
+    </edge>
+  </graph>
+</graphml>

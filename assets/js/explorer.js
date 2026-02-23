@@ -162,6 +162,9 @@
     renderCommunities(row);
     renderSources(row);
     renderJudges(row);
+    if (typeof window.loadGraphForKeyTerms === "function") {
+      window.loadGraphForKeyTerms(row.key_terms);
+    }
   }
 
   function buildQaList() {

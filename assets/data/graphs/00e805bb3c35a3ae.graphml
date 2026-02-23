@@ -1,0 +1,2015 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">U.S. ENVIRONMENTAL PROTECTION AGENCY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The U.S. Environmental Protection Agency collaborates with the U.S. Forest Service on the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="1">
+      <data key="d0">INTERAGENCY WILDLAND FIRE AIR QUALITY RESPONSE PROGRAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The Interagency Wildland Fire Air Quality Response Program, led by the U.S. Forest Service, collaborates with the EPA on the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="2">
+      <data key="d0">RON EVANS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Ron Evans from the EPA leads the collaborative effort on the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="3">
+      <data key="d0">PETE LAHM</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Pete Lahm from the U.S. Forest Service leads the Interagency Wildland Fire Air Quality Response Program</data>
+    </node>
+    <node id="4">
+      <data key="d0">SIM LARKIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">27.0</data>
+      <data key="d5">Sim Larkin from the U.S. Forest Service led the development work on the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="5">
+      <data key="d0">KAROLINE BARKJOHN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Karoline Barkjohn from the EPA led the correction equation work for the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="6">
+      <data key="d0">U.S. FOREST SERVICE</data>
+      <data key="d1" />
+      <data key="d2">27.0</data>
+      <data key="d5" />
+    </node>
+    <node id="7">
+      <data key="d0">WESTERN REGIONAL CLIMATE CENTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The Western Regional Climate Center provides data used in the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="8">
+      <data key="d0">AIRSYS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">AirSys provides data used in the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="9">
+      <data key="d0">PURPLE AIR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">PurpleAir provides monitoring and sensor data used in the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="10">
+      <data key="d0">NOAA HAZARD MAPPING SYSTEM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">The NOAA Hazard Mapping System provides fire and smoke plume information used in the AirNow Fire and Smoke Map</data>
+    </node>
+    <node id="11">
+      <data key="d0">NATIONAL INTERAGENCY FIRE CENTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center (NIFC) is an interagency support center that coordinates and supports wildland firefighting and prevention efforts across the United States. It serves as a hub for various federal and state agencies involved in managing and responding to wildfires.
+
+The NIFC plays a crucial role in providing fire and smoke plume information that is used in the AirNow Fire and Smoke Map. This map is a valuable resource for the public, providing real-time data on the location and intensity of wildfires, as well as the associated smoke patterns. By consolidating and disseminating this information, the NIFC helps to enhance public awareness and safety during wildfire events.
+
+As an interagency center, the NIFC coordinates the efforts of multiple organizations, including the U.S. Forest Service, the Bureau of Land Management, the National Park Service, the Bureau of Indian Affairs, the U.S. Fish and Wildlife Service, and state forestry agencies. This collaborative approach allows for a more efficient and effective response to wildland fires, ensuring that resources and expertise are shared and utilized effectively.
+
+The NIFC's responsibilities extend beyond just coordinating firefighting efforts. It also plays a significant role in wildfire prevention and mitigation strategies. This includes developing and implementing policies, training programs, and public education campaigns to help reduce the risk and impact of wildfires.
+
+Overall, the National Interagency Fire Center is a critical component of the nation's wildfire management infrastructure. By providing centralized coordination, information sharing, and support for firefighting and prevention efforts, the NIFC helps to protect communities, natural resources, and the environment from the devastating effects of wildfires.</data>
+    </node>
+    <node id="12">
+      <data key="d0">AIRNOW</data>
+      <data key="d1" />
+      <data key="d2">26.0</data>
+      <data key="d5" />
+    </node>
+    <node id="13">
+      <data key="d0">PALMERTON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">32.0</data>
+      <data key="d5">Palmerton is a community located in Pennsylvania, United States. The town is known for the Palmerton Zinc Pile Superfund site, a contaminated area that has been the focus of environmental cleanup efforts by the U.S. Environmental Protection Agency (EPA).
+
+The Palmerton Zinc Pile Superfund site is a legacy of the town's industrial past. For decades, the nearby New Jersey Zinc Company operated smelting facilities in Palmerton, which resulted in the accumulation of heavy metals, such as zinc, cadmium, and lead, in the surrounding soil and vegetation. This contamination has had significant environmental and public health impacts on the local community.
+
+To address the Superfund site, the EPA has been actively involved in Palmerton. The agency has hosted public meetings to engage with the community and provide updates on the ongoing cleanup efforts. These meetings have served as a platform for the EPA to share information, gather feedback, and collaborate with local residents and stakeholders to ensure the effective remediation of the contaminated area.
+
+The EPA's involvement in Palmerton is part of its broader mission to identify, investigate, and clean up hazardous waste sites across the United States. The Superfund program, established by the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), provides the legal and financial framework for the EPA to address these environmental challenges.
+
+Through the Superfund program, the EPA has been working to assess the extent of the contamination, develop and implement appropriate cleanup strategies, and monitor the long-term effectiveness of the remediation efforts in Palmerton. This work is crucial in protecting the health and well-being of the local community and restoring the environmental integrity of the affected area.
+
+In summary, Palmerton, Pennsylvania is a community that has been significantly impacted by the legacy of industrial pollution, particularly the Palmerton Zinc Pile Superfund site. The EPA has been actively engaged in the town, hosting public meetings and leading the cleanup efforts to address the environmental and public health concerns associated with the contaminated site. The agency's work in Palmerton is part of its broader mission to identify and remediate hazardous waste sites across the United States, ensuring a safer and healthier environment for all.</data>
+    </node>
+    <node id="14">
+      <data key="d0">PALMERTON MUNICIPAL AUTHORITY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">The Palmerton Municipal Authority is the local water system that has been impacted by PFAS contamination</data>
+    </node>
+    <node id="15">
+      <data key="d0">PENNSYLVANIA DEPARTMENT OF ENVIRONMENTAL PROTECTION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Pennsylvania Department of Environmental Protection has been working with the EPA to address the PFAS contamination in Palmerton's drinking water</data>
+    </node>
+    <node id="16">
+      <data key="d0">ATSDR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The U.S. Agency for Toxic Substances Disease Registry is participating in the public meeting to provide information</data>
+    </node>
+    <node id="17">
+      <data key="d0">PENNSYLVANIA DEPARTMENT OF HEALTH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Pennsylvania Department of Health is participating in the public meeting to provide information</data>
+    </node>
+    <node id="18">
+      <data key="d0">EPA</data>
+      <data key="d1" />
+      <data key="d2">32.0</data>
+      <data key="d5" />
+    </node>
+    <node id="19">
+      <data key="d0">PFAS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS (Per- and Polyfluoroalkyl Substances) are a group of manufactured chemicals that have been used in industry and consumer products since the 1940s. These chemicals have been found to contaminate the drinking water in Palmerton.
+
+PFAS are a group of man-made chemicals that have been used in a variety of industries and consumer products for decades. They are known for their ability to repel water, oil, stains, grease, and heat, making them useful in the production of items like non-stick cookware, water-resistant clothing, and firefighting foams.
+
+However, the widespread use of PFAS has led to their widespread environmental contamination. PFAS have been detected in the drinking water of many communities, including Palmerton, where they have been found to be present. This is a significant concern, as PFAS have been linked to a variety of health issues, including thyroid disease, high cholesterol, and certain types of cancer.
+
+The presence of PFAS in the drinking water of Palmerton is particularly troubling, as these chemicals can persist in the environment for a long time and can accumulate in the human body over time. Exposure to PFAS through contaminated drinking water can have serious health consequences, and it is important that steps are taken to address this issue.
+
+Overall, PFAS are a group of chemicals that have been widely used in industry and consumer products, but their widespread environmental contamination has led to significant health concerns. The presence of PFAS in the drinking water of Palmerton is a serious issue that requires attention and action to protect the health and well-being of the community.</data>
+    </node>
+    <node id="20">
+      <data key="d0">PFOS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">31.0</data>
+      <data key="d5">Perfluorooctane Sulfonate (PFOS) is a type of per- and polyfluoroalkyl substance (PFAS), which are a group of man-made chemicals that have been widely used in various industries and consumer products since the 1950s. PFOS is one of the most widely used and studied PFAS chemicals.
+
+PFOS is a synthetic chemical that is highly persistent in the environment and can accumulate in the human body over time. It has been detected in the drinking water of Palmerton, a town located in Pennsylvania, at levels above the federal limits set by the United States Environmental Protection Agency (EPA).
+
+PFOS is a fluorinated organic compound that is resistant to heat, water, and oil. It has been used in a variety of applications, including firefighting foams, stain-resistant coatings for fabrics and carpets, food packaging, and various industrial processes. Due to its widespread use and persistence in the environment, PFOS has been found in the blood of nearly all Americans, as well as in wildlife and the environment around the world.
+
+The presence of PFOS in Palmerton's drinking water is a concern for the health of the local community. Exposure to PFOS has been linked to a range of health effects, including liver damage, thyroid disease, reproductive and developmental problems, and certain types of cancer. The EPA has set a health advisory level for PFOS in drinking water, which is intended to provide a margin of protection for the most sensitive populations, such as pregnant women and young children.
+
+To address the PFOS contamination in Palmerton's drinking water, local authorities and environmental agencies are working to identify the sources of the contamination and implement appropriate remediation measures. This may involve the installation of water treatment systems, the cleanup of contaminated sites, and the regulation of PFOS and other PFAS chemicals in the environment.
+
+Overall, PFOS is a persistent and widespread PFAS chemical that poses a significant threat to human health and the environment. The detection of PFOS in Palmerton's drinking water highlights the need for continued research, regulation, and remediation efforts to address the growing PFAS contamination problem in communities across the United States and around the world.</data>
+    </node>
+    <node id="21">
+      <data key="d0">PFOA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">Perfluorooctanoic Acid (PFOA) is one of the most widely used and studied per- and polyfluoroalkyl substances (PFAS) chemicals. PFOA is a type of PFAS that has been detected in Palmerton's drinking water above federal limits.
+
+PFOA is a synthetic chemical that has been used in a variety of industrial and consumer products since the 1940s. It is known for its ability to repel water, oil, stains, grease, and heat, making it a useful ingredient in products like non-stick cookware, water-resistant clothing, and firefighting foams.
+
+Despite its widespread use, PFOA has become a significant environmental and public health concern in recent years. Studies have shown that PFOA can persist in the environment for a long time and can accumulate in the human body, leading to potential health effects.
+
+Exposure to PFOA has been linked to a range of health issues, including increased cholesterol levels, changes in liver enzymes, decreased vaccine response in children, and increased risk of certain types of cancer, such as kidney and testicular cancer. Additionally, PFOA has been detected in the blood of nearly all Americans, indicating widespread exposure.
+
+In response to these concerns, the U.S. Environmental Protection Agency (EPA) has set a health advisory level for PFOA in drinking water at 70 parts per trillion (ppt). This means that if PFOA levels in drinking water exceed 70 ppt, the EPA recommends taking action to reduce exposure.
+
+In the case of Palmerton, PFOA has been detected in the local drinking water supply at levels above the federal limit. This is a significant concern for the community, as it means that residents may be exposed to elevated levels of PFOA through their drinking water.
+
+To address this issue, local authorities and water utilities are working to identify the source of the PFOA contamination and implement appropriate treatment and remediation measures to ensure that the drinking water meets federal standards. Additionally, public health officials are providing guidance to residents on ways to reduce their exposure to PFOA, such as using alternative water sources or installing home water filtration systems.
+
+Overall, the presence of PFOA in Palmerton's drinking water is a complex and concerning issue that requires a comprehensive and coordinated response from local, state, and federal authorities to protect the health and well-being of the community.</data>
+    </node>
+    <node id="22">
+      <data key="d0">PALMERTON ZINC PILE</data>
+      <data key="d1" />
+      <data key="d2">30.0</data>
+      <data key="d5" />
+    </node>
+    <node id="23">
+      <data key="d0">BIDEN ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The Biden Administration is the current presidential administration in the United States, led by President Joe Biden. The descriptions provided are consistent and provide a clear overview of the Biden Administration.
+
+The Biden Administration refers to the executive branch of the United States government under the leadership of President Joe Biden, who assumed office on January 20, 2021. As the 46th President of the United States, Biden and his administration are responsible for the day-to-day operations of the federal government, including the implementation of policies, the appointment of key government officials, and the management of domestic and foreign affairs.
+
+The Biden Administration is tasked with addressing a wide range of pressing issues facing the country, including the ongoing COVID-19 pandemic, the economic recovery, climate change, racial justice, and foreign policy challenges. Since taking office, the Biden Administration has taken several actions, such as issuing executive orders, proposing legislative initiatives, and engaging in diplomatic efforts, to address these and other priorities.
+
+Overall, the Biden Administration represents the current leadership of the United States government, with President Joe Biden at the helm. The administration is responsible for guiding the country through a complex set of challenges and opportunities, with the goal of serving the best interests of the American people.</data>
+    </node>
+    <node id="24">
+      <data key="d0">LEE ZELDIN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Lee Zeldin is the current Administrator of the US Environmental Protection Agency (EPA), appointed to the position under the Trump administration. In this role, Zeldin is leading the agency's response to the ongoing wildfires affecting various regions of the United States.
+
+As the EPA Administrator, Zeldin is responsible for overseeing the federal government's efforts to protect human health and the environment. This includes implementing and enforcing environmental laws and regulations, as well as coordinating with state and local authorities on environmental issues.
+
+During his tenure, Zeldin has been tasked with addressing the challenges posed by the wildfires, which have been exacerbated by factors such as climate change and drought. In this capacity, he has been working to ensure that the EPA is providing the necessary resources and support to communities affected by the fires, including air quality monitoring, emergency response, and long-term recovery efforts.
+
+Zeldin's leadership during this crisis has been crucial, as the wildfires have had a significant impact on public health and the environment. The EPA, under his guidance, has been working to mitigate the effects of the fires, including by providing guidance on air quality and safety measures for residents in affected areas.
+
+Overall, Lee Zeldin's role as the EPA Administrator has been instrumental in the agency's response to the ongoing wildfires. His experience and expertise in environmental policy and management have been invaluable in guiding the EPA's efforts to protect the health and well-being of communities across the country.</data>
+    </node>
+    <node id="25">
+      <data key="d0">PRESIDENT TRUMP</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Donald Trump is the former President of the United States. During his presidency, he appointed Lee Zeldin as the Administrator of the Environmental Protection Agency (EPA). 
+
+President Trump also issued an Executive Order titled "Empowering Commonsense Wildfire Prevention and Response," which the EPA is currently acting on. This order likely aimed to address issues related to wildfires and the agency's role in prevention and response efforts.
+
+Overall, the provided descriptions indicate that President Trump had a direct influence on the leadership and actions of the EPA during his time in office. He appointed a specific individual to lead the agency and also directed the EPA to implement policies and initiatives through an executive order. This suggests that the former president played a significant role in shaping the EPA's priorities and activities during his administration.</data>
+    </node>
+    <node id="26">
+      <data key="d0">US EPA</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">PRESIDENT BIDEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">15.0</data>
+      <data key="d5">Joe Biden is the current President of the United States</data>
+    </node>
+    <node id="28">
+      <data key="d0">ANIMAL TESTING</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The EPA has a goal of eliminating mammalian animal testing by 2035</data>
+    </node>
+    <node id="29">
+      <data key="d0">DRINKING WATER</data>
+      <data key="d1">GEO</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can be present in public drinking water systems and private drinking water wells</data>
+    </node>
+    <node id="30">
+      <data key="d0">SOIL AND WATER</data>
+      <data key="d1">GEO</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can be present in soil and water at or near waste sites, landfills, disposal sites, and hazardous waste sites</data>
+    </node>
+    <node id="31">
+      <data key="d0">FIRE EXTINGUISHING FOAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">Aqueous film-forming foams (AFFFs) used to extinguish flammable liquid-based fires can contain PFAS</data>
+    </node>
+    <node id="32">
+      <data key="d0">MANUFACTURING OR CHEMICAL PRODUCTION FACILITIES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">Facilities that produce or use PFAS, such as chrome plating, electronics, and certain textile and paper manufacturers, can be sources of PFAS</data>
+    </node>
+    <node id="33">
+      <data key="d0">FOOD</data>
+      <data key="d1">GEO</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can be present in fish caught from contaminated water and dairy products from livestock exposed to PFAS</data>
+    </node>
+    <node id="34">
+      <data key="d0">FOOD PACKAGING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can be present in grease-resistant paper, fast food containers/wrappers, microwave popcorn bags, pizza boxes, and candy wrappers</data>
+    </node>
+    <node id="35">
+      <data key="d0">HOUSEHOLD PRODUCTS AND DUST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can be present in stain and water-repellent used on carpets, upholstery, clothing, and other fabrics, cleaning products, non-stick cookware, paints, varnishes, and sealants</data>
+    </node>
+    <node id="36">
+      <data key="d0">PERSONAL CARE PRODUCTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can be present in certain shampoo, dental floss, and cosmetics</data>
+    </node>
+    <node id="37">
+      <data key="d0">BIOSOLIDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">30.0</data>
+      <data key="d5">Fertilizer from wastewater treatment plants that is used on agricultural lands can contain PFAS</data>
+    </node>
+    <node id="38">
+      <data key="d0">HUMAN HEALTH</data>
+      <data key="d1">GEO</data>
+      <data key="d2">30.0</data>
+      <data key="d5">Exposure to certain PFAS may lead to adverse health outcomes in humans</data>
+    </node>
+    <node id="39">
+      <data key="d0">ENVIRONMENT</data>
+      <data key="d1">GEO</data>
+      <data key="d2">30.0</data>
+      <data key="d5">PFAS can persist and accumulate in the environment over time</data>
+    </node>
+    <node id="40">
+      <data key="d0">CENTERS FOR DISEASE CONTROL AND PREVENTION</data>
+      <data key="d1" />
+      <data key="d2">30.0</data>
+      <data key="d5" />
+    </node>
+    <node id="41">
+      <data key="d0">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Agency for Toxic Substances and Disease Registry is a federal agency that provides information about PFAS and their health effects</data>
+    </node>
+    <node id="42">
+      <data key="d0">NATIONAL INSTITUTES OF HEALTH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The National Institutes of Health is a federal agency that funds research on PFAS and their health impacts</data>
+    </node>
+    <node id="43">
+      <data key="d0">FOOD AND DRUG ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Food and Drug Administration is a federal agency that regulates PFAS in food and consumer products</data>
+    </node>
+    <node id="44">
+      <data key="d0">U.S. DEPARTMENT OF DEFENSE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The U.S. Department of Defense is involved in addressing PFAS contamination on military bases</data>
+    </node>
+    <node id="45">
+      <data key="d0">ASSOCIATION OF STATE DRINKING WATER ADMINISTRATORS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Association of State Drinking Water Administrators provides information to states on regulating PFAS in drinking water</data>
+    </node>
+    <node id="46">
+      <data key="d0">INTERSTATE TECHNOLOGY AND REGULATORY COUNCIL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Interstate Technology and Regulatory Council develops guidance for states on PFAS investigation and cleanup</data>
+    </node>
+    <node id="47">
+      <data key="d0">ENVIRONMENTAL COUNCIL OF THE STATES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Environmental Council of the States represents state environmental agencies on PFAS issues</data>
+    </node>
+    <node id="48">
+      <data key="d0">ENVIRONMENTAL RESEARCH INSTITUTE OF THE STATES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Environmental Research Institute of the States conducts research to support state PFAS policies</data>
+    </node>
+    <node id="49">
+      <data key="d0">PREGNANT AND LACTATING WOMEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">30.0</data>
+      <data key="d5">Pregnant and lactating women may have higher exposure to PFAS due to increased water intake per pound of body weight</data>
+    </node>
+    <node id="50">
+      <data key="d0">CHILDREN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">28.0</data>
+      <data key="d5">Children are a vulnerable population when it comes to environmental health risks. According to the provided data, children and teenagers are at an increased risk from wildland fire smoke. This is likely due to their developing respiratory systems and higher rates of physical activity, which can lead to greater exposure to harmful particulates and gases.
+
+Additionally, children may be more sensitive to the harmful effects of per- and polyfluoroalkyl substances (PFAS), a group of synthetic chemicals found in various consumer products. Children have higher exposure to PFAS due to their behaviors, such as crawling and mouthing objects, which can increase their intake of these chemicals.
+
+The comprehensive summary of the data provided indicates that children face multiple environmental health challenges. They are more susceptible to the negative impacts of wildland fire smoke, which can exacerbate respiratory issues and lead to other health problems. Furthermore, children's unique behaviors and developing bodies make them more vulnerable to the harmful effects of PFAS exposure.
+
+It is crucial that policymakers, public health officials, and caregivers prioritize the protection of children from these environmental hazards. Measures such as improving air quality during wildfire events, reducing PFAS use in consumer products, and educating families on exposure reduction strategies can help mitigate the risks faced by this vulnerable population.
+
+By addressing these environmental health concerns, we can ensure that children have the opportunity to grow and thrive in a safe and healthy environment.</data>
+    </node>
+    <node id="51">
+      <data key="d0">OBAMA-BIDEN ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The previous Obama-Biden administration had a different approach to the Exceptional Events rulemaking that the Trump EPA is now revisiting</data>
+    </node>
+    <node id="52">
+      <data key="d0">PRESCRIBED FIRES</data>
+      <data key="d1" />
+      <data key="d2">32.0</data>
+      <data key="d5" />
+    </node>
+    <node id="53">
+      <data key="d0">MAUI</data>
+      <data key="d1">GEO</data>
+      <data key="d2">32.0</data>
+      <data key="d5">EPA Administrator Zeldin traveled to Maui, Hawaii as part of EPA's response to recent catastrophic wildfires</data>
+    </node>
+    <node id="54">
+      <data key="d0">CLEAN AIR ACT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The Clean Air Act allows prescribed fires to be treated as exceptional events</data>
+    </node>
+    <node id="55">
+      <data key="d0">NATIONAL AMBIENT AIR QUALITY STANDARDS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">Prescribed fires do not need to be taken into account when determining if an area meets National Ambient Air Quality Standards</data>
+    </node>
+    <node id="56">
+      <data key="d0">LOS ANGELES</data>
+      <data key="d1" />
+      <data key="d2">32.0</data>
+      <data key="d5" />
+    </node>
+    <node id="57">
+      <data key="d0">AIRNOW FIRE AND SMOKE MAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">A tool developed by the EPA and U.S. Forest Service to display information on fire locations, smoke plumes, real-time air quality, and smoke outlooks</data>
+    </node>
+    <node id="58">
+      <data key="d0">AIR QUALITY INDEX (AQI)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">EPA's color-coded tool for communicating about outdoor air quality and health</data>
+    </node>
+    <node id="59">
+      <data key="d0">WHY IS COCO RED?</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">26.0</data>
+      <data key="d5">A children's picture book developed by the EPA to explain how wildfires impact air quality and health</data>
+    </node>
+    <node id="60">
+      <data key="d0">WILDLAND FIRES</data>
+      <data key="d1" />
+      <data key="d2">28.0</data>
+      <data key="d5" />
+    </node>
+    <node id="61">
+      <data key="d0">LUNG DISEASE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">28.0</data>
+      <data key="d5">People with lung disease are at increased risk from wildland fire smoke</data>
+    </node>
+    <node id="62">
+      <data key="d0">OLDER ADULTS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">28.0</data>
+      <data key="d5">Older adults are at increased risk from wildland fire smoke</data>
+    </node>
+    <node id="63">
+      <data key="d0">PREGNANT WOMEN</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Pregnant Women
+
+Pregnant women are a group that should be protected during a wildfire smoke event. They may be at greater risk of health impacts from wildland fire smoke. Exposure to wildfire smoke can be particularly concerning for pregnant women, as it can potentially affect the health and development of the fetus.
+
+Wildfire smoke contains a complex mixture of particulate matter, gases, and other pollutants that can be harmful to human health. Pregnant women may be more susceptible to the negative effects of these pollutants due to the physiological changes that occur during pregnancy. For example, the increased blood volume and respiratory rate during pregnancy can lead to greater absorption and exposure to the harmful components of wildfire smoke.
+
+Studies have shown that exposure to wildfire smoke during pregnancy can be associated with adverse birth outcomes, such as low birth weight, preterm birth, and stillbirth. Additionally, there is evidence that exposure to wildfire smoke may increase the risk of gestational diabetes, preeclampsia, and other pregnancy-related complications.
+
+To protect pregnant women during a wildfire smoke event, it is important to take precautions such as staying indoors, using air purifiers, and limiting outdoor activities. Healthcare providers should also be aware of the potential risks and provide guidance to their pregnant patients on how to minimize exposure and manage any health concerns that may arise.
+
+In summary, pregnant women are a vulnerable population that should be prioritized during wildfire smoke events. By understanding the potential health impacts and taking appropriate measures to reduce exposure, healthcare professionals and public health authorities can help ensure the well-being of pregnant women and their unborn children.</data>
+    </node>
+    <node id="64">
+      <data key="d0">HEART DISEASE</data>
+      <data key="d1" />
+      <data key="d2">28.0</data>
+      <data key="d5" />
+    </node>
+    <node id="65">
+      <data key="d0">PORTABLE AIR CLEANER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Using a portable air cleaner in individual rooms is an effective way to protect indoor air quality during a wildfire smoke event</data>
+    </node>
+    <node id="66">
+      <data key="d0">CENTRAL HEAT OR AIR CONDITIONING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Installing a high-efficiency filter and running the system's fan can help filter outdoor air during a wildfire smoke event</data>
+    </node>
+    <node id="67">
+      <data key="d0">DIY AIR CLEANER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">A do-it-yourself air cleaner made by attaching a furnace filter to a box fan can serve as a temporary alternative to commercial air cleaners</data>
+    </node>
+    <node id="68">
+      <data key="d0">WILDLAND FIRE SMOKE</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="69">
+      <data key="d0">CHILDREN UP TO 18 YEARS OF AGE</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Children up to 18 years of age are a group that should be protected during a wildfire smoke event</data>
+    </node>
+    <node id="70">
+      <data key="d0">ADULTS AGED 65 OR OLDER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Adults aged 65 or older are a group that should be protected during a wildfire smoke event</data>
+    </node>
+    <node id="71">
+      <data key="d0">PEOPLE WITH CHRONIC DISEASES</data>
+      <data key="d1" />
+      <data key="d2">2.0</data>
+      <data key="d5" />
+    </node>
+    <node id="72">
+      <data key="d0">ENVIRONMENTAL PROTECTION AGENCY</data>
+      <data key="d1" />
+      <data key="d2">26.0</data>
+      <data key="d5" />
+    </node>
+    <node id="73">
+      <data key="d0">NATIONAL FIRE NEWS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">National Fire News is a resource provided by the National Interagency Fire Center.</data>
+    </node>
+    <node id="74">
+      <data key="d0">NATIONAL FIRE YEAR THEMES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">National Fire Year Themes are annual themes recognized by the National Interagency Fire Center.</data>
+    </node>
+    <node id="75">
+      <data key="d0">PREPAREDNESS LEVELS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Preparedness Levels are a system used by the National Interagency Fire Center to indicate the national wildfire situation.</data>
+    </node>
+    <node id="76">
+      <data key="d0">INTERNATIONAL SUPPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center coordinates international support for wildfire management.</data>
+    </node>
+    <node id="77">
+      <data key="d0">MILITARY SUPPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center coordinates military support for wildfire suppression.</data>
+    </node>
+    <node id="78">
+      <data key="d0">MEDIA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center provides information and resources for media outlets.</data>
+    </node>
+    <node id="79">
+      <data key="d0">FIRE PREVENTION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center promotes fire prevention efforts.</data>
+    </node>
+    <node id="80">
+      <data key="d0">INCIWEB</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">InciWeb is an interagency all-risk incident information management system operated by the National Interagency Fire Center.</data>
+    </node>
+    <node id="81">
+      <data key="d0">MAPS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center provides various wildland fire maps and data.</data>
+    </node>
+    <node id="82">
+      <data key="d0">NEWS RELEASES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center publishes news releases on wildland fire topics.</data>
+    </node>
+    <node id="83">
+      <data key="d0">SITUATION REPORT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The Situation Report is a resource provided by the National Interagency Fire Center with information on current wildfire activity.</data>
+    </node>
+    <node id="84">
+      <data key="d0">STATISTICS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center collects and publishes statistics on wildland fires.</data>
+    </node>
+    <node id="85">
+      <data key="d0">NATIONAL WILDLAND FIREFIGHTER DAY</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="86">
+      <data key="d0">NATIONAL INTERAGENCY COORDINATION CENTER</data>
+      <data key="d1" />
+      <data key="d2">18.0</data>
+      <data key="d5" />
+    </node>
+    <node id="87">
+      <data key="d0">PUBLIC INFORMATION OFFICER BULLETIN BOARD</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="88">
+      <data key="d0">DEPARTMENT OF THE INTERIOR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The Department of the Interior is the federal agency that oversees the National Interagency Fire Center.</data>
+    </node>
+    <node id="89">
+      <data key="d0">WILDLAND FIRE OPEN DATA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">Wildland Fire Open Data is a data portal provided by the National Interagency Fire Center that offers interactive maps and downloadable data on historical fire perimeters.</data>
+    </node>
+    <node id="90">
+      <data key="d0">ENTERPRISE GEOSPATIAL PORTAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The Enterprise Geospatial Portal is a platform provided by the National Interagency Fire Center that offers various maps and data related to wildland fires.</data>
+    </node>
+    <node id="91">
+      <data key="d0">U.S. DROUGHT MONITOR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The U.S. Drought Monitor is a resource provided by the National Interagency Fire Center.</data>
+    </node>
+    <node id="92">
+      <data key="d0">NATIONAL WILDLAND FIRE OUTLOOKS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center publishes national wildland fire outlooks.</data>
+    </node>
+    <node id="93">
+      <data key="d0">CURRENT LARGE WILDFIRE MAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center provides a current map of large wildfires.</data>
+    </node>
+    <node id="94">
+      <data key="d0">INCIDENT MANAGEMENT SITUATION REPORT MAP</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">7.0</data>
+      <data key="d5">The National Interagency Fire Center publishes an incident management situation report map.</data>
+    </node>
+    <node id="95">
+      <data key="d0">NATIONAL FIRE WEATHER FORECASTS</data>
+      <data key="d1" />
+      <data key="d2">7.0</data>
+      <data key="d5" />
+    </node>
+    <node id="96">
+      <data key="d0">EATON FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">32.0</data>
+      <data key="d5">A wildfire that impacted 3,636 properties in Los Angeles County</data>
+    </node>
+    <node id="97">
+      <data key="d0">PALISADES FIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">32.0</data>
+      <data key="d5">A wildfire that impacted 2,386 properties in Los Angeles County</data>
+    </node>
+    <node id="98">
+      <data key="d0">FEMA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Federal Emergency Management Agency has assigned EPA with the first stage of the overall recovery and cleanup from the wildfires</data>
+    </node>
+    <node id="99">
+      <data key="d0">TRUMP ADMINISTRATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The Trump administration is overseeing the EPA's response to the wildfires</data>
+    </node>
+    <node id="100">
+      <data key="d0">U.S. ARMY CORPS OF ENGINEERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The U.S. Army Corps of Engineers will conduct Phase 2 debris removal after EPA completes hazardous materials removal</data>
+    </node>
+    <node id="101">
+      <data key="d0">LITHIUM-ION BATTERIES</data>
+      <data key="d1" />
+      <data key="d2">32.0</data>
+      <data key="d5" />
+    </node>
+    <node id="102">
+      <data key="d0">CALIFORNIA WILDFIRES</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The 2025 California wildfires that prompted EPA's hazardous material removal operations</data>
+    </node>
+    <node id="103">
+      <data key="d0">LOCAL LAW ENFORCEMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">Local law enforcement agencies are working with the EPA to track and remove objects of value found during the hazardous material removal operations</data>
+    </node>
+    <node id="104">
+      <data key="d0">NON-HAZARDOUS MATERIALS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The EPA will not remove any non-hazardous materials from the fire sites</data>
+    </node>
+    <node id="105">
+      <data key="d0">STAGING LOCATIONS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">32.0</data>
+      <data key="d5">The EPA has secured temporary storage or staging locations to hold the materials removed from each fire site</data>
+    </node>
+    <node id="106">
+      <data key="d0">HAZARDOUS MATERIALS</data>
+      <data key="d1" />
+      <data key="d2">32.0</data>
+      <data key="d5" />
+    </node>
+    <node id="107">
+      <data key="d0">CALIFORNIA DEPARTMENT OF FORESTRY AND FIRE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">18.0</data>
+      <data key="d5">The California Department of Forestry and Fire provides information related to wildfires</data>
+    </node>
+    <node id="108">
+      <data key="d0">UNDERGROUND STORAGE TANKS</data>
+      <data key="d1" />
+      <data key="d2">18.0</data>
+      <data key="d5" />
+    </node>
+    <node id="109">
+      <data key="d0">WILDFIRE</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">18.0</data>
+      <data key="d5">
+Wildfires are a major natural disaster that the text discusses preparation and recovery for</data>
+    </node>
+    <node id="110">
+      <data key="d0">DROUGHT</data>
+      <data key="d1" />
+      <data key="d2">18.0</data>
+      <data key="d5" />
+    </node>
+    <node id="111">
+      <data key="d0">FEED IT ONWARD</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Feed It Onward is a new national initiative designed by the EPA to reduce food waste and strengthen food security across America.</data>
+    </node>
+    <node id="112">
+      <data key="d0">TIJUANA RIVER</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">The Tijuana River is a river that flows from Mexico into the United States, and has been the source of a long-standing sewage crisis.</data>
+    </node>
+    <node id="113">
+      <data key="d0">MEXICO</data>
+      <data key="d1">GEO</data>
+      <data key="d2">14.0</data>
+      <data key="d5">Mexico is a country that borders the United States and has been involved in the Tijuana River sewage crisis.</data>
+    </node>
+    <node id="114">
+      <data key="d0">DATA CENTER COALITION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">14.0</data>
+      <data key="d5">A coalition of data center developers and operators that the EPA has engaged with.</data>
+    </node>
+    <node id="115">
+      <data key="d0">ADMINISTRATOR ZELDIN</data>
+      <data key="d1" />
+      <data key="d2">14.0</data>
+      <data key="d5" />
+    </node>
+    <node id="116">
+      <data key="d0">AIR DUCTS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">The air ducts in a home are the system of pipes that circulate air throughout the home</data>
+    </node>
+    <node id="117">
+      <data key="d0">MOLD</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">Mold is a type of fungus that can grow in various environments, including air ducts and other components of heating and cooling systems. According to the Environmental Protection Agency (EPA), mold growth inside air ducts is one of the key reasons they recommend having air ducts cleaned.
+
+Visible mold growth inside air ducts or on other components of the heating and cooling system can be a significant issue. Mold can thrive in damp, humid environments and can spread quickly, potentially leading to various health problems for building occupants. The presence of mold in air ducts can also affect the efficiency and performance of the heating and cooling system, as the mold can obstruct airflow and reduce the system's ability to circulate air effectively.
+
+To address mold growth in air ducts, the EPA recommends having the ducts cleaned by a professional. This process typically involves the use of specialized equipment and techniques to remove any visible mold and clean the ductwork thoroughly. Regular maintenance and inspection of the heating and cooling system can also help prevent the buildup of mold and ensure the system is operating efficiently.
+
+In addition to the potential issues with air ducts, mold can also grow in other areas of a building, such as walls, floors, and ceilings, particularly in areas with high moisture levels or water damage. Addressing mold growth in these areas is also important to maintain a healthy indoor environment and prevent further damage to the building.
+
+Overall, the presence of mold in air ducts and other components of the heating and cooling system can be a significant concern, and it is important to address it promptly to ensure the health and safety of building occupants and the proper functioning of the system.</data>
+    </node>
+    <node id="118">
+      <data key="d0">VERMIN</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">VERMIN
+
+VERMIN refers to the infestation of air ducts by rodents or insects. This can be a significant problem, as the presence of these pests in the air ducts can lead to various issues.
+
+One of the primary concerns with a VERMIN infestation is the potential for the rodents or insects to cause damage to the air ducts themselves. Rodents, such as mice or rats, may chew through the ductwork, creating holes and compromising the integrity of the system. This can lead to air leaks, reduced efficiency, and even the potential for the pests to enter the living spaces of a building.
+
+In addition to the physical damage, VERMIN can also pose health risks. Rodents and insects can carry a variety of diseases and can contaminate the air circulating through the ducts. This can lead to the spread of allergens, bacteria, and other harmful substances, potentially causing respiratory issues or other health problems for the building's occupants.
+
+To address a VERMIN infestation, it is often necessary to have the air ducts cleaned and inspected. This process can involve the removal of any nesting materials, droppings, or other debris left behind by the pests. Additionally, steps may need to be taken to seal any entry points and prevent future infestations.
+
+In summary, VERMIN refers to the presence of rodents or insects within the air ducts of a building. This can lead to physical damage, health concerns, and the need for professional cleaning and remediation. Addressing a VERMIN infestation is crucial to maintaining the integrity and safety of the building's HVAC system.</data>
+    </node>
+    <node id="119">
+      <data key="d0">DUST AND DEBRIS</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">DUST AND DEBRIS
+
+Dust and debris are common issues that can arise in air ducts, causing various problems for homeowners and building occupants. According to the provided descriptions, excessive amounts of dust, dirt, and particles can accumulate in air ducts, leading to the clogging of these important ventilation systems.
+
+The presence of excessive dust and debris in air ducts can have several negative consequences. Clogged air ducts can impede the proper flow of air, reducing the efficiency of the HVAC system and making it work harder to maintain the desired temperature and air quality. This can result in increased energy consumption and higher utility bills for the building's occupants.
+
+Furthermore, the buildup of dust and debris can also pose health concerns. The circulating air in the ductwork can carry these particles, which can then be distributed throughout the building, potentially triggering respiratory issues or exacerbating existing conditions, such as allergies or asthma, for the building's occupants.
+
+To address the issue of excessive dust and debris in air ducts, regular cleaning and maintenance of the ductwork is recommended. This can involve the use of specialized equipment and techniques to remove the accumulated particles, ensuring the efficient and healthy operation of the HVAC system.
+
+By addressing the problem of dust and debris in air ducts, building owners and occupants can enjoy improved indoor air quality, increased HVAC system efficiency, and reduced energy costs. Regular duct cleaning can help to maintain a comfortable and healthy indoor environment, contributing to the overall well-being of the building's occupants.</data>
+    </node>
+    <node id="120">
+      <data key="d0">PARTICLES</data>
+      <data key="d1">GEO</data>
+      <data key="d2">23.0</data>
+      <data key="d5">Particles being released into the home from air supply registers is a reason to have air ducts cleaned</data>
+    </node>
+    <node id="121">
+      <data key="d0">HEATING AND COOLING SYSTEM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The HEATING AND COOLING SYSTEM is a critical component of a home, responsible for regulating the temperature and air quality. It is an HVAC (Heating, Ventilation, and Air Conditioning) system that includes the ductwork and various components such as coils, fans, and heat exchangers.
+
+The HVAC system plays a vital role in maintaining a comfortable indoor environment by heating and cooling the air as needed. The heating and cooling system components work together to achieve this. The coils, which can be either evaporator coils or condenser coils, are responsible for absorbing or releasing heat, while the fans circulate the air throughout the ductwork.
+
+To ensure the HVAC system operates efficiently, it is important to maintain and clean the various components regularly. Over time, the coils, fans, and heat exchangers can accumulate dust, debris, and other contaminants, which can reduce the system's efficiency and performance. Regular cleaning of these components can help improve the overall efficiency of the HEATING AND COOLING SYSTEM, leading to cost savings on energy bills and a more comfortable living environment.
+
+Furthermore, the ductwork, which is an integral part of the HVAC system, also requires attention. The ductwork is responsible for distributing the heated or cooled air throughout the home, and any leaks or blockages in the ductwork can compromise the system's effectiveness.
+
+In summary, the HEATING AND COOLING SYSTEM is a crucial component of a home, responsible for regulating the temperature and air quality. It is an HVAC system that includes the ductwork and various components such as coils, fans, and heat exchangers. Regular maintenance and cleaning of these components can help improve the system's efficiency and performance, leading to cost savings and a more comfortable living environment.</data>
+    </node>
+    <node id="122">
+      <data key="d0">CARBON MONOXIDE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The EPA recommends inspecting and servicing fuel-burning furnaces, stoves, and fireplaces before each heating season to protect against carbon monoxide poisoning</data>
+    </node>
+    <node id="123">
+      <data key="d0">ENERGY STAR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">33.0</data>
+      <data key="d5">Energy Star is a program run by the EPA that provides information on sealing duct air leaks to save energy</data>
+    </node>
+    <node id="124">
+      <data key="d0">AIR DUCT CLEANING SERVICES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Companies that offer air duct cleaning services, typically ranging from $450 to $1,000 per heating and cooling system</data>
+    </node>
+    <node id="125">
+      <data key="d0">CHEMICAL BIOCIDES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Chemical treatments that air duct cleaning services may propose applying to kill microbiological contaminants, but their effectiveness and safety are not fully researched</data>
+    </node>
+    <node id="126">
+      <data key="d0">CHEMICAL SEALANTS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">22.0</data>
+      <data key="d5">Chemical treatments that air duct cleaning services may propose applying to encapsulate or cover the inside surfaces of air ducts, but their effectiveness is not fully researched</data>
+    </node>
+    <node id="127">
+      <data key="d0">DUST</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">Particles of dust that can accumulate in heating and cooling system components</data>
+    </node>
+    <node id="128">
+      <data key="d0">DEBRIS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">Other debris that can accumulate in heating and cooling system components</data>
+    </node>
+    <node id="129">
+      <data key="d0">MICROBIOLOGICAL GROWTH</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Mold and other microbial growth that can occur in heating and cooling system components with moisture present</data>
+    </node>
+    <node id="130">
+      <data key="d0">ALLERGIC REACTIONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Potential health effects from exposure to contaminants in the heating and cooling system</data>
+    </node>
+    <node id="131">
+      <data key="d0">DUCT AIR LEAKS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">33.0</data>
+      <data key="d5">Leaks in the ductwork that can reduce energy efficiency</data>
+    </node>
+    <node id="132">
+      <data key="d0">NADCA</data>
+      <data key="d1" />
+      <data key="d2">19.0</data>
+      <data key="d5" />
+    </node>
+    <node id="133">
+      <data key="d0">AIR DUCT CLEANING</data>
+      <data key="d1" />
+      <data key="d2">32.0</data>
+      <data key="d5" />
+    </node>
+    <node id="134">
+      <data key="d0">DUCT CLEANING SERVICE PROVIDERS</data>
+      <data key="d1" />
+      <data key="d2">19.0</data>
+      <data key="d5" />
+    </node>
+    <node id="135">
+      <data key="d0">NAIMA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">19.0</data>
+      <data key="d5">The North American Insulation Manufacturers Association (NAIMA) is an industry group that provides guidance and recommendations related to insulation materials. NAIMA is the abbreviation for this organization, which is known as the Insulation Manufacturers Association.
+
+NAIMA's primary role is to offer guidelines and recommendations for the proper handling and maintenance of insulation materials, particularly those made from fiber glass. This includes providing guidance on cleaning fiber glass ducts, which are commonly used in HVAC systems.
+
+The association's recommendations cover the appropriate methods and techniques for cleaning ducts that have a fiber glass lining. This is important to ensure the continued effectiveness and performance of the insulation, as well as to maintain indoor air quality.
+
+In addition to its work on duct cleaning, NAIMA also serves as a resource for information and best practices related to a wide range of insulation materials and applications. The organization's expertise and guidance help to ensure the safe and effective use of insulation products, which play a crucial role in improving energy efficiency, reducing environmental impact, and enhancing the comfort and well-being of building occupants.
+
+Overall, the North American Insulation Manufacturers Association is a valuable industry group that helps to promote the responsible and effective use of insulation materials through the development of standards, guidelines, and recommendations. Its work is essential in supporting the construction, renovation, and maintenance of buildings and infrastructure that are energy-efficient, sustainable, and conducive to human health and comfort.</data>
+    </node>
+    <node id="136">
+      <data key="d0">FIBER GLASS DUCT BOARD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Type of duct material that requires special cleaning procedures</data>
+    </node>
+    <node id="137">
+      <data key="d0">FIBER GLASS DUCT LINER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">Type of duct material that requires special cleaning procedures</data>
+    </node>
+    <node id="138">
+      <data key="d0">AIR FILTER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">The air filter is a component of the heating and cooling system that removes particulates from the air</data>
+    </node>
+    <node id="139">
+      <data key="d0">COOLING COILS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Cooling coils are part of the air conditioning system that remove moisture from the air</data>
+    </node>
+    <node id="140">
+      <data key="d0">DRAIN PANS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Drain Pans
+
+Drain pans are an essential component in various cooling and heating systems, serving the crucial function of collecting condensation from the cooling coils. These pans are designed to catch the water that accumulates as a result of the cooling process, preventing it from dripping or pooling in undesirable areas.
+
+The primary purpose of drain pans is to ensure the efficient and proper drainage of the collected condensation. They are typically installed underneath the cooling coils, where they can effectively capture the water that forms as the air is cooled. This helps to maintain a clean and dry environment, reducing the risk of water damage, mold growth, and other issues that can arise from standing water.
+
+To ensure the effective operation of drain pans, it is important that they are properly sloped. A well-designed drain pan should have a slight incline, allowing the collected water to flow smoothly towards the drain outlet. This slope helps to prevent the formation of standing water, which can lead to various problems, such as bacterial growth, odors, and potential health hazards.
+
+By properly sloping the drain pans, the condensation can be efficiently removed, ensuring that the cooling system operates at its optimal performance. This not only contributes to the overall efficiency of the system but also helps to extend its lifespan by preventing the accumulation of water and the associated issues that can arise.
+
+In summary, drain pans play a crucial role in cooling and heating systems by collecting the condensation from the cooling coils and facilitating its proper drainage. To ensure their effective operation, it is essential that these pans are properly installed and maintained, with a focus on ensuring the appropriate slope to prevent the formation of standing water.</data>
+    </node>
+    <node id="141">
+      <data key="d0">HEPA VACUUM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">23.0</data>
+      <data key="d5">A HEPA vacuum is a high-efficiency vacuum cleaner that can remove small particles from the air</data>
+    </node>
+    <node id="142">
+      <data key="d0">HUMIDIFIER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">24.0</data>
+      <data key="d5">A humidifier adds moisture to the air in the heating and cooling system</data>
+    </node>
+    <node id="143">
+      <data key="d0">CONDENSATION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Condensation occurs when moisture in the air comes into contact with a cool surface</data>
+    </node>
+    <node id="144">
+      <data key="d0">BIOCIDE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Biocides are chemical agents used to kill biological contaminants, but there are no EPA-registered biocides for treating fiberglass duct materials</data>
+    </node>
+    <node id="145">
+      <data key="d0">FIBERGLASS DUCT LINER</data>
+      <data key="d1" />
+      <data key="d2">10.0</data>
+      <data key="d5" />
+    </node>
+    <node id="146">
+      <data key="d0">MOISTURE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Moisture in air ducts can lead to biological growth and contamination</data>
+    </node>
+    <node id="147">
+      <data key="d0">HUMIDIFIERS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Humidifiers must be properly maintained to prevent excess moisture in ducts</data>
+    </node>
+    <node id="148">
+      <data key="d0">AIR HANDLING UNITS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Air handling units must be designed for easy access to components for cleaning and maintenance</data>
+    </node>
+    <node id="149">
+      <data key="d0">OZONE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Ozone is a highly reactive gas that some duct cleaning providers propose using, but its effectiveness and safety are controversial</data>
+    </node>
+    <node id="150">
+      <data key="d0">SMACNA</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">19.0</data>
+      <data key="d5">The Sheet Metal and Air Conditioning Contractors' National Association is an organization concerned with duct cleaning</data>
+    </node>
+    <node id="151">
+      <data key="d0">DUCT SYSTEM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">25.0</data>
+      <data key="d5">The duct system refers to the network of ducts that circulate air in a building</data>
+    </node>
+    <node id="152">
+      <data key="d0">FIBER GLASS</data>
+      <data key="d1" />
+      <data key="d2">25.0</data>
+      <data key="d5" />
+    </node>
+    <node id="153">
+      <data key="d0">SEALANTS</data>
+      <data key="d1" />
+      <data key="d2">25.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Service Environmental...</data>
+      <data key="d6">The U.S. Forest Service and the U.S. Environmental Protection Agency collaborate on the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e1" source="0" target="1">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Air Quality...</data>
+      <data key="d6">The Interagency Wildland Fire Air Quality Response Program, led by the U.S. Forest Service, collaborates with the EPA on the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e2" source="0" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">EPA leads collaborative...</data>
+      <data key="d6">Ron Evans from the EPA leads the collaborative effort on the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e3" source="0" target="5">
+      <data key="d3">9.0</data>
+      <data key="d4">EPA led correction...</data>
+      <data key="d6">Karoline Barkjohn from the EPA led the correction equation work for the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e4" source="0" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">collaborative effort between...</data>
+      <data key="d6">AirNow is a collaborative effort between the U.S. Environmental Protection Agency and the U.S. Forest Service</data>
+    </edge>
+    <edge id="e5" source="1" target="3">
+      <data key="d3">9.0</data>
+      <data key="d4">Forest Service leads...</data>
+      <data key="d6">Pete Lahm from the U.S. Forest Service leads the Interagency Wildland Fire Air Quality Response Program</data>
+    </edge>
+    <edge id="e6" source="4" target="6">
+      <data key="d3">9.0</data>
+      <data key="d4">Forest Service led...</data>
+      <data key="d6">Sim Larkin from the U.S. Forest Service led the development work on the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e7" source="6" target="12">
+      <data key="d3">10.0</data>
+      <data key="d4">Service AirNow closely...</data>
+      <data key="d6">The U.S. Forest Service and AirNow are closely related entities that work together on environmental initiatives. The U.S. Forest Service is a federal agency under the U.S. Department of Agriculture that manages and protects national forests and grasslands. AirNow, on the other hand, is a collaborative effort between the U.S. Environmental Protection Agency (EPA) and the U.S. Forest Service.
+
+The U.S. Forest Service and the EPA collaborate on the AirNow program, which provides the public with information about air quality and air pollution levels across the United States. The AirNow Fire and Smoke Map, in particular, is a joint effort between the two agencies, allowing users to track the location and movement of wildfires and monitor the resulting smoke and air quality.
+
+Through this collaboration, the U.S. Forest Service and AirNow work together to monitor and report on air quality, with the goal of informing the public and helping them make informed decisions about their health and outdoor activities. The U.S. Forest Service's expertise in managing natural resources and monitoring environmental conditions, combined with the EPA's focus on air quality and pollution control, creates a synergistic partnership that benefits the public.
+
+By consolidating the information from the provided descriptions, it is clear that the U.S. Forest Service and AirNow have a close working relationship, with the U.S. Forest Service playing a key role in the AirNow program and its various initiatives, such as the Fire and Smoke Map. This collaboration allows the two entities to leverage their respective strengths and provide comprehensive, reliable information to the public on air quality and environmental conditions.</data>
+    </edge>
+    <edge id="e8" source="7" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">Climate Center provides...</data>
+      <data key="d6">The Western Regional Climate Center provides data used in the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e9" source="8" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">used AirNow Fire...</data>
+      <data key="d6">AirSys provides data used in the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e10" source="9" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">sensor data used...</data>
+      <data key="d6">PurpleAir provides monitoring and sensor data used in the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e11" source="10" target="12">
+      <data key="d3">9.0</data>
+      <data key="d4">Mapping System provides...</data>
+      <data key="d6">The NOAA Hazard Mapping System provides fire and smoke plume information used in the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e12" source="11" target="12">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides fire and smoke plume information used in the AirNow Fire and Smoke Map</data>
+    </edge>
+    <edge id="e13" source="13" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">leading cleanup efforts...</data>
+      <data key="d6">The EPA is leading the cleanup efforts at the Palmerton Zinc Pile Superfund site and addressing PFAS contamination in the local water system</data>
+    </edge>
+    <edge id="e14" source="14" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">working with Palmerton...</data>
+      <data key="d6">The EPA is working with the Palmerton Municipal Authority to address the PFAS contamination in the drinking water supply</data>
+    </edge>
+    <edge id="e15" source="14" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">impacted Palmerton Municipal...</data>
+      <data key="d6">The PFAS contamination has impacted the Palmerton Municipal Authority's drinking water supply</data>
+    </edge>
+    <edge id="e16" source="14" target="20">
+      <data key="d3">9.0</data>
+      <data key="d4">detected Palmerton Municipal...</data>
+      <data key="d6">PFOS has been detected in the Palmerton Municipal Authority's drinking water above federal limits</data>
+    </edge>
+    <edge id="e17" source="14" target="21">
+      <data key="d3">1.0</data>
+      <data key="d4">detected Palmerton Municipal...</data>
+      <data key="d6">PFOA has been detected in the Palmerton Municipal Authority's drinking water above federal limits</data>
+    </edge>
+    <edge id="e18" source="15" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">collaborating with Pennsylvania...</data>
+      <data key="d6">The EPA is collaborating with the Pennsylvania Department of Environmental Protection to investigate the PFAS contamination and develop solutions</data>
+    </edge>
+    <edge id="e19" source="16" target="18">
+      <data key="d3">7.0</data>
+      <data key="d4">participating public meeting...</data>
+      <data key="d6">The ATSDR is participating in the public meeting to provide information and support the EPA's efforts</data>
+    </edge>
+    <edge id="e20" source="17" target="18">
+      <data key="d3">1.0</data>
+      <data key="d4">Health participating...</data>
+      <data key="d6">The Pennsylvania Department of Health is participating in the public meeting to provide information and support the EPA's efforts</data>
+    </edge>
+    <edge id="e21" source="19" target="22">
+      <data key="d3">9.0</data>
+      <data key="d4">Pile Superfund site...</data>
+      <data key="d6">The Palmerton Zinc Pile Superfund site is the likely source of the PFAS contamination in Palmerton's drinking water</data>
+    </edge>
+    <edge id="e22" source="23" target="26">
+      <data key="d3">7.0</data>
+      <data key="d4">current presidential administration...</data>
+      <data key="d6">The Biden Administration is the current presidential administration overseeing the work of the US EPA</data>
+    </edge>
+    <edge id="e23" source="23" target="27">
+      <data key="d3">9.0</data>
+      <data key="d4">President leading current...</data>
+      <data key="d6">Joe Biden is the President leading the current Biden Administration</data>
+    </edge>
+    <edge id="e24" source="24" target="26">
+      <data key="d3">18.0</data>
+      <data key="d4">current Administrator...</data>
+      <data key="d6">Lee Zeldin is the current Administrator of the US EPA, leading the agency's environmental protection efforts</data>
+    </edge>
+    <edge id="e25" source="24" target="25">
+      <data key="d3">16.0</data>
+      <data key="d4">appointed EPA Administrator...</data>
+      <data key="d6">Lee Zeldin was appointed as EPA Administrator by former President Donald Trump</data>
+    </edge>
+    <edge id="e26" source="24" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">Zeldin announced agency's...</data>
+      <data key="d6">EPA Administrator Lee Zeldin has announced the agency's commitment to reducing and eliminating animal testing</data>
+    </edge>
+    <edge id="e27" source="26" target="28">
+      <data key="d3">1.0</data>
+      <data key="d4">working phase out...</data>
+      <data key="d6">The US EPA is working to phase out the use of animal testing for environmental protection purposes</data>
+    </edge>
+    <edge id="e28" source="19" target="21">
+      <data key="d3">8.0</data>
+      <data key="d4">most widely used...</data>
+      <data key="d6">PFOA is one of the most widely used and studied PFAS chemicals</data>
+    </edge>
+    <edge id="e29" source="19" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">most widely used...</data>
+      <data key="d6">PFOS is one of the most widely used and studied PFAS chemicals</data>
+    </edge>
+    <edge id="e30" source="19" target="26">
+      <data key="d3">9.0</data>
+      <data key="d4">providing information...</data>
+      <data key="d6">The US EPA is providing information on the human health and environmental risks of PFAS</data>
+    </edge>
+    <edge id="e31" source="19" target="29">
+      <data key="d3">9.0</data>
+      <data key="d4">present public drinking...</data>
+      <data key="d6">PFAS can be present in public drinking water systems and private drinking water wells</data>
+    </edge>
+    <edge id="e32" source="19" target="30">
+      <data key="d3">9.0</data>
+      <data key="d4">present soil water...</data>
+      <data key="d6">PFAS can be present in soil and water at or near waste sites, landfills, disposal sites, and hazardous waste sites</data>
+    </edge>
+    <edge id="e33" source="19" target="31">
+      <data key="d3">9.0</data>
+      <data key="d4">(AFFFs) used extinguish...</data>
+      <data key="d6">Aqueous film-forming foams (AFFFs) used to extinguish flammable liquid-based fires can contain PFAS</data>
+    </edge>
+    <edge id="e34" source="19" target="32">
+      <data key="d3">9.0</data>
+      <data key="d4">use PFAS can...</data>
+      <data key="d6">Facilities that produce or use PFAS can be sources of PFAS</data>
+    </edge>
+    <edge id="e35" source="19" target="33">
+      <data key="d3">9.0</data>
+      <data key="d4">present fish caught...</data>
+      <data key="d6">PFAS can be present in fish caught from contaminated water and dairy products from livestock exposed to PFAS</data>
+    </edge>
+    <edge id="e36" source="19" target="34">
+      <data key="d3">9.0</data>
+      <data key="d4">present grease-resistant paper,...</data>
+      <data key="d6">PFAS can be present in grease-resistant paper, fast food containers/wrappers, microwave popcorn bags, pizza boxes, and candy wrappers</data>
+    </edge>
+    <edge id="e37" source="19" target="35">
+      <data key="d3">9.0</data>
+      <data key="d4">present stain water-repellent...</data>
+      <data key="d6">PFAS can be present in stain and water-repellent used on carpets, upholstery, clothing, and other fabrics, cleaning products, non-stick cookware, paints, varnishes, and sealants</data>
+    </edge>
+    <edge id="e38" source="19" target="36">
+      <data key="d3">9.0</data>
+      <data key="d4">present certain shampoo,...</data>
+      <data key="d6">PFAS can be present in certain shampoo, dental floss, and cosmetics</data>
+    </edge>
+    <edge id="e39" source="19" target="37">
+      <data key="d3">1.0</data>
+      <data key="d4">treatment plants that...</data>
+      <data key="d6">Fertilizer from wastewater treatment plants that is used on agricultural lands can contain PFAS</data>
+    </edge>
+    <edge id="e40" source="19" target="40">
+      <data key="d3">9.0</data>
+      <data key="d4">conducted surveys showing...</data>
+      <data key="d6">The CDC has conducted surveys showing most people in the US have been exposed to some PFAS</data>
+    </edge>
+    <edge id="e41" source="19" target="38">
+      <data key="d3">9.0</data>
+      <data key="d4">PFAS may lead...</data>
+      <data key="d6">Exposure to certain PFAS may lead to adverse health outcomes in humans</data>
+    </edge>
+    <edge id="e42" source="19" target="39">
+      <data key="d3">1.0</data>
+      <data key="d4">accumulate environment...</data>
+      <data key="d6">PFAS can persist and accumulate in the environment over time</data>
+    </edge>
+    <edge id="e43" source="41" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">ATSDR both provide...</data>
+      <data key="d6">The EPA and ATSDR both provide information and guidance on PFAS health effects and exposure</data>
+    </edge>
+    <edge id="e44" source="42" target="18">
+      <data key="d3">7.0</data>
+      <data key="d4">NIH collaborate PFAS...</data>
+      <data key="d6">The EPA and NIH collaborate on PFAS research to better understand the health impacts</data>
+    </edge>
+    <edge id="e45" source="43" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">FDA work together...</data>
+      <data key="d6">The EPA and FDA work together to regulate PFAS in the environment and consumer products</data>
+    </edge>
+    <edge id="e46" source="44" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">DOD coordinate addressing...</data>
+      <data key="d6">The EPA and DOD coordinate on addressing PFAS contamination at military sites</data>
+    </edge>
+    <edge id="e47" source="45" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">guidance states through...</data>
+      <data key="d6">The EPA provides guidance to states through ASDWA on regulating PFAS in drinking water</data>
+    </edge>
+    <edge id="e48" source="46" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">with ITRC develop...</data>
+      <data key="d6">The EPA works with ITRC to develop technical guidance for states on PFAS investigation and cleanup</data>
+    </edge>
+    <edge id="e49" source="47" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">with ECOS get...</data>
+      <data key="d6">The EPA collaborates with ECOS to get state input on PFAS policies and regulations</data>
+    </edge>
+    <edge id="e50" source="48" target="18">
+      <data key="d3">1.0</data>
+      <data key="d4">with ERIS fund...</data>
+      <data key="d6">The EPA partners with ERIS to fund research that supports state PFAS programs</data>
+    </edge>
+    <edge id="e51" source="18" target="19">
+      <data key="d3">1.0</data>
+      <data key="d4">primary federal agency...</data>
+      <data key="d6">The EPA is the primary federal agency responsible for regulating and providing guidance on PFAS chemicals</data>
+    </edge>
+    <edge id="e52" source="49" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">women may have...</data>
+      <data key="d6">Pregnant and lactating women may have higher exposure to PFAS through drinking water</data>
+    </edge>
+    <edge id="e53" source="50" target="19">
+      <data key="d3">8.0</data>
+      <data key="d4">higher exposure PFAS...</data>
+      <data key="d6">Children may have higher exposure to PFAS through behaviors like crawling and mouthing, and may be more sensitive to the effects</data>
+    </edge>
+    <edge id="e54" source="25" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">acting Executive Order...</data>
+      <data key="d6">The EPA is acting on an Executive Order issued by President Trump to help prevent catastrophic wildfires</data>
+    </edge>
+    <edge id="e55" source="51" target="18">
+      <data key="d3">7.0</data>
+      <data key="d4">taking different approach...</data>
+      <data key="d6">The Trump EPA is taking a different approach to the Exceptional Events rulemaking compared to the previous administration</data>
+    </edge>
+    <edge id="e56" source="18" target="52">
+      <data key="d3">1.0</data>
+      <data key="d4">promoting use prescribed...</data>
+      <data key="d6">The EPA is promoting the use of prescribed fires as a tool to reduce the impacts of catastrophic wildfires</data>
+    </edge>
+    <edge id="e57" source="18" target="56">
+      <data key="d3">8.0</data>
+      <data key="d4">catastrophic wildfires Los...</data>
+      <data key="d6">EPA responded to catastrophic wildfires in Los Angeles</data>
+    </edge>
+    <edge id="e58" source="18" target="53">
+      <data key="d3">8.0</data>
+      <data key="d4">catastrophic wildfires Maui</data>
+      <data key="d6">EPA responded to catastrophic wildfires in Maui</data>
+    </edge>
+    <edge id="e59" source="18" target="54">
+      <data key="d3">9.0</data>
+      <data key="d4">Act allows prescribed...</data>
+      <data key="d6">The Clean Air Act allows prescribed fires to be treated as exceptional events</data>
+    </edge>
+    <edge id="e60" source="18" target="55">
+      <data key="d3">1.0</data>
+      <data key="d4">not need taken...</data>
+      <data key="d6">Prescribed fires do not need to be taken into account for NAAQS compliance</data>
+    </edge>
+    <edge id="e61" source="12" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">responsible AirNow platform...</data>
+      <data key="d6">The EPA is responsible for the AirNow platform and Fire and Smoke Map</data>
+    </edge>
+    <edge id="e62" source="26" target="60">
+      <data key="d3">9.0</data>
+      <data key="d4">with Forest Service...</data>
+      <data key="d6">The EPA works with the U.S. Forest Service and other agencies to provide information and resources on wildland fire smoke</data>
+    </edge>
+    <edge id="e63" source="6" target="60">
+      <data key="d3">9.0</data>
+      <data key="d4">Service works with...</data>
+      <data key="d6">The U.S. Forest Service works with the EPA and others to share information and resources on wildland fire smoke</data>
+    </edge>
+    <edge id="e64" source="12" target="60">
+      <data key="d3">9.0</data>
+      <data key="d4">provides information resources...</data>
+      <data key="d6">The AirNow program provides information and resources to the public on wildland fires and smoke</data>
+    </edge>
+    <edge id="e65" source="12" target="57">
+      <data key="d3">9.0</data>
+      <data key="d4">Smoke Map...</data>
+      <data key="d6">The AirNow Fire and Smoke Map is a tool developed by the AirNow program to display information on fires, smoke, and air quality</data>
+    </edge>
+    <edge id="e66" source="12" target="58">
+      <data key="d3">9.0</data>
+      <data key="d4">uses EPA's Air...</data>
+      <data key="d6">The AirNow program uses the EPA's Air Quality Index to communicate about outdoor air quality and health</data>
+    </edge>
+    <edge id="e67" source="12" target="59">
+      <data key="d3">1.0</data>
+      <data key="d4">developed children's book...</data>
+      <data key="d6">The AirNow program developed the children's book "Why is Coco Red?" to explain how wildfires impact air quality and health</data>
+    </edge>
+    <edge id="e68" source="60" target="64">
+      <data key="d3">8.0</data>
+      <data key="d4">disease increased risk...</data>
+      <data key="d6">People with heart disease are at increased risk from wildland fire smoke</data>
+    </edge>
+    <edge id="e69" source="60" target="61">
+      <data key="d3">8.0</data>
+      <data key="d4">disease increased risk...</data>
+      <data key="d6">People with lung disease are at increased risk from wildland fire smoke</data>
+    </edge>
+    <edge id="e70" source="60" target="62">
+      <data key="d3">8.0</data>
+      <data key="d4">increased risk from...</data>
+      <data key="d6">Older adults are at increased risk from wildland fire smoke</data>
+    </edge>
+    <edge id="e71" source="60" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">increased risk from...</data>
+      <data key="d6">Children and teenagers are at increased risk from wildland fire smoke</data>
+    </edge>
+    <edge id="e72" source="60" target="63">
+      <data key="d3">1.0</data>
+      <data key="d4">greater risk...</data>
+      <data key="d6">Pregnant women may be at greater risk of health impacts from wildland fire smoke</data>
+    </edge>
+    <edge id="e73" source="65" target="68">
+      <data key="d3">9.0</data>
+      <data key="d4">can reduce indoor...</data>
+      <data key="d6">Portable air cleaners can reduce indoor smoke exposure during a wildfire event</data>
+    </edge>
+    <edge id="e74" source="66" target="68">
+      <data key="d3">8.0</data>
+      <data key="d4">with high-efficiency filters...</data>
+      <data key="d6">Central HVAC systems with high-efficiency filters can filter outdoor smoke during a wildfire event</data>
+    </edge>
+    <edge id="e75" source="67" target="68">
+      <data key="d3">1.0</data>
+      <data key="d4">can serve temporary...</data>
+      <data key="d6">DIY air cleaners can serve as a temporary alternative to commercial air cleaners during a wildfire smoke event</data>
+    </edge>
+    <edge id="e76" source="68" target="71">
+      <data key="d3">9.0</data>
+      <data key="d4">diseases vulnerable...</data>
+      <data key="d6">People with chronic diseases are vulnerable to the health impacts of wildland fire smoke</data>
+    </edge>
+    <edge id="e77" source="68" target="69">
+      <data key="d3">9.0</data>
+      <data key="d4">health impacts...</data>
+      <data key="d6">Children are vulnerable to the health impacts of wildland fire smoke</data>
+    </edge>
+    <edge id="e78" source="68" target="70">
+      <data key="d3">9.0</data>
+      <data key="d4">vulnerable health impacts...</data>
+      <data key="d6">Older adults are vulnerable to the health impacts of wildland fire smoke</data>
+    </edge>
+    <edge id="e79" source="68" target="63">
+      <data key="d3">9.0</data>
+      <data key="d4">vulnerable health impacts...</data>
+      <data key="d6">Pregnant women are vulnerable to the health impacts of wildland fire smoke</data>
+    </edge>
+    <edge id="e80" source="68" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">conducting research help...</data>
+      <data key="d6">The EPA is conducting research to help protect public health from the impacts of wildland fire smoke</data>
+    </edge>
+    <edge id="e81" source="18" target="6">
+      <data key="d3">1.0</data>
+      <data key="d4">Service collaborating with...</data>
+      <data key="d6">The U.S. Forest Service is collaborating with the EPA on research related to smoke-ready communities</data>
+    </edge>
+    <edge id="e82" source="11" target="72">
+      <data key="d3">8.0</data>
+      <data key="d4">with National Interagency...</data>
+      <data key="d6">The EPA coordinates with the National Interagency Fire Center on wildfire response and mitigation efforts.</data>
+    </edge>
+    <edge id="e83" source="12" target="72">
+      <data key="d3">16.0</data>
+      <data key="d4">partner AirNow...</data>
+      <data key="d6">The EPA is a partner in the AirNow program, which provides information about air quality and wildfires.</data>
+    </edge>
+    <edge id="e84" source="72" target="13">
+      <data key="d3">6.0</data>
+      <data key="d4">hosted public meeting...</data>
+      <data key="d6">The EPA has hosted a public meeting in Palmerton regarding Superfund site cleanup.</data>
+    </edge>
+    <edge id="e85" source="73" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides National Fire News resources</data>
+    </edge>
+    <edge id="e86" source="74" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center recognizes...</data>
+      <data key="d6">The National Interagency Fire Center recognizes National Fire Year Themes</data>
+    </edge>
+    <edge id="e87" source="75" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates the Preparedness Levels system</data>
+    </edge>
+    <edge id="e88" source="76" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates international support for wildfire management</data>
+    </edge>
+    <edge id="e89" source="77" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center coordinates...</data>
+      <data key="d6">The National Interagency Fire Center coordinates military support for wildfire suppression</data>
+    </edge>
+    <edge id="e90" source="78" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides information and resources for media outlets</data>
+    </edge>
+    <edge id="e91" source="79" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center promotes...</data>
+      <data key="d6">The National Interagency Fire Center promotes fire prevention efforts</data>
+    </edge>
+    <edge id="e92" source="80" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center operates...</data>
+      <data key="d6">The National Interagency Fire Center operates the InciWeb incident information system</data>
+    </edge>
+    <edge id="e93" source="81" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides various wildland fire maps and data</data>
+    </edge>
+    <edge id="e94" source="82" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center publishes...</data>
+      <data key="d6">The National Interagency Fire Center publishes news releases on wildland fire topics</data>
+    </edge>
+    <edge id="e95" source="83" target="11">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the Situation Report on current wildfire activity</data>
+    </edge>
+    <edge id="e96" source="84" target="11">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center collects...</data>
+      <data key="d6">The National Interagency Fire Center collects and publishes statistics on wildland fires</data>
+    </edge>
+    <edge id="e97" source="11" target="85">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center recognizes...</data>
+      <data key="d6">The National Interagency Fire Center recognizes National Wildland Firefighter Day</data>
+    </edge>
+    <edge id="e98" source="11" target="86">
+      <data key="d3">5.0</data>
+      <data key="d4">Coordination Center part...</data>
+      <data key="d6">The National Interagency Coordination Center is part of the National Interagency Fire Center</data>
+    </edge>
+    <edge id="e99" source="11" target="87">
+      <data key="d3">5.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the PIO Bulletin Board resource</data>
+    </edge>
+    <edge id="e100" source="88" target="11">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center agency...</data>
+      <data key="d6">The National Interagency Fire Center is an agency under the Department of the Interior.</data>
+    </edge>
+    <edge id="e101" source="89" target="11">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the Wildland Fire Open Data portal for accessing historical fire data.</data>
+    </edge>
+    <edge id="e102" source="90" target="11">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center operates...</data>
+      <data key="d6">The National Interagency Fire Center operates the Enterprise Geospatial Portal for accessing maps and data related to wildland fires.</data>
+    </edge>
+    <edge id="e103" source="11" target="95">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center source...</data>
+      <data key="d6">The National Interagency Fire Center is the source of national fire weather forecasts.</data>
+    </edge>
+    <edge id="e104" source="11" target="91">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the U.S. Drought Monitor data and information.</data>
+    </edge>
+    <edge id="e105" source="11" target="92">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center publishes...</data>
+      <data key="d6">The National Interagency Fire Center publishes the national wildland fire outlooks.</data>
+    </edge>
+    <edge id="e106" source="11" target="93">
+      <data key="d3">9.0</data>
+      <data key="d4">Fire Center provides...</data>
+      <data key="d6">The National Interagency Fire Center provides the current large wildfire map.</data>
+    </edge>
+    <edge id="e107" source="11" target="94">
+      <data key="d3">1.0</data>
+      <data key="d4">Fire Center publishes...</data>
+      <data key="d6">The National Interagency Fire Center publishes the incident management situation report map.</data>
+    </edge>
+    <edge id="e108" source="96" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">hazardous materials removal...</data>
+      <data key="d6">EPA is conducting hazardous materials removal for properties impacted by the Eaton Fire</data>
+    </edge>
+    <edge id="e109" source="97" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">hazardous materials removal...</data>
+      <data key="d6">EPA is conducting hazardous materials removal for properties impacted by the Palisades Fire</data>
+    </edge>
+    <edge id="e110" source="98" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">EPA with first...</data>
+      <data key="d6">FEMA has assigned EPA with the first stage of the overall recovery and cleanup from the wildfires</data>
+    </edge>
+    <edge id="e111" source="99" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">directing EPA's response...</data>
+      <data key="d6">The Trump administration is directing the EPA's response to the wildfires</data>
+    </edge>
+    <edge id="e112" source="24" target="18">
+      <data key="d3">1.0</data>
+      <data key="d4">EPA Administrator leading...</data>
+      <data key="d6">Lee Zeldin is the EPA Administrator leading the agency's response to the wildfires</data>
+    </edge>
+    <edge id="e113" source="18" target="101">
+      <data key="d3">9.0</data>
+      <data key="d4">lithium-ion batteries from...</data>
+      <data key="d6">EPA is removing lithium-ion batteries from vehicles, homes and other products as part of the hazardous materials cleanup</data>
+    </edge>
+    <edge id="e114" source="18" target="100">
+      <data key="d3">1.0</data>
+      <data key="d4">Phase hazardous materials...</data>
+      <data key="d6">EPA is conducting Phase 1 hazardous materials removal, after which the U.S. Army Corps of Engineers will conduct Phase 2 debris removal</data>
+    </edge>
+    <edge id="e115" source="102" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">responding conducting operations...</data>
+      <data key="d6">The EPA is responding to and conducting operations related to the 2025 California wildfires</data>
+    </edge>
+    <edge id="e116" source="18" target="103">
+      <data key="d3">1.0</data>
+      <data key="d4">coordinating with local...</data>
+      <data key="d6">The EPA is coordinating with local law enforcement to handle objects of value found during the hazardous material removal</data>
+    </edge>
+    <edge id="e117" source="18" target="106">
+      <data key="d3">9.0</data>
+      <data key="d4">responsible removal, processing,...</data>
+      <data key="d6">The EPA is responsible for the removal, processing, and disposal of hazardous materials from the fire sites</data>
+    </edge>
+    <edge id="e118" source="18" target="104">
+      <data key="d3">9.0</data>
+      <data key="d4">not remove any...</data>
+      <data key="d6">The EPA will not remove any non-hazardous materials from the fire sites</data>
+    </edge>
+    <edge id="e119" source="18" target="105">
+      <data key="d3">1.0</data>
+      <data key="d4">using temporary storage...</data>
+      <data key="d6">The EPA is using temporary storage or staging locations to hold the materials removed from the fire sites</data>
+    </edge>
+    <edge id="e120" source="107" target="109">
+      <data key="d3">7.0</data>
+      <data key="d4">Forestry Fire provides...</data>
+      <data key="d6">The California Department of Forestry and Fire provides information related to wildfires</data>
+    </edge>
+    <edge id="e121" source="86" target="109">
+      <data key="d3">7.0</data>
+      <data key="d4">Coordination Center provides...</data>
+      <data key="d6">The National Interagency Coordination Center provides fire outlook information</data>
+    </edge>
+    <edge id="e122" source="18" target="108">
+      <data key="d3">8.0</data>
+      <data key="d4">underground aboveground storage...</data>
+      <data key="d6">EPA provides guidance for underground and aboveground storage tank owners/operators during wildfires</data>
+    </edge>
+    <edge id="e123" source="18" target="109">
+      <data key="d3">8.0</data>
+      <data key="d4">information related preparing...</data>
+      <data key="d6">EPA offers resources and information related to preparing for and recovering from wildfires</data>
+    </edge>
+    <edge id="e124" source="108" target="109">
+      <data key="d3">8.0</data>
+      <data key="d4">underground aboveground storage...</data>
+      <data key="d6">Wildfires can impact underground and aboveground storage tank systems, requiring preparation and recovery guidance</data>
+    </edge>
+    <edge id="e125" source="109" target="110">
+      <data key="d3">7.0</data>
+      <data key="d4">drought increase risk...</data>
+      <data key="d6">Higher temperatures related to drought increase the risk of wildfires</data>
+    </edge>
+    <edge id="e126" source="18" target="12">
+      <data key="d3">1.0</data>
+      <data key="d4">maintained EPA...</data>
+      <data key="d6">AirNow is operated and maintained by the EPA</data>
+    </edge>
+    <edge id="e127" source="54" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">responsible enforcing implementing...</data>
+      <data key="d6">The EPA is responsible for enforcing and implementing the Clean Air Act.</data>
+    </edge>
+    <edge id="e128" source="111" target="0">
+      <data key="d3">8.0</data>
+      <data key="d4">launched Feed Onward...</data>
+      <data key="d6">The EPA has launched the Feed It Onward initiative to reduce food waste and strengthen food security.</data>
+    </edge>
+    <edge id="e129" source="112" target="0">
+      <data key="d3">9.0</data>
+      <data key="d4">signed agreement with...</data>
+      <data key="d6">The EPA has signed an agreement with Mexico to urgently solve the decades-long Tijuana River sewage crisis.</data>
+    </edge>
+    <edge id="e130" source="112" target="113">
+      <data key="d3">1.0</data>
+      <data key="d4">Tijuana River sewage...</data>
+      <data key="d6">Mexico is involved in the Tijuana River sewage crisis, as the river flows from Mexico into the United States.</data>
+    </edge>
+    <edge id="e131" source="0" target="115">
+      <data key="d3">9.0</data>
+      <data key="d4">the head of...</data>
+      <data key="d6">Administrator Zeldin is the head of the U.S. Environmental Protection Agency.</data>
+    </edge>
+    <edge id="e132" source="0" target="23">
+      <data key="d3">8.0</data>
+      <data key="d4">oversees operations...</data>
+      <data key="d6">The Biden Administration oversees the operations of the U.S. Environmental Protection Agency.</data>
+    </edge>
+    <edge id="e133" source="0" target="114">
+      <data key="d3">1.0</data>
+      <data key="d4">hosted roundtable discussion...</data>
+      <data key="d6">The EPA has hosted a roundtable discussion with the Data Center Coalition on Clean Air resources and energy reliability.</data>
+    </edge>
+    <edge id="e134" source="116" target="0">
+      <data key="d3">16.0</data>
+      <data key="d4">recommendations when how...</data>
+      <data key="d6">The EPA provides recommendations on when and how to have home air ducts cleaned</data>
+    </edge>
+    <edge id="e135" source="116" target="117">
+      <data key="d3">25.0</data>
+      <data key="d4">MOLD Air ducts...</data>
+      <data key="d6">AIR DUCTS and MOLD
+
+Air ducts are an essential component of a home's HVAC system, responsible for circulating air throughout the living spaces. However, these ducts can become a breeding ground for MOLD, which can have serious consequences for the health and well-being of the home's occupants.
+
+The provided descriptions indicate that MOLD can grow in damp air ducts, leading to the contamination of the air that is circulated through the home. This is a significant concern, as exposure to mold can cause a range of respiratory issues, including asthma, allergies, and respiratory infections. Additionally, the presence of substantial visible MOLD growth inside the air ducts is a clear indication that the ducts need to be cleaned.
+
+To address this issue, it is crucial to regularly inspect and maintain the air ducts to prevent the buildup of moisture and the subsequent growth of MOLD. This may involve sealing any leaks or cracks in the ductwork, ensuring proper ventilation, and addressing any underlying moisture problems within the home. In cases where MOLD has already taken hold, a professional air duct cleaning service may be necessary to thoroughly remove the contamination and restore the system to a safe and healthy condition.
+
+By taking proactive steps to monitor and maintain the air ducts, homeowners can help ensure that the air circulated throughout their living spaces is clean, safe, and free from MOLD contamination. This not only protects the health of the occupants but also helps to preserve the integrity and efficiency of the HVAC system, ultimately contributing to a more comfortable and energy-efficient home environment.</data>
+    </edge>
+    <edge id="e136" source="116" target="118">
+      <data key="d3">16.0</data>
+      <data key="d4">vermin like rodents...</data>
+      <data key="d6">Air duct infestation by vermin like rodents or insects is a reason to have them cleaned</data>
+    </edge>
+    <edge id="e137" source="116" target="119">
+      <data key="d3">16.0</data>
+      <data key="d4">debris clogging air...</data>
+      <data key="d6">Excessive dust and debris clogging air ducts is a reason to have them cleaned</data>
+    </edge>
+    <edge id="e138" source="116" target="120">
+      <data key="d3">16.0</data>
+      <data key="d4">into home from...</data>
+      <data key="d6">Particles being released into the home from air supply registers is a reason to have air ducts cleaned</data>
+    </edge>
+    <edge id="e139" source="116" target="121">
+      <data key="d3">12.0</data>
+      <data key="d4">cooling system components...</data>
+      <data key="d6">Cleaning heating and cooling system components may improve efficiency, but cleaning ducts alone may not</data>
+    </edge>
+    <edge id="e140" source="121" target="122">
+      <data key="d3">2.0</data>
+      <data key="d4">fuel-burning heating equipment...</data>
+      <data key="d6">Inspecting and servicing fuel-burning heating equipment is recommended to prevent carbon monoxide poisoning</data>
+    </edge>
+    <edge id="e141" source="123" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">Energy Star program...</data>
+      <data key="d6">The EPA runs the Energy Star program which provides guidance on sealing duct air leaks</data>
+    </edge>
+    <edge id="e142" source="123" target="131">
+      <data key="d3">1.0</data>
+      <data key="d4">program provides guidance...</data>
+      <data key="d6">The Energy Star program provides guidance on sealing duct air leaks to save energy</data>
+    </edge>
+    <edge id="e143" source="18" target="124">
+      <data key="d3">7.0</data>
+      <data key="d4">guidance recommendations air...</data>
+      <data key="d6">The EPA provides guidance and recommendations on air duct cleaning services and practices</data>
+    </edge>
+    <edge id="e144" source="124" target="125">
+      <data key="d3">6.0</data>
+      <data key="d4">services may propose...</data>
+      <data key="d6">Air duct cleaning services may propose applying chemical biocides, but the EPA cautions that their use should be fully understood</data>
+    </edge>
+    <edge id="e145" source="124" target="126">
+      <data key="d3">6.0</data>
+      <data key="d4">services may propose...</data>
+      <data key="d6">Air duct cleaning services may propose applying chemical sealants, but the EPA cautions that their use should be fully understood</data>
+    </edge>
+    <edge id="e146" source="124" target="121">
+      <data key="d3">8.0</data>
+      <data key="d4">services claim clean...</data>
+      <data key="d6">Air duct cleaning services claim to clean the components of a heating and cooling system to improve indoor air quality</data>
+    </edge>
+    <edge id="e147" source="121" target="129">
+      <data key="d3">8.0</data>
+      <data key="d4">heating cooling system...</data>
+      <data key="d6">Moisture in the heating and cooling system can lead to microbial growth that may be released into the home</data>
+    </edge>
+    <edge id="e148" source="121" target="130">
+      <data key="d3">7.0</data>
+      <data key="d4">heating cooling system...</data>
+      <data key="d6">Contaminants in the heating and cooling system may cause allergic reactions in people</data>
+    </edge>
+    <edge id="e149" source="18" target="132">
+      <data key="d3">7.0</data>
+      <data key="d4">establish duct cleaning...</data>
+      <data key="d6">EPA does not establish duct cleaning standards or certify duct cleaning companies, but NADCA provides standards and guidance for the industry</data>
+    </edge>
+    <edge id="e150" source="18" target="133">
+      <data key="d3">8.0</data>
+      <data key="d4">guidance when air...</data>
+      <data key="d6">EPA has published guidance on when air duct cleaning may be warranted and the potential issues with improper duct cleaning</data>
+    </edge>
+    <edge id="e151" source="132" target="134">
+      <data key="d3">1.0</data>
+      <data key="d4">that duct cleaning...</data>
+      <data key="d6">NADCA provides standards that duct cleaning service providers should comply with</data>
+    </edge>
+    <edge id="e152" source="117" target="121">
+      <data key="d3">8.0</data>
+      <data key="d4">occur inside air...</data>
+      <data key="d6">Mold growth can occur inside the air ducts and on other system components</data>
+    </edge>
+    <edge id="e153" source="118" target="121">
+      <data key="d3">8.0</data>
+      <data key="d4">occur air ducts...</data>
+      <data key="d6">Vermin infestation can occur in the air ducts</data>
+    </edge>
+    <edge id="e154" source="119" target="121">
+      <data key="d3">1.0</data>
+      <data key="d4">debris can accumulate...</data>
+      <data key="d6">Excessive dust and debris can accumulate in the air ducts</data>
+    </edge>
+    <edge id="e155" source="135" target="132">
+      <data key="d3">8.0</data>
+      <data key="d4">provide standards recommendations...</data>
+      <data key="d6">NADCA and NAIMA provide standards and recommendations for air duct cleaning</data>
+    </edge>
+    <edge id="e156" source="121" target="136">
+      <data key="d3">8.0</data>
+      <data key="d4">board component...</data>
+      <data key="d6">Fiber glass duct board is a component of the HVAC system that requires special cleaning procedures</data>
+    </edge>
+    <edge id="e157" source="121" target="137">
+      <data key="d3">1.0</data>
+      <data key="d4">liner component...</data>
+      <data key="d6">Fiber glass duct liner is a component of the HVAC system that requires special cleaning procedures</data>
+    </edge>
+    <edge id="e158" source="121" target="116">
+      <data key="d3">9.0</data>
+      <data key="d4">critical component...</data>
+      <data key="d6">Air ducts are a critical component of the heating and cooling system, circulating air throughout the home</data>
+    </edge>
+    <edge id="e159" source="121" target="138">
+      <data key="d3">8.0</data>
+      <data key="d4">removes particulates from...</data>
+      <data key="d6">The air filter removes particulates from the air circulated by the heating and cooling system</data>
+    </edge>
+    <edge id="e160" source="121" target="139">
+      <data key="d3">8.0</data>
+      <data key="d4">remove moisture from...</data>
+      <data key="d6">The cooling coils remove moisture from the air circulated by the air conditioning system</data>
+    </edge>
+    <edge id="e161" source="121" target="142">
+      <data key="d3">7.0</data>
+      <data key="d4">moisture air circulated...</data>
+      <data key="d6">The humidifier adds moisture to the air circulated by the heating and cooling system</data>
+    </edge>
+    <edge id="e162" source="139" target="140">
+      <data key="d3">8.0</data>
+      <data key="d4">collect condensation removed...</data>
+      <data key="d6">The drain pans collect the condensation removed by the cooling coils</data>
+    </edge>
+    <edge id="e163" source="139" target="143">
+      <data key="d3">10.0</data>
+      <data key="d4">cooling coils they...</data>
+      <data key="d6">Condensation forms on the cooling coils as they remove moisture from the air
+Condensation forms on the cooling coils, which can lead to mold growth</data>
+    </edge>
+    <edge id="e164" source="141" target="116">
+      <data key="d3">7.0</data>
+      <data key="d4">vacuum can help...</data>
+      <data key="d6">Using a HEPA vacuum can help remove dust and particulates from the air ducts</data>
+    </edge>
+    <edge id="e165" source="143" target="117">
+      <data key="d3">1.0</data>
+      <data key="d4">ductwork can promote...</data>
+      <data key="d6">Condensation in the ductwork can promote the growth of mold</data>
+    </edge>
+    <edge id="e166" source="116" target="127">
+      <data key="d3">8.0</data>
+      <data key="d4">air ducts circulate...</data>
+      <data key="d6">Dust can accumulate in air ducts and circulate through the home</data>
+    </edge>
+    <edge id="e167" source="132" target="18">
+      <data key="d3">16.0</data>
+      <data key="d4">Duct Cleaners Association...</data>
+      <data key="d6">The National Air Duct Cleaners Association (NADCA) and the Environmental Protection Agency (EPA) both play important roles in providing guidance on the proper handling of contaminated duct materials.
+
+NADCA is a professional association that sets industry standards for duct cleaning and maintenance. The organization provides comprehensive guidelines for duct cleaning procedures, including the safe removal and disposal of contaminated materials. NADCA's standards are widely recognized as the industry benchmark for ensuring the effective and responsible cleaning of HVAC systems.
+
+The EPA, on the other hand, is the federal agency responsible for protecting human health and the environment. The EPA has issued guidance on duct cleaning, emphasizing the importance of following NADCA's standards and best practices. The EPA's recommendations align with NADCA's approach, highlighting the need for thorough cleaning and the proper handling of any contaminated duct materials.
+
+According to the information provided, the EPA and NADCA work in tandem to ensure the safe and effective management of contaminated ductwork. The EPA's guidance reinforces the importance of adhering to NADCA's standards, recognizing the association's expertise and the industry-wide acceptance of its protocols.
+
+By following the guidance provided by both the EPA and NADCA, building owners, facility managers, and duct cleaning professionals can ensure that contaminated duct materials are handled and disposed of in a manner that protects the health and safety of workers and building occupants. This collaborative approach between the regulatory agency and the industry association helps to promote best practices and maintain the integrity of HVAC systems.
+
+In summary, the EPA and NADCA work together to provide comprehensive guidance on the proper handling of contaminated duct materials. The EPA's recommendations align with NADCA's industry-leading standards, ensuring a consistent and responsible approach to duct cleaning and maintenance.</data>
+    </edge>
+    <edge id="e168" source="132" target="135">
+      <data key="d3">8.0</data>
+      <data key="d4">Duct Cleaners Association)...</data>
+      <data key="d6">NADCA (National Air Duct Cleaners Association) and NAIMA (North American Insulation Manufacturers Association) are two organizations that provide guidance and standards related to the cleaning and maintenance of HVAC (Heating, Ventilation, and Air Conditioning) systems.
+
+NADCA and NAIMA both offer guidance on proper duct cleaning methods. They provide recommendations and best practices for effectively cleaning air ducts and other HVAC components to ensure the system's efficiency and indoor air quality. Their guidance covers topics such as the use of appropriate cleaning equipment, techniques for removing accumulated dust and debris, and the proper disposal of contaminated materials.
+
+Additionally, NADCA and NAIMA both offer guidance on the proper handling of contaminated duct materials. This includes recommendations for safely removing and disposing of materials that may be contaminated with mold, asbestos, or other hazardous substances. Their guidance helps ensure that HVAC maintenance and cleaning activities are conducted in a manner that protects the health and safety of both workers and building occupants.
+
+By providing comprehensive guidance on duct cleaning and the handling of contaminated materials, NADCA and NAIMA play a crucial role in promoting the maintenance and upkeep of HVAC systems. Their standards and recommendations help ensure that HVAC systems operate efficiently, while also minimizing the potential for indoor air quality issues and health risks associated with improper duct cleaning or material handling.
+
+Overall, NADCA and NAIMA are recognized as authoritative sources of information and best practices in the HVAC industry, helping to ensure the safety, efficiency, and indoor air quality of buildings and homes.</data>
+    </edge>
+    <edge id="e169" source="135" target="18">
+      <data key="d3">8.0</data>
+      <data key="d4">both provide guidance...</data>
+      <data key="d6">EPA and NAIMA both provide guidance on proper handling of contaminated duct materials</data>
+    </edge>
+    <edge id="e170" source="144" target="145">
+      <data key="d3">8.0</data>
+      <data key="d4">effectively used treat...</data>
+      <data key="d6">Biocides cannot be effectively used to treat contaminated fiberglass duct liner</data>
+    </edge>
+    <edge id="e171" source="144" target="149">
+      <data key="d3">1.0</data>
+      <data key="d4">alternative chemical...</data>
+      <data key="d6">Ozone is proposed as an alternative to chemical biocides for duct cleaning, but its efficacy is unproven</data>
+    </edge>
+    <edge id="e172" source="145" target="146">
+      <data key="d3">8.0</data>
+      <data key="d4">can cause mold...</data>
+      <data key="d6">Moisture in ducts can cause mold growth on fiberglass duct liner</data>
+    </edge>
+    <edge id="e173" source="146" target="140">
+      <data key="d3">8.0</data>
+      <data key="d4">drain pans important...</data>
+      <data key="d6">Proper drainage of drain pans is important to control moisture in ducts</data>
+    </edge>
+    <edge id="e174" source="146" target="147">
+      <data key="d3">8.0</data>
+      <data key="d4">can introduce excess...</data>
+      <data key="d6">Improperly maintained humidifiers can introduce excess moisture into ducts</data>
+    </edge>
+    <edge id="e175" source="146" target="148">
+      <data key="d3">8.0</data>
+      <data key="d4">air handling units...</data>
+      <data key="d6">Proper maintenance of air handling units is important to control moisture in ducts</data>
+    </edge>
+    <edge id="e176" source="132" target="150">
+      <data key="d3">1.0</data>
+      <data key="d4">both organizations concerned...</data>
+      <data key="d6">SMACNA and NADCA are both organizations concerned with proper duct cleaning practices</data>
+    </edge>
+    <edge id="e177" source="151" target="152">
+      <data key="d3">8.0</data>
+      <data key="d4">used line construct...</data>
+      <data key="d6">Fiber glass is used to line or construct some duct systems</data>
+    </edge>
+    <edge id="e178" source="151" target="153">
+      <data key="d3">7.0</data>
+      <data key="d4">used encapsulate contaminants...</data>
+      <data key="d6">Sealants may be used to encapsulate contaminants in ducts, but their use is controversial</data>
+    </edge>
+    <edge id="e179" source="151" target="117">
+      <data key="d3">8.0</data>
+      <data key="d4">ducts concern that...</data>
+      <data key="d6">Mold growth in ducts is a concern that may require cleaning or other remediation</data>
+    </edge>
+    <edge id="e180" source="151" target="128">
+      <data key="d3">1.0</data>
+      <data key="d4">ducts may necessitate...</data>
+      <data key="d6">Substantial debris buildup in ducts may necessitate cleaning</data>
+    </edge>
+  </graph>
+</graphml>

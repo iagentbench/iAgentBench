@@ -1,0 +1,983 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="type" attr.type="string" />
+  <key id="d2" for="node" attr.name="community" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="label" attr.type="string" />
+  <key id="d5" for="node" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="full_description" attr.type="string" />
+  <graph id="G" edgedefault="directed">
+    <node id="0">
+      <data key="d0">2ND COMBAT AVIATION BRIGADE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The 2nd Combat Aviation Brigade is a unit of the United States Army that is responsible for conducting live-fire aerial gunnery training on the Korean Peninsula. The brigade is composed of AH-64 Apache helicopters, which are used during these training exercises.
+
+The 2nd Combat Aviation Brigade has been involved in several live-fire training events on the Korean Peninsula. These training exercises are designed to maintain the readiness and proficiency of the unit's personnel and equipment, ensuring that they are prepared to respond to any potential threats or contingencies in the region.
+
+During these training events, the 2nd Combat Aviation Brigade's AH-64 Apache helicopters engage in a variety of live-fire exercises, including the firing of their onboard weapons systems and the coordination of air-to-ground operations. These training activities are conducted in a safe and controlled environment, with strict safety protocols in place to ensure the well-being of the personnel involved.
+
+The 2nd Combat Aviation Brigade's live-fire training on the Korean Peninsula is an important component of the United States' overall military strategy in the region. By maintaining a strong and capable aviation unit in the area, the U.S. Army is able to demonstrate its commitment to the defense of its allies and partners, while also deterring potential adversaries from engaging in any hostile actions.
+
+Overall, the 2nd Combat Aviation Brigade plays a crucial role in the U.S. Army's efforts to maintain a robust and capable military presence on the Korean Peninsula. Through its live-fire training exercises, the brigade is able to hone its skills and ensure that it is ready to respond to any contingency that may arise in the region.</data>
+    </node>
+    <node id="1">
+      <data key="d0">AH-64 APACHE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The AH-64 Apache is a highly advanced attack helicopter used by the United States Army. It is a twin-turboshaft aircraft that entered service in 1984 and is considered one of the most sophisticated attack helicopters in the world.
+
+The AH-64 Apache is primarily used by the U.S. Army for precision fire support operations. It is equipped with a wide range of weapons and sensors, including a 30mm M230 chain gun, Hellfire missiles, and Hydra 70 rocket pods, allowing it to engage a variety of ground and air targets with precision and lethality.
+
+The latest variant of the AH-64, the AH-64E Guardian, incorporates numerous upgrades and improvements over earlier models. These include enhanced sensors, avionics, and weapons systems, as well as improved engine performance and digital connectivity. The AH-64E is designed to provide the U.S. Army with a highly capable and versatile attack helicopter that can operate effectively in a wide range of combat environments.
+
+The AH-64 Apache's advanced capabilities, combined with its proven track record in combat operations, have made it a vital asset for the U.S. Army. It has been deployed in numerous conflicts, including the Gulf War, the War in Afghanistan, and the Iraq War, where it has demonstrated its ability to provide effective air support and fire support to ground forces.
+
+Overall, the AH-64 Apache is a formidable and highly capable attack helicopter that plays a crucial role in the U.S. Army's arsenal. Its advanced technology, firepower, and versatility make it a valuable asset in a wide range of military operations.</data>
+    </node>
+    <node id="2">
+      <data key="d0">EIGHTH ARMY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">15.0</data>
+      <data key="d5">The Eighth Army of the U.S. Army oversaw the live-fire training event in South Korea</data>
+    </node>
+    <node id="3">
+      <data key="d0">U.S. ARMY</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="4">
+      <data key="d0">SOUTH KOREA</data>
+      <data key="d1" />
+      <data key="d2">15.0</data>
+      <data key="d5" />
+    </node>
+    <node id="5">
+      <data key="d0">BOEING</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">Boeing is the manufacturer of the AH-64 Apache helicopter</data>
+    </node>
+    <node id="6">
+      <data key="d0">GE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">GE (General Electric) is the manufacturer of the T700-GE-701D engines that power the AH-64 Apache</data>
+    </node>
+    <node id="7">
+      <data key="d0">AN/APG-78 LONGBOW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The AN/APG-78 Longbow is the fire control radar system used on the AH-64 Apache</data>
+    </node>
+    <node id="8">
+      <data key="d0">TARGET ACQUISITION DESIGNATION SIGHT (TADS)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Target Acquisition Designation Sight (TADS) is an advanced optics system used on the AH-64 Apache</data>
+    </node>
+    <node id="9">
+      <data key="d0">PILOT NIGHT VISION SENSOR (PNVS)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Pilot Night Vision Sensor (PNVS) is an advanced optics system used on the AH-64 Apache</data>
+    </node>
+    <node id="10">
+      <data key="d0">M230 CHAIN GUN</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The M230 chain gun is one of the weapons systems used by the AH-64 Apache</data>
+    </node>
+    <node id="11">
+      <data key="d0">HYDRA 70 ROCKET PODS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The Hydra 70 rocket pods are one of the weapon systems used by the AH-64 Apache</data>
+    </node>
+    <node id="12">
+      <data key="d0">AGM-114 HELLFIRE MISSILES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">2.0</data>
+      <data key="d5">The AGM-114 Hellfire missiles are one of the weapon systems used by the AH-64 Apache</data>
+    </node>
+    <node id="13">
+      <data key="d0">ROTC</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">ROTC (Reserve Officers' Training Corps) programs are mentioned as an Army career path option</data>
+    </node>
+    <node id="14">
+      <data key="d0">NATO</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The North Atlantic Treaty Organization (NATO) is an intergovernmental military alliance between 30 North American and European countries. The United States and Poland are both members of NATO, which organized the Operation Winter Falcon 26 exercise in Poland.
+
+NATO was formed in 1949 with the primary goal of collective defense, ensuring the security and protection of its member states. The organization's eastern flank, which includes Poland, has been a focus of attention in recent years due to concerns over Russian aggression in the region. The Operation Winter Falcon 26 exercise was meant to reinforce NATO's presence and readiness in this strategically important area.
+
+The exercise involved military forces from various NATO member states, including the United States, and was designed to test the alliance's ability to respond to potential threats and challenges. It included a range of training activities, such as air defense operations, ground maneuvers, and logistical support operations.
+
+Through the Operation Winter Falcon 26 exercise, NATO demonstrated its commitment to the security and stability of its eastern member states. The exercise provided an opportunity for NATO forces to enhance their interoperability, improve their readiness, and showcase their ability to work together effectively in a complex and challenging environment.
+
+Overall, NATO plays a crucial role in maintaining peace and security in the North Atlantic region and beyond. As a collective defense organization, it serves as a deterrent against potential aggressors and ensures the protection of its member states, including the United States and Poland.</data>
+    </node>
+    <node id="15">
+      <data key="d0">POLAND</data>
+      <data key="d1">GEO</data>
+      <data key="d2">9.0</data>
+      <data key="d5">Poland is the country that hosted a NATO exercise, which took place at the Drawsko Pomorskie training area. The descriptions provided indicate that Poland was the host nation for this military exercise organized by the North Atlantic Treaty Organization (NATO).
+
+Poland is a country located in Central Europe, with a population of over 38 million people. It is a member of the European Union and NATO, and has a strong military presence, with a well-equipped and trained armed forces. The Drawsko Pomorskie training area, where the NATO exercise was held, is a large military training ground located in the northwestern part of Poland, near the city of Drawsko Pomorskie.
+
+The exercise itself was likely a joint training operation involving military personnel and equipment from various NATO member states, with Poland serving as the host nation. Such exercises are common within the NATO alliance, as they provide an opportunity for member countries to practice joint operations, improve interoperability, and enhance their collective defense capabilities.
+
+By hosting this NATO exercise, Poland demonstrated its commitment to the alliance and its willingness to contribute to the collective security of the North Atlantic region. The exercise likely involved a range of military activities, such as field maneuvers, live-fire training, and command-and-control exercises, all designed to enhance the readiness and capabilities of the participating forces.
+
+Overall, the information provided indicates that Poland played a central role in this NATO exercise, serving as the host country and providing the necessary infrastructure and resources to support the training activities. This event highlights Poland's strategic importance within the NATO alliance and its ongoing efforts to strengthen its military capabilities and contribute to regional security.</data>
+    </node>
+    <node id="16">
+      <data key="d0">M1A2 ABRAMS SEP V3</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The latest variant of the U.S. Army's main battle tank, used in the exercise</data>
+    </node>
+    <node id="17">
+      <data key="d0">1ST ARMORED BRIGADE COMBAT TEAM</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The 1ST ARMORED BRIGADE COMBAT TEAM is a brigade-level unit that belongs to the 1st Infantry Division of the U.S. Army. The brigade took part in a recent military exercise, as evidenced by the descriptions provided.
+
+The 1st Armored Brigade Combat Team is responsible for providing armored and mechanized infantry capabilities to the 1st Infantry Division. It is composed of several subordinate units, including the 3rd Battalion, 66th Armored Regiment. This battalion, along with the rest of the brigade, participated in the exercise mentioned in the descriptions.
+
+During the exercise, the 1st Armored Brigade Combat Team demonstrated its ability to deploy and maneuver its armored and mechanized forces in a simulated combat environment. The brigade's participation in this exercise was likely part of its ongoing training and readiness efforts, ensuring that it remains prepared to fulfill its role within the 1st Infantry Division.
+
+The descriptions provided do not contain any contradictory information about the 1st Armored Brigade Combat Team or its involvement in the exercise. The brigade's participation is consistently mentioned across the different descriptions, indicating that this was a key aspect of the exercise.
+
+In summary, the 1ST ARMORED BRIGADE COMBAT TEAM is a critical component of the 1st Infantry Division, providing armored and mechanized capabilities. The brigade recently took part in a military exercise, demonstrating its readiness and ability to deploy and maneuver its forces effectively.</data>
+    </node>
+    <node id="18">
+      <data key="d0">MATTHEW KELLEY</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The U.S. Army colonel who commanded the 1st Armored Brigade Combat Team</data>
+    </node>
+    <node id="19">
+      <data key="d0">DRONES</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="20">
+      <data key="d0">COUNTER-UAS TECHNOLOGY</data>
+      <data key="d1" />
+      <data key="d2">9.0</data>
+      <data key="d5" />
+    </node>
+    <node id="21">
+      <data key="d0">INTELLIGENCE, SURVEILLANCE, AND RECONNAISSANCE (ISR)</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The intelligence, surveillance, and reconnaissance capabilities that enabled the integration of drones and tanks</data>
+    </node>
+    <node id="22">
+      <data key="d0">ELECTRONIC WARFARE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The electronic warfare capabilities, including jamming arrays and kinetic interceptors, used to counter drone threats</data>
+    </node>
+    <node id="23">
+      <data key="d0">JOINT-FORCE OPERATIONS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">9.0</data>
+      <data key="d5">The integrated operations involving different military branches and platforms</data>
+    </node>
+    <node id="24">
+      <data key="d0">UNMANNED AERIAL SYSTEMS</data>
+      <data key="d1" />
+      <data key="d2">10.0</data>
+      <data key="d5" />
+    </node>
+    <node id="25">
+      <data key="d0">LEIDOS</data>
+      <data key="d1" />
+      <data key="d2">13.0</data>
+      <data key="d5" />
+    </node>
+    <node id="26">
+      <data key="d0">PROGRAM EXECUTIVE OFFICE FOR MISSILES AND SPACE</data>
+      <data key="d1" />
+      <data key="d2">13.0</data>
+      <data key="d5" />
+    </node>
+    <node id="27">
+      <data key="d0">INDIRECT FIRE PROTECTION CAPABILITY INCREMENT 2</data>
+      <data key="d1" />
+      <data key="d2">10.0</data>
+      <data key="d5" />
+    </node>
+    <node id="28">
+      <data key="d0">CRUISE MISSILES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Cruise missiles are one of the aerial threats that the IFPC Inc 2 system is designed to neutralize</data>
+    </node>
+    <node id="29">
+      <data key="d0">THAAD</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">THAAD is a long-range strategic air defense system that the IFPC Inc 2 system is intended to complement</data>
+    </node>
+    <node id="30">
+      <data key="d0">PATRIOT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">10.0</data>
+      <data key="d5">Patriot is a long-range strategic air defense system that the IFPC Inc 2 system is intended to complement</data>
+    </node>
+    <node id="31">
+      <data key="d0">ROCKET, ARTILLERY, AND MORTAR PROJECTILES</data>
+      <data key="d1" />
+      <data key="d2">10.0</data>
+      <data key="d5" />
+    </node>
+    <node id="32">
+      <data key="d0">DYNETICS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Dynetics, a subsidiary of Leidos, was awarded a three-year prototype Other Transaction Authority (OTA) agreement to develop and deliver 16 launcher prototypes, 60 interceptors, and associated all-up-round magazines for the IFPC Inc 2 system.</data>
+    </node>
+    <node id="33">
+      <data key="d0">GUAM DEFENSE SYSTEMS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The Guam Defense Systems (GDS) will be the first deployment of the IFPC Inc 2 system, with the initial delivery order authorizing the production of 18 launchers.</data>
+    </node>
+    <node id="34">
+      <data key="d0">U.S. INDO-PACIFIC COMMAND</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The deployment of the IFPC Inc 2 system in Guam is expected to significantly enhance the U.S. Indo-Pacific Command's (USINDOPACOM) Pacific Deterrence Initiative, strengthening regional defense capabilities and serving as a deterrent against adversaries.</data>
+    </node>
+    <node id="35">
+      <data key="d0">AIM-9X SIDEWINDER</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The AIM-9X Sidewinder missile is currently utilized by the IFPC Inc 2 system, but the system is designed for compatibility with future interceptors to adapt to evolving threats.</data>
+    </node>
+    <node id="36">
+      <data key="d0">AGM-114L LONGBOW</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The AGM-114L Longbow variant of the Hellfire missile can also be employed by the IFPC Inc 2 system.</data>
+    </node>
+    <node id="37">
+      <data key="d0">TAMIR</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The U.S. Army is conducting tests with the Israeli Tamir missile, the interceptor used in Israel's Iron Dome system, showcasing the IFPC Inc 2 system's versatility and potential for international technology integration.</data>
+    </node>
+    <node id="38">
+      <data key="d0">IFPC INC 2</data>
+      <data key="d1" />
+      <data key="d2">11.0</data>
+      <data key="d5" />
+    </node>
+    <node id="39">
+      <data key="d0">HUNTSVILLE</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Prototype development for the IFPC Inc 2 system was planned in Huntsville, Alabama.</data>
+    </node>
+    <node id="40">
+      <data key="d0">TUCSON</data>
+      <data key="d1">GEO</data>
+      <data key="d2">12.0</data>
+      <data key="d5">Prototype development for the IFPC Inc 2 system was also planned in Tucson, Arizona.</data>
+    </node>
+    <node id="41">
+      <data key="d0">SEPTEMBER 24, 2021</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The U.S. Army awarded a three-year prototype Other Transaction Authority (OTA) agreement to Dynetics, a subsidiary of Leidos, on this date.</data>
+    </node>
+    <node id="42">
+      <data key="d0">FISCAL YEAR 2022</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">Deliveries for testing of the IFPC Inc 2 system were scheduled to begin in the fourth quarter of fiscal year 2022.</data>
+    </node>
+    <node id="43">
+      <data key="d0">FISCAL YEAR 2023</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The goal was to have the first combat-capable IFPC Increment 2 battery operational by the fourth quarter of fiscal year 2023.</data>
+    </node>
+    <node id="44">
+      <data key="d0">FISCAL YEAR 2024</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">A Milestone C procurement decision for the IFPC Inc 2 system was expected in the second quarter of fiscal year 2024.</data>
+    </node>
+    <node id="45">
+      <data key="d0">FISCAL YEAR 2026</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">The first full battalion of the IFPC Inc 2 system was expected to be fielded by fiscal year 2026.</data>
+    </node>
+    <node id="46">
+      <data key="d0">FISCAL YEAR 2026 - FISCAL YEAR 2027</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">11.0</data>
+      <data key="d5">A technology demonstration phase for integrating additional interceptor technologies, including a second missile variant designed to counter both subsonic and supersonic cruise missiles, is expected between fiscal year 2026 and fiscal year 2027.</data>
+    </node>
+    <node id="47">
+      <data key="d0">1ST INFANTRY DIVISION</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The 1st Infantry Division of the U.S. Army is a highly trained and experienced military unit that recently participated in a live-fire exercise in Bulgaria. The division, known as the "Big Red One," has a long and distinguished history, having served in numerous conflicts since its establishment in 1917.
+
+The live-fire exercise in Bulgaria was a significant event for the 1st Infantry Division, as it allowed the unit to hone its combat skills and demonstrate its readiness to respond to a wide range of military scenarios. The exercise involved the deployment of the division's personnel and equipment, including tanks, armored vehicles, and artillery, to a training area in Bulgaria, where they engaged in a series of simulated combat operations.
+
+The purpose of the exercise was to enhance the division's ability to operate in a multinational environment, as well as to strengthen the partnership between the U.S. and its NATO allies. The 1st Infantry Division's participation in the exercise was a testament to its commitment to maintaining a high level of readiness and its ability to work seamlessly with other military forces.
+
+Throughout the exercise, the 1st Infantry Division showcased its proficiency in a variety of tactical maneuvers, including the coordination of ground and air assets, the deployment of specialized equipment, and the execution of complex battle plans. The division's performance was praised by military observers, who noted the unit's exceptional discipline, teamwork, and adaptability in the face of challenging conditions.
+
+The successful completion of the live-fire exercise in Bulgaria is a significant achievement for the 1st Infantry Division, as it demonstrates the unit's continued relevance and importance in the modern military landscape. The division's participation in the exercise is a clear indication of the U.S. Army's commitment to maintaining a strong and capable force, ready to respond to a wide range of global threats and challenges.</data>
+    </node>
+    <node id="48">
+      <data key="d0">CHARLIE COMPANY, 1ST BATTALION, 16TH INFANTRY REGIMENT</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">Charlie Company, 1st Battalion, 16th Infantry Regiment is a unit that belongs to the 1st Infantry Division of the United States Army. It is part of the 1st Armored Brigade Combat Team within the division.
+
+The unit is equipped with Abrams main battle tanks and Bradley infantry fighting vehicles, which are advanced armored vehicles used by the U.S. Army. This suggests that Charlie Company is a mechanized infantry unit, capable of providing both firepower and mobility on the battlefield.
+
+Charlie Company has participated in various military exercises, including those involving the 1st Infantry Division. These exercises likely serve to maintain the unit's readiness and ensure its ability to effectively integrate with other elements of the division during operations.
+
+The 1st Infantry Division, also known as the "Big Red One," is one of the most storied and decorated divisions in the U.S. Army, with a history dating back to World War I. As part of this prestigious division, Charlie Company inherits a rich legacy of valor and accomplishment.
+
+Overall, Charlie Company, 1st Battalion, 16th Infantry Regiment is a well-equipped and experienced mechanized infantry unit within the 1st Infantry Division, capable of contributing to the division's overall combat power and mission readiness.</data>
+    </node>
+    <node id="49">
+      <data key="d0">M1A2 ABRAMS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The M1A2 Abrams is the United States Army's main battle tank, known for its impressive firepower, robust armor, and advanced technological capabilities. This formidable armored vehicle was utilized by U.S. Army forces during a recent live-fire exercise.
+
+The M1A2 Abrams is a highly capable and versatile main battle tank that has been a cornerstone of the U.S. Army's armored forces for decades. Equipped with a powerful 120mm smoothbore gun, the Abrams is capable of engaging and destroying a wide range of enemy targets with devastating accuracy and firepower. Its advanced armor protection, including composite and reactive armor, provides exceptional defense against enemy anti-tank weapons, ensuring the safety and survivability of the crew.
+
+In addition to its impressive firepower and armor, the M1A2 Abrams also boasts a range of advanced technologies that enhance its capabilities on the battlefield. These include sophisticated fire control systems, advanced optics and sensors, and state-of-the-art communications and navigation systems. These features allow the Abrams to effectively locate, track, and engage targets with a high degree of precision, even in challenging environmental conditions.
+
+During the recent live-fire exercise, the M1A2 Abrams demonstrated its impressive capabilities as a key component of the U.S. Army's armored forces. The tank's firepower, armor, and advanced technology were put to the test, showcasing its ability to dominate the battlefield and provide critical support to infantry and other ground forces.
+
+The successful deployment of the M1A2 Abrams in the live-fire exercise underscores the tank's continued relevance and importance in modern warfare. As the U.S. Army's main battle tank, the Abrams remains a formidable and versatile platform that is essential to the Army's ability to project power and achieve victory on the battlefield.</data>
+    </node>
+    <node id="50">
+      <data key="d0">M2A3 BRADLEY</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">0.0</data>
+      <data key="d5">The M2A3 Bradley is a key infantry fighting vehicle used by the U.S. Army. It serves as a crucial component of the Army's armored forces, operating alongside the formidable Abrams main battle tanks.
+
+The M2A3 Bradley is designed to provide both firepower and the ability to transport infantry into combat. In live-fire exercises, the M2A3 Bradley has demonstrated its capabilities in supporting ground operations. Its armament, which includes a 25mm automatic cannon and TOW anti-tank missiles, allows it to engage a variety of targets and provide effective fire support to infantry units.
+
+As an infantry fighting vehicle, the M2A3 Bradley is tasked with transporting and protecting soldiers on the battlefield. Its armored design and mobility enable it to keep pace with the Abrams tanks, ensuring that infantry forces can be rapidly deployed and supported during combat operations.
+
+The M2A3 Bradley's integration with the Abrams tanks highlights the synergy between the two platforms. While the Abrams provides the main firepower and heavy armor, the Bradley complements it by offering additional firepower, troop transport, and the ability to maneuver alongside the tanks. This combined arms approach enhances the overall effectiveness of the U.S. Army's armored forces.
+
+In summary, the M2A3 Bradley is a versatile and essential component of the U.S. Army's armored forces. Its combination of firepower, mobility, and infantry transport capabilities make it a crucial asset in supporting ground operations and ensuring the success of the Army's armored units.</data>
+    </node>
+    <node id="51">
+      <data key="d0">NOVO SELO TRAINING AREA</data>
+      <data key="d1">GEO</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The location in Bulgaria where the U.S. Army conducted the combined arms live-fire exercise</data>
+    </node>
+    <node id="52">
+      <data key="d0">BULGARIA</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="53">
+      <data key="d0">DEFENSE VISUAL INFORMATION DISTRIBUTION SERVICE</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="54">
+      <data key="d0">M2 .50 CAL</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The M2 .50 caliber machine gun is a heavy machine gun used by the U.S. Army for training and combat</data>
+    </node>
+    <node id="55">
+      <data key="d0">NEWSBREAK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">NewsBreak is a news and content platform that publishes this article about the U.S. Army training</data>
+    </node>
+    <node id="56">
+      <data key="d0">RUSSO-UKRAINIAN WAR</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The Russo-Ukrainian War has provided clear implications for the U.S. Army's fires capabilities</data>
+    </node>
+    <node id="57">
+      <data key="d0">PRECISION STRIKE MISSILE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The Precision Strike Missile is a leap-ahead capability being fielded by the U.S. Army</data>
+    </node>
+    <node id="58">
+      <data key="d0">PEOPLE'S LIBERATION ARMY</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="59">
+      <data key="d0">LARGE-SCALE COMBAT OPERATIONS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The U.S. Army is transforming its fires capabilities to overmatch potential adversaries in large-scale combat operations</data>
+    </node>
+    <node id="60">
+      <data key="d0">LONG-RANGE PRECISION FIRES</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Long-range precision fires are a critical capability for the U.S. Army</data>
+    </node>
+    <node id="61">
+      <data key="d0">AIR AND MISSILE DEFENSE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Air and missile defense is a key focus area for the U.S. Army's fires transformation</data>
+    </node>
+    <node id="62">
+      <data key="d0">INDUSTRIAL BASE</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The defense industrial base is struggling to keep up with the U.S. Army's demand for new fires systems</data>
+    </node>
+    <node id="63">
+      <data key="d0">CONTINUING RESOLUTIONS</data>
+      <data key="d1">EVENT</data>
+      <data key="d2">16.0</data>
+      <data key="d5">Continuing resolutions have delayed new program starts and modernization efforts for the U.S. Army</data>
+    </node>
+    <node id="64">
+      <data key="d0">LAND-BASED FIRES</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <node id="65">
+      <data key="d0">U.S. MARINE CORPS</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">6.0</data>
+      <data key="d5">The U.S. Marine Corps employs forward observers with the designator of 0861, known as "fire support marines"</data>
+    </node>
+    <node id="66">
+      <data key="d0">JOINT FIRE SUPPORT SPECIALISTS</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Forward observers in the U.S. Army are officially called "joint fire support specialists"</data>
+    </node>
+    <node id="67">
+      <data key="d0">FIRE SUPPORT MARINES</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Forward observers in the U.S. Marine Corps are officially called "fire support marines"</data>
+    </node>
+    <node id="68">
+      <data key="d0">FISTER</data>
+      <data key="d1">PERSON</data>
+      <data key="d2">6.0</data>
+      <data key="d5">Forward observers are colloquially known as "FiSTers", regardless of whether they are members of a fire support team (FiST)</data>
+    </node>
+    <node id="69">
+      <data key="d0">ABRAMS TANK</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The M1 Abrams is a third-generation American main battle tank designed and produced in the United States. It is used by the U.S. Army and Marine Corps.</data>
+    </node>
+    <node id="70">
+      <data key="d0">M2A3 BRADLEY IFV</data>
+      <data key="d1">ORGANIZATION</data>
+      <data key="d2">16.0</data>
+      <data key="d5">The M2 Bradley is a fighting vehicle of the United States Army that is designed to transport infantry and provide fire support. It is used in conjunction with the Abrams tank in combined arms operations.</data>
+    </node>
+    <node id="71">
+      <data key="d0">FORWARD OBSERVERS</data>
+      <data key="d1" />
+      <data key="d2">16.0</data>
+      <data key="d5" />
+    </node>
+    <edge id="e0" source="0" target="3">
+      <data key="d3">18.0</data>
+      <data key="d4">Aviation Brigade unit...</data>
+      <data key="d6">The 2nd Combat Aviation Brigade is a unit within the U.S. Army that conducted live-fire aerial gunnery training. The U.S. Army, of which the 2nd Combat Aviation Brigade is a part, carried out this training exercise.
+
+The 2nd Combat Aviation Brigade is a military unit that falls under the command and organization of the U.S. Army. As a combat aviation brigade, it is responsible for providing air support and transportation capabilities to ground forces. This includes tasks such as air assault operations, medical evacuation, and aerial reconnaissance.
+
+The live-fire training conducted by the 2nd Combat Aviation Brigade and the U.S. Army involved the use of various aircraft and weapons systems to simulate combat scenarios. This type of training is essential for maintaining the readiness and proficiency of the unit's personnel, ensuring they are prepared to carry out their duties effectively in real-world operations.
+
+The training likely involved the use of helicopters, fixed-wing aircraft, and other aerial platforms, as well as the firing of various munitions and weapons systems. This allowed the brigade to practice and hone their skills in areas such as target acquisition, weapons employment, and coordinated air-ground operations.
+
+By conducting this live-fire training, the 2nd Combat Aviation Brigade and the U.S. Army are working to ensure that their personnel are well-trained, their equipment is functioning properly, and their overall combat capabilities are maintained at a high level. This is crucial for the U.S. Army's ability to respond to a wide range of military and humanitarian missions both at home and abroad.
+
+Overall, the 2nd Combat Aviation Brigade, as a unit within the larger U.S. Army, plays a vital role in the Army's overall mission and capabilities. The live-fire training they conducted, in coordination with the U.S. Army, is a testament to their commitment to readiness and their dedication to serving the nation.</data>
+    </edge>
+    <edge id="e1" source="0" target="1">
+      <data key="d3">18.0</data>
+      <data key="d4">Aviation Brigade military...</data>
+      <data key="d6">The 2nd Combat Aviation Brigade is a military unit that operates and trains with the AH-64 Apache attack helicopters. The brigade recently conducted live-fire aerial gunnery training with the AH-64 Apache, showcasing their proficiency in utilizing this advanced attack helicopter.
+
+The AH-64 Apache is a highly capable and versatile attack helicopter that serves as the primary attack helicopter for the United States Army. It is known for its impressive firepower, advanced sensors, and ability to engage a wide range of targets, including enemy armor, personnel, and infrastructure.
+
+The 2nd Combat Aviation Brigade is responsible for maintaining and operating the AH-64 Apaches within their unit. This includes ongoing training and readiness exercises to ensure the pilots and support personnel are well-prepared to deploy and employ the Apaches in combat operations.
+
+During the recent live-fire aerial gunnery training, the 2nd Combat Aviation Brigade demonstrated their ability to effectively utilize the AH-64's various weapon systems, including its 30mm chain gun, Hellfire missiles, and rocket pods. The training allowed the pilots to hone their skills in target acquisition, weapon employment, and coordinated maneuvers, all of which are critical for the successful deployment of the Apache in combat scenarios.
+
+The 2nd Combat Aviation Brigade's proficiency with the AH-64 Apache is a testament to their dedication and commitment to maintaining a high level of readiness. The brigade's ability to conduct comprehensive training exercises, such as the live-fire aerial gunnery, ensures that they are well-equipped to support ground forces and provide critical air support when needed.
+
+Overall, the 2nd Combat Aviation Brigade's operations and training with the AH-64 Apache highlight the important role that attack helicopters play in modern military operations. The brigade's expertise in utilizing this advanced platform contributes to the overall combat effectiveness and readiness of the United States Army.</data>
+    </edge>
+    <edge id="e2" source="0" target="2">
+      <data key="d3">9.0</data>
+      <data key="d4">Aviation Brigade military...</data>
+      <data key="d6">The 2nd Combat Aviation Brigade is a military unit that falls under the command and oversight of the Eighth Army. The Eighth Army, a major military formation, is responsible for providing supervision and guidance for the live-fire aerial gunnery training conducted by the 2nd Combat Aviation Brigade.
+
+The 2nd Combat Aviation Brigade is a specialized unit within the Eighth Army that focuses on aviation operations, including aerial gunnery and other combat-related activities. The Eighth Army, as the higher-level command, is responsible for ensuring that the 2nd Combat Aviation Brigade's training and operations are carried out in a safe and effective manner.
+
+The live-fire aerial gunnery training of the 2nd Combat Aviation Brigade is a critical component of their overall readiness and combat preparedness. This training involves the use of live ammunition and simulated combat scenarios to hone the skills and capabilities of the brigade's pilots and crew. The Eighth Army's oversight and supervision of this training is essential to ensuring that it is conducted safely and in accordance with established protocols and procedures.
+
+Through the Eighth Army's guidance and oversight, the 2nd Combat Aviation Brigade is able to maintain a high level of readiness and proficiency in its aerial gunnery and other combat-related tasks. This, in turn, enhances the overall combat effectiveness and capabilities of the Eighth Army as a whole, as the 2nd Combat Aviation Brigade is a critical component of the larger military force.
+
+In summary, the 2nd Combat Aviation Brigade is a specialized unit within the Eighth Army that is responsible for conducting live-fire aerial gunnery training. The Eighth Army, as the higher-level command, provides oversight and supervision for this training to ensure that it is carried out safely and effectively, thereby enhancing the overall combat readiness and capabilities of the Eighth Army.</data>
+    </edge>
+    <edge id="e3" source="0" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">Aviation Brigade carried...</data>
+      <data key="d6">The 2nd Combat Aviation Brigade carried out the training in South Korea</data>
+    </edge>
+    <edge id="e4" source="1" target="4">
+      <data key="d3">1.0</data>
+      <data key="d4">helicopters were used...</data>
+      <data key="d6">The AH-64 Apache helicopters were used in the training exercise in South Korea</data>
+    </edge>
+    <edge id="e5" source="2" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">command within...</data>
+      <data key="d6">The Eighth Army is a command within the U.S. Army that oversees operations in South Korea</data>
+    </edge>
+    <edge id="e6" source="3" target="4">
+      <data key="d3">8.0</data>
+      <data key="d4">conducted training exercise...</data>
+      <data key="d6">The U.S. Army conducted the training exercise in South Korea</data>
+    </edge>
+    <edge id="e7" source="1" target="5">
+      <data key="d3">8.0</data>
+      <data key="d4">manufactured Boeing...</data>
+      <data key="d6">The AH-64 Apache is manufactured by Boeing</data>
+    </edge>
+    <edge id="e8" source="1" target="6">
+      <data key="d3">8.0</data>
+      <data key="d4">powered T700-GE-701D...</data>
+      <data key="d6">The AH-64 Apache is powered by GE T700-GE-701D engines</data>
+    </edge>
+    <edge id="e9" source="1" target="7">
+      <data key="d3">9.0</data>
+      <data key="d4">equipped with AN/APG-78...</data>
+      <data key="d6">The AH-64 Apache is equipped with the AN/APG-78 Longbow fire control radar</data>
+    </edge>
+    <edge id="e10" source="1" target="8">
+      <data key="d3">9.0</data>
+      <data key="d4">equipped with Target...</data>
+      <data key="d6">The AH-64 Apache is equipped with the Target Acquisition Designation Sight (TADS)</data>
+    </edge>
+    <edge id="e11" source="1" target="9">
+      <data key="d3">9.0</data>
+      <data key="d4">equipped with Pilot...</data>
+      <data key="d6">The AH-64 Apache is equipped with the Pilot Night Vision Sensor (PNVS)</data>
+    </edge>
+    <edge id="e12" source="1" target="10">
+      <data key="d3">9.0</data>
+      <data key="d4">equipped with M230...</data>
+      <data key="d6">The AH-64 Apache is equipped with the M230 chain gun as one of its weapon systems</data>
+    </edge>
+    <edge id="e13" source="1" target="11">
+      <data key="d3">9.0</data>
+      <data key="d4">equipped with Hydra...</data>
+      <data key="d6">The AH-64 Apache is equipped with Hydra 70 rocket pods as one of its weapon systems</data>
+    </edge>
+    <edge id="e14" source="1" target="12">
+      <data key="d3">1.0</data>
+      <data key="d4">equipped with AGM-114...</data>
+      <data key="d6">The AH-64 Apache is equipped with AGM-114 Hellfire missiles as one of its weapon systems</data>
+    </edge>
+    <edge id="e15" source="13" target="3">
+      <data key="d3">1.0</data>
+      <data key="d4">offers ROTC programs...</data>
+      <data key="d6">The U.S. Army offers ROTC programs as a career path</data>
+    </edge>
+    <edge id="e16" source="14" target="3">
+      <data key="d3">5.0</data>
+      <data key="d4">participated NATO-organized exercise...</data>
+      <data key="d6">The U.S. Army participated in the NATO-organized exercise in Poland</data>
+    </edge>
+    <edge id="e17" source="14" target="15">
+      <data key="d3">1.0</data>
+      <data key="d4">live-fire exercise Operation...</data>
+      <data key="d6">NATO organized the live-fire exercise Operation Winter Falcon 26 in Poland</data>
+    </edge>
+    <edge id="e18" source="16" target="3">
+      <data key="d3">9.0</data>
+      <data key="d4">operates latest variant...</data>
+      <data key="d6">The U.S. Army operates the latest variant of the Abrams tank</data>
+    </edge>
+    <edge id="e19" source="16" target="15">
+      <data key="d3">8.0</data>
+      <data key="d4">advanced Abrams tank...</data>
+      <data key="d6">Poland has acquired the advanced Abrams tank variant to replace its legacy Soviet-era systems</data>
+    </edge>
+    <edge id="e20" source="16" target="19">
+      <data key="d3">9.0</data>
+      <data key="d4">data terrain analysis...</data>
+      <data key="d6">Drones provided targeting data and terrain analysis to the Abrams tank crews, enabling better coordination and lethality</data>
+    </edge>
+    <edge id="e21" source="16" target="20">
+      <data key="d3">8.0</data>
+      <data key="d4">were supported counter-drone...</data>
+      <data key="d6">The Abrams tanks were supported by counter-drone systems to protect against aerial threats</data>
+    </edge>
+    <edge id="e22" source="16" target="24">
+      <data key="d3">9.0</data>
+      <data key="d4">data terrain analysis...</data>
+      <data key="d6">Drones provided targeting data and terrain analysis to the Abrams tanks</data>
+    </edge>
+    <edge id="e23" source="16" target="21">
+      <data key="d3">9.0</data>
+      <data key="d4">capabilities enabled better...</data>
+      <data key="d6">The advanced ISR capabilities enabled better coordination and lethality for the Abrams tanks</data>
+    </edge>
+    <edge id="e24" source="16" target="22">
+      <data key="d3">8.0</data>
+      <data key="d4">warfare capabilities protected...</data>
+      <data key="d6">The counter-drone electronic warfare capabilities protected the Abrams tanks from aerial threats</data>
+    </edge>
+    <edge id="e25" source="16" target="23">
+      <data key="d3">1.0</data>
+      <data key="d4">integration various military...</data>
+      <data key="d6">The exercise involved the integration of various military platforms and capabilities, including tanks, drones, and artillery</data>
+    </edge>
+    <edge id="e26" source="3" target="15">
+      <data key="d3">9.0</data>
+      <data key="d4">Polish forces conducted...</data>
+      <data key="d6">The U.S. and Polish forces conducted the integrated exercise, demonstrating their growing military cooperation and interoperability</data>
+    </edge>
+    <edge id="e27" source="15" target="14">
+      <data key="d3">1.0</data>
+      <data key="d4">member, Poland playing...</data>
+      <data key="d6">As a NATO member, Poland is playing an active role in shaping the alliance's next-generation warfighting architecture</data>
+    </edge>
+    <edge id="e28" source="17" target="18">
+      <data key="d3">9.0</data>
+      <data key="d4">Army brigade that...</data>
+      <data key="d6">Matthew Kelley commanded the U.S. Army brigade that participated in the exercise</data>
+    </edge>
+    <edge id="e29" source="3" target="25">
+      <data key="d3">18.0</data>
+      <data key="d4">IFPC Inc system...</data>
+      <data key="d6">Leidos is developing the IFPC Inc 2 system to meet the U.S. Army's air and missile defense modernization needs</data>
+    </edge>
+    <edge id="e30" source="3" target="27">
+      <data key="d3">10.0</data>
+      <data key="d4">system key...</data>
+      <data key="d6">The IFPC Inc 2 system is a key capability for the U.S. Army's air and missile defense modernization efforts</data>
+    </edge>
+    <edge id="e31" source="25" target="26">
+      <data key="d3">16.0</data>
+      <data key="d4">PEO awarded contract...</data>
+      <data key="d6">The U.S. Army's PEO M&amp;S awarded a contract to Leidos for the IFPC Inc 2 system</data>
+    </edge>
+    <edge id="e32" source="27" target="24">
+      <data key="d3">8.0</data>
+      <data key="d4">system designed...</data>
+      <data key="d6">The IFPC Inc 2 system is designed to neutralize unmanned aerial systems</data>
+    </edge>
+    <edge id="e33" source="27" target="28">
+      <data key="d3">8.0</data>
+      <data key="d4">system designed...</data>
+      <data key="d6">The IFPC Inc 2 system is designed to neutralize cruise missiles</data>
+    </edge>
+    <edge id="e34" source="27" target="31">
+      <data key="d3">8.0</data>
+      <data key="d4">system designed...</data>
+      <data key="d6">The IFPC Inc 2 system is designed to neutralize rocket, artillery, and mortar projectiles</data>
+    </edge>
+    <edge id="e35" source="27" target="29">
+      <data key="d3">7.0</data>
+      <data key="d4">system intended...</data>
+      <data key="d6">The IFPC Inc 2 system is intended to complement the long-range strategic air defense capabilities of THAAD</data>
+    </edge>
+    <edge id="e36" source="27" target="30">
+      <data key="d3">1.0</data>
+      <data key="d4">system intended...</data>
+      <data key="d6">The IFPC Inc 2 system is intended to complement the long-range strategic air defense capabilities of Patriot</data>
+    </edge>
+    <edge id="e37" source="25" target="38">
+      <data key="d3">18.0</data>
+      <data key="d4">billion IDIQ contract...</data>
+      <data key="d6">Leidos secured a $4.1 billion IDIQ contract for the IFPC Inc 2 system, including provisions for production and support services.</data>
+    </edge>
+    <edge id="e38" source="32" target="38">
+      <data key="d3">16.0</data>
+      <data key="d4">subsidiary, awarded three-year...</data>
+      <data key="d6">Dynetics, a Leidos subsidiary, was awarded a three-year prototype OTA agreement to develop and deliver IFPC Inc 2 system components.</data>
+    </edge>
+    <edge id="e39" source="32" target="39">
+      <data key="d3">7.0</data>
+      <data key="d4">IFPC Inc system...</data>
+      <data key="d6">Prototype development for the IFPC Inc 2 system was planned in Huntsville, Alabama.</data>
+    </edge>
+    <edge id="e40" source="32" target="40">
+      <data key="d3">7.0</data>
+      <data key="d4">IFPC Inc system...</data>
+      <data key="d6">Prototype development for the IFPC Inc 2 system was also planned in Tucson, Arizona.</data>
+    </edge>
+    <edge id="e41" source="3" target="38">
+      <data key="d3">18.0</data>
+      <data key="d4">primary user...</data>
+      <data key="d6">The U.S. Army is the primary user and developer of the IFPC Inc 2 system, integrating it into its Integrated Air and Missile Defense network and planning its deployment.</data>
+    </edge>
+    <edge id="e42" source="3" target="41">
+      <data key="d3">8.0</data>
+      <data key="d4">awarded three-year prototype...</data>
+      <data key="d6">The U.S. Army awarded a three-year prototype OTA agreement to Dynetics on this date.</data>
+    </edge>
+    <edge id="e43" source="33" target="38">
+      <data key="d3">16.0</data>
+      <data key="d4">Systems will first...</data>
+      <data key="d6">The Guam Defense Systems will be the first deployment of the IFPC Inc 2 system, with the initial delivery order authorizing the production of 18 launchers.</data>
+    </edge>
+    <edge id="e44" source="34" target="38">
+      <data key="d3">16.0</data>
+      <data key="d4">IFPC Inc system...</data>
+      <data key="d6">The deployment of the IFPC Inc 2 system in Guam is expected to significantly enhance the U.S. Indo-Pacific Command's Pacific Deterrence Initiative.</data>
+    </edge>
+    <edge id="e45" source="35" target="38">
+      <data key="d3">14.0</data>
+      <data key="d4">missile currently utilized...</data>
+      <data key="d6">The AIM-9X Sidewinder missile is currently utilized by the IFPC Inc 2 system, but the system is designed for compatibility with future interceptors.</data>
+    </edge>
+    <edge id="e46" source="36" target="38">
+      <data key="d3">14.0</data>
+      <data key="d4">variant Hellfire missile...</data>
+      <data key="d6">The AGM-114L Longbow variant of the Hellfire missile can also be employed by the IFPC Inc 2 system.</data>
+    </edge>
+    <edge id="e47" source="37" target="38">
+      <data key="d3">9.0</data>
+      <data key="d4">conducting tests with...</data>
+      <data key="d6">The U.S. Army is conducting tests with the Israeli Tamir missile, the interceptor used in Israel's Iron Dome system, showcasing the IFPC Inc 2 system's versatility and potential for international technology integration.</data>
+    </edge>
+    <edge id="e48" source="38" target="42">
+      <data key="d3">7.0</data>
+      <data key="d4">IFPC Inc...</data>
+      <data key="d6">Deliveries for testing of the IFPC Inc 2 system were scheduled to begin in the fourth quarter of fiscal year 2022.</data>
+    </edge>
+    <edge id="e49" source="38" target="43">
+      <data key="d3">8.0</data>
+      <data key="d4">have first combat-capable...</data>
+      <data key="d6">The goal was to have the first combat-capable IFPC Increment 2 battery operational by the fourth quarter of fiscal year 2023.</data>
+    </edge>
+    <edge id="e50" source="38" target="44">
+      <data key="d3">7.0</data>
+      <data key="d4">procurement decision IFPC...</data>
+      <data key="d6">A Milestone C procurement decision for the IFPC Inc 2 system was expected in the second quarter of fiscal year 2024.</data>
+    </edge>
+    <edge id="e51" source="38" target="45">
+      <data key="d3">7.0</data>
+      <data key="d4">battalion IFPC Inc...</data>
+      <data key="d6">The first full battalion of the IFPC Inc 2 system was expected to be fielded by fiscal year 2026.</data>
+    </edge>
+    <edge id="e52" source="38" target="46">
+      <data key="d3">1.0</data>
+      <data key="d4">phase integrating additional...</data>
+      <data key="d6">A technology demonstration phase for integrating additional interceptor technologies is expected between fiscal year 2026 and fiscal year 2027.</data>
+    </edge>
+    <edge id="e53" source="47" target="3">
+      <data key="d3">9.0</data>
+      <data key="d4">Division part...</data>
+      <data key="d6">The 1st Infantry Division is part of the U.S. Army and participated in the exercise</data>
+    </edge>
+    <edge id="e54" source="47" target="17">
+      <data key="d3">8.0</data>
+      <data key="d4">Brigade Combat Team...</data>
+      <data key="d6">The 1st Armored Brigade Combat Team is a subordinate unit of the 1st Infantry Division</data>
+    </edge>
+    <edge id="e55" source="17" target="48">
+      <data key="d3">9.0</data>
+      <data key="d4">unit within 1st...</data>
+      <data key="d6">Charlie Company is a unit within the 1st Armored Brigade Combat Team</data>
+    </edge>
+    <edge id="e56" source="48" target="49">
+      <data key="d3">17.0</data>
+      <data key="d4">Battalion, 16th Infantry...</data>
+      <data key="d6">Charlie Company, 1st Battalion, 16th Infantry Regiment employed M1A2 Abrams tanks during the exercise. The Abrams tanks were a crucial part of Charlie Company's operations, providing heavy firepower and armor support.
+
+The M1A2 Abrams is a main battle tank used by the United States Army. It is known for its powerful 120mm main gun, advanced armor protection, and sophisticated fire control and targeting systems. The Abrams is considered one of the most capable and technologically advanced tanks in the world.
+
+During the exercise, Charlie Company utilized the Abrams tanks to great effect. The tanks' firepower and armor allowed them to engage and destroy enemy targets with ease, while their mobility enabled them to maneuver quickly on the battlefield. The Abrams' advanced optics and targeting systems also proved invaluable, allowing Charlie Company to identify and engage threats with precision.
+
+The integration of the Abrams tanks into Charlie Company's operations was seamless. The tank crews worked closely with the infantry soldiers, providing support and protection as needed. This combined arms approach allowed Charlie Company to achieve its objectives and successfully complete the exercise.
+
+Overall, the employment of the M1A2 Abrams tanks by Charlie Company, 1st Battalion, 16th Infantry Regiment was a key factor in the success of the exercise. The tanks' capabilities, combined with the skill and coordination of the unit, demonstrated the power and effectiveness of this formidable weapon system.</data>
+    </edge>
+    <edge id="e57" source="48" target="50">
+      <data key="d3">17.0</data>
+      <data key="d4">Battalion, 16th Infantry...</data>
+      <data key="d6">Charlie Company, 1st Battalion, 16th Infantry Regiment employed M2A3 Bradley infantry fighting vehicles during a recent military exercise. The Bradley IFVs were a key part of Charlie Company's force structure and played a crucial role in the exercise.
+
+The M2A3 Bradley is a heavily armored, tracked infantry fighting vehicle used by the United States Army. It is designed to transport infantry soldiers into battle and provide them with fire support. The Bradley is equipped with a 25mm automatic cannon, a 7.62mm machine gun, and can carry up to seven soldiers in addition to the three-person crew.
+
+During the exercise, Charlie Company utilized the capabilities of the M2A3 Bradley to great effect. The Bradley's firepower and armor protection allowed the infantry soldiers to advance and engage targets with confidence, while the vehicle's mobility enabled rapid maneuver and deployment. The combined arms approach of the infantry and their Bradley IFVs proved to be a formidable force on the battlefield.
+
+The descriptions provided indicate that the M2A3 Bradleys were an integral part of Charlie Company's operations during the exercise. The vehicles were employed effectively, leveraging their firepower, protection, and mobility to support the infantry soldiers and achieve the exercise objectives.
+
+Overall, the summary highlights the important role that the M2A3 Bradley IFVs played in the operations of Charlie Company, 1st Battalion, 16th Infantry Regiment during the recent military exercise. The vehicles' capabilities were utilized to their fullest extent, contributing to the overall success of the exercise.</data>
+    </edge>
+    <edge id="e58" source="51" target="3">
+      <data key="d3">1.0</data>
+      <data key="d4">conducted live-fire exercise...</data>
+      <data key="d6">The U.S. Army conducted the live-fire exercise at the Novo Selo Training Area in Bulgaria</data>
+    </edge>
+    <edge id="e59" source="3" target="52">
+      <data key="d3">10.0</data>
+      <data key="d4">conducted live-fire exercise...</data>
+      <data key="d6">The U.S. Army conducted a live-fire exercise at the Novo Selo Training Area in Bulgaria. The exercise involved the deployment of U.S. Army forces to the country to participate in the training event.
+
+The Novo Selo Training Area is located in Bulgaria, a country in Southeastern Europe. The U.S. Army utilized this training facility to carry out the live-fire exercise, which involved the participation of American military personnel.
+
+The purpose of the exercise was to provide U.S. Army forces with the opportunity to engage in realistic training and hone their combat skills. By deploying to Bulgaria, the U.S. Army was able to leverage the facilities and resources available at the Novo Selo Training Area to conduct the live-fire exercise.
+
+The exercise likely involved a range of activities, such as weapons firing, tactical maneuvers, and other combat-related training. The participation of U.S. Army forces in this exercise was part of the ongoing military cooperation and partnership between the United States and Bulgaria.
+
+Overall, the U.S. Army's live-fire exercise at the Novo Selo Training Area in Bulgaria was a significant event that allowed American forces to enhance their readiness and capabilities through realistic training in a foreign environment. The exercise demonstrated the strong military ties between the United States and Bulgaria, and the commitment of both countries to maintaining a strong defense and promoting regional stability.</data>
+    </edge>
+    <edge id="e60" source="49" target="50">
+      <data key="d3">8.0</data>
+      <data key="d4">Bradley fighting vehicles...</data>
+      <data key="d6">The Abrams tanks and Bradley fighting vehicles were integrated and coordinated during the combined arms exercise</data>
+    </edge>
+    <edge id="e61" source="17" target="47">
+      <data key="d3">9.0</data>
+      <data key="d4">Brigade Combat Team...</data>
+      <data key="d6">The 1st Armored Brigade Combat Team is part of the 1st Infantry Division</data>
+    </edge>
+    <edge id="e62" source="47" target="14">
+      <data key="d3">1.0</data>
+      <data key="d4">1st Infantry Division...</data>
+      <data key="d6">The exercise by the 1st Infantry Division was meant to reinforce NATO's eastern flank and deter potential adversaries</data>
+    </edge>
+    <edge id="e63" source="3" target="53">
+      <data key="d3">8.0</data>
+      <data key="d4">imagery Army...</data>
+      <data key="d6">The DVIDS released imagery of the U.S. Army exercise</data>
+    </edge>
+    <edge id="e64" source="54" target="3">
+      <data key="d3">18.0</data>
+      <data key="d4">uses caliber...</data>
+      <data key="d6">The U.S. Army uses the M2 .50 caliber machine gun for training and combat purposes</data>
+    </edge>
+    <edge id="e65" source="55" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">Army's use...</data>
+      <data key="d6">NewsBreak is reporting on the U.S. Army's use of the M2 .50 caliber machine gun during training</data>
+    </edge>
+    <edge id="e66" source="56" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">provided clear implications...</data>
+      <data key="d6">The Russo-Ukrainian War has provided clear implications for the U.S. Army's fires capabilities</data>
+    </edge>
+    <edge id="e67" source="57" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">Missile leap-ahead capability...</data>
+      <data key="d6">The Precision Strike Missile is a leap-ahead capability being fielded by the U.S. Army</data>
+    </edge>
+    <edge id="e68" source="3" target="58">
+      <data key="d3">1.0</data>
+      <data key="d4">not experienced same...</data>
+      <data key="d6">The PLA has not experienced the same delays in modernization as the U.S. Army due to budgetary dysfunction and continuing resolutions</data>
+    </edge>
+    <edge id="e69" source="3" target="64">
+      <data key="d3">8.0</data>
+      <data key="d4">key focus area...</data>
+      <data key="d6">Land-based fires capabilities are a key focus area for the U.S. Army's transformation</data>
+    </edge>
+    <edge id="e70" source="3" target="59">
+      <data key="d3">8.0</data>
+      <data key="d4">transforming fires capabilities...</data>
+      <data key="d6">The U.S. Army is transforming its fires capabilities to overmatch potential adversaries in large-scale combat operations</data>
+    </edge>
+    <edge id="e71" source="3" target="60">
+      <data key="d3">8.0</data>
+      <data key="d4">critical capability...</data>
+      <data key="d6">Long-range precision fires are a critical capability for the U.S. Army</data>
+    </edge>
+    <edge id="e72" source="3" target="61">
+      <data key="d3">8.0</data>
+      <data key="d4">defense key focus...</data>
+      <data key="d6">Air and missile defense is a key focus area for the U.S. Army's fires transformation</data>
+    </edge>
+    <edge id="e73" source="3" target="62">
+      <data key="d3">7.0</data>
+      <data key="d4">base struggling keep...</data>
+      <data key="d6">The defense industrial base is struggling to keep up with the U.S. Army's demand for new fires systems</data>
+    </edge>
+    <edge id="e74" source="3" target="63">
+      <data key="d3">1.0</data>
+      <data key="d4">delayed new program...</data>
+      <data key="d6">Continuing resolutions have delayed new program starts and modernization efforts for the U.S. Army</data>
+    </edge>
+    <edge id="e75" source="3" target="66">
+      <data key="d3">18.0</data>
+      <data key="d4">employs forward observers...</data>
+      <data key="d6">The U.S. Army employs forward observers with the designator of 13F, who are officially called "joint fire support specialists"</data>
+    </edge>
+    <edge id="e76" source="65" target="67">
+      <data key="d3">18.0</data>
+      <data key="d4">Corps employs forward...</data>
+      <data key="d6">The U.S. Marine Corps employs forward observers with the designator of 0861, who are officially called "fire support marines"</data>
+    </edge>
+    <edge id="e77" source="66" target="68">
+      <data key="d3">16.0</data>
+      <data key="d4">Army colloquially...</data>
+      <data key="d6">Forward observers in the U.S. Army are colloquially known as "FiSTers"</data>
+    </edge>
+    <edge id="e78" source="67" target="68">
+      <data key="d3">16.0</data>
+      <data key="d4">Marine Corps...</data>
+      <data key="d6">Forward observers in the U.S. Marine Corps are colloquially known as "FiSTers"</data>
+    </edge>
+    <edge id="e79" source="69" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">uses Abrams tank...</data>
+      <data key="d6">The U.S. Army uses the Abrams tank as a main battle tank in its ground forces.</data>
+    </edge>
+    <edge id="e80" source="70" target="3">
+      <data key="d3">8.0</data>
+      <data key="d4">uses M2A3 Bradley...</data>
+      <data key="d6">The U.S. Army uses the M2A3 Bradley Infantry Fighting Vehicle in combined arms operations with the Abrams tank.</data>
+    </edge>
+    <edge id="e81" source="1" target="3">
+      <data key="d3">1.0</data>
+      <data key="d4">uses AH-64 Apache...</data>
+      <data key="d6">The U.S. Army uses the AH-64 Apache attack helicopter for precision fire support and air-to-ground operations.</data>
+    </edge>
+    <edge id="e82" source="3" target="71">
+      <data key="d3">8.0</data>
+      <data key="d4">employs forward observers...</data>
+      <data key="d6">The U.S. Army employs forward observers to direct artillery, mortar, and air support onto targets.</data>
+    </edge>
+  </graph>
+</graphml>
