@@ -156,23 +156,47 @@
       container: container,
       elements:  data,
       style:     cyStyles(),
-      layout: {
-        name:              "fcose",
-        quality:           "default",
-        animate:            true,
-        animationDuration:  800,
-        animationEasing:   "ease-out",
-        fit:                true,
-        padding:            44,
-        nodeSeparation:     80,
-        idealEdgeLength:    85,
-        edgeElasticity:     0.45,
-        nodeRepulsion:      5500,
-        gravity:            0.25,
-        gravityRange:       3.8,
-        numIter:            2500,
-        randomize:          true,
-      },
+      layout: (function () {
+        var hasFcose = cytoscape && typeof cytoscape.prototype !== "undefined"
+          ? false  // check below
+          : false;
+        // Check if fcose is registered
+        try {
+          var testCy = cytoscape({ headless: true });
+          testCy.layout({ name: "fcose" });
+          hasFcose = true;
+        } catch (_) { hasFcose = false; }
+        if (hasFcose) {
+          return {
+            name:              "fcose",
+            quality:           "default",
+            animate:            true,
+            animationDuration:  800,
+            fit:                true,
+            padding:            44,
+            nodeSeparation:     80,
+            idealEdgeLength:    85,
+            edgeElasticity:     0.45,
+            nodeRepulsion:      5500,
+            gravity:            0.25,
+            gravityRange:       3.8,
+            numIter:            2500,
+            randomize:          true,
+          };
+        }
+        return {
+          name:             "cose",
+          animate:           true,
+          animationDuration: 800,
+          fit:               true,
+          padding:           44,
+          nodeRepulsion:     400000,
+          idealEdgeLength:   85,
+          gravity:           80,
+          numIter:           1000,
+          randomize:         true,
+        };
+      }()),
       wheelSensitivity: 0.22,
       minZoom: 0.06,
       maxZoom: 5,
@@ -321,6 +345,11 @@
   }
 
   function init() {
+    // Register fcose layout plugin if available
+    if (typeof cytoscapeFcose !== "undefined" && typeof cytoscape !== "undefined") {
+      try { cytoscape.use(cytoscapeFcose); } catch (_) { /* already registered */ }
+    }
+
     var placeholder = document.getElementById("graph-placeholder");
     if (!placeholder) return;
 
