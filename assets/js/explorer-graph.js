@@ -1,8 +1,9 @@
 (function () {
   "use strict";
 
-  var GRAPHML_URL = "assets/temp/interactive_graph_temp.graphml";
-  var META_URL    = "assets/temp/interactive_graph_meta.json";
+  var GRAPHML_URL   = "assets/temp/interactive_graph_temp.graphml";
+  var META_URL      = "assets/temp/interactive_graph_meta.json";
+  var COMMUNITY_DETAILS_URL = "assets/temp/community_details.json";
 
   // Notebook-exact community colour palette (index % 7)
   var COMMUNITY_COLORS = [
@@ -19,7 +20,7 @@
   // ── Module-level state ─────────────────────────────────────────────────────
   var _cy           = null;
   var _clusters     = null;
-  var _currentLayout = "circular";
+  var _currentLayout = "force";
   var _focusedComm  = null;
 
   // ── Helpers ────────────────────────────────────────────────────────────────
@@ -266,12 +267,13 @@
     });
   }
 
-  function toggleCommunityFocus(commKey) {
+  function toggleCommunityFocus(commKey, detailPanel, communityMeta, communityDetailsById) {
     if (!_cy) return;
     var legendEl = document.getElementById("graph-legend");
     if (_focusedComm === commKey) {
       _focusedComm = null;
       _cy.elements().removeClass("dimmed");
+      hideDetailPanel(detailPanel);
       if (legendEl) legendEl.querySelectorAll(".graph-legend-item").forEach(function (el) {
         el.classList.remove("is-focused");
       });
@@ -281,6 +283,7 @@
       if (legendEl) legendEl.querySelectorAll(".graph-legend-item").forEach(function (el) {
         el.classList.toggle("is-focused", el.dataset.commKey === commKey);
       });
+      showDetailPanel(detailPanel, communityDetailHTML(commKey, communityMeta, communityDetailsById));
     }
   }
 
@@ -344,6 +347,44 @@
         ? "<div class=\"gdp-section-label\">Relationship</div><div class=\"gdp-desc\">" + esc(fullDesc) + "</div>"
         : "")
     );
+  }
+
+  function communityDetailHTML(commKey, communityMeta, communityDetailsById) {
+    if (!commKey) return "<p class=\"gdp-muted\">Select a community from the legend.</p>";
+    if (commKey === "__none__") {
+      return "<div class=\"gdp-header\"><span class=\"gdp-name\">Other</span></div>" +
+             "<p class=\"gdp-muted\">Nodes not assigned to a community.</p>";
+    }
+    var meta = communityMeta && communityMeta[commKey];
+    var full = communityDetailsById && communityDetailsById[commKey];
+    var title = (full && full.title) || (meta && meta.title) || "Community " + commKey;
+    var html =
+      "<div class=\"gdp-header\">" +
+        "<span class=\"gdp-name\">" + esc(title) + "</span>" +
+      "</div>";
+    if (meta && meta.type) {
+      html += "<span class=\"gdp-badge\">" + esc(meta.type) + "</span>";
+    }
+    var summary = (full && full.summary) || (meta && meta.summary);
+    if (summary) {
+      var summaryHtml = esc(summary).replace(/\n\n/g, "</p><p class=\"gdp-para\">").replace(/\n/g, "<br>");
+      html += "<div class=\"gdp-section-label\">Summary</div><div class=\"gdp-desc gdp-desc-full\"><p class=\"gdp-para\">" + summaryHtml + "</p></div>";
+    }
+    var findings = (full && full.findings && full.findings.length) ? full.findings : (meta && meta.top_findings) || [];
+    if (findings.length > 0) {
+      html += "<div class=\"gdp-section-label\">Key findings</div>";
+      html += "<ul class=\"gdp-findings\">";
+      findings.slice(0, 8).forEach(function (f) {
+        var expl = (f.explanation || f.snippet || "").trim();
+        var sum  = (f.summary || "").trim();
+        html += "<li class=\"gdp-finding\">" +
+          (sum ? "<strong>" + esc(sum) + "</strong>" : "") +
+          (expl ? "<span class=\"gdp-finding-snippet\">" + esc(expl) + "</span>" : "") +
+          "</li>";
+      });
+      html += "</ul>";
+    }
+    return html;
   }
 
   // ── Detail panel show / hide ───────────────────────────────────────────────
@@ -415,6 +456,10 @@
     // Click on node → detail panel + dim neighbourhood
     cy.on("tap", "node", function (evt) {
       var node = evt.target;
+      _focusedComm = null;
+      document.querySelectorAll("#graph-legend .graph-legend-item.is-focused").forEach(function (el) {
+        el.classList.remove("is-focused");
+      });
       cy.elements().removeClass("dimmed").removeClass("edge-label");
       node.closedNeighborhood().edges().addClass("edge-label");
       cy.elements().difference(node.closedNeighborhood()).addClass("dimmed");
@@ -425,6 +470,10 @@
     // Click on edge → detail panel
     cy.on("tap", "edge", function (evt) {
       var edge = evt.target;
+      _focusedComm = null;
+      document.querySelectorAll("#graph-legend .graph-legend-item.is-focused").forEach(function (el) {
+        el.classList.remove("is-focused");
+      });
       cy.elements().removeClass("dimmed").removeClass("edge-label");
       edge.addClass("edge-label");
       tooltipEl.hidden = true;
@@ -467,9 +516,9 @@
       "<div class=\"graph-legend\" id=\"graph-legend\">" + buildLegendHTML(legendEntries) + "</div>" +
       "<div class=\"graph-header-right\">" +
         "<div class=\"graph-layout-group\" role=\"group\" aria-label=\"Layout\">" +
-          "<button type=\"button\" class=\"graph-layout-btn is-active\" data-layout=\"circular\">Circular</button>" +
+          "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"circular\">Circular</button>" +
           "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"radial\">Radial</button>" +
-          "<button type=\"button\" class=\"graph-layout-btn\" data-layout=\"force\">Force</button>" +
+          "<button type=\"button\" class=\"graph-layout-btn is-active\" data-layout=\"force\">Force</button>" +
         "</div>" +
         "<div class=\"graph-controls\">" +
           "<button type=\"button\" class=\"graph-btn\" id=\"graph-fit\"      title=\"Fit to view\">\u229e</button>" +
@@ -508,7 +557,7 @@
     return { cyDiv: cyDiv, tooltipEl: tooltipEl, detailPanel: detailPanel, loadingEl: loadingEl };
   }
 
-  function wireControls(ui) {
+  function wireControls(ui, communityMeta, communityDetailsById) {
     var fitBtn = document.getElementById("graph-fit");
     var ziBtn  = document.getElementById("graph-zoom-in");
     var zoBtn  = document.getElementById("graph-zoom-out");
@@ -525,12 +574,12 @@
       btn.addEventListener("click", function () { switchLayout(btn.dataset.layout); });
     });
 
-    // Legend click → community focus
+    // Legend click → community focus + show community context
     var legendEl = document.getElementById("graph-legend");
     if (legendEl) {
       legendEl.addEventListener("click", function (e) {
         var item = e.target.closest(".graph-legend-item");
-        if (item) toggleCommunityFocus(item.dataset.commKey);
+        if (item) toggleCommunityFocus(item.dataset.commKey, ui.detailPanel, communityMeta || {}, communityDetailsById || {});
       });
     }
   }
@@ -557,9 +606,15 @@
         return r.text();
       }),
       fetch(META_URL).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+      fetch(COMMUNITY_DETAILS_URL).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
     ])
     .then(function (results) {
       var communityMeta = (results[1] && results[1].communities) ? results[1].communities : {};
+      var communityDetailsList = (results[2] && results[2].communities) ? results[2].communities : [];
+      var communityDetailsById = {};
+      communityDetailsList.forEach(function (c) {
+        if (c.id !== undefined) communityDetailsById[String(c.id)] = c;
+      });
       var xml  = new DOMParser().parseFromString(results[0], "text/xml");
       var data = parseGraphML(xml, communityMeta);
       _clusters = data.clusters;
@@ -573,7 +628,7 @@
         container:           ui.cyDiv,
         elements:            { nodes: data.nodes, edges: data.edges },
         style:               cyStyles(),
-        layout:              buildLayout("circular", _clusters),
+        layout:              buildLayout("force", _clusters),
         wheelSensitivity:    0.22,
         minZoom:             0.05,
         maxZoom:             5,
@@ -588,7 +643,7 @@
         setTimeout(function () {
           if (ui.loadingEl.parentNode) ui.loadingEl.parentNode.removeChild(ui.loadingEl);
         }, 320);
-        wireControls(ui);
+        wireControls(ui, communityMeta, communityDetailsById);
       });
     })
     .catch(function (err) {

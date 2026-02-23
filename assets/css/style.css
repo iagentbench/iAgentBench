@@ -1041,6 +1041,16 @@ h2 {
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.55;
 }
+.gdp-desc-full {
+  max-height: 40em;
+  overflow-y: auto;
+}
+.gdp-para {
+  margin: 0 0 0.6rem;
+}
+.gdp-para:last-child {
+  margin-bottom: 0;
+}
 .gdp-neighbors {
   display: flex;
   flex-wrap: wrap;
@@ -1055,6 +1065,33 @@ h2 {
   padding: 0.12rem 0.4rem;
   color: var(--muted);
   word-break: break-word;
+}
+.gdp-muted {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0.5rem 0;
+}
+.gdp-findings {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+.gdp-finding {
+  font-size: 0.76rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+.gdp-finding strong {
+  display: block;
+  color: var(--muted-2);
+  margin-bottom: 0.15rem;
+}
+.gdp-finding-snippet {
+  display: block;
+  color: var(--muted);
+  font-size: 0.72rem;
+  margin-top: 0.1rem;
 }
 .detail-sources .list {
   margin-top: 0.35rem;
