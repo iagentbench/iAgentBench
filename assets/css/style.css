@@ -101,16 +101,48 @@ a {
   letter-spacing: -0.02em;
 }
 
-.brand-mark {
-  width: 14px;
-  height: 14px;
-  border-radius: 6px;
-  background: linear-gradient(135deg, var(--accent), #60a5fa);
-  box-shadow: 0 8px 25px rgba(124, 58, 237, 0.35);
-}
-
 .brand-text {
   font-size: 1rem;
+}
+
+/* "i" as first letter of iAgentBench: different font + subtle visual, reads as one word */
+.brand-i {
+  position: relative;
+  display: inline;
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #7dd3fc;
+  margin-right: 0.02em;
+  padding: 0 0.06em;
+  letter-spacing: -0.03em;
+}
+.brand-i::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.12em;
+  height: 1.12em;
+  border-radius: 50%;
+  background: rgba(56, 189, 248, 0.16);
+  z-index: -1;
+}
+.brand-i-sm {
+  padding: 0 0.04em;
+}
+.brand-i-sm::before {
+  width: 1.05em;
+  height: 1.05em;
+}
+.brand-i-hero {
+  padding: 0 0.08em;
+}
+.brand-i-hero::before {
+  width: 1.18em;
+  height: 1.18em;
+  background: rgba(56, 189, 248, 0.14);
 }
 
 .nav {
@@ -254,6 +286,19 @@ h1 {
   background: rgba(255, 255, 255, 0.04);
 }
 
+/* Explorer Demo CTA: same size/font, stands out with accent and subtle glow */
+.btn-explorer-demo {
+  border-color: rgba(56, 189, 248, 0.5);
+  background: rgba(56, 189, 248, 0.12);
+  color: #7dd3fc;
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.15);
+}
+.btn-explorer-demo:hover {
+  background: rgba(56, 189, 248, 0.2);
+  border-color: rgba(56, 189, 248, 0.65);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
 .is-disabled {
   opacity: 0.55;
   cursor: not-allowed;
@@ -262,7 +307,7 @@ h1 {
 
 .meta-row {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.75rem;
 }
 .meta {
@@ -319,6 +364,34 @@ h1 {
 }
 .hero-card-body {
   padding: 1.1rem 1rem 1.25rem;
+}
+
+/* Standalone full-width button below pipeline image */
+.hero-card-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.pipeline-demo-btn {
+  display: block;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.85rem 1.25rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: #e0f2fe;
+  background: linear-gradient(180deg, rgba(56, 189, 248, 0.22) 0%, rgba(56, 189, 248, 0.12) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+.pipeline-demo-btn:hover {
+  background: linear-gradient(180deg, rgba(56, 189, 248, 0.3) 0%, rgba(56, 189, 248, 0.18) 100%);
+  color: #fff;
+  box-shadow: 0 0 24px rgba(56, 189, 248, 0.25);
 }
 
 .skeleton-line {

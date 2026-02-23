@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
 
@@ -23,8 +23,7 @@
     <header class="site-header" id="top">
       <div class="container header-inner">
         <a class="brand" href="#top" aria-label="iAgentBench home">
-          <span class="brand-mark" aria-hidden="true"></span>
-          <span class="brand-text">iAgentBench</span>
+          <span class="brand-text"><span class="brand-i">i</span>AgentBench</span>
         </a>
 
         <nav class="nav" aria-label="Primary">
@@ -35,7 +34,6 @@
 
           <div class="nav-links" id="nav-links">
             <a class="nav-link" href="#links">Links</a>
-            <a class="nav-link" href="#benchmark">Benchmark</a>
             <a class="nav-link" href="#citation">Citation</a>
             <a class="nav-link" href="#contact">Contact</a>
           </div>
@@ -48,16 +46,16 @@
         <div class="container hero-inner">
           <div class="hero-copy">
             <p class="kicker">Dynamic Benchmarking for Information Seeking Agents</p>
-            <h1>iAgentBench</h1>
+            <h1><span class="brand-i brand-i-hero">i</span>AgentBench</h1>
             <p class="lead">
-              A Python repository for benchmarking Information Seeking Agents (ISA) with integrated indexing, evaluation, and output management.
+              A dynamic benchmark for cross-source sensemaking in information-seeking agents on high-traffic real-world topics.
             </p>
 
             <div class="cta-row">
               <a class="btn btn-primary is-disabled" href="#" aria-disabled="true">Paper (TBD)</a>
               <a class="btn btn-secondary" href="https://github.com/iagentbench/iAB" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a class="btn btn-ghost" href="https://huggingface.co/datasets/preetam7/iAgentBench" target="_blank" rel="noopener noreferrer">Dataset</a>
-              <a class="btn btn-ghost" href="explorer.html">Explorer Demo</a>
+              <a class="btn btn-ghost btn-explorer-demo" href="explorer.html">Explorer Demo</a>
             </div>
 
             <div class="meta-row" aria-label="Quick facts">
@@ -66,26 +64,22 @@
                 <div class="meta-value">Information Seeking</div>
               </div>
               <div class="meta">
-                <div class="meta-label">Framework</div>
-                <div class="meta-value">GraphRAG</div>
-              </div>
-              <div class="meta">
                 <div class="meta-label">License</div>
                 <div class="meta-value">MIT</div>
               </div>
             </div>
           </div>
 
-          <div class="hero-card" role="img" aria-label="iAgentBench Pipeline">
-            <div class="hero-card-top">
-              <span class="dot dot-red" aria-hidden="true"></span>
-              <span class="dot dot-yellow" aria-hidden="true"></span>
-              <span class="dot dot-green" aria-hidden="true"></span>
-              <span class="hero-card-title">Pipeline</span>
+          <div class="hero-card-wrap">
+            <div class="hero-card" role="img" aria-label="iAgentBench Pipeline">
+              <div class="hero-card-top">
+                <span class="hero-card-title">Overview of the <span class="brand-i brand-i-sm">i</span>AgentBench Pipeline</span>
+              </div>
+              <div class="hero-card-body" style="padding: 0;">
+                <img src="assets/img/SIGIR - IAB - Pipeline - v2.png" alt="iAgentBench Pipeline" style="width: 100%; height: auto; display: block;" />
+              </div>
             </div>
-            <div class="hero-card-body" style="padding: 0;">
-              <img src="assets/img/SIGIR - IAB - Pipeline - v2.png" alt="iAgentBench Pipeline" style="width: 100%; height: auto; display: block;" />
-            </div>
+            <a href="explorer.html" class="pipeline-demo-btn">Click Here to Explore!</a>
           </div>
         </div>
       </section>
@@ -118,22 +112,11 @@
         </div>
       </section>
 
-      <section class="section" id="benchmark">
-        <div class="container">
-          <div class="section-head">
-            <h2>Benchmark</h2>
-            <p class="section-subtitle">
-              Evaluate Information Seeking Agents using GraphRAG-based knowledge graphs and cross-community QA pairs.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section class="section" id="citation">
         <div class="container">
           <div class="section-head">
             <h2>Citation</h2>
-            <p class="section-subtitle">TBD: Replace with the final BibTeX.</p>
+            <p class="section-subtitle">To Be Updated</p>
           </div>
 
           <div class="card">
@@ -151,13 +134,14 @@
         <div class="container">
           <div class="section-head">
             <h2>Contact</h2>
-            <p class="section-subtitle">TBD: How should people reach you?</p>
+            <p class="section-subtitle">Get in touch.</p>
           </div>
 
           <div class="grid grid-2">
             <div class="card">
               <h3>Email</h3>
-              <p class="muted">TBD</p>
+              <p class="muted">Preetam Dammu</p>
+              <p><a href="mailto:preetams@uw.edu">preetams@uw.edu</a></p>
             </div>
             <div class="card">
               <h3>Issues</h3>
@@ -171,8 +155,8 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-left">
-          <span class="footer-brand">iAgentBench</span>
-          <span class="footer-muted">© <span id="year"></span> TBD</span>
+          <span class="footer-brand"><span class="brand-i brand-i-sm">i</span>AgentBench</span>
+          <span class="footer-muted">© <span id="year"></span></span>
         </div>
         <div class="footer-right">
           <a class="footer-link" href="#top">Back to top</a>
